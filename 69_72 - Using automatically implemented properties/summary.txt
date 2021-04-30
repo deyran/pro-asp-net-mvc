@@ -1,4 +1,6 @@
 >> USING AUTOMATICALLY IMPLEMENTED PROPERTIES
+    Create a class, in the Models folder of the LanguageFeattures, called Product.cs
+    
 >>>> Listing 4-3. Defining a property in the Product.cs file
 >>>> Listing 4-4. Consuming a Property in the HomeController.cs file
 >>>> Listing 4-5. Verbose property definitions in the Product.cs file
