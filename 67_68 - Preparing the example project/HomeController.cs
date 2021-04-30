@@ -8,8 +8,7 @@ namespace LanguageFeatures.Controllers
     {
         /*
         >> PREPARING THE EXAMPLE PROJECT
-        >>>> Adding the System.Net.Http assembly
-        >>>>>>>> Listing 4-1. The inicial content of the HomeControler.cs file (page 68)
+        >>>> Listing 4-1. The inicial content of the HomeControler.cs file (page 68)
         */
         public string Index()
         {
