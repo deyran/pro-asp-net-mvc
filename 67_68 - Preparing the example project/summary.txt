@@ -16,10 +16,5 @@
             2 - Select "Add View"
             3 - Type "Result" as the name
 
-
-    
-        
-        
-        
-
-    >>>> Adding the System.Net.Http assembly
+    >>>> Adding the System.Net.Http assembly (page 69)
+        In reference Manager ensure that the Assemblies section is selected on the left-hand side, check the System.Net.Http item
