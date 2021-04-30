@@ -11,6 +11,11 @@
                 3.4 - Set the name to "HomeController" and click ok to finish the process
 
     Listing 4-2. The contents of the Result.cshtml file
+        To display the results from actions methods
+            1 - Right-click the Index action method
+            2 - Select "Add View"
+            3 - Type "Result" as the name
+
 
     
         
