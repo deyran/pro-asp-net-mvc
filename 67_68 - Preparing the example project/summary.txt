@@ -1,1 +1,7 @@
 "[...] I describe the C# language features that a good MVC programmer needs to knows and that I use in examples throughout this book."
+
+>> PREPARING THE EXAMPLE PROJECT
+    Listing 4-1. The initial content of the HomeController.cs file
+    Listing 4-2. The contents of the Result.cshtml file
+
+    >>> Adding the System.Net.Http assembly
