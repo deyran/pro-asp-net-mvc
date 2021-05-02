@@ -4,6 +4,8 @@
 >>>> Listing 4-3. Defining a property in the Product.cs file
 >>>> Listing 4-4. Consuming a Property in the HomeController.cs file
 >>>> Listing 4-5. Verbose property definitions in the Product.cs file
+    Properties are all well and good, but they become tedious when you have a class that has a lot of properties
+
 >>>> Listing 4-6. Using automatically implemented properties in the Product.cs file
 >>>> Listing 4-7. Reverting from an automatic to a regular property in the Product.cs file
 
