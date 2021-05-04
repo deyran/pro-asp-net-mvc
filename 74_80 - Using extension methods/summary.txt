@@ -1,6 +1,7 @@
 >> USING EXTENSION METHODS - 74-80
+    Extension methods are a convenient way of adding methods to classes that you do not own and cannot modify directly
 
->>>> Listing 4-11
+>>>> Listing 4-11 - The shoppingCart class in the ShoppingCart.cs file
 >>>> Listing 4-12
 >>>> Listing 4-13
 
