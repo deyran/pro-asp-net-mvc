@@ -1,0 +1,14 @@
+>> USING EXTENSION METHODS - 74-80
+
+>>>> Listing 4-11
+>>>> Listing 4-12
+>>>> Listing 4-13
+
+>>>> Applying extension methods to an interface
+>>>>>>>> Listing 4-14
+>>>>>>>> Listing 4-15
+>>>>>>>> Listing 4-16
+
+>>>> Creating filtering extension methods
+>>>>>>>> Listing 4-17
+>>>>>>>> Listing 4-18
