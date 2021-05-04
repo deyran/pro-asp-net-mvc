@@ -16,5 +16,6 @@
 >>>>>>>> Listing 4-17
 >>>>>>>> Listing 4-18
 
+-----------------------------------------------------------------------------------
 >> USING EXTENSION METHODS - 74-80
 >>>> Listing 4-13 - Applying and extension method in the HomeController.cs file
