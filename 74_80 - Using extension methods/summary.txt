@@ -2,8 +2,10 @@
     Extension methods are a convenient way of adding methods to classes that you do not own and cannot modify directly
 
 >>>> Listing 4-11 - The shoppingCart class in the ShoppingCart.cs file
+    The this keyword in front of the first parameter marks TotalPrices as an extension method. The first parameter tells .NET which class the extension method can be applied to
+
 >>>> Listing 4-12 - Defining and extension method in the MyExtensionMethods.cs file
->>>> Listing 4-13
+>>>> Listing 4-13 - Applying and extension method in the HomeController.cs file
 
 >>>> Applying extension methods to an interface
 >>>>>>>> Listing 4-14
@@ -13,3 +15,6 @@
 >>>> Creating filtering extension methods
 >>>>>>>> Listing 4-17
 >>>>>>>> Listing 4-18
+
+>> USING EXTENSION METHODS - 74-80
+>>>> Listing 4-13 - Applying and extension method in the HomeController.cs file
