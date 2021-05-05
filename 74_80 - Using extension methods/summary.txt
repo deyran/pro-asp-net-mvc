@@ -9,7 +9,7 @@
 
 >>>> Applying extension methods to an interface
 >>>>>>>> Listing 4-14 - Implementing an interface in the ShoppingCart.cs file
->>>>>>>> Listing 4-15
+>>>>>>>> Listing 4-15 - An Extension method that works on an interface in the MyExtensionMethods.cs file
 >>>>>>>> Listing 4-16
 
 >>>> Creating filtering extension methods
@@ -19,4 +19,4 @@
 -----------------------------------------------------------------------------------
 >> USING EXTENSION METHODS -> 74-80
 >>>> Applying extension methods to an interface -> 76
->>>>>>>> Listing 4-14 - Implementing an interface in the ShoppingCart.cs file -> 76
+>>>>>>>> Listing 4-15 - An Extension method that works on an interface in the MyExtensionMethods.cs file -> 76
