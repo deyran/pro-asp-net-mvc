@@ -14,9 +14,9 @@
 
 >>>> Creating filtering extension methods
 >>>>>>>> Listing 4-17 - A filtering extension method in the MyExtensionMethods.cs file
->>>>>>>> Listing 4-18
+>>>>>>>> Listing 4-18 - Using the filtering extension method in the HomeController.cs file 
 
 -----------------------------------------------------------------------------------
 >> USING EXTENSION METHODS -> 74-80
 >>>> Creating filtering extension methods -> 79
->>>>>>>> Listing 4-17 - A filtering extension method in the MyExtensionMethods.cs file -> 79
+>>>>>>>> Listing 4-18 - Using the filtering extension method in the HomeController.cs file -> 79
