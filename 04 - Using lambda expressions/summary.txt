@@ -1,3 +1,0 @@
->> USING LAMBDA EXPRESSIONS -> 80
->>>> Listing 4-19. Using delegate in an extendion method in the MyExtensionMethods.cs file -> 80
->>>> Listing 4-20. Using the filtering extension method with a Func in the HomeController.cs file -> 81

@@ -1,0 +1,10 @@
+>> USING LAMBDA EXPRESSIONS -> 80-84
+>>>> Listing 4-19. Using delegate in an extendion method in the MyExtensionMethods.cs file -> 80
+>>>> Listing 4-20. Using the filtering extension method with a Func in the HomeController.cs file -> 81
+>>>> Listing 4-21. Using a lambda expression to replace a delegate definition in the HomeController.cs file -> 82
+>>>> Listing 4-22. A lambda expression without a Func in the HomeController.cs file -> 82
+>>>> Listing 4-23. Extending the filtering expressed by the lambda expression in the HomeController.cs file -> 83
+
+------------------------------------------------------------------------------------------------------------------
+>> USING LAMBDA EXPRESSIONS -> 80-84
+>>>> Listing 4-19. Using delegate in an extendion method in the MyExtensionMethods.cs file -> 80
