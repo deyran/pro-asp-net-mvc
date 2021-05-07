@@ -1,0 +1,11 @@
+>> USING AUTOMATIC TYPE INFERENCE -> 84
+>>>> Listing 4-24. Using type inference -> 84
+    ... 
+    myVariable = new Product { Name = "Kayak" };
+    string name = myVariable.Name; // legal
+    int count = myVariable.Count; // compiler error
+    ...
+
+    It is not that "myVariable" does not have a type. It is just that I am asking the compiler to
+    infer it from the code.
+

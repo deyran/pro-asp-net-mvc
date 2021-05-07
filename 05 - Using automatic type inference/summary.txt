@@ -1,9 +1,0 @@
-00 - Preparing the example project
-01 - Using automatically implemented properties
-02 - Using object and collection initializes
-03 - Using extension methods
-04 - Using lambda expressions
-05 - Using automatic type inference
-06 - Using anonymous tyes
-07 - Performing language integrated queries
-08 - Using async methods
