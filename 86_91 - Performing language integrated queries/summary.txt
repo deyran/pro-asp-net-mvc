@@ -12,4 +12,4 @@
 
 >> PERFORMING LANGUAGE INTEGRATED QUERIES -> 86-91
 >>>> UNDERSTANDING DEFERRED LINQ QUERIES -> 90
->>>>>>>> Listing 4-30. Using deferred LINQ extension methods in a query in the HomeController.cs file -> 90
+>>>>>>>> Listing 4-31. An immediately executed LINQ query in the in the HomeController.cs file -> 91
