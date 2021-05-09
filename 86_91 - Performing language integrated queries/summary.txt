@@ -11,4 +11,5 @@
 -------------------------------------------------------------------------------------------------------
 
 >> PERFORMING LANGUAGE INTEGRATED QUERIES -> 86-91
->>>> Listing 4-29. Using LINQ dot notation in the HomeController.cs file -> 88
+>>>> UNDERSTANDING DEFERRED LINQ QUERIES -> 90
+>>>>>>>> Listing 4-30. Using deferred LINQ extension methods in a query in the HomeController.cs file -> 90
