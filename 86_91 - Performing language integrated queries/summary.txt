@@ -3,7 +3,6 @@
 
 >>>> Listing 4-27. Querying without LINQ in the HomeController.cs file -> 86
 >>>> Listing 4-28. Using LINQ to query data in the HomeController.cs file -> 87
-
 >>>> Listing 4-29. Using LINQ dot notation in the HomeController.cs file -> 88
 
 >>>> UNDERSTANDING DEFERRED LINQ QUERIES -> 90
@@ -12,4 +11,4 @@
 -------------------------------------------------------------------------------------------------------
 
 >> PERFORMING LANGUAGE INTEGRATED QUERIES -> 86-91
->>>> Listing 4-28. Using LINQ to query data in the HomeController.cs file -> 87
+>>>> Listing 4-29. Using LINQ dot notation in the HomeController.cs file -> 88
