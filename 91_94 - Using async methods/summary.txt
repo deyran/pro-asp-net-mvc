@@ -1,0 +1,11 @@
+>> USING ASYNC METHODS -> 91-94
+    Asynchronous methods go off and do work in the background and notify you when they are complete, allowing your code to take care of other business while the background work is performed.
+    
+>>>> Listing 4-32. A simple asynchronous methods in the MyAsyncMethods.cs file - 91
+
+>>>> APPLYING THE ASYNC AND AWAIT KEYWORDS
+>>>>>>>> Listing 4-33. Using the async and await keywords in the MyAsyncMethods.cs file - 93
+-----------------------------------------------------------------------------------------------------------
+
+>> USING ASYNC METHODS -> 91-94
+>>>> Listing 4-32. A simple asynchronous methods in the MyAsyncMethods.cs file - 91
