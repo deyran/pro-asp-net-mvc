@@ -1,0 +1,17 @@
+>> USING ANONUMOUS TYPE -> 84
+>>>> Listing 4-25. Creating an Anonymous type -> 85
+
+... 
+var myAnonTypr = new
+{
+    Name = "MVC",
+    Category = "Pattern"
+};
+...
+
+>>>> Listing 4-26. Creating an array of anonymously typed object in the HomeController.cs file -> 85
+
+--------------------------------------------------------------------------------------------------------
+
+>> USING ANONUMOUS TYPE -> 84
+>>>> Listing 4-26. Creating an array of anonymously typed object in the HomeController.cs file -> 85

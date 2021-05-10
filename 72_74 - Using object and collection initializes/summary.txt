@@ -1,4 +1,0 @@
->> USING OBJECT AND COLLECTION INITIALIZES
->>>> Listing 4-8. Constructing and initializing an object with properties in the HomeController.cs file
->>>> Listing 4-9. Using the object Initializer feature in the HomeController.cs file
->>>> Listing 4-10. Initializing collections and arrays in the HomeController.cs file
