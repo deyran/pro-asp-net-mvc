@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\Deyvid\\pro-asp-net-mvc\\CHAPTER 4 - ESSENTIAL LANGUAGE FEATURES\\BB - IMPLEMENTATION\\LanguageFeature\\LanguageFeature.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}
