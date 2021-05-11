@@ -5,8 +5,8 @@ namespace LanguageFeature.Models
 {
 	/*
 	>> USING EXTENSION METHODS -> 74-80
-    >>>> Applying extension methods to an interface -> 76
-    >>>>>>>> Listing 4-15 - An Extension method that works on an interface in the MyExtensionMethods.cs file -> 76 
+	>>>> Creating filtering extension methods -> 79
+	>>>>>>>> Listing 4-17 - A filtering extension method in the MyExtensionMethods.cs file -> 79    
 	 */
 	public static class MyExtensionMethods
     {
@@ -19,6 +19,17 @@ namespace LanguageFeature.Models
 			}
 
 			return total;
+		}
+
+		public static IEnumerable<Product> FilterByCategory(this IEnumerable<Product> productEnum, string categoryParam)
+		{
+			foreach (Product prod in productEnum)
+			{
+				if (prod.Category == categoryParam)
+				{
+					yield return prod;
+				}
+			}
 		}
 	}
 }
