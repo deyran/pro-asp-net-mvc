@@ -7,8 +7,8 @@ namespace LanguageFeature.Controllers
 {
     /*
     >> USING EXTENSION METHODS -> 74-80
-    >>>> Applying extension methods to an interface -> 76
-    >>>>>>>> Listing 4-16 - Extension Methods applies to implementations of an interface in the HomeController.cs file -> 77
+    >>>> Creating filtering extension methods -> 79
+    >>>>>>>> Listing 4-18 - Using the filtering extension method in the HomeController.cs file -> 79
     */
 
     public class HomeController : Controller
@@ -110,6 +110,32 @@ namespace LanguageFeature.Controllers
                 (object)String.Format("Cart Total: {0}, Array Total: {1}", cartTotal, arrayTotal)
             );
 
+        }
+
+        public ViewResult UseFilterExtensionMethod()
+        {
+            IEnumerable<Product> products = new ShoppingCart
+            {
+                Products = new List<Product>
+                {
+                    new Product { Name = "Kayak", Category = "Watersports", Price = 275M },
+                    new Product { Name = "Lifejacket", Category = "Watersports", Price = 48.95M },
+                    new Product { Name = "Soccer ball", Category = "Soccer", Price = 19.50M },
+                    new Product { Name = "Coner flag", Category = "Soccer", Price = 34.95M }
+                }
+            };
+
+            decimal total = 0;
+            foreach (Product prod in products.FilterByCategory("Soccer"))
+            {
+                total += prod.Price;
+            }
+
+            return View
+            (
+                "Result",
+                (object)String.Format("Total: {0}", total)
+            );
         }
     }
 }

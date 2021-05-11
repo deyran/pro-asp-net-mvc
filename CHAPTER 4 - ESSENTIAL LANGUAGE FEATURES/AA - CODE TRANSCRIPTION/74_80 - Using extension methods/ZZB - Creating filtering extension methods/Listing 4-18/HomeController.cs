@@ -25,10 +25,10 @@ namespace LanguageFeatures.Controllers
             {
                 Products = new List<Product>
                 {
-                    new Product { Name = "Kayak", Category = "Watersports", Predicate = 275M },
-                    new Product { Name = "Lifejacket", Category = "Watersports", Predicate = 48.95M },
-                    new Product { Name = "Soccer ball", Category = "Soccer", Predicate = 19.50M },
-                    new Product { Name = "Coner flag", Category = "Soccer", Predicate = 34.95M }
+                    new Product { Name = "Kayak", Category = "Watersports", Price = 275M },
+                    new Product { Name = "Lifejacket", Category = "Watersports", Price = 48.95M },
+                    new Product { Name = "Soccer ball", Category = "Soccer", Price = 19.50M },
+                    new Product { Name = "Coner flag", Category = "Soccer", Price = 34.95M }
                 }
             };
 
