@@ -35,6 +35,5 @@ namespace LanguageFeature.Controllers
                 (object)String.Format("Category: {0}", myProduct.Category)
             );
         }
-
     }    
 }
