@@ -1,4 +1,5 @@
 ﻿using LanguageFeature.Models;
+using System.Collections.Generic;
 
 namespace LanguageFeature.Models
 {
@@ -9,7 +10,7 @@ namespace LanguageFeature.Models
 	 */
 	public static class MyExtensionMethods
     {
-		public static decimal TotalPrices(this IEnumerable<Product> productEnum)
+        public static decimal TotalPrices(this IEnumerable<Product> productEnum)
 		{
 			decimal total = 0;
 			foreach (Product prod in productEnum)

@@ -33,7 +33,7 @@ namespace LanguageFeatures.Controllers
             };
 
             // create and populate an array of Product objects
-            products[] productArray =
+            Product[] productArray =
             {
                 new Product { Name = "Kayk", Price = 275M },
                 new Product { Name = "Lifejacket", Price = 48.95M },

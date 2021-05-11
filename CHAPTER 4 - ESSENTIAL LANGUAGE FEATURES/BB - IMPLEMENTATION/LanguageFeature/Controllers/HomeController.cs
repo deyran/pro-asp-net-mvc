@@ -6,8 +6,9 @@ using LanguageFeature.Models;
 namespace LanguageFeature.Controllers
 {
     /*
-    >> USING EXTENSION METHODS - 74-80
-    >>>> Listing 4-13 - Applying and extension method in the HomeController.cs file    
+    >> USING EXTENSION METHODS -> 74-80
+    >>>> Applying extension methods to an interface -> 76
+    >>>>>>>> Listing 4-16 - Extension Methods applies to implementations of an interface in the HomeController.cs file -> 77
     */
 
     public class HomeController : Controller
@@ -75,6 +76,40 @@ namespace LanguageFeature.Controllers
                 "Result",
                 (object)String.Format("Total: {0:c}", cartTotal)
             );
+        }
+
+        public ViewResult UseExtensionEnumerable()
+        {
+            IEnumerable<Product> products = new ShoppingCart
+            {
+                Products = new List<Product>
+                {
+                    new Product { Name = "Kayk", Price = 275M },
+                    new Product { Name = "Lifejacket", Price = 48.95M },
+                    new Product { Name = "Soccer ball", Price = 19.50M },
+                    new Product { Name = "Corner flag", Price = 34.95M }
+                }
+            };
+
+            // create and populate an array of Product objects
+            Product[] productsArray =
+            {
+                new Product { Name = "Kayk", Price = 275M },
+                new Product { Name = "Lifejacket", Price = 48.95M },
+                new Product { Name = "Soccer ball", Price = 19.50M },
+                new Product { Name = "Corner flag", Price = 34.95M }
+            };
+
+            // get the total value of the products in the cart
+            decimal cartTotal = products.TotalPrices();
+            decimal arrayTotal = productsArray.TotalPrices();
+
+            return View
+            (
+                "Result",
+                (object)String.Format("Cart Total: {0}, Array Total: {1}", cartTotal, arrayTotal)
+            );
+
         }
     }
 }
