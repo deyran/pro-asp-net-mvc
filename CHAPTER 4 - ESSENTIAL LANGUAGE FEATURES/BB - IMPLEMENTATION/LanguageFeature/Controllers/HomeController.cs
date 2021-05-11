@@ -6,8 +6,8 @@ using LanguageFeature.Models;
 namespace LanguageFeature.Controllers
 {
     /*
-    >> USING OBJECT AND COLLECTION INITIALIZES
-    >>>> Listing 4-10. Initializing collections and arrays in the HomeController.cs file
+    >> USING EXTENSION METHODS - 74-80
+    >>>> Listing 4-13 - Applying and extension method in the HomeController.cs file    
     */
 
     public class HomeController : Controller
@@ -54,6 +54,27 @@ namespace LanguageFeature.Controllers
             return View("Result", (object)stringArray[1]);
         }
 
+        public ViewResult UseExtension()
+        {
+            ShoppingCart cart = new ShoppingCart
+            {
+                Products = new List<Product>
+                {
+                    new Product { Name = "Kayak", Price = 275M },
+                    new Product { Name = "Lifejacket", Price = 48.95M },
+                    new Product { Name = "Soccer ball", Price = 19.50M },
+                    new Product { Name = "Corner flag", Price = 34.95M }
+                }
+            };
 
+            // get the total value of the products in the cart
+            decimal cartTotal = cart.TotalPrices();
+
+            return View
+            (
+                "Result",
+                (object)String.Format("Total: {0:c}", cartTotal)
+            );
+        }
     }
 }

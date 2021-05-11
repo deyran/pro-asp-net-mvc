@@ -21,7 +21,7 @@ namespace LanguageFeature.Controllers
         public ViewResult UseExtension()
         {
             // create and populate ShoppingCard
-            ShoppingCart car = new ShoppingCart
+            ShoppingCart cart = new ShoppingCart
             {
                 Products = new List<Product>
                 {
