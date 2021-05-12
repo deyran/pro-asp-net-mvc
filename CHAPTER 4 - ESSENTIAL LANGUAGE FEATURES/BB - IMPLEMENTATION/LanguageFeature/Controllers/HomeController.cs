@@ -6,10 +6,9 @@ using LanguageFeature.Models;
 namespace LanguageFeature.Controllers
 {
     /*
-    >> USING EXTENSION METHODS -> 74-80
-    >>>> Creating filtering extension methods -> 79
-    >>>>>>>> Listing 4-18 - Using the filtering extension method in the HomeController.cs file -> 79
-    */
+    >> USING LAMBDA EXPRESSIONS -> 80-84
+    >>>> Listing 4-20. Using the filtering extension method with a Func in the HomeController.cs file -> 81    
+     */
 
     public class HomeController : Controller
     {
@@ -91,23 +90,22 @@ namespace LanguageFeature.Controllers
                 }
             };
 
-            // create and populate an array of Product objects
-            Product[] productsArray =
+            Func<Product, bool> categoryFilter = delegate (Product prod)
             {
-                new Product { Name = "Kayk", Price = 275M },
-                new Product { Name = "Lifejacket", Price = 48.95M },
-                new Product { Name = "Soccer ball", Price = 19.50M },
-                new Product { Name = "Corner flag", Price = 34.95M }
+                return prod.Category == "Soccer";
             };
 
-            // get the total value of the products in the cart
-            decimal cartTotal = products.TotalPrices();
-            decimal arrayTotal = productsArray.TotalPrices();
+            decimal total = 0;
+
+            foreach (Product prod in products.Filter(categoryFilter))
+            {
+                total += prod.Price;
+            }
 
             return View
             (
                 "Result",
-                (object)String.Format("Cart Total: {0}, Array Total: {1}", cartTotal, arrayTotal)
+                (object)String.Format("Total: {0}", total)
             );
 
         }
