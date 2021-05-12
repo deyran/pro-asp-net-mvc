@@ -1,13 +1,13 @@
-﻿using LanguageFeature.Models;
+﻿using System;
+using LanguageFeature.Models;
 using System.Collections.Generic;
 
 namespace LanguageFeature.Models
 {
 	/*
-	>> USING EXTENSION METHODS -> 74-80
-	>>>> Creating filtering extension methods -> 79
-	>>>>>>>> Listing 4-17 - A filtering extension method in the MyExtensionMethods.cs file -> 79    
-	 */
+	>> USING LAMBDA EXPRESSIONS -> 80-84
+	>>>> Listing 4-19. Using delegate in an extendion method in the MyExtensionMethods.cs file -> 80    
+	*/
 	public static class MyExtensionMethods
     {
         public static decimal TotalPrices(this IEnumerable<Product> productEnum)
@@ -26,6 +26,17 @@ namespace LanguageFeature.Models
 			foreach (Product prod in productEnum)
 			{
 				if (prod.Category == categoryParam)
+				{
+					yield return prod;
+				}
+			}
+		}
+
+        public static IEnumerable<Product> Filter(this IEnumerable<Product> productEnum, Func<Product, bool> selectorParam)
+		{ 
+			foreach(Product prod in productEnum)
+			{
+				if(selectorParam(prod))
 				{
 					yield return prod;
 				}
