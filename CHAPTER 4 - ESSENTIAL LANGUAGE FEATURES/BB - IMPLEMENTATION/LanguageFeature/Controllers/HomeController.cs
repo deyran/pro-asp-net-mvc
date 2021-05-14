@@ -177,7 +177,7 @@ namespace LanguageFeature.Controllers
             return View
             (
                 "Result",
-                (object)result.ToString()
+                (object)results.ToString()
             );
         }
 
