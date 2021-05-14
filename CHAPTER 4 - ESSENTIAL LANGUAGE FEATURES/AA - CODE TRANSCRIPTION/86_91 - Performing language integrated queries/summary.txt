@@ -2,7 +2,11 @@
     LINQ is a SQL-LIKE syntax for querying data in classes
 
 >>>> Listing 4-27. Querying without LINQ in the HomeController.cs file -> 86
+    With LINQ, I can significantly simplify the querying process, as you can see in Listing 4-28
+
 >>>> Listing 4-28. Using LINQ to query data in the HomeController.cs file -> 87
+    This style of LINQ is known as "query syntax" [...]. The wrinkle in this query is that it returns one anonymously typed object for every Product in the array that I used in the source query
+
 >>>> Listing 4-29. Using LINQ dot notation in the HomeController.cs file -> 88
 
 >>>> UNDERSTANDING DEFERRED LINQ QUERIES -> 90

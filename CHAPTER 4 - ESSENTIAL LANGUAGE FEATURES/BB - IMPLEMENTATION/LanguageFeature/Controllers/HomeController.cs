@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Linq;
 using System.Collections.Generic;
 using System.Text;
 using System.Web.Mvc;
@@ -8,7 +9,7 @@ namespace LanguageFeature.Controllers
 {
     /*
     >> PERFORMING LANGUAGE INTEGRATED QUERIES -> 86-91
-    >>>> Listing 4-27. Querying without LINQ in the HomeController.cs file -> 86    
+    >>>> Listing 4-28. Using LINQ to query data in the HomeController.cs file -> 87
      */
 
     public class HomeController : Controller
@@ -164,26 +165,20 @@ namespace LanguageFeature.Controllers
                 new Product { Name = "Corner flag", Category = "Soccer", Price = 34.95M}
             };
 
-            // define the array to hold the results
-            Product[] foundProducts = new Product[3];
-
-            // sort the contents of the array
-            Array.Sort
-            (
-                products, (item1, item2) =>
-                {
-                    return Comparer<decimal>.Default.Compare(item1.Price, item2.Price);
-                }
-            );
-
-            // get the first three items in the array as the results
-            Array.Copy(products, foundProducts, 3);
+            var foundProducts = from match in products
+                                orderby match.Price descending
+                                select new { match.Name, match.Price };
 
             // create the result
+            int count = 0;
             StringBuilder result = new StringBuilder();
-            foreach (Product p in foundProducts)
+            foreach (var p in foundProducts)
             {
                 result.AppendFormat("Price: {0}", p.Price);
+                if (++count == 3)
+                {
+                    break;
+                }
             }
 
             return View
