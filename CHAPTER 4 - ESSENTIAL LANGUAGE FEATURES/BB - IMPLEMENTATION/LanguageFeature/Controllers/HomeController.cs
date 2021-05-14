@@ -10,7 +10,7 @@ namespace LanguageFeature.Controllers
     /*
     >> PERFORMING LANGUAGE INTEGRATED QUERIES -> 86-91
     >>>> UNDERSTANDING DEFERRED LINQ QUERIES -> 90
-    >>>>>>>> Listing 4-30. Using deferred LINQ extension methods in a query in the HomeController.cs file -> 90
+    >>>>>>>> Listing 4-31. An immediately executed LINQ query in the in the HomeController.cs file -> 91
      */
 
     public class HomeController : Controller
@@ -170,13 +170,9 @@ namespace LanguageFeature.Controllers
                                 .Take(3)
                                 .Select(e => new { e.Name, e.Price });
 
-            products[2] = new Product { Name = "Stadium", Price = 79600M };
+            var results = products.Sum(e => e.Price);
 
-            StringBuilder result = new StringBuilder();
-            foreach (var p in foundProducts)
-            {
-                result.AppendFormat("Price: {0}", p.Price);
-            }
+            products[2] = new Product { Name = "Stadium", Price = 79500M };
 
             return View
             (
