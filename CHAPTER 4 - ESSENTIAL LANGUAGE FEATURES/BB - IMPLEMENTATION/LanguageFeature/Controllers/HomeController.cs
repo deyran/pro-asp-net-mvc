@@ -9,7 +9,8 @@ namespace LanguageFeature.Controllers
 {
     /*
     >> PERFORMING LANGUAGE INTEGRATED QUERIES -> 86-91
-    >>>> Listing 4-28. Using LINQ to query data in the HomeController.cs file -> 87
+    >>>> UNDERSTANDING DEFERRED LINQ QUERIES -> 90
+    >>>>>>>> Listing 4-30. Using deferred LINQ extension methods in a query in the HomeController.cs file -> 90
      */
 
     public class HomeController : Controller
@@ -168,6 +169,8 @@ namespace LanguageFeature.Controllers
             var foundProducts = products.OrderByDescending(e => e.Price)
                                 .Take(3)
                                 .Select(e => new { e.Name, e.Price });
+
+            products[2] = new Product { Name = "Stadium", Price = 79600M };
 
             StringBuilder result = new StringBuilder();
             foreach (var p in foundProducts)

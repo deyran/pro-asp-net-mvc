@@ -11,6 +11,8 @@
 
 >>>> UNDERSTANDING DEFERRED LINQ QUERIES -> 90
 >>>>>>>> Listing 4-30. Using deferred LINQ extension methods in a query in the HomeController.cs file -> 90
+    A query that contains only deferrd methods is not executed until the items in the result are enumerated, as demonstrade by Listing 4-30
+    
 >>>>>>>> Listing 4-31. An immediately executed LINQ query in the in the HomeController.cs file -> 91
 -------------------------------------------------------------------------------------------------------
 
