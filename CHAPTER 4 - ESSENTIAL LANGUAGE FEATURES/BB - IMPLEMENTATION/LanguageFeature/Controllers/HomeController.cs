@@ -1,13 +1,14 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Text;
 using System.Web.Mvc;
 using LanguageFeature.Models;
 
 namespace LanguageFeature.Controllers
 {
     /*
-    >> USING LAMBDA EXPRESSIONS -> 80-84
-    >>>> Listing 4-23. Extending the filtering expressed by the lambda expression in the HomeController.cs file -> 83
+    >> USING ANONUMOUS TYPE -> 84
+    >>>> Listing 4-26. Creating an array of anonymously typed object in the HomeController.cs file -> 85    
      */
 
     public class HomeController : Controller
@@ -130,5 +131,28 @@ namespace LanguageFeature.Controllers
                 (object)String.Format("Total: {0}", total)
             );
         }
+
+        public ViewResult CreateAnonArray()
+        {
+            var oddsAndEnds = new[]
+            {
+                new { Name = "MVC", Category = "Pattern" },
+                new { Name = "Hat", Category = "Clothing" },
+                new { Name = "Apple", Category = "Fruit" }
+            };
+
+            StringBuilder result = new StringBuilder();
+            foreach (var item in oddsAndEnds)
+            {
+                result.Append(item.Name).Append("");
+            }
+
+            return View
+            (
+                "Result",
+                (object)result.ToString()
+            );
+        }
+
     }
 }
