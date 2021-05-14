@@ -165,20 +165,14 @@ namespace LanguageFeature.Controllers
                 new Product { Name = "Corner flag", Category = "Soccer", Price = 34.95M}
             };
 
-            var foundProducts = from match in products
-                                orderby match.Price descending
-                                select new { match.Name, match.Price };
+            var foundProducts = products.OrderByDescending(e => e.Price)
+                                .Take(3)
+                                .Select(e => new { e.Name, e.Price });
 
-            // create the result
-            int count = 0;
             StringBuilder result = new StringBuilder();
             foreach (var p in foundProducts)
             {
                 result.AppendFormat("Price: {0}", p.Price);
-                if (++count == 3)
-                {
-                    break;
-                }
             }
 
             return View
