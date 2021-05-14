@@ -7,7 +7,7 @@ namespace LanguageFeature.Controllers
 {
     /*
     >> USING LAMBDA EXPRESSIONS -> 80-84
-    >>>> Listing 4-20. Using the filtering extension method with a Func in the HomeController.cs file -> 81    
+    >>>> Listing 4-21. Using a lambda expression to replace a delegate definition in the HomeController.cs
      */
 
     public class HomeController : Controller
@@ -90,10 +90,7 @@ namespace LanguageFeature.Controllers
                 }
             };
 
-            Func<Product, bool> categoryFilter = delegate (Product prod)
-            {
-                return prod.Category == "Soccer";
-            };
+            Func<Product, bool> categoryFilter = prod => prod.Category == "Soccer";
 
             decimal total = 0;
 
