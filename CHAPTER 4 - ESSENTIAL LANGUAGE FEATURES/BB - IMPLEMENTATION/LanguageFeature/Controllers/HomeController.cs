@@ -7,7 +7,7 @@ namespace LanguageFeature.Controllers
 {
     /*
     >> USING LAMBDA EXPRESSIONS -> 80-84
-    >>>> Listing 4-21. Using a lambda expression to replace a delegate definition in the HomeController.cs
+    >>>> Listing 4-22. A lambda expression without a Func in the HomeController.cs file -> 82
      */
 
     public class HomeController : Controller
@@ -90,11 +90,9 @@ namespace LanguageFeature.Controllers
                 }
             };
 
-            Func<Product, bool> categoryFilter = prod => prod.Category == "Soccer";
-
             decimal total = 0;
 
-            foreach (Product prod in products.Filter(categoryFilter))
+            foreach (Product prod in products.Filter(prod => prod.Category == "Soccer" || prod.Price > 20))
             {
                 total += prod.Price;
             }
