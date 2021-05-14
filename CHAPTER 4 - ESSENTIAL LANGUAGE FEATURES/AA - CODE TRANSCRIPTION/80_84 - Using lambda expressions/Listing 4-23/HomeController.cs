@@ -7,7 +7,7 @@ namespace LanguageFeatures.Controllers
 {
     /*
     >> USING LAMBDA EXPRESSIONS -> 80-84
-    >>>> Listing 4-22. A lambda expression without a Func in the HomeController.cs file -> 82    
+    >>>> Listing 4-23. A lambda expression without a Func in the HomeController.cs file -> 82    
     */
     public class HomeController : Controller
     {
