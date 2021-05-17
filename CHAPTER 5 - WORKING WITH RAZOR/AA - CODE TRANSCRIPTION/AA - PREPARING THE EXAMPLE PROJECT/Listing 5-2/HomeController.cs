@@ -17,7 +17,7 @@ namespace Razor.Controllers
             Description = "A boar for one person",
             Category = "Watersports",
             Price = 275M
-        };
+        };        
         public ActionResult Index()
         {
             return View(myProduct); 
