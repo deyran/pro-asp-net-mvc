@@ -3,10 +3,17 @@
 
 >>>> DEFINING THE MODEL -> 95
     Create a domain model called Product in the Models folder
-
 >>>>>>>> Listing 5-1. The contents of the Products.cs file -> 96
 
 >>>> DEFINING THE CONTROLLER -> 96
+    In the MVC Framework convention define a controller called "Home" as the initial stating point for the projects.
+
+    To create HomeController follows those steps:
+        1 - Right-click the "Controller" folder in the Solution Explorer
+        2 - Select Add>Controller
+        3 - Select "MVC 5 Controller-Empty", click "Add"
+        4 - Set the name to "HomeController.
+        5 - Click "Add" button    
 >>>>>>>> Listing 5-2. The content of the HomeController file -> 96
 
 >>>> CREATING THE VIEW -> 97
@@ -14,4 +21,4 @@
 ------------------------------------------------------------------------------------------------------
 >> PREPARING THE EXAMPLE PROJECT -> 95
 >>>> DEFINING THE MODEL -> 95
->>>>>>>> Listing 5-1. The contents of the Products.cs file -> 96
+>>>>>>>> Listing 5-2. The content of the HomeController file -> 96
