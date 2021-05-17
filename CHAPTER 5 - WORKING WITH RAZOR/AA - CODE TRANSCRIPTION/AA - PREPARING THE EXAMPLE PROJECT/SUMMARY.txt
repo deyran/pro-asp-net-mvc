@@ -1,0 +1,17 @@
+>> PREPARING THE EXAMPLE PROJECT -> 95
+    Create a new Visual Studio project called "Razor" using the ASP.NET MVC Web Application template, select the empty options and checked the box to get the initial configuration for an MVC project
+
+>>>> DEFINING THE MODEL -> 95
+    Create a domain model called Product in the Models folder
+
+>>>>>>>> Listing 5-1. The contents of the Products.cs file -> 96
+
+>>>> DEFINING THE CONTROLLER -> 96
+>>>>>>>> Listing 5-2. The content of the HomeController file -> 96
+
+>>>> CREATING THE VIEW -> 97
+>>>>>>>> Listing 5-3. The contents of the Index.cshtml file -> 97
+------------------------------------------------------------------------------------------------------
+>> PREPARING THE EXAMPLE PROJECT -> 95
+>>>> DEFINING THE MODEL -> 95
+>>>>>>>> Listing 5-1. The contents of the Products.cs file -> 96
