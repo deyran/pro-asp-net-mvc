@@ -1,4 +1,14 @@
 >> WORKINK WITH LAYOUTS
+    ...
+    @{    
+        Layout = null;
+    }
+    ...
+
+    > This Razor code block allows to include C# statemants in a view. 
+    > Razar views are compiled into C# class in an MVC application and the base class that is used defines the Layout property
+    > When the Layout property is set to null tells the MVC framework that the view is self-contained and will render all the content required for the client.
+
 >>>> CREATING THE LAYOUT
 >>>> APPLYING A LAYOUT
 >>>> USING A VIEW START FILE
