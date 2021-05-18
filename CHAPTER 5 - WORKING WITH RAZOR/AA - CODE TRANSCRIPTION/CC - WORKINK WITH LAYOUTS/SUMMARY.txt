@@ -39,6 +39,10 @@
 
     >>>>>>>> Listing 5-8. The contents of the _ViewStart.cshtml file
     >>>>>>>> Listing 5-9. Updating the index.cshtml file to reflect the use of a View Start file
+        >>>>>>>>>>>>>>>> Warning
+            1 - If your view is self-contained and do not want to use a layout, then set the Layout property to null.
+            2 - If you omit the Layout property, then the framework will use a layout, it will use the view start file
+
 
 >>>> DEMONSTRATING SHARED LAYOUTS
 ------------------------------------------------------------------------------------------------
