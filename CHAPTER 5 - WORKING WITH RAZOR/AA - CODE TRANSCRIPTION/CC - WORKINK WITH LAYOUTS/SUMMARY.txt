@@ -38,10 +38,11 @@
     > I can resolve this by using a View start file
 
     >>>>>>>> Listing 5-8. The contents of the _ViewStart.cshtml file
+    >>>>>>>> Listing 5-9. Updating the index.cshtml file to reflect the use of a View Start file
 
 >>>> DEMONSTRATING SHARED LAYOUTS
 ------------------------------------------------------------------------------------------------
 
 >> WORKINK WITH LAYOUTS -> 99
 >>>> USING A VIEW START FILE -> 102
->>>>>>>> Listing 5-8. The contents of the _ViewStart.cshtml file
+>>>>>>>> Listing 5-9. Updating the index.cshtml file to reflect the use of a View Start file
