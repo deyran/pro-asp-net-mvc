@@ -1,0 +1,14 @@
+@model Razor.Models.Product
+
+<!--
+>> WORKINK WITH LAYOUTS -> 99
+>>>> CREATING THE LAYOUT -> 100
+>>>>>>>> Listing 5-7. Using the Layout property in the Index.cshtml file -> 102    
+-->
+
+@{
+	ViewBag.Title = "Product Name";
+	Layout = "~/View/_BasicLayout.cshtml";
+}
+
+Product Name: @Model.Name

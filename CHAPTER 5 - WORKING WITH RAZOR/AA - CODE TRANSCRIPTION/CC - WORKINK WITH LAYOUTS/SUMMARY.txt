@@ -24,11 +24,15 @@
 
     >>>>>>>> Listing 5-6. Adding elements to the _BasicLayout.cshtml file -> 101
 
->>>> APPLYING A LAYOUT
+>>>> APPLYING A LAYOUT -> 102
+    To apply the layout to the view, I just need to set the value of the Layout property.
+
+    >>>>>>>> Listing 5-7. Using the Layout property in the Index.cshtml file -> 102
+
 >>>> USING A VIEW START FILE
 >>>> DEMONSTRATING SHARED LAYOUTS
 ------------------------------------------------------------------------------------------------
 
 >> WORKINK WITH LAYOUTS -> 99
 >>>> CREATING THE LAYOUT -> 100
->>>>>>>> Listing 5-6. Adding elements to the _BasicLayout.cshtml file -> 101
+>>>>>>>> Listing 5-7. Using the Layout property in the Index.cshtml file -> 102
