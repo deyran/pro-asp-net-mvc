@@ -28,11 +28,20 @@
     To apply the layout to the view, I just need to set the value of the Layout property.
 
     >>>>>>>> Listing 5-7. Using the Layout property in the Index.cshtml file -> 102
+        "The layout view allows you to define a commom site template, which can be inherited in multiple views to provide a consistent look and feel in multiple pages of an application. The layout view elimiantes duplicate coding and enhances developement speed and easy maintenance [...] "
+        
+        DATA: 18-05-21 
+        FONT: https://www.tutorialsteacher.com/mvc/layout-view-in-asp.net-mvc
 
->>>> USING A VIEW START FILE
+>>>> USING A VIEW START FILE -> 102
+    > There is a big problem to be solved, for each view that I want to specify the layout file. If I need to rename the layout file, I must to find all the view files that refer to it.
+    > I can resolve this by using a View start file
+
+    >>>>>>>> Listing 5-8. The contents of the _ViewStart.cshtml file
+
 >>>> DEMONSTRATING SHARED LAYOUTS
 ------------------------------------------------------------------------------------------------
 
 >> WORKINK WITH LAYOUTS -> 99
->>>> CREATING THE LAYOUT -> 100
->>>>>>>> Listing 5-7. Using the Layout property in the Index.cshtml file -> 102
+>>>> USING A VIEW START FILE -> 102
+>>>>>>>> Listing 5-8. The contents of the _ViewStart.cshtml file
