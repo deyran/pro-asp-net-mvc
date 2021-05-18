@@ -19,6 +19,10 @@
     #NOTE -> File in the Views folder whose names begin with an underscore (_) are not returned to the user, which allows the file name to differente between views that you want to render and the files that support them. Layouts, which are support files, are prefixed with an underscore.
 
     >>>>>>>> Listing 5-5. The initial contents of the _BasicLayout.cshtml file -> 101
+        > The call to the @RenderBody method inserts the contents of the view specified by the action method into layout markup
+        > The elements in the layout will be applied to any view that uses the layout and this is why layouts are essentially templates
+
+    >>>>>>>> Listing 5-6. Adding elements to the _BasicLayout.cshtml file -> 101
 
 >>>> APPLYING A LAYOUT
 >>>> USING A VIEW START FILE
@@ -27,4 +31,4 @@
 
 >> WORKINK WITH LAYOUTS -> 99
 >>>> CREATING THE LAYOUT -> 100
->>>>>>>> Listing 5-5. The initial contents of the _BasicLayout.cshtml file -> 101
+>>>>>>>> Listing 5-6. Adding elements to the _BasicLayout.cshtml file -> 101
