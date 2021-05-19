@@ -1,4 +1,16 @@
 >> USING RAZOR EXPRESSIONS -> 107
+    -> The role played by the Action Method and the View
+        1 - Action Method
+            Does do -> Pass view model object to the View.
+            Doesn't do -> Pass formatted data to the View.
+
+        2 - View 
+            Does do -> Use the view model object to present content to the user
+            Doesn't do -> Change any aspect of the view model object
+
+    -> You should not use Razor to perform business logic or manipulate your domain model in any way.
+    -> Processing data is the responsibilty of the controller, which will call on the model to get and modify the data it requires
+
 >>>> INSERTING DATA VALUES -> 107
 >>>>>>>> Listing 5-13. The DemoExpression action method in the HomeController.cs file -> 107
 >>>>>>>> Listing 5-14. The The content of the DemoExpression.cshtml -> 109
@@ -20,3 +32,7 @@
 >>>> DEALING WITH NAMESPACES -> 117
 >>>>>>>> Listing 5-20. Appllying the @using expression in the DemoArray.cshtml file -> 117
 ----------------------------------------------------------------------------------------------------------------------
+
+>> USING RAZOR EXPRESSIONS -> 107
+>>>> INSERTING DATA VALUES -> 107
+>>>>>>>> Listing 5-13. The DemoExpression action method in the HomeController.cs file -> 107
