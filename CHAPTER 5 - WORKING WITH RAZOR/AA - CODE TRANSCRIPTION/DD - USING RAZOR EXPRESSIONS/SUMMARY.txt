@@ -30,9 +30,9 @@
 >>>>>>>> Figure 5-13. Generating elements using a foreach statemant -> 117
 
 >>>> DEALING WITH NAMESPACES -> 117
->>>>>>>> Listing 5-20. Appllying the @using expression in the DemoArray.cshtml file -> 117
+>>>>>>>> Listing 5-20. Applying the @using expression in the DemoArray.cshtml file -> 117
 ----------------------------------------------------------------------------------------------------------------------
 
 >> USING RAZOR EXPRESSIONS -> 107
 >>>> INSERTING DATA VALUES -> 107
->>>>>>>> Listing 5-13. The DemoExpression action method in the HomeController.cs file -> 107
+>>>>>>>> Listing 5-14. The The content of the DemoExpression.cshtml -> 109

@@ -1,0 +1,21 @@
+@model Razor.Models.Product
+
+@{
+    /*
+    >> USING RAZOR EXPRESSIONS -> 107
+    >>>> INSERTING DATA VALUES -> 107
+    >>>>>>>> Listing 5-14. The The content of the DemoExpression.cshtml -> 109
+    */
+    ViewBag.Title = "DemoExpression";
+}
+
+<table>
+    <thead>
+        <tr><th>Property</th><th>Value</th></tr>
+    </thead>
+    <Tbody>
+        <tr><td>Name</td><td>@Model.Name</td></tr>
+        <tr><td>Price</td><td>@Model.Price</td></tr>
+        <tr><td>Stock Level</td><td>@Model.ProductCount</td></tr>
+    </Tbody>
+</table>
