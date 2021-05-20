@@ -30,9 +30,11 @@
 >>>>>>>> Figure 5-12. Using a switch statement in a Razor view -> 114
 
 >>>>>>>> Listing 5-17. Using an if statement in a Razor view in the DemoExpression.cshtml file -> 114
-
+    
 >>>> ENUMERATING ARRAYS AND COLLECTIONS -> 115
 >>>>>>>> Listing 5-18. The DemoArray action method in the HomeController file -> 115
+    [...] The Visual Studio scaffold feature won't let you specify an array as a model type. [...] the best approach is to create a view without a model and then manually add @model expression after the file has benn created. See Listing 5-19
+
 >>>>>>>> Listing 5-19. The contents of the DemoArray.cshtml file -> 116
 >>>>>>>> Figure 5-13. Generating elements using a foreach statemant -> 117
 
@@ -42,4 +44,4 @@
 
 >> USING RAZOR EXPRESSIONS -> 107
 >>>> INSERTING DATA VALUES -> 107
->>>>>>>> Listing 5-18. The DemoArray action method in the HomeController file -> 115
+>>>>>>>> Listing 5-19. The contents of the DemoArray.cshtml file -> 116
