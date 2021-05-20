@@ -42,4 +42,4 @@
 
 >> USING RAZOR EXPRESSIONS -> 107
 >>>> INSERTING DATA VALUES -> 107
->>>>>>>> Listing 5-17. Using an if statement in a Razor view in the DemoExpression.cshtml file -> 114
+>>>>>>>> Listing 5-18. The DemoArray action method in the HomeController file -> 115
