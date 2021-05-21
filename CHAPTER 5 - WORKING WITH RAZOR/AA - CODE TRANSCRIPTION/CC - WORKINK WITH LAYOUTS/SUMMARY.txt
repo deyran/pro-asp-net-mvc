@@ -68,5 +68,5 @@
 ------------------------------------------------------------------------------------------------
 
 >> WORKINK WITH LAYOUTS -> 99
->>>> APPLYING A LAYOUT -> 102
->>>>>>>> Listing 5-7. Using the Layout property in the Index.cshtml file -> 102
+>>>> DEMONSTRATING SHARED LAYOUTS -> 103
+>>>>>>>> Listing 5-10. Adding a new action method to the HomeController.cs file -> 103
