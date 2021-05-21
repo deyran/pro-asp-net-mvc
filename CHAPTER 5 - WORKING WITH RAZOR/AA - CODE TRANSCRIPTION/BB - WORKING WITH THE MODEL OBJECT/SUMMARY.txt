@@ -6,6 +6,7 @@
     The @model statement declares the type of the model object that will pass to the view from the action method. This allows to refer to the method, fields, and properties of the view model object through @Model
 
 >>>> Listing 5-4 Referring to a View Model Object property in the Index.cshtml file - 98
+>>>> Figure 5-1. The effect of reading a property value in the view
 -----------------------------------------------------------------------------------------------------------
 
 >> WORKING WITH THE MODEL OBJECT -> 97
