@@ -39,6 +39,8 @@
     > I can resolve this by using a View start file
 
     >>>>>>>> Listing 5-8. The contents of the _ViewStart.cshtml file
+	    To create a view start file, add a new layout file to the View folder and set the name of the file to _ViewStart.cshtml
+        
     >>>>>>>> Listing 5-9. Updating the index.cshtml file to reflect the use of a View Start file
         >>>>>>>>>>>>>>>> Warning
             1 - If your view is self-contained and do not want to use a layout, then set the Layout property to null.
