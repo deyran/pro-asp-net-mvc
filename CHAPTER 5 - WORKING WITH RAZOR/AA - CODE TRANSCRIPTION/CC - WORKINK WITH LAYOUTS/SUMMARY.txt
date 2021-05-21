@@ -12,7 +12,7 @@
 >>>> CREATING THE LAYOUT -> 100
     1 - Right-click on the View folder;
     2 - Add -> New Item
-    3 - Select MVC 5 Layout Page (Razor) template
+    3 - Select (template) -> MVC 5 Layout Page (Razor)
     4 - Set the name -> "_BasicLayout.cshtml"
     5 - Click the "Add" button
 
@@ -65,5 +65,5 @@
 ------------------------------------------------------------------------------------------------
 
 >> WORKINK WITH LAYOUTS -> 99
->>>> DEMONSTRATING SHARED LAYOUTS -> 103
->>>>>>>> Listing 5-12. Adding to the NameAndPrice.cshtml file -> 106
+>>>> CREATING THE LAYOUT -> 100
+>>>>>>>> Listing 5-5. The initial contents of the _BasicLayout.cshtml file -> 101
