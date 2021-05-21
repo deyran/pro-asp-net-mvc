@@ -14,13 +14,10 @@
     >>>>>>>> Listing 5-7. Using the Layout property in the Index.cshtml file -> 102
 
     */
-    Layout = null;
+    ViewBag.Title = "Index";
+    Layout = "~/Views/_BasicLayout.cshtml";
 }
 
 
-@{
-    ViewBag.Title = "Product Name";
-    Layout = "~/View/_BasicLayout.cshtml";
-}
 
 Product Name: @Model.Name

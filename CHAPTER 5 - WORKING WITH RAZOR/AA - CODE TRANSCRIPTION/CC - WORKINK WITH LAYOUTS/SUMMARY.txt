@@ -32,6 +32,7 @@
         
         DATA: 18-05-21 
         FONT: https://www.tutorialsteacher.com/mvc/layout-view-in-asp.net-mvc
+    >>>>>>>> Figure 5-5. The effect of applying a simle layout to a View        
 
 >>>> USING A VIEW START FILE -> 102
     > There is a big problem to be solved, for each view that I want to specify the layout file. If I need to rename the layout file, I must to find all the view files that refer to it.
