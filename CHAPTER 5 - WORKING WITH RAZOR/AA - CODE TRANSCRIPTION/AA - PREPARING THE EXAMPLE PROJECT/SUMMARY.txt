@@ -29,4 +29,4 @@
 ------------------------------------------------------------------------------------------------------
 >> PREPARING THE EXAMPLE PROJECT -> 95
 >>>> DEFINING THE MODEL -> 95
->>>>>>>> Listing 5-1. The contents of the Products.cs file -> 96
+>>>>>>>> Listing 5-2. The content of the HomeController file -> 96
