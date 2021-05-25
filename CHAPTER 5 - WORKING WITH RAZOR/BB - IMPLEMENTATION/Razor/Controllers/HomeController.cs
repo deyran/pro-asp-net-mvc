@@ -11,11 +11,15 @@ namespace Razor.Controllers
     >> WORKINK WITH LAYOUTS -> 99
     >>>> DEMONSTRATING SHARED LAYOUTS -> 103
     >>>>>>>> Listing 5-10. Adding a new action method to the HomeController.cs file -> 103
+
+    >> USING RAZOR EXPRESSIONS -> 107
+    >>>> INSERTING DATA VALUES -> 107
+    >>>>>>>> Listing 5-13. The DemoExpression action method in the HomeController.cs file -> 107
     */
     public class HomeController : Controller
     {
-        Product myProduct = new Product 
-        { 
+        Product myProduct = new Product
+        {
             ProductID = 1,
             Name = "Kayak",
             Description = "A boat for one person",
@@ -31,6 +35,16 @@ namespace Razor.Controllers
 
         public ActionResult NameAndPrice()
         {
+            return View(myProduct);
+        }
+        
+        public ActionResult DemoExpression()
+        {
+            ViewBag.ProductCount = 1;
+            ViewBag.ExpressShip = true;
+            ViewBag.ApplyDicount = false;
+            ViewBag.Supplier = null;
+
             return View(myProduct);
         }
     }
