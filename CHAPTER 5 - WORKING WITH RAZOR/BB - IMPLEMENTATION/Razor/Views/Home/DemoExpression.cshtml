@@ -1,11 +1,15 @@
-@model Razor.Models.Product
+﻿@model Razor.Models.Product
 
 @{
     /*
     >> USING RAZOR EXPRESSIONS -> 107
     >>>> INSERTING DATA VALUES -> 107
+    >>>>>>>> Listing 5-14. The The content of the DemoExpression.cshtml -> 109
+
+    >>>> SETTING ATTRIBUTES VALUES -> 110
     >>>>>>>> Listing 5-15. Using a Razor expression to set an attibute value in the DemoExpression.cshtml file -> 110
     */
+
     ViewBag.Title = "DemoExpression";
     Layout = "~/Views/_BasicLayout.cshtml";
 }
@@ -17,15 +21,18 @@
     <Tbody>
         <tr><td>Name</td><td>@Model.Name</td></tr>
         <tr><td>Price</td><td>@Model.Price</td></tr>
-        <tr><td>Stock Level</td><td>@Model.ProductCount</td></tr>
+        <tr><td>Stock Level</td><td>@ViewBag.ProductCount</td></tr>
     </Tbody>
 </table>
 
 <div data-discount="@ViewBag.ApplyDiscount" data-express="@ViewBag.ExpressShip" data-supplier="
-	data-supplier="@ViewBag.Supplier">
-	The containing element has data attributes
+     data-supplier="@ViewBag.Supplier">
+    The containing element has data attributes
 </div>
 
-Discount:<input type="checkbox" checked="@ViewBag.ApplyDiscount" />
-Express:<input type="checkbox" checked="@ViewBag.ExpressShip" />
-Supplier:<input type="checkbox" checked="@ViewBag.Supplier" />
+Discount:
+<input type="checkbox" checked="@ViewBag.ApplyDiscount" />
+Express:
+<input type="checkbox" checked="@ViewBag.ExpressShip" />
+Supplier:
+<input type="checkbox" checked="@ViewBag.Supplier" />
