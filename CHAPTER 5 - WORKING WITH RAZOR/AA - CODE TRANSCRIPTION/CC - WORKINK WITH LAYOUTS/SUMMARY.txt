@@ -59,14 +59,15 @@
             4 - View opions -> Use a layout page
                 4.1 - If you click "Ok" without fill text box, the view would be created without value for the Layout property
             5 - Click on the button with an ellipse label (...)
-
     >>>>>>>> Figure 5-7. Selecting the layout file -> 104
     >>>>>>>> Figure 5-8. Specifying a layout file when creating a view -> 104
+
     >>>>>>>> Listing 5-11. The contents of the NameAndPrice.cshtml file -> 105
     >>>>>>>> Listing 5-12. Adding to the NameAndPrice.cshtml file -> 106
+
     >>>>>>>> Figure 5-8. The content in the layout file applied to the NameAndPrice view -> 106
 ------------------------------------------------------------------------------------------------
 
 >> WORKINK WITH LAYOUTS -> 99
 >>>> DEMONSTRATING SHARED LAYOUTS -> 103
->>>>>>>> Listing 5-10. Adding a new action method to the HomeController.cs file -> 103
+>>>>>>>> Listing 5-12. Adding to the NameAndPrice.cshtml file -> 106
