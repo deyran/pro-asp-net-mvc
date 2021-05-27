@@ -1,0 +1,14 @@
+AA PREPEARING THE EXAMPLE PROJECT -> 119
+AAAA CREATING THE MODEL CLASS -> 120
+    >> Listing 6-1. The content of the Product.cs file -> 120
+    >> Listing 6-2. The contents of the LinqValueCalculators.cs file -> 121
+    >> Listing 6-3. The contents of the ShoppingCart file -> 121
+
+AABB ADDING THE CONTROLLER -> 121
+    >> Listing 6-4. The contents of the HomeController.cs file -> 122
+
+AACC ADDING THE VIEW -> 122
+    >> Listing 6-5. The contents of the index.cshtml file -> 122
+
+----------------------------------------------------------------------------------
+AA PREPEARING THE EXAMPLE PROJECT -> 119

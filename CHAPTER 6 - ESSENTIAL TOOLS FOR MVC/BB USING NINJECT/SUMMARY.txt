@@ -1,0 +1,30 @@
+BB USING NINJECT -> 123
+BBAA UNDERSTANDING THE PROBLEM -> 123
+    >> APPLYING AN INTERFACE -> 123
+    >>>> Listing 6-6. The contents of the IValueCalculator.cs file -> 123
+    >>>> Listing 6-7. Applying an interface in the LinqValueCalculator.cs file -> 124
+    >>>> Listing 6-8. Applying the interface in the ShoppingCart.cs -> 124
+    >>>> Listing 6-9. Applying the interface to the HomeController.cs -> 124
+
+BBBB ADDING NINJECT TO THE VISUAL STUDIO PROJECT -> 125
+BBCC GETTING STARTED WITH NINJECT -> 125
+    >> Listing 6-10. Adding the basic Ninject functionality to the index action method in the HomeController.cs file -> 125
+
+BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
+    >> CREATING THE DEPENDENCY RESOLVER -> 127
+    >>>> Listing 6-11. The content of the NinjectDependencyResolver.cs file -> 127
+
+    >> REGISTER THE DEPENDECY RESOLVER -> 128
+    >>>> Listing 6-12. Registering the Resolver in the NinjectWebCommom.cs file -> 128
+
+    >> REFACTORING THE HOME CONTROLLER -> 128
+    >>>> Listing 6-13. Refactoring the controller in the HomeController.cs file -> 128
+    >>>> Figure 6-2. The effect of running the example app
+
+BBEE CREATING CHAINS OF DEPENDENCY -> 130
+BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES
+BBGG USING CONDITIONAL BINDING
+BBHH SETTING THE OBJECT SCOPE
+------------------------------------------------------------------------------
+
+BB USING NINJECT -> 123
