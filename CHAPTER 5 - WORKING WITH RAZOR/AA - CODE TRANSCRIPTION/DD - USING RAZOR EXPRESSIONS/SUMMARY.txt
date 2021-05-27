@@ -43,5 +43,5 @@
 ----------------------------------------------------------------------------------------------------------------------
 
 >> USING RAZOR EXPRESSIONS -> 107
->>>> USING CONDITIONAL STATMENTS
->>>>>>>> Listing 5-17. Using an if statement in a Razor view in the DemoExpression.cshtml file -> 114
+>>>> ENUMERATING ARRAYS AND COLLECTIONS -> 115
+>>>>>>>> Listing 5-19. The contents of the DemoArray.cshtml file -> 116
