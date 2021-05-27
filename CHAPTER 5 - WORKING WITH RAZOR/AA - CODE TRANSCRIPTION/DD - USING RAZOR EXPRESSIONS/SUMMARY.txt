@@ -39,9 +39,9 @@
 
 >>>> DEALING WITH NAMESPACES -> 117
 >>>>>>>> Listing 5-20. Applying the @using expression in the DemoArray.cshtml file -> 117
-    The @using expression could be used to bring a namespace into context for a view, just like in regular #C class
+    The @using expression could be used to bring a namespace into context for a view, just like in regular C# class
 ----------------------------------------------------------------------------------------------------------------------
 
 >> USING RAZOR EXPRESSIONS -> 107
->>>> ENUMERATING ARRAYS AND COLLECTIONS -> 115
->>>>>>>> Listing 5-19. The contents of the DemoArray.cshtml file -> 116
+>>>> DEALING WITH NAMESPACES -> 117
+>>>>>>>> Listing 5-20. Applying the @using expression in the DemoArray.cshtml file -> 117

@@ -1,10 +1,16 @@
-﻿@model Razor.Models.Product[]
+﻿@using Razor.Models
+@model Product[]
 
 @{
     /*
     >> USING RAZOR EXPRESSIONS -> 107
+
     >>>> ENUMERATING ARRAYS AND COLLECTIONS -> 115
     >>>>>>>> Listing 5-19. The contents of the DemoArray.cshtml file -> 116
+    ----------------------------------------------------------------------------------------
+
+    >>>> DEALING WITH NAMESPACES -> 117
+    >>>>>>>> Listing 5-20. Applying the @using expression in the DemoArray.cshtml file -> 117
     */
 
     ViewBag.Title = "DemoArray";
@@ -16,7 +22,7 @@
     <table>
         <thead><tr><th>Product</th><th>Price</th></tr></thead>
         <tbody>
-            @foreach (Razor.Models.Product p in Model)
+            @foreach (Product p in Model)
             {
                 <tr>
                     <td>@p.Name</td>
