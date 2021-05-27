@@ -28,7 +28,6 @@
     @: Out of Stock
     ...
 >>>>>>>> Figure 5-12. Using a switch statement in a Razor view -> 114
-
 >>>>>>>> Listing 5-17. Using an if statement in a Razor view in the DemoExpression.cshtml file -> 114
     
 >>>> ENUMERATING ARRAYS AND COLLECTIONS -> 115
@@ -44,5 +43,5 @@
 ----------------------------------------------------------------------------------------------------------------------
 
 >> USING RAZOR EXPRESSIONS -> 107
->>>> SETTING ATTRIBUTES VALUES -> 110
->>>>>>>> Listing 5-15. Using a Razor expression to set an attibute value in the DemoExpression.cshtml file -> 110
+>>>> USING CONDITIONAL STATMENTS
+>>>>>>>> Listing 5-16. Using a conditional Razor statement in the DemoExpression.cshtml -> 110
