@@ -3,6 +3,7 @@
 @{
     /*
     >> USING RAZOR EXPRESSIONS -> 107
+
     >>>> INSERTING DATA VALUES -> 107
     >>>>>>>> Listing 5-14. The The content of the DemoExpression.cshtml -> 109
 
@@ -11,6 +12,7 @@
 
     >>>> USING CONDITIONAL STATMENTS
     >>>>>>>> Listing 5-16. Using a conditional Razor statement in the DemoExpression.cshtml -> 110
+    >>>>>>>> Listing 5-17. Using an if statement in a Razor view in the DemoExpression.cshtml file -> 114
     */
 
     ViewBag.Title = "DemoExpression";
@@ -27,17 +29,17 @@
         <tr>
             <td>Stock Level</td>
             <td>
-                @switch ((int)ViewBag.ProductCount)
+                @if (ViewBag.ProductCount == 0)
                 {
-                    case 0:
-                        @: Out of Stock
-                        break;
-                    case 1:
-                        <b>Low Stock (@ViewBag.ProductCount)</b>
-                        break;
-                    default:
-                        @ViewBag.ProductCount
-                        break;
+                    @:Out of Stock
+                }
+                else if (ViewBag.ProductCount == 1)
+                {
+                    <b>Low Stock (@ViewBag.ProductCount)</b>
+                }
+                else
+                {
+                    @ViewBag.ProductCount
                 }
             </td>
         </tr>

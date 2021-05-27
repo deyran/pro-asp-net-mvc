@@ -44,4 +44,4 @@
 
 >> USING RAZOR EXPRESSIONS -> 107
 >>>> USING CONDITIONAL STATMENTS
->>>>>>>> Listing 5-16. Using a conditional Razor statement in the DemoExpression.cshtml -> 110
+>>>>>>>> Listing 5-17. Using an if statement in a Razor view in the DemoExpression.cshtml file -> 114
