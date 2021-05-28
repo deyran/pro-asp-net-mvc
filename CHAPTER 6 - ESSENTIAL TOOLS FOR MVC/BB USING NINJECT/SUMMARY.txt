@@ -22,9 +22,27 @@ BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
     >>>> Figure 6-2. The effect of running the example app
 
 BBEE CREATING CHAINS OF DEPENDENCY -> 130
-BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES
-BBGG USING CONDITIONAL BINDING
-BBHH SETTING THE OBJECT SCOPE
+    >> Listing 6-14. The contents of the Discount.cs file -> 130
+    >> Listing 6-15. Adding a Dependency in the LinqValueCalculator.cs file -> 130
+    >> Listing 6-16. Binding another interface to its implementation in the NinjectDependencyResolver.cs file -> 131
+
+BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
+    >> Listing 6-17. Adding a property in the Discount.cs file -> 131
+    >> Listing 6-18. Using the Ninject WithPropertyValue method in the NinjectDependencyResolver.cs file -> 132
+    >> Figure 6-3. The effect of applying a discount through a property when resolving the dependency chain -> 132
+    >> Listing 6-19. Using a constructor property in the Discount.cs file -> 132
+    >> Listing 6-20. Specifying a constructor parameter in the NinjectDependencyresolver.cs -> 132
+    >> Listing 6-16. Binding another interface to its implementation in the NinjectDependencyResolver.cs file
+
+BBGG USING CONDITIONAL BINDING -> 133
+    >> Listing 6-21. The contents of the FlexibleDiscountHelper.cs file -> 133
+    >> Listing 6-22. Using conditional binding in the NinjectDependencyResolver.cs -> 134
+
+BBHH SETTING THE OBJECT SCOPE -> 134
+    >> Listing 6-23. Adding a construction in the LinqValueCalculator.cs file -> 134
+    >> Listing 6-24. Using multiple instance of the calculator class in the HomeController.cs -> 135
+    >> Listing 6-25. Using the request scope in the NinjectDependencyResolver.cs file -> 135
+
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
