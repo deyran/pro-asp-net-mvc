@@ -1,5 +1,7 @@
-DD USING MOQ
+DD USING MOQ -> 145
+
 DDAA UNDERSTANDING THE PROBLEM
 DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT
 DDCC A MOCK OBJECT TO A UNIT TEST
 DDDD CREATING A MORE COMPLEX MOCK OBJECT
+-----------------------------------------------------------------------------------------------------------
