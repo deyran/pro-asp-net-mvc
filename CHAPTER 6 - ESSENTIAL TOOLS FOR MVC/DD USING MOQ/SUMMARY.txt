@@ -1,7 +1,21 @@
 DD USING MOQ -> 145
 
-DDAA UNDERSTANDING THE PROBLEM
-DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT
-DDCC A MOCK OBJECT TO A UNIT TEST
-DDDD CREATING A MORE COMPLEX MOCK OBJECT
+DDAA UNDERSTANDING THE PROBLEM -> 146
+    >> Listing 6-31. The contents of the LinqValueCalculator file -> 146
+    >> Listing 6-32. Add a Unit Test for the ShoppingCart class in the UnitTest2.cs file -> 146
+
+DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
+DDCC A MOCK OBJECT TO A UNIT TEST -> 147
+    >> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
+    >> CREATING A MOCK OBJECT -> 148
+    >> SELECTING A METHOD -> 149
+    >> DEFINING THE RESULT -> 150
+    >> USING THE MOCK OBJECT -> 150
+
+DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
+    >> Listing 6-34. Mocking the behavior of the MinimumDiscountHelper class in the UnitTest1.cs file -> 151
+    >> MOCKING FOR SPECIFIC VALUES (AND THROWING AN EXCEPTION) -> 152
+    >> MOCKING FOR A RANGE OF VALUES -> 153
 -----------------------------------------------------------------------------------------------------------
+
+DD USING MOQ -> 145
