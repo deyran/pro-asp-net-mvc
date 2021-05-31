@@ -1,6 +1,11 @@
 In this chapter, three essential tools for programmers will be presented: 1 - Dependency injection (DI) container -> Ninject, 2 - A Unit test framework -> NUnit and a mocking tool
 
 AA PREPEARING THE EXAMPLE PROJECT -> 120
+    1 - Create a project called "EssencialTools";
+    2 - This project must has this characteristic;
+        2.1 - ASP.NET MVC Web Application template; 
+        2.2 - Empty option
+        2.3 - MVC project content checked
     
 AAAA CREATING THE MODEL CLASS -> 120
     >> Listing 6-1. The content of the Product.cs file -> 120
@@ -14,4 +19,4 @@ AACC ADDING THE VIEW -> 122
     >> Listing 6-5. The contents of the index.cshtml file -> 122
 
 ----------------------------------------------------------------------------------
-AA PREPEARING THE EXAMPLE PROJECT -> 119
+AA PREPEARING THE EXAMPLE PROJECT -> 120
