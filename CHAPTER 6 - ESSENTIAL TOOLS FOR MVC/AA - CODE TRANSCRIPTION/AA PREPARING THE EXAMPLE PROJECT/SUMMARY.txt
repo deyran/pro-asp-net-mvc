@@ -11,6 +11,7 @@ AAAA CREATING THE MODEL CLASS -> 120
     In Models project folder, create a class called Product.cs shown in Listing 6-1
     >> Listing 6-1. The content of the Product.cs file -> 120
 
+    Create, in the Models folder, a class called LinqValueCalculator.cs to calculate the total price of a collection of Product objects, see Listing 6-2
     >> Listing 6-2. The contents of the LinqValueCalculators.cs file -> 121
     >> Listing 6-3. The contents of the ShoppingCart file -> 121
 
@@ -23,4 +24,4 @@ AACC ADDING THE VIEW -> 122
 ----------------------------------------------------------------------------------
 AA PREPEARING THE EXAMPLE PROJECT -> 120
 AAAA CREATING THE MODEL CLASS -> 120
->> Listing 6-1. The content of the Product.cs file -> 120
+>> Listing 6-2. The contents of the LinqValueCalculators.cs file -> 121
