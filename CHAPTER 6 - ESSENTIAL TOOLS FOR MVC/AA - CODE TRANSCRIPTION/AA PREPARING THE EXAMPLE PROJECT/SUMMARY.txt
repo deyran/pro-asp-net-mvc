@@ -1,4 +1,7 @@
-AA PREPEARING THE EXAMPLE PROJECT -> 119
+In this chapter, three essential tools for programmers will be presented: 1 - Dependency injection (DI) container -> Ninject, 2 - A Unit test framework -> NUnit and a mocking tool
+
+AA PREPEARING THE EXAMPLE PROJECT -> 120
+    
 AAAA CREATING THE MODEL CLASS -> 120
     >> Listing 6-1. The content of the Product.cs file -> 120
     >> Listing 6-2. The contents of the LinqValueCalculators.cs file -> 121
