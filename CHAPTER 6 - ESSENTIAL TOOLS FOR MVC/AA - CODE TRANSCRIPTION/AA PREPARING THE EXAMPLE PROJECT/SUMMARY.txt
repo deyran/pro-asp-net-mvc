@@ -23,5 +23,5 @@ AACC ADDING THE VIEW -> 122
 
 ----------------------------------------------------------------------------------
 AA PREPEARING THE EXAMPLE PROJECT -> 120
-AAAA CREATING THE MODEL CLASS -> 120
->> Listing 6-3. The contents of the ShoppingCart.cs file -> 121
+AABB ADDING THE CONTROLLER -> 121
+>> Listing 6-4. The contents of the HomeController.cs file -> 122
