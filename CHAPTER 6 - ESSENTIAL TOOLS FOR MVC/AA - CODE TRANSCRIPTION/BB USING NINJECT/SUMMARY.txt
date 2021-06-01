@@ -1,4 +1,8 @@
 BB USING NINJECT -> 123
+    To recap what was seen in chapter 3, we highlight some points
+        1 - Decouple the components in an MVC application
+        2 - Combinations of Dependency Injection (DI), Interfaces and DI container
+
 BBAA UNDERSTANDING THE PROBLEM -> 123
     >> APPLYING AN INTERFACE -> 123
     >>>> Listing 6-6. The contents of the IValueCalculator.cs file -> 123
@@ -46,3 +50,6 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
+BBAA UNDERSTANDING THE PROBLEM -> 123
+>> APPLYING AN INTERFACE -> 123
+>>>> Listing 6-6. The contents of the IValueCalculator.cs file -> 123
