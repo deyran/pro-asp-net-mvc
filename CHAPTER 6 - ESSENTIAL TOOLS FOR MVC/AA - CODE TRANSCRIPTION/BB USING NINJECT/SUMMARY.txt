@@ -52,4 +52,4 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 BB USING NINJECT -> 123
 BBAA UNDERSTANDING THE PROBLEM -> 123
 >> APPLYING AN INTERFACE -> 123
->>>> Listing 6-6. The contents of the IValueCalculator.cs file -> 123
+>>>> Listing 6-7. Applying an interface in the LinqValueCalculator.cs file -> 124
