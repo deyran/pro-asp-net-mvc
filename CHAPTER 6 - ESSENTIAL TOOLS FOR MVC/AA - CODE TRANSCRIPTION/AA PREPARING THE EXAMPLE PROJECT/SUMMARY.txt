@@ -20,6 +20,7 @@ AABB ADDING THE CONTROLLER -> 121
 
 AACC ADDING THE VIEW -> 122
     >> Listing 6-5. The contents of the index.cshtml file -> 122
+    >> Figure 6-1. Testing the example app
 
 ----------------------------------------------------------------------------------
 AA PREPEARING THE EXAMPLE PROJECT -> 120
