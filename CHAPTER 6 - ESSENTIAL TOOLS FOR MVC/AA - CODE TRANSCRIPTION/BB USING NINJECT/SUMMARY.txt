@@ -4,6 +4,11 @@ BB USING NINJECT -> 123
         2 - Combinations of Dependency Injection (DI), Interfaces and DI container
 
 BBAA UNDERSTANDING THE PROBLEM -> 123
+    -> The example app is an example of the problem that DI addresses -> TIGHTLY COUPLED CLASSES
+    -> We can see Tightly coupled in these cases:
+        1 - The ShoppingCart and LinqValueCalculator class
+        2 - The HomeController class with ShoppingCart and LinqValueCalculator classes
+
     >> APPLYING AN INTERFACE -> 123
     >>>> Listing 6-6. The contents of the IValueCalculator.cs file -> 123
     >>>> Listing 6-7. Applying an interface in the LinqValueCalculator.cs file -> 124
@@ -52,4 +57,4 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 BB USING NINJECT -> 123
 BBAA UNDERSTANDING THE PROBLEM -> 123
 >> APPLYING AN INTERFACE -> 123
->>>> Listing 6-8. Applying the interface in the ShoppingCart.cs -> 124
+>>>> Listing 6-9. Applying the interface to the HomeController.cs -> 124
