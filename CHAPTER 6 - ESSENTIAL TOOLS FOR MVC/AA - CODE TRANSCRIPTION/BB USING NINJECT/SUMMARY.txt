@@ -16,6 +16,14 @@ BBAA UNDERSTANDING THE PROBLEM -> 123
     >>>> Listing 6-9. Applying the interface to the HomeController.cs -> 124
 
 BBBB ADDING NINJECT TO THE VISUAL STUDIO PROJECT -> 125
+    1 - Package Manager Console:
+        > Tools > Library Package Manager > Package Manager Console
+
+    2 - Commands:
+        Install-Package Ninject -version 3.0.1.10
+        Install-Package Ninject.Web.Common -version 3.0.0.7
+        Install-Package Ninject.MVC3 -Version 3.0.0.6
+        
 BBCC GETTING STARTED WITH NINJECT -> 125
     >> Listing 6-10. Adding the basic Ninject functionality to the index action method in the HomeController.cs file -> 125
 
@@ -55,6 +63,5 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
-BBAA UNDERSTANDING THE PROBLEM -> 123
->> APPLYING AN INTERFACE -> 123
->>>> Listing 6-9. Applying the interface to the HomeController.cs -> 124
+BBCC GETTING STARTED WITH NINJECT -> 125
+>> Listing 6-10. Adding the basic Ninject functionality to the index action method in the HomeController.cs file -> 125
