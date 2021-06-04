@@ -19,6 +19,10 @@ BBBB ADDING NINJECT TO THE VISUAL STUDIO PROJECT -> 125
     1 - Package Manager Console:
         > Tools > Library Package Manager > Package Manager Console
 
+        Install-Package Ninject -version 3.0.1.10
+        Install-Package Ninject.Web.Common -version 3.0.0.7
+        Install-Package Ninject.MVC3 -Version 3.0.0.6
+
     2 - Commands:
         Install-Package Ninject -version 3.0.1.10
         Install-Package Ninject.Web.Common -version 3.0.0.7
@@ -63,5 +67,4 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
-BBCC GETTING STARTED WITH NINJECT -> 125
->> Listing 6-10. Adding the basic Ninject functionality to the index action method in the HomeController.cs file -> 125
+BBBB ADDING NINJECT TO THE VISUAL STUDIO PROJECT -> 125
