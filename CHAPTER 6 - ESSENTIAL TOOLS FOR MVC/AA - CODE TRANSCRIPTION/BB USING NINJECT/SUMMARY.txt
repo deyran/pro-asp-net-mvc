@@ -54,6 +54,17 @@ BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
 
     >> REGISTER THE DEPENDECY RESOLVER -> 128
     >>>> Listing 6-12. Registering the Resolver in the NinjectWebCommom.cs file -> 128
+        1 - In the "App_Start" open the NinjectWebCommon.cs file
+        2 - In the RegisterServices method, write the code below:
+            ...
+            private static void RegisterServices(IKernel kernel)
+            {
+                System.Web.DependencyResolver.SetResolver
+                (
+                    EssentialTools.Infrastructure.NinjectDependencyResolver(kernel)
+                );
+            }
+            ...    
 
     >> REFACTORING THE HOME CONTROLLER -> 128
     >>>> Listing 6-13. Refactoring the controller in the HomeController.cs file -> 128
@@ -85,5 +96,5 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 
 BB USING NINJECT -> 123
 BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
->> CREATING THE DEPENDENCY RESOLVER -> 127
->>>> Listing 6-11. The content of the NinjectDependencyResolver.cs file -> 127
+>> REGISTER THE DEPENDECY RESOLVER -> 128
+>>>> Listing 6-12. Registering the Resolver in the NinjectWebCommom.cs file -> 128
