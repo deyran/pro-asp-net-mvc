@@ -95,5 +95,5 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 
 BB USING NINJECT -> 123
 BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
->> REGISTER THE DEPENDECY RESOLVER -> 128
->>>> Listing 6-12. Registering the Resolver in the NinjectWebCommom.cs file -> 128
+>> REFACTORING THE HOME CONTROLLER -> 128
+>>>> Listing 6-13. Refactoring the controller in the HomeController.cs file -> 128
