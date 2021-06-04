@@ -67,4 +67,5 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
-BBBB ADDING NINJECT TO THE VISUAL STUDIO PROJECT -> 125
+BBCC GETTING STARTED WITH NINJECT -> 125
+>> Listing 6-10. Adding the basic Ninject functionality to the index action method in the HomeController.cs file -> 125
