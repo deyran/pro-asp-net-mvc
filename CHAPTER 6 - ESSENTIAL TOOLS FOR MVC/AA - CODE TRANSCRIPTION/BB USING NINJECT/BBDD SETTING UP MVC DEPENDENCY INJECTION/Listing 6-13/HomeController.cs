@@ -3,6 +3,12 @@ using EssentialTools.Models;
 
 namespace EssentialTools.Controllers
 {
+    /*
+    BB USING NINJECT -> 123
+    BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
+    >> REFACTORING THE HOME CONTROLLER -> 128
+    >>>> Listing 6-13. Refactoring the controller in the HomeController.cs file -> 128
+    */    
     public class HomeController : Controller
     {
         private IValueCalculator calculator;

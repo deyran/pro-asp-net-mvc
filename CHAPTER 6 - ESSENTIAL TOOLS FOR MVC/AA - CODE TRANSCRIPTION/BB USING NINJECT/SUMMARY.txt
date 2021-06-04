@@ -80,6 +80,7 @@ BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
             >>>>>>>> Figure 6-2. The effect of running the example app
 
 BBEE CREATING CHAINS OF DEPENDENCY -> 130
+    >> If there are additional dependencies, Ninject automatically resolves them and creates instaces of all of the classes that are required
     >> Listing 6-14. The contents of the Discount.cs file -> 130
     >> Listing 6-15. Adding a Dependency in the LinqValueCalculator.cs file -> 130
     >> Listing 6-16. Binding another interface to its implementation in the NinjectDependencyResolver.cs file -> 131
@@ -100,10 +101,8 @@ BBHH SETTING THE OBJECT SCOPE -> 134
     >> Listing 6-23. Adding a construction in the LinqValueCalculator.cs file -> 134
     >> Listing 6-24. Using multiple instance of the calculator class in the HomeController.cs -> 135
     >> Listing 6-25. Using the request scope in the NinjectDependencyResolver.cs file -> 135
-
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
-BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
->> REFACTORING THE HOME CONTROLLER -> 128
->>>> Listing 6-13. Refactoring the controller in the HomeController.cs file -> 128
+BBEE CREATING CHAINS OF DEPENDENCY -> 130
+>> Listing 6-14. The contents of the Discount.cs file -> 130
