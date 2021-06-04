@@ -105,4 +105,4 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 
 BB USING NINJECT -> 123
 BBEE CREATING CHAINS OF DEPENDENCY -> 130
->> Listing 6-14. The contents of the Discount.cs file -> 130
+>> Listing 6-15. Adding a Dependency in the LinqValueCalculator.cs file -> 130
