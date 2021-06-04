@@ -53,22 +53,21 @@ BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
             >>>>>>>> In the AddBinding method, is used to configure relationship between the IValueCalculator interface and the LinqValueCalculator class        
 
     >> REGISTER THE DEPENDECY RESOLVER -> 128
-    >>>> Listing 6-12. Registering the Resolver in the NinjectWebCommom.cs file -> 128
-        1 - In the "App_Start" open the NinjectWebCommon.cs file
-        2 - In the RegisterServices method, write the code below:
-            ...
-            private static void RegisterServices(IKernel kernel)
-            {
-                System.Web.DependencyResolver.SetResolver
-                (
-                    EssentialTools.Infrastructure.NinjectDependencyResolver(kernel)
-                );
-            }
-            ...    
-
+        >>>> Listing 6-12. Registering the Resolver in the NinjectWebCommom.cs file -> 128
+            1 - In the "App_Start" open the NinjectWebCommon.cs file
+            2 - In the RegisterServices method, write the code below:
+                ...
+                private static void RegisterServices(IKernel kernel)
+                {
+                    System.Web.DependencyResolver.SetResolver
+                    (
+                        EssentialTools.Infrastructure.NinjectDependencyResolver(kernel)
+                    );
+                }
+                ...    
     >> REFACTORING THE HOME CONTROLLER -> 128
-    >>>> Listing 6-13. Refactoring the controller in the HomeController.cs file -> 128
-    >>>> Figure 6-2. The effect of running the example app
+        >>>> Listing 6-13. Refactoring the controller in the HomeController.cs file -> 128
+        >>>> Figure 6-2. The effect of running the example app
 
 BBEE CREATING CHAINS OF DEPENDENCY -> 130
     >> Listing 6-14. The contents of the Discount.cs file -> 130
