@@ -104,5 +104,5 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
-BBEE CREATING CHAINS OF DEPENDENCY -> 130
->> Listing 6-16. Binding another interface to its implementation in the NinjectDependencyResolver.cs file -> 131
+BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
+>> Listing 6-17. Adding a property in the Discount.cs file -> 131
