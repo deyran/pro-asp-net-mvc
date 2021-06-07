@@ -99,8 +99,6 @@ BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
         }
         ...
 
-    >> Listing 6-16. Binding another interface to its implementation in the NinjectDependencyResolver.cs file
-
 BBGG USING CONDITIONAL BINDING -> 133
     >> Listing 6-21. The contents of the FlexibleDiscountHelper.cs file -> 133
     >> Listing 6-22. Using conditional binding in the NinjectDependencyResolver.cs -> 134
@@ -112,5 +110,5 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
-BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
->> Listing 6-20. Specifying a constructor parameter in the NinjectDependencyresolver.cs -> 132
+BBGG USING CONDITIONAL BINDING -> 133
+>> Listing 6-21. The contents of the FlexibleDiscountHelper.cs file -> 133
