@@ -105,4 +105,4 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 
 BB USING NINJECT -> 123
 BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
->> Listing 6-18. Using the Ninject WithPropertyValue method in the NinjectDependencyResolver.cs file -> 132
+>> Listing 6-19. Using a constructor property in the Discount.cs file -> 132
