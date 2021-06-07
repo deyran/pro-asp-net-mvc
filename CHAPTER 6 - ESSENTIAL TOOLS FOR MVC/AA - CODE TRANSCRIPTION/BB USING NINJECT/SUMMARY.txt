@@ -91,6 +91,14 @@ BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
     >> Figure 6-3. The effect of applying a discount through a property when resolving the dependency chain -> 132
     >> Listing 6-19. Using a constructor property in the Discount.cs file -> 132
     >> Listing 6-20. Specifying a constructor parameter in the NinjectDependencyresolver.cs -> 132
+        ...
+        private void AddBindings()
+        {
+            kernel.Bind<IValueCalculator>().To<LinqValueCalculator>();
+            kernel.Bind<IDiscountHelper>().To<DefaultDiscountHelper>().WithConstructorArgument("discountParam", 50M);
+        }
+        ...
+
     >> Listing 6-16. Binding another interface to its implementation in the NinjectDependencyResolver.cs file
 
 BBGG USING CONDITIONAL BINDING -> 133
@@ -105,4 +113,4 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 
 BB USING NINJECT -> 123
 BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
->> Listing 6-19. Using a constructor property in the Discount.cs file -> 132
+>> Listing 6-20. Specifying a constructor parameter in the NinjectDependencyresolver.cs -> 132
