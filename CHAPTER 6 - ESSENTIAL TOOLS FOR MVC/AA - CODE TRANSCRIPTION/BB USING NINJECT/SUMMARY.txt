@@ -123,10 +123,12 @@ BBHH SETTING THE OBJECT SCOPE -> 134
         ...
 
         >>>> This code will create two instance for each parameter, there's no problem but that's not true for all class.
+        >>>> In other cases, it is necessary to create a single instance for the entire application. See Listing 6-25.
 
     >> Listing 6-25. Using the request scope in the NinjectDependencyResolver.cs file -> 135
+        >>>> The InRequestScope extension method, which is in the Ninject.Web.Common namespace, tells Ninject that it should only create one    instance of the LinqValueCalculator class for each HTTP request that ASP.NET receives    
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
 BBHH SETTING THE OBJECT SCOPE -> 134
->> Listing 6-24. Using multiple instance of the calculator class in the HomeController.cs -> 135
+>> Listing 6-25. Using the request scope in the NinjectDependencyResolver.cs file -> 135
