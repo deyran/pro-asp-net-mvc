@@ -115,9 +115,18 @@ BBGG USING CONDITIONAL BINDING -> 133
 BBHH SETTING THE OBJECT SCOPE -> 134
     >> Listing 6-23. Adding a construction in the LinqValueCalculator.cs file -> 134
     >> Listing 6-24. Using multiple instance of the calculator class in the HomeController.cs -> 135
+        ...
+        public HomeController(IValueCalculator calcParam, IValueCalculator calc2)
+        {
+            calc = calcParam;
+        }
+        ...
+
+        >>>> This code will create two instance for each parameter, there's no problem but that's not true for all class.
+
     >> Listing 6-25. Using the request scope in the NinjectDependencyResolver.cs file -> 135
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
 BBHH SETTING THE OBJECT SCOPE -> 134
->> Listing 6-23. Adding a construction in the LinqValueCalculator.cs file -> 134
+>> Listing 6-24. Using multiple instance of the calculator class in the HomeController.cs -> 135
