@@ -3,6 +3,12 @@ CC UNIT TESTING WITH VISUAL STUDIO -> 137
 
 CCAA CREATING THE UNIT TEST PROJECT -> 137
     >> Figure 6-4. Creating the unit test project -> 138
+        1 - Right-click in the top-level in the Solution Explorer ("EssentialTools")
+        2 - New Project
+        3 - In Visual C# -> Test -> Unit Test Project
+        4 - Set the project name to EssencialTools.Tests
+        5 - Click Ok button
+    
     >> Figure 6-5. Adding a reference to the MVC project -> 138
 
 CCBB CREATING THE UNIT TESTS -> 139
@@ -22,4 +28,5 @@ CCDD TESTING AND FIXING THE CODE -> 144
 -----------------------------------------------------------------------------------------------------------
 
 CC UNIT TESTING WITH VISUAL STUDIO -> 137
->> Listing 6-26. The contents of the MinimumDiscountHelper.cs -> 137
+CCAA CREATING THE UNIT TEST PROJECT -> 137
+>> Figure 6-4. Creating the unit test project -> 138
