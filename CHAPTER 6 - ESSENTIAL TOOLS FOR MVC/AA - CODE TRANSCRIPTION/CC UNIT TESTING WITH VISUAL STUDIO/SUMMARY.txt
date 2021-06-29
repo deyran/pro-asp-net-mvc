@@ -37,11 +37,12 @@ CCCC RUNNING THE UNIT TESTS (AND FAILING) -> 142
 
 CCDD TESTING AND FIXING THE CODE -> 144
     >> Figure 6-7. The effect of implementation the feature with a bug -> 144
+        A deliberate error was left to demonstrate how iterative unit testing with VS works and you can see the effect of the error if click the Run all button in the test. (See Figure 6-7)    
+
     >> Listing 6-30. Fixing the feature code in the MinimumDiscountHelper.cs file -> 144
     >> Figure 6-8. Passing all of the unit tests -> 145
 -----------------------------------------------------------------------------------------------------------
 
 CC UNIT TESTING WITH VISUAL STUDIO -> 137
-CCCC RUNNING THE UNIT TESTS (AND FAILING) -> 142
->> IMPLEMENTING THE FEATURE -> 143
->>>> Listing 6-29. The contents of the MinimumDiscountHelper.cs file -> 143
+CCDD TESTING AND FIXING THE CODE -> 144
+>> Figure 6-7. The effect of implementation the feature with a bug -> 144
