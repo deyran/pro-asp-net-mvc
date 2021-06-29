@@ -1,4 +1,8 @@
 DD USING MOQ -> 145
+    The Moq object is useful for:
+        1 - Class that depends on other classes to work
+        2 - Simulate the functionality of real objects, but in a specific and controlled way 
+        3 - Narrow the focus, so that you only examine the functionality in which you are interested
 
 DDAA UNDERSTANDING THE PROBLEM -> 146
     >> Listing 6-31. The contents of the LinqValueCalculator file -> 146
