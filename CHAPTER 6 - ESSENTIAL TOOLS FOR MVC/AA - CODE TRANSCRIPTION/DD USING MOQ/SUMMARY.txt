@@ -11,6 +11,8 @@ DD USING MOQ -> 145
 DDAA UNDERSTANDING THE PROBLEM -> 146
     >> Listing 6-31. The contents of the LinqValueCalculator.cs file -> 146
     >> Listing 6-32. Add a Unit Test for the ShoppingCart class in the UnitTest2.cs file -> 146
+        The purpose of the UnitTest2.cs class is to test the LinqValueCalculator.cs class
+            ... Steps to create a UnitTest2.cs ....
 
 DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
 DDCC A MOCK OBJECT TO A UNIT TEST -> 147
@@ -28,4 +30,4 @@ DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
 
 DD USING MOQ -> 145
 DDAA UNDERSTANDING THE PROBLEM -> 146
->> Listing 6-31. The contents of the LinqValueCalculator.cs file -> 146
+>> Listing 6-32. Add a Unit Test for the ShoppingCart class in the UnitTest2.cs file -> 146
