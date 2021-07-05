@@ -1,11 +1,15 @@
 DD USING MOQ -> 145
+    "Mocking is a process used in unit testing when the unit being tested has external dependencies. The purpose of mocking is to isolate and focus on the code being tested and not on the behavior or state of external dependecies. In mocking, the dependecies are replaced by closely controlled replacemanets objects that simulate the behavior of the real ones. [...]"
+    Font: https://www.telerik.com/products/mocking/unit-testing.aspx
+    Date: 07-05-21
+
     The Moq object is useful for:
         1 - Class that depends on other classes to work
         2 - Simulate the functionality of real objects, but in a specific and controlled way 
         3 - Narrow the focus, so that you only examine the functionality in which you are interested
 
 DDAA UNDERSTANDING THE PROBLEM -> 146
-    >> Listing 6-31. The contents of the LinqValueCalculator file -> 146
+    >> Listing 6-31. The contents of the LinqValueCalculator.cs file -> 146
     >> Listing 6-32. Add a Unit Test for the ShoppingCart class in the UnitTest2.cs file -> 146
 
 DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
@@ -23,3 +27,5 @@ DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
 -----------------------------------------------------------------------------------------------------------
 
 DD USING MOQ -> 145
+DDAA UNDERSTANDING THE PROBLEM -> 146
+>> Listing 6-31. The contents of the LinqValueCalculator.cs file -> 146
