@@ -10,7 +10,7 @@ namespace Razor.Controllers
     >>>>>>>> Listing 5-2. The content of the HomeController file -> 96     
     ---------------------------------------------------------------------------------------------------------
 
-    >> WORKINK WITH LAYOUTS -> 99
+    >> WORKING WITH LAYOUTS -> 99
     >>>> DEMONSTRATING SHARED LAYOUTS -> 103
     >>>>>>>> Listing 5-10. Adding a new action method to the HomeController.cs file -> 103
     ---------------------------------------------------------------------------------------------------------

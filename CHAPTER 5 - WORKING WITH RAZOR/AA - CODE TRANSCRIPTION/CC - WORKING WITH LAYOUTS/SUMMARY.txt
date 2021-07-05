@@ -1,4 +1,4 @@
->> WORKINK WITH LAYOUTS -> 99
+>> WORKING WITH LAYOUTS -> 99
     ...
     @{    
         Layout = null;
@@ -68,6 +68,6 @@
     >>>>>>>> Figure 5-8. The content in the layout file applied to the NameAndPrice view -> 106
 ------------------------------------------------------------------------------------------------
 
->> WORKINK WITH LAYOUTS -> 99
+>> WORKING WITH LAYOUTS -> 99
 >>>> DEMONSTRATING SHARED LAYOUTS -> 103
 >>>>>>>> Listing 5-12. Adding to the NameAndPrice.cshtml file -> 106
