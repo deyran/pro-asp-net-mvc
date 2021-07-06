@@ -19,6 +19,8 @@ DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
         Install-Package Moq -version 4.1.1309.1617 -projectname EssentialTools.Tests
 
 DDCC A MOCK OBJECT TO A UNIT TEST -> 147
+    Adding a mock object to a unit test means telling Moq what kind of object you want to work with, configuring its behavior and then applying the object to the test target.
+
     >> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
     >> CREATING A MOCK OBJECT -> 148
     >> SELECTING A METHOD -> 149
@@ -32,4 +34,5 @@ DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
 -----------------------------------------------------------------------------------------------------------
 
 DD USING MOQ -> 145
-DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
+DDCC A MOCK OBJECT TO A UNIT TEST -> 147
+>> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
