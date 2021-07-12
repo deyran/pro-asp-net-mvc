@@ -17,9 +17,27 @@ DDAA UNDERSTANDING THE PROBLEM -> 146
 DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
 DDCC A MOCK OBJECT TO A UNIT TEST -> 147
     >> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
+
     >> CREATING A MOCK OBJECT -> 148
+        Creating the strongly typed Mock object
+        ...
+        Mock<IDiscountHelper> mock = new Mock<IDiscountHelper>();
+        ...
+
     >> SELECTING A METHOD -> 149
+        [...] Specify the way that it behaves [...]
+        ...
+        mock.Setup(m => m.ApplyDiscount(It.IsAny<decimal>())).Returns(total => total);
+        ...
+
+        The It class defines a number of methods that are used with generic type parameters. In this case, I have called the IsAny method using decimal as the generic type. This tells Moq to apply the behavior I am defining whenever I call ApplyDiscount method any decimal value.
+
     >> DEFINING THE RESULT -> 150
+        ...
+        ... .Returns(total => total);
+        ...    
+        By calling Returns method with decimal type parameter, I tell Moq that I am going to return a decimal value. For the lambda expression, Moq passes me a value of the type I receive in the ApplyDiscount method. I create a pass-through method in the example, in which I return the value that is passed to the mock ApplyDiscount method without performing any operations on it.
+
     >> USING THE MOCK OBJECT -> 150
 
 DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
@@ -31,4 +49,6 @@ DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
 DD USING MOQ -> 145
 DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
 DDCC A MOCK OBJECT TO A UNIT TEST -> 147
->> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
+>> CREATING A MOCK OBJECT -> 148
+>> SELECTING A METHOD -> 149
+>> DEFINING THE RESULT -> 150
