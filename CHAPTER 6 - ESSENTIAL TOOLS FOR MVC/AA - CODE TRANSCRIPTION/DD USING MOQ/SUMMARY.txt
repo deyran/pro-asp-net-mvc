@@ -49,14 +49,16 @@ DDCC A MOCK OBJECT TO A UNIT TEST -> 147
 
         The benefit of using Moq in this way is that my unit test only checks the behavior of the LinqValueCalculator object and does not depend on any of the real implementations of the IDiscountHelper interface in the Moldels folder. This means that when my tests fail, I know that the problem is either in the LinqValueCalculator implementation or in the way I set up mock object, and solving a problem from either of these sources is simpler and easier than dealing with a chain of real objects and the interactions between them.
 
-
-
 DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
-    >> Listing 6-34. Mocking the behavior of the MinimumDiscountHelper class in the UnitTest1.cs file -> 151
+    >> Listing 6-34. Mocking the behavior of the MinimumDiscountHelper class in the UnitTest2.cs file -> 151
+        >>>> The order in which you call the Setup method affects the behavior of the mock object.
+        >>>> Moq evaluates the behaviors in reverse order, so that it considers the most recent calls to the Setup method first.
+        >>>> So you have to create your mocks behaviors in order from the most general to the most specific.
+
     >> MOCKING FOR SPECIFIC VALUES (AND THROWING AN EXCEPTION) -> 152
     >> MOCKING FOR A RANGE OF VALUES -> 153
 -----------------------------------------------------------------------------------------------------------
 
 DD USING MOQ -> 145
-DDCC A MOCK OBJECT TO A UNIT TEST -> 147
->> USING THE MOCK OBJECT -> 150
+DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
+>> Listing 6-34. Mocking the behavior of the MinimumDiscountHelper class in the UnitTest2.cs file -> 151
