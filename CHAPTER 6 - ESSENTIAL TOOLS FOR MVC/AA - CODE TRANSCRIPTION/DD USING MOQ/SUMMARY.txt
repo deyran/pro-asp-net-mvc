@@ -39,6 +39,17 @@ DDCC A MOCK OBJECT TO A UNIT TEST -> 147
         By calling Returns method with decimal type parameter, I tell Moq that I am going to return a decimal value. For the lambda expression, Moq passes me a value of the type I receive in the ApplyDiscount method. I create a pass-through method in the example, in which I return the value that is passed to the mock ApplyDiscount method without performing any operations on it.
 
     >> USING THE MOCK OBJECT -> 150
+        ...
+        var target = new LinqValueCalculator(mock.Object);
+        ...
+
+        ...
+        Assert.AreEqual(products.Sum(e => e.Price), result);
+        ...
+
+        The benefit of using Moq in this way is that my unit test only checks the behavior of the LinqValueCalculator object and does not depend on any of the real implementations of the IDiscountHelper interface in the Moldels folder. This means that when my tests fail, I know that the problem is either in the LinqValueCalculator implementation or in the way I set up mock object, and solving a problem from either of these sources is simpler and easier than dealing with a chain of real objects and the interactions between them.
+
+
 
 DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
     >> Listing 6-34. Mocking the behavior of the MinimumDiscountHelper class in the UnitTest1.cs file -> 151
@@ -47,8 +58,5 @@ DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
 -----------------------------------------------------------------------------------------------------------
 
 DD USING MOQ -> 145
-DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
 DDCC A MOCK OBJECT TO A UNIT TEST -> 147
->> CREATING A MOCK OBJECT -> 148
->> SELECTING A METHOD -> 149
->> DEFINING THE RESULT -> 150
+>> USING THE MOCK OBJECT -> 150
