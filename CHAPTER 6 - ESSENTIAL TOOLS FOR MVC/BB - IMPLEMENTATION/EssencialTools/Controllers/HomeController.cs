@@ -7,6 +7,11 @@ namespace EssencialTools.Controllers
     AA PREPEARING THE EXAMPLE PROJECT -> 120
     AABB ADDING THE CONTROLLER -> 121
     >> Listing 6-4. The contents of the HomeController.cs file -> 122    
+
+    BB USING NINJECT -> 123
+    BBAA UNDERSTANDING THE PROBLEM -> 123
+    >> APPLYING AN INTERFACE -> 123
+    >>>> Listing 6-9. Applying the interface to the HomeController.cs -> 124    
     */
 
     public class HomeController : Controller
@@ -22,7 +27,7 @@ namespace EssencialTools.Controllers
         // GET: Home
         public ActionResult Index()
         {
-            LinqValueCalculator calc = new LinqValueCalculator();
+            IValueCalculator calc = new LinqValueCalculator();
             ShoppingCart cart = new ShoppingCart(calc) { Products = products };
             decimal totalValue = cart.CalculateProductTotal();
 
