@@ -1,9 +1,14 @@
-﻿using System.Linq;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using EssencialTools.Models;
 
 namespace EssencialTools.Controllers
 {
+    /*
+    AA PREPEARING THE EXAMPLE PROJECT -> 120
+    AABB ADDING THE CONTROLLER -> 121
+    >> Listing 6-4. The contents of the HomeController.cs file -> 122    
+    */
+
     public class HomeController : Controller
     {
         private Product[] products =
