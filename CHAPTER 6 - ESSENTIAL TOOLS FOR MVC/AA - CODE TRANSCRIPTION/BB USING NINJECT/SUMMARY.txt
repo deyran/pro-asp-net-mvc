@@ -17,12 +17,9 @@ BBAA UNDERSTANDING THE PROBLEM -> 123
 
 BBBB ADDING NINJECT TO THE VISUAL STUDIO PROJECT -> 125
     1 - Package Manager Console:
-        > Tools > Library Package Manager > Package Manager Console
-
-        Install-Package Ninject -version 3.0.1.10
-        Install-Package Ninject.Web.Common -version 3.0.0.7
-        Install-Package Ninject.MVC3 -Version 3.0.0.6
-
+        You can access the Pack Manager Console from within Visual Studio by going to:
+	        Tools > NuGet Package Manager > Package Manager Console
+        
     2 - Commands:
         Install-Package Ninject -version 3.0.1.10
         Install-Package Ninject.Web.Common -version 3.0.0.7
