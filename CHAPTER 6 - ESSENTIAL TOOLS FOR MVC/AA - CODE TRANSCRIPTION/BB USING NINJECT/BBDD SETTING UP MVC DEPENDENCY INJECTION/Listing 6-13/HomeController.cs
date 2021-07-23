@@ -11,7 +11,7 @@ namespace EssentialTools.Controllers
     */    
     public class HomeController : Controller
     {
-        private IValueCalculator calculator;
+        private IValueCalculator calc;
         private Product[] products = 
         {
             new Product { Name = "Kayak", Category = "Watersports", Price = 275M },
@@ -24,6 +24,7 @@ namespace EssentialTools.Controllers
         {
             calc = calcParam;
         }
+
 
         public ActionResult Index()
         {

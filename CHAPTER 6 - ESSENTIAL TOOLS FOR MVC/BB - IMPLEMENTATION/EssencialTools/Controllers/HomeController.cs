@@ -12,15 +12,21 @@ namespace EssencialTools.Controllers
     BB USING NINJECT -> 123
         BBAA UNDERSTANDING THE PROBLEM -> 123
             >> APPLYING AN INTERFACE -> 123
-            >>>> Listing 6-9. Applying the interface to the HomeController.cs -> 124    
+                >>>> Listing 6-9. Applying the interface to the HomeController.cs -> 124    
 
         BBCC GETTING STARTED WITH NINJECT -> 125
-            >> Listing 6-10. Adding the basic Ninject functionality to the index action method in the HomeController.cs file -> 125    
+            >> Listing 6-10. Adding the basic Ninject functionality to the index action method in the HomeController.cs file -> 125
+
+        BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
+            >> REFACTORING THE HOME CONTROLLER -> 128
+                >>>> Listing 6-13. Refactoring the controller in the HomeController.cs file -> 128
 
     */
 
     public class HomeController : Controller
     {
+        private IValueCalculator calc;
+
         private Product[] products =
         {
             new Product { Name = "Kayak", Category = "Watersports", Price = 275M },
@@ -29,20 +35,19 @@ namespace EssencialTools.Controllers
             new Product { Name = "Corner flag", Category = "Soccer", Price = 34.95M }
         };
 
+        public HomeController(IValueCalculator calcParam)
+        {
+            calc = calcParam;
+        }
+
         // GET: Home
         public ActionResult Index()
         {
-            IKernel ninjectKernel = new StandardKernel();
-            ninjectKernel.Bind<IValueCalculator>().To<LinqValueCalculator>();
-
-            IValueCalculator calc = ninjectKernel.Get<IValueCalculator>();
-
             ShoppingCart cart = new ShoppingCart(calc) { Products = products };
 
             decimal totalValue = cart.CalculateProductTotal();
 
             return View(totalValue);
-
         }
     }
 }
