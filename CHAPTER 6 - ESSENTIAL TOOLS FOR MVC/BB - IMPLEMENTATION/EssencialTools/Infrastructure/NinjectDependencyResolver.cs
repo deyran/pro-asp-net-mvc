@@ -10,7 +10,7 @@ namespace EssencialTools.Infrastructure
     BB USING NINJECT -> 123
     BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
         >> CREATING THE DEPENDENCY RESOLVER -> 127
-        >>>> Listing 6-11. The content of the NinjectDependencyResolver.cs file -> 127    
+            >>>> Listing 6-11. The content of the NinjectDependencyResolver.cs file -> 127    
     */
 
     public class NinjectDependencyResolver : IDependencyResolver

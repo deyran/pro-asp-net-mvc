@@ -56,9 +56,9 @@ BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
                 ...
                 private static void RegisterServices(IKernel kernel)
                 {
-                    System.Web.DependencyResolver.SetResolver
+                    System.Web.Mvc.DependencyResolver.SetResolver
                     (
-                        EssentialTools.Infrastructure.NinjectDependencyResolver(kernel)
+                        new EssentialTools.Infrastructure.NinjectDependencyResolver(kernel)
                     );
                 }
                 ...    
@@ -127,5 +127,5 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
-BBCC GETTING STARTED WITH NINJECT -> 125
->> Listing 6-10. Adding the basic Ninject functionality to the index action method in the HomeController.cs file -> 125
+BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
+>> REGISTER THE DEPENDECY RESOLVER -> 128
