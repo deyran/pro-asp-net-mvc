@@ -70,3 +70,13 @@ C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATIO
 C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\obj\Debug\EssencialTools.csproj.CopyComplete
 C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\obj\Debug\EssencialTools.dll
 C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\obj\Debug\EssencialTools.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\Ninject.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\Ninject.Web.Common.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\Ninject.Web.Mvc.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\WebActivator.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\Ninject.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\Ninject.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\Ninject.Web.Common.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\Ninject.Web.Common.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\Ninject.Web.Mvc.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 6 - ESSENTIAL TOOLS FOR MVC\BB - IMPLEMENTATION\EssencialTools\bin\Ninject.Web.Mvc.xml
