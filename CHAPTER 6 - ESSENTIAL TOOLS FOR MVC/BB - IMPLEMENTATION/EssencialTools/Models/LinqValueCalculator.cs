@@ -15,8 +15,7 @@ namespace EssencialTools.Models
             
         BBEE CREATING CHAINS OF DEPENDENCY -> 130
             >> Listing 6-15. Adding a Dependency in the LinqValueCalculator.cs file -> 130
-
-    */
+s    */
     public class LinqValueCalculator : IValueCalculator
     {
         private IDiscountHelper discounter;
