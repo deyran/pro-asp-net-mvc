@@ -89,6 +89,8 @@ BBEE CREATING CHAINS OF DEPENDENCY -> 130
         ...    
 
 BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
+    You can configure objects that Ninject creates, providing details of values to be applied to properties when it binds the interface to your implementation.
+    
     >> Listing 6-17. Adding a property in the Discount.cs file -> 131
     >> Listing 6-18. Using the Ninject WithPropertyValue method in the NinjectDependencyResolver.cs file -> 132
     >> Figure 6-3. The effect of applying a discount through a property when resolving the dependency chain -> 132
