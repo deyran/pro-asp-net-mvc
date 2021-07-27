@@ -18,6 +18,9 @@ namespace EssencialTools.Infrastructure
         BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
             >> Listing 6-18. Using the Ninject WithPropertyValue method in the NinjectDependencyResolver.cs file -> 132
             >> Listing 6-20. Specifying a constructor parameter in the NinjectDependencyresolver.cs -> 132
+
+        BBGG USING CONDITIONAL BINDING -> 133
+            >> Listing 6-22. Using conditional binding in the NinjectDependencyResolver.cs -> 134
     */
 
     public class NinjectDependencyResolver : IDependencyResolver
@@ -43,7 +46,14 @@ namespace EssencialTools.Infrastructure
         private void AddBinding()
         {
             kernel.Bind<IValueCalculator>().To<LinqValueCalculator>();
-            kernel.Bind<IDiscountHelper>().To<DefaultDiscountHelper>().WithConstructorArgument("discountParam", 50M);
+
+            kernel.Bind<IDiscountHelper>()
+                .To<DefaultDiscountHelper>()
+                .WithConstructorArgument("discountParam", 50M);
+
+            kernel.Bind<IDiscountHelper>()
+                .To<FlexibleDiscountHelper>()
+                .WhenInjectedInto<LinqValueCalculator>();
         }
     }
 }
