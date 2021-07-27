@@ -18,10 +18,6 @@ namespace EssencialTools.Infrastructure
         BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
             >> Listing 6-18. Using the Ninject WithPropertyValue method in the NinjectDependencyResolver.cs file -> 132
             >> Listing 6-20. Specifying a constructor parameter in the NinjectDependencyresolver.cs -> 132
-
-BB USING NINJECT -> 123
-BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
->> Listing 6-20. Specifying a constructor parameter in the NinjectDependencyresolver.cs -> 132
     */
 
     public class NinjectDependencyResolver : IDependencyResolver

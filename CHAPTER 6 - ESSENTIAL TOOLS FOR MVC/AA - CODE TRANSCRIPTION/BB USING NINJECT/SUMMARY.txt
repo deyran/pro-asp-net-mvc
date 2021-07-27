@@ -116,17 +116,18 @@ BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
             ...
 
 BBGG USING CONDITIONAL BINDING -> 133
-    >> Listing 6-21. The contents of the FlexibleDiscountHelper.cs file -> 133
-    >> Listing 6-22. Using conditional binding in the NinjectDependencyResolver.cs -> 134
-        ...
-        private void AddBinding()
-        {
-            kernel.Bind<IValueCalculator>().To<LinqValueCalculator>();
-            kernel.Bind<IDiscountHelper>().To<DefaultDiscountHelper>().WithConstructorArgument("discountParam", 50M);
-            kernel.Bind<IDiscountHelper>().WithConstructorArgument("discountParam", 50M);
-            kernel.Bind<IDiscountHelper>().To<FlexibleDiscountHelper>().WhenInjectedInto<LinqValueCalculator>();
-        }
-        ...    
+    Ninject supports a number of conditional bindings methods that allows to specify which classes the kernel should use to requests for particular interfaces
+        >> Listing 6-21. The contents of the FlexibleDiscountHelper.cs file -> 133
+        >> Listing 6-22. Using conditional binding in the NinjectDependencyResolver.cs -> 134
+            ...
+            private void AddBinding()
+            {
+                kernel.Bind<IValueCalculator>().To<LinqValueCalculator>();
+                kernel.Bind<IDiscountHelper>().To<DefaultDiscountHelper>().WithConstructorArgument("discountParam", 50M);
+                kernel.Bind<IDiscountHelper>().WithConstructorArgument("discountParam", 50M);
+                kernel.Bind<IDiscountHelper>().To<FlexibleDiscountHelper>().WhenInjectedInto<LinqValueCalculator>();
+            }
+            ...    
 
 BBHH SETTING THE OBJECT SCOPE -> 134
     >> Listing 6-23. Adding a construction in the LinqValueCalculator.cs file -> 134
