@@ -14,6 +14,9 @@ namespace EssencialTools.Infrastructure
     
         BBEE CREATING CHAINS OF DEPENDENCY -> 130
             >> Listing 6-16. Binding another interface to its implementation in the NinjectDependencyResolver.cs file -> 131
+
+        BBFF SPECIFYING PROPERTY AND CONSTRUCTOR PARAMETER VALUES -> 131
+            >> Listing 6-18. Using the Ninject WithPropertyValue method in the NinjectDependencyResolver.cs file -> 132
     */
 
     public class NinjectDependencyResolver : IDependencyResolver
