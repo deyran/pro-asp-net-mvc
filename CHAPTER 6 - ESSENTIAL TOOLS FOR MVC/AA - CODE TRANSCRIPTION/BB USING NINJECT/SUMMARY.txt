@@ -48,7 +48,6 @@ BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
             >>>>>>>> IDependencyResolver is part of the System.Mvc namespace
             >>>>>>>> The MVC Framework will call the GetSevices and GetServices methods when it needs an instance of a class to services an incoming request.
             >>>>>>>> In the AddBinding method, is used to configure relationship between the IValueCalculator interface and the LinqValueCalculator class        
-
     >> REGISTER THE DEPENDECY RESOLVER -> 128
         >>>> Listing 6-12. Registering the Resolver in the NinjectWebCommom.cs file -> 128
             1 - In the "App_Start" open the NinjectWebCommon.cs file
