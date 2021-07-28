@@ -44,5 +44,4 @@ CCDD TESTING AND FIXING THE CODE -> 144
 -----------------------------------------------------------------------------------------------------------
 
 CC UNIT TESTING WITH VISUAL STUDIO -> 137
-CCDD TESTING AND FIXING THE CODE -> 144
->> Figure 6-7. The effect of implementation the feature with a bug -> 144
+>> Listing 6-26. The contents of the MinimumDiscountHelper.cs -> 137
