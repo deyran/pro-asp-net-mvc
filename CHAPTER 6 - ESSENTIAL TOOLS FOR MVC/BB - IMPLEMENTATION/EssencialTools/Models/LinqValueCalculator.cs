@@ -11,7 +11,7 @@ namespace EssencialTools.Models
     BB USING NINJECT -> 123
         BBAA UNDERSTANDING THE PROBLEM -> 123
             >> APPLYING AN INTERFACE -> 123
-            >>>> Listing 6-7. Applying an interface in the LinqValueCalculator.cs file -> 124
+                >>>> Listing 6-7. Applying an interface in the LinqValueCalculator.cs file -> 124
             
         BBEE CREATING CHAINS OF DEPENDENCY -> 130
             >> Listing 6-15. Adding a Dependency in the LinqValueCalculator.cs file -> 130

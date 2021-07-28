@@ -21,8 +21,9 @@ namespace EssencialTools.Controllers
             >> REFACTORING THE HOME CONTROLLER -> 128
                 >>>> Listing 6-13. Refactoring the controller in the HomeController.cs file -> 128
 
+        BBHH SETTING THE OBJECT SCOPE -> 134
+            >> Listing 6-24. Using multiple instance of the calculator class in the HomeController.cs -> 135
     */
-
     public class HomeController : Controller
     {
         private IValueCalculator calc;
@@ -35,7 +36,7 @@ namespace EssencialTools.Controllers
             new Product { Name = "Corner flag", Category = "Soccer", Price = 34.95M }
         };
 
-        public HomeController(IValueCalculator calcParam)
+        public HomeController(IValueCalculator calcParam, IValueCalculator calc2)
         {
             calc = calcParam;
         }
