@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Web.Mvc;
 using EssencialTools.Models;
 using Ninject;
+using Ninject.Web.Common;
 
 namespace EssencialTools.Infrastructure
 {
@@ -21,6 +22,9 @@ namespace EssencialTools.Infrastructure
 
         BBGG USING CONDITIONAL BINDING -> 133
             >> Listing 6-22. Using conditional binding in the NinjectDependencyResolver.cs -> 134
+
+        BBHH SETTING THE OBJECT SCOPE -> 134
+            >> Listing 6-25. Using the request scope in the NinjectDependencyResolver.cs file -> 135
     */
     public class NinjectDependencyResolver : IDependencyResolver
     {
@@ -44,7 +48,7 @@ namespace EssencialTools.Infrastructure
 
         private void AddBinding()
         {
-            kernel.Bind<IValueCalculator>().To<LinqValueCalculator>();
+            kernel.Bind<IValueCalculator>().To<LinqValueCalculator>().InRequestScope();
 
             kernel.Bind<IDiscountHelper>()
                 .To<DefaultDiscountHelper>()
