@@ -133,8 +133,12 @@ BBGG USING CONDITIONAL BINDING -> 133
                     .WhenInjectedInto<LinqValueCalculator>();
             }
             ...
+
 BBHH SETTING THE OBJECT SCOPE -> 134
-    >> Listing 6-23. Adding a construction in the LinqValueCalculator.cs file -> 134
+    By default, Ninject will create a new instance of each object needed to resolve each dependency whenever you request an object. To demonstrate this feature, we'll look at this behavior in the LinqValueCalculator class after the modifications in Listing 6-23
+        >> Listing 6-23. Adding a construction in the LinqValueCalculator.cs file -> 134
+
+
     >> Listing 6-24. Using multiple instance of the calculator class in the HomeController.cs -> 135
         ...
         public HomeController(IValueCalculator calcParam, IValueCalculator calc2)
@@ -151,5 +155,5 @@ BBHH SETTING THE OBJECT SCOPE -> 134
 ------------------------------------------------------------------------------
 
 BB USING NINJECT -> 123
-BBDD SETTING UP MVC DEPENDENCY INJECTION -> 127
->> REGISTER THE DEPENDECY RESOLVER -> 128
+BBHH SETTING THE OBJECT SCOPE -> 134
+>> Listing 6-23. Adding a construction in the LinqValueCalculator.cs file -> 134    

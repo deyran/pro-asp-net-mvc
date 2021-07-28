@@ -22,7 +22,6 @@ namespace EssencialTools.Infrastructure
         BBGG USING CONDITIONAL BINDING -> 133
             >> Listing 6-22. Using conditional binding in the NinjectDependencyResolver.cs -> 134
     */
-
     public class NinjectDependencyResolver : IDependencyResolver
     {
         private IKernel kernel;
