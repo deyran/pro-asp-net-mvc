@@ -1,5 +1,9 @@
 CC UNIT TESTING WITH VISUAL STUDIO -> 137
-    >> Listing 6-26. The contents of the MinimumDiscountHelper.cs -> 137
+    In this book, the test package that will be used is NUnit due to integration with the rest of the IDE. To demonstrate this support, a new implementation of the IDiscountHelper interface will be created, and it will be called MinimumDiscountHelper.cs. As seen in Listing 6-26
+        
+        >> Listing 6-26. The contents of the MinimumDiscountHelper.cs -> 137
+
+    The MinimumDiscountHelper.cs class is not yet implemented, The Test Driven Development (TDD) approach of writing the unit test will be used and only then will the code be implemented
 
 CCAA CREATING THE UNIT TEST PROJECT -> 137
     >> Figure 6-4. Creating the unit test project -> 138
