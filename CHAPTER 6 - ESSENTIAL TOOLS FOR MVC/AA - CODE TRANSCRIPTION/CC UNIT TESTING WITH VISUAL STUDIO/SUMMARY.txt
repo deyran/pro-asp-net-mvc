@@ -19,12 +19,13 @@ CCAA CREATING THE UNIT TEST PROJECT -> 137
         1 - Set the project name to "EssencialTools.Tests"
         2 - Click on the Create button
     
-    >> Figure 6-5. Adding a reference to the MVC project -> 138
-        It's necessary to give the test project a reference to the application project so that it can access the classes and perform tests upon them.
-            1 - Right-click the References item for the EssentialTools.Tests project;
-            2 - Add Reference from the pop-up menu.
+    >> It's necessary to give the test project a reference to the application project so that it can access the classes and perform tests upon them
+        >>>> Figure 6-5. Adding a reference to the MVC project -> 138
+            1 - Right-click on the EssentialTools.Tests project;
+            2 - Choose "Add" > "Reference ..."
             3 - Click Solution in the left panel
-            4 - Check the box to the EssentialTools    
+            4 - Check the box to the EssentialTools
+            5 - Click on the Ok buttons            
 
 CCBB CREATING THE UNIT TESTS -> 139
     >> Listing 6-27. Adding the Test methods to the UnitTest1.cs file -> 139
@@ -55,5 +56,4 @@ CCDD TESTING AND FIXING THE CODE -> 144
 
 CC UNIT TESTING WITH VISUAL STUDIO -> 137
 CCAA CREATING THE UNIT TEST PROJECT -> 137
->> Figure 6-4A. Creating the unit test project
->> Figure 6-4B. On the "Configure your new project" screen, follow these steps:
+>>>> Figure 6-5. Adding a reference to the MVC project -> 138
