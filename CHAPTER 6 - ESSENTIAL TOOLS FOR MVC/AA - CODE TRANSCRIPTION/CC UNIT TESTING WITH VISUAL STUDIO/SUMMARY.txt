@@ -55,5 +55,5 @@ CCDD TESTING AND FIXING THE CODE -> 144
 -----------------------------------------------------------------------------------------------------------
 
 CC UNIT TESTING WITH VISUAL STUDIO -> 137
-CCAA CREATING THE UNIT TEST PROJECT -> 137
->>>> Figure 6-5. Adding a reference to the MVC project -> 138
+CCBB CREATING THE UNIT TESTS -> 139
+>> Listing 6-27. Adding the Test methods to the UnitTest1.cs file -> 139    
