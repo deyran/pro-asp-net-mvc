@@ -39,6 +39,9 @@ CCBB CREATING THE UNIT TESTS -> 139
             2. The Act section invokes the method under test with the arranged paramenters.
             3. The Aseert section verifies that the action of the method under test behaves as expected.
 
+            FONTE: https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019
+            DATE: 08-11-21
+
     >> Listing 6-28. Defining the Remaining tests in the UnitTest1.cs file -> 141
 
 CCCC RUNNING THE UNIT TESTS (AND FAILING) -> 142
