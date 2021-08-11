@@ -29,9 +29,15 @@ CCAA CREATING THE UNIT TEST PROJECT -> 137
 
 CCBB CREATING THE UNIT TESTS -> 139
     >> Listing 6-27. Adding the Test methods to the UnitTest1.cs file -> 139
-        >>>> A class that contains tests is annotated with the TestClass attribute. 
-        >>>> Individual tests are methods annotated with the TestMethod attribute.
-        >>>> Methods without TestMethod attribute Visual Studio will not treat it as a unit test
+        1. A class that contains tests is annotated with the TestClass attribute. 
+        2. Individual tests are methods annotated with the TestMethod attribute.
+        3. Methods without TestMethod attribute Visual Studio will not treat it as a unit test
+    
+    >> The AAA (Arrange, Act, Assert) pattern
+        The AAA pattern is a common way of writing unit for a method under test.
+            1. The Arrange section of a unit test method initializes objects and sets the value of the data that is passed to the method under test.
+            2. The Act section invokes the method under test with the arranged paramenters.
+            3. The Aseert section verifies that the action of the method under test behaves as expected.
 
     >> Listing 6-28. Defining the Remaining tests in the UnitTest1.cs file -> 141
 
@@ -56,4 +62,4 @@ CCDD TESTING AND FIXING THE CODE -> 144
 
 CC UNIT TESTING WITH VISUAL STUDIO -> 137
 CCBB CREATING THE UNIT TESTS -> 139
->> Listing 6-27. Adding the Test methods to the UnitTest1.cs file -> 139    
+>> The AAA (Arrange, Act, Assert) pattern
