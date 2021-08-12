@@ -33,14 +33,18 @@ CCBB CREATING THE UNIT TESTS -> 139
         2. Individual tests are methods annotated with the TestMethod attribute.
         3. Methods without TestMethod attribute Visual Studio will not treat it as a unit test
     
-    >> The AAA (Arrange, Act, Assert) pattern
-        The AAA pattern is a common way of writing unit for a method under test.
-            1. The Arrange section of a unit test method initializes objects and sets the value of the data that is passed to the method under test.
-            2. The Act section invokes the method under test with the arranged paramenters.
-            3. The Aseert section verifies that the action of the method under test behaves as expected.
+        >>>> The AAA (Arrange, Act, Assert) pattern
+            The AAA pattern is a common way of writing unit for a method under test.
+                1. The Arrange section of a unit test method initializes objects and sets the value of the data that is passed to the method under test.
+                2. The Act section invokes the method under test with the arranged paramenters.
+                3. The Aseert section verifies that the action of the method under test behaves as expected.
 
-            FONTE: https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019
-            DATE: 08-11-21
+                FONTE: https://docs.microsoft.com/en-us/visualstudio/test/unit-test-basics?view=vs-2019
+                DATE: 08-11-21
+
+        >>>> There are countless conventions about how to name unit tests, but my advice is simply that you use names that make it clear what test is checking. The unit test method used in the listing 6-27 was Discount_Above_100, which is clear and meaningful.
+
+        >>>> The Assert class has a range of static methods that you can use in your tests. The class is in the Microsoft.VisualStudio.TestTools.UnitTesting namespace along with some additional classes that can be useful for setting up and performing tests.
 
     >> Listing 6-28. Defining the Remaining tests in the UnitTest1.cs file -> 141
 
@@ -65,4 +69,4 @@ CCDD TESTING AND FIXING THE CODE -> 144
 
 CC UNIT TESTING WITH VISUAL STUDIO -> 137
 CCBB CREATING THE UNIT TESTS -> 139
->> The AAA (Arrange, Act, Assert) pattern
+>> Listing 6-28. Defining the Remaining tests in the UnitTest1.cs file -> 141
