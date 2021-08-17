@@ -16,8 +16,8 @@ DDAA UNDERSTANDING THE PROBLEM -> 146
     >> Listing 6-31. The contents of the LinqValueCalculator.cs file -> 146
 
     >> Listing 6-32. Add a Unit Test for the ShoppingCart class in the UnitTest2.cs file -> 146
-        The purpose of the UnitTest2.cs class is to test the LinqValueCalculator.cs class
-            ... Steps to create a UnitTest2.cs ....
+        1. Right-click on the "EssentialTools.Test"
+        2. Add > Unit Test        
 
 DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
 
