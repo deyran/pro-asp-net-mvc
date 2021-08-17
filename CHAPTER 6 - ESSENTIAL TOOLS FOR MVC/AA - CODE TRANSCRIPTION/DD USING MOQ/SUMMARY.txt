@@ -9,12 +9,18 @@ DD USING MOQ -> 145
         3 - Narrow the focus, so that you only examine the functionality in which you are interested
 
 DDAA UNDERSTANDING THE PROBLEM -> 146
+    The purpose of this section is:
+        1. Demonstrate the problem to fix
+        2. Use unit test using class LinqValueCalculator 
+    
     >> Listing 6-31. The contents of the LinqValueCalculator.cs file -> 146
+
     >> Listing 6-32. Add a Unit Test for the ShoppingCart class in the UnitTest2.cs file -> 146
         The purpose of the UnitTest2.cs class is to test the LinqValueCalculator.cs class
             ... Steps to create a UnitTest2.cs ....
 
 DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
+
 DDCC A MOCK OBJECT TO A UNIT TEST -> 147
     >> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
 
@@ -60,5 +66,4 @@ DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
 -----------------------------------------------------------------------------------------------------------
 
 DD USING MOQ -> 145
-DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
->> Listing 6-34. Mocking the behavior of the MinimumDiscountHelper class in the UnitTest2.cs file -> 151
+DDAA UNDERSTANDING THE PROBLEM -> 146
