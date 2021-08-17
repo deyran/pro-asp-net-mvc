@@ -49,7 +49,7 @@ namespace EssentialTools.Test
 			Assert.AreEqual(95, HundredDollarDiscount, "$100 discount is wrong");
 			Assert.AreEqual(45, FiftyDollarDiscount, "$50 discount is wrong");
 		}
-
+			
 		[TestMethod]
 		public void Discount_Less_Than_10()
 		{

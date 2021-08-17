@@ -64,5 +64,5 @@ CCDD TESTING AND FIXING THE CODE -> 144
 -----------------------------------------------------------------------------------------------------------
 
 CC UNIT TESTING WITH VISUAL STUDIO -> 137
-CCCC RUNNING THE UNIT TESTS (AND FAILING) -> 142
->> Figure 6-6. Running the tests in the project -> 143
+CCDD TESTING AND FIXING THE CODE -> 144
+>> Listing 6-30. Fixing the feature code in the MinimumDiscountHelper.cs file -> 144

@@ -9,6 +9,9 @@ namespace EssencialTools.Models
     CCCC RUNNING THE UNIT TESTS (AND FAILING) -> 142
         >> IMPLEMENTING THE FEATURE -> 143
             >>>> Listing 6-29. The contents of the MinimumDiscountHelper.cs file -> 143
+    
+    CCDD TESTING AND FIXING THE CODE -> 144
+        >> Listing 6-30. Fixing the feature code in the MinimumDiscountHelper.cs file -> 144
     */
     public class MinimumDiscountHelper : IDiscountHelper
     {
@@ -22,7 +25,7 @@ namespace EssencialTools.Models
             {
                 return totalParam * 0.9M;
             }
-            else if (totalParam > 10 && totalParam <= 100)
+            else if (totalParam >= 10 && totalParam <= 100)
             {
                 return totalParam - 5;
             }
