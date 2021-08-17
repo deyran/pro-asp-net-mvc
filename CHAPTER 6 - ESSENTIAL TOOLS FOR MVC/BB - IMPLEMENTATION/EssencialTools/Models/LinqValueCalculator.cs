@@ -18,6 +18,10 @@ namespace EssencialTools.Models
 
         BBHH SETTING THE OBJECT SCOPE -> 134
             >> Listing 6-23. Adding a construction in the LinqValueCalculator.cs file -> 134
+
+    DD USING MOQ -> 145
+        DDAA UNDERSTANDING THE PROBLEM -> 146
+            >> Listing 6-31. The contents of the LinqValueCalculator.cs file -> 146    
     */
     public class LinqValueCalculator : IValueCalculator
     {
