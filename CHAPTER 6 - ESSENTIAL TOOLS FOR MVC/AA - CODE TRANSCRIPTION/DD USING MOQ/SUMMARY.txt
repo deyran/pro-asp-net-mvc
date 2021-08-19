@@ -28,11 +28,12 @@ DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
 DDCC A MOCK OBJECT TO A UNIT TEST -> 147
     >> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
 
-    >> CREATING A MOCK OBJECT -> 148
-        Creating the strongly typed Mock object
+        >> CREATING A MOCK OBJECT -> 148
         ...
         Mock<IDiscountHelper> mock = new Mock<IDiscountHelper>();
         ...
+        
+        A strongly typed Mock<IDiscountHelper> object was created, which tells the Moq library the type it will be handling        
 
     >> SELECTING A METHOD -> 149
         [...] Specify the way that it behaves [...]
@@ -70,6 +71,5 @@ DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
 -----------------------------------------------------------------------------------------------------------
 
 DD USING MOQ -> 145
-DDAA UNDERSTANDING THE PROBLEM -> 146
-    >> Listing 6-32. Add a Unit Test for the ShoppingCart class in the UnitTest2.cs file -> 146
-DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
+DDCC A MOCK OBJECT TO A UNIT TEST -> 147
+>> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147

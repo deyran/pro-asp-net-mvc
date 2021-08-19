@@ -2,9 +2,19 @@
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 using EssencialTools.Models;
 using System.Linq;
+using Moq;
 
 namespace EssencialTools.Tests
 {
+    /*
+    DD USING MOQ -> 145
+        DDAA UNDERSTANDING THE PROBLEM -> 146
+            >> Listing 6-32. Add a Unit Test for the ShoppingCart class in the UnitTest2.cs file -> 146
+
+        DDCC A MOCK OBJECT TO A UNIT TEST -> 147
+            >> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
+     */
+
     [TestClass]
     public class UnitTest2
     {
@@ -20,15 +30,17 @@ namespace EssencialTools.Tests
         public void Sum_Products_Correctly()
         {
             // arrange
-            var discounter = new MinimumDiscountHelper();
-            var target = new LinqValueCalculator(discounter);
-            var goalTotal = products.Sum(e => e.Price);
+            Mock<IDiscountHelper> mock = new Mock<IDiscountHelper>();
+            mock.Setup(m => m.ApplyDiscount(It.IsAny<decimal>()))
+                .Returns<decimal>(total => total);
+
+            var target = new LinqValueCalculator(mock.Object);
 
             // act
             var result = target.ValueProducts(products);
 
             // assert
-            Assert.AreEqual(goalTotal, result);
+            Assert.AreEqual(products.Sum(e => e.Price), result);
         }
 
         [TestMethod]
