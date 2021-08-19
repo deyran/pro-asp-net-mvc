@@ -20,6 +20,10 @@ DDAA UNDERSTANDING THE PROBLEM -> 146
         2. Add > Unit Test        
 
 DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
+    1. On the top menu choose Tools > NuGet Package Manager > Package Manager Console
+    2. In "Default project" choose "EssentialTools.Tests"
+    3. Enter the following command
+        Install-Package Moq -version 4.1.1309.1617
 
 DDCC A MOCK OBJECT TO A UNIT TEST -> 147
     >> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
@@ -67,3 +71,5 @@ DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
 
 DD USING MOQ -> 145
 DDAA UNDERSTANDING THE PROBLEM -> 146
+    >> Listing 6-32. Add a Unit Test for the ShoppingCart class in the UnitTest2.cs file -> 146
+DDBB ADDING MOQ TO THE VISUAL STUDIO PROJECT -> 147
