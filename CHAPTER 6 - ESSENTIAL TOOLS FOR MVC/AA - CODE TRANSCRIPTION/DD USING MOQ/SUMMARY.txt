@@ -71,5 +71,5 @@ DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
 -----------------------------------------------------------------------------------------------------------
 
 DD USING MOQ -> 145
-DDCC A MOCK OBJECT TO A UNIT TEST -> 147
->> Listing 6-33. Using a Mock object in a Unit Test in the UnitTest2.cs file -> 147
+DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
+>> Listing 6-34. Mocking the behavior of the MinimumDiscountHelper class in the UnitTest2.cs file -> 151

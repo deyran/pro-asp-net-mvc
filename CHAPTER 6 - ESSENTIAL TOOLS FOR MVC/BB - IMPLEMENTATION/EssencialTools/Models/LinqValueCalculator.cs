@@ -21,7 +21,10 @@ namespace EssencialTools.Models
 
     DD USING MOQ -> 145
         DDAA UNDERSTANDING THE PROBLEM -> 146
-            >> Listing 6-31. The contents of the LinqValueCalculator.cs file -> 146    
+            >> Listing 6-31. The contents of the LinqValueCalculator.cs file -> 146
+
+        DDDD CREATING A MORE COMPLEX MOCK OBJECT -> 150
+        >> Listing 6-34. Mocking the behavior of the MinimumDiscountHelper class in the UnitTest2.cs file -> 151
     */
     public class LinqValueCalculator : IValueCalculator
     {
