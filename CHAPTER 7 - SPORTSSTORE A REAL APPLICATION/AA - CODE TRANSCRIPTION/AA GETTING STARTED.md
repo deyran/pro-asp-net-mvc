@@ -3,9 +3,6 @@
     The most important goal of this chapter is to build a simple yet realistic e-commerce application
   </li>
   <li>
-    The project from chapter 6 (named SportStore) will be used.
-  </li>
-  <li>
     These features will be implemented:
     <ol>
       <li>Online product catalog that customers can brower by category and page</li>
