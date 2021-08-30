@@ -22,6 +22,18 @@
 <br /><h1>GETTING STARTED</h1>
 
 <h2><i>CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS</i></h2>
+
+<ul>
+  <li>
+    A visual studio solution containing three projects will be created:
+    <ol>
+      <li>Domain model</li>
+      <li>MVC application</li>
+      <li>Unit tests</li>
+    </ol>
+  </li>
+</ul>
+
 <h2><i>INSTALING THE TOOL PACKAGES</i><h2>
 <h2><i>ADDING REFERENCES BETWEEN PROJECTS</i><h2>
 <h2><i>SETTING UP THE DI CONTAINER</i><h2>
