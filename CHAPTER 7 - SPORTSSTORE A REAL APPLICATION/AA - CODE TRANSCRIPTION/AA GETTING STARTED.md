@@ -34,8 +34,10 @@
     Create a new Visual studio solution called SportStore using the Blank Soluction template:
     <ol>
       <li>File -> New -> Project</li>
-      <li>Type "Blank Solution" to search for, as shown in Figure 7.1</li>
-      <li>AAAAAA</li>
+      <li>
+        Type "Blank Solution" to search for, as shown in Figure 7.1<br />
+        <img src="Figure 7_1.png" />
+      </li>
     </ol>    
   </li>
 </ul>
