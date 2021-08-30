@@ -35,7 +35,7 @@
     <ol>
       <li>File -> New -> Project</li>
       <li>
-        Type "Blank Solution" to search for, as shown in Figure 7.1A<br />
+        Type "Blank Solution" to search for and click Next, as shown in Figure 7.1A<br />
         <img src="Figure 7_1.png" /><br />
         <i><strong>Figure 7-1A</strong></i>. Creating a new Visual Studio Solution
         <br /><br />
