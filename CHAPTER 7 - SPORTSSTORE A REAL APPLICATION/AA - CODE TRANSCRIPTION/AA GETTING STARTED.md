@@ -29,6 +29,15 @@
       <li>Unit tests</li>
     </ol>
   </li>
+
+  <li>
+    Create a new Visual studio solution called SportStore using the Blank Soluction template:
+    <ol>
+      <li>File -> New -> Project</li>
+      <li>Type "Blank Solution" to search for, as shown in Figure 7.1</li>
+      <li>AAAAAA</li>
+    </ol>    
+  </li>
 </ul>
 
 <h2><i>INSTALING THE TOOL PACKAGES</i><h2>
