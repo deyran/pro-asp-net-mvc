@@ -35,9 +35,15 @@
     <ol>
       <li>File -> New -> Project</li>
       <li>
-        Type "Blank Solution" to search for, as shown in Figure 7.1<br />
+        Type "Blank Solution" to search for, as shown in Figure 7.1A<br />
         <img src="Figure 7_1.png" /><br />
-        <center><i><strong>Figure 7-1A</strong></i>. Creating a new Visual Studio Solution</center>
+        <i><strong>Figure 7-1A</strong></i>. Creating a new Visual Studio Solution
+        <br /><br />
+      </li>
+      <li>
+        In the second screen type "SportsStore" and click create, as shown in Figure 7.1B<br />
+        <img src="Figure 7_1B.png" /><br />
+        <i><strong>Figure 7-1B</strong></i>. Creating a new Visual Studio Solution called SportsStore<br />
       </li>
     </ol>    
   </li>
