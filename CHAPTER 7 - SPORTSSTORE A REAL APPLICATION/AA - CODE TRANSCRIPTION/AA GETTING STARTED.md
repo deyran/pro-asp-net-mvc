@@ -24,11 +24,28 @@
   <li>
     A visual studio solution containing three projects will be created:
     <ol>
-      <li>Domain model</li>
-      <li>MVC application</li>
-      <li>Unit tests</li>
+      <li>
+        Domain model -> <i>SportsStore.Domain (Class Library)</i><br />
+        <ol>
+          <li>Domain entities and Logic</li>
+          <li>Persistence</li>
+          <li>Entity Framework</li>
+        </ol>
+      </li>
+      <li>
+        MVC application -> <i>ASP.NET MVC Web Application</i><br />
+        <ol>
+          <li>Controllers</li>
+          <li>Views</li>
+          <li>UI for the SportsStore Application</li>
+        </ol>        
+      </li>
+      <li>
+        Unit tests -> <i>SportsStore.UnitTests</i><br />
+        &nbsp&nbspHolds the unit tests for the other two projects
+      </li>
     </ol>
-  </li>
+  </li><br />
 
   <li>
     Create a new Visual studio solution called SportStore using the Blank Soluction template:
@@ -36,7 +53,7 @@
       <li>File -> New -> Project</li>
       <li>
         Type "Blank Solution" to search for and click Next, as shown in Figure 7.1A<br />
-        <img src="Figure 7_1.png" /><br />
+        <img src="Figure 7_1.png" width=850px /><br />
         <i><strong>Figure 7-1A</strong></i>. Creating a new Visual Studio Solution
         <br /><br />
       </li>
