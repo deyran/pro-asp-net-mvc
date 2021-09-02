@@ -48,21 +48,39 @@
   </li><br />
 
   <li>
-    Create a new Visual studio solution called SportStore using the Blank Soluction template:
+    Create a new Visual studio solution called <b>SportStore</b> using the Blank Soluction template. For this example will required three projects:
     <ol>
       <li>File -> New -> Project</li>
       <li>
-        Type "Blank Solution" to search for and click Next, as shown in Figure 7.1A<br />
+        Type <b>Blank Solution</b> to search for and click <b>Next</b>, as shown in Figure 7.1A<br />
         <img src="Figure 7_1.png" width=850px /><br />
         <i><strong>Figure 7-1A</strong></i>. Creating a new Visual Studio Solution
         <br /><br />
       </li>
       <li>
-        In the second screen type "SportsStore" and click create, as shown in Figure 7.1B<br />
+        In the second screen type <b>SportsStore</b> and click <b>Create</b>, as shown in Figure 7.1B<br />
         <img src="Figure 7_1B.png" /><br />
         <i><strong>Figure 7-1B</strong></i>. Creating a new Visual Studio Solution called SportsStore<br />
       </li>
-    </ol>    
+    </ol><br />
+  </li>
+
+  <li>
+    To create <b>Domain model -> SportsStore.Domain (Class Library)</b>, follows these steps:
+    <ol>
+      <li>Right-click on the <b>SportsStore</b> in <b>Solution Explorer</b></li>
+      <li>Choose -> <b>Add</b> and <b>New Project</b></li>
+      <li>
+        On screen <b>Add a new project</b>  type <b>Console App C#</b>, choose <b>Console Application C#</b> and click <b>Next</b>, as shown in the picture below:<br />
+        <img src="Figure 7_1C.png" /><br />
+        <i><strong>Figure 7-1C</strong></i>. Creating SportsStore.Domain project<br />
+      </li>
+      <li>
+        Now choose <b>.NET 5.0 (Current)</b> and click <b>Create</b>, as shown in the picture below:<br />
+        <img src="Figure 7_1D.png" /><br />
+        <i><strong>Figure 7-1D</strong></i>. Ending the process<br />
+      </li>
+    </ol>
   </li>
 </ul>
 
