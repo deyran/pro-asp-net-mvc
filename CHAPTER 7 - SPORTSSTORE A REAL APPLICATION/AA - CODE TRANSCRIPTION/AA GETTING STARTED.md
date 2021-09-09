@@ -74,14 +74,14 @@
       <li>Right-click on the <b>SportsStore</b> in <b>Solution Explorer</b></li>
       <li>Choose -> <b>Add</b> and <b>New Project</b></li>
       <li>
-        On screen <b>Add a new project</b>  type <b>Console App C#</b>, choose <b>Console Application C#</b> and click <b>Next</b>, as shown in the picture below:<br />
+        On screen <b>Add a new project</b>  type <b>Console Application C#</b>, choose <b>Console App (.NET Framework)</b> and click <b>Next</b>, as shown in the picture below:<br />
         <img src="Figure 7_1C.png" /><br />
-        <i><strong>Figure 7-1C</strong></i>. Creating SportsStore.Domain project<br />
+        <i><strong>Figure 7-1C</strong></i>. Creating SportsStore.Domain project<br /><br />
       </li>
       <li>
-        Now choose <b>.NET 5.0 (Current)</b> and click <b>Create</b>, as shown in the picture below:<br />
+        On screen <b>Configure your new project</b> and in the <b>Project name</b> field type <b>SportsStore.Domain</b> and click <b>Create</b>, as shown in the picture below:<br />
         <img src="Figure 7_1D.png" /><br />
-        <i><strong>Figure 7-1D</strong></i>. Ending the process<br />
+        <i><strong>Figure 7-1D</strong></i>. Creating SportsStore.Domain project - Ending the process<br />
       </li>
     </ol>
   </li>
