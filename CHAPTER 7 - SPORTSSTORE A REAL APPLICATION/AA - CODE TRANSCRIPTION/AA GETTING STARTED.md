@@ -22,6 +22,9 @@
 
 <ul>
   <li>
+    "A solution is simply a container used by Visual Studio to organize one or more projects [...]".<br />
+    &nbsp;&nbsp;&nbsp;&nbsp;Font: <a href="https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2019">Visual Studio documentation->Solution</a> <br />
+    &nbsp;&nbsp;&nbsp;&nbsp;Date: 09-08-21<br /><br />
     A visual studio solution containing three projects will be created:
     <ol>
       <li>
