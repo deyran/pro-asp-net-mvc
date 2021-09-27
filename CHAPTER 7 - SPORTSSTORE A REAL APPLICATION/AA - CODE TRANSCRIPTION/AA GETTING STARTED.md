@@ -93,8 +93,16 @@
       <li>Choose -> <b>Add</b> and <b>New Project</b></li>
       <li>On screen Add a new project type <b>MVC</b>, choose <b>ASP.NET Web Application (.NET Framework)</b> and click Next, as shown in the picture below:<br />
         <img src="Figure 7_1E.png" /><br />
-        <i><strong>Figure 7-1E</strong></i>. Creating SportsStore.WebUI project<br />
+        <i><strong>Figure 7-1E</strong></i>. Creating SportsStore.WebUI project<br /><br />
       </li>
+      <li>
+        In the second screen type <b>SportsStore.WebUI</b> and click <b>Create</b>, as shown in Figure 7.1F<br />
+        <img src="Figure 7_1F.png" /><br />
+        <i><strong>Figure 7-1F</strong></i>. Creating SportsStore.WebUI project - Ending the process<br /><br />
+      </li>
+      <li>In the third screen (Create a new ASP.NET Web Application),  on right side choose <b>Empty</b> template, in left side (Add folders & core references) choose <b>MVC</b> and in <b>Advanced </b> choose <b>Also create a project for unit tests</b> and type <b>SportsStore.UnitTests</b>, as shown in Figure 7.1G<br />
+        <img src="Figure 7_1G.png" /><br />
+        <i><strong>Figure 7-1G</strong></i>. Creating projects SportsStore.WebUI and SportsStore.UnitTests  - Ending the process<br /><br />
     </ol>
   </li>
 </ul>
