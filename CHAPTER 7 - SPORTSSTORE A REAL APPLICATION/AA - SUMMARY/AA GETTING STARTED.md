@@ -87,7 +87,7 @@
   </li><br />
 
   <li>
-    To create <b>Domain model -> SportsStore.WebUI (MVC application)</b>, follows these steps:
+    To create <b>MVC application -> SportsStore.WebUI</b>, follows these steps:
     <ol>
       <li>Right-click on the <b>SportsStore</b> in <b>Solution Explorer</b></li>
       <li>Choose -> <b>Add</b> and <b>New Project</b></li>
