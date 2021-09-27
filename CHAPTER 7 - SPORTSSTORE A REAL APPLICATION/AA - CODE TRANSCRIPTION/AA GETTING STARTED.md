@@ -105,6 +105,13 @@
         <i><strong>Figure 7-1G</strong></i>. Creating projects SportsStore.WebUI and SportsStore.UnitTests  - Ending the process<br /><br />
     </ol>
   </li>
+
+  <li>
+    After creating the three projects, the Solution Explorer looks like Figure 7-2<br />
+    <img src="Figure 7_2.png" /><br />
+    <i><strong>Figure 7-2</strong></i>. The projects shown in the Solution Explorer window<br /><br />
+  </li><br />
+
 </ul>
 
 <h2><i>INSTALING THE TOOL PACKAGES</i><h2>
