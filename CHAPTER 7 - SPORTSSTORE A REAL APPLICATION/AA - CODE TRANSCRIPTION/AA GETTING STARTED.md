@@ -84,6 +84,18 @@
         <i><strong>Figure 7-1D</strong></i>. Creating SportsStore.Domain project - Ending the process<br />
       </li>
     </ol>
+  </li><br />
+
+  <li>
+    To create <b>Domain model -> SportsStore.WebUI (MVC application)</b>, follows these steps:
+    <ol>
+      <li>Right-click on the <b>SportsStore</b> in <b>Solution Explorer</b></li>
+      <li>Choose -> <b>Add</b> and <b>New Project</b></li>
+      <li>On screen Add a new project type <b>MVC</b>, choose <b>ASP.NET Web Application (.NET Framework)</b> and click Next, as shown in the picture below:<br />
+        <img src="Figure 7_1E.png" /><br />
+        <i><strong>Figure 7-1E</strong></i>. Creating SportsStore.WebUI project<br />
+      </li>
+    </ol>
   </li>
 </ul>
 
