@@ -111,7 +111,17 @@
     <img src="Pictures/Figure 7_2.png" /><br />
     <i><strong>Figure 7-2</strong></i>. The projects shown in the Solution Explorer window<br /><br />
   </li>
+
+  <li>
+    <h3><i>Selecting a StartUp Project</i><h3>
+    The startup project is the project that will be executed by default when you click the start button or F5. To mark SportsStore.WebUI as default project follow these steps:<br />
+    <ol>
+      <li>Right-click the <b>SportsStore.WebUI</b> project</li>
+      <li>Select <b>Set as Startup Project</b></li>
+    </ol>
+  </li>
 </ul>
+
 
 <h2><i>INSTALING THE TOOL PACKAGES</i><h2>
 <h2><i>ADDING REFERENCES BETWEEN PROJECTS</i><h2>
