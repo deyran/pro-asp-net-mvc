@@ -16,7 +16,7 @@
   <li>The topics in this chapter are just an introduction that will be seen on other chapters</li>
 </ul>
 
-<br /><h1>GETTING STARTED</h1>
+<h1>GETTING STARTED</h1>
 
 <h2><i>CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS</i></h2>
 
