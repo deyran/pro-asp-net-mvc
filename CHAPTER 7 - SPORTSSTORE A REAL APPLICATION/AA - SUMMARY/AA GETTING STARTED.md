@@ -48,8 +48,10 @@
         &nbsp&nbspHolds the unit tests for the other two projects
       </li>
     </ol>
-  </li><br />
+  </li>
+</ul>
 
+<ul>
   <li>
     Create a new Visual studio solution called <b>SportStore</b> using the Blank Soluction template. For this example will required three projects:
     <ol>
@@ -67,8 +69,10 @@
       </li>
     </ol><br />
   </li>
+</ul>
 
-  <li>
+<ul>
+ <li>
     To create <b>Domain model -> SportsStore.Domain (Class Library)</b>, follows these steps:
     <ol>
       <li>Right-click on the <b>SportsStore</b> in <b>Solution Explorer</b></li>
@@ -84,34 +88,40 @@
         <i><strong>Figure 7-1D</strong></i>. Creating SportsStore.Domain project - Ending the process<br />
       </li>
     </ol>
-  </li><br />
-
-  <li>
-    To create <b>MVC application -> SportsStore.WebUI</b>, follows these steps:
-    <ol>
-      <li>Right-click on the <b>SportsStore</b> in <b>Solution Explorer</b></li>
-      <li>Choose -> <b>Add</b> and <b>New Project</b></li>
-      <li>On screen Add a new project type <b>MVC</b>, choose <b>ASP.NET Web Application (.NET Framework)</b> and click Next, as shown in the picture below:<br />
-        <img src="Pictures/Figure 7_1E.png" /><br />
-        <i><strong>Figure 7-1E</strong></i>. Creating SportsStore.WebUI project<br /><br />
-      </li>
-      <li>
-        In the second screen type <b>SportsStore.WebUI</b> and click <b>Create</b>, as shown in Figure 7.1F<br />
-        <img src="Pictures/Figure 7_1F.png" /><br />
-        <i><strong>Figure 7-1F</strong></i>. Creating SportsStore.WebUI project - Ending the process<br /><br />
-      </li>
-      <li>In the third screen (Create a new ASP.NET Web Application),  on right side choose <b>Empty</b> template, in left side (Add folders & core references) choose <b>MVC</b> and in <b>Advanced </b> choose <b>Also create a project for unit tests</b> and type <b>SportsStore.UnitTests</b>, as shown in Figure 7.1G<br />
-        <img src="Pictures/Figure 7_1G.png" /><br />
-        <i><strong>Figure 7-1G</strong></i>. Creating projects SportsStore.WebUI and SportsStore.UnitTests  - Ending the process<br /><br />
-    </ol>
   </li>
+</ul>
 
+<ul>
+  <li>
+      To create <b>MVC application -> SportsStore.WebUI</b>, follows these steps:
+      <ol>
+        <li>Right-click on the <b>SportsStore</b> in <b>Solution Explorer</b></li>
+        <li>Choose -> <b>Add</b> and <b>New Project</b></li>
+        <li>On screen Add a new project type <b>MVC</b>, choose <b>ASP.NET Web Application (.NET Framework)</b> and click Next, as shown in the picture below:<br />
+          <img src="Pictures/Figure 7_1E.png" /><br />
+          <i><strong>Figure 7-1E</strong></i>. Creating SportsStore.WebUI project<br /><br />
+        </li>
+        <li>
+          In the second screen type <b>SportsStore.WebUI</b> and click <b>Create</b>, as shown in Figure 7.1F<br />
+          <img src="Pictures/Figure 7_1F.png" /><br />
+          <i><strong>Figure 7-1F</strong></i>. Creating SportsStore.WebUI project - Ending the process<br /><br />
+        </li>
+        <li>In the third screen (Create a new ASP.NET Web Application),  on right side choose <b>Empty</b> template, in left side (Add folders & core references) choose <b>MVC</b> and in <b>Advanced </b> choose <b>Also create a project for unit tests</b> and type <b>SportsStore.UnitTests</b>, as shown in Figure 7.1G<br />
+          <img src="Pictures/Figure 7_1G.png" /><br />
+          <i><strong>Figure 7-1G</strong></i>. Creating projects SportsStore.WebUI and SportsStore.UnitTests  - Ending the process<br /><br />
+      </ol>
+    </li>
+</ul>
+
+<ul>
   <li>
     After creating the three projects, the Solution Explorer looks like Figure 7-2<br />
     <img src="Pictures/Figure 7_2.png" /><br />
     <i><strong>Figure 7-2</strong></i>. The projects shown in the Solution Explorer window<br /><br />
   </li>
+</ul>
 
+<ul>
   <li>
     <h3><i>Selecting a StartUp Project</i><h3>
     The startup project is the project that will be executed by default when you click the start button or F5. To mark SportsStore.WebUI as default project follow these steps:<br />
@@ -122,8 +132,30 @@
   </li>
 </ul>
 
-
 <h2><i>INSTALING THE TOOL PACKAGES</i><h2>
+
+<ul>
+  <li>
+    SportsStore.WebUI<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Ninject -version 3.0.1.10 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Ninject.Web.Common -version 3.0.0.7<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Ninject.MVC3 -version 3.0.0.6<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Moq -version 4.1.1309.1617 <br />
+  </li>
+  <li>
+    SportsStore.UnitTests<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Ninject -version 3.0.1.10 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Ninject.Web.Common -version 3.0.0.7  <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Ninject.MVC3 -version 3.0.0.6 <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Moq -version 4.1.1309.1617  <br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Microsoft.Aspnet.Mvc -version 5.0.0 <br />
+  </li>
+  <li>
+    SportsStore.Domain<br />
+      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Install-Package Microsoft.Aspnet.Mvc -version 5.0.0 <br />
+  </li>
+</ul>
+
 <h2><i>ADDING REFERENCES BETWEEN PROJECTS</i><h2>
 <h2><i>SETTING UP THE DI CONTAINER</i><h2>
 <h2><i>RUNNING THE APPlICATION</i><h2>
