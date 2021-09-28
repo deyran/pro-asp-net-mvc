@@ -123,8 +123,7 @@
 
 <ul>
   <li>
-    <i>Selecting a StartUp Project</i>
-    The startup project is the project that will be executed by default when you click the start button or F5. To mark SportsStore.WebUI as default project follow these steps:<br />
+    <i>Selecting a StartUp Project</i> -> The startup project is the project that will be executed by default when you click the start button or F5. To mark SportsStore.WebUI as default project follow these steps:<br />
     <ol>
       <li>Right-click the <b>SportsStore.WebUI</b> project</li>
       <li>Select <b>Set as Startup Project</b></li>
