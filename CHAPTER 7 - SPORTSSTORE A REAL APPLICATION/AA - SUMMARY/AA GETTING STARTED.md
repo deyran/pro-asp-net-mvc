@@ -108,7 +108,7 @@
         </li>
         <li>In the third screen (Create a new ASP.NET Web Application),  on right side choose <b>Empty</b> template, in left side (Add folders & core references) choose <b>MVC</b> and in <b>Advanced </b> choose <b>Also create a project for unit tests</b> and type <b>SportsStore.UnitTests</b>, as shown in Figure 7.1G<br />
           <img src="Pictures/Figure 7_1G.png" /><br />
-          <i><strong>Figure 7-1G</strong></i>. Creating projects SportsStore.WebUI and SportsStore.UnitTests  - Ending the process<br /><br />
+          <i><strong>Figure 7-1G</strong></i>. Creating projects SportsStore.WebUI and SportsStore.UnitTests  - Ending the process<br />
       </ol>
     </li>
 </ul>
@@ -117,7 +117,7 @@
   <li>
     After creating the three projects, the Solution Explorer looks like Figure 7-2<br />
     <img src="Pictures/Figure 7_2.png" /><br />
-    <i><strong>Figure 7-2</strong></i>. The projects shown in the Solution Explorer window<br /><br />
+    <i><strong>Figure 7-2</strong></i>. The projects shown in the Solution Explorer window<br />
   </li>
 </ul>
 
