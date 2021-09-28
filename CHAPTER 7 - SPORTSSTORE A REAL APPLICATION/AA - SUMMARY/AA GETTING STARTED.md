@@ -156,5 +156,10 @@
 </ul>
 
 <h2><i>ADDING REFERENCES BETWEEN PROJECTS</i></h2>
+<center>
+  To set up dependencies between projects and to some of the Microsoft assemblies -> Right-click each project in the <b>Solution Explorer</b>, select <b>Add -> Reference ...</b><br />
+  <img src="Pictures/Table 7-2.png" />
+</center>    
+
 <h2><i>SETTING UP THE DI CONTAINER</i></h2>
 <h2><i>RUNNING THE APPlICATION</i></h2>
