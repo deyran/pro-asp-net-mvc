@@ -169,6 +169,11 @@
         <b>Listing 7-1.</b> The Contents of the NinjectDependencyResolver.cs file<br />
         <img src="Pictures/Listing 7-1.png" />
       </li>
+      <li>
+        Go to the <b>App_Start </b> folder, open the <b> NinjectWebCommon.cs </b> file and implement the code shown in Listing 7-2<br />
+        <b>Listing 7-2.</b> Integrating Ninject in the NinjectWevCommon.cs file<br />
+        <img src="Pictures/Listing 7-2.png" />
+      </li>
     </ol>
 
 <h2><i>RUNNING THE APPLICATION</i></h2>

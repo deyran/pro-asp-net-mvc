@@ -53,6 +53,16 @@ namespace SportsStore.WebUI.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            /*
+             AA GETTING STARTED
+                SETTING UP THE DI CONTAINER
+                    Listing 7-2. Integrating Ninject in the NinjectWevCommon.cs file
+             */
+
+            System.Web.Mvc.DependencyResolver.SetResolver
+            (
+                new SportsStore.WebUI.Infrastructure.NinjectDependencyResolver(kernel)
+            );
         }        
     }
 }
