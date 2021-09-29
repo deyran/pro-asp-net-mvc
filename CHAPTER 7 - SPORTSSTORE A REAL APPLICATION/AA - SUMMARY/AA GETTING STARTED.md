@@ -166,7 +166,6 @@
     <ol>
       <li>In the SportsStore.WebUI create a folder called <b>Infrastructure</b></li>
       <li>
-        BB<br />
         <b>Listing 7-1.</b> The Contents of the NinjectDependencyResolver.cs file<br />
         <img src="Pictures/Listing 7-1.png" />
       </li>
