@@ -157,16 +157,19 @@
 
 <h2><i>ADDING REFERENCES BETWEEN PROJECTS</i></h2>
   To set up dependencies between projects and to some of the Microsoft assemblies -> Right-click each project in the <b>Solution Explorer</b>, select <b>Add -> Reference ...</b><br />
-  
+
   <center>  
     <img src="Pictures/Table 7-2.png" />
-  </center><br />
+  </center>
 
 <h2><i>SETTING UP THE DI CONTAINER</i></h2>
-  <pre><code>
-    function test() {
-      console.log("notice the blank line before this function?");
-    }
-  </code></pre><br />
+    <ol>
+      <li>In the SportsStore.WebUI create a folder called <b>Infrastructure</b></li>
+      <li>
+        BB<br />
+        <b>Listing 7-1.</b> The Contents of the NinjectDependencyResolver.cs file<br />
+        <img src="Pictures/Listing 7-1.png" />
+      </li>
+    </ol>
 
 <h2><i>RUNNING THE APPLICATION</i></h2>
