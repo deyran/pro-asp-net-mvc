@@ -56,7 +56,7 @@ namespace SportsStore.WebUI.App_Start
             /*
              AA GETTING STARTED
                 SETTING UP THE DI CONTAINER
-                    Listing 7-2. Integrating Ninject in the NinjectWevCommon.cs file
+                    Listing 7-2. Integrating Ninject in the NinjectWebCommon.cs file
              */
 
             System.Web.Mvc.DependencyResolver.SetResolver
