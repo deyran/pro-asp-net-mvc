@@ -156,17 +156,17 @@
 </ul>
 
 <h2><i>ADDING REFERENCES BETWEEN PROJECTS</i></h2>
-<center>
   To set up dependencies between projects and to some of the Microsoft assemblies -> Right-click each project in the <b>Solution Explorer</b>, select <b>Add -> Reference ...</b><br />
-  <img src="Pictures/Table 7-2.png" />
-</center><br />
+  
+  <center>  
+    <img src="Pictures/Table 7-2.png" />
+  </center><br />
 
 <h2><i>SETTING UP THE DI CONTAINER</i></h2>
-´´´
-function test() {
-  console.log("notice the blank line before this function?");
-}
-´´´
+  <pre><code>
+    function test() {
+      console.log("notice the blank line before this function?");
+    }
+  </code></pre><br />
 
-<br />
 <h2><i>RUNNING THE APPLICATION</i></h2>
