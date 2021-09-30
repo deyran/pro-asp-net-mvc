@@ -14,6 +14,13 @@
                 <b>Figure 7-4.</b> Creating the Product class
             </p>
         </li>
+        <li>
+            Edit the <b>Product.cs</b> class file so that it matches Listing 7-3.
+            <p align="center">
+                <img src="Pictures/Listing 7-3.png" /><br />
+                Listing 7-3. The Contents of the Products.cs file
+            </p>
+        </li>
     </ul>
 
 <h2><i>CREATING AN ABSTRACT REPOSITORY</i></h2>
