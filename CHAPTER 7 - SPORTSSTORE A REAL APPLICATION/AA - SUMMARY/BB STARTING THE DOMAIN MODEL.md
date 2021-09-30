@@ -24,4 +24,18 @@
     </ul>
 
 <h2><i>CREATING AN ABSTRACT REPOSITORY</i></h2>
+    <ul>
+        <li>
+            <b>Abstract repository</b> is a degree of separation between data model entities and store and retrieve logic that is achieved using the <b>repository pattern</b>
+        </li>
+        <li>
+            At this first moment we will not implement data persistence, but we will define an interface for it.        
+        </li>
+        <li>
+            In the SportsStore.Domain project create a folder called <b>Abstract</b>
+        </li>
+    </ul>
+
+
+
 <h2><i>MAKING A MOCK REPOSITORY</i></h2>
