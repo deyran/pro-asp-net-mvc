@@ -18,7 +18,7 @@
             Edit the <b>Product.cs</b> class file so that it matches Listing 7-3.
             <p align="center">
                 <img src="Pictures/Listing 7-3.png" /><br />
-                Listing 7-3. The Contents of the Products.cs file
+                <b>Listing 7-3.</b> The Contents of the Products.cs file
             </p>
         </li>
     </ul>
