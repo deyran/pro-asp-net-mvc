@@ -1,3 +1,20 @@
 <h1>STARTING THE DOMAIN MODEL</h1>
-<h2><i>CREATING AN ABSTRACT REPOSITORY</i><h2>
-<h2><i>MAKING A MOCK REPOSITORY</i><h2>
+    <ul>
+        <li>
+            All MVC Framework projects start with the domain model because everything in an MVC Framework application revolves around it
+        </li>
+        <li>
+            Create a new folder called <b>Entities</b> inside the <b>Sports.Domain</b>
+        </li>
+        <li>
+            Create a class called <b>Product.cs</b> and place it inside of <b>Entities</b> folder. 
+            You can see the structure in Figure 7-4.
+            <p align="center">
+                <img src="Pictures/Figure 7_4.png" /><br />
+                <b>Figure 7-4.</b> Creating the Product class
+            </p>
+        </li>
+    </ul>
+
+<h2><i>CREATING AN ABSTRACT REPOSITORY</i></h2>
+<h2><i>MAKING A MOCK REPOSITORY</i></h2>

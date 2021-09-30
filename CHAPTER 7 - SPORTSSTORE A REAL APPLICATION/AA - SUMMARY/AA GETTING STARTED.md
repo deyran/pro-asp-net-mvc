@@ -157,23 +157,18 @@
 
 <h2><i>ADDING REFERENCES BETWEEN PROJECTS</i></h2>
   To set up dependencies between projects and to some of the Microsoft assemblies -> Right-click each project in the <b>Solution Explorer</b>, select <b>Add -> Reference ...</b><br />
-
-  <center>  
-    <img src="Pictures/Table 7-2.png" />
-  </center>
+  <img src="Pictures/Table 7-2.png" />
 
 <h2><i>SETTING UP THE DI CONTAINER</i></h2>
-    <ol>
-      <li>In the SportsStore.WebUI create a folder called <b>Infrastructure</b></li>
-      <li>
-        <b>Listing 7-1.</b> The Contents of the NinjectDependencyResolver.cs file<br />
-        <img src="Pictures/Listing 7-1.png" />
-      </li>
-      <li>
-        Go to the <b>App_Start </b> folder, open the <b> NinjectWebCommon.cs </b> file and implement the code shown in Listing 7-2<br />
-        <b>Listing 7-2.</b> Integrating Ninject in the NinjectWebCommon.cs file<br />
-        <img src="Pictures/Listing 7-2.png" />
-      </li>
-    </ol>
-
-<h2><i>RUNNING THE APPLICATION</i></h2>
+<ol>
+  <li>In the SportsStore.WebUI create a folder called <b>Infrastructure</b></li>
+  <li>
+    <b>Listing 7-1.</b> The Contents of the NinjectDependencyResolver.cs file<br />
+    <img src="Pictures/Listing 7-1.png" />
+  </li>
+  <li>
+    Go to the <b>App_Start </b> folder, open the <b> NinjectWebCommon.cs </b> file and implement the code shown in Listing 7-2<br />
+    <b>Listing 7-2.</b> Integrating Ninject in the NinjectWebCommon.cs file<br />
+    <img src="Pictures/Listing 7-2.png" />
+  </li>
+</ol>
