@@ -1,1 +1,2 @@
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csprojAssemblyReference.cache
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
