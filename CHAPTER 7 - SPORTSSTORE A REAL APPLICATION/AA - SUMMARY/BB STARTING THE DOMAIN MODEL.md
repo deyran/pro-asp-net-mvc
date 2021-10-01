@@ -24,18 +24,23 @@
     </ul>
 
 <h2><i>CREATING AN ABSTRACT REPOSITORY</i></h2>
-    <ul>
-        <li>
-            <b>Abstract repository</b> is a degree of separation between data model entities and store and retrieve logic that is achieved using the <b>repository pattern</b>
-        </li>
-        <li>
-            At this first moment we will not implement data persistence, but we will define an interface for it.        
-        </li>
-        <li>
-            In the SportsStore.Domain project create a folder called <b>Abstract</b>
-        </li>
-    </ul>
-
-
+<ul>
+    <li>
+        <b>Abstract repository</b> is a degree of separation between data model entities and store and retrieve logic that is achieved using the <b>repository pattern</b>
+    </li>
+    <li>
+        At this first moment we will not implement data persistence, but we will define an interface for it.        
+    </li>
+    <li>
+        In the SportsStore.Domain project create a folder called <b>Abstract</b>
+    </li>
+    <li>
+        Implement an interface called <b> IProductRepository.cs </b>, place it in the <b> Abstract </b> folder, as shown in Listing 7-4 below.
+        <p align="center">
+            <img src="Pictures/Listing 7-4.png" /><br />
+            <b>Listing 7-4.</b> The contents of the IProductRepository.cs file. 
+        </p>
+    </li>
+</ul>
 
 <h2><i>MAKING A MOCK REPOSITORY</i></h2>
