@@ -35,7 +35,7 @@
         In the SportsStore.Domain project create a folder called <b>Abstract</b>
     </li>
     <li>
-        Implement an interface called <b> IProductRepository.cs </b>, place it in the <b> Abstract </b> folder, as shown in Listing 7-4 below.
+        Implement an interface called <b> IProductRepository.cs </b>, place it in the <b> Abstract </b> folder, as shown in Listing 7-4 below.<br />
         <p align="center">
             <img src="Pictures/Listing 7-4.png" /><br />
             <b>Listing 7-4.</b> The contents of the IProductRepository.cs file. 
