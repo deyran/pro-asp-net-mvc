@@ -44,3 +44,14 @@
 </ul>
 
 <h2><i>MAKING A MOCK REPOSITORY</i></h2>
+<ul>
+    <li>
+        Before to implementing the persistence mechanism and connecting it to a database, we will create a mock implementation. 
+        You'll see the Mock <b>IProductRepository</b> implementation in Listing 7-5.
+        <br />
+        <p align="center">
+            <img src="Pictures/Listing 7-5.png" /><br />
+            <b>Listing 7-5.</b> Adding the Mock <b>IProductRepository</b> implementation in the <b>NinjectDependencyResolver.cs</b> file
+        </p>        
+    </li>
+</ul>
