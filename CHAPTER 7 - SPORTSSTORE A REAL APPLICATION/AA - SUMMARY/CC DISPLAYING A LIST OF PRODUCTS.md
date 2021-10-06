@@ -23,7 +23,7 @@
             </ol>
         </li>
         <li>
-            The next step, a called action method will be implemented, 
+            The next step, a called action method <b>List</b> will be implemented, 
             which will render a view showing the full list of products (Listing 7-7 below):<br />
             <p align="center">
                 <img src="Pictures/Listing 7-7.png" /><br />
