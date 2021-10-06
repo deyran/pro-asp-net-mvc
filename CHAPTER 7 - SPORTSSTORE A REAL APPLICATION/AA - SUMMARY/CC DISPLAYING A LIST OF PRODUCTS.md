@@ -6,19 +6,31 @@
     </ul>
 
 <h2><i>ADDING A CONTROLLER</i></h2>
-    &nbsp;&nbsp;In the <b>Sports.WebUI</b> project, follow these steps:<br />
-    <ol>
-        <li>Right-click the <b>Controller</b> folder and select <b>Add > Contoller</b></li>
-        <li>Select <b>MVC 5 Controller - Empty</b> and click the button <b>Add</b></li>
-        <li>Set the name to <b>ProductController</b></li>
+    <ul>
         <li>
-            The implementation of <b>ProductController.cs</b> file can be seen in the Listing below:<br />
-            <p align="center">
-                <img src="Pictures/Listing 7-6.png" /><br />
-                <b>Listing 7-6.</b> The initial contents of the <b>ProductController.cs</b> file
-            </p>
+            In the <b>Sports.WebUI</b> project, follow these steps:<br />
+            <ol>
+                <li>Right-click the <b>Controller</b> folder and select <b>Add > Contoller</b></li>
+                <li>Select <b>MVC 5 Controller - Empty</b> and click the button <b>Add</b></li>
+                <li>Set the name to <b>ProductController</b></li>
+                <li>
+                    The implementation of <b>ProductController.cs</b> file can be seen in the Listing below:<br />
+                    <p align="center">
+                        <img src="Pictures/Listing 7-6.png" /><br />
+                        <b>Listing 7-6.</b> The initial contents of the <b>ProductController.cs</b> file
+                    </p>
+                </li>
+            </ol>
         </li>
-    </ol>    
+        <li>
+            The next step, a called action method will be implemented, 
+            which will render a view showing the full list of products (Listing 7-7 below):<br />
+            <p align="center">
+                <img src="Pictures/Listing 7-7.png" /><br />
+                <b>Listing 7-7.</b> Adding an action method to the ProductController.cs file
+            </p>    
+        </li>
+    </ul>
 
 <h2><i>ADDING THE LAYOUT, VIEW START FILE AND VIEW</i></h2>
 <h2><i>SETTING THE DEFAULT ROUTE</i></h2>
