@@ -33,5 +33,24 @@
     </ul>
 
 <h2><i>ADDING THE LAYOUT, VIEW START FILE AND VIEW</i></h2>
+    <ul>
+        <li>
+            To add the default view for the <b>List</b> action method fellow these steps:<br />
+            <ol>
+                <li>Right-click on the <b>List</b> action method in the <b>HomeController</b></li>
+                <li>Select <b>Add View</b> from the pop-up menu</li>
+                <li>
+                    In the <b>Add View</b> screen, fill in the fields as shown in Figure <b>Figure 7-5</b> and click <b>Add</b>.
+                    <p align="center">
+                        <img src="Pictures/Figure 7_5.png" /><br />
+                        <b>Figure 7_5.</b> Adding the View/Product/List.cshtml view
+                    </p>    
+                </li>
+                <li>AAA</li>
+            </ol>
+        </li>
+        <li>BBBBBBBBBBBBBBBBBBBBBBBBB</li>
+    </ul>
+
 <h2><i>SETTING THE DEFAULT ROUTE</i></h2>
 <h2><i>RUNNING THE APPLICATION</i></h2>
