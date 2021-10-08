@@ -46,10 +46,15 @@
                         <b>Figure 7_5.</b> Adding the View/Product/List.cshtml view
                     </p>    
                 </li>
-                <li>AAA</li>
             </ol>
         </li>
-        <li>BBBBBBBBBBBBBBBBBBBBBBBBB</li>
+        <li>
+            When you creating the <b>List.cshtml</b> file you also create the <b>_ViewStart.cshtml</b> file and a <b>Shared/_Layout.cshtml</b> file. Edit the <b>_Layout.cshtml</b> file so that it matches the content shown in <b>Listing 7-8</b>.
+            <p align="center">
+                <img src="Pictures/Listing 7-8.png" /><br />
+                <b>Listing 7-8.</b> Editing the _Layout.cshtml file
+            </p>
+        </li>
     </ul>
 
 <h2><i>SETTING THE DEFAULT ROUTE</i></h2>
