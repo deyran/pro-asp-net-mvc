@@ -1,8 +1,21 @@
-﻿@model SportsStore.Domain.Entities.Product
+﻿@using SportsStore.Domain.Entities
+@model IEnumerable<Product>
+
+<!--
+CC DISPLAYING A LIST OF PRODUCTS
+    RENDERING DATA THE VIEW DATA
+        Listing 7-9. Editing the List.cshtml file
+-->
 
 @{
-    ViewBag.Title = "List";
+    ViewBag.Title = "Products";
 }
 
-<h2>List</h2>
-
+@foreach (var p in Model)
+{
+    <div>
+        <h3>@p.Name</h3>
+        @p.Description
+        <h4>@p.Price.ToString("c")</h4>
+    </div>
+}

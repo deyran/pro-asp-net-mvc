@@ -55,6 +55,13 @@
                 <b>Listing 7-8.</b> Editing the _Layout.cshtml file
             </p>
         </li>
+        <li>
+            <h3>RENDERING DATA THE VIEW DATA</h3>
+            <p align="center">
+                <img src="Pictures/Listing 7-9.png" /><br />
+                <b>Listing 7-9.</b> Editing the List.cshtml file
+            </p>
+        </li>
     </ul>
 
 <h2><i>SETTING THE DEFAULT ROUTE</i></h2>
