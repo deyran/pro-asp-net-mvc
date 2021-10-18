@@ -5,9 +5,9 @@
   <li>
     These features will be implemented:
     <ol>
-      <li>Online product catalog that customers can brower by category and page</li>
+      <li>Online product catalog that customers can browse by category and page</li>
       <li>Users can add and remove product</li>
-      <li>Checkout where customers can enter their shipping details</li>
+      <li>Check where customers can enter their shipping details</li>
       <li>An administration area (CRUD - create, read, update and delete) - facilities for managing the catalog</li>
       <li>To prevent misuse, only logged in administrators can make changes</li>
     </ol>
