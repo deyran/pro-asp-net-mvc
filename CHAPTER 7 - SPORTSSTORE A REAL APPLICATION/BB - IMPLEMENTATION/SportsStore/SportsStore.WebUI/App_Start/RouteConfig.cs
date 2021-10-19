@@ -13,10 +13,20 @@ namespace SportsStore.WebUI
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
-            routes.MapRoute(
+            /*
+            CC DISPLAYING A LIST OF PRODUCTS
+	            SETTING THE DEFAULT ROUTE
+		            Listing 7-10. Adding the Default Route in the RouteConfig.cs file.             
+             */
+            routes.MapRoute (
                 name: "Default",
                 url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+                defaults: new
+                {
+                    controller = "Product",
+                    action = "List",
+                    id = UrlParameter.Optional
+                }
             );
         }
     }

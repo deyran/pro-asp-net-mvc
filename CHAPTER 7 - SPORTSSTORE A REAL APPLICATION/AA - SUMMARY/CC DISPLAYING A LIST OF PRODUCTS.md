@@ -65,4 +65,14 @@
     </ul>
 
 <h2><i>SETTING THE DEFAULT ROUTE</i></h2>
+    <ul>
+        <li>
+            To configure and implement MVC route it's necessary edit <b>RegisterRoutes</b> method in the <b>App_Start/RouteConfig.cs</b> file, as shown in Listing 7-10.
+            <p align="center">
+                <img src="Pictures/Listing 7-10.png" /><br />
+                <b>Listing 7-10.</b> Adding the Default Route in the RouteConfig.cs file.
+            </p>
+        </li>
+    </ul>
+
 <h2><i>RUNNING THE APPLICATION</i></h2>
