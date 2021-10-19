@@ -82,6 +82,5 @@ C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB 
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.AssemblyReference.cache
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CoreCompileInputs.cache
-C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb

@@ -77,3 +77,7 @@
     </ul>
 
 <h2><i>RUNNING THE APPLICATION</i></h2>
+    <p align="center">
+        <img src="Pictures/Figure 7-6.png" /><br />
+        <b>Figure 7-6.</b> Viewing the basic application functionality
+    </p>           
