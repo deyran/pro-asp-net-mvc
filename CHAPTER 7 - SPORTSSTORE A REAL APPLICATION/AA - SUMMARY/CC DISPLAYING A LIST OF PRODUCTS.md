@@ -73,6 +73,7 @@
                 <b>Listing 7-10.</b> Adding the Default Route in the RouteConfig.cs file.
             </p>
         </li>
+        <li>ASP.NET will be covered in detail in Chapters 15 and 16</li>
     </ul>
 
 <h2><i>RUNNING THE APPLICATION</i></h2>
