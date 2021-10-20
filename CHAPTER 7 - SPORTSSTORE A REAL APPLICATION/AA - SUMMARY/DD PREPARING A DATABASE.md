@@ -14,6 +14,27 @@
     </ul>
 
 <h2><i>CREATING THE DATABASE</i></h2>
+    <ul>
+        <li>
+            "Microsoft SQL Server Express <b>LocalDB</b> is a feature of SQL Server Express target to developers. It is available on SQL Server Express with advanced services".<br />
+            "<b>LocalDB</b> installation copies a minimal set of files necessary to start the SQL Server Database Engine [...]" <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>FONT:</b> https://docs.microsoft.com/en-us/sql/database-engine/configure-windows/sql-server-express-localdb?view=sql-server-ver15 <br />
+            &nbsp;&nbsp;&nbsp;&nbsp;<b>DATE:</b> 10-21-91 <br /><br />
+        </li>
+        <li>
+            To create the database connection, follow these steps:
+            <ol>
+                <li>In the top menu, open the <b>Server Explorer</b> window (View > Server Explorer)</li>
+                <li>
+                    Click the <b>Connect to Database</b>
+                    <img src="Pictures/Figure 7_7A.png" />
+                    button
+                </li>
+                <li>CCCCCCCCCCC</li>
+            </ol>
+        </li>
+    </ul>
+
 <h2><i>DEFINING THE DATABASE SCHEMA</i></h2>
 <h2><i>ADDING DATA TO THE DATABASE</i></h2>
 <h2><i>CREATING THE ENTITY FRAMEWORK CONTEXT</i></h2>
