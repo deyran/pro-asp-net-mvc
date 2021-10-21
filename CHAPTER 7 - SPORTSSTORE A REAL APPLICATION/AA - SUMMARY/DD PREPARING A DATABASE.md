@@ -72,7 +72,14 @@
                         <i><b>Figure 7-10.</b> Adding a new table</i>
                     </p>
                 </li>
-                <li>BB</li>
+                <li>
+                    Enter the SQL statement shown in Listing 7-11 and click the <b>Update</b> <img src="Pictures/Listing 7-11A.png" />
+                    button in the top-left of the table design window
+                    <p align="center">
+                        <img src="Pictures/Listing 7-11.png" /><br />
+                        <i><b>Listing 7-11.</b> The SQL statement to create the table in the SportsStore database</i>
+                    </p>
+                </li>
                 <li>CC</li>
             </ol>
         </li>
