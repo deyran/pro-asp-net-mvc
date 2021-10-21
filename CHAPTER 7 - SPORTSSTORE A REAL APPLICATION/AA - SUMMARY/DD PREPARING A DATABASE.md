@@ -61,6 +61,25 @@
     </ul>
 
 <h2><i>DEFINING THE DATABASE SCHEMA</i></h2>
+    <ul>
+        <li>
+            To create the database table, follow these steps:
+            <ol>
+                <li>
+                    Right-click on <b>Tables</b> and choose the <b>Add a New Table</b> option, as shown in Figure 7-10
+                    <p align="center">
+                        <img src="Pictures/Figure 7-10.png" /><br />
+                        <i><b>Figure 7-10.</b> Adding a new table</i>
+                    </p>
+                </li>
+                <li>BB</li>
+                <li>CC</li>
+            </ol>
+        </li>
+        <li>BB</li>
+        <li>CC</li>
+    </ul>
+
 <h2><i>ADDING DATA TO THE DATABASE</i></h2>
 <h2><i>CREATING THE ENTITY FRAMEWORK CONTEXT</i></h2>
 <h2><i>CREATING THE PRODUCT REPOSITORY</i></h2>
