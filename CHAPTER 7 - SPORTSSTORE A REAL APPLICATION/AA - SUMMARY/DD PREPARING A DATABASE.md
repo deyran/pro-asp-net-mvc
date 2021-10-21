@@ -80,7 +80,13 @@
                         <i><b>Listing 7-11.</b> The SQL statement to create the table in the SportsStore database</i>
                     </p>
                 </li>
-                <li>CC</li>
+                <li>
+                    In the <b>Preview Database Updates</b> dialog, click the <b>Update Database</b> button, as shown in Figure 7-11.
+                    <p align="center">
+                        <img src="Pictures/Figure 7-11.png" /><br />
+                        <i><b>Figure 7-11.</b> The summary of the effect of the SQL statement</i>
+                    </p>
+                </li>
             </ol>
         </li>
         <li>BB</li>
