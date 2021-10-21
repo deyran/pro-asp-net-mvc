@@ -30,6 +30,27 @@
                     <img src="Pictures/Figure 7_7A.png" />
                     button
                 </li>
+                <li>
+                    In the <b>Choose Data Source </b> dialog box (shown in Figure 7-7 below), click the <b>Continue</b> button
+                    <p align="center">
+                        <img src="Pictures/Figure 7_7.png" /><br />
+                        <i><b>Figure 7-7.</b> Selecting the data source.</i>
+                    </p>
+                </li>
+                <li>
+                    You will see the <b>Add Connection</b> dialog (Figure 7-8), follow these steps. 
+                    <ol>
+                        <li>Set the <b>Server name</b> -> (localdb)\MSSQLLocalDB</li>
+                        <li>In <b>Log on to the server</b>, Authentication:, set <b>Windows Authentication</b></li>
+                        <li>In <b>Select or enter a database name</b>, set <b>SportsStore</b></li>
+                    </ol>
+                    <p align="center">
+                        <img src="Pictures/Figure 7_8.png" /><br />
+                        <i><b>Figure 7-8.</b> Selecting the data source.</i>
+                    </p>
+                </li>
+                <li>CCCCCCCCCCC</li>
+                <li>CCCCCCCCCCC</li>
                 <li>CCCCCCCCCCC</li>
             </ol>
         </li>
