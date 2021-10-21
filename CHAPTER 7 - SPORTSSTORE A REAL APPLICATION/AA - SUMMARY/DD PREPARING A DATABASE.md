@@ -49,9 +49,13 @@
                         <i><b>Figure 7-8.</b> Selecting the data source.</i>
                     </p>
                 </li>
-                <li>CCCCCCCCCCC</li>
-                <li>CCCCCCCCCCC</li>
-                <li>CCCCCCCCCCC</li>
+                <li>
+                    As can be seen, localdb database has been created (Figure 7-9)
+                    <p align="center">
+                        <img src="Pictures/Figure 7-9.png" /><br />
+                        <i><b>Figure 7-9.</b> The localdb database as shown in the Server Explorer window.</i>
+                    </p>
+                </li>
             </ol>
         </li>
     </ul>
