@@ -89,10 +89,43 @@
                 </li>
             </ol>
         </li>
-        <li>BB</li>
-        <li>CC</li>
     </ul>
 
 <h2><i>ADDING DATA TO THE DATABASE</i></h2>
+<ul>
+    <li>
+        To add data to the database, follow these steps:
+        <ol>
+            <li>In the <b>Server Explorer</b> window, right-click on the <b>Tables</b> item</li>
+            <li>
+                Select <b>New Query</b>, and insert de code below: <br />
+                <h4><i>INSERT INTO Products (Name, Description, Category, Price) VALUES ('Kayak', 'A boat for one person', 'Watersports', 275.00);</i></h4>
+                <h4><i>INSERT INTO Products (Name, Description, Category, Price) VALUES ('Lifejacket', 'Protective and fashionable', 'Watersports', 48.95);</i></h4>
+                <h4><i>INSERT INTO Products (Name, Description, Category, Price) VALUES ('Soccer Ball', 'FIFA-approved size and weight', 'Soccer', 19.50);</i></h4>
+                <h4><i>INSERT INTO Products (Name, Description, Category, Price) VALUES ('Corner Flags', 'Give your playing field a professional touch', 'Soccer', 34.95);</i></h4>
+                <h4><i>INSERT INTO Products (Name, Description, Category, Price) VALUES ('Stadium', 'Flat-packed, 35,000-seat stadium', 'Soccer', 79500.00);</i></h4>
+                <h4><i>INSERT INTO Products (Name, Description, Category, Price) VALUES ('Thinking Cap', 'Improve your brain efficiency by 75%', 'Chess', 16.00);</i></h4>
+                <h4><i>INSERT INTO Products (Name, Description, Category, Price) VALUES ('Unsteady Chair', 'Secretly give your opponent a disadvantage', 'Chess', 29.95);</i></h4>
+                <h4><i>INSERT INTO Products (Name, Description, Category, Price) VALUES ('Human Chess Board', 'A fun game for the family', 'Chess', 75.00);</i></h4>
+                <h4><i>INSERT INTO Products (Name, Description, Category, Price) VALUES ('Bling-Bling King', 'Gold-plated, diamond-studded King', 'Chess', 1200.00);</i></h4>
+            </li>
+            <li>Click on the <b>Execute</b> <img src="Pictures/Figure 7-12A.png" /> button</li>
+        </ol><br />
+    </li>
+    <li>
+        To see the result (Figure 7-12) follow these steps:
+        <ol>
+            <li>In the <b>Server Explorer</b> window, expand the <b>Tables</b> item</li>
+            <li>
+                Right-click on the <b>Products</b> table and select <b>Show Table Data</b>
+            </li>
+        </ol>
+        <p align="center">
+            <img src="Pictures/Figure 7-12.png" /><br />
+            <b>Figure 7-12.</b> Data from <b>Products</b> table.
+        </p>
+    </li>    
+</ul>
+
 <h2><i>CREATING THE ENTITY FRAMEWORK CONTEXT</i></h2>
 <h2><i>CREATING THE PRODUCT REPOSITORY</i></h2>
