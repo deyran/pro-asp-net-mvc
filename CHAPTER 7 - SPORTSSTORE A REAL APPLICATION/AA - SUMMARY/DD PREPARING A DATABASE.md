@@ -128,4 +128,18 @@
 </ul>
 
 <h2><i>CREATING THE ENTITY FRAMEWORK CONTEXT</i></h2>
+<ul>
+	<li>
+		<h3>To associate the model class with the database, we need to follow the steps below:</h3>
+		<ol>
+			<li><i>Install Entity Framework</i></li>
+			<li><i>Create a context class</i></li>
+			<li><i>Connect Entity Framework with database</i></li>
+		</ol>
+	</li>
+    <li><h3>Install Entity Framework</h3></li>
+    <li><h3>Create a context class</h3></li>
+    <li><h3>Connect Entity Framework with database</h3></li>
+</ul>
+
 <h2><i>CREATING THE PRODUCT REPOSITORY</i></h2>
