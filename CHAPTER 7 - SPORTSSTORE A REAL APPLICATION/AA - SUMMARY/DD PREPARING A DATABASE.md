@@ -137,7 +137,14 @@
 			<li><i>Connect Entity Framework with database</i></li>
 		</ol>
 	</li>
-    <li><h3>Install Entity Framework</h3></li>
+    <li>
+        <h3>Install Entity Framework</h3>
+        <ol>
+            <li>Open <b>Package Manager Console</b></li>
+            <li>Install-Package EntityFramework -projectname SportsStore.Domain</li>
+            <li>Install-Package EntityFramework -projectname SportsStore.WebUI</li>
+        </ol>
+    </li>
     <li><h3>Create a context class</h3></li>
     <li><h3>Connect Entity Framework with database</h3></li>
 </ul>
