@@ -171,7 +171,33 @@
             </li>
         </ol><br />
     </li>
-    <li><h3>Connect Entity Framework with database</h3></li>
+    <li>
+        <h3>Connect Entity Framework with database</h3>
+        <ol>
+            <li>
+                Go to <b>Server Explorer</b> right-click on the localdb database (Figure 7-9) and choose <b>Properties</b> option.
+                <p align="center">
+                    <img src="Pictures/Figure 7-9.png" /><br />
+                    <i><b>Figure 7-9.</b> The localdb database as shown in the Server Explorer window.</i>
+                </p>
+            </li>
+            <li>
+                Copy the <b>Connection String</b> value (See the Figure 7-12b)
+                <p align="center">
+                    <img src="Pictures/Figure 7-12B.png" /><br />
+                    <i><b>Figure 7-12B.</b> Properties window.</i>
+                </p>
+            </li>
+            <li>
+                In the <b>SportsStore.WebUI</b> open the file <b>Web.config</b> to add a database connection string (see <b>Listing 7-13</b>). In the <b>connectionString</b> field, fill it in with the value you copied.
+                <p align="center">
+                    <img src="Pictures/Listing 7-13.png" /><br />
+                    <i><b>Listing 7-13.</b> Adding a database connection in the Web.config file.</i>
+                </p>
+            </li>
+            <li></li>            
+        </ol>
+    </li>
 </ul>
 
 <h2><i>CREATING THE PRODUCT REPOSITORY</i></h2>
