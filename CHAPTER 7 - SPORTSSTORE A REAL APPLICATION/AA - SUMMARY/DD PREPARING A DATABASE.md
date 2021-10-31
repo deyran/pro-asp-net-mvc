@@ -207,5 +207,11 @@
     <li>
         Edit the <b>EFProductRepository.cs</b> file to match with <b>Listing 7-14</b>, as shown in the figure below:
     </li>
-    <li></li>        
+    <li>
+        Edit the <b>NinjectDependencyResolver.cs</b> class file in the <b>SportsStore.WebUI</b> project so that the <b>AddBindings</b> method looks like Listing 7-15.
+        <p align="center">
+            <img src="Pictures/Listing 7-15.png" /><br />
+            <b>Listing 7-15.</b> Adding the real repository binding in the NinjectDependencyResolver.cs file
+        </p>
+    </li>        
 </ol>

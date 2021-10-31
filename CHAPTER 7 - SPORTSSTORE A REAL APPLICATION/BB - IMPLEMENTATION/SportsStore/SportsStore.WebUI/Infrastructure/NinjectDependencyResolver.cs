@@ -9,6 +9,9 @@ using Moq;
 using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
 
+//Listing 7-15
+using SportsStore.Domain.Concrete;
+
 namespace SportsStore.WebUI.Infrastructure
 {
     /*
@@ -19,6 +22,10 @@ namespace SportsStore.WebUI.Infrastructure
     BB STARTING THE DOMAIN MODEL
         MAKING A MOCK REPOSITORY
             Listing 7-5. Adding the Mock IProductRepository implementation in the NinjectDependencyResolver.cs file
+
+    DD PREPARING A DATABASE
+	    CREATING THE PRODUCT REPOSITORY
+		    Listing 7-15. Adding the real repository binding in the NinjectDependencyResolver.cs file
      */
     public class NinjectDependencyResolver : IDependencyResolver
     {
@@ -42,18 +49,7 @@ namespace SportsStore.WebUI.Infrastructure
 
         private void AddBindings()
         {
-            Mock<IProductRepository> mock = new Mock<IProductRepository>();
-
-            mock.Setup(m => m.Products).Returns(
-                new List<Product>
-                {
-                    new Product {Name = "FootBall", Price = 25},
-                    new Product {Name = "Surf", Price = 179},
-                    new Product {Name = "Running shoes", Price = 95}
-                }
-            );
-
-            kernel.Bind<IProductRepository>().ToConstant(mock.Object);
+            kernel.Bind<IProductRepository>().To<EFProductRepository>();
         }
     }
 }
