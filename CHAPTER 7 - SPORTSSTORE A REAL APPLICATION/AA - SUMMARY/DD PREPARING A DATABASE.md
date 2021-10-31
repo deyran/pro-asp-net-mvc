@@ -195,9 +195,17 @@
                     <i><b>Listing 7-13.</b> Adding a database connection in the Web.config file.</i>
                 </p>
             </li>
-            <li></li>            
         </ol>
     </li>
 </ul>
 
 <h2><i>CREATING THE PRODUCT REPOSITORY</i></h2>
+<ol>
+    <li>
+        In the <b>Concrete</b> folder (SportsStore.Domain project), add a class called <b>EFProductRepository.cs</b>
+    </li>
+    <li>
+        Edit the <b>EFProductRepository.cs</b> file to match with <b>Listing 7-14</b>, as shown in the figure below:
+    </li>
+    <li></li>        
+</ol>
