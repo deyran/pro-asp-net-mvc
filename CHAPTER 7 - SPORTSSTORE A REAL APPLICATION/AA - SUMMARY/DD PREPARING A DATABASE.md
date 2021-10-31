@@ -135,7 +135,7 @@
 			<li><i>Install Entity Framework</i></li>
 			<li><i>Create a context class</i></li>
 			<li><i>Connect Entity Framework with database</i></li>
-		</ol>
+		</ol><br />
 	</li>
     <li>
         <h3>Install Entity Framework</h3>
@@ -143,9 +143,34 @@
             <li>Open <b>Package Manager Console</b></li>
             <li>Install-Package EntityFramework -projectname SportsStore.Domain</li>
             <li>Install-Package EntityFramework -projectname SportsStore.WebUI</li>
-        </ol>
+        </ol><br />
     </li>
-    <li><h3>Create a context class</h3></li>
+    <li>
+        <h3>Create a context class</h3>
+        The purpose of the context class is to associate the model to the database, to start this process follow these steps:
+        <ol>
+            <li>Create a new folder in the <b>SportsStore.Domain</b> project called <b>Concrete</b></li>
+            <li>Add a new class file called <b>EFDbContext.cs</b> within the <b>Concrete</b> folder</li>
+            <li>
+                Edit the contents of the class file so they match <b>Listing 7-12</b>, 
+                as shown in the picture below: <br /><br />
+                <p align="center">
+                    <img src="Pictures/Listing 7-12.png" /><br />
+                    <b>Listing 7-12.</b> The content of the EFDbContext.cs file
+                </p>
+                <i>
+                    <b>Tip:</b>
+                    <ol>
+                        <li>The name of the property (Products) specifies the table (dbo.Products)</li>
+                        <li>
+                            The type parameter of the DbSet result specifies the model type, in that case SportsStore.Domain.Entities.Product
+                        </li>
+                        <li>The Entity Framework use the type parameter to represent rows in the Products table (dbo.Products)</li>
+                    </ol>
+                </i>    
+            </li>
+        </ol><br />
+    </li>
     <li><h3>Connect Entity Framework with database</h3></li>
 </ul>
 
