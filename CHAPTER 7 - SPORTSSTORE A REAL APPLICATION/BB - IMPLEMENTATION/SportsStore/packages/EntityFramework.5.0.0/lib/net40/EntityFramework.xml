@@ -4,6 +4,237 @@
         <name>EntityFramework</name>
     </assembly>
     <members>
+        <member name="T:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute">
+            <summary>
+                Specifies the database column that a property is mapped to.
+            </summary>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute"/> class.
+            </summary>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute.#ctor(System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute"/> class.
+            </summary>
+            <param name="name">The name of the column the property is mapped to.</param>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute.Name">
+            <summary>
+                The name of the column the property is mapped to.
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute.Order">
+            <summary>
+                The zero-based order of the column the property is mapped to.
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.Schema.ColumnAttribute.TypeName">
+            <summary>
+                The database provider specific data type of the column the property is mapped to.
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataAnnotations.Schema.ComplexTypeAttribute">
+            <summary>
+                Denotes that the class is a complex type.
+                Complex types are non-scalar properties of entity types that enable scalar properties to be organized within entities. 
+                Complex types do not have keys and cannot be managed by the Entity Framework apart from the parent object.
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute">
+            <summary>
+                Specifies how the database generates values for a property.
+            </summary>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute.#ctor(System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption)">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute"/> class.
+            </summary>
+            <param name="databaseGeneratedOption">The pattern used to generate values for the property in the database.</param>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedAttribute.DatabaseGeneratedOption">
+            <summary>
+                The pattern used to generate values for the property in the database.
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption">
+            <summary>
+                The pattern used to generate values for a property in the database.
+            </summary>
+        </member>
+        <member name="F:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.None">
+            <summary>
+                The database does not generate values.
+            </summary>
+        </member>
+        <member name="F:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Identity">
+            <summary>
+                The database generates a value when a row is inserted.
+            </summary>
+        </member>
+        <member name="F:System.ComponentModel.DataAnnotations.Schema.DatabaseGeneratedOption.Computed">
+            <summary>
+                The database generates a value when a row is inserted or updated.
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute">
+            <summary>
+                Denotes a property used as a foreign key in a relationship.
+                The annotation may be placed on the foreign key property and specify the associated navigation property name, 
+                or placed on a navigation property and specify the associated foreign key name.
+            </summary>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute.#ctor(System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute"/> class.
+            </summary>
+            <param name="name">
+                If placed on a foreign key property, the name of the associated navigation property.
+                If placed on a navigation property, the name of the associated foreign key(s).
+                If a navigation property has multiple foreign keys, a comma separated list should be supplied.
+            </param>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.Schema.ForeignKeyAttribute.Name">
+            <summary>
+                If placed on a foreign key property, the name of the associated navigation property.
+                If placed on a navigation property, the name of the associated foreign key(s).
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute">
+            <summary>
+                Specifies the inverse of a navigation property that represents the other end of the same relationship.
+            </summary>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute.#ctor(System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute"/> class.
+            </summary>
+            <param name="property">The navigation property representing the other end of the same relationship.</param>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.Schema.InversePropertyAttribute.Property">
+            <summary>
+                The navigation property representing the other end of the same relationship.
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataAnnotations.MaxLengthAttribute">
+            <summary>
+                Specifies the maximum length of array/string data allowed in a property.
+            </summary>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor(System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.ComponentModel.DataAnnotations.MaxLengthAttribute"/> class.
+            </summary>
+            <param name="length">
+                The maximum allowable length of array/string data.
+                Value must be greater than zero.
+            </param>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.MaxLengthAttribute.#ctor">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.ComponentModel.DataAnnotations.MaxLengthAttribute"/> class.
+                The maximum allowable length supported by the database will be used.
+            </summary>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.MaxLengthAttribute.IsValid(System.Object)">
+            <summary>
+                Determines whether a specified object is valid. (Overrides <see cref="M:System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(System.Object)"/>)
+            </summary>
+            <remarks>
+                This method returns <c>true</c> if the <paramref name="value"/> is null.  
+                It is assumed the <see cref="T:System.ComponentModel.DataAnnotations.RequiredAttribute"/> is used if the value may not be null.
+            </remarks>
+            <param name="value">The object to validate.</param>
+            <returns><c>true</c> if the value is null or less than or equal to the specified maximum length, otherwise <c>false</c></returns>
+            <exception cref="T:System.InvalidOperationException">Length is zero or less than negative one.</exception>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.MaxLengthAttribute.FormatErrorMessage(System.String)">
+            <summary>
+                Applies formatting to a specified error message. (Overrides <see cref="M:System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(System.String)"/>)
+            </summary>
+            <param name="name">The name to include in the formatted string.</param>
+            <returns>A localized string to describe the maximum acceptable length.</returns>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.MaxLengthAttribute.EnsureLegalLengths">
+            <summary>
+                Checks that Length has a legal value.  Throws InvalidOperationException if not.
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.MaxLengthAttribute.Length">
+            <summary>
+                Gets the maximum allowable length of the array/string data.
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataAnnotations.MinLengthAttribute">
+            <summary>
+                Specifies the minimum length of array/string data allowed in a property.
+            </summary>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.MinLengthAttribute.#ctor(System.Int32)">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.ComponentModel.DataAnnotations.MinLengthAttribute"/> class.
+            </summary>
+            <param name="length">
+                The minimum allowable length of array/string data.
+                Value must be greater than or equal to zero.
+            </param>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.MinLengthAttribute.IsValid(System.Object)">
+            <summary>
+                Determines whether a specified object is valid. (Overrides <see cref="M:System.ComponentModel.DataAnnotations.ValidationAttribute.IsValid(System.Object)"/>)
+            </summary>
+            <remarks>
+                This method returns <c>true</c> if the <paramref name="value"/> is null.  
+                It is assumed the <see cref="T:System.ComponentModel.DataAnnotations.RequiredAttribute"/> is used if the value may not be null.
+            </remarks>
+            <param name="value">The object to validate.</param>
+            <returns><c>true</c> if the value is null or greater than or equal to the specified minimum length, otherwise <c>false</c></returns>
+            <exception cref="T:System.InvalidOperationException">Length is less than zero.</exception>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.MinLengthAttribute.FormatErrorMessage(System.String)">
+            <summary>
+                Applies formatting to a specified error message. (Overrides <see cref="M:System.ComponentModel.DataAnnotations.ValidationAttribute.FormatErrorMessage(System.String)"/>)
+            </summary>
+            <param name="name">The name to include in the formatted string.</param>
+            <returns>A localized string to describe the minimum acceptable length.</returns>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.MinLengthAttribute.EnsureLegalLengths">
+            <summary>
+                Checks that Length has a legal value.  Throws InvalidOperationException if not.
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.MinLengthAttribute.Length">
+            <summary>
+                Gets the minimum allowable length of the array/string data.
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataAnnotations.Schema.NotMappedAttribute">
+            <summary>
+                Denotes that a property or class should be excluded from database mapping.
+            </summary>
+        </member>
+        <member name="T:System.ComponentModel.DataAnnotations.Schema.TableAttribute">
+            <summary>
+                Specifies the database table that a class is mapped to.
+            </summary>
+        </member>
+        <member name="M:System.ComponentModel.DataAnnotations.Schema.TableAttribute.#ctor(System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:System.ComponentModel.DataAnnotations.Schema.TableAttribute"/> class.
+            </summary>
+            <param name="name">The name of the table the class is mapped to.</param>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.Schema.TableAttribute.Name">
+            <summary>
+                The name of the table the class is mapped to.
+            </summary>
+        </member>
+        <member name="P:System.ComponentModel.DataAnnotations.Schema.TableAttribute.Schema">
+            <summary>
+                The schema of the table the class is mapped to.
+            </summary>
+        </member>
         <member name="T:System.Data.Entity.Edm.EdmDataModelType">
             <summary>
                 The base for all all Entity Data Model (EDM) types that represent a type from the EDM type system.
@@ -894,28 +1125,6 @@
             </summary>
             <param name = "nullable">Value indicating whether or not the column allows null values.</param>
             <param name = "precision">The precision of the column.</param>
-            <param name = "defaultValue">Constant value to use as the default value for this column.</param>
-            <param name = "defaultValueSql">SQL expression used as the default value for this column.</param>
-            <param name = "name">The name of the column.</param>
-            <param name = "storeType">Provider specific data type to use for this column.</param>
-            <returns>The newly constructed column definition.</returns>
-        </member>
-        <member name="M:System.Data.Entity.Migrations.Builders.ColumnBuilder.Geography(System.Nullable{System.Boolean},System.Data.Spatial.DbGeography,System.String,System.String,System.String)">
-            <summary>
-                Creates a new column definition to store geography data.
-            </summary>
-            <param name = "nullable">Value indicating whether or not the column allows null values.</param>
-            <param name = "defaultValue">Constant value to use as the default value for this column.</param>
-            <param name = "defaultValueSql">SQL expression used as the default value for this column.</param>
-            <param name = "name">The name of the column.</param>
-            <param name = "storeType">Provider specific data type to use for this column.</param>
-            <returns>The newly constructed column definition.</returns>
-        </member>
-        <member name="M:System.Data.Entity.Migrations.Builders.ColumnBuilder.Geometry(System.Nullable{System.Boolean},System.Data.Spatial.DbGeometry,System.String,System.String,System.String)">
-            <summary>
-                Creates a new column definition to store geometry data.
-            </summary>
-            <param name = "nullable">Value indicating whether or not the column allows null values.</param>
             <param name = "defaultValue">Constant value to use as the default value for this column.</param>
             <param name = "defaultValueSql">SQL expression used as the default value for this column.</param>
             <param name = "name">The name of the column.</param>
@@ -1884,20 +2093,6 @@
             <param name="defaultValue">The value to be used as the default.</param>
             <returns>Code representing the default value.</returns>
         </member>
-        <member name="M:System.Data.Entity.Migrations.Design.CSharpMigrationCodeGenerator.Generate(System.Data.Spatial.DbGeography)">
-            <summary>
-                Generates code to specify the default value for a <see cref="T:System.Data.Spatial.DbGeography"/> column.
-            </summary>
-            <param name="defaultValue">The value to be used as the default.</param>
-            <returns>Code representing the default value.</returns>
-        </member>
-        <member name="M:System.Data.Entity.Migrations.Design.CSharpMigrationCodeGenerator.Generate(System.Data.Spatial.DbGeometry)">
-            <summary>
-                Generates code to specify the default value for a <see cref="T:System.Data.Spatial.DbGeometry"/> column.
-            </summary>
-            <param name="defaultValue">The value to be used as the default.</param>
-            <returns>Code representing the default value.</returns>
-        </member>
         <member name="M:System.Data.Entity.Migrations.Design.CSharpMigrationCodeGenerator.Generate(System.Object)">
             <summary>
                 Generates code to specify the default value for a column of unknown data type.
@@ -2454,20 +2649,6 @@
         <member name="M:System.Data.Entity.Migrations.Design.VisualBasicMigrationCodeGenerator.Generate(System.TimeSpan)">
             <summary>
                 Generates code to specify the default value for a <see cref="T:System.TimeSpan"/> column.
-            </summary>
-            <param name="defaultValue">The value to be used as the default.</param>
-            <returns>Code representing the default value.</returns>
-        </member>
-        <member name="M:System.Data.Entity.Migrations.Design.VisualBasicMigrationCodeGenerator.Generate(System.Data.Spatial.DbGeography)">
-            <summary>
-                Generates code to specify the default value for a <see cref="T:System.Data.Spatial.DbGeography"/> column.
-            </summary>
-            <param name="defaultValue">The value to be used as the default.</param>
-            <returns>Code representing the default value.</returns>
-        </member>
-        <member name="M:System.Data.Entity.Migrations.Design.VisualBasicMigrationCodeGenerator.Generate(System.Data.Spatial.DbGeometry)">
-            <summary>
-                Generates code to specify the default value for a <see cref="T:System.Data.Spatial.DbGeometry"/> column.
             </summary>
             <param name="defaultValue">The value to be used as the default.</param>
             <returns>Code representing the default value.</returns>
@@ -3777,22 +3958,6 @@
         <member name="M:System.Data.Entity.Migrations.Sql.SqlServerMigrationSqlGenerator.Generate(System.TimeSpan)">
             <summary>
                 Generates SQL to specify a constant TimeSpan default value being set on a column.
-                This method just generates the actual value, not the SQL to set the default value.
-            </summary>
-            <param name = "defaultValue">The value to be set.</param>
-            <returns>SQL representing the default value.</returns>
-        </member>
-        <member name="M:System.Data.Entity.Migrations.Sql.SqlServerMigrationSqlGenerator.Generate(System.Data.Spatial.DbGeography)">
-            <summary>
-                Generates SQL to specify a constant geogrpahy default value being set on a column.
-                This method just generates the actual value, not the SQL to set the default value.
-            </summary>
-            <param name = "defaultValue">The value to be set.</param>
-            <returns>SQL representing the default value.</returns>
-        </member>
-        <member name="M:System.Data.Entity.Migrations.Sql.SqlServerMigrationSqlGenerator.Generate(System.Data.Spatial.DbGeometry)">
-            <summary>
-                Generates SQL to specify a constant geometry default value being set on a column.
                 This method just generates the actual value, not the SQL to set the default value.
             </summary>
             <param name = "defaultValue">The value to be set.</param>
@@ -10151,13 +10316,6 @@
                 Gets or sets a value indicating whether the value of this property has been modified since
                 it was loaded from the database.
             </summary>
-            <remarks>
-                Setting this value to false for a modified property will revert the change by setting the
-                current value to the original value. If the result is that no properties of the entity are
-                marked as modified, then the entity will be marked as Unchanged.
-                Setting this value to false for properties of Added, Unchanged, or Deleted entities
-                is a no-op.
-            </remarks>
             <value>
                 <c>true</c> if this instance is modified; otherwise, <c>false</c>.
             </value>
@@ -13656,21 +13814,6 @@
                 complex property as modified.
             </summary>
         </member>
-        <member name="M:System.Data.Entity.Internal.InternalPropertyEntry.RejectEntityPropertyChanges">
-            <summary>
-            Rejects changes to this property.
-            If this is a property of a complex object, then this method rejects changes to the top-level
-            complex property.
-            </summary>
-        </member>
-        <member name="M:System.Data.Entity.Internal.InternalPropertyEntry.UpdateComplexPropertyState">
-            <summary>
-            Walks the tree from a property of a complex property back up to the top-level
-            complex property and then checks whether or not DetectChanges still considers
-            the complex property to be modified. If it does not, then the complex property
-            is marked as Unchanged.
-            </summary>
-        </member>
         <member name="M:System.Data.Entity.Internal.InternalPropertyEntry.CheckNotSettingComplexPropertyToNull(System.Object)">
             <summary>
                 Throws if the user attempts to set a complex property to null.
@@ -13814,19 +13957,6 @@
                 Since this is a property of an entity this method marks it as modified.
             </summary>
         </member>
-        <member name="M:System.Data.Entity.Internal.InternalEntityPropertyEntry.RejectEntityPropertyChanges">
-            <summary>
-            Rejects changes to this property.
-            </summary>
-        </member>
-        <member name="M:System.Data.Entity.Internal.InternalEntityPropertyEntry.UpdateComplexPropertyState">
-            <summary>
-            Walks the tree from a property of a complex property back up to the top-level
-            complex property and then checks whether or not DetectChanges still considers
-            the complex property to be modified. If it does not, then the complex property
-            is marked as Unchanged.
-            </summary>
-        </member>
         <member name="P:System.Data.Entity.Internal.InternalEntityPropertyEntry.ParentPropertyEntry">
             <summary>
                 Returns parent property, or null if this is a property on the top-level entity.
@@ -13883,21 +14013,6 @@
                 Sets the property of the entity that this property is ultimately part of to modified.
                 Since this is a property of a complex object this method marks the top-level
                 complex property as modified.
-            </summary>
-        </member>
-        <member name="M:System.Data.Entity.Internal.InternalNestedPropertyEntry.RejectEntityPropertyChanges">
-            <summary>
-            Rejects changes to this property.
-            Since this is a property of a complex object this method rejects changes to the top-level
-            complex property.
-            </summary>
-        </member>
-        <member name="M:System.Data.Entity.Internal.InternalNestedPropertyEntry.UpdateComplexPropertyState">
-            <summary>
-            Walks the tree from a property of a complex property back up to the top-level
-            complex property and then checks whether or not DetectChanges still considers
-            the complex property to be modified. If it does not, then the complex property
-            is marked as Unchanged.
             </summary>
         </member>
         <member name="P:System.Data.Entity.Internal.InternalNestedPropertyEntry.ParentPropertyEntry">
@@ -16028,28 +16143,6 @@
                 A lambda expression representing the property to be configured.
                 C#: t => t.MyProperty   
                 VB.Net: Function(t) t.MyProperty
-            </param>
-            <returns>A configuration object that can be used to configure the property.</returns>
-        </member>
-        <member name="M:System.Data.Entity.ModelConfiguration.Configuration.StructuralTypeConfiguration`1.Property(System.Linq.Expressions.Expression{System.Func{`0,System.Data.Spatial.DbGeometry}})">
-            <summary>
-              Configures a <see cref = "T:DbGeometry" /> property that is defined on this type.
-            </summary>
-            <param name = "propertyExpression">
-              A lambda expression representing the property to be configured.
-              C#: t => t.MyProperty   
-              VB.Net: Function(t) t.MyProperty
-            </param>
-            <returns>A configuration object that can be used to configure the property.</returns>
-        </member>
-        <member name="M:System.Data.Entity.ModelConfiguration.Configuration.StructuralTypeConfiguration`1.Property(System.Linq.Expressions.Expression{System.Func{`0,System.Data.Spatial.DbGeography}})">
-            <summary>
-              Configures a <see cref = "T:DbGeography" /> property that is defined on this type.
-            </summary>
-            <param name = "propertyExpression">
-              A lambda expression representing the property to be configured.
-              C#: t => t.MyProperty   
-              VB.Net: Function(t) t.MyProperty
             </param>
             <returns>A configuration object that can be used to configure the property.</returns>
         </member>

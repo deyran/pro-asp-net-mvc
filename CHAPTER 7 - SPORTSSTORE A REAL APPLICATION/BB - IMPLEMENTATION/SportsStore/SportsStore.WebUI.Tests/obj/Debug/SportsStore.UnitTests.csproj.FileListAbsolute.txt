@@ -20,6 +20,7 @@ C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB 
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\System.Web.WebPages.Razor.dll
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\WebActivator.dll
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\EntityFramework.dll
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\SportsStore.WebUI.pdb
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\SportsStore.WebUI.dll.config
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\Microsoft.VisualStudio.TestPlatform.TestFramework.xml
@@ -39,6 +40,7 @@ C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB 
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\System.Web.WebPages.Razor.xml
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\SportsStore.Domain.pdb
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\bin\Debug\EntityFramework.xml
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\obj\Debug\SportsStore.UnitTests.csproj.AssemblyReference.cache
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\obj\Debug\SportsStore.UnitTests.csproj.CoreCompileInputs.cache
 C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI.Tests\obj\Debug\SportsStore.UnitTests.csproj.CopyComplete
