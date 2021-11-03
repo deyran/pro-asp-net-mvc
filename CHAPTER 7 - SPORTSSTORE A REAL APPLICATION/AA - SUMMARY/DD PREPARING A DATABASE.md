@@ -217,5 +217,12 @@
             <img src="Pictures/Listing 7-15.png" /><br />
             <b>Listing 7-15.</b> Adding the real repository binding in the NinjectDependencyResolver.cs file
         </p>
-    </li>        
+    </li>
+    <li>
+        Run the application and Figure 7-13 show the results;
+        <p align="center">
+            <img src="Pictures/Figure 7-13.png" /><br />
+            <b>Figure 7-13.</b> The result of implementation the real repository
+        </p>
+    </li>
 </ol>
