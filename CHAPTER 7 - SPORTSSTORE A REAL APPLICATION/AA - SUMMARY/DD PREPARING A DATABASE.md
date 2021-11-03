@@ -206,6 +206,10 @@
     </li>
     <li>
         Edit the <b>EFProductRepository.cs</b> file to match with <b>Listing 7-14</b>, as shown in the figure below:
+        <p align="center">
+            <img src="Pictures/Listing 7-14.png" /><br />
+            <b>Listing 7-14.</b> The contents of the EFProductRepository.cs File
+        </p>
     </li>
     <li>
         Edit the <b>NinjectDependencyResolver.cs</b> class file in the <b>SportsStore.WebUI</b> project so that the <b>AddBindings</b> method looks like Listing 7-15.

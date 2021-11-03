@@ -14,4 +14,4 @@ namespace SportsStore.Domain.Concrete
         private readonly EFDbContext context = new EFDbContext();
         public IEnumerable<Product> Products => context.Products;
     }
-}
+} 
