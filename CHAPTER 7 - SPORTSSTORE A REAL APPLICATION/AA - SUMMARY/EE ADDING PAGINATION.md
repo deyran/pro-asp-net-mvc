@@ -1,6 +1,10 @@
 <h1>ADDING PAGINATION</h1>
+<p align="center">
+    <img src="Pictures/Listing 7-17.png" /><br />
+    <b>Listing 7-17.</b> Adding pagination support to the list action method in the <b>ProductController.cs</b> file
+</p>
+
 <ul>
-    <li>AAAAAAAA AAAAAAAAAA AAAAAAAAAAAAA</li>
     <li><h3><i>UNIT TEST: PAGINATION</i></h3></li>
     <li>
         <h3><i>Adding the View Model</i></h3>
