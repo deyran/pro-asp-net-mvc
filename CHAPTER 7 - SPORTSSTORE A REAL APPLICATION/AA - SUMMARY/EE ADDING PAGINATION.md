@@ -1,4 +1,7 @@
 <h1>ADDING PAGINATION</h1>
+    You can see in Figure 7-13 that the <b>List.cshtml </b> view displays all the products in the database on a single page. In this section, you'll add support for pagination so that the preview displays a series of products on one page, and the user can move from page to page to view the overall catalog (see Listing 7-16). 
+    <br /><br />
+
 <p align="center">
     <img src="Pictures/Listing 7-17.png" /><br />
     <b>Listing 7-17.</b> Adding pagination support to the list action method in the <b>ProductController.cs</b> file
