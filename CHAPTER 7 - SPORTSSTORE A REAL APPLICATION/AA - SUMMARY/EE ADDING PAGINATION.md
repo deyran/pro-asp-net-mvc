@@ -8,7 +8,13 @@
 </p>
 
 <ul>
-    <li><h3><i>UNIT TEST: PAGINATION</i></h3></li>
+    <li>
+        <h3><i>UNIT TEST: PAGINATION</i></h3>
+        This is the purpose of creating the Unit Test: Compare the <b>Product</b> object with what you would expect from the test data in the simulated implementation. You can see this purpose fullfilled in the <b>UnitTest1.cs</b> file of the <b>SportsStore.UnitTests</b> project implemented below:<br /><br />
+        <p align="center">
+            <img src="Pictures/UNIT TEST PAGINATION.png" /><br />
+        </p>
+    </li>
     <li>
         <h3><i>Adding the View Model</i></h3>
         <b>Listing 7-17.</b> The contents of the <b>PagingInfo.cs</b> file

@@ -101,6 +101,10 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\SportsStore.Domain\SportsStore.Domain.csproj">
+      <Project>{598c903f-160c-4c07-89df-6846afe1b730}</Project>
+      <Name>SportsStore.Domain</Name>
+    </ProjectReference>
     <ProjectReference Include="..\SportsStore.WebUI\SportsStore.WebUI.csproj">
       <Project>{A2B389EC-2670-4AEC-B1A4-F2847B44F8C3}</Project>
       <Name>SportsStore.WebUI</Name>
