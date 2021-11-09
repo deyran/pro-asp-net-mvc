@@ -3,8 +3,8 @@
     <br /><br />
 
 <p align="center">
-    <img src="Pictures/Listing 7-17.png" /><br />
-    <b>Listing 7-17.</b> Adding pagination support to the list action method in the <b>ProductController.cs</b> file
+    <img src="Pictures/Listing 7-16.png" /><br />
+    <b>Listing 7-16.</b> Adding pagination support to the list action method in the <b>ProductController.cs</b> file
 </p>
 
 <ul>
@@ -16,8 +16,11 @@
         </p>
     </li>
     <li>
-        <h3><i>Adding the View Model</i></h3>
-        <b>Listing 7-17.</b> The contents of the <b>PagingInfo.cs</b> file
+        <h3><i>Adding the View Model</i></h3><br /><br />
+        <p align="center">
+            <img src="Pictures/Listing 7-17.png" /><br />
+            <b>Listing 7-17.</b> The contents of the <b>PagingInfo.cs</b> file
+        </p>
     </li>
     <li>
         <h3><i>Adding the HTML helper method</i></h3>
