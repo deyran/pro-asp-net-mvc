@@ -22,4 +22,3 @@ namespace SportsStore.WebUI.Models
         }
     }
 }
-

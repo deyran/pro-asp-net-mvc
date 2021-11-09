@@ -24,7 +24,16 @@
     </li>
     <li>
         <h3><i>Adding the HTML helper method</i></h3>
-        <b>Listing 7-18.</b> The contents of the <b>PagingHelpers.cs</b> file                
+        <ol>
+            <li>In the <b>SportsStore.WebUI</b> project, create a new folder called <b>HtmlHelpers</b></li>
+            <li>
+                Add a new class file called <b>PagingHelpers.cs</b>  (Listing 7-18).
+            </li>
+        </ol><br /><br />
+        <p align="center">
+            <img src="Pictures/Listing 7-18.png" /><br />
+            <b>Listing 7-18.</b> The contents of the <b>PagingHelpers.cs</b> file
+        </p>
     </li>
     <li><h3><i>UNIT TEST: CREATING PAGE LINKS</i></h3></li>
     <li>
