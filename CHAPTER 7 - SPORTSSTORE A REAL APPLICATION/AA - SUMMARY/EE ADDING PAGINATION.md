@@ -35,7 +35,13 @@
             <b>Listing 7-18.</b> The contents of the <b>PagingHelpers.cs</b> file
         </p>
     </li>
-    <li><h3><i>UNIT TEST: CREATING PAGE LINKS</i></h3></li>
+    <li>
+        <h3><i>UNIT TEST: CREATING PAGE LINKS</i></h3>
+        To test the <b>PageLinks </b> helper method, it will call the method with the test data and compare the results to the expected HTML. The unit test method is as follows:<br /><br />
+        <p align="center">
+            <img src="Pictures/UNIT_TEST_CREATING_PAGE_LINKS.png" />
+        </p>               
+    </li>
     <li>
         <h3><i>Adding the View Model data</i></h3>
         <b>Listing 7-20.</b> The contents of the <b>ProductsListViewModel.cs</b> file
