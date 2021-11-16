@@ -16,7 +16,7 @@
         </p>
     </li>
     <li>
-        <h3><i>Adding the View Model</i></h3><br /><br />
+        <h3><i>Adding the View Model</i></h3>
         <p align="center">
             <img src="Pictures/Listing 7-17.png" /><br />
             <b>Listing 7-17.</b> The contents of the <b>PagingInfo.cs</b> file
