@@ -44,7 +44,10 @@
     </li>
     <li>
         <h3><i>Adding the View Model data</i></h3>
-        <b>Listing 7-20.</b> The contents of the <b>ProductsListViewModel.cs</b> file
+        <p align="center">
+            <img src="Pictures/Listing 7-20.png" /><br />
+            <b>Listing 7-20.</b> The contents of the <b>ProductsListViewModel.cs</b> file
+        </p>
         <b>Listing 7-21.</b> Updating the list method in the <b>ProductController.cs</b> file
     </li>
     <li><h3><i>UNIT TEST: PAGE MODEL VIEW DATA</i></h3></li>
