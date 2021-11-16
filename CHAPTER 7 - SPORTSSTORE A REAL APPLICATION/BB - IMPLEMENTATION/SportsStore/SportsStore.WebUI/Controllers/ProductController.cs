@@ -5,6 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
+using SportsStore.WebUI.Models;
 
 namespace SportsStore.WebUI.Controllers
 {
@@ -16,6 +17,9 @@ namespace SportsStore.WebUI.Controllers
 
     ADDING PAGINATION
 	    Listing 7-16. Adding pagination support to the list action method in the ProductController.cs file
+
+	    Adding the View Model data
+		    Listing 7-21. Updating the list method in the ProductController.cs file
     */
     public class ProductController : Controller
     {
@@ -28,13 +32,22 @@ namespace SportsStore.WebUI.Controllers
         }
         public ViewResult List(int page = 1)
         {
-            return (
-                (ViewResult) repository.Products
-                    .OrderBy(p => p.ProductID)
-                    .Skip((page - 1) * PageSize)
-                    .Take(PageSize)
-            );
+            ProductsListViewModel model = new ProductsListViewModel
+            {
+                Products = repository.Products
+                                .OrderBy(p => p.ProductID)
+                                .Skip((page - 1) * PageSize)
+                                .Take(PageSize)
+                ,
+                PagingInfo = new PagingInfo
+                {
+                    CurrentPage = page,
+                    ItemsPerPage = PageSize,
+                    TotalItems = repository.Products.Count()
+                }
+            };
+
+            return View(model);
         }
     }
 }
-
