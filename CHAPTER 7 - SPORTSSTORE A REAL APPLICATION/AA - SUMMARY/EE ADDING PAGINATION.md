@@ -55,13 +55,25 @@
     </li>
     <li>
         <h3><i>UNIT TEST: PAGE MODEL VIEW DATA</i></h3>
-        The code below tests whether the controller sends the correct paging data to the display.
-        <br />
-        <p align="center">
-            <img src="Pictures/UNIT TEST - PAGE MODEL VIEW DATA.png" /><br />
-        </p>
+        <ul>
+            <li>
+                The code below tests whether the controller sends the correct paging data to the display.<br />
+                <p align="center">
+                    <img src="Pictures/UNIT TEST - PAGE MODEL VIEW DATA.png" /><br />
+                </p>
+            </li>
+            <li>
+                You need to modify the previous paging unit test contained in the <b>Can_Paginate</b> method. Data has been wrapped in another view model type. You can see the modification in the code below:<br />
+                <p align="center">
+                    <img src="Pictures/Can_Paginate.png" /><br />
+                </p>
+            </li>
+        </ul>
     </li>
-    <li><b>Listing 7-22.</b> Updating the list <b>List.cshtml</b> file</li>
+    <li>
+        <h3><i>ZZZZZZZZZZZZZZZZZZZZZ</i></h3>
+        <b>Listing 7-22.</b> Updating the list <b>List.cshtml</b> file
+    </li>
 </ul>
 
 <h2><i>DISPLAYING THE PAGE LINKS</i></h2>
