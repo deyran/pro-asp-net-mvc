@@ -1,17 +1,19 @@
-﻿@using SportsStore.Domain.Entities
-@model IEnumerable<Product>
+﻿@model SportsStore.WebUI.Models.ProductsListViewModel
 
 <!--
 CC DISPLAYING A LIST OF PRODUCTS
     RENDERING DATA THE VIEW DATA
         Listing 7-9. Editing the List.cshtml file
+
+EE ADDING PAGINATION
+    Listing 7-22. Updating the list List.cshtml file
 -->
 
 @{
     ViewBag.Title = "Products";
 }
 
-@foreach (var p in Model)
+@foreach (var p in Model.Products)
 {
     <div>
         <h3>@p.Name</h3>

@@ -71,8 +71,11 @@
         </ul>
     </li>
     <li>
-        <h3><i>ZZZZZZZZZZZZZZZZZZZZZ</i></h3>
-        <b>Listing 7-22.</b> Updating the list <b>List.cshtml</b> file
+        <h3><i>Updating the List.cshtml File</i></h3><br />
+        <p align="center">
+            <img src="Pictures/Listing 7-22.png" /><br />
+            <b>Listing 7-22.</b> Updating the list <b>List.cshtml</b> file
+        </p>        
     </li>
 </ul>
 
