@@ -53,11 +53,19 @@
             <b>Listing 7-21.</b> Updating the list method in the <b>ProductController.cs</b> file
         </p>
     </li>
-    <li><h3><i>UNIT TEST: PAGE MODEL VIEW DATA</i></h3></li>
+    <li>
+        <h3><i>UNIT TEST: PAGE MODEL VIEW DATA</i></h3>
+        The code below tests whether the controller sends the correct paging data to the display.
+        <br />
+        <p align="center">
+            <img src="Pictures/UNIT TEST - PAGE MODEL VIEW DATA.png" /><br />
+        </p>
+    </li>
     <li><b>Listing 7-22.</b> Updating the list <b>List.cshtml</b> file</li>
 </ul>
 
 <h2><i>DISPLAYING THE PAGE LINKS</i></h2>
+
 <ul>
     <li><h3><i>WHY NOT JUST USE A GRIDVIEW?</i></h3></li>
 </ul>
