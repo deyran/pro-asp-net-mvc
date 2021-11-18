@@ -83,7 +83,14 @@
 <p align="center">
     <img src="Pictures/Listing 7-23.png" /><br />
     <b>Listing 7-23.</b> Calling the HTML helper method in the <b>List.cshtml</b> file
+</p><br />
+
+If you run the application, you will see the new page links, as illustraded in <b>Figure 7-14</b><br />
+<p align="center">
+    <img src="Pictures/Figure 7-14.png" /><br />
+    <b>Figure 7-14.</b> Displaying page navigation links
 </p>
+
 
 
 <ul>
