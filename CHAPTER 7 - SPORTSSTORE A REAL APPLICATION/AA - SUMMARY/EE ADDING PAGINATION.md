@@ -79,7 +79,12 @@
     </li>
 </ul>
 
-<h2><i>DISPLAYING THE PAGE LINKS</i></h2>
+<h2><i>DISPLAYING THE PAGE LINKS</i></h2><br />
+<p align="center">
+    <img src="Pictures/Listing 7-23.png" /><br />
+    <b>Listing 7-23.</b> Calling the HTML helper method in the <b>List.cshtml</b> file
+</p>
+
 
 <ul>
     <li><h3><i>WHY NOT JUST USE A GRIDVIEW?</i></h3></li>
