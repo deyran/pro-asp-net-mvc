@@ -29,7 +29,7 @@
             <li>
                 Add a new class file called <b>PagingHelpers.cs</b>  (Listing 7-18).
             </li>
-        </ol><br /><br />
+        </ol><br />
         <p align="center">
             <img src="Pictures/Listing 7-18.png" /><br />
             <b>Listing 7-18.</b> The contents of the <b>PagingHelpers.cs</b> file
@@ -37,7 +37,7 @@
     </li>
     <li>
         <h3><i>UNIT TEST: CREATING PAGE LINKS</i></h3>
-        To test the <b>PageLinks </b> helper method, it will call the method with the test data and compare the results to the expected HTML. The unit test method is as follows:<br /><br />
+        To test the <b>PageLinks </b> helper method, it will call the method with the test data and compare the results to the expected HTML. The unit test method is as follows:<br />
         <p align="center">
             <img src="Pictures/UNIT_TEST_CREATING_PAGE_LINKS.png" />
         </p>               
