@@ -14,6 +14,17 @@ namespace SportsStore.WebUI
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
 
             /*
+            EE ADDING PAGINATION
+	            IMPROVING THE URLs
+		            Listing 7-24. Adding a new route to the RouteConfig.cs file
+             */
+            routes.MapRoute(
+                name: null,
+                url: "Page{page}",
+                defaults: new { Controller = "Product", action = "List" }
+            );
+
+            /*
             CC DISPLAYING A LIST OF PRODUCTS
 	            SETTING THE DEFAULT ROUTE
 		            Listing 7-10. Adding the Default Route in the RouteConfig.cs file.             
@@ -31,3 +42,5 @@ namespace SportsStore.WebUI
         }
     }
 }
+
+

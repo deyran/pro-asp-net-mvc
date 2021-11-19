@@ -91,14 +91,20 @@ If you run the application, you will see the new page links, as illustraded in <
     <b>Figure 7-14.</b> Displaying page navigation links
 </p>
 
-
-
-<ul>
-    <li><h3><i>WHY NOT JUST USE A GRIDVIEW?</i></h3></li>
-</ul>
-
 <h2><i>IMPROVING THE URLs</i></h2>
 <ul>
-    <li><b>Listing 7-24.</b> Adding a new route to the <b>RouteConfig.cs</b> file</li>
-    <li><b>Figure 7-15.</b> The new URL scheme displayed in the browser</li>
+    <li>
+        MVC makes it easy to change the URL scheme in application becasuse it uses the ASP.NET <i>routing</i> feature. All you need is add a new route to the <i>RegisterRoutes</i> method in the <i>RouteConfig.cs</i> file, which you will find in the <i>App_Start</i> folder of the <i>SportsStore.WebUI</i> project. You can see the change in Listing 7-24.<br />
+        <p align="center">
+            <img src="Pictures/Listing 7-24.png" /><br />
+            <b>Listing 7-24.</b> Adding a new route to the <b>RouteConfig.cs</b> file
+        </p>
+    </li>
+    <li>
+        Run the application and navigate to a page, you will see the new URL scheme in action, as illustrated in Figure 7-15<br />
+        <p align="center">
+            <img src="Pictures/Figure 7-15.png" /><br />
+            <b>Figure 7-15.</b> The new URL scheme displayed in the browser
+        </p>
+    </li>
 </ul>
