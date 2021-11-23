@@ -12,4 +12,10 @@
 </ol>
 
 <h2><i>APPLYING BOOTSTRAP STYLES TO THE LAYOUT</i></h2>
+    In <b>Listing 7-26</b> you will see the CSS Bootstrap library implemented in the _Layout.cshtml file
+    <p align="center">
+        <img src="Pictures/Listing 7-17.png" /><br />
+        <b>Listing 7-17.</b> The contents of the <b>PagingInfo.cs</b> file
+    </p>
+
 <h2><i>CREATING A PARTIAL VIEW</i></h2>
