@@ -26,6 +26,10 @@
         <b>Listing 8-9</b>. Using the <b>ViewBag</b> feature in the <b>NavController.cs</b> file
         <h3><i>UNIT TEST - REPORTING THE SELECTED CATEGORY</i></h3>
         <b>Listing 8-10</b>. Highlighting the selected category in the <b>Menu.cshtml</b> file.
-        <b>Figure 8-4</b>. Hightlighting the selected category        
+        <b>Figure 8-4</b>. Hightlighting the selected category
 
 <h2><i>CORRECTING THE PAGE COUNT</i></h2>
+    <b>Figure 8-5</b>. Displaying the wrong page links when a category is selected
+    <b>Listing 8-11</b>. Creating category-awre pagination data in the <b>ProductController.cs</b> file.
+    <b>Figure 8-6</b>. Displaying category-specific page counts
+    <h3><i>UNIT TEST - CATEGORY-SPECIFIC PRODUCT COUNTS</i></h3>
