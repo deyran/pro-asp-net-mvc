@@ -21,7 +21,11 @@
             </p>
         </li>
         <li>
-            SSSSSSS
+            You need to change the <b>List.cshtml</b> file, as shown in <b>Listing 7-27</b>.
+            <p align="center">
+                <img src="Pictures/Listing 7-27.png" /><br />
+                Listing 7-27. Applying Bootstrap CSS to style the <b>List.cshtml</b> file
+            </p>
         </li>        
     </ul>
 
