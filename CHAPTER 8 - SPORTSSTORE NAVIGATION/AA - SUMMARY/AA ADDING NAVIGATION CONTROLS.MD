@@ -14,5 +14,7 @@
 <h2><i>BUILDING A CATEGORY NAVIGATION MENU</i></h2>
     <h3><i>Creating the navigation controller</i></h3>
         <b>Listing 8-5</b>. Adding the menu action method to the <b>NavController.cs</b> file.
-        XXXXX
+        <b>Listing 8-6</b>. Adding the <b>RenderAction</b> call the <b>_Layoutcshtml</b> file.
+        <b>Figure 8-2</b>. Displaying the output from the menu action method
+
 <h2><i>CORRECTING THE PAGE COUNT</i></h2>
