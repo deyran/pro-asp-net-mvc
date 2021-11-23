@@ -16,5 +16,16 @@
         <b>Listing 8-5</b>. Adding the menu action method to the <b>NavController.cs</b> file.
         <b>Listing 8-6</b>. Adding the <b>RenderAction</b> call the <b>_Layoutcshtml</b> file.
         <b>Figure 8-2</b>. Displaying the output from the menu action method
+    <h3><i>Generating category lists</i></h3>
+        <b>Listing 8-7</b>. Implementing the menu method in the <b>NavController.cs</b> file
+        <h3><i>UNIT TEST - GENERATING THE CATEGORY LIST</i></h3>
+    <h3><i>Creating the view</i></h3>
+        <b>Listing 8-8</b>. The contents of the <b>Menu.cshtml</b> file
+        <b>Figure 8-3</b>. The category links
+    <h3><i>Highlighting the current category</i></h3>
+        <b>Listing 8-9</b>. Using the <b>ViewBag</b> feature in the <b>NavController.cs</b> file
+        <h3><i>UNIT TEST - REPORTING THE SELECTED CATEGORY</i></h3>
+        <b>Listing 8-10</b>. Highlighting the selected category in the <b>Menu.cshtml</b> file.
+        <b>Figure 8-4</b>. Hightlighting the selected category        
 
 <h2><i>CORRECTING THE PAGE COUNT</i></h2>
