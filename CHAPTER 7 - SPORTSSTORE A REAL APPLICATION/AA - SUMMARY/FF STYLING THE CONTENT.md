@@ -7,7 +7,7 @@
 		Open <b>Package Manage Console</b> (Tools > NuGet Package Manager > Package Manage Console)
 	</li>
 	<li>
-		Type: Install-Package -version 3.0.0 bootstrap –projectname SportsStore.WebUI
+		Type: <b>Install-Package -version 3.0.0 bootstrap –projectname SportsStore.WebUI</b>
 	</li>
 </ol>
 
