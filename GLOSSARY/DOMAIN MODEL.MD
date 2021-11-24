@@ -1,0 +1,3 @@
+DOMAIN MODEL -> A <b>domain model</b> is a system of abstractions that describes aspects of a sphere of knowledge, influence or activity (a domain). The model can then used to solve problems related to that domain. The domain model is a representation of meaningful real-world concepts pertinent to the domain that need to be modeled in software. The concepts include the data involved in the business and rules that business uses in relatio to that data. [...]
+                FONT: https://en.wikipedia.org/wiki/Domain_model
+                DATE: 11-18-21

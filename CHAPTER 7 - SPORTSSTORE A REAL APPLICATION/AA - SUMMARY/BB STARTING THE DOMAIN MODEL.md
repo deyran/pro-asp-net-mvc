@@ -1,12 +1,7 @@
 <h1>STARTING THE DOMAIN MODEL</h1>
     <ul>
         <li>
-            All MVC Framework projects start with the <b>domain model</b> because everything in an MVC Framework application revolves around it
-            <p>
-                DOMAIN MODEL -> A <b>domain model</b> is a system of abstractions that describes aspects of a sphere of knowledge, influence or activity (a domain). The model can then used to solve problems related to that domain. The domain model is a representation of meaningful real-world concepts pertinent to the domain that need to be modeled in software. The concepts include the data involved in the business and rules that business uses in relatio to that data. [...]
-                FONT: https://en.wikipedia.org/wiki/Domain_model
-                DATE: 11-18-21
-            </P>
+            All MVC Framework projects start with the <a href="GLOSSARY\DOMAIN MODEL.MD"><b>domain model</b></a> because everything in an MVC Framework application revolves around it
         </li>
         <li>
             Create a new folder called <b>Entities</b> inside the <b>Sports.Domain</b>
