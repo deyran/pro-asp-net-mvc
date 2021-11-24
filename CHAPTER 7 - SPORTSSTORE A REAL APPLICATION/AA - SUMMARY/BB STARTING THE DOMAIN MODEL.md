@@ -1,11 +1,10 @@
 <h1>STARTING THE DOMAIN MODEL</h1>
     <ul>
         <li>
-            All MVC Framework projects start with the 
-            [<b>domain model</b>](path%20with%20spaces/GLOSSARY\DOMAIN MODEL.MD) because everything in an MVC Framework application revolves around it
+           All MVC Framework projects start with the [domain model](GLOSSARY/DOMAIN MODEL.MD) because everything in an MVC Framework application revolves around it.
         </li>
         <li>
-          > Create a new folder called <b>Entities</b> inside the <b>Sports.Domain</b>
+           Create a new folder called <b>Entities</b> inside the <b>Sports.Domain</b>
         </li>
         <li>
             Create a class called <b>Product.cs</b> and place it inside of <b>Entities</b> folder. 
