@@ -55,8 +55,8 @@
         <li>
             To create a partial view follow these steps:
             <ol>
-                <li>AAAA</li>
-                <li>AAAA</li>
+                <li>In the <b>SportsStore.WebUI</b> project, rigth-click the <b>/Views/Shared</b> folder</li>
+                <li>Select <b>Add > View</b> from pop-up menu</li>
                 <li>AAAA</li>
                 <li>AAAA</li>
             </ol>
