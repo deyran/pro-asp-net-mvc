@@ -57,8 +57,14 @@
             <ol>
                 <li>In the <b>SportsStore.WebUI</b> project, rigth-click the <b>/Views/Shared</b> folder</li>
                 <li>Select <b>Add > View</b> from pop-up menu</li>
-                <li>AAAA</li>
-                <li>AAAA</li>
+                <li>In the <b>Add New Scaffolded Item</b> window, choose the <b>MVC 5 View</b> option and click the <b>Add</b> button</li>
+                <li>
+                    In the <b>Add View</b> window, fill in the fields as shown in the picture below and click the <b>Add</b> button
+                    <p align="center">
+                        <img src="Pictures/Figure 7-18.png" /><br />
+                        <b>Figure 7-18</b>. Creating a patial view
+                    </p>
+                </li>
             </ol>
         </li>
     </ul>
