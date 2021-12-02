@@ -65,6 +65,10 @@
                         <b>Figure 7-18</b>. Creating a patial view
                     </p>
                 </li>
-            </ol>
+            </ol><br />
+        </li>
+        <li>
+            Open the <b>ProductSummary.cshtml</b> file and apply the changes shown in <b>Listing 7-28</b>.
+            AAA
         </li>
     </ul>
