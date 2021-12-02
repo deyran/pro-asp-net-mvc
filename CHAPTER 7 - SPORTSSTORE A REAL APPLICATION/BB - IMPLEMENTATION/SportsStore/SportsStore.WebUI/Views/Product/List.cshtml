@@ -15,6 +15,9 @@ EE ADDING PAGINATION
 FF STYLING THE CONTENT
         APPLYING BOOTSTRAP STYLES TO THE LAYOUT
             Listing 7-27. Applying Bootstrap CSS to style the List.cshtml file
+
+        CREATING A PARTIAL VIEW
+            Listing 7-29. Using a partial view in the List.cshtml file
 -->
 
 @{
@@ -23,13 +26,7 @@ FF STYLING THE CONTENT
 
 @foreach (var p in Model.Products)
 {
-    <div class="well">
-        <h3>
-            <strong>@p.Name</strong>
-            <span class="pull-right label label-primary">@p.Price.ToString("c")</span>
-        </h3>
-        <span class="lead">@p.Description</span>
-    </div>
+    @Html.Partial("ProductSummary", p);
 }
 
 <div class="btn-group pull-right">

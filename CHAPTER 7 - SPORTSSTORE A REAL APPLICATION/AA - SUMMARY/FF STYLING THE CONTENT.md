@@ -69,6 +69,23 @@
         </li>
         <li>
             Open the <b>ProductSummary.cshtml</b> file and apply the changes shown in <b>Listing 7-28</b>.
-            AAA
+            <p align="center">
+                <img src="Pictures/Listing 7-28.png" /><br />
+                <b>Figure 7-28</b>. Adding Markup to the <b>ProductSummary.cshtml</b> file
+            </p><br />
+        </li>
+        <li>
+            Now open and update <b>View/Products/List.cshmlt</b> so that it uses the partial view (Listing 7-29)
+            <p align="center">
+                <img src="Pictures/Listing 7-29.png" /><br />
+                <b>Listing 7-29</b>. Using a partial view in the <b>List.cshtml</b> file
+            </p><br />
+        </li>
+        <li>
+            Run the application and see the result (Figure 7-19)
+            <p align="center">
+                <img src="Pictures/Figure 7-19.png" /><br />
+                <b>Figure 7-19</b>. Applying a partial view
+            </p>
         </li>
     </ul>
