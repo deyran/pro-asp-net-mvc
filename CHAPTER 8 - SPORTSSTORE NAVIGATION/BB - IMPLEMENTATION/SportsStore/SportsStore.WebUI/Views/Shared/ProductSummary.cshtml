@@ -1,0 +1,16 @@
+﻿@model SportsStore.Domain.Entities.Product
+
+<!--
+STYLING THE CONTENT
+    CREATING A PARTIAL VIEW
+        Listing 7-28. Adding Markup to the <b>ProductSummary.cshtml</b> file
+-->
+
+<div class="well">
+    <h3>
+        <strong>@Model.Name</strong>
+        <span class="pull-right label label-primary">@Model.Price.ToString("c")</span>
+    </h3>
+    <span class="lead">@Model.Description</span>
+</div>
+

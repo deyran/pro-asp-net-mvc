@@ -1,0 +1,34 @@
+﻿@using SportsStore.WebUI.HtmlHelpers
+@model SportsStore.WebUI.Models.ProductsListViewModel
+
+<!--
+CC DISPLAYING A LIST OF PRODUCTS
+    RENDERING DATA THE VIEW DATA
+        Listing 7-9. Editing the List.cshtml file
+
+EE ADDING PAGINATION
+    Listing 7-22. Updating the list List.cshtml file
+
+    DISPLAYING THE PAGE LINKS
+        Listing 7-23. Calling the HTML helper method in the List.cshtml file
+
+FF STYLING THE CONTENT
+        APPLYING BOOTSTRAP STYLES TO THE LAYOUT
+            Listing 7-27. Applying Bootstrap CSS to style the List.cshtml file
+
+        CREATING A PARTIAL VIEW
+            Listing 7-29. Using a partial view in the List.cshtml file
+-->
+
+@{
+    ViewBag.Title = "Products";
+}
+
+@foreach (var p in Model.Products)
+{
+    @Html.Partial("ProductSummary", p);
+}
+
+<div class="btn-group pull-right">
+    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))
+</div>
