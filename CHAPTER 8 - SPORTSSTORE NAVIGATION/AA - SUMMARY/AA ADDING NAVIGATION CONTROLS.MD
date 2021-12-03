@@ -1,3 +1,9 @@
+<p align="center">
+    <h2>
+        In the chapter 7 was set up the core infrastructure of the SportsStore application, now will be used this infrastructre to add features to the application.
+    </h2>
+</p>
+
 <h1>ADDING NAVIGATION CONTROLS</h1>
 
 <h2><i>FILTERING THE PRODUCT LIST</i></h2>
