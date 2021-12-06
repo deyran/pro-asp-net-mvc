@@ -18,8 +18,11 @@
 
 <h2><i>Filtering the Product List</i></h2>
     <ul>
-        <li>A</li>
-        <li>A</li>
+        <li>Let's start with the view model class <b>ProductListViewModel</b> in the <b>SportsStore.WebUI</b> project</li>
+        <li>It is necessary to communicate the current category to the view in order to render the sidebar</li>
+        <li>
+            You can see this implementation in Listing 8-1, in the code below:
+        </li>
     </ul>
 
 <h2><i>Refining the URL Scheme</i></h2>
