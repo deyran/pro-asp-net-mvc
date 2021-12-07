@@ -49,7 +49,9 @@ ADDING NAVIGATION CONTROLS
 
 	<p align="center">
 		<h2><i>UNIT TEST: UPDATING EXISTING UNIT TESTS</i></h2>
+		The signature of the List action method has changed and you need to sync the unit tests with the changed code
 	</p>
+	
 	
 	<ul>
 		<li>AAA</li>
