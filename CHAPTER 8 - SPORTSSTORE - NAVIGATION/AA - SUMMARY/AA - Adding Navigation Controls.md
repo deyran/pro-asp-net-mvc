@@ -28,15 +28,13 @@
 		</p>
         </li>
 	<li>
-		<ul>
-			<li>
-				The next step is to update <b>List</b> action method from the <b>ProductController</b> class. This update brings these features:
-				<ol>
-					<li>The <b>List</b> action method will filter <b>Product</b> object by category</li>
-					<li>With the new property added to the view template it will be possible to define the category that was selected</li>
-				</ol>
-			</li>
-			<li>
+		The next step is to update <b>List</b> action method from the <b>ProductController</b> class. This update brings these features:
+		<ol>
+			<li>The <b>List</b> action method will filter <b>Product</b> object by category</li>
+			<li>With the new property added to the view template it will be possible to define the category that was selected</li>
+		</ol>
+	</li>
+	<li>
 				You can see the implementation in Listing 8-2, in the code below:
 			        <p align="center">
                 			<img src="Pictures/Listing 8-2.png" /><br />
