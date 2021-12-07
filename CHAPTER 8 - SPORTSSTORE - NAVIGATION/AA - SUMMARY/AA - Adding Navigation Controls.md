@@ -35,16 +35,27 @@
 		</ol>
 	</li>
 	<li>
-				You can see the implementation in Listing 8-2, in the code below:
-			        <p align="center">
-                			<img src="Pictures/Listing 8-2.png" /><br />
-			                <b>Listing 8-2.</b> Adding category support to the List action method in the ProductController.cs file
-				</p>
-			</li>
-		</ul>
+		You can see the implementation in Listing 8-2, in the code below:
+	        <p align="center">
+        		<img src="Pictures/Listing 8-2.png" /><br />
+			<b>Listing 8-2.</b> Adding category support to the List action method in the ProductController.cs file
+		</p>
 	</li>
     </ul>
 
+ADDING NAVIGATION CONTROLS
+	Filtering the Product List
+		UNIT TEST: UPDATING EXISTING UNIT TESTS
+
+	<p align="center">
+		<h2><i>UNIT TEST: UPDATING EXISTING UNIT TESTS</i></h2>
+	</p>
+	
+	<ul>
+		<li>AAA</li>
+		<li>BB</li>
+	</ul>
+	
 <h2><i>Refining the URL Scheme</i></h2>
 <h2><i>Building a Category Navigation Menu</i></h2>
 <h2><i>Correcting the Page Count</i></h2>
