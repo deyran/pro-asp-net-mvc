@@ -21,9 +21,9 @@ namespace SportsStore.WebUI.Controllers
 	    Adding the View Model data
 		    Listing 7-21. Updating the list method in the ProductController.cs file
 
-	ADDING NAVIGATION CONTROLS
-		Filtering the Product List
-			Listing 8-2. Adding category support to the List action method in the ProductController.cs file
+    ADDING NAVIGATION CONTROLS
+	    Filtering the Product List
+		    Listing 8-2. Adding category support to the List action method in the ProductController.cs file
     */
     public class ProductController : Controller
     {
