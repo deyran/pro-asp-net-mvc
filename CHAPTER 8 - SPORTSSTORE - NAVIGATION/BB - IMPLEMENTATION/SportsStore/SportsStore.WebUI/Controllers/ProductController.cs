@@ -10,7 +10,7 @@ using SportsStore.WebUI.Models;
 namespace SportsStore.WebUI.Controllers
 {
     /*
-    CC DISPLAYING A LIST OF PRODUCTS
+    DISPLAYING A LIST OF PRODUCTS
 	    ADDING A CONTROLLER
 		    Listing 7-6. The initial contents of the <b>ProductController.cs</b> file
 		    Listing 7-7. Adding an action method to the ProductController.cs file
@@ -20,6 +20,10 @@ namespace SportsStore.WebUI.Controllers
 
 	    Adding the View Model data
 		    Listing 7-21. Updating the list method in the ProductController.cs file
+
+	ADDING NAVIGATION CONTROLS
+		Filtering the Product List
+			Listing 8-2. Adding category support to the List action method in the ProductController.cs file
     */
     public class ProductController : Controller
     {
@@ -30,11 +34,12 @@ namespace SportsStore.WebUI.Controllers
         {
             this.repository = productRepository;
         }
-        public ViewResult List(int page = 1)
+        public ViewResult List(string category, int page = 1)
         {
             ProductsListViewModel model = new ProductsListViewModel
             {
                 Products = repository.Products
+                                .Where(p => category == null || p.Category == category)
                                 .OrderBy(p => p.ProductID)
                                 .Skip((page - 1) * PageSize)
                                 .Take(PageSize)
@@ -44,7 +49,9 @@ namespace SportsStore.WebUI.Controllers
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
                     TotalItems = repository.Products.Count()
-                }
+                },
+
+                CurrentCategory = category
             };
 
             return View(model);
