@@ -66,6 +66,13 @@
                     </li>        
                 </ul>
         </li>
+        <li>
+            With these small changes it's possible to see the result in practice. Run the application, type <b><i>?categoty=Soccer</i></b> at the end of the URL, for example: <i>http://localhost:xxxxx/?category=Soccer</i>. The result you will see in <b>Figure 8-1</b> in the picture below:
+            <p align="center">
+                <img src="Pictures/Figure 8-1.png" /><br />
+                <b>Figure 8-1.</b> Adding category support to the List action method in the ProductController.cs file
+            </p>
+        </li>
     </ul>    
 
 <h2><i>Refining the URL Scheme</i></h2>
