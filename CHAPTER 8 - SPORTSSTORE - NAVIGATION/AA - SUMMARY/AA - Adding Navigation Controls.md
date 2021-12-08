@@ -16,7 +16,7 @@
         </li>                
     </ol>
 
-<h2><i>Filtering the Product List</i></h2>
+<h2><i>FILTERING THE PRODUCT LIST</i></h2>
     <ul>
         <li>
             Let's start with the view model class <b>ProductListViewModel</b> in the <b>SportsStore.WebUI</b> project
