@@ -2,7 +2,7 @@
     In the previous chapter, the core infrastructure of the <b>SportsStore </b> application was configured. This infrastructure will now be used to add features to the application.    
 </p>
 
-<h1><i>Adding Navigation Controls</i></h1>
+<h1><i>ADDING NAVIGATION CONTROLS</i></h1>
     This section is divided into three phrases:<br />
     <ol>
         <li>
@@ -42,21 +42,6 @@
 		</p>
 	</li>
     </ul>
-
-ADDING NAVIGATION CONTROLS
-	Filtering the Product List
-		UNIT TEST: UPDATING EXISTING UNIT TESTS
-
-	<p align="center">
-		<h2><i>UNIT TEST: UPDATING EXISTING UNIT TESTS</i></h2>
-		The signature of the List action method has changed and you need to sync the unit tests with the changed code
-	</p>
-	
-	
-	<ul>
-		<li>AAA</li>
-		<li>BB</li>
-	</ul>
 	
 <h2><i>Refining the URL Scheme</i></h2>
 <h2><i>Building a Category Navigation Menu</i></h2>
