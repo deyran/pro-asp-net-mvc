@@ -73,6 +73,13 @@
                 <b>Figure 8-1.</b> Using the query string to filte by category
             </p>
         </li>
+        <li>
+            <h3><i>UNIT TEST: CATEGORY FILTERING</i></h3>
+            It's necessary to test whether the filtering function works correctly, here is the test:
+            <p align="center">
+                <img src="Pictures/UT_CATEGORY_FILTERING.png" />
+            </p>
+        </li>
     </ul>    
 
 <h2><i>Refining the URL Scheme</i></h2>
