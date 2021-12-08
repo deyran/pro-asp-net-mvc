@@ -49,13 +49,24 @@
                 <b>Listing 8-2.</b> Adding category support to the List action method in the ProductController.cs file
             </p>
         </li>
-    </ul>
-    
-<h3><i>UNIT TEST: UPDATING EXISTING UNIT TESTS</i></h3>
-    <ul>
-        <li>A</li>
-        <li>A</li>        
-    </ul>
+        <li>
+            <h3><i>UNIT TEST: UPDATING EXISTING UNIT TESTS</i></h3>
+                <ul>
+                    <li>
+                        The signature of the List action method has changed and you need to sync the unit tests with the changed code
+                    </li>
+                    <li>
+                        The methods you need to change are <b>Can_Paginate</b> and <b>Can_Send_Pagination_View_Model</b> test. The code below shows the point you need to change:<br />
+                            ...<br />
+                            <i>
+                            ProductsListViewModel result =<br />
+                            <b>(ProductsListViewModel) controller.List(null, 2).Model;</b>
+                            </i><br />
+                            ...
+                    </li>        
+                </ul>
+        </li>
+    </ul>    
 
 <h2><i>Refining the URL Scheme</i></h2>
 <h2><i>Building a Category Navigation Menu</i></h2>
