@@ -91,7 +91,13 @@
             <b>Listing 8-3.</b> The new URL scheme in the <b>RouteConfig.cs</b> file
         </p>
     </li>
-    <li>BB</li>
+    <li>
+        Now, you need updating the <b>list.cshtml</b> file and pass the information to the helper method, as shown in Listing 8-4.
+        <p align="center">
+            <img src="Pictures/Listing 8-4.png" /><br />
+            <b>Listing 8-4.</b> Adding category information to the pagination links in the List.cshtml file
+        </p>
+    </li>
 </ul>
 
 <h2><i>Building a Category Navigation Menu</i></h2>

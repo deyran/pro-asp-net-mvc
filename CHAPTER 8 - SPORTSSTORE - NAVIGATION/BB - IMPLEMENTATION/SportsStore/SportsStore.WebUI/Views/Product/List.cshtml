@@ -18,6 +18,11 @@ FF STYLING THE CONTENT
 
         CREATING A PARTIAL VIEW
             Listing 7-29. Using a partial view in the List.cshtml file
+
+ADDING NAVIGATION CONTROLS
+	FILTERING THE PRODUCT LIST
+		REFINING THE URL SCHEME
+			Listing 8-4. Adding category information to the pagination links in the List.cshtml file
 -->
 
 @{
@@ -30,5 +35,15 @@ FF STYLING THE CONTENT
 }
 
 <div class="btn-group pull-right">
-    @Html.PageLinks(Model.PagingInfo, x => Url.Action("List", new { page = x }))
+    @Html.PageLinks(
+	    Model.PagingInfo, 
+	    x => Url.Action(
+		    "List",
+		    new 
+		    {
+			    page = x, 
+			    category = Model.CurrentCategory
+		    }
+	    )
+    )
 </div>
