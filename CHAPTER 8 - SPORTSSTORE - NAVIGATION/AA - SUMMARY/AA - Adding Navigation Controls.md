@@ -83,5 +83,16 @@
     </ul>    
 
 <h2><i>Refining the URL Scheme</i></h2>
+<ul>
+    <li>
+        We need a different approach to avoid seeing and using URL's like <b>/?category=Soccer</b>. To implement the new scheme, you must to change the <b>RegisterRouter</b> method in the <b>App_Start/RouterConfig.cs</b>file, as shown in Listing 8-3.
+        <p align="center">
+            <img src="Pictures/Listing 8-3.png" /><br />
+            <b>Listing 8-3.</b> The new URL scheme in the <b>RouteConfig.cs</b> file
+        </p>
+    </li>
+    <li>BB</li>
+</ul>
+
 <h2><i>Building a Category Navigation Menu</i></h2>
 <h2><i>Correcting the Page Count</i></h2>
