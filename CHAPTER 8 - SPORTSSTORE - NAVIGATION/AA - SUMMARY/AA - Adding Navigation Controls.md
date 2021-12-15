@@ -100,5 +100,14 @@
     </li>
 </ul>
 
-<h2><i>Building a Category Navigation Menu</i></h2>
+<h2><i>BUILDING A CATEGORY NAVIGATION MENU</i></h2>
+<ul>
+    <li>
+        In this section, we'll implement a way for the customer to select a category without typing URLs. To make this possible, we will introduce a concept called <b>child actions</b> for creating items as a reusable navigation control
+    </li>
+    <li>
+        The most important characteristc of the <b>child action</b> is self-contained and reusable. But what's the <b>child action</b>? The <b>child action</b> is a controller that, through its methods renders any dynamic HTML in anywhere in the View. To render any HTML in anywhere you need to use HTML Helper method called <b>Html.Action</b>
+    </li>
+</ul>
+
 <h2><i>Correcting the Page Count</i></h2>
