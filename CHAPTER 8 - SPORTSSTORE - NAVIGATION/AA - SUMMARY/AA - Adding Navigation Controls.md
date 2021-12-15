@@ -82,7 +82,7 @@
         </li>
     </ul>    
 
-<h2><i>Refining the URL Scheme</i></h2>
+<h2><i>REFINING THE URL SCHEME</i></h2>
 <ul>
     <li>
         We need a different approach to avoid seeing and using URL's like <b>/?category=Soccer</b>. To implement the new scheme, you must to change the <b>RegisterRouter</b> method in the <b>App_Start/RouterConfig.cs</b>file, as shown in Listing 8-3.
