@@ -106,7 +106,15 @@
         In this section, we'll implement a way for the customer to select a category without typing URLs. To make this possible, we will introduce a concept called <b>child actions</b> for creating items as a reusable navigation control
     </li>
     <li>
-        The most important characteristc of the <b>child action</b> is self-contained and reusable. But what's the <b>child action</b>? The <b>child action</b> is a controller that, through its methods renders any dynamic HTML in anywhere in the View. To render any HTML in anywhere you need to use HTML Helper method called <b>Html.Action</b>
+        The most important characteristc of the <b>child action</b> is self-contained and reusable. But what's the <b>child action</b>? The <b>child action</b> is a controller that, through its methods renders any dynamic HTML in anywhere in the View. To render any HTML in anywhere you need to use HTML Helper method called <b>Html.Action</b><br /><br />
+    </li>
+    <li>
+        <h3><i>CREATING THE NAVIGATION CONTROLLER</i></h3>
+        In the <b>SportsStore.WebUI</b> project create a new Controller called <b>NavController</b> and implement the action method called <b>Menu</b>, as shown in Listing 8-5.
+        <p align="center">
+            <img src="Pictures/Listing 8-5.png" /><br />
+            <b>Listing 8-5</b>. Adding the Menu action method to the NavController.cs file
+        </p>
     </li>
 </ul>
 
