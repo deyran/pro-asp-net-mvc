@@ -132,8 +132,19 @@
                     <b>Figure 8-2</b>. Adding the render action call to the _Layout.cshtml file
                 </p>
             </li>            
-        </ol>
+        </ol><br />
     </li>
+    <li>
+        <h3><i>GENERATING CATEGORY LISTS</i></h3>
+        <h4><i>UNIT TEST: GENERATION THE CATEGORY LIST</i></h4>
+    </li>
+    <li>
+        <h3><i>CREATING THE VIEW</i></h3>
+    </li>
+    <li>
+        <h3><i>HIGHLIGHTING THE CURRENT CATEGORY</i></h3>
+        <h4><i>UNIT TEST: REPORTING THE SELECTED CATEGORY</i></h4>
+    </li>    
 </ul>
 
 <h2><i>Correcting the Page Count</i></h2>
