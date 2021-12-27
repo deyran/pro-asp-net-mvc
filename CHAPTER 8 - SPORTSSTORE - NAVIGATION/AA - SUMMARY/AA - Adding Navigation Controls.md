@@ -124,6 +124,13 @@
                     <img src="Pictures/Listing 8-6.png" /><br />
                     <b>Listing 8-6</b>. Adding the render action call to the _Layout.cshtml file
                 </p>
+            </li>
+            <li>
+                Run the application and see the result (Figure 8-2)
+                <p align="center">
+                    <img src="Pictures/Figure 8-2.png" /><br />
+                    <b>Figure 8-2</b>. Adding the render action call to the _Layout.cshtml file
+                </p>
             </li>            
         </ol>
     </li>
