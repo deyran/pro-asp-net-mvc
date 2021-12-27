@@ -110,11 +110,17 @@
     </li>
     <li>
         <h3><i>CREATING THE NAVIGATION CONTROLLER</i></h3>
-        In the <b>SportsStore.WebUI</b> project create a new Controller called <b>NavController</b> and implement the action method called <b>Menu</b>, as shown in Listing 8-5.
-        <p align="center">
-            <img src="Pictures/Listing 8-5.png" /><br />
-            <b>Listing 8-5</b>. Adding the Menu action method to the NavController.cs file
-        </p>
+        <ol>
+            <li>
+                In the <b>SportsStore.WebUI</b> project create a new Controller called <b>NavController</b> and implement the action method called <b>Menu</b>, as shown in Listing 8-5.
+                <p align="center">
+                    <img src="Pictures/Listing 8-5.png" /><br />
+                    <b>Listing 8-5</b>. Adding the Menu action method to the NavController.cs file
+                </p>
+            </li>
+            <li>AAAA</li>
+            <li>BBBB</li>
+        </ol>
     </li>
 </ul>
 
