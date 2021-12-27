@@ -3,19 +3,24 @@
 <html lang="en">
 <head>
     <!--
-    CC DISPLAYING A LIST OF PRODUCTS
-        ADDING THE LAYOUT, VIEW START FILE AND VIEW
-            Listing 7-8. Editing the _Layout.cshtml file
+        CC DISPLAYING A LIST OF PRODUCTS
+            ADDING THE LAYOUT, VIEW START FILE AND VIEW
+                Listing 7-8. Editing the _Layout.cshtml file
 
-    FF STYLING THE CONTENT
-        APPLYING BOOTSTRAP STYLES TO THE LAYOUT
-            Listing 7-26. Applying Bootstrap CSS to the _Layout.cshtml file
-    -->
+        FF STYLING THE CONTENT
+            APPLYING BOOTSTRAP STYLES TO THE LAYOUT
+                Listing 7-26. Applying Bootstrap CSS to the _Layout.cshtml file
+
+        ADDING NAVIGATION CONTROLS
+            BUILDING A CATEGORY NAVIGATION MENU
+                CREATING THE NAVIGATION CONTROLLER
+                    Listing 8-6. Adding the render action call to the _Layout.cshtml file
+        -->
 
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
 
@@ -27,7 +32,7 @@
     </div>
     <div class="row panel">
         <div id="categories" class="col-xs-3">
-            Put something useful here later
+            @Html.Action("Menu", "Nav")
         </div>
         <div class="col-xs-8">
             @RenderBody()

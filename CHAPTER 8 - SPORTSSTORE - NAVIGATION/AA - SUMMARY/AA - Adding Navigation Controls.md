@@ -118,8 +118,13 @@
                     <b>Listing 8-5</b>. Adding the Menu action method to the NavController.cs file
                 </p>
             </li>
-            <li>AAAA</li>
-            <li>BBBB</li>
+            <li>
+                Now time to integrate the child action into the rest of the application. Edit the <b>Views/Share/_Layout.cshtml</b> so that it calls the <b>Html.Action</b> helper method, as shown in Listing 8-6.
+                <p align="center">
+                    <img src="Pictures/Listing 8-6.png" /><br />
+                    <b>Listing 8-6</b>. Adding the render action call to the _Layout.cshtml file
+                </p>
+            </li>            
         </ol>
     </li>
 </ul>
