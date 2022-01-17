@@ -136,7 +136,18 @@
     </li>
     <li>
         <h3><i>GENERATING CATEGORY LISTS</i></h3>
-        <h4><i>UNIT TEST: GENERATION THE CATEGORY LIST</i></h4>
+        <ul>
+            <li>
+                Now it will be implemented the list of category in the Menu action method in thr NavController.cs file (Listing 8-7)
+                <p align="center">
+                    <img src="Pictures/Listing 8-7.png" /><br />
+                    <b>Listing 8-7</b>. Implementing the Menu Method in the <b>NavController.cs</b> File
+                </p>
+            </li>
+            <li>
+                <h4><i>UNIT TEST: GENERATION THE CATEGORY LIST</i></h4>
+            </li>
+        </ul>
     </li>
     <li>
         <h3><i>CREATING THE VIEW</i></h3>
