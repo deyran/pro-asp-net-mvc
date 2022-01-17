@@ -22,7 +22,7 @@
             Let's start with the view model class <b>ProductListViewModel</b> in the <b>SportsStore.WebUI</b> project
         </li>
         <li>
-            It is necessary to communicate the current category to the view in order to render the sidebar
+            It is necessary to communicate the current category to the view in order to render the sidebar, for this we going to use <b>CurrentCategory</b> method (Listing 8-1)
         </li>
         <li>
             You can see this implementation in Listing 8-1, in the code below:
