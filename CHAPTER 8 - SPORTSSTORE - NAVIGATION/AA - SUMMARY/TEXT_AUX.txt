@@ -1,0 +1,3 @@
+public void Can_Create_Categories()
+{
+}
