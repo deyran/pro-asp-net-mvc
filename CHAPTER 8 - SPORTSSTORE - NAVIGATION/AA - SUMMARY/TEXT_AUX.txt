@@ -1,6 +1,16 @@
+ADDING NAVIGATION CONTROLS
+	BUILDING A CATEGORY NAVIGATION MENU
+		GENERATING CATEGORY LISTS
+			UNIT TEST: GENERATION THE CATEGORY LIST
+
+
+U_T_GENERATION_THE_CATEGORY_LIST
+
+
 The Unit Test for the ability to produce a category list simple, sorted in alphabetical order and contains no duplates. 
 A mock repository was created that contains repeated categories without alphabetical order and contains duplicate items.
 The duplicates are removed and that alphabetical ordering is imposed, as you can see in the code below:
+
 
 public void Can_Create_Categories()
 {
@@ -8,7 +18,7 @@ public void Can_Create_Categories()
 	// - create the mock repository
 	Mock<IProductRepository> mock = new Mock<IProductRepository>();
 	mock.Setup(m => m.Products).Returns(
-		new Products[]
+		new Product[]
 		{
 			new Product {ProductID = 1, Name = "P1", Category = "Apples"},
 			new Product {ProductID = 2, Name = "P2", Category = "Apples"},
@@ -21,13 +31,87 @@ public void Can_Create_Categories()
 	NavController target = new NavController(mock.Object);
 
 	// Act = get the set of categories
-	strings[] results = ((IEnumerable<string>)target.Menu().Model).ToArray();	
+	string[] results = ((IEnumerable<string>)target.Menu().Model).ToArray();	
 
 	// Assert
 	Assert.AreEqual(results.Length, 3);
 	Assert.AreEqual(results[0], "Apples");
 	Assert.AreEqual(results[1], "Oranges");
 	Assert.AreEqual(results[2], "Plums");
-
 }
 =====================================================================================================================================
+
+ADDING NAVIGATION CONTROLS
+	BUILDING A CATEGORY NAVIGATION MENU
+		CREATING THE VIEW
+			Listing 8-8. The content of the Menu.cshtml file
+			Figure 8-3. The category links
+
+
+@model IEnumerable<string>
+
+@Html.ActionLink("Home", "List", "Product", null, new { @class = "btn btn-block btn-default btn-lg" })
+
+@foreach(var link in Model)
+{
+	@Html.RouteLink(
+		link,
+		new 
+		{
+			controller = "Product",
+			action = "List",
+			category = "link",
+			page = 1
+		},
+		new { @class = "btn btn-block btn-default btn-lg" }
+	)
+}
+=====================================================================================================================================
+
+ADDING NAVIGATION CONTROLS
+	BUILDING A CATEGORY NAVIGATION MENU
+		HIGHLIGHTING THE CURRENT CATEGORY
+			UNIT TEST: REPORTING THE SELECTED CATEGORY
+=====================================================================================================================================
+
+  @Html.Action("Menu", "Nav")
+
+System.Web.HttpException
+  HResult=0x80004005
+  Message=Erro ao executar a solicitação filho do manipulador 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+  Source=System.Web.Mvc
+  StackTrace:
+   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
+   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
+   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\Views\Shared\_Layout.cshtml:line 35
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
+   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.WebPages.WebPageBase.<>c__DisplayClass40_0.<RenderPageCore>b__0(TextWriter writer)
+   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
+   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
+   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
+   at System.Web.WebPages.WebPageBase.PopContext()
+   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
+   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
+   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
+   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
+
+  This exception was originally thrown at this call stack:
+    [External Code]
+
+Inner Exception 1:
+InvalidOperationException: The partial view 'Menu' was not found or no view engine supports the searched locations. The following locations were searched:
+~/Views/Nav/Menu.aspx
+~/Views/Nav/Menu.ascx
+~/Views/Shared/Menu.aspx
+~/Views/Shared/Menu.ascx
+~/Views/Nav/Menu.cshtml
+~/Views/Nav/Menu.vbhtml
+~/Views/Shared/Menu.cshtml
+~/Views/Shared/Menu.vbhtml
+
