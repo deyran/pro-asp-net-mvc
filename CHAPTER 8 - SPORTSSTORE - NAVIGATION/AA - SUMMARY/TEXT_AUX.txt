@@ -74,11 +74,17 @@ ADDING NAVIGATION CONTROLS
 			UNIT TEST: REPORTING THE SELECTED CATEGORY
 =====================================================================================================================================
 
-  @Html.Action("Menu", "Nav")
+             routes.MapRoute(
+                name: "Default",
+                url: "{controller}/{action}/{id}/{name}",
+                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
+            );
 
-System.Web.HttpException
-  HResult=0x80004005
-  Message=Erro ao executar a solicitação filho do manipulador 'System.Web.Mvc.HttpHandlerUtil+ServerExecuteHttpHandlerAsyncWrapper'.
+-----------------------------------
+
+System.InvalidOperationException
+  HResult=0x80131509
+  Message=No route in the route table matches the supplied values.
   Source=System.Web.Mvc
   StackTrace:
    at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
@@ -101,17 +107,13 @@ System.Web.HttpException
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
 
-  This exception was originally thrown at this call stack:
-    [External Code]
 
-Inner Exception 1:
-InvalidOperationException: The partial view 'Menu' was not found or no view engine supports the searched locations. The following locations were searched:
-~/Views/Nav/Menu.aspx
-~/Views/Nav/Menu.ascx
-~/Views/Shared/Menu.aspx
-~/Views/Shared/Menu.ascx
-~/Views/Nav/Menu.cshtml
-~/Views/Nav/Menu.vbhtml
-~/Views/Shared/Menu.cshtml
-~/Views/Shared/Menu.vbhtml
-
+> https://stackoverflow.com/questions/7504255/redirecttoaction-causes-no-route-in-the-route-table-matches-the-supplied-values
+> https://stackoverflow.com/questions/19001679/asp-net-mvc-no-route-in-the-route-table-matches-the-supplied-values
+> https://stackoverflow.com/questions/52517346/site-publishing-error-no-route-in-the-route-table-matches-the-supplied-values
+> https://stackoverflow.com/questions/24283373/asp-net-mvc4-mandatory-route-parameter
+> https://stackoverflow.com/questions/35940758/routing-redirecttoactionstring-action
+> https://stackoverflow.com/questions/8935750/why-do-you-need-a-route-defined-for-html-action
+> https://sitecore.stackexchange.com/questions/3387/invalidoperationexception-no-route-in-the-route-table-matches-the-supplied-valu/3391
+>https://social.msdn.microsoft.com/Forums/en-US/1df6a860-0517-4143-bb4a-af6e1b367e66/please-help-me-there-is-an-error-in-aspnet-mvc5-project-online-shopping-store-databese-sql-server?forum=aspmvc
+> https://www.davidboike.dev/2012/07/perfectionist-routing-in-asp-net-mvc/

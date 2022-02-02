@@ -11,24 +11,20 @@ namespace SportsStore.WebUI.Controllers
             CREATING THE NAVIGATION CONTROLLER
                 Listing 8-5. Adding the Menu action method to the NavController.cs file
 
-    		GENERATING CATEGORY LISTS
-	    		Listing 8-7. Implementing the Menu Method in the NavController.cs File
+            GENERATING CATEGORY LISTS
+                Listing 8-7. Implementing the Menu Method in the NavController.cs File
     */
+
     public class NavController : Controller
     {
-        private IProductRepository repository;
+        private readonly IProductRepository repository;
 
-        public NavController(IProductRepository repo)
-        {
-            repository = repo;
-        }
+        public NavController(IProductRepository repo) => repository = repo;
 
         public PartialViewResult Menu()
         {
             IEnumerable<string> categories = repository.Products
-                                                .Select(x => x.Category)
-                                                .Distinct()
-                                                .OrderBy(x => x);
+                                                .Select(x => x.Category).Distinct().OrderBy(x => x);
 
             return PartialView(categories);
         }

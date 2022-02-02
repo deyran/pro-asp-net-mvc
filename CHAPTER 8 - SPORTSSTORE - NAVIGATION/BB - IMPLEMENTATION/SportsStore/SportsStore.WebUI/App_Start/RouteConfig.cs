@@ -54,11 +54,6 @@ namespace SportsStore.WebUI
                 new { page = @"\d+" }
             );
 
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}/{name}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional, name = UrlParameter.Optional }
-            );
         }
     }
 }
