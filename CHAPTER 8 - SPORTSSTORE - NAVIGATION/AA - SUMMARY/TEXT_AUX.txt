@@ -82,6 +82,8 @@ ADDING NAVIGATION CONTROLS
 
 -----------------------------------
 
+"System.InvalidOperationException" AND "@Html.Action" AND PartialViewResult
+
 System.InvalidOperationException
   HResult=0x80131509
   Message=No route in the route table matches the supplied values.
@@ -89,7 +91,6 @@ System.InvalidOperationException
   StackTrace:
    at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
    at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
-   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName)
    at ASP._Page_Views_Shared__Layout_cshtml.Execute() in C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\Views\Shared\_Layout.cshtml:line 35
    at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
    at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
@@ -106,14 +107,3 @@ System.InvalidOperationException
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
    at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-
-
-> https://stackoverflow.com/questions/7504255/redirecttoaction-causes-no-route-in-the-route-table-matches-the-supplied-values
-> https://stackoverflow.com/questions/19001679/asp-net-mvc-no-route-in-the-route-table-matches-the-supplied-values
-> https://stackoverflow.com/questions/52517346/site-publishing-error-no-route-in-the-route-table-matches-the-supplied-values
-> https://stackoverflow.com/questions/24283373/asp-net-mvc4-mandatory-route-parameter
-> https://stackoverflow.com/questions/35940758/routing-redirecttoactionstring-action
-> https://stackoverflow.com/questions/8935750/why-do-you-need-a-route-defined-for-html-action
-> https://sitecore.stackexchange.com/questions/3387/invalidoperationexception-no-route-in-the-route-table-matches-the-supplied-valu/3391
->https://social.msdn.microsoft.com/Forums/en-US/1df6a860-0517-4143-bb4a-af6e1b367e66/please-help-me-there-is-an-error-in-aspnet-mvc5-project-online-shopping-store-databese-sql-server?forum=aspmvc
-> https://www.davidboike.dev/2012/07/perfectionist-routing-in-asp-net-mvc/

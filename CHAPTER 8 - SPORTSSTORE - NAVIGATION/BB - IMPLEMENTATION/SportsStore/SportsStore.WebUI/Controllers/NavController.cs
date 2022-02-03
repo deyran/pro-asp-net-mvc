@@ -17,16 +17,16 @@ namespace SportsStore.WebUI.Controllers
 
     public class NavController : Controller
     {
-        private readonly IProductRepository repository;
+       private readonly IProductRepository repository;
 
-        public NavController(IProductRepository repo) => repository = repo;
+         public NavController(IProductRepository repo) => repository = repo;
 
-        public PartialViewResult Menu()
-        {
-            IEnumerable<string> categories = repository.Products
-                                                .Select(x => x.Category).Distinct().OrderBy(x => x);
+         public PartialViewResult Menu()
+         {
+             IEnumerable<string> categories = repository.Products
+                                                 .Select(x => x.Category).Distinct().OrderBy(x => x);
 
-            return PartialView(categories);
-        }
+             return PartialView(categories);
+         }
     }
 }

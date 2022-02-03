@@ -54,7 +54,7 @@ namespace SportsStore.WebUI
                 new { page = @"\d+" }
             );
 
-        }
+                }
     }
 }
 
