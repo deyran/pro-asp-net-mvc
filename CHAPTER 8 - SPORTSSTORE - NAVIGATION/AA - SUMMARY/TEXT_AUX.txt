@@ -69,9 +69,6 @@ ADDING NAVIGATION CONTROLS
 }
 
 
-
-
-
 			Figure 8-3. The category links
 
 
@@ -100,50 +97,3 @@ ADDING NAVIGATION CONTROLS
 		HIGHLIGHTING THE CURRENT CATEGORY
 			UNIT TEST: REPORTING THE SELECTED CATEGORY
 =====================================================================================================================================
-
-             routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}/{name}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
-
------------------------------------
-
-"System.InvalidOperationException" AND "@Html.Action" AND PartialViewResult
-
-System.InvalidOperationException
-  HResult=0x80131509
-  Message=No route in the route table matches the supplied values.
-  Source=System.Web.Mvc
-  StackTrace:
-   at System.Web.Mvc.Html.ChildActionExtensions.ActionHelper(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues, TextWriter textWriter)
-   at System.Web.Mvc.Html.ChildActionExtensions.Action(HtmlHelper htmlHelper, String actionName, String controllerName, RouteValueDictionary routeValues)
-   at ASP._Page_Views_Shared__Layout_cshtml.Execute() in C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\Views\Shared\_Layout.cshtml:line 35
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy()
-   at System.Web.Mvc.WebViewPage.ExecutePageHierarchy()
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
-   at System.Web.WebPages.WebPageBase.<>c__DisplayClass40_0.<RenderPageCore>b__0(TextWriter writer)
-   at System.Web.WebPages.HelperResult.WriteTo(TextWriter writer)
-   at System.Web.WebPages.WebPageBase.Write(HelperResult result)
-   at System.Web.WebPages.WebPageBase.RenderSurrounding(String partialViewName, Action`1 body)
-   at System.Web.WebPages.WebPageBase.PopContext()
-   at System.Web.WebPages.WebPageBase.ExecutePageHierarchy(WebPageContext pageContext, TextWriter writer, WebPageRenderingBase startPage)
-   at System.Web.Mvc.RazorView.RenderView(ViewContext viewContext, TextWriter writer, Object instance)
-   at System.Web.Mvc.BuildManagerCompiledView.Render(ViewContext viewContext, TextWriter writer)
-   at System.Web.Mvc.ViewResultBase.ExecuteResult(ControllerContext context)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResult(ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-   at System.Web.Mvc.ControllerActionInvoker.InvokeActionResultFilterRecursive(IList`1 filters, Int32 filterIndex, ResultExecutingContext preContext, ControllerContext controllerContext, ActionResult actionResult)
-
-> https://stackoverflow.com/questions/36559160/returning-string-to-layout-cshtml-using-partialview
-> https://stackoverflow.com/questions/44432070/how-to-change-menu-title-vertical-to-horizontal-in-asp-net-mvc
-> https://stackoverflow.com/questions/24283373/asp-net-mvc4-mandatory-route-parameter
-> https://stackoverflow.com/questions/41358351/removing-action-name-from-url-and-add-page-title-to-url-asp-net-mvc
-> https://eliasbland.wordpress.com/2010/04/06/error-no-route-in-the-route-table-matches-the-supplied-values-when-using-html-action-or-html-renderaction-in-asp-net-mvc/
-> https://www.c-sharpcorner.com/article/html-action-and-html-renderaction-in-Asp-Net-mvc/
-> https://stackoverflow.com/questions/8874775/how-can-i-use-html-action
-> https://www.c-sharpcorner.com/article/html-action-and-html-renderaction-in-Asp-Net-mvc/
-> https://stackoverflow.com/questions/2955261/difference-between-html-renderaction-and-html-action
-> https://social.msdn.microsoft.com/Forums/en-US/e8addd74-286b-4e87-aa63-e592cdd4fa1d/mvc-5-c-when-calling-a-htmlaction-from-my-controller-it-doesnt-display-anything?forum=aspmvc
-
-> https://www.google.com/search?q=%22Asp.Net%22+and+%22c%23%22+and+%22%40Html.Action%28%29%22+-Core&biw=1366&bih=635&sxsrf=APq-WBvrd7WJJ-r_MIE8xARI8yaJ9E1Mkg%3A1644008217242&ei=GZP9YbisDo-05OUP5KSu2AU&ved=0ahUKEwj4nK_u9-b1AhUPGrkGHWSSC1sQ4dUDCA8&uact=5&oq=%22Asp.Net%22+and+%22c%23%22+and+%22%40Html.Action%28%29%22+-Core&gs_lcp=Cgdnd3Mtd2l6EAM6BwgAEEcQsAM6BwgjEK4CECc6CAghEBYQHRAeSgQIQRgASgQIRhgAUNEGWJsUYIQaaAFwAngAgAHZAYgBiQmSAQUwLjQuMpgBAKABAcgBCMABAQ&sclient=gws-wiz
