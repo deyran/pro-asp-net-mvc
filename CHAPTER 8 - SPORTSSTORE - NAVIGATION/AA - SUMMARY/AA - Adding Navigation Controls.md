@@ -146,6 +146,21 @@
             </li>
             <li>
                 <h4><i>UNIT TEST: GENERATION THE CATEGORY LIST</i></h4>
+                <ol>
+                    <li>
+                        The Unit Test for the ability to produce a category list simple, sorted in alphabetical order and contains no duplates.
+                    </li>
+                    <li>
+                        A mock repository was created that contains repeated categories without alphabetical order and contains duplicate items.
+                    </li>
+                    <li>
+                        The duplicates are removed and that alphabetical ordering is imposed, as you can see in the code below:
+                        <p align="center">
+                            <img src="Pictures/U_T_GENERATION_THE_CATEGORY_LIST.png" /><br />
+                            <b>Listing 8-7A</b>. The category list
+                        </p>
+                    </li>
+                </ol>
             </li>
         </ul>
     </li>
