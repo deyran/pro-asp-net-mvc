@@ -1,12 +1,5 @@
 ADDING NAVIGATION CONTROLS
 	BUILDING A CATEGORY NAVIGATION MENU
-		GENERATING CATEGORY LISTS
-			UNIT TEST: GENERATION THE CATEGORY LIST
-
-=====================================================================================================================================
-
-ADDING NAVIGATION CONTROLS
-	BUILDING A CATEGORY NAVIGATION MENU
 		CREATING THE VIEW
 			Listing 8-8. The content of the Menu.cshtml file
 
@@ -33,6 +26,9 @@ ADDING NAVIGATION CONTROLS
 }
 
 
+ADDING NAVIGATION CONTROLS
+	BUILDING A CATEGORY NAVIGATION MENU
+		CREATING THE VIEW
 			Figure 8-3. The category links
 
 
