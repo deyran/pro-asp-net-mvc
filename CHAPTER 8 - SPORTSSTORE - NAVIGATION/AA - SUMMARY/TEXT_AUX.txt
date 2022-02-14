@@ -3,57 +3,6 @@ ADDING NAVIGATION CONTROLS
 		CREATING THE VIEW
 			Listing 8-8. The content of the Menu.cshtml file
 
-@model IEnumerable<string>
-
-@Html.ActionLink(
-	"Home", "List", "Product", null,
-	new { @class = "btn btn-block btn-default btn-lg" }
-)
-
-@foreach(var link in Model)
-{
-	@Html.RouteLink(
-		link,
-		new {
-			action = "List",
-			category = link,
-			page = 1
-		},
-		new {
-			@class = "btn btn-block btn-default btn-lg"
-		}
-	)
-}
-
-1 - To create the view for the Menu action method (Menu.cshtml), remove the contents that Visual Studio adds to new views and set the content to match Listing 8-8
-2 - Was add a link called Home (code below) that will appear at the top of the category list and will list all of the products with no category filter. Html.ActionLink() helper was used to produce "<a href='/Product/List/null'>Home</a>" link to call all products from all categories
-	...
-	@Html.ActionLink(
-		"Home", "List", "Product", null,
-		new { @class = "btn btn-block btn-default btn-lg" }
-	)
-	...
-
-
-3 - The list of categories was enumerated and links to each were created using the RouteLink method (code below). This is similar to ActionLink, but it lets me supply a set of name/value pairs that are taken into account when generating the URL from the routing configuration. 
-	...
-	@foreach(var link in Model)
-	{
-		@Html.RouteLink(
-			link,
-			new {
-				action = "List",
-				category = link,
-				page = 1
-			},
-			new {
-				@class = "btn btn-block btn-default btn-lg"
-			}
-		)
-	}
-	...
-
-4 - The objects I created define the class attribute (prefixed with a @ because class is a reserved C# keyword) and apply Bootstrap classes to style the links as large Buttons.
 
 =======================================================================================================================================
 
