@@ -170,26 +170,34 @@
             <li>
                 To create the view for the Menu action method (Menu.cshtml), remove the contents that Visual Studio adds to new views and set the content to match Listing 8-8
                 <p align="center">
-                    <img src="Pictures//Listing 8-8.png" /><br />
+                    <img src="Pictures/Listing 8-8.png" /><br />
                     <b>Listing 8-8</b>. The content of the Menu.cshtml file
                 </p>
             </li>
             <li>
                 Was add a link called Home (code below) that will appear at the top of the category list and will list all of the products with no category filter. Html.ActionLink() helper was used to produce link to call all products from all categories.
                 <p align="center">
-                    <img src="Pictures//Listing 8-8A.png" /><br />
+                    <img src="Pictures/Listing 8-8A.png" /><br />
                     <b>Listing 8-8A</b>. Html.ActionLink() helper
                 </p>
             </li>
             <li>
                 The list of categories was enumerated and links to each were created using the RouteLink method (code below). This is similar to ActionLink, but it lets me supply a set of name/value pairs that are taken into account when generating the URL from the routing configuration.
                 <p align="center">
-                    <img src="Pictures//Listing 8-8B.png" /><br />
+                    <img src="Pictures/Listing 8-8B.png" /><br />
                     <b>Listing 8-8B</b>. Html.ActionLink() method
                 </p>
             </li>
             <li>
-                The objects I created define the class attribute (prefixed with a @ because class is a reserved C# keyword) and apply Bootstrap classes to style the links as large Buttons.            
+                The objects I created define the class attribute (prefixed with a @ because class is a reserved C# keyword) and apply Bootstrap classes to style the links as large Buttons.<br />
+            </li>
+            <li>
+                You can see the category links if you run the application, as shown in <b>Figure 8-3</b>. If you click a category, the list of
+                items is updated to show only items from the selected category.
+                <p align="center">
+                    <img src="Pictures/Figure 8-3.png" /><br />
+                    <b>Figure 8-3</b>. The category links
+                </p>
             </li><br />
         </ol>
     </li>

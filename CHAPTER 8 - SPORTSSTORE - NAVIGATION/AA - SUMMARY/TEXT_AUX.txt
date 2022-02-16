@@ -1,43 +1,5 @@
 ADDING NAVIGATION CONTROLS
 	BUILDING A CATEGORY NAVIGATION MENU
-		CREATING THE VIEW
-			Listing 8-8. The content of the Menu.cshtml file
-
-
-=======================================================================================================================================
-
-ADDING NAVIGATION CONTROLS
-	BUILDING A CATEGORY NAVIGATION MENU
-		CREATING THE VIEW
-			Figure 8-3. The category links
-
-
-@model IEnumerable<string>
-
-@Html.ActionLink("Home", "List", "Product", null, new { @class = "btn btn-block btn-default btn-lg" })
-
-@foreach(var link in Model)
-{
-	@Html.RouteLink(
-		link,
-		new 
-		{
-			controller = "Product",
-			action = "List",
-			category = "link",
-			page = 1
-		},
-		new { @class = "btn btn-block btn-default btn-lg" }
-	)
-}
-You can see the category links if you run the application, as shown in Figure 8-3. If you click a category, the list of
-items is updated to show only items from the selected category.
-
-
-=====================================================================================================================================
-
-ADDING NAVIGATION CONTROLS
-	BUILDING A CATEGORY NAVIGATION MENU
 		HIGHLIGHTING THE CURRENT CATEGORY
 			UNIT TEST: REPORTING THE SELECTED CATEGORY
 =====================================================================================================================================
