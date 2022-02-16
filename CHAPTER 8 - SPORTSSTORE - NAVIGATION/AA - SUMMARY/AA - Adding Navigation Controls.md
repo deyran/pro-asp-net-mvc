@@ -203,7 +203,16 @@
     </li>
     <li>
         <h3><i>HIGHLIGHTING THE CURRENT CATEGORY</i></h3>
-        <h4><i>UNIT TEST: REPORTING THE SELECTED CATEGORY</i></h4>
+        <ol>
+            <li>
+                The user was not informed which category he is viewing (Figure 8-3). To show which category the user is viewing, the ViewBag resource will be used to maintain which category was selected. Listing 8-9 shows the changes to the Menu action method in the Nav controller.
+                <p align="center">
+                    <img src="Pictures/Listing 8-9.png" /><br />
+                    <b>Listing 8-9</b>. Using the View Bag Feature in the NavController.cs File
+                </p>
+            </li>
+            <li>BBBB</li>
+        </ol>
     </li>    
 </ul>
 

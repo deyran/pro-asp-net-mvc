@@ -3,3 +3,18 @@ ADDING NAVIGATION CONTROLS
 		HIGHLIGHTING THE CURRENT CATEGORY
 			UNIT TEST: REPORTING THE SELECTED CATEGORY
 =====================================================================================================================================
+
+
+ADDING NAVIGATION CONTROLS
+	BUILDING A CATEGORY NAVIGATION MENU
+		HIGHLIGHTING THE CURRENT CATEGORY
+			Listing 8-10. Highlighting the Selected Category in the Menu.cshtml File
+=====================================================================================================================================
+
+
+ADDING NAVIGATION CONTROLS
+	BUILDING A CATEGORY NAVIGATION MENU
+		HIGHLIGHTING THE CURRENT CATEGORY
+			Figure 8-4. Highlighting the selected category
+=====================================================================================================================================
+

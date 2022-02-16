@@ -13,6 +13,9 @@ namespace SportsStore.WebUI.Controllers
 
             GENERATING CATEGORY LISTS
                 Listing 8-7. Implementing the Menu Method in the NavController.cs File
+
+		    HIGHLIGHTING THE CURRENT CATEGORY
+			    Listing 8-9. Using the View Bag Feature in the NavController.cs File
     */
 
     public class NavController : Controller
@@ -21,9 +24,11 @@ namespace SportsStore.WebUI.Controllers
 
          public NavController(IProductRepository repo) => repository = repo;
 
-         public PartialViewResult Menu()
-         {
-             IEnumerable<string> categories = repository.Products
+        public PartialViewResult Menu(string category = null)
+        {
+            ViewBag.SelectedCategory = category;
+
+            IEnumerable<string> categories = repository.Products
                                                  .Select(x => x.Category).Distinct().OrderBy(x => x);
 
              return PartialView(categories);
