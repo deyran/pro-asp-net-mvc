@@ -218,6 +218,13 @@
                     <img src="Pictures/UT_REPORTING_THE_SELECTED_CATEGORY.png" /><br />
                 </p>
             </li>
+            <li>
+                Now that information has been provided on whicj category is selected, I can update the view to take advantage of this, and add a Bootstrap class to the HTML anchor element that represents the selected category that causes the button to be highlighted. Listing 8-10 shows the changes to the Menu.cshtml file.
+                <p align="center">
+                    <img src="Pictures/Listing 8-10.png" /><br />
+                    <b>Listing 8-10</b>. Highlighting the Selected Category in the Menu.cshtml File
+                </p>
+            </li>
         </ol>
     </li>    
 </ul>
