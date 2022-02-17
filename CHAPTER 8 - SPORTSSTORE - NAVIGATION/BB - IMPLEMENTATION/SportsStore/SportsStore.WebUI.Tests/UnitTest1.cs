@@ -26,6 +26,9 @@ namespace SportsStore.WebUI.Tests
 	    BUILDING A CATEGORY NAVIGATION MENU
 		    GENERATING CATEGORY LISTS
 			    UNIT TEST: GENERATION THE CATEGORY LIST
+
+		    HIGHLIGHTING THE CURRENT CATEGORY
+			    UNIT TEST: REPORTING THE SELECTED CATEGORY
      */
 
     [TestClass]
@@ -181,6 +184,33 @@ namespace SportsStore.WebUI.Tests
             Assert.AreEqual(results[0], "Apples");
             Assert.AreEqual(results[1], "Oranges");
             Assert.AreEqual(results[2], "Plums");
+        }
+
+        [TestMethod]
+        public void Indicates_Selected_Category()
+        {
+            // Arrange
+            // - create the mock repository 
+            Mock<IProductRepository> mock = new Mock<IProductRepository>();
+            mock.Setup(m => m.Products).Returns(
+                new Product[]
+                {
+            new Product {ProductID = 1, Name = "P1", Category = "Apples"},
+            new Product {ProductID = 4, Name = "P2", Category = "Oranges"}
+                }
+            );
+
+            // Arrange - create the controller
+            NavController target = new NavController(mock.Object);
+
+            // Arrangr - define the category to selected
+            string categoryToSelect = "Apples";
+
+            // Action
+            string result = target.Menu(categoryToSelect).ViewBag.SelectedCategory;
+
+            // Assert
+            Assert.AreEqual(categoryToSelect, result);
         }
 
         [TestMethod]

@@ -211,7 +211,13 @@
                     <b>Listing 8-9</b>. Using the View Bag Feature in the NavController.cs File
                 </p>
             </li>
-            <li>BBBB</li>
+            <li>
+                <h3><i>UNIT TEST: REPORTING THE SELECTED CATEGORY</i></h3>
+                I can test that the Menu action method correctly adds details of the selected category by reading the value of the ViewBag property in a unit test, which is available through the ViewResult class. here is the test:
+                <p align="center">
+                    <img src="Pictures/UT_REPORTING_THE_SELECTED_CATEGORY.png" /><br />
+                </p>
+            </li>
         </ol>
     </li>    
 </ul>

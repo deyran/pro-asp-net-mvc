@@ -2,6 +2,11 @@ ADDING NAVIGATION CONTROLS
 	BUILDING A CATEGORY NAVIGATION MENU
 		HIGHLIGHTING THE CURRENT CATEGORY
 			UNIT TEST: REPORTING THE SELECTED CATEGORY
+
+UT_REPORTING_THE_SELECTED_CATEGORY
+
+i can test that the Menu action method correctly adds details of the selected category by reading the value of the ViewBag property in a unit test, which is available through the ViewResult class. here is the test:
+
 =====================================================================================================================================
 
 
