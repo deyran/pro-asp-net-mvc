@@ -225,6 +225,13 @@
                     <b>Listing 8-10</b>. Highlighting the Selected Category in the Menu.cshtml File
                 </p>
             </li>
+            <li>
+                Running the application shows the effect of the category highlighting, which you can also see in Figure 8-4.
+                <p align="center">
+                    <img src="Pictures/Figure 8-4.png" /><br />
+                    <b>Figure 8-4</b>. Highlighting the selected category
+                </p>
+            </li>
         </ol>
     </li>    
 </ul>
