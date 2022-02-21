@@ -1,0 +1,44 @@
+ADDING NAVIGATION CONTROLS
+	CORRECTING THE PAGE COUNT
+		Listing 8-11. Creating Category-Aware Pagination Data in the ProductController.cs File
+
+I can fix this by updating the List action method in the Product controller so that the pagination information
+takes the categories into account. You can see the required changes in Listing 8-11.
+
+...
+public ViewResult List(string category, int page = 1)
+{
+	ProductsListViewModel viewModel = new ProductsListViewModel
+	{
+		Products = repository.Products
+			.Where(p => category == null || p.Category == category)
+			.OrderBy(p => p.ProductID)
+			.Skip((page - 1) * PageSize)
+			.Take(PageSize),
+
+		PagingInfo = new PagingInfo
+		{
+			CurrentPage = page,
+			ItemsPerPage = PageSize,
+			TotalItems = category == null ?
+				repository.Products.Count() :
+				repository.Products.Where(e => e.Category == category).Count()			
+		},
+
+		CurrentCategory = category
+	};
+	
+	return View(viewModel);
+}
+...
+============================================================================================================================
+
+ADDING NAVIGATION CONTROLS
+	CORRECTING THE PAGE COUNT
+		Figure 8-6. Displaying category-specific page counts
+============================================================================================================================
+
+ADDING NAVIGATION CONTROLS
+	CORRECTING THE PAGE COUNT
+		UNIT TEST: CATEGORY-SPECIFIC PRODUCT COUNTS
+	

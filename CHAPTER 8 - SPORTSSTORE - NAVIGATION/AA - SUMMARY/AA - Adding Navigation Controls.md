@@ -236,4 +236,16 @@
     </li>    
 </ul>
 
-<h2><i>Correcting the Page Count</i></h2>
+<h2><i>CORRECTING THE PAGE COUNT</i></h2>
+<ul>
+    <li>
+        Page links should be fixed when a category is selected. The heart of the problem is that the number of page links is determined by the total number of products in the repository and not by the number of products in the selected category, the consequence is when the customer in some category does not have enough product to fill some pages, the client ends up finding an empty page. You can see the problem in Figure 8-5.
+        <p align="center">
+            <img src="Pictures/Figure 8-5.png" /><br />
+            <b>Figure 8-5</b>. Displaying the wrong page links when a category is selected
+        </p>
+    </li>
+    <li>AAA</li>
+    <li>AAA</li>
+    <li>AAA</li>
+</ul>
