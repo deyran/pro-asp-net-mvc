@@ -2,7 +2,7 @@ ADDING NAVIGATION CONTROLS
 	CORRECTING THE PAGE COUNT
 		Listing 8-11. Creating Category-Aware Pagination Data in the ProductController.cs File
 
-I can fix this by updating the List action method in the Product controller so that the pagination information
+To fix this problem we need to updating the List action method in the Product controller so that the pagination information
 takes the categories into account. You can see the required changes in Listing 8-11.
 
 ...
@@ -36,9 +36,58 @@ public ViewResult List(string category, int page = 1)
 ADDING NAVIGATION CONTROLS
 	CORRECTING THE PAGE COUNT
 		Figure 8-6. Displaying category-specific page counts
+
+If a category has been selected, I return the number of items in that category; if not, I return the total number of
+products. Now when I view a category, the links at the bottom of the page correctly reflect the number of products in
+the category, as shown in Figure 8-6.
+
 ============================================================================================================================
 
 ADDING NAVIGATION CONTROLS
 	CORRECTING THE PAGE COUNT
 		UNIT TEST: CATEGORY-SPECIFIC PRODUCT COUNTS
+
+UT_CATEGORY_SPECIFIC_PRODUCT_COUNTS
+
+Testing that I am able to generate the current product count for different categories is simple. I create a mock
+repository that contains known data in a range of categories and then call the List action method requesting
+each category in turn. Here is the unit test:
+
+Notice that I also call the List method, specifying no category, to make sure I get the right total count as well.
+
+...
+[TestMethod]
+public void Generate_Category_Specific_Product_Count()
+{
+	// Arrange
+	// - create the mock repository
+	Mock<IProductRepository> mock = new Mock<IProductRepository>();
+	mock.Setup(m => m.Products).Returns(
+		new Products[]
+		{
+			new Product {ProductID = 1, Name = "P1", Category = "Cat1"},
+			new Product {ProductID = 2, Name = "P2", Category = "Cat2"},
+			new Product {ProductID = 3, Name = "P3", Category = "Cat1"},
+			new Product {ProductID = 4, Name = "P4", Category = "Cat2"},
+			new Product {ProductID = 5, Name = "P5", Category = "Cat3"}
+		}
+	);
+
+	// Arrange - create a controller and make the page size 3 items
+	ProductController target = new ProductController(mock.Object);
+	target.PageSize = 3;
+
+	// Action - test the product counts for different categories
+	int res1 = ((ProductsListViewModel)target.List("Cat1").Model).PagingInfo.TotalItems;
+	int res2 = ((ProductsListViewModel)target.List("Cat2").Model).PagingInfo.TotalItems;
+	int res3 = ((ProductsListViewModel)target.List("Cat3").Model).PagingInfo.TotalItems;
+	int resAll = ((ProductsListViewModel)target.List(null).Model).PagingInfo.TotalItems;
+
+	// Assert
+	Assert.AreEqual(res1, 2);
+	Assert.AreEqual(res2, 2);
+	Assert.AreEqual(res3, 1);
+	Assert.AreEqual(resAll, 5);
+}
+...
 	

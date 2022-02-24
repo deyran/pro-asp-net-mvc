@@ -24,6 +24,9 @@ namespace SportsStore.WebUI.Controllers
     ADDING NAVIGATION CONTROLS
 	    Filtering the Product List
 		    Listing 8-2. Adding category support to the List action method in the ProductController.cs file
+
+	    CORRECTING THE PAGE COUNT
+		    Listing 8-11. Creating Category-Aware Pagination Data in the ProductController.cs File
     */
     public class ProductController : Controller
     {
@@ -48,7 +51,11 @@ namespace SportsStore.WebUI.Controllers
                 {
                     CurrentPage = page,
                     ItemsPerPage = PageSize,
-                    TotalItems = repository.Products.Count()
+
+                    TotalItems = category == null ?
+                                    repository.Products.Count() :
+                                    repository.Products.Where(e => e.Category == category).Count()
+
                 },
 
                 CurrentCategory = category
