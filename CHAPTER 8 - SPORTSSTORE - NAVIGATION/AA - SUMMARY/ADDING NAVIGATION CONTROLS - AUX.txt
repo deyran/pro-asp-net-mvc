@@ -1,4 +1,4 @@
-ADDING NAVIGATION CONTROLS
+ADDING NAVIGATION CONTROLS - OK
 	CORRECTING THE PAGE COUNT
 		Listing 8-11. Creating Category-Aware Pagination Data in the ProductController.cs File
 
@@ -33,27 +33,20 @@ public ViewResult List(string category, int page = 1)
 ...
 ============================================================================================================================
 
-ADDING NAVIGATION CONTROLS
+ADDING NAVIGATION CONTROLS - OK
 	CORRECTING THE PAGE COUNT
 		Figure 8-6. Displaying category-specific page counts
 
-If a category has been selected, I return the number of items in that category; if not, I return the total number of
-products. Now when I view a category, the links at the bottom of the page correctly reflect the number of products in
-the category, as shown in Figure 8-6.
-
+If a category has been selected, the number of items in that category is returned; if not, the total number of products is returned. Now when a category is selected, the links at the bottom of the page correctly reflect the number of products in the category, as shown in Figure 8-6.
 ============================================================================================================================
 
-ADDING NAVIGATION CONTROLS
+ADDING NAVIGATION CONTROLS - OK
 	CORRECTING THE PAGE COUNT
 		UNIT TEST: CATEGORY-SPECIFIC PRODUCT COUNTS
 
 UT_CATEGORY_SPECIFIC_PRODUCT_COUNTS
 
-Testing that I am able to generate the current product count for different categories is simple. I create a mock
-repository that contains known data in a range of categories and then call the List action method requesting
-each category in turn. Here is the unit test:
-
-Notice that I also call the List method, specifying no category, to make sure I get the right total count as well.
+The purpose of this test is to ensure that the right total count is made. Here is the unit test:
 
 ...
 [TestMethod]
