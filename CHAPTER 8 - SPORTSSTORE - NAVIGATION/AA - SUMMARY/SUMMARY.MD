@@ -6,7 +6,7 @@ Adding Navigation Controls
 	Building a Category Navigation Menu
 	Correcting the Page Count
 
-Building the Shopping Cart
+BUILDING THE SHOPPING CART
 	Defining the Cart Entity
 	Adding the Add to Cart Buttons
 	Implementing the Cart Controller
