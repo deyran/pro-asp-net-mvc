@@ -6,6 +6,8 @@ BUILDING THE SHOPPING CART
 	DEFINING THE CART ENTITY
 		Listing 8-12. The Cart and CartLine Classes in the Cart.cs File
 
+Create a class file called Cart.cs to the entities folder in the SportsStore.Domain project (Listing 8-12)
+
 using System.Collections.Generic;
 using System.Linq;
 
@@ -63,7 +65,7 @@ namespace SportsStore.Domain.Entities
 
 BUILDING THE SHOPPING CART
 	DEFINING THE CART ENTITY
-		UNIt teSt: teStING the Cart
+		UNIT TEST: TESTING THE CART
 ======================================================================
 
 BUILDING THE SHOPPING CART
