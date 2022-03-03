@@ -1,13 +1,5 @@
 BUILDING THE SHOPPING CART
-	Figure 8-7. The basic shopping cart flow
-
-The application is progressing nicely, but I cannot sell any products until I implement a shopping cart. In this section,
-I will create the shopping cart experience shown in Figure 8-7. This will be familiar to anyone who has ever made a
-purchase online.
-An Add to Cart button will be displayed alongside each of the products in the catalog. Clicking this button will
-show a summary of the products the customer has selected so far, including the total cost. At this point, the user can
-click the Continue Shopping button to return to the product catalog, or click the Checkout Now button to complete
-the order and finish the shopping session.
+	Despides the progress, the application cannot sell any products until I implement a shopping cart. In this section, will be created the shopping cart experience.
 ======================================================================
 
 BUILDING THE SHOPPING CART
