@@ -1,4 +1,4 @@
-ADDING NAVIGATION CONTROLS - OK
+ADDING NAVIGATION CONTROLS
 	CORRECTING THE PAGE COUNT
 		Listing 8-11. Creating Category-Aware Pagination Data in the ProductController.cs File
 

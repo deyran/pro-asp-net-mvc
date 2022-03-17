@@ -245,7 +245,14 @@
             <b>Figure 8-5</b>. Displaying the wrong page links when a category is selected
         </p>
     </li>
-    <li>AAA</li>
+    <li>
+        To fix this problem we need to updating the List action method in the Product controller so that the pagination information
+        takes the categories into account. You can see the required changes in Listing 8-11.
+        <p align="center">
+            <img src="Pictures/Listing 8-11.png" /><br />
+            <b>Listing 8-11</b>. Creating Category-Aware Pagination Data in the ProductController.cs File
+        </p>
+    </li>
     <li>AAA</li>
     <li>AAA</li>
 </ul>
