@@ -256,7 +256,7 @@
     <li>
         If a category has been selected, the number of items in that category is returned; if not, the total number of products is returned. Now when a category is selected, the links at the bottom of the page correctly reflect the number of products in the category, as shown in Figure 8-6.   
         <p align="center">
-            <img src="Pictures/Figure 8-5.png" /><br />
+            <img src="Pictures/Figure 8-6.png" /><br />
             <b>Figure 8-6</b>. Displaying category-specific page counts
         </p>
     </li>
