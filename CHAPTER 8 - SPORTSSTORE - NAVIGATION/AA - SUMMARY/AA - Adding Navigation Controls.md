@@ -260,5 +260,11 @@
             <b>Figure 8-6</b>. Displaying category-specific page counts
         </p>
     </li>
-    <li>AAA</li>
+    <li>
+        <h3><i>UNIT TEST: CATEGORY-SPECIFIC PRODUCT COUNTS</i></h3>
+        The purpose of this test is to ensure that the right total count is made. Here is the unit test:
+        <p align="center">
+            <img src="Pictures/UT_CATEGORY_SPECIFIC_PRODUCT_COUNTS.png" /><br />
+        </p>
+    </li>
 </ul>
