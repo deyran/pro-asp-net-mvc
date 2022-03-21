@@ -14,6 +14,7 @@ namespace SportsStore.WebUI.Tests
     [TestClass]
     public class CartTests
     {
+        [TestMethod]
         public void Can_Add_New_Lines()
         {
             // Arrange - create some test products
@@ -60,5 +61,6 @@ namespace SportsStore.WebUI.Tests
             Assert.AreEqual(target.Lines.Count(), 2);
 
         }
+
     }
 }

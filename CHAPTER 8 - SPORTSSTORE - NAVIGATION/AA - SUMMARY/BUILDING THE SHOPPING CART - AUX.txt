@@ -1,8 +1,36 @@
+Can_Add_Quantity_For_Existing_Lines
+Can_Remove_Line
+Calculate_Cart_Total
+Can_Clear_Contents
+
 BUILDING THE SHOPPING CART
 	DEFINING THE CART ENTITY
-		UNIT TEST: TESTING THE CART - REMOVE PRODUCT
+		UNIT TEST: TESTING THE CART - CALCULATE THE TOTAL
 
-UT_TESTING_THE_CART_REMOVE_PRODUCT
+UT_TESTING_THE_CART_CALCULATE_TOTAL
+
+The next behavior i want to test is the ability to calculate the total cost of the items in the cart. here’s the test for
+this behavior:
+
+[TestMethod]
+public void Calculate_Cart_Total()
+{
+	// Arrange - create some test products
+	Product p1 = new Product { ProductID = 1, Name = "P1", Price = 100M };
+	Product p2 = new Product { ProductID = 2, Name = "P2", Price = 50M };
+
+	// Arrange - create a new cart;
+	Cart target = new Cart();
+
+	// Act
+	target.AddItem(p1, 1);
+	target.AddItem(p2, 1);
+	target.AddItem(p1, 3);
+	decimal result = target.ComputeTotalValue();
+
+	// Assert
+	Assert.AreEqual(result, 450M);
+}
 
 ======================================================================
 
