@@ -1,4 +1,12 @@
 BUILDING THE SHOPPING CART
+	DEFINING THE CART ENTITY
+		UNIT TEST: TESTING THE CART - REMOVE PRODUCT
+
+UT_TESTING_THE_CART_REMOVE_PRODUCT
+
+======================================================================
+
+BUILDING THE SHOPPING CART
 	ADDING THE ADD TO CART BUTTONS
 		Listing 8-13. Adding the Buttons to the Product Summary.cshtml File View
 ======================================================================

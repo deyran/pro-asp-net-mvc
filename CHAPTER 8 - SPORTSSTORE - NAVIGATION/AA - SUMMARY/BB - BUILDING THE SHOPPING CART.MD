@@ -13,11 +13,23 @@
 		</p>
 	</li>
 	<li>
-		<h3><i>UNIT TEST: TESTING THE CART</i></h3>
-		Create a new unit test file in the SportsStore.UnitTests project called CartTests.cs to test, in the first moment, the add an item to the cart behavior (see the code below).<br />
-		<p align="center">
-			<img src="Pictures/UT_TESTING_THE_CART.png" /><br />
-		</p>
+		<h3><i>UNIT TEST</i></h3>
+		<ol>
+			<li>
+				<b>TESTING THE CART</b> - Create a new unit test file in the SportsStore.UnitTests project called CartTests.cs to test, in the first moment, the add an item to the cart behavior (see the code below).<br /><br />
+				<p align="center">
+					<img src="Pictures/UT_TESTING_THE_CART.png" /><br />
+					<i>UNIT TEST - TESTING THE CART</i>
+				</p><br />				
+			</li>
+			<li>
+				<b>REMOVE PRODUCT</b> - In this step, the feature to remove products from cart will be implemented. This feature is implemented by the RemoveLine method in the code below:<br /><br />
+				<p align="center">
+					<img src="Pictures/UT_TESTING_THE_CART_REMOVE_PRODUCT.png" /><br />
+					<i>UNIT TEST - REMOVE PRODUCT</i>
+				</p><br />	
+			</li>
+		</ol>
 	</li>
 </ul>
 
