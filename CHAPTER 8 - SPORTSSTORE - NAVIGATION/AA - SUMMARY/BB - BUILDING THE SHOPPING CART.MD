@@ -12,7 +12,13 @@
 			<b>Listing 8-12.</b> Cart and CartLine Classes in the Cart.cs File
 		</p>
 	</li>
-	<li>AAA</li>
+	<li>
+		<h3><i>UNIT TEST: TESTING THE CART</i></h3>
+		Create a new unit test file in the SportsStore.UnitTests project called CartTests.cs to test, in the first moment, the add an item to the cart behavior (see the code below).<br />
+		<p align="center">
+			<img src="Pictures/UT_TESTING_THE_CART.png" /><br />
+		</p>
+	</li>
 </ul>
 
 <h2><i>ADDING THE ADD TO CART BUTTONS</i></h2>
