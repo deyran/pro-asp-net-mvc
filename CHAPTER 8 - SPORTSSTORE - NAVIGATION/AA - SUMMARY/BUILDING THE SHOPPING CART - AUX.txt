@@ -1,6 +1,47 @@
 BUILDING THE SHOPPING CART
 	DEFINING THE CART ENTITY
 		UNIT TEST: TESTING THE CART
+
+UT_TESTING_THE_CART
+
+
+Create a new unit test file in the SportsStore.UnitTests project called CartTests.cs to test, in the first moment, the add an item to the cart behavior (see the code below).
+
+using System.Linq;
+using Microsoft.VisualStudio.TestTools.UnitTesting;
+using SportsStore.Domain.Entities;
+
+namespace SportStore.UnitTests
+{
+	[TestClass]
+	public class CartTests
+	{
+		public void Can_Add_New_Lines()
+		{
+			// Arrange - create some test products
+			Product p1 = new Product { ProductID = 1, Name = "P1" };
+			Product p2 = new Product { ProductID = 2, Name = "P2" };
+
+			// Arrange - create new cart
+			Cart target = new Cart();
+
+			// Act
+			target.AddItem(p1, 1);
+			target.AddItem(p2, 2);
+			CartLine[] results = target.Lines.ToArray();
+
+			// Assert
+			Assert.AreEqual(result.Length, 2);
+			Assert.AreEqual(result[0].Product, p1);
+			Assert.AreEqual(result[1].Product, p2);
+		}
+	}
+}
+
+
+
+
+
 ======================================================================
 
 BUILDING THE SHOPPING CART
