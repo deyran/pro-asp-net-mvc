@@ -1,7 +1,33 @@
+BUILDING THE SHOPPING CART
+	DEFINING THE CART ENTITY
+		UNIT TEST: TESTING THE CART
+
+however, if the customer has already added a Product to the cart, i want to increment the quantity of the
+corresponding CartLine and not create a new one. here is the test:
+
 Can_Add_Quantity_For_Existing_Lines
+======================================================================
+
+BUILDING THE SHOPPING CART
+	DEFINING THE CART ENTITY
+		UNIT TEST: TESTING THE CART
+
 Can_Remove_Line
+======================================================================
+
+BUILDING THE SHOPPING CART
+	DEFINING THE CART ENTITY
+		UNIT TEST: TESTING THE CART
+
 Calculate_Cart_Total
+======================================================================
+
+BUILDING THE SHOPPING CART
+	DEFINING THE CART ENTITY
+		UNIT TEST: TESTING THE CART
+
 Can_Clear_Contents
+======================================================================
 
 BUILDING THE SHOPPING CART
 	DEFINING THE CART ENTITY
