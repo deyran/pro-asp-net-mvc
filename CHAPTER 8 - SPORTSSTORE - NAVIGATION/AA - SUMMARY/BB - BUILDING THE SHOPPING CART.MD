@@ -16,14 +16,21 @@
 		<h3><i>UNIT TEST</i></h3>
 		<ol>
 			<li>
-				<b>TESTING THE CART</b> - Create a new unit test file in the SportsStore.UnitTests project called CartTests.cs to test, in the first moment, the add an item to the cart behavior (see the code below).<br /><br />
+				<b>TESTING THE CART</b> - Create a new unit test file in the SportsStore.UnitTests project called CartTests.cs to test, in the first moment, the add an item to the cart behavior (see the code below).<br />
 				<p align="center">
 					<img src="Pictures/UT_TESTING_THE_CART.png" /><br />
 					<i>UNIT TEST - TESTING THE CART</i>
 				</p><br />				
 			</li>
 			<li>
-				<b>REMOVE PRODUCT</b> - In this step, the feature to remove products from cart will be implemented. This feature is implemented by the RemoveLine method in the code below:<br /><br />
+				<b>ADD QUANTITY FOR EXISTING LINE</b> - After you have added items to the car, it's necessary to increment the quantity of the corresponding CarLine and not create a new one. Here is the test:<br />
+				<p align="center">
+					<img src="Pictures/ADD_QTT_FOR_EXISTING_LINE.png" /><br />
+					<i>UNIT TEST - ADD QUANTITY FOR EXISTING LINE</i>
+				</p><br />
+			</li>
+			<li>
+				<b>REMOVE PRODUCT</b> - In this step, the feature to remove products from cart will be implemented. This feature is implemented by the RemoveLine method in the code below:<br />
 				<p align="center">
 					<img src="Pictures/UT_TESTING_THE_CART_REMOVE_PRODUCT.png" /><br />
 					<i>UNIT TEST - REMOVE PRODUCT</i>
