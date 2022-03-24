@@ -1,10 +1,5 @@
 BUILDING THE SHOPPING CART
 	DEFINING THE CART ENTITY
-		UNIT TEST: TESTING THE CART
-
-Can_Clear_Contents
-======================================================================
-
 BUILDING THE SHOPPING CART
 	ADDING THE ADD TO CART BUTTONS
 		Listing 8-13. Adding the Buttons to the Product Summary.cshtml File View

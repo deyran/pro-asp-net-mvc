@@ -44,6 +44,13 @@
 					<i>UNIT TEST - CALCULATE THE TOTAL</i>
 				</p><br />
 			</li>
+			<li>
+				<b>CLEAR CONTENTS OF THE CART</b> - The final test is simple -> to ensure that the contents of the cart are properly removed when reset. here is the test:<br />
+				<p align="center">
+					<img src="Pictures/UT_CLEAR_CONTENTS_CART.png" /><br />
+					<i>UNIT TEST - CLEAR CONTENTS OF THE CART</i>
+				</p><br />
+			</li>
 		</ol>
 	</li>
 </ul>
