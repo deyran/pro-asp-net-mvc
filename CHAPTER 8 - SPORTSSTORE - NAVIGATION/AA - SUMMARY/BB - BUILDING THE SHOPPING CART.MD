@@ -25,7 +25,7 @@
 			<li>
 				<b>ADD QUANTITY FOR EXISTING LINE</b> - After you have added items to the car, it's necessary to increment the quantity of the corresponding CarLine and not create a new one. Here is the test:<br />
 				<p align="center">
-					<img src="Pictures/ADD_QTT_FOR_EXISTING_LINE.png" /><br />
+					<img src="Pictures/UT_ADD_QTT_FOR_EXISTING_LINE.png" /><br />
 					<i>UNIT TEST - ADD QUANTITY FOR EXISTING LINE</i>
 				</p><br />
 			</li>
@@ -35,6 +35,14 @@
 					<img src="Pictures/UT_TESTING_THE_CART_REMOVE_PRODUCT.png" /><br />
 					<i>UNIT TEST - REMOVE PRODUCT</i>
 				</p><br />	
+			</li>
+			<li>
+				<b>CALCULATE THE TOTAL</b> - The next behavior i want to test is the ability to calculate the total cost of the items in the cart. here’s the test for
+				this behavior:<br />
+				<p align="center">
+					<img src="Pictures/UT_TESTING_THE_CART_CALCULATE_TOTAL.png" /><br />
+					<i>UNIT TEST - CALCULATE THE TOTAL</i>
+				</p><br />
 			</li>
 		</ol>
 	</li>
