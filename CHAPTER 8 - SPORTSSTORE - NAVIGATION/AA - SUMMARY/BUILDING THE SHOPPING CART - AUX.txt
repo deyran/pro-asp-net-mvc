@@ -1,13 +1,72 @@
 BUILDING THE SHOPPING CART
-	DEFINING THE CART ENTITY
-BUILDING THE SHOPPING CART
-	ADDING THE ADD TO CART BUTTONS
-		Listing 8-13. Adding the Buttons to the Product Summary.cshtml File View
+	IMPLEMENTING THE CART CONTROLLER
+		Listing 8-14. The Contents of the CartController.cs File
+
+
+Create a new controller called CartController (SportsStore.WebUI projects) to handle the Add feature to the button presses (Listing 8-14). In this controller class we use the ASP.NET session state feature to store and retrieve Cart objects (Get method). The reason we need the ASP.NET session state is to persistent data between request due to the stateless features of the HTTP protocol. See the code below
+
+
+using System.Linq;
+using System.Web.Mvc;
+using SportsStore.Domain.Abstract;
+using SportsStore.Domain.Entities;
+
+namespace SportsStore.WebUI.Controllers
+{
+	public class CartController : Controller
+	{
+		private IProductRepository repository;
+
+		public CartController(IProductRepository repo)
+		{
+			repository = repo;
+		}
+
+		public RedirectToRouteResult AddToCart(int productId, string returnUrl)
+		{
+			Product product = repository.Products
+						.FirstOrDefault(p => p.ProductID == productId);
+
+			if (product != null)
+			{
+				GetCart().AddItem(product, 1);
+			}
+
+			return RedirectToAction("Index", new {returnUrl});
+		}
+
+		public RedirectToRouteResult RemoveFromCart(int productId, string returnUrl)
+		{
+			Product product = repository.Products
+				.FirstOrDefault(p => p.ProductID = productId);
+
+			if (product != null)
+			{
+				GetCart.RemoveLine(product);
+			}
+
+			return RedirectToAction("Index", new { returnUrl });
+		}
+
+		private Cart GetCart()
+		{
+			Cart cart = (Cart) Session["Cart"];
+			
+			if (cart = null)
+			{
+				cart = new Cart();
+				Session["Cart"] = cart;
+			}
+
+			return cart;
+		}
+	}
+}
 ======================================================================
 
 BUILDING THE SHOPPING CART
-	IMPLEMENTING THE CART CONTROLLER
-		Listing 8-14. The Contents of the CartController.cs File
+	ADDING THE ADD TO CART BUTTONS
+		Listing 8-13. Adding the Buttons to the Product Summary.cshtml File View
 ======================================================================
 
 BUILDING THE SHOPPING CART

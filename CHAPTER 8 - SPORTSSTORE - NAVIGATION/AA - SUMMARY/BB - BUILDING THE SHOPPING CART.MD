@@ -56,10 +56,11 @@
 </ul>
 
 <h2><i>ADDING THE ADD TO CART BUTTONS</i></h2>
-<ul>
-	<li>AAA</li>
-	<li>AAA</li>
-</ul>
+	Create a new controller called CartController (SportsStore.WebUI projects) to handle the Add feature to the button presses (Listing 8-14). In this controller class we use the ASP.NET session state feature to store and retrieve Cart objects (Get method). The reason we need the ASP.NET session state is to persistent data between request due to the stateless features of the HTTP protocol. See the code below:<br />
+	<p align="center">
+		<img src="Pictures/Listing 8-14.png" /><br />
+		<b>Listing 8-14.</b> The Contents of the CartController.cs File
+	</p><br />
 
 <h2><i>IMPLEMENTING THE CART CONTROLLER</i></h2>
 <ul>
