@@ -56,11 +56,23 @@
 </ul>
 
 <h2><i>ADDING THE ADD TO CART BUTTONS</i></h2>
-	Create a new controller called CartController (SportsStore.WebUI projects) to handle the Add feature to the button presses (Listing 8-14). In this controller class we use the ASP.NET session state feature to store and retrieve Cart objects (Get method). The reason we need the ASP.NET session state is to persistent data between request due to the stateless features of the HTTP protocol. See the code below:<br />
-	<p align="center">
-		<img src="Pictures/Listing 8-14.png" /><br />
-		<b>Listing 8-14.</b> The Contents of the CartController.cs File
-	</p><br />
+	<ol>
+		<li>
+			Create a new controller called CartController (SportsStore.WebUI projects) to handle the Add feature to the button presses (Listing 8-14). In this controller class we use the ASP.NET session state feature to store and retrieve Cart objects (Get method). The reason we need the ASP.NET session state is to persistent data between request due to the stateless features of the HTTP protocol. See the code below:<br />
+			<p align="center">
+				<img src="Pictures/Listing 8-14.png" /><br />
+				<b>Listing 8-14.</b> The Contents of the CartController.cs File
+			</p><br />
+		</li>
+		<li>
+			Edit the ProductSummary.cshtml (Views/Shared) file to add the button to the product listings (Listing 8-13). When this button is clicked and submitted it invoke the AddToCart method in the Cart controller.
+			<p align="center">
+				<img src="Pictures/Listing 8-13.png" /><br />
+				<b>Listing 8-13.</b> Adding the Buttons to the Product Summary.cshtml File View
+			</p><br /><br />
+			<b>NOTE:</b> By default, the BeginForm helper method creates a form that uses the HTTP POST method, but can be changed to the HTTP GET method<br />
+		</li>
+	</ol>
 
 <h2><i>IMPLEMENTING THE CART CONTROLLER</i></h2>
 <ul>
