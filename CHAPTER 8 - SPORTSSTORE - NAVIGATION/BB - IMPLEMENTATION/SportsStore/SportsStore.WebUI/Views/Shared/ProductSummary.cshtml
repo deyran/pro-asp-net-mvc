@@ -16,7 +16,7 @@ BUILDING THE SHOPPING CART
         <span class="pull-right label label-primary">@Model.Price.ToString("c")</span>
     </h3>
 
-    @using (Html.BeginForm("AddToCart", "Caart"))
+    @using (Html.BeginForm("AddToCart", "Cart"))
     {
         <div class="pull-right">
             @Html.HiddenFor(x => x.ProductID)
