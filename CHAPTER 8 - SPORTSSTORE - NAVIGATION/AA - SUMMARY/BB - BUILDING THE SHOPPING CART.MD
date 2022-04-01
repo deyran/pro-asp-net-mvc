@@ -74,19 +74,26 @@
 <ul>
 	<li>
 		<h3>THE CONTENTES OF THE CART</h3>
-		The final point we can see in the CartController class that both the AddToCart and RemoveFromCart methods call the RedirectToAction method. This method ask the browser to request a new URL, in that case Index action method of the Cart controller. The index method will be to show the contents of the Cart.<br />
+		The final point we can see in the CartController class that both the AddToCart and RemoveFromCart methods call the RedirectToAction method. This method ask the browser to request a new URL, in that case Index action method of the Cart controller. The index method will be to show the contents of the Cart.<br /><br />
 		To show the possible contents of the cart, two pieces of information are needed:
 		<ol>
 			<li>The Cart object;</li>
 			<li>URL to be displayed if the user clicks on the continue shopping button</li>
-		</ol>
+		</ol><br />
 		Create a classe named CartIndexViewModel.cs in the model folder of the SportsStore.WebUI project. The contents of this file are shown in Listing 8-15.	
 		<p align="center">
 			<img src="Pictures/Listing 8-15.png" /><br />
 			<b>Listing 8-15.</b> The Contents of the CartIndexViewModel.cs File
 		</p><br />
 	</li>
-	<li>AAA</li>
+	<li>
+		<h3>IMPLEMENTING THE INDEX ACTION METHOD</h3>
+		Now that we have the View Model implemented, it's possible implement the Index action method (Listing 8-16).
+		<p align="center">
+			<img src="Pictures/Listing 8-16.png" /><br />
+			<b>Listing 8-16.</b> The Contents of the CartIndexViewModel.cs File
+		</p><br />
+	</li>
 </ul>
 	
 	
