@@ -1,22 +1,6 @@
 BUILDING THE SHOPPING CART
 	DISPLAYING THE CONTENTS OF THE CART
-		Listing 8-16. The Index Action Method in the CartController.cs File
-
-2 - IMPLEMENTING THE INDEX ACTION METHOD
-	Now that we have the View Model implemented, it's possible implement the Index action method (Listing 8-16)
-
-using SportsStore.WebUI.Model;
-...
-public ViewResult Index(string returnUrl)
-{
-	return (
-		new CartIndexViewModel
-		{
-			Cart = GetCart(),
-			ReturnUrl = returnUrl
-		}
-	);	
-}
+		Listing 8-17. The Contents of the Index.cshtml File
 
 3 - Listing 8-17. The Contents of the Index.cshtml File
 4 - Figure 8-8. The Add to cart button
