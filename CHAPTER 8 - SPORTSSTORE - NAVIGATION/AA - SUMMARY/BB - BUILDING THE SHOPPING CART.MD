@@ -88,15 +88,21 @@
 	</li>
 	<li>
 		<h3>IMPLEMENTING THE INDEX ACTION METHOD</h3>
-		Now that we have the View Model implemented, it's possible implement the Index action method (Listing 8-16).
-		<p align="center">
-			<img src="Pictures/Listing 8-16.png" /><br />
-			<b>Listing 8-16.</b> The Contents of the CartIndexViewModel.cs File
-		</p><br />
+		<ol>
+			<li>
+				Now that we have the View Model implemented, it's possible implement the Index action method (Listing 8-16).
+				<p align="center">
+					<img src="Pictures/Listing 8-16.png" /><br />
+					<b>Listing 8-16.</b> The Contents of the CartIndexViewModel.cs File
+				</p><br />
+			</li>
+			<li>
+				Create the new view (Index.cshtml) to display the contents of the cart (Listing 8-17).
+				<p align="center">
+					<img src="Pictures/Listing 8-17.png" /><br />
+					<b>Listing 8-17.</b> The Contents of the Index.cshtml File
+				</p><br />
+			</li>
+		</ol>
 	</li>
 </ul>
-	
-	
-	
-	
-  

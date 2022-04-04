@@ -2,6 +2,5 @@ BUILDING THE SHOPPING CART
 	DISPLAYING THE CONTENTS OF THE CART
 		Listing 8-17. The Contents of the Index.cshtml File
 
-3 - Listing 8-17. The Contents of the Index.cshtml File
 4 - Figure 8-8. The Add to cart button
 5 - Figure 8-9. Displaying the contents of the shopping cart
