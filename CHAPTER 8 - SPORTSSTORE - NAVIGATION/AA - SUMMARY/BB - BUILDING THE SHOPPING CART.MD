@@ -103,6 +103,13 @@
 					<b>Listing 8-17.</b> The Contents of the Index.cshtml File
 				</p><br />
 			</li>
+			<li>
+				Right now, we have the basic shopping cart functions in place, as shown in Figure 8-8.
+				<p align="center">
+					<img src="Pictures/Figure 8-8.png" /><br />
+					<b>Figure 8-8.</b> The Add to cart button
+				</p><br />
+			</li>
 		</ol>
 	</li>
 </ul>
