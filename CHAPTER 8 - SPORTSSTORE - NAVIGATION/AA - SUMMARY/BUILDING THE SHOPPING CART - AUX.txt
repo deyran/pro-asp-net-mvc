@@ -1,8 +1,3 @@
 BUILDING THE SHOPPING CART
 	DISPLAYING THE CONTENTS OF THE CART
-		Figure 8-8. The Add to cart button
-
-Right now, we have the basic shopping cart functions in place, as shown in Figure 8-8.
-
-
-5 - Figure 8-9. Displaying the contents of the shopping cart
+		Figure 8-9. Displaying the contents of the shopping cart
