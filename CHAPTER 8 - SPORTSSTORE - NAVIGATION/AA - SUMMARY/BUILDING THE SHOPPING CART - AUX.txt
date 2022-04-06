@@ -1,3 +1,0 @@
-BUILDING THE SHOPPING CART
-	DISPLAYING THE CONTENTS OF THE CART
-		Figure 8-9. Displaying the contents of the shopping cart

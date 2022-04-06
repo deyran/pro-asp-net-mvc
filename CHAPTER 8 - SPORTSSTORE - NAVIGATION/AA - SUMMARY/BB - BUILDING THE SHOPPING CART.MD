@@ -110,6 +110,13 @@
 					<b>Figure 8-8.</b> The Add to cart button
 				</p><br />
 			</li>
+			<li>
+				When the user clicks Add to cart button, the appropriate product is added to their cart. And clicking the Continue shopping button returns the user to the product page they came from (Figure 8-9).
+				<p align="center">
+					<img src="Pictures/Figure 8-9.png" /><br />
+					<b>Figure 8-9.</b> Displaying the contents of the shopping cart
+				</p><br />
+			</li>
 		</ol>
 	</li>
 </ul>
