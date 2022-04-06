@@ -1,0 +1,29 @@
+﻿@model SportsStore.Domain.Entities.Product
+
+<!--
+STYLING THE CONTENT
+    CREATING A PARTIAL VIEW
+        Listing 7-28. Adding Markup to the <b>ProductSummary.cshtml</b> file
+
+BUILDING THE SHOPPING CART
+    ADDING THE ADD TO CART BUTTONS
+        Listing 8-13. Adding the Buttons to the Product Summary.cshtml File View
+-->
+
+<div class="well">
+    <h3>
+        <strong>@Model.Name</strong>
+        <span class="pull-right label label-primary">@Model.Price.ToString("c")</span>
+    </h3>
+
+    @using (Html.BeginForm("AddToCart", "Cart"))
+    {
+        <div class="pull-right">
+            @Html.HiddenFor(x => x.ProductID)
+            @Html.Hidden("returnUrl", Request.Url.PathAndQuery)
+            <input type="submit" class="btn btn-success" value="+ Add to cart" />
+        </div>
+    }
+
+    <span class="lead">@Model.Description</span>
+</div>
