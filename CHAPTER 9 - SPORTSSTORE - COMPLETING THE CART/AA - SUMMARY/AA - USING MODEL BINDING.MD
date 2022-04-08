@@ -15,12 +15,20 @@
 &nbsp;&nbsp;ASP.NET MVC model binding is a process for automatically converting HTTP requests into objects that are passed to an action method parameters. Model binding, as an abstraction layer, simplifies this entire conversion process. In this section wil be implemented a custom model binder to improve the CartController class, taking the Cart object contained in the session data and passing them as parameters to the action method in the CartController class.
 
 <ul>
-	<li>AAAA</li>
+	<li>
+		<h2><i>Creating a Custom Model Binder</i></h2>
+		To implement custom model using the System.Web.Mvc.IModelBinder interface follow these steps:
+		<ol>
+			<li>Added a new folder in the SportsStore.WebUI project called Infrastructure/Binders</li>
+			<li>Create a CartModelBinder.cs class inside it</li>
+			<li>
+				Implement the CartModelBinder.cs class shows in the code below (Listing 9-1)
+			</li>
+		</ol>
+	</li>
 	<li>AAA</li>
 	<li>BBBB</li>
 </ul>
-
-------------------------------------------------------------------------------------------
 
 USING MODEL BINDING
 	CREATING A CUSTOM MODEL BINDER
