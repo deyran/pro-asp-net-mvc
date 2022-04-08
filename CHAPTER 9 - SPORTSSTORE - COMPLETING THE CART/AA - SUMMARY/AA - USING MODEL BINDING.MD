@@ -8,7 +8,7 @@
 
 <h1><i>USING MODEL BINDING</i></h1>
 <p align="center">
-	<img src="Pictures/MODEL_BINDING_MIDDLEMAN.png" /><br />
+	<img src="ch09-Pictures/MODEL_BINDING_MIDDLEMAN.png" /><br />
 	Model Binding
 </p>
 
