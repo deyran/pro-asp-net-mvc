@@ -4,7 +4,7 @@
 
 <p align="center">
 	In this chapter, the implementation of the SportsStore app will continue
-</p><br />
+</p>
 
 <h1><i>USING MODEL BINDING</i></h1>
 <p align="center">
