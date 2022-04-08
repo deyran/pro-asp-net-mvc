@@ -8,14 +8,14 @@
 
 <h1><i>USING MODEL BINDING</i></h1>
 <p align="center">
-	<img src="Pictures/MODEL_BINDING_MIDDLEMAN.jpg" /><br />
+	<img src="Pictures/MODEL_BINDING_MIDDLEMAN.png" /><br />
 	Model Binding
 </p>
 
+&nbsp;&nbsp;ASP.NET MVC model binding is a process for automatically converting HTTP requests into objects that are passed to an action method parameters. Model binding, as an abstraction layer, simplifies this entire conversion process. In this section wil be implemented a custom model binder to improve the CartController class, taking the Cart object contained in the session data and passing them as parameters to the action method in the CartController class.
+
 <ul>
-	<li>
-		ASP.NET MVC model binding is a process for automatically converting HTTP requests into objects that are passed to an action method parameters. Model binding, as an abstraction layer, simplifies this entire conversion process. In this section wil be implemented a custom model binder to improve the CartController class, taking the Cart object contained in the session data and passing them as parameters to the action method in the CartController class (Listing 9-1).
-	</li>
+	<li>AAAA</li>
 	<li>AAA</li>
 	<li>BBBB</li>
 </ul>
