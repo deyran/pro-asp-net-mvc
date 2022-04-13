@@ -13,6 +13,11 @@ namespace SportsStore.WebUI.Controllers
 
 		DISPLAYING THE CONTENTS OF THE CART
 			Listing 8-16. The Index Action Method in the CartController.cs File
+
+
+    USING MODEL BINDING
+	    CREATING A CUSTOM MODEL BINDER
+		    Listing 9-3. Relying on the Model Binder in the CartController.cs File
 	 */
 
     public class CartController : Controller
@@ -24,56 +29,44 @@ namespace SportsStore.WebUI.Controllers
             repository = repo;
         }
 
-        public ViewResult Index(string returnUrl)
+        public ViewResult Index(Cart cart, string returnUrl)
         {
             return (
                 View(
                     new CartIndexViewModel
                     {
-                        Cart = GetCart(),
+                        Cart = cart,
                         ReturnUrl = returnUrl
                     }
                 )
             );
         }
 
-        public RedirectToRouteResult AddToCart(int productId, string returnUrl)
+        public RedirectToRouteResult AddToCart(Cart cart, int productId, string returnUrl)
         {
             Product product = repository.Products
                .FirstOrDefault(p => p.ProductID == productId);
 
             if (product != null)
             {
-                GetCart().AddItem(product, 1);
+                cart.AddItem(product, 1);
             }
             return RedirectToAction("/Index", new { returnUrl });
         }
 
-        public RedirectToRouteResult RemoveFromCart(int productId, string returnUrl)
+        public RedirectToRouteResult RemoveFromCart(Cart cart, int productId, string returnUrl)
         {
             Product product = repository.Products
                         .FirstOrDefault(p => p.ProductID == productId);
 
             if (product != null)
             {
-                GetCart().RemoveLine(product);
+                cart.RemoveLine(product);
             }
 
             return RedirectToAction("/Index", new { returnUrl });
         }
 
-        private Cart GetCart()
-        {
-            Cart cart = (Cart)Session["Cart"];
-
-            if (cart == null)
-            {
-                cart = new Cart();
-                Session["Cart"] = cart;
-            }
-
-            return cart;
-        }
-
     }
 }
+

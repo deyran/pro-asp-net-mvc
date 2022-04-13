@@ -37,15 +37,15 @@
 			</li>
 		</ol>
 	</li>
-	<li>AAA</li>
+	<li>
+		Now it's time to update the <i>Cart</i> controller to remove the <i>GetCart</i> method and rely on the model binder to provider the controller with <i>Cart</i> objects. Listing 9-3 shows the changes.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-3.png" /><br />
+			<b>Listing 9-3.</b> Relying on the Model Binder in the CartController.cs File
+		</p><br />		
+	</li>
 	<li>BBBB</li>
 </ul>
-------------------------------------------------------------------------------------------
-
-USING MODEL BINDING
-	CREATING A CUSTOM MODEL BINDER
-		Listing 9-3. Relying on the Model Binder in the CartController.cs File
-------------------------------------------------------------------------------------------
 
 USING MODEL BINDING
 	CREATING A CUSTOM MODEL BINDER
