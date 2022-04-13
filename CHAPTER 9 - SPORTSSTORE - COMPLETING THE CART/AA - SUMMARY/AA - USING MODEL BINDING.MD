@@ -16,7 +16,7 @@
 
 <ul>
 	<li>
-		<h2><i>Creating a Custom Model Binder</i></h2>
+		<h2><i>CREATING A CUSTOM MODEL BINDER</i></h2>
 		To implement custom model using the <i>System.Web.Mvc.IModelBinder</i> interface follow these steps:
 		<ol>
 			<li>Added a new folder in the <i>SportsStore.WebUI</i> project inside the folder <i>Infrastructure</i> called <i>Binders</i></li>
@@ -26,17 +26,20 @@
 				<p align="center">
 					<img src="ch09-Pictures/Listing 9-1.png" /><br />
 					<b>Listing 9-1.</b> The Contents of the CartModelBinder.cs File
-				</p>
+				</p><br />
+			</li>
+			<li>
+				Now it's necessary to tell MVC Framework that it can use the <i>CartModelBinder</i> class to create instances of <i>Cart</i>. To do this, open the <i>Glogal.asax.cs</i> file and combine as shown in the code below.
+				<p align="center">
+					<img src="ch09-Pictures/Listing 9-2.png" /><br />
+					<b>Listing 9-2.</b> Registering the CartModelBinder Class in the Global.asax.cs File
+				</p><br />
 			</li>
 		</ol>
 	</li>
 	<li>AAA</li>
 	<li>BBBB</li>
 </ul>
-
-USING MODEL BINDING
-	CREATING A CUSTOM MODEL BINDER
-		Listing 9-2. Registering the CartModelBinder Class in the Global.asax.cs File
 ------------------------------------------------------------------------------------------
 
 USING MODEL BINDING
