@@ -44,7 +44,14 @@
 			<b>Listing 9-3.</b> Relying on the Model Binder in the CartController.cs File
 		</p><br />		
 	</li>
-	<li>BBBB</li>
+	<li>
+		<h3><i>UNIT TEST: THE CART CONTROLLER</i></h3>
+		Here are the unit tests that were added to the <i>CartTests.cs</i> file in the <i>SportsStore.UnitTests</i> project:
+		<p align="center">
+				<img src="ch09-Pictures/UT_THE_CART_CONTROLLER.png" /><br />
+				Unit test: the cart controller
+		</p><br />		
+	</li>
 </ul>
 
 USING MODEL BINDING
