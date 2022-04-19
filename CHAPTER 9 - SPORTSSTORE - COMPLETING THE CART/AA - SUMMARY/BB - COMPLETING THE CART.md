@@ -1,4 +1,6 @@
-<h1><i>REMOVING ITEMS FROM THE CART</i></h1>
+<h1><div align="center">COMPLETING THE CART</div></h1>
+
+<h2><i>REMOVING ITEMS FROM THE CART</i></h2>
 <ul>
     <li>
 COMPLETING THE CART
@@ -12,7 +14,7 @@ COMPLETING THE CART
     </li>    
 </ul>
 
-<h1><i>ADDING THE CART SUMMARY</i></h1>
+<h2><i>ADDING THE CART SUMMARY</i></h2>
 <ul>
     <li>
 COMPLETING THE CART
