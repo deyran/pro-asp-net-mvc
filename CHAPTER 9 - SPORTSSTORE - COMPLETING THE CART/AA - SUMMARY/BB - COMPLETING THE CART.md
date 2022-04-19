@@ -1,4 +1,9 @@
 <h1><div align="center">COMPLETING THE CART</div></h1>
+It's time to implement two new feature to our applications:
+<ol>
+    <li>Remove an item from the cart</li>
+    <li>Display a summary of the cart at the top of the page</li>    
+</ol>
 
 <h2><i>REMOVING ITEMS FROM THE CART</i></h2>
 <ul>
