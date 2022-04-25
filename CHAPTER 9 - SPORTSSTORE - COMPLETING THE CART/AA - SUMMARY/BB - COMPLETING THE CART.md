@@ -12,7 +12,7 @@ It's time to implement two new feature to our applications:
         <p align="center">
             <img src="ch09-Pictures/Listing 9-4.png" /><br />
             <b>Listing 9-4.</b> Introducing a Remove Button to the Index.cshtml File
-        </p><br />
+        </p>
     </li>
     <li>
         <i>NOTE</i>
