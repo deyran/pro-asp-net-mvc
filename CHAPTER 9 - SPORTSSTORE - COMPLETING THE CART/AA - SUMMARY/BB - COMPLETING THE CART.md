@@ -8,6 +8,7 @@ It's time to implement two new feature to our applications:
 <h2><i>REMOVING ITEMS FROM THE CART</i></h2>
 <ul>
     <li>
+
 COMPLETING THE CART
     REMOVING ITEMS FROM THE CART
         Listing 9-4. Introducing a Remove Button to the Index.cshtml File
@@ -21,6 +22,9 @@ The removal feature has been implemented in the <b>RemoveFromCart</b> action met
 Note ■ i used the strongly typed Html.HiddenFor helper method to create a hidden field for the ReturnUrl model property, but i had to use the string-based Html.Hidden helper to do the same for the ProductId field. if i had written Html.HiddenFor(x => line.Product.ProductID), the helper would render a hidden field with the name line. Product.ProductID. the name of the field would not match the names of the parameters for the CartController. RemoveFromCart action method, which would prevent the default model binders from working, so the mVC Framework would not be able to call the method.
 
 > https://stackoverflow.com/questions/4381871/what-is-the-difference-between-html-hidden-and-html-hiddenfor
+
+
+
 > https://www.completecsharptutorial.com/asp-net-mvc5/html-hiddenfor-example-aspnet-mvc5.php
 > https://technoteshelp.com/c-what-is-the-difference-between-html-hidden-and-html-hiddenfor/
 > https://www.tutorialsteacher.com/mvc/htmlhelper-hidden-hiddenfor
