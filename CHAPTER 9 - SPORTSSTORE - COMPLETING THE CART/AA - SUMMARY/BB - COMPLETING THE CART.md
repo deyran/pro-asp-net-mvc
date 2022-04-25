@@ -44,6 +44,10 @@ It's time to implement two new feature to our applications:
 COMPLETING THE CART
     ADDING THE CART SUMMARY
         Listing 9-5. Adding the Summary Method to the CartController.cs File
+
+I may have a functioning cart, but there is an issue with the way it is integrated into the interface. Customers can tell what is in their cart only by viewing the cart summary screen. And they can view the cart summary screen only by adding a new a new item to the cart.
+
+To solve this problem, I am going to add a widget that summarizes the contents of the cart and that can be clicked to display the cart contents throughout the application. I will do this in much the same way that I added the navigation widget—as an action whose output I will inject into the Razor layout. To start, I need to add the simple method, shown in Listing 9-5, to the CartController class.
     </li>    
     <li>
 COMPLETING THE CART
