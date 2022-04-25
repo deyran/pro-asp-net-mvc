@@ -6,23 +6,28 @@ It's time to implement two new feature to our applications:
 </ol>
 
 <h2><i>REMOVING ITEMS FROM THE CART</i></h2>
-<h3><i>-- NOTE --</i></h3>
-<ol>
-    <li>
-        <i>What's the Html.Hidden() and Html.HiddenFor()?</i> <br /> 
-        They are MVC Html Helper, it means that they generate HTML control programmatically. The most important benefit is that can created a custom HTML helpers <br />
-        For example: <br />
-            Html.Hidden("Name", "Value") will generate <br />
-            <input id="Name" name="Name" type="hidden" value="Value">                          
-    </li>
-    <li>AAAAAAAAAAA</li>            
-</ol>
-
 <ul>
     <li>
-COMPLETING THE CART
-    REMOVING ITEMS FROM THE CART
-        Figure 9-1. Removing an item from the shopping cart
+        The removal feature has been implemented in the <b>RemoveFromCart</b> action method in the <b>CartController</b> class. Now it is necessary to enable this functionality for the customer. The changes to  Views/Cart/Index.cshtml are shown in Listing 9-4.
+        <p align="center">
+            <img src="ch09-Pictures/Listing 9-4.png" /><br />
+            <b>Listing 9-4.</b> Introducing a Remove Button to the Index.cshtml File
+        </p><br />
+    </li>
+    <li>
+        <i>NOTE</i>
+        <ol>
+            <li>
+                <i>What's the <b>Html.Hidden()</b> and <b>Html.HiddenFor()</b>?</i> <br /> 
+                They are MVC Html Helper, it means that they generate HTML control programmatically. The most important benefit is that can created a custom HTML helpers <br />
+                For example: <b>Html.Hidden("Name", "Value")</b> will generate<br />
+                <img src="ch09-Pictures/Listing 9-4-NOTE.png" />
+            </li>
+            <li>
+                <i>What's the diference?</i>
+                The problem when you use Html.Hidden instead of Html.HiddenFor() is that if you change the model properties the project will compile with no problems. But when you use, for example, Html.HiddenFor(x => line.Product.ProductID) you will get an explicit runtime error indicating that the property can't be found, the most important point is that Html.HiddenFor is a strongly typed method that is bounded with model class.
+            </li>            
+        </ol>
     </li>    
 </ul>
 

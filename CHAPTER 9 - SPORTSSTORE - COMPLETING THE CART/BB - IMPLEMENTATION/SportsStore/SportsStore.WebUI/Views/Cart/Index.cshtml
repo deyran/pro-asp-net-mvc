@@ -1,9 +1,22 @@
 ﻿@model SportsStore.WebUI.Models.CartIndexViewModel
 @{
     ViewBag.Title = "Sports Store: Your Cart";
+
+    /*
+    COMPLETING THE CART
+        REMOVING ITEMS FROM THE CART
+            Listing 9-4. Introducing a Remove Button to the Index.cshtml File
+    */
 }
+
+<style>
+    #cartTable td {
+        vertical-align: middle;
+    }
+</style>
+
 <h2>Your cart</h2>
-<table class="table">
+<table id="cartTable" class="table">
     <thead>
         <tr>
             <th>Quantity</th>
@@ -19,8 +32,14 @@
                 <td class="text-center">@line.Quantity</td>
                 <td class="text-left">@line.Product.Name</td>
                 <td class="text-right">@line.Product.Price.ToString("c")</td>
-                <td class="text-right">
-                    @((line.Quantity * line.Product.Price).ToString("c"))
+                <td class="text-right">@((line.Quantity * line.Product.Price).ToString("c"))</td>
+                <td>
+                    @using (Html.BeginForm("RemoveFromCart", "Cart"))
+                    {
+                        @Html.Hidden("ProductId", line.Product.ProductID)
+                        @Html.HiddenFor(x => x.ReturnUrl)
+                        <input class="btn btn-sm btn-warning" type="submit" value="Remove" />
+                    }
                 </td>
             </tr>
         }
