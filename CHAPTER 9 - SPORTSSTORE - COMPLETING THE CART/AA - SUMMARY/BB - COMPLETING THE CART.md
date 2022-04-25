@@ -28,6 +28,13 @@ It's time to implement two new feature to our applications:
                 The problem when you use Html.Hidden instead of Html.HiddenFor() is that if you change the model properties the project will compile with no problems. But when you use, for example, Html.HiddenFor(x => line.Product.ProductID) you will get an explicit runtime error indicating that the property can't be found, the most important point is that Html.HiddenFor is a strongly typed method that is bounded with model class.
             </li>            
         </ol>
+    </li>
+    <li>
+        Run the application and see the result (Figure 9-1).
+        <p align="center">
+            <img src="ch09-Pictures/Figure 9-1.png" /><br />
+            <b>Figure 9-1.</b> Removing an item from the shopping cart
+        </p>
     </li>    
 </ul>
 
