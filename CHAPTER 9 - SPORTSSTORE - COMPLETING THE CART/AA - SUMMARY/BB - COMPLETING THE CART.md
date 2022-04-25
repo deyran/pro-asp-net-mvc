@@ -25,7 +25,7 @@ It's time to implement two new feature to our applications:
             </li>
             <li>
                 <i>What's the diference?</i>
-                The problem when you use Html.Hidden instead of Html.HiddenFor() is that if you change the model properties the project will compile with no problems. But when you use, for example, Html.HiddenFor(x => line.Product.ProductID) you will get an explicit runtime error indicating that the property can't be found, the most important point is that Html.HiddenFor is a strongly typed method that is bounded with model class.
+                The problem when you use Html.Hidden instead of Html.HiddenFor() is that if you change the model properties the project will compile with no problems. But when you use, for example, Html.HiddenFor(x => line.Product.ProductID) you will get an explicit runtime error indicating that the property can't be found, the most important point is that Html.HiddenFor is a strongly typed method that is bounded with model class. <br />
             </li>            
         </ol>
     </li>
