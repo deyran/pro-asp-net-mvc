@@ -39,7 +39,7 @@ It's time to implement two new feature to our applications:
 </ul>
     
 <h2><i>ADDING THE CART SUMMARY</i></h2>
-    We have a working cart, but one issue, customers can view cart summary screen only when adding a new item to cart. To solve this problem, we divide the problem in three steps:<br />
+    We have a working cart, but one issue, customers can view cart summary screen only when adding a new item to cart. To solve this problem, we have divided the problem into three steps:<br />
 <ol>
     <li>
         We need to add the simple method, shown in Listing 9-5, to the <b>CartController</b> class.
