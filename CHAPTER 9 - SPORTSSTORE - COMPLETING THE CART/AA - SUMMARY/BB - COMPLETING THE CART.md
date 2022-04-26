@@ -49,9 +49,14 @@ It's time to implement two new feature to our applications:
         </p>
     </li>    
     <li>
-COMPLETING THE CART
-    ADDING THE CART SUMMARY
-        Listing 9-6. The Contents of the Summary.cshtml File
+        The second step consists of creating a the View to supplying the current Cart as view data (Listing 9-6). 
+        <ol>
+            <li>Right-click the Summary action method and select Add View from the pop-up menu</li>
+            <li>Set the name of the view to Summary and click the OK button to create the Views/Cart/Summary.cshtml</li>
+            <li>
+                Edit the view so that it matches Listing 9-6
+            </li>
+        </ol>
     </li>    
     <li>
 COMPLETING THE CART
