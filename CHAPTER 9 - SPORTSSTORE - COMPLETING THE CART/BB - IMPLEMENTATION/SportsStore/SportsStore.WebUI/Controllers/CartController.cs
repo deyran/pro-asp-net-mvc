@@ -18,7 +18,12 @@ namespace SportsStore.WebUI.Controllers
     USING MODEL BINDING
 	    CREATING A CUSTOM MODEL BINDER
 		    Listing 9-3. Relying on the Model Binder in the CartController.cs File
-	 */
+
+
+    COMPLETING THE CART
+        ADDING THE CART SUMMARY
+            Listing 9-5. Adding the Summary Method to the CartController.cs File
+    	 */
 
     public class CartController : Controller
     {
@@ -65,6 +70,11 @@ namespace SportsStore.WebUI.Controllers
             }
 
             return RedirectToAction("/Index", new { returnUrl });
+        }
+
+        public PartialViewResult Summary(Cart cart)
+        {
+            return PartialView(cart);
         }
 
     }

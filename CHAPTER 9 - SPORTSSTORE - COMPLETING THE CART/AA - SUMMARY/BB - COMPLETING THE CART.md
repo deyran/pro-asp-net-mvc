@@ -39,14 +39,14 @@ It's time to implement two new feature to our applications:
 </ul>
     
 <h2><i>ADDING THE CART SUMMARY</i></h2>
-<ul>
+    We have a working cart, but one issue, customers can view cart summary screen only when adding a new item to cart. To solve this problem, we divide the problem in three steps:<br />
+<ol>
     <li>
-COMPLETING THE CART
-    ADDING THE CART SUMMARY
-        Listing 9-5. Adding the Summary Method to the CartController.cs File
-
-        We have a working cart, but one issue, customers can view cart summary screen only when adding a new item to cart. To solve this problem, we need to add the simple method, shown in Listing 9-5, to the <b>CartController</b> class.
-
+        We need to add the simple method, shown in Listing 9-5, to the <b>CartController</b> class.
+        <p align="center">
+            <img src="ch09-Pictures/Listing 9-5.png" /><br />
+            <b>Listing 9-5.</b> Adding the Summary Method to the CartController.cs File
+        </p><br />
     </li>    
     <li>
 COMPLETING THE CART
@@ -63,4 +63,4 @@ COMPLETING THE CART
     ADDING THE CART SUMMARY
         Figure 9-2. The cart summary widget    
     </li>    
-</ul>
+</ol>
