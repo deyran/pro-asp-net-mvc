@@ -46,7 +46,7 @@ It's time to implement two new feature to our applications:
         <p align="center">
             <img src="ch09-Pictures/Listing 9-5.png" /><br />
             <b>Listing 9-5.</b> Adding the Summary Method to the CartController.cs File
-        </p><br />
+        </p>
     </li>    
     <li>
 COMPLETING THE CART
