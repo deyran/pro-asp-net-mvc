@@ -54,7 +54,11 @@ It's time to implement two new feature to our applications:
             <li>Right-click the Summary action method and select Add View from the pop-up menu</li>
             <li>Set the name of the view to Summary and click the OK button to create the Views/Cart/Summary.cshtml</li>
             <li>
-                Edit the view so that it matches Listing 9-6
+                Edit the view so that it matches Listing 9-6:
+                <p align="center">
+                    <img src="ch09-Pictures/Listing 9-6.png" /><br />
+                    <b>Listing 9-6.</b> The Contents of the Summary.cshtml
+                </p>
             </li>
         </ol>
     </li>    
