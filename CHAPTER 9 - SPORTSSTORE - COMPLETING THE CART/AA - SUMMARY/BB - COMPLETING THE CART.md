@@ -70,8 +70,10 @@ It's time to implement two new feature to our applications:
         </p>
     </li>    
     <li>
-COMPLETING THE CART
-    ADDING THE CART SUMMARY
-        Figure 9-2. The cart summary widget    
+        Run the application and see the result (Figure 9-2).
+        <p align="center">
+            <img src="ch09-Pictures/Figure 9-2.png" /><br />
+            <b>Figure 9-2.</b> The cart summary widget
+        </p>
     </li>    
 </ol>
