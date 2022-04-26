@@ -63,9 +63,11 @@ It's time to implement two new feature to our applications:
         </ol>
     </li>    
     <li>
-COMPLETING THE CART
-    ADDING THE CART SUMMARY
-        Listing 9-7. Adding the Summary Partial View to the _Layout.cshtml File
+        The final step we can call the Summary action method in the _Layout.cshtml file to display the cart summary, as shown in Listing 9-7.
+        <p align="center">
+            <img src="ch09-Pictures/Listing 9-7.png" /><br />
+            <b>Listing 9-7.</b> Adding the Summary Partial View to the _Layout.cshtml File
+        </p>
     </li>    
     <li>
 COMPLETING THE CART
