@@ -37,7 +37,7 @@ It's time to implement two new feature to our applications:
         </p>
     </li>    
 </ul>
-
+    
 <h2><i>ADDING THE CART SUMMARY</i></h2>
 <ul>
     <li>
@@ -45,9 +45,8 @@ COMPLETING THE CART
     ADDING THE CART SUMMARY
         Listing 9-5. Adding the Summary Method to the CartController.cs File
 
-I may have a functioning cart, but there is an issue with the way it is integrated into the interface. Customers can tell what is in their cart only by viewing the cart summary screen. And they can view the cart summary screen only by adding a new a new item to the cart.
+        We have a working cart, but one issue, customers can view cart summary screen only when adding a new item to cart. To solve this problem, we need to add the simple method, shown in Listing 9-5, to the <b>CartController</b> class.
 
-To solve this problem, I am going to add a widget that summarizes the contents of the cart and that can be clicked to display the cart contents throughout the application. I will do this in much the same way that I added the navigation widget—as an action whose output I will inject into the Razor layout. To start, I need to add the simple method, shown in Listing 9-5, to the CartController class.
     </li>    
     <li>
 COMPLETING THE CART
