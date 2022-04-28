@@ -21,15 +21,19 @@
 
 SUBMITTING ORDERS	
 	ADDING THE CHECKOUT PROCESS 237
-		Listing 9-9. Adding the Checkout Now Button to the Index.cshtml File
-		Figure 9-3. The Checkout now button
-		Listing 9-10. The Checkout Action Method in the CartController.cs File
-		Listing 9-11. The Contents of the Checkout.cshtml File
-		Figure 9-4. The shipping details form
-		Listing 9-12. Reducing Duplication in the Checkout.cshtml File
-		Figure 9-5. The problem with generating labels from property names
-		Listing 9-13. Applying th e Display attribute to the ShippingDetails.cs File
-		Figure 9-6. The effect of the Display attribute on the model type
+
+<h2><i>ADDING THE CHECKOUT PROCESS</i></h2>
+<ul>
+	<li>Listing 9-9. Adding the Checkout Now Button to the Index.cshtml File</li>
+	<li>Figure 9-3. The Checkout now button</li>
+	<li>Listing 9-10. The Checkout Action Method in the CartController.cs File</li>
+	<li>Listing 9-11. The Contents of the Checkout.cshtml File</li>
+	<li>Figure 9-4. The shipping details form</li>
+	<li>Listing 9-12. Reducing Duplication in the Checkout.cshtml File</li>
+	<li>Figure 9-5. The problem with generating labels from property names</li>
+	<li>Listing 9-13. Applying th e Display attribute to the ShippingDetails.cs File</li>
+	<li>Figure 9-6. The effect of the Display attribute on the model type</li>
+</ul>	
 ------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
