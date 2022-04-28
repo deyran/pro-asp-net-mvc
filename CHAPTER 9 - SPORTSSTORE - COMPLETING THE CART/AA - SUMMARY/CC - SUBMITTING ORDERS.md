@@ -3,24 +3,24 @@
 	<img src="ch09-Pictures/SUBMITTING_ORDERS.png" with=200 height=200 />
 </p>
 
-<ul>
-	<li>	
-		The SportsStore web app has these two features:
-		<ol>
-			<li>the mechanism to pay for the things you are buying (check out)</li>
-			<li>Complete an order</li>
-		</ol>
-	</li>
-	<li>
-		Now in this section we will do the following tasks:
-		<ol>
-			<li>Extend the domain model to provide support for capturing the shipping details from a user</li>
-			<li>Add the application support to process those details</li>
-		</ol>
-	</li>
-</ul>
+
+The SportsStore web app has these two features:
+<ol>
+	<li>the mechanism to pay for the things you are buying (check out)</li>
+	<li>Complete an order</li>
+</ol>
+
+Now in this section we will do the following tasks:
+<ol>
+	<li>Extend the domain model to provide support for capturing the shipping details from a user</li>
+	<li>Add the application support to process those details</li>
+</ol><br />
 
 ========================================================================================================================
+<ul>
+	<li>AAAAAAAAAA</li>
+</ul>
+
 SUBMITTING ORDERS
 	EXTENDING THE DOMAIN MODEL 236
 		Listing 9-8. The Contents of the ShippingDetails.cs File
