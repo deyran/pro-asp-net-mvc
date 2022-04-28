@@ -11,14 +11,16 @@
 			<li>Complete an order</li>
 		</ol>
 	</li>
-	<li></li>
+	<li>
+		Now in this section we will do the following tasks:
+		<ol>
+			<li>Extend the domain model to provide support for capturing the shipping details from a user</li>
+			<li>Add the application support to process those details</li>
+		</ol>
+	</li>
 </ul>
 
-
-I will extend the domain model to provide support for capturing the shipping details from a user and add the application support to process those details.
-
-------------------------------------------------------------------------------------------------------------------------
-
+========================================================================================================================
 SUBMITTING ORDERS
 	EXTENDING THE DOMAIN MODEL 236
 		Listing 9-8. The Contents of the ShippingDetails.cs File
