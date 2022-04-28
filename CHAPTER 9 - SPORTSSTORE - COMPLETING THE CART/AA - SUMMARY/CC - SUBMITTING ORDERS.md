@@ -9,7 +9,7 @@
 
 <h4>Now in this section we will do the following tasks:</h4>
 &nbsp;&nbsp;&nbsp;&nbsp;1 - Extend the domain model to provide support for capturing the shipping details from a user<br />
-&nbsp;&nbsp;&nbsp;&nbsp;2 - Add the application support to process those details<br /><br />
+&nbsp;&nbsp;&nbsp;&nbsp;2 - Add the application support to process those details<br />
 
 <h2><i>EXTENDING THE DOMAIN MODEL</i></h2>
 &nbsp;&nbsp;&nbsp;&nbsp;Create a file called <b>ShippingDetails.cs</b>, and put in the <b>Entities</b> folder in <b>SportsStore.Domain</b> project, and edit to match as in <b>Listing 9-8</b>
