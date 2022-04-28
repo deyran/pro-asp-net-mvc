@@ -4,14 +4,13 @@
 </p>
 
 
-The SportsStore web app has these two features:
-<ol>
+<ol>> The SportsStore web app has these two features:
 	<li>the mechanism to pay for the things you are buying (check out)</li>
 	<li>Complete an order</li>
 </ol>
 
-Now in this section we will do the following tasks:
-<ol>
+
+<ol>> Now in this section we will do the following tasks:
 	<li>Extend the domain model to provide support for capturing the shipping details from a user</li>
 	<li>Add the application support to process those details</li>
 </ol><br />
