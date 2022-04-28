@@ -1,6 +1,28 @@
+<h1><div align="center">SUBMITTING ORDERS</div></h1>
+<p align="center">
+	<img src="ch09-Pictures/SUBMITTING_ORDERS.png" with=200 height=200 />
+</p>
+
+<ul>
+	<li>	
+		The SportsStore web app has these two features:
+		<ol>
+			<li>the mechanism to pay for the things you are buying (check out)</li>
+			<li>Complete an order</li>
+		</ol>
+	</li>
+	<li></li>
+</ul>
+
+
+I will extend the domain model to provide support for capturing the shipping details from a user and add the application support to process those details.
+
+------------------------------------------------------------------------------------------------------------------------
+
 SUBMITTING ORDERS
 	EXTENDING THE DOMAIN MODEL 236
 		Listing 9-8. The Contents of the ShippingDetails.cs File
+------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
 	ADDING THE CHECKOUT PROCESS 237
@@ -13,6 +35,7 @@ SUBMITTING ORDERS
 		Figure 9-5. The problem with generating labels from property names
 		Listing 9-13. Applying th e Display attribute to the ShippingDetails.cs File
 		Figure 9-6. The effect of the Display attribute on the model type
+------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
 	IMPLEMENTING THE ORDER PROCESSOR 244
@@ -20,16 +43,19 @@ SUBMITTING ORDERS
 			Listing 9-14. The Contents of the IOrderProcessor.cs File
 		IMPLEMENTING THE INTERFACE
 			Listing 9-15. The Contents of the EmailOrderProcessor.cs File
+------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS
 	REGISTERING THE IMPLEMENTATION 247
 		Listing 9-16. Adding Ninject Bindings for IOrderProcessor to the NinjectDependencyResolver.cs File
 		Listing 9-17. Application Settings in the Web.config File
+------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
 	COMPLETING THE CART CONTROLLER 248
 		Listing 9-18. Completing the Controller in the CartController.cs File
 		UNIT TEST: ORDER PROCESSING
+------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
 	DISPLAYING VALIDATION ERRORS 252
@@ -37,6 +63,7 @@ SUBMITTING ORDERS
 		Listing 9-20. The Contents of the ErrorStyles.css File
 		Listing 9-21. Adding a Link Element in the _Layout.cshtml File
 		Figure 9-7. Displaying validation messages
+------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
 	DISPLAYING A SUMMARY PAGE 254
