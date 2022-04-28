@@ -3,23 +3,20 @@
 	<img src="ch09-Pictures/SUBMITTING_ORDERS.png" with=200 height=200 />
 </p>
 
-
 <h4>The SportsStore web app has these two features:</h4>
-1 - the mechanism to pay for the things you are buying (check out)<br />
-2 - Complete an order<br />
+&nbsp;&nbsp;&nbsp;&nbsp;1 - the mechanism to pay for the things you are buying (check out)<br />
+&nbsp;&nbsp;&nbsp;&nbsp;2 - Complete an order<br /><br />
 
 <h4>Now in this section we will do the following tasks:</h4>
-1 - Extend the domain model to provide support for capturing the shipping details from a user<br />
-2 - Add the application support to process those details<br />
+&nbsp;&nbsp;&nbsp;&nbsp;1 - Extend the domain model to provide support for capturing the shipping details from a user<br />
+&nbsp;&nbsp;&nbsp;&nbsp;2 - Add the application support to process those details<br /><br />
 
-========================================================================================================================
-<ul>
-	<li>AAAAAAAAAA</li>
-</ul>
-
-SUBMITTING ORDERS
-	EXTENDING THE DOMAIN MODEL 236
-		Listing 9-8. The Contents of the ShippingDetails.cs File
+<h2><i>EXTENDING THE DOMAIN MODEL</i></h2>
+&nbsp;&nbsp;&nbsp;&nbsp;Create a file called <b>ShippingDetails.cs</b>, and put in the <b>Entities</b> folder in <b>SportsStore.Domain</b> project, and edit to match as in <b>Listing 9-8</b>
+<p align="center">
+	<img src="ch09-Pictures/Listing 9-8.png" /><br />
+	<b>Listing 9-8.</b> The Contents of the ShippingDetails.cs File
+</p>
 ------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
