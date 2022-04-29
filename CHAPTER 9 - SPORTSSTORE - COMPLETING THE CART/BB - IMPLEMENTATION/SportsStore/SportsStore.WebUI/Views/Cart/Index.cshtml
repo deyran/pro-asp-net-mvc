@@ -6,6 +6,11 @@
     COMPLETING THE CART
         REMOVING ITEMS FROM THE CART
             Listing 9-4. Introducing a Remove Button to the Index.cshtml File
+
+    SUBMITTING ORDERS	
+	    ADDING THE CHECKOUT PROCESS
+		    Listing 9-9. Adding the Checkout Now Button to the Index.cshtml File
+
     */
 }
 
@@ -53,6 +58,9 @@
         </tr>
     </tfoot>
 </table>
+
 <div class="text-center">
     <a class="btn btn-primary" href="@Model.ReturnUrl">Continue shopping</a>
+    @Html.ActionLink("Checkout now", "Checkout", null, new { @class = "btn btn-primary" })
 </div>
+

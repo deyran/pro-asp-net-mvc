@@ -17,20 +17,21 @@
 	<img src="ch09-Pictures/Listing 9-8.png" /><br />
 	<b>Listing 9-8.</b> The Contents of the ShippingDetails.cs File
 </p>
-------------------------------------------------------------------------------------------------------------------------
-
-SUBMITTING ORDERS	
-	ADDING THE CHECKOUT PROCESS
-		Listing 9-9. Adding the Checkout Now Button to the Index.cshtml File
 
 <h2><i>ADDING THE CHECKOUT PROCESS</i></h2>
 <ul>
-	<li>
-		The goal is to reach the point where users are able to enter their shipping details and submit their order. To start this off, I need to add a Checkout now button to the cart summary view. Listing 9-9 shows the change I applied to the Views/Cart/Index.cshtml file
-		.
-		This change generates a link that I have styled as a button and that, when clicked, calls the Checkout action method of the Cart controller. You can see how this button appears in Figure 9-3.
+	<li> 
+		Open the <b>Index.cshtml</b> file in <b>Views/Cart</b>, to add the <b>checkout button</b> to the cart summary view (Listing 9-9).
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-9.png" /><br />
+			<b>Listing 9-9.</b> The Contents of the ShippingDetails.cs File
+		</p><br />
+		Run the web app and see the result:
+		<p align="center">
+			<img src="ch09-Pictures/Figure 9-3.png" /><br />
+			<b>Figure 9-3.</b> The Checkout now button
+		</p>
 	</li>
-	<li>Figure 9-3. The Checkout now button</li>
 	<li>Listing 9-10. The Checkout Action Method in the CartController.cs File</li>
 	<li>Listing 9-11. The Contents of the Checkout.cshtml File</li>
 	<li>Figure 9-4. The shipping details form</li>
