@@ -46,7 +46,13 @@
 			<b>Listing 9-11.</b> The Contents of the Checkout.cshtml File
 		</p>
 	</li>
-	<li>Figure 9-4. The shipping details form</li>
+	<li>
+		Run the web app and see the result in the picture below:
+		<p align="center">
+			<img src="ch09-Pictures/Figure 9-4.png" /><br />
+			<b>Figure 9-4.</b> The shipping details form
+		</p>
+	</li>
 	<li>Listing 9-12. Reducing Duplication in the Checkout.cshtml File</li>
 	<li>Figure 9-5. The problem with generating labels from property names</li>
 	<li>Listing 9-13. Applying th e Display attribute to the ShippingDetails.cs File</li>
