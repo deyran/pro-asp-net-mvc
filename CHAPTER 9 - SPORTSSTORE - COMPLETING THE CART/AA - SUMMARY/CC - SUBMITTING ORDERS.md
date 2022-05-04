@@ -32,7 +32,13 @@
 			<b>Figure 9-3.</b> The Checkout now button
 		</p>
 	</li>
-	<li>Listing 9-10. The Checkout Action Method in the CartController.cs File</li>
+	<li>
+		In Listing 9-10, we will implement the <b>checkout</b> method in the <b>CartController</b> class, as shown in the picture below
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-10.png" /><br />
+			<b>Listing 9-10.</b> The Checkout Action Method in the CartController.cs File
+		</p>
+	</li>
 	<li>Listing 9-11. The Contents of the Checkout.cshtml File</li>
 	<li>Figure 9-4. The shipping details form</li>
 	<li>Listing 9-12. Reducing Duplication in the Checkout.cshtml File</li>
