@@ -14,16 +14,18 @@ namespace SportsStore.WebUI.Controllers
 		DISPLAYING THE CONTENTS OF THE CART
 			Listing 8-16. The Index Action Method in the CartController.cs File
 
-
     USING MODEL BINDING
 	    CREATING A CUSTOM MODEL BINDER
 		    Listing 9-3. Relying on the Model Binder in the CartController.cs File
 
-
     COMPLETING THE CART
         ADDING THE CART SUMMARY
             Listing 9-5. Adding the Summary Method to the CartController.cs File
-    	 */
+
+    SUBMITTING ORDERS
+	    ADDING THE CHECKOUT PROCESS
+		    Listing 9-10. The Checkout Action Method in the CartController.cs File
+    */
 
     public class CartController : Controller
     {
@@ -75,6 +77,13 @@ namespace SportsStore.WebUI.Controllers
         public PartialViewResult Summary(Cart cart)
         {
             return PartialView(cart);
+        }
+
+        public ViewResult Checkout()
+        {
+            return View(
+                new ShippingDetails()
+            );
         }
 
     }
