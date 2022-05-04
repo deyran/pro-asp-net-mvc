@@ -39,7 +39,13 @@
 			<b>Listing 9-10.</b> The Checkout Action Method in the CartController.cs File
 		</p>
 	</li>
-	<li>Listing 9-11. The Contents of the Checkout.cshtml File</li>
+	<li>
+		Now create the view for the action method called <b>Checkout</b>, edit to match Listing 9-11.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-11.png" /><br />
+			<b>Listing 9-11.</b> The Contents of the Checkout.cshtml File
+		</p>
+	</li>
 	<li>Figure 9-4. The shipping details form</li>
 	<li>Listing 9-12. Reducing Duplication in the Checkout.cshtml File</li>
 	<li>Figure 9-5. The problem with generating labels from property names</li>
