@@ -54,15 +54,20 @@
 		</p>
 	</li>
 	<li>
-		The problem with this view is that it contains a lot of repeated markup, the Listing 9-12 shows how to reduce the repeated markup:
-		<p align="center">
-			<img src="ch09-Pictures/Listing 9-12.png" /><br />
-			<b>Listing 9-12.</b> Reducing Duplication in the Checkout.cshtml File
-		</p>
+		<h3><i>REDUCING DUPLICATION IN THE Checkout.cshtml FILE</i></h3>
+		<ol>
+			<li>
+				The problem with this view is that it contains a lot of repeated markup, the Listing 9-12 shows how to reduce the repeated markup:
+				<p align="center">
+					<img src="ch09-Pictures/Listing 9-12.png" /><br />
+					<b>Listing 9-12.</b> Reducing Duplication in the Checkout.cshtml File
+				</p>
+			</li>
+			<li>Figure 9-5. The problem with generating labels from property names</li>
+			<li>Listing 9-13. Applying th e Display attribute to the ShippingDetails.cs File</li>
+			<li>Figure 9-6. The effect of the Display attribute on the model type</li>
+		</ol>
 	</li>
-	<li>Figure 9-5. The problem with generating labels from property names</li>
-	<li>Listing 9-13. Applying th e Display attribute to the ShippingDetails.cs File</li>
-	<li>Figure 9-6. The effect of the Display attribute on the model type</li>
 </ul>	
 ------------------------------------------------------------------------------------------------------------------------
 
