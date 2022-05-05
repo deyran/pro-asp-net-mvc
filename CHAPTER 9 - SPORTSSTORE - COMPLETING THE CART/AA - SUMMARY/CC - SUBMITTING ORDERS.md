@@ -54,15 +54,11 @@
 		</p>
 	</li>
 	<li>
-SUBMITTING ORDERS
-	ADDING THE CHECKOUT PROCESS
-		Listing 9-12. Reducing Duplication in the Checkout.cshtml File
-			
-The problem with this view is that it contains a lot of repeated markup. There are MVC Framework HTML helpers
-that could reduce the duplication, but they make it hard to structure and style the content in the way that I want.
-Instead, I am going to use a handy feature to get metadata about the view model object and combine it with a mix of
-C# and Razor expressions. You can see what I have done in Listing 9-12.
-	
+		The problem with this view is that it contains a lot of repeated markup, the Listing 9-12 shows how to reduce the repeated markup:
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-12.png" /><br />
+			<b>Listing 9-12.</b> Reducing Duplication in the Checkout.cshtml File
+		</p>
 	</li>
 	<li>Figure 9-5. The problem with generating labels from property names</li>
 	<li>Listing 9-13. Applying th e Display attribute to the ShippingDetails.cs File</li>
