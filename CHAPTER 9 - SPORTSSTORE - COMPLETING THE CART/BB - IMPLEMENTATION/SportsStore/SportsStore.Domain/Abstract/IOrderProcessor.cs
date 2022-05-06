@@ -1,4 +1,5 @@
-﻿
+﻿using SportsStore.Domain.Entities;
+
 namespace SportsStore.Domain.Abstract
 {
     /*

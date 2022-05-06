@@ -111,8 +111,6 @@
 
 SUBMITTING ORDERS	
 	IMPLEMENTING THE ORDER PROCESSOR 244
-		DEFINING THE INTERFACE
-			Listing 9-14. The Contents of the IOrderProcessor.cs File
 		IMPLEMENTING THE INTERFACE
 			Listing 9-15. The Contents of the EmailOrderProcessor.cs File
 ------------------------------------------------------------------------------------------------------------------------
