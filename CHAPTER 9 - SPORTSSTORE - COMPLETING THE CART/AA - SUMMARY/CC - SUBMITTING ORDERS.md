@@ -70,8 +70,17 @@
 					<b>Figure 9-5.</b> The problem with generating labels from property names
 				</p>
 			</li>
-			<li>Listing 9-13. Applying th e Display attribute to the ShippingDetails.cs File</li>
-			<li>Figure 9-6. The effect of the Display attribute on the model type</li>
+			<li>
+				Property name doesn't give good labels this is a problem. This is why I check to see if there is a DisplayName value available when I generate the form elements, like this:
+				<p align="center">
+					<img src="ch09-Pictures/Figure 9-A.png" /><br />
+					<b>Figure 9-A.</b> Display value
+				</p>
+			</li>
+			<li>
+SUBMITTING ORDERS
+	ADDING THE CHECKOUT PROCESS
+		Figure 9-6. The effect of the Display attribute on the model type</li>
 		</ol>
 	</li>
 </ul>	
