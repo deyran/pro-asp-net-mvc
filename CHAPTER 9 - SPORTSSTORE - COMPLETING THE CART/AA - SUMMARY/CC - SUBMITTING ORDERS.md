@@ -11,14 +11,14 @@
 &nbsp;&nbsp;&nbsp;&nbsp;1 - Extend the domain model to provide support for capturing the shipping details from a user<br />
 &nbsp;&nbsp;&nbsp;&nbsp;2 - Add the application support to process those details<br />
 
-<h2><i>EXTENDING THE DOMAIN MODEL</i></h2>
+<h2><div align="center">EXTENDING THE DOMAIN MODEL</div></h2>
 &nbsp;&nbsp;&nbsp;&nbsp;Create a file called <b>ShippingDetails.cs</b>, and put in the <b>Entities</b> folder in <b>SportsStore.Domain</b> project, and edit to match as in <b>Listing 9-8</b>
 <p align="center">
 	<img src="ch09-Pictures/Listing 9-8.png" /><br />
 	<b>Listing 9-8.</b> The Contents of the ShippingDetails.cs File
 </p>
 
-<h2><i>ADDING THE CHECKOUT PROCESS</i></h2>
+<h2><div align="center">ADDING THE CHECKOUT PROCESS</div></h2>
 <ul>
 	<li> 
 		Open the <b>Index.cshtml</b> file in <b>Views/Cart</b>, to add the <b>checkout button</b> to the cart summary view (Listing 9-9).
@@ -92,7 +92,18 @@
 		</ol>
 	</li>
 </ul>	
-------------------------------------------------------------------------------------------------------------------------
+
+<h2><div align="center">IMPLEMENTING THE ORDER PROCESSOR</div></h2>
+<ul>
+	<li>
+		<i>DEFINING THE INTERFACE</i><br />
+		Listing 9-14. The Contents of the IOrderProcessor.cs File
+	</li>
+	<li>
+		<i>IMPLEMENTING THE INTERFACE</i><br />
+		Listing 9-15. The Contents of the EmailOrderProcessor.cs File
+	</li>
+</ul>
 
 SUBMITTING ORDERS	
 	IMPLEMENTING THE ORDER PROCESSOR 244
