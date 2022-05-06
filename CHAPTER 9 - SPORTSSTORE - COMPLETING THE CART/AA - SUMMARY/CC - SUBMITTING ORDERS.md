@@ -97,7 +97,11 @@
 <ul>
 	<li>
 		<i>DEFINING THE INTERFACE</i><br />
-		Listing 9-14. The Contents of the IOrderProcessor.cs File
+		Add a new interface called <b>IOrderProcessor</b> to the Abstract folder of the <b>SportsStore.Domain</b> project and edit the contents so that they match Listing 9-14.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-14.png" /><br />
+			<b>Listing 9-14.</b> The Contents of the IOrderProcessor.cs File
+		</p>
 	</li>
 	<li>
 		<i>IMPLEMENTING THE INTERFACE</i><br />
