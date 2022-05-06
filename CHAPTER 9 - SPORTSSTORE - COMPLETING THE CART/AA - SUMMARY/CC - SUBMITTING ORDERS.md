@@ -79,7 +79,7 @@
 				</p>
 				To take advantage of the DisplayName property, you need to apply the Display attribute to the model class, as shown in Listing 9-13.
 				<p align="center">
-					<img src="ch09-Pictures/Figure 9-13.png" /><br />
+					<img src="ch09-Pictures/Listing 9-13.png" /><br />
 					<b>Figure 9-13.</b> The problem with generating labels from property names
 				</p>
 			</li>
