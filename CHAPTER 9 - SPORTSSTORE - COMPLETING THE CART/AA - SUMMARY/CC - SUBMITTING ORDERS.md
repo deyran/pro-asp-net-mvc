@@ -71,16 +71,18 @@
 				</p>
 			</li>
 			<li>
+				<i>SETTING A <b>DisplayName</b> PROPERTY</i><br />
 				Property name doesn't give good labels this is a problem. This is why I check to see if there is a DisplayName value available when I generate the form elements, like this:
 				<p align="center">
 					<img src="ch09-Pictures/Figure 9-A.png" /><br />
 					<b>Figure 9-A.</b> Display value
 				</p>
+				To take advantage of the DisplayName property, you need to apply the Display attribute to the model class, as shown in Listing 9-13.
+				<p align="center">
+					<img src="ch09-Pictures/Figure 9-13.png" /><br />
+					<b>Figure 9-13.</b> The problem with generating labels from property names
+				</p>
 			</li>
-			<li>
-SUBMITTING ORDERS
-	ADDING THE CHECKOUT PROCESS
-		Figure 9-6. The effect of the Display attribute on the model type</li>
 		</ol>
 	</li>
 </ul>	
