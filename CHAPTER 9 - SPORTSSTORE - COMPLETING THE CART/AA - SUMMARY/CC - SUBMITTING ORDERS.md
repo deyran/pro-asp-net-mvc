@@ -80,8 +80,14 @@
 				To take advantage of the DisplayName property, you need to apply the Display attribute to the model class, as shown in Listing 9-13.
 				<p align="center">
 					<img src="ch09-Pictures/Listing 9-13.png" /><br />
-					<b>Figure 9-13.</b> Applying th e Display attribute to the ShippingDetails.cs File
+					<b>Listing 9-13.</b> Applying th e Display attribute to the ShippingDetails.cs File
 				</p>
+			</li>
+			<li>
+				Run the application and see the effect of the Display attribute on the model type:
+				<p align="center">
+					<img src="ch09-Pictures/Figure 9-6.png" /><br />
+				<b>Figure 9-6.</b> The effect of the Display attribute on the model type
 			</li>
 		</ol>
 	</li>
