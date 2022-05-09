@@ -123,9 +123,11 @@
 		</p>
 	</li>
 	<li>
-SUBMITTING ORDERS
-	REGISTERING THE IMPLEMENTATION 247
-		Listing 9-17. Application Settings in the Web.config File
+		Setting the <b>ConfigurationManager.AppSettings</b> property (used in Listing 9-16) in the <b>Web.config</b>, which are shown in Listing 9-17.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-17.png" /><br />
+			<b>Listing 9-17.</b> Application Settings in the Web.config File
+		</p>
 	</li>
 </ul>
 ------------------------------------------------------------------------------------------------------------------------
