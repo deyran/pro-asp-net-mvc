@@ -134,9 +134,11 @@
 <h2><div align="center">COMPLETING THE CART CONTROLLER</div></h2>
 <ul>
 	<li>
-SUBMITTING ORDERS	
-	COMPLETING THE CART CONTROLLER 248
-		Listing 9-18. Completing the Controller in the CartController.cs File
+		To complete the <b>CartController</b> class, you need to modify the constructor so that it demands an implementation of the <b>IOrderProcessor</b> interface and add a new action method that will handle the HTTP form POST request when the user clicks the Complete order button. Listing 9-18 shows both changes.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-18.png" /><br />
+			<b>Listing 9-18.</b> Completing the Controller in the CartController.cs File
+		</p>
 	</li>
 	<li>
 SUBMITTING ORDERS	
