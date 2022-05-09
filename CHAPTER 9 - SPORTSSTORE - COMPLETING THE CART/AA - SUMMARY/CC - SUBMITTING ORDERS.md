@@ -130,12 +130,20 @@
 		</p>
 	</li>
 </ul>
-------------------------------------------------------------------------------------------------------------------------
 
+<h2><div align="center">COMPLETING THE CART CONTROLLER</div></h2>
+<ul>
+	<li>
 SUBMITTING ORDERS	
 	COMPLETING THE CART CONTROLLER 248
 		Listing 9-18. Completing the Controller in the CartController.cs File
+	</li>
+	<li>
+SUBMITTING ORDERS	
+	COMPLETING THE CART CONTROLLER 248
 		UNIT TEST: ORDER PROCESSING
+	</li>
+</ul>
 ------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
