@@ -105,14 +105,13 @@
 	</li>
 	<li>
 		<i>IMPLEMENTING THE INTERFACE</i><br />
-		Listing 9-15. The Contents of the EmailOrderProcessor.cs File
+		Create a new class file called EmailOrderProcessor.cs in the Concrete folder of the SportsStore.Domain project and edit the contents so that they match Listing 9-15. This class uses the built-in SMTP support included in the .NET Framework library to send an e-mail.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-15.png" /><br />
+			<b>Listing 9-15.</b> The Contents of the EmailOrderProcessor.cs File
+		</p>
 	</li>
 </ul>
-
-SUBMITTING ORDERS	
-	IMPLEMENTING THE ORDER PROCESSOR 244
-		IMPLEMENTING THE INTERFACE
-			Listing 9-15. The Contents of the EmailOrderProcessor.cs File
 ------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS
