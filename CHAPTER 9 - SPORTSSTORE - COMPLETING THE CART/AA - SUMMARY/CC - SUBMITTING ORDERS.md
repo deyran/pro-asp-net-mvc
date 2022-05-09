@@ -116,9 +116,11 @@
 <h2><div align="center">REGISTERING THE IMPLEMENTATION</div></h2>
 <ul>
 	<li>
-SUBMITTING ORDERS
-	REGISTERING THE IMPLEMENTATION 247
-		Listing 9-16. Adding Ninject Bindings for IOrderProcessor to the NinjectDependencyResolver.cs File
+	Implemented the <b>IOrderProcessor</b> interface, now we need to instantiate using Ninject. Edit the <b>NinjectDependencyResolver.cs</b> file in the <b>Infrastructure</b> folder (SportsStore.WebUI project) and make the changes shown in Listing 9-16 to the <b>AddBindings</b> method.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-16.png" /><br />
+			<b>Listing 9-16.</b> Adding Ninject Bindings for IOrderProcessor to the NinjectDependencyResolver.cs File
+		</p>
 	</li>
 	<li>
 SUBMITTING ORDERS
