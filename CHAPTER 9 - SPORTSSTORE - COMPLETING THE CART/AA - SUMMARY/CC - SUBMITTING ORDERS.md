@@ -112,12 +112,20 @@
 		</p>
 	</li>
 </ul>
-------------------------------------------------------------------------------------------------------------------------
 
+<h2><div align="center">REGISTERING THE IMPLEMENTATION</div></h2>
+<ul>
+	<li>
 SUBMITTING ORDERS
 	REGISTERING THE IMPLEMENTATION 247
 		Listing 9-16. Adding Ninject Bindings for IOrderProcessor to the NinjectDependencyResolver.cs File
+	</li>
+	<li>
+SUBMITTING ORDERS
+	REGISTERING THE IMPLEMENTATION 247
 		Listing 9-17. Application Settings in the Web.config File
+	</li>
+</ul>
 ------------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
