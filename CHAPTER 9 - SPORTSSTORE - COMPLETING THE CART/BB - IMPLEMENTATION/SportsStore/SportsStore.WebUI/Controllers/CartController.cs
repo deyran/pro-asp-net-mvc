@@ -25,15 +25,41 @@ namespace SportsStore.WebUI.Controllers
     SUBMITTING ORDERS
 	    ADDING THE CHECKOUT PROCESS
 		    Listing 9-10. The Checkout Action Method in the CartController.cs File
+
+    SUBMITTING ORDERS	
+	    COMPLETING THE CART CONTROLLER 248
+		    Listing 9-18. Completing the Controller in the CartController.cs File
     */
 
     public class CartController : Controller
     {
         private IProductRepository repository;
+        private IOrderProcessor orderProcessor;
 
-        public CartController(IProductRepository repo)
+        public CartController(IProductRepository repo, IOrderProcessor proc)
         {
             repository = repo;
+            orderProcessor = proc;
+        }
+
+        [HttpPost]
+        public ViewResult Checkout(Cart cart, ShippingDetails shippingDetails)
+        {
+            if (cart.Lines.Count() == 0)
+            {
+                ModelState.AddModelError("", "Sorry!, your cart is empty!");
+            }
+
+            if (ModelState.IsValid)
+            {
+                orderProcessor.ProcessOrder(cart, shippingDetails);
+                cart.Clear();
+                return View("Completed");
+            }
+            else
+            {
+                return View(shippingDetails);
+            }
         }
 
         public ViewResult Index(Cart cart, string returnUrl)
