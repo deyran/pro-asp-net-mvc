@@ -12,6 +12,9 @@ using SportsStore.Domain.Entities;
 //Listing 7-15
 using SportsStore.Domain.Concrete;
 
+//Listing 9-16
+using System.Configuration;
+
 namespace SportsStore.WebUI.Infrastructure
 {
     /*
@@ -26,6 +29,10 @@ namespace SportsStore.WebUI.Infrastructure
     DD PREPARING A DATABASE
 	    CREATING THE PRODUCT REPOSITORY
 		    Listing 7-15. Adding the real repository binding in the NinjectDependencyResolver.cs file
+
+    SUBMITTING ORDERS
+	    REGISTERING THE IMPLEMENTATION 247
+		    Listing 9-16. Adding Ninject Bindings for IOrderProcessor to the NinjectDependencyResolver.cs File
      */
     public class NinjectDependencyResolver : IDependencyResolver
     {
@@ -50,6 +57,15 @@ namespace SportsStore.WebUI.Infrastructure
         private void AddBindings()
         {
             kernel.Bind<IProductRepository>().To<EFProductRepository>();
+
+            EmailSettings emailSettings = new EmailSettings
+            {
+                WriteAsFile = bool.Parse(ConfigurationManager
+                    .AppSettings["Email.WriteAsFile"] ?? "false")
+            };
+
+            kernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>()
+                .WithConstructorArgument("settings", emailSettings);
         }
     }
 }
