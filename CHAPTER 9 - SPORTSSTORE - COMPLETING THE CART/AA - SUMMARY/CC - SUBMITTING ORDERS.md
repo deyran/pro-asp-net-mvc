@@ -143,7 +143,7 @@ SUBMITTING ORDERS
 	UNIT TEST: ORDER PROCESSING
 		TESTING THE BEHAVIOR OF THE Checkout METHOD
 <h2><div align="center">UNIT TEST: ORDER PROCESSING</div></h2>
-<h3>TESTING THE BEHAVIOR OF THE <b>Checkout</b> METHOD</h3>
+<h3><i>TESTING THE BEHAVIOR OF THE <b>Checkout</b> METHOD</i></h3>
 It's necessary to test the behavior of the overloaded version of the <b>Checkout</b> method (<b>CartController</b> in <b>SportsStore.WebUI.Controllers</b>). The behaviors that will be tested are: 1 - There are item in the cart; 2 - The customer has provided valid shipping details. Here is the first test method:
 <p align="center">
 	<img src="ch09-Pictures/UT_ORDER_PROCESSING.png" /><br />
