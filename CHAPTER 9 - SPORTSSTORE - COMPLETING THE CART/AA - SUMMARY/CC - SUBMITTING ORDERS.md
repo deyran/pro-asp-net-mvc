@@ -141,9 +141,12 @@
 		</p>
 	</li>
 	<li>
-SUBMITTING ORDERS	
-	COMPLETING THE CART CONTROLLER 248
-		UNIT TEST: ORDER PROCESSING
+		<h3>UNIT TEST: ORDER PROCESSING</h3>
+		It's necessary to test the behavior of the overloaded version of the <b>Checkout</b> method (<b>CartController</b> in <b>SportsStore.WebUI.Controllers</b>). The behaviors that will be tested are: 1 - There are item in the cart; 2 - The customer has provided valid shipping details. Here is the first test method:
+		<p align="center">
+			<img src="ch09-Pictures/UT_ORDER_PROCESSING.png" /><br />
+			Unit test:  order processing
+		</p>
 	</li>
 </ul>
 ------------------------------------------------------------------------------------------------------------------------
