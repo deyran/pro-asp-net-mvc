@@ -132,32 +132,45 @@
 </ul>
 
 <h2><div align="center">COMPLETING THE CART CONTROLLER</div></h2>
+To complete the <b>CartController</b> class, you need to modify the constructor so that it demands an implementation of the <b>IOrderProcessor</b> interface and add a new action method that will handle the HTTP form POST request when the user clicks the Complete order button. Listing 9-18 shows both changes.
+<p align="center">
+	<img src="ch09-Pictures/Listing 9-18.png" /><br />
+	<b>Listing 9-18.</b> Completing the Controller in the CartController.cs File
+</p><br />
+
+<h2><div align="center">UNIT TEST: ORDER PROCESSING</div></h2>
+<h3>TESTING THE BEHAVIOR OF THE <b>Checkout</b> METHOD</h3>
+It's necessary to test the behavior of the overloaded version of the <b>Checkout</b> method (<b>CartController</b> in <b>SportsStore.WebUI.Controllers</b>). The behaviors that will be tested are: 1 - There are item in the cart; 2 - The customer has provided valid shipping details. Here is the first test method:
+<p align="center">
+	<img src="ch09-Pictures/UT_ORDER_PROCESSING.png" /><br />
+	Unit test:  order processing
+</p>
+
+
+<h2><div align="center">DISPLAYING VALIDATION ERRORS 252</div></h2>
 <ul>
 	<li>
-		To complete the <b>CartController</b> class, you need to modify the constructor so that it demands an implementation of the <b>IOrderProcessor</b> interface and add a new action method that will handle the HTTP form POST request when the user clicks the Complete order button. Listing 9-18 shows both changes.
-		<p align="center">
-			<img src="ch09-Pictures/Listing 9-18.png" /><br />
-			<b>Listing 9-18.</b> Completing the Controller in the CartController.cs File
-		</p>
-	</li>
-	<li>
-		<h3>UNIT TEST: ORDER PROCESSING</h3>
-		It's necessary to test the behavior of the overloaded version of the <b>Checkout</b> method (<b>CartController</b> in <b>SportsStore.WebUI.Controllers</b>). The behaviors that will be tested are: 1 - There are item in the cart; 2 - The customer has provided valid shipping details. Here is the first test method:
-		<p align="center">
-			<img src="ch09-Pictures/UT_ORDER_PROCESSING.png" /><br />
-			Unit test:  order processing
-		</p>
-	</li>
-</ul>
-------------------------------------------------------------------------------------------------------------------------
-
 SUBMITTING ORDERS	
 	DISPLAYING VALIDATION ERRORS 252
 		Listing 9-19. Adding a Validation Summary to the Checkout.cshtml File
+	</li>
+	<li>
+SUBMITTING ORDERS	
+	DISPLAYING VALIDATION ERRORS 252
 		Listing 9-20. The Contents of the ErrorStyles.css File
+	</li>
+	<li>
+SUBMITTING ORDERS	
+	DISPLAYING VALIDATION ERRORS 252
 		Listing 9-21. Adding a Link Element in the _Layout.cshtml File
+	</li>
+	<li>
+SUBMITTING ORDERS	
+	DISPLAYING VALIDATION ERRORS 252
 		Figure 9-7. Displaying validation messages
-------------------------------------------------------------------------------------------------------------------------
+	</li>
+</ul>
+-----------------------------------------------------------------------------------------------------------------------
 
 SUBMITTING ORDERS	
 	DISPLAYING A SUMMARY PAGE 254
