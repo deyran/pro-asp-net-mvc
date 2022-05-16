@@ -162,6 +162,7 @@ SUBMITTING ORDERS
 	</li>
 	<li>
 		<h3><i>TESTING THE PROCESS ORDERS</i></h3>
+		Here is the test:
 		<p align="center">
 			<img src="ch09-Pictures/UT_PROCESS_ORDERS.png" /><br />
 			<i>Testing the process orders</i>
