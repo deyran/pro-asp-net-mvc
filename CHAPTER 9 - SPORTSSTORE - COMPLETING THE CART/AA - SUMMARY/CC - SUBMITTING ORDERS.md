@@ -138,10 +138,6 @@ To complete the <b>CartController</b> class, you need to modify the constructor 
 	<b>Listing 9-18.</b> Completing the Controller in the CartController.cs File
 </p><br />
 
-========================================================================================================================================
-SUBMITTING ORDERS	
-	UNIT TEST: ORDER PROCESSING
-		TESTING THE PROCESS ORDERS
 <h2><div align="center">UNIT TEST: ORDER PROCESSING</div></h2>
 <ol>
 	<li>
@@ -169,7 +165,6 @@ SUBMITTING ORDERS
 		</p>
 	</li>
 </ol>
-========================================================================================================================================
 
 <h2><div align="center">DISPLAYING VALIDATION ERRORS 252</div></h2>
 <ul>
