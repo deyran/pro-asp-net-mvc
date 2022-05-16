@@ -191,7 +191,17 @@ SUBMITTING ORDERS
 </ul>
 -----------------------------------------------------------------------------------------------------------------------
 
+<h2><div align="center">DISPLAYING A SUMMARY PAGE</div></h2>
+<ul>
+	<li>
 SUBMITTING ORDERS	
 	DISPLAYING A SUMMARY PAGE 254
 		Listing 9-22. The Contents of the Completed.cshtml File
-		Figure 9-8. The thank-you page
+	</li>
+	<li>
+SUBMITTING ORDERS	
+	DISPLAYING A SUMMARY PAGE 254
+
+		Figure 9-8. The thank-you page	
+	</li>
+</ul>
