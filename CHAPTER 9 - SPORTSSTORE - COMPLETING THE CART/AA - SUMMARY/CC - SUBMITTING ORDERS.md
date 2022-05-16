@@ -141,19 +141,24 @@ To complete the <b>CartController</b> class, you need to modify the constructor 
 ========================================================================================================================================
 SUBMITTING ORDERS	
 	UNIT TEST: ORDER PROCESSING
-		TESTING THE BEHAVIOR OF THE Checkout METHOD
+		TESTING INVALID SHIPPING DATA
 <h2><div align="center">UNIT TEST: ORDER PROCESSING</div></h2>
 <ol>
 	<li>
 		<h3><i>TESTING THE BEHAVIOR OF THE <b>Checkout</b> METHOD</i></h3>
-		It's necessary to test the behavior of the overloaded version of the <b>Checkout</b> method (<b>CartController</b> in <b>SportsStore.WebUI.Controllers</b>). The behaviors that will be tested are: 1 - There are item in the cart; 2 - The customer has provided valid shipping details. Here is the first test method:
+		It's necessary to test the behavior of the overloaded version of the <b>Checkout</b> method (<b>CartController</b> in <b>SportsStore.WebUI.Controllers</b>). The behaviors that will be tested are: 1 - There are item in the cart; 2 - The customer has provided valid shipping details. This test ensures that i cannot check out with an empty cart! Here is the first test method:
 		<p align="center">
 			<img src="ch09-Pictures/UT_ORDER_PROCESSING.png" /><br />
 			<i>Testing the behavior of the the Checkout method</i>
 		</p>
 	</li>
 	<li>
-		AAAAAAAAAAAAAAA
+		<h3><i>TESTING INVALID SHIPPING DATA</i></h3>
+		the next test method injects an error into the view model to simulate a problem reported by the model binder (which would happen in production when the customer enters invalid shipping data):
+		<p align="center">
+			<img src="ch09-Pictures/UT_INVALID_SHIPPING_DATA.png" /><br />
+			<i>Testing the invalid shipping data</i>
+		</p>
 	</li>
 </ol>
 ========================================================================================================================================
