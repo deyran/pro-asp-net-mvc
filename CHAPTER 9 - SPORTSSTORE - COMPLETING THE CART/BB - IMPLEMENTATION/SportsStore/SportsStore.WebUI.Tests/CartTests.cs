@@ -26,6 +26,7 @@ namespace SportsStore.WebUI.Tests
     SUBMITTING ORDERS	
 	    COMPLETING THE CART CONTROLLER
 		    UNIT TEST: ORDER PROCESSING
+                TESTING THE BEHAVIOR OF THE Checkout METHOD
          */
 
     [TestClass]

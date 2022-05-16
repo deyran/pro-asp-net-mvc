@@ -142,7 +142,6 @@ To complete the <b>CartController</b> class, you need to modify the constructor 
 SUBMITTING ORDERS	
 	UNIT TEST: ORDER PROCESSING
 		TESTING THE BEHAVIOR OF THE Checkout METHOD
-			TESTING THE BEHAVIOR OF THE Checkout METHOD
 <h2><div align="center">UNIT TEST: ORDER PROCESSING</div></h2>
 <ol>
 	<li>
