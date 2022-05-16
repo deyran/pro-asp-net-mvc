@@ -201,7 +201,6 @@ SUBMITTING ORDERS
 	<li>
 SUBMITTING ORDERS	
 	DISPLAYING A SUMMARY PAGE 254
-
 		Figure 9-8. The thank-you page	
 	</li>
 </ul>
