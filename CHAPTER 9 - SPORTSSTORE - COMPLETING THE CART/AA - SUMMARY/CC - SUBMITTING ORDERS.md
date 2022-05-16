@@ -141,7 +141,7 @@ To complete the <b>CartController</b> class, you need to modify the constructor 
 ========================================================================================================================================
 SUBMITTING ORDERS	
 	UNIT TEST: ORDER PROCESSING
-		TESTING INVALID SHIPPING DATA
+		TESTING THE PROCESS ORDERS
 <h2><div align="center">UNIT TEST: ORDER PROCESSING</div></h2>
 <ol>
 	<li>
@@ -158,6 +158,13 @@ SUBMITTING ORDERS
 		<p align="center">
 			<img src="ch09-Pictures/UT_INVALID_SHIPPING_DATA.png" /><br />
 			<i>Testing the invalid shipping data</i>
+		</p>
+	</li>
+	<li>
+		<h3><i>TESTING THE PROCESS ORDERS</i></h3>
+		<p align="center">
+			<img src="ch09-Pictures/UT_PROCESS_ORDERS.png" /><br />
+			<i>Testing the process orders</i>
 		</p>
 	</li>
 </ol>
