@@ -171,9 +171,11 @@ The MVC Famework uses validation attributes applied in the ShippingDetails (List
 
 <ol>
 	<li>
-SUBMITTING ORDERS	
-	DISPLAYING VALIDATION ERRORS
-		Listing 9-19. Adding a Validation Summary to the Checkout.cshtml File
+		To display a summary of the validation erros, the helper method Html.ValidationSummary helper we will be used method applied in the Checkout.cshtml view (Listing 9-19)
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-19.png" /><br />
+			<b>Listing 9-19<b>. Adding a Validation Summary to the Checkout.cshtml File
+		</p>
 	</li>
 	<li>
 SUBMITTING ORDERS	
