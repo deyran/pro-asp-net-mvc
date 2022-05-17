@@ -185,13 +185,15 @@ The MVC Famework uses validation attributes applied in the ShippingDetails (List
 		</p>
 	</li>
 	<li>
-SUBMITTING ORDERS	
-	DISPLAYING VALIDATION ERRORS 252
-		Listing 9-21. Adding a Link Element in the _Layout.cshtml File
+		Now, add a link element for ErrorStyles.css in the _Layout.cshtml file, as shown in Listing 9-21.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-21.png" /><br />
+			<b>Listing 9-21<b>. Adding a Link Element in the _Layout.cshtml File
+		</p>
 	</li>
 	<li>
 SUBMITTING ORDERS	
-	DISPLAYING VALIDATION ERRORS 252
+	DISPLAYING VALIDATION ERRORS
 		Figure 9-7. Displaying validation messages
 	</li>
 </ol>
