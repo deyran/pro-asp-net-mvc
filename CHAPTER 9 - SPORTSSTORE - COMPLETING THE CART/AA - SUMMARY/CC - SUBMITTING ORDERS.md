@@ -168,7 +168,6 @@ To complete the <b>CartController</b> class, you need to modify the constructor 
 
 <h2><div align="center">DISPLAYING VALIDATION ERRORS</div></h2>
 The MVC Famework uses validation attributes applied in the ShippingDetails (Listing 9-8) class to validate user data input. To enable validation of user data input we need to follow these steps:
-
 <ol>
 	<li>
 		To display a summary of the validation erros, the helper method Html.ValidationSummary helper we will be used method applied in the Checkout.cshtml view (Listing 9-19)
