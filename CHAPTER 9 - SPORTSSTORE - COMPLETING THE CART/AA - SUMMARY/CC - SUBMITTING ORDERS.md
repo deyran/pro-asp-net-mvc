@@ -192,12 +192,14 @@ The MVC Famework uses validation attributes applied in the ShippingDetails (List
 		</p>
 	</li>
 	<li>
-SUBMITTING ORDERS	
-	DISPLAYING VALIDATION ERRORS
-		Figure 9-7. Displaying validation messages
+		With these changes, validation errors are reported through highlighting problematic fields and by showing a
+		summary of problems, as Figure 9-7 illustrates.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-21.png" /><br />
+			<b>Figure 9-7</b>. Displaying validation messages
+		</p>
 	</li>
 </ol>
------------------------------------------------------------------------------------------------------------------------
 
 <h2><div align="center">DISPLAYING A SUMMARY PAGE</div></h2>
 <ul>
