@@ -166,7 +166,7 @@ To complete the <b>CartController</b> class, you need to modify the constructor 
 	</li>
 </ol>
 
-<h2><div align="center">DISPLAYING VALIDATION ERRORS 252</div></h2>
+<h2><div align="center">DISPLAYING VALIDATION ERRORS</div></h2>
 The MVC Famework uses validation attributes applied in the ShippingDetails (Listing 9-8) class to validate user data input. To enable validation of user data input we need to follow these steps:
 
 <ol>
@@ -178,9 +178,11 @@ The MVC Famework uses validation attributes applied in the ShippingDetails (List
 		</p>
 	</li>
 	<li>
-SUBMITTING ORDERS	
-	DISPLAYING VALIDATION ERRORS 252
-		Listing 9-20. The Contents of the ErrorStyles.css File
+		The next is to create CSS styles that target the classes used by the validation summary. Create the file called ErrorStyle.css in the Content folder of the SportsStore.WebUI project as shown in Listing 9-20.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-20.png" /><br />
+			<b>Listing 9-20<b>. The Contents of the ErrorStyles.css File
+		</p>
 	</li>
 	<li>
 SUBMITTING ORDERS	
