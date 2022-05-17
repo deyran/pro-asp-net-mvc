@@ -6,6 +6,10 @@
         ADDING THE CHECKOUT PROCESS
             Listing 9-11. The Contents of the Checkout.cshtml File
             Listing 9-12. Reducing Duplication in the Checkout.cshtml File
+
+        DISPLAYING VALIDATION ERRORS
+            Listing 9-19. Adding a Validation Summary to the Checkout.cshtml File
+
     */
 
     ViewBag.Title = "SportStore: Checkout";
@@ -16,6 +20,7 @@
 
 @using (Html.BeginForm())
 {
+    @Html.ValidationSummary()
     <h3>Ship to</h3>
     <div class="form-group">
         <label>Name:</label>
