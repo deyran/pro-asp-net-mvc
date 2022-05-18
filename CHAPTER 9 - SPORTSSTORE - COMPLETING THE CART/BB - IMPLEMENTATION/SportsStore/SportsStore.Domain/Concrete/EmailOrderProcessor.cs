@@ -16,14 +16,14 @@ namespace SportsStore.Domain.Concrete
     public class EmailSettings
     {
         public string MailToAddress = "deyran@gmail.com";
-        public string MailFromAdress = "sportsstore@example.com";
+        public string MailFromAdress = "deyran@gmail.com";
         public bool UseSsl = true;
         public string Username = "deyran";
         public string Password = "MySmtpPassword";
         public string ServerName = "smtp.example.com";
         public int ServerPort = 587;
         public bool WriteAsFile = false;
-        public string FileLocation = @"c:\sports_store_emails";
+        public string FileLocation = @"C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\sports_store_emails";
     }
 
     public class EmailOrderProcessor : IOrderProcessor

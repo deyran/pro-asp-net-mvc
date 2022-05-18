@@ -211,8 +211,10 @@ The MVC Famework uses validation attributes applied in the ShippingDetails (List
 		</p>
 	</li>
 	<li>
-SUBMITTING ORDERS	
-	DISPLAYING A SUMMARY PAGE 254
-		Figure 9-8. The thank-you page	
+		Run the application, provide valid shipping details (and have some items in your cart), click the Complete Order button and the summary page will be shown (Figure 9-8).
+		<p align="center">
+			<img src="ch09-Pictures/Figure 9-8.png" /><br />
+			<b>Figure 9-8</b>. The thank-you page
+		</p>
 	</li>
 </ul>

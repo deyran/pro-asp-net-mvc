@@ -91,7 +91,6 @@ C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
-C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.AssemblyReference.cache
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll

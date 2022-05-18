@@ -271,7 +271,6 @@ C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPL
 C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
 C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
-C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.config
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
@@ -320,6 +319,7 @@ C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.dll
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.config
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
 C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
