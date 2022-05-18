@@ -203,9 +203,11 @@ The MVC Famework uses validation attributes applied in the ShippingDetails (List
 <h2><div align="center">DISPLAYING A SUMMARY PAGE</div></h2>
 <ul>
 	<li>
-SUBMITTING ORDERS	
-	DISPLAYING A SUMMARY PAGE 254
-		Listing 9-22. The Contents of the Completed.cshtml File
+		In this section we will complete the checkout process, show customers the order confirmation and show them the "Thank you" page ending the process. To make this possible, create a file called Completed.cshtml in Views/Cart, edit it to match in Listing 9-22.
+		<p align="center">
+			<img src="ch09-Pictures/Listing 9-22.png" /><br />
+			<b>Listing 9-22</b>. The Contents of the Completed.cshtml File
+		</p>
 	</li>
 	<li>
 SUBMITTING ORDERS	
