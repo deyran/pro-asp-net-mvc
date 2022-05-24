@@ -15,6 +15,8 @@ POPULARITY AND DEVICES AND APPLICATION AND "MOBILE WEB BROWSERS"
 
 -> Mobile App Vs. Mobile Website: Which is the Best Choice in 2021? (https://javascript.plainenglish.io/mobile-app-vs-mobile-website-which-is-the-best-choice-in-2021-25cb9a53ec47)	
 
+-> Best examples of Progressive web apps (https://applover.com/blog/best-examples-of-progressive-web-apps/)
+
 
 <h1><div align="center">PUTTING MOBILE WEB DEVELOPMENT IN CONTEXT</div></h1>
 
