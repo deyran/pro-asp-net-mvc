@@ -10,7 +10,6 @@ The MVC framework is a server-side framework, that's means it receives HTTPS req
 	<li>Using responsive design</li>
 	<li>Creating mobile specific content</li>		
 </ol>
-<br />
 
 <h1><div align="center">DOING NOTHING (OR AS LITTLE AS POSSIBLE)</div></h1>
 
