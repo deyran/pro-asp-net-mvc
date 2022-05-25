@@ -12,6 +12,7 @@ The MVC framework is a server-side framework, that's means it receives HTTPS req
 </ol>
 
 <h1><div align="center">DOING NOTHING (OR AS LITTLE AS POSSIBLE)</div></h1>
+It may seem like an odd idea to do nothing, but some mobile devices are capable of handling content that has been developed for desktop clients. Many—admittedly the most recent—have high-resolution, high-density displays with plenty of memory and browsers that can render HTML and run JavaScript quickly. If your app isn’t too demanding, you may find that many mobile devices won’t encounter any problems at all displaying your application content. As an example, Figure 10-1 shows how an iPad displays the SportsStore application without any modifications.
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	DOING NOTHING (OR AS LITTLE AS POSSIBLE)
