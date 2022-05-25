@@ -12,6 +12,8 @@ The MVC Framework does have some features that can help with mobile development.
 		4.2 - USING RESPONSIVE DESIGN
 		4.3 - CREATING MOBILE SPECIFIC CONTENT
 
+The MVC framework is a server-side framework, that's means it receives HTTPS requests and generating a HTML responses, therefore the feature set for MVC framework to handle the mobile client is limited. To deal with the limitations of the MVC framework we have three strategies to handle the mobile client: 1 - Doing nothing (or as little as possible); 2 - Using responsive design; 3 - Creating mobile specific content
+
 CHAPTER 10 - SPORTSSTORE MOBILE		
 	PUTTING MOBILE WEB DEVELOPMENT IN CONTEXT
 
