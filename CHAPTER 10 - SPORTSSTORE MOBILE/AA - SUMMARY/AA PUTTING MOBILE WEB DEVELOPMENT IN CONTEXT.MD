@@ -19,7 +19,12 @@ Some mobile devices are capable of handling desktop web applications,they have s
 	<li>Plenty of memory</li>
 	<li>Browsers that can handle HTML and run JavaScript quickly</li>
 </ol>
- With those characteristics it's not necessary modify anything or almost nothing to run the web applications
+ With those characteristics it's not necessary modify anything or almost nothing to run the web applications. As an example, Figure 10-1 shows the <i>Device Mode (Chrome DevTools)</i> to approximate how the SportsStore application looks and performs on a mobile device with dimensions of with 1200w x 800h.
+<p align="center">
+	<img src="ch10-Pictures/Figure 10-1.png" /><br />
+	<b>Figure 10-1.</b> Displaying the SportsStore on Chrome device mode
+</p>
+
 
 
 CHAPTER 10 - SPORTSSTORE MOBILE
