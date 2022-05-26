@@ -4,7 +4,9 @@
 	Using responsive design
 </p>
 
-The next strategy is to create content that adapts to the capabilities of the device on which it is being displayed, known as responsive design. The CSS standard has features that let you change the styling applied to elements based on the capabilities of the device, a technique that is most frequently used to alter the layout of content based on screen width.
+Responsive design creates web pages that automatically adjust to different screen sizes and viewports (the area your web page is drawn on). To make pages ability change automatically, HTML and CSS features are used to change the content layout based on the screen width.
+
+
 
 <h2><div align="center">Creating a responsive header</div></h2>
 <h2><div align="center">Creating a responsive product list</div></h2>
