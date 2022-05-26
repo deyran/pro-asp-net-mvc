@@ -24,8 +24,3 @@ Some mobile devices are capable of handling desktop web applications,they have s
 	<img src="ch10-Pictures/Figure 10-1.png" /><br />
 	<b>Figure 10-1.</b> Displaying the SportsStore on Chrome device mode
 </p>
-
-
-
-CHAPTER 10 - SPORTSSTORE MOBILE
-	DOING NOTHING (OR AS LITTLE AS POSSIBLE)
