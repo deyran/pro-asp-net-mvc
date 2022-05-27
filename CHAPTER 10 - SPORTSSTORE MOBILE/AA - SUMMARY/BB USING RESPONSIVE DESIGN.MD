@@ -20,10 +20,19 @@
 	</li>		
 </ul>
 
-<h2><div align="center">Creating a responsive header</div></h2>
-<h2><div align="center">Creating a responsive product list</div></h2>
+<h2><div align="center">CREATING A RESPONSIVE HEADER</div></h2>
+We start with the page header, which contains the SportsStore name, the cart summary, and the Checkout button. Open the _Layout.cshtml file and edit to match as Listen 10-1.
+<p align="center">
+	<img src="ch10-Pictures/Listing 10-1.png" /><br />
+	<b>Listing 10-1.</b> Adding Responsive content to the _Layout.cshtml file
+</p>
+
+
+<h2><div align="center">CREATING A RESPONSIVE PRODUCT LIST</div></h2>
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
-		Figure 10-2. Displaying the SportsStore on Chrome device mode with dimensions of 305w x 639h
+		CREATING A RESPONSIVE HEADER
+			Listing 10-1. Adding Responsive content to the _Layout.cshtml file
+
 	
