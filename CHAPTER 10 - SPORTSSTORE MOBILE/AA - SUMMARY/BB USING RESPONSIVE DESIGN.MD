@@ -34,5 +34,4 @@ CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE HEADER
 			Listing 10-1. Adding Responsive content to the _Layout.cshtml file
-
 	
