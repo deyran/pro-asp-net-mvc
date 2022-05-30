@@ -21,17 +21,27 @@
 </ul>
 
 <h2><div align="center">CREATING A RESPONSIVE HEADER</div></h2>
-We start with the page header, which contains the SportsStore name, the cart summary, and the Checkout button. Open the _Layout.cshtml file and edit to match as Listen 10-1.
-<p align="center">
-	<img src="ch10-Pictures/Listing 10-1.png" /><br />
-	<b>Listing 10-1.</b> Adding Responsive content to the _Layout.cshtml file
-</p>
-
+<ul>
+	<li>
+		We start with the page header, which contains the SportsStore name, the cart summary, and the Checkout button. Open the _Layout.cshtml file and edit to match as Listen 10-1.
+		<p align="center">
+			<img src="ch10-Pictures/Listing 10-1.png" /><br />
+			<b>Listing 10-1.</b> Adding Responsive content to the _Layout.cshtml file
+		</p>
+	</li>
+	<li>
+		Run the app and see the results for the SportsStore brand, the visible-xs and hidden-xs classes were used to switch to text on two lines that will be shown vertically when the window size is less than 768 pixels
+		<p align="center">
+			<img src="ch10-Pictures/Figure 10-3.png" /><br />
+			<b>Figure 10-3.</b> Using Bootstrap responsive design features to adjust the application branding
+		</p>				
+	</li>
+</ul>
 
 <h2><div align="center">CREATING A RESPONSIVE PRODUCT LIST</div></h2>
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE HEADER
-			Listing 10-1. Adding Responsive content to the _Layout.cshtml file
+			Figure 10-3. Using Bootstrap responsive design features to adjust the application branding
 	

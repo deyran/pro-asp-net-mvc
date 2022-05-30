@@ -32,11 +32,11 @@
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <link href="~/Content/bootstrap.css" rel="stylesheet" />
     <link href="~/Content/bootstrap-theme.css" rel="stylesheet" />
     <link href="~/Content/ErrorStyles.css" rel="stylesheet" />
-    
+
 
     <title>@ViewBag.Title</title>
 
@@ -49,7 +49,7 @@
     </style>
 </head>
 <body>
-    <div class="navbar navbar-inverse" role="navigation">
+    <div class="navbar navbar-inverse">
         <a class="navbar-brand" href="#">
             <span class="hidden-xs">SPORTS STORE</span>
             <div class="visible-xs">SPORTS</div>
@@ -59,7 +59,7 @@
     </div>
     <div class="row panel">
         <div id="categories" class="col-xs-3">
-            @Html.Action("Menu", "Nav") 
+            @Html.Action("Menu", "Nav")
         </div>
         <div class="col-xs-8">
             @RenderBody()
