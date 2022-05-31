@@ -43,6 +43,13 @@
 			<b>Listing 10-2.</b> Adding Responsive Content to the Summary.cshtml File
 		</p>				
 	</li>
+	<li>
+		Run the application and sees the result on Chrome device mode with dimensions of 305w x 639h (<i>Figure 10-4</i>)
+		<p align="center">
+			<img src="ch10-Pictures/Figure 10-4.png" /><br />
+			<b>Figure 10-4.</b> The modified SportsStore header displayed on Chrome device mode with dimensions of 321w x 639h
+		</p>				
+	</li>
 </ul>
 
 <h2><div align="center">CREATING A RESPONSIVE PRODUCT LIST</div></h2>
@@ -50,5 +57,5 @@
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE HEADER
-			Listing 10-2. Adding Responsive Content to the Summary.cshtml File
+			Figure 10-4. The modified SportsStore header displayed on Chrome device mode with dimensions of 321w x 639h
 	
