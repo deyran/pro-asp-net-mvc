@@ -53,9 +53,13 @@
 </ul>
 
 <h2><div align="center">CREATING A RESPONSIVE PRODUCT LIST</div></h2>
-To complete my responsive adaptations, I need a product list that will display on narrow devices. The biggest problem that I have is caused by the horizontal space that is taken up by the category buttons. I am going to move the buttons out of the way, giving individual product descriptions the whole width of the display. In Listing 10-3, you can see that I have further modified the _Layout.cshtml file.
+We will now display a product list on narrow devices! To make this possible, the category buttons will disappear. Open the _Layout.cshtml File, open and edit it to match in Listing 10-3
+<p align="center">
+	<img src="ch10-Pictures/Listing 10-3.png" /><br />
+	<b>Listing 10-3.</b> Creating a Responsive Product List in the _Layout.cshtml File
+</p>				
 
-Listing 10-3. Creating a Responsive Product List in the _Layout.cshtml File
+
 
 There can only be one call to the RenderBody method in a layout. I get into the details of layouts in Chapter 20, but the effect of this limit is that I can’t have duplicate sets of elements that I show and hide, each containing a RenderBody call. Instead, I need to change the layout of the grid that contains the RenderBody method call so that the elements in the layout adapt around the content from the view.
 

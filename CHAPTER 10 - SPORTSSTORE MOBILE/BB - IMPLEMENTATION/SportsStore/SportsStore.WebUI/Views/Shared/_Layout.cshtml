@@ -3,32 +3,38 @@
 <html lang="en">
 <head>
     <!--
-            CC DISPLAYING A LIST OF PRODUCTS
-                ADDING THE LAYOUT, VIEW START FILE AND VIEW
-                    Listing 7-8. Editing the _Layout.cshtml file
+    CC DISPLAYING A LIST OF PRODUCTS
+        ADDING THE LAYOUT, VIEW START FILE AND VIEW
+            Listing 7-8. Editing the _Layout.cshtml file
 
-            FF STYLING THE CONTENT
-                APPLYING BOOTSTRAP STYLES TO THE LAYOUT
-                    Listing 7-26. Applying Bootstrap CSS to the _Layout.cshtml file
+    FF STYLING THE CONTENT
+        APPLYING BOOTSTRAP STYLES TO THE LAYOUT
+            Listing 7-26. Applying Bootstrap CSS to the _Layout.cshtml file
 
-            ADDING NAVIGATION CONTROLS
-                BUILDING A CATEGORY NAVIGATION MENU
-                    CREATING THE NAVIGATION CONTROLLER
-                        Listing 8-6. Adding the render action call to the _Layout.cshtml file
 
-            COMPLETING THE CART
-                ADDING THE CART SUMMARY
-                    Listing 9-7. Adding the Summary Partial View to the _Layout.cshtml File
+    ADDING NAVIGATION CONTROLS
+        BUILDING A CATEGORY NAVIGATION MENU
+            CREATING THE NAVIGATION CONTROLLER
+                Listing 8-6. Adding the render action call to the _Layout.cshtml file
 
-            SUBMITTING ORDERS
-                DISPLAYING VALIDATION ERRORS
-                    Listing 9-21. Adding a Link Element in the _Layout.cshtml File
 
-            CHAPTER 10 - SPORTSSTORE MOBILE
-                USING RESPONSIVE DESIGN
-                    CREATING A RESPONSIVE HEADER
-                        Listing 10-1. Adding Responsive content to the _Layout.cshtml file
-            -->
+    COMPLETING THE CART
+        ADDING THE CART SUMMARY
+            Listing 9-7. Adding the Summary Partial View to the _Layout.cshtml File
+
+    SUBMITTING ORDERS
+        DISPLAYING VALIDATION ERRORS
+            Listing 9-21. Adding a Link Element in the _Layout.cshtml File
+
+
+    CHAPTER 10 - SPORTSSTORE MOBILE
+        USING RESPONSIVE DESIGN
+            CREATING A RESPONSIVE HEADER
+                Listing 10-1. Adding Responsive content to the _Layout.cshtml file
+
+            CREATING A RESPONSIVE PRODUCT LIST
+                Listing 10-3. Creating a Responsive Product List in the _Layout.cshtml File
+    -->
 
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -58,10 +64,10 @@
         @Html.Action("Summary", "Cart")
     </div>
     <div class="row panel">
-        <div id="categories" class="col-xs-3">
+        <div id="categories" class="col-sm-3 hidden-xs">
             @Html.Action("Menu", "Nav")
         </div>
-        <div class="col-xs-8">
+        <div class="col-xs-12 col-sm-8">
             @RenderBody()
         </div>
     </div>
