@@ -53,9 +53,16 @@
 </ul>
 
 <h2><div align="center">CREATING A RESPONSIVE PRODUCT LIST</div></h2>
+To complete my responsive adaptations, I need a product list that will display on narrow devices. The biggest problem that I have is caused by the horizontal space that is taken up by the category buttons. I am going to move the buttons out of the way, giving individual product descriptions the whole width of the display. In Listing 10-3, you can see that I have further modified the _Layout.cshtml file.
+
+Listing 10-3. Creating a Responsive Product List in the _Layout.cshtml File
+
+There can only be one call to the RenderBody method in a layout. I get into the details of layouts in Chapter 20, but the effect of this limit is that I can’t have duplicate sets of elements that I show and hide, each containing a RenderBody call. Instead, I need to change the layout of the grid that contains the RenderBody method call so that the elements in the layout adapt around the content from the view.
+
+One of the reasons that I used the Bootstrap grid to structure the content in the _Layout.cshtml file in Chapter 7 is that it includes some responsive design features that let me work around the RenderBody limitation. The Bootstrap grid layout supports 12 columns and you specify how many an element will occupy by applying a class, like this, which is how I applied the Bootstrap classes in Chapter 7:
+
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
-		CREATING A RESPONSIVE HEADER
-			Figure 10-4. The modified SportsStore header displayed on Chrome device mode with dimensions of 321w x 639h
-	
+		CREATING A RESPONSIVE PRODUCT LIST
+			Listing 10-3. Creating a Responsive Product List in the _Layout.cshtml File
