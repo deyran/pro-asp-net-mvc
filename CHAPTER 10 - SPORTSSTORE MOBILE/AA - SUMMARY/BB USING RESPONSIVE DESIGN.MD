@@ -36,6 +36,13 @@
 			<b>Figure 10-3.</b> Using Bootstrap responsive design features to adjust the application branding
 		</p>				
 	</li>
+	<li>
+		Now open the <i>Views/Cart/Summary.cshtml</i> file, open and edit it to match in Listing 10-2.
+		<p align="center">
+			<img src="ch10-Pictures/Listing 10-2.png" /><br />
+			<b>Listing 10-2.</b> Adding Responsive Content to the Summary.cshtml File
+		</p>				
+	</li>
 </ul>
 
 <h2><div align="center">CREATING A RESPONSIVE PRODUCT LIST</div></h2>
@@ -43,5 +50,5 @@
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE HEADER
-			Figure 10-3. Using Bootstrap responsive design features to adjust the application branding
+			Listing 10-2. Adding Responsive Content to the Summary.cshtml File
 	
