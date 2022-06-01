@@ -71,6 +71,10 @@
 	<li>
 		<h3>HELPING THE CONTROLLER SELECT A VIEW</h3>
 		With the solution in the previous section we lost the functionality of the filter products. To solve this issue, create a new view called MenuHorizontal.cshtml in the Views/Nav folder with the content shown in Listing 10-4.
+		<p align="center">
+			<img src="ch10-Pictures/Listing 10-4.png" /><br />
+			<b>Listing 10-4.</b> The Contents of the MenuHorizontal.cshtml File
+		</p>				
 	</li>	
 </ul>
 
@@ -79,3 +83,4 @@ CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE PRODUCT LIST
 			HELPING THE CONTROLLER SELECT A VIEW
+				Listing 10-4. The Contents of the MenuHorizontal.cshtml File
