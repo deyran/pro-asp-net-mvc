@@ -68,19 +68,30 @@
 			<b>Figure 10-5.</b> Using a responsive grid in the product layout
 		</p>				
 	</li>
+</ul>
+
+<h2><div align="center">HELPING THE CONTROLLER SELECT A VIEW</div></h2>
+<ul>
 	<li>
-		<h3>HELPING THE CONTROLLER SELECT A VIEW</h3>
 		With the solution in the previous section we lost the functionality of the filter products. To solve this issue, create a new view called MenuHorizontal.cshtml in the Views/Nav folder with the content shown in Listing 10-4.
 		<p align="center">
 			<img src="ch10-Pictures/Listing 10-4.png" /><br />
 			<b>Listing 10-4.</b> The Contents of the MenuHorizontal.cshtml File
 		</p>				
-	</li>	
+	</li>
+	<li>
+		Now it's needed to update the Menu action method of the the Nav controller, as shown in Listing 10-5.
+		<p align="center">
+			<img src="ch10-Pictures/Listing 10-5.png" /><br />
+			<b>Listing 10-5.</b> Updating the Menu Action Method in the NavController.cs File
+		</p>				
+	</li>
+	<li>AAAAAA</li>
+	<li>AAAAAA</li>
 </ul>
-
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE PRODUCT LIST
 			HELPING THE CONTROLLER SELECT A VIEW
-				Listing 10-4. The Contents of the MenuHorizontal.cshtml File
+				Listing 10-5. Updating the Menu Action Method in the NavController.cs File
