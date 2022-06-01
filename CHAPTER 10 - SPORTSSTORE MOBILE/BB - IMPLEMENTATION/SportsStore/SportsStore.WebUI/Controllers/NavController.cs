@@ -16,6 +16,13 @@ namespace SportsStore.WebUI.Controllers
 
 		    HIGHLIGHTING THE CURRENT CATEGORY
 			    Listing 8-9. Using the View Bag Feature in the NavController.cs File
+
+
+    CHAPTER 10 - SPORTSSTORE MOBILE
+	    USING RESPONSIVE DESIGN
+		    CREATING A RESPONSIVE PRODUCT LIST
+			    HELPING THE CONTROLLER SELECT A VIEW
+				    Listing 10-5. Updating the Menu Action Method in the NavController.cs File
     */
 
     public class NavController : Controller
@@ -24,14 +31,15 @@ namespace SportsStore.WebUI.Controllers
 
          public NavController(IProductRepository repo) => repository = repo;
 
-        public PartialViewResult Menu(string category = null)
+        public PartialViewResult Menu(string category = null, bool horizontalLayout = false)
         {
             ViewBag.SelectedCategory = category;
 
             IEnumerable<string> categories = repository.Products
                                                  .Select(x => x.Category).Distinct().OrderBy(x => x);
 
-             return PartialView(categories);
-         }
+            string viewName = horizontalLayout ? "MenuHorizontal" : "Menu";
+            return PartialView(viewName, categories);
+        }
     }
 }
