@@ -62,22 +62,16 @@
 		</p>				
 	</li>
 	<li>
-		The RenderBody method can be called only once, so it's impossible to duplicate elements set to show and hide. The solution to this problem is change the layout that contains the Renderbody method so that the elements in the layout adapts around the contente from the view. The Bootstrap grid layout supports 12 columns and you specify how many an element will occupy by applying a class, like this, which is how I applied the Bootstrap classes in Chapter 7:
+		Now run the application and see the results in the Figure 10-5.	
 		<p align="center">
-			<img src="ch10-Pictures/Figure 10-A.png" />
+			<img src="ch10-Pictures/Figure 10-5.png" /><br />
+			<b>Figure 10-5.</b> Using a responsive grid in the product layout
 		</p>				
 	</li>	
 </ul>
 
 
-
-
-
-
-
-
-
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE PRODUCT LIST
-			
+			Figure 10-5. Using a responsive grid in the product layout
