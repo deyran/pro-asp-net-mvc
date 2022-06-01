@@ -53,15 +53,23 @@
 </ul>
 
 <h2><div align="center">CREATING A RESPONSIVE PRODUCT LIST</div></h2>
-We will now display a product list on narrow devices! To make this possible, the category buttons will disappear. Open the _Layout.cshtml File, open and edit it to match in Listing 10-3
-<p align="center">
-	<img src="ch10-Pictures/Listing 10-3.png" /><br />
-	<b>Listing 10-3.</b> Creating a Responsive Product List in the _Layout.cshtml File
-</p>				
+<ul>
+	<li>
+		We will now display a product list on narrow devices! To make this possible, the category buttons will disappear. Open the _Layout.cshtml File, open and edit it to match in Listing 10-3
+		<p align="center">
+			<img src="ch10-Pictures/Listing 10-3.png" /><br />
+			<b>Listing 10-3.</b> Creating a Responsive Product List in the _Layout.cshtml File
+		</p>				
+	</li>
+	<li>
+		The RenderBody method can be called only once, so it's impossible to duplicate elements set to show and hide. The solution to this problem is change the layout that contains the Renderbody method so that the elements in the layout adapts around the contente from the view.
+	</li>	
+</ul>
 
 
 
-There can only be one call to the RenderBody method in a layout. I get into the details of layouts in Chapter 20, but the effect of this limit is that I can’t have duplicate sets of elements that I show and hide, each containing a RenderBody call. Instead, I need to change the layout of the grid that contains the RenderBody method call so that the elements in the layout adapt around the content from the view.
+
+
 
 One of the reasons that I used the Bootstrap grid to structure the content in the _Layout.cshtml file in Chapter 7 is that it includes some responsive design features that let me work around the RenderBody limitation. The Bootstrap grid layout supports 12 columns and you specify how many an element will occupy by applying a class, like this, which is how I applied the Bootstrap classes in Chapter 7:
 
@@ -69,4 +77,4 @@ One of the reasons that I used the Bootstrap grid to structure the content in th
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE PRODUCT LIST
-			Listing 10-3. Creating a Responsive Product List in the _Layout.cshtml File
+			
