@@ -44,7 +44,7 @@
 		</p>				
 	</li>
 	<li>
-		Run the application and sees the result on Chrome device mode with dimensions of 305w x 639h (<i>Figure 10-4</i>)
+		Run the application and sees the result on Chrome device mode with dimensions of 321w x 639h (<i>Figure 10-4</i>)
 		<p align="center">
 			<img src="ch10-Pictures/Figure 10-4.png" /><br />
 			<b>Figure 10-4.</b> The modified SportsStore header displayed on Chrome device mode with dimensions of 321w x 639h
@@ -62,7 +62,10 @@
 		</p>				
 	</li>
 	<li>
-		The RenderBody method can be called only once, so it's impossible to duplicate elements set to show and hide. The solution to this problem is change the layout that contains the Renderbody method so that the elements in the layout adapts around the contente from the view.
+		The RenderBody method can be called only once, so it's impossible to duplicate elements set to show and hide. The solution to this problem is change the layout that contains the Renderbody method so that the elements in the layout adapts around the contente from the view. The Bootstrap grid layout supports 12 columns and you specify how many an element will occupy by applying a class, like this, which is how I applied the Bootstrap classes in Chapter 7:
+		<p align="center">
+			<img src="ch10-Pictures/Figure 10-A.png" />
+		</p>				
 	</li>	
 </ul>
 
@@ -71,7 +74,7 @@
 
 
 
-One of the reasons that I used the Bootstrap grid to structure the content in the _Layout.cshtml file in Chapter 7 is that it includes some responsive design features that let me work around the RenderBody limitation. The Bootstrap grid layout supports 12 columns and you specify how many an element will occupy by applying a class, like this, which is how I applied the Bootstrap classes in Chapter 7:
+
 
 
 CHAPTER 10 - SPORTSSTORE MOBILE
