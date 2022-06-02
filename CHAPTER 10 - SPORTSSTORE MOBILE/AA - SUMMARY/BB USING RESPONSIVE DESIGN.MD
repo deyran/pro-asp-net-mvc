@@ -93,11 +93,17 @@
 			<b>Listing 10-6.</b> Updating the _Layout.cshtml File to Include the Horizontal Buttons
 		</p>				
 	</li>
-	<li>AAAAAA</li>
+	<li>
+		The overall effect of these changes is shown in Figure 10-6.
+		<p align="center">
+			<img src="ch10-Pictures/Figure 10-5.png" /><br />
+			<b>Figure 10-6.</b> The revised product listing for small screens
+		</p>				
+	</li>
 </ul>
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE PRODUCT LIST
 			HELPING THE CONTROLLER SELECT A VIEW
-				Listing 10-6. Updating the _Layout.cshtml File to Include the Horizontal Buttons
+				Figure 10-6. The revised product listing for small screens
