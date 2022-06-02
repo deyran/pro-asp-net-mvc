@@ -160,6 +160,7 @@
     <Content Include="Views\Cart\Checkout.cshtml" />
     <Content Include="Views\Cart\Completed.cshtml" />
     <Content Include="Views\Nav\MenuHorizontal.cshtml" />
+    <Content Include="Views\Nav\FlexMenu.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
