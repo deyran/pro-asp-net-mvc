@@ -45,4 +45,4 @@ Paragráfos são
 separados por uma linha em branco
 
 
-![Figure 10-1](CHAPTER 10 - SPORTSSTORE MOBILE\AA - SUMMARY\ch10-Pictures\Figure 10-1.png)
+![Figure 10-1](/CHAPTER%2010%20-%20SPORTSSTORE%20MOBILE/AA%20-%20SUMMARY/ch10-Pictures/Figure%2010-1.png)
