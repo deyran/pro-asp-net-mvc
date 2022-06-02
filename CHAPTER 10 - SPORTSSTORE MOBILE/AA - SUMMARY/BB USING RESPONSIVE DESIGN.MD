@@ -96,7 +96,7 @@
 	<li>
 		The overall effect of these changes is shown in Figure 10-6.
 		<p align="center">
-			<img src="ch10-Pictures/Figure 10-5.png" /><br />
+			<img src="ch10-Pictures/Figure 10-6.png" /><br />
 			<b>Figure 10-6.</b> The revised product listing for small screens
 		</p>				
 	</li>
