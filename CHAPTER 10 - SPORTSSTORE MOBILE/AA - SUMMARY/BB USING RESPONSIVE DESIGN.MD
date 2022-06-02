@@ -102,8 +102,20 @@
 	</li>
 </ul>
 
+<h2><div align="center">REMOVING VIEW DUPLICATION</div></h2>
+<ul>
+	<li>
+		In the previous example, we solve the problem but created other! This solution comes with two views, Menu.cshtml and MenuHorizontal.cshtml, that contains similar and Razor expressions. These characteristics pose a risk, as any changes requires them to be applied in two places. To resolve this issue we will consolidate the view. Create a file called <i>FlexMenu.cshtml</i> in <i>Views/Nav</i> folder and edit to match as shown in Listing 10-7.
+		<p align="center">
+			<img src="ch10-Pictures/Listing 10-7.png" /><br />
+			<b>Listing 10-7.</b> The Contents of the FlexMenu.cshtml File
+		</p>				
+	</li>
+	<li></li>
+</ul>
+
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE PRODUCT LIST
-			HELPING THE CONTROLLER SELECT A VIEW
-				Figure 10-6. The revised product listing for small screens
+			REMOVING VIEW DUPLICATION
+				Listing 10-7. The Contents of the FlexMenu.cshtml File
