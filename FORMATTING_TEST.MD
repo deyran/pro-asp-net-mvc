@@ -12,7 +12,7 @@
 ***Itálico e negrito***
 `Destaque`
 
-[Beatles](www.thebeatles.com)
+[Beatles](https://www.thebeatles.com)
 
 ```js
 if()
