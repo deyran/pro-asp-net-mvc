@@ -87,7 +87,7 @@
 		</p>				
 	</li>
 	<li>
-		In the previous section, a new parameter was defined in the action method to specifies the orientation of the filter products. Now it's time to return to the <i>_Layout.cshtml</i>, as shown in Listing 10-6.
+		In the previous section, a new parameter was defined in the action method to specifies the orientation (vertical or horizontal) of the filter products. Now it's time to return to the <i>_Layout.cshtml</i>, as shown in Listing 10-6.
 		<p align="center">
 			<img src="ch10-Pictures/Listing 10-6.png" /><br />
 			<b>Listing 10-6.</b> Updating the _Layout.cshtml File to Include the Horizontal Buttons

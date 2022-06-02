@@ -43,4 +43,3 @@ namespace SportsStore.WebUI.Controllers
         }
     }
 }
-
