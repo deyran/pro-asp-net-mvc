@@ -86,7 +86,13 @@
 			<b>Listing 10-5.</b> Updating the Menu Action Method in the NavController.cs File
 		</p>				
 	</li>
-	<li>AAAAAA</li>
+	<li>
+		In the previous section, a new parameter was defined in the action method to specifies the orientation of the filter products. Now it's time to return to the <i>_Layout.cshtml</i>, as shown in Listing 10-6.
+		<p align="center">
+			<img src="ch10-Pictures/Listing 10-6.png" /><br />
+			<b>Listing 10-6.</b> Updating the _Layout.cshtml File to Include the Horizontal Buttons
+		</p>				
+	</li>
 	<li>AAAAAA</li>
 </ul>
 
@@ -94,4 +100,4 @@ CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE PRODUCT LIST
 			HELPING THE CONTROLLER SELECT A VIEW
-				Listing 10-5. Updating the Menu Action Method in the NavController.cs File
+				Listing 10-6. Updating the _Layout.cshtml File to Include the Horizontal Buttons
