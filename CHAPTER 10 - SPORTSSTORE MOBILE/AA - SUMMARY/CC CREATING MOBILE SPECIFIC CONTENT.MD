@@ -1,3 +1,6 @@
-CC CREATING MOBILE SPECIFIC CONTENT
-	Creating a mobile layout
-	Creating the mobile views
+# CREATING MOBILE SPECIFIC CONTENT
+## Creating a mobile layout
+## Creating the mobile views
+
+CHAPTER 10 - SPORTSSTORE MOBILE
+	CREATING MOBILE SPECIFIC CONTENT
