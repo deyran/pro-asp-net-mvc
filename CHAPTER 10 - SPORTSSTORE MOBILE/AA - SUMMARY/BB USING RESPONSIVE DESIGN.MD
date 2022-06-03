@@ -119,9 +119,3 @@
 		</p>
 	</li>
 </ul>
-
-CHAPTER 10 - SPORTSSTORE MOBILE
-	USING RESPONSIVE DESIGN
-		CREATING A RESPONSIVE PRODUCT LIST
-			REMOVING VIEW DUPLICATION
-				Listing 10-8. Updating the Menu Action in the NavController.cs File
