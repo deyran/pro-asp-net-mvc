@@ -109,13 +109,19 @@
 		<p align="center">
 			<img src="ch10-Pictures/Listing 10-7.png" /><br />
 			<b>Listing 10-7.</b> The Contents of the FlexMenu.cshtml File
-		</p>				
+		</p>
 	</li>
-	<li></li>
+	<li>
+		To use the consolidate view, it's need to revise the </i>Menu</i> action method in the <i>Nav</i> controller, as shown in Listing 10-8
+		<p align="center">
+			<img src="ch10-Pictures/Listing 10-8.png" /><br />
+			<b>Listing 10-8.</b> The Contents of the FlexMenu.cshtml File
+		</p>
+	</li>
 </ul>
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	USING RESPONSIVE DESIGN
 		CREATING A RESPONSIVE PRODUCT LIST
 			REMOVING VIEW DUPLICATION
-				Listing 10-7. The Contents of the FlexMenu.cshtml File
+				Listing 10-8. Updating the Menu Action in the NavController.cs File
