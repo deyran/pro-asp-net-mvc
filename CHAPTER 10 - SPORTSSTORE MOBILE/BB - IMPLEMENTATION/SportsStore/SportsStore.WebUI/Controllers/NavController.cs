@@ -23,6 +23,9 @@ namespace SportsStore.WebUI.Controllers
 		    CREATING A RESPONSIVE PRODUCT LIST
 			    HELPING THE CONTROLLER SELECT A VIEW
 				    Listing 10-5. Updating the Menu Action Method in the NavController.cs File
+
+			    REMOVING VIEW DUPLICATION
+				    Listing 10-8. Updating the Menu Action in the NavController.cs File
     */
 
     public class NavController : Controller
@@ -31,7 +34,7 @@ namespace SportsStore.WebUI.Controllers
 
          public NavController(IProductRepository repo) => repository = repo;
 
-        public PartialViewResult Menu(string category = null, bool horizontalLayout = false)
+        /*public PartialViewResult Menu(string category = null, bool horizontalLayout = false)
         {
             ViewBag.SelectedCategory = category;
 
@@ -40,6 +43,18 @@ namespace SportsStore.WebUI.Controllers
 
             string viewName = horizontalLayout ? "MenuHorizontal" : "Menu";
             return PartialView(viewName, categories);
+        }*/
+
+        public PartialViewResult Menu(string category = null)
+        {
+            ViewBag.SelectedCategory = category;
+
+            IEnumerable<string> categories = repository.Products
+                .Select(x => x.Category)
+                .Distinct()
+                .OrderBy(x => x);
+
+            return PartialView("FlewMenu", categories);
         }
     }
 }
