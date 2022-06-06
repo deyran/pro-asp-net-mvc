@@ -1,7 +1,6 @@
 # CREATING MOBILE SPECIFIC CONTENT
 
-In the previous section, we saw the *Responsive Design* has the following characteristics:
-
+In the previous section, we saw the *Responsive Design* has the following characteristics: \
 	1. Same content to all devices;
 	2. Css is used to found out how the content should be presented
 	3. This process doesn't involves server-side of the applications
