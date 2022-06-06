@@ -6,9 +6,11 @@ In the previous section, we saw the *Responsive Design* has the following charac
 3. This process doesn't involves server-side of the applications
 4. All devices is treated as being variations on the same client basic theme
 
-The alternative approach is to use server to analyse the client's browser and return different views to different clients. The Mvc framework supports a feature called *Display Mode* to create different views based on the client. In this section we will use a simpler form of display mode to handle mobile devices using *JQuery Mobile library*.
+The alternative approach is to use server to analyse the client's browser and return different views to different clients. For this alternative approach the Mvc framework supports a feature called *Display Mode* to create different views based on the client. In this section we will use a simpler form of display mode to handle mobile devices using *JQuery Mobile library*.
 
 ## Creating a mobile layout
+
+
 ## Creating the mobile views
 
 CHAPTER 10 - SPORTSSTORE MOBILE
