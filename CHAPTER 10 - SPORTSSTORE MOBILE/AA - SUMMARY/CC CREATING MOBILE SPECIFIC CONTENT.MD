@@ -1,10 +1,10 @@
 # CREATING MOBILE SPECIFIC CONTENT
 
-In the previous section, we saw the *Responsive Design* has the following characteristics: \
-	1. Same content to all devices;
-	2. Css is used to found out how the content should be presented
-	3. This process doesn't involves server-side of the applications
-	4. All devices is treated as being variations on the same client basic theme
+In the previous section, we saw the *Responsive Design* has the following characteristics:  
+1. Same content to all devices;
+2. Css is used to found out how the content should be presented
+3. This process doesn't involves server-side of the applications
+4. All devices is treated as being variations on the same client basic theme
 
 An alternative approach is to use the server to assess the capabilities of the client browser and send different HTML to different kinds of client. This works well if you want to present a completely different aspect of the application on the desktop to, say, a tablet.
 
