@@ -9,11 +9,14 @@ In the previous section, we saw the *Responsive Design* has the following charac
 The alternative approach is to use server to analyse the client's browser and return different views to different clients. For this alternative approach the Mvc framework supports a feature called *Display Mode* to create different views based on the client. In this section we will use a simpler form of display mode to handle mobile devices using *JQuery Mobile library*.
 
 ## CREATING A MOBILE LAYOUT
-1. Open the *Package Manager Console* (Tools > NuGet Package Manager) and install the *JQuery Mobile library*  
-	AAAAAA
+1. Open the *Package Manager Console* (Tools > NuGet Package Manager) and install the *JQuery Mobile library*, as shown below:  
+```js
+Install-Package jquery.mobile -Version 1.3.2
+Install-Package jquery -Version 1.9.1
+```
 
-2. Create a file called *_Layout.Mobile.cshtml* in the *Views/Shared* folder and edit it to match Listing 10-9  
-	SSSSSSSS
+2. Create a file called *_Layout.Mobile.cshtml* in the *Views/Shared* folder and edit it to match Listing 10-9.  
+	![Listing 10-9. The Contents of the _Layout.Mobile.cshtml File](/CHAPTER%2010%20-%20SPORTSSTORE%20MOBILE/AA%20-%20SUMMARY/ch10-Pictures/Listing%2010-9.png#center)
 
 3. Figure 10-7
 
@@ -22,3 +25,4 @@ The alternative approach is to use server to analyse the client's browser and re
 CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
 		CREATING A MOBILE LAYOUT
+			Listing 10-9. The Contents of the _Layout.Mobile.cshtml File
