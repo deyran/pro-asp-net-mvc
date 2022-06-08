@@ -31,9 +31,8 @@ Install-Package jquery -Version 1.9.1
 			<b>Figure 10-7.</b> The effect of creating a mobile layout in the SportsStore application
 		</p>
 
-## Creating the mobile views
+## CREATING THE MOBILE VIEWS
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
-		CREATING A MOBILE LAYOUT
-			Figure 10-7. The effect of creating a mobile layout in the SportsStore application
+		CREATING THE MOBILE VIEWS
