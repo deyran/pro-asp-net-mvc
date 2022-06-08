@@ -25,11 +25,15 @@ Install-Package jquery -Version 1.9.1
 			<b>Listing 10-9.</b> The Contents of the _Layout.Mobile.cshtml File
 		</p>
 
-3. Figure 10-7
+3. Open the *_ViewStart.cshtml* file and change the variable value from *"~/Views/Shared/_Layout.cshtml"* to *"~/Views/Shared/_Layout.Mobile.cshtml"*, run the application to see the result seen in Figure 10-7.
+		<p align="center">
+			<img src="ch10-Pictures/Figure 10-7.png" /><br />
+			<b>Figure 10-7.</b> The effect of creating a mobile layout in the SportsStore application
+		</p>
 
 ## Creating the mobile views
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
 		CREATING A MOBILE LAYOUT
-			Listing 10-9. The Contents of the _Layout.Mobile.cshtml File
+			Figure 10-7. The effect of creating a mobile layout in the SportsStore application
