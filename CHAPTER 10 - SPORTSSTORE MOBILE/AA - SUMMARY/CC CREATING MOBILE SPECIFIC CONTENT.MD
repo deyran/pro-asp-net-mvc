@@ -15,11 +15,15 @@ Install-Package jquery.mobile -Version 1.3.2
 Install-Package jquery -Version 1.9.1
 ```
 
-2. Create a file called *_Layout.Mobile.cshtml* in the *Views/Shared* folder and edit it to match Listing 10-9.  
-<p align="center">
-	<img src="ch10-Pictures/Listing 10-9.png" /><br />
-	<b>Listing 10-9.</b> The Contents of the _Layout.Mobile.cshtml File
-</p>
+2. Create a file called *_Layout.Mobile.cshtml* in the *Views/Shared* folder following these steps:
+	1. Right-click the *shared* folder.
+	2. Select *Add > 5 Layout Page (Razor)*.
+	3. Type *_Layout.Mobile* from the pop-up menu
+	4. Edit it to match Listing 10-9.  
+		<p align="center">
+			<img src="ch10-Pictures/Listing 10-9.png" /><br />
+			<b>Listing 10-9.</b> The Contents of the _Layout.Mobile.cshtml File
+		</p>
 
 3. Figure 10-7
 
@@ -29,8 +33,3 @@ CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
 		CREATING A MOBILE LAYOUT
 			Listing 10-9. The Contents of the _Layout.Mobile.cshtml File
-
-CHAPTER 10 - SPORTSSTORE MOBILE
-	USING RESPONSIVE DESIGN
-		REMOVING VIEW DUPLICATION
-			Listing 10-8. The Contents of the FlexMenu.cshtml File
