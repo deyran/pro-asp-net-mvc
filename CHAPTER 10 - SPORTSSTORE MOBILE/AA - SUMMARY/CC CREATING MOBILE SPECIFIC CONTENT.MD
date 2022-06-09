@@ -56,8 +56,13 @@ Install-Package jquery -Version 1.9.1
 	<b>Listing 10-11.</b> The Contents of the ProductSummary.Mobile.cshtml File
 </p>
 
+5. Run the application to see the effect of this new view in Figure 10-9.
+	<p align="center">
+		<img src="ch10-Pictures/Figure 10-9.png" /><br />
+		<b>Figure 10-9.</b> The effect of mobile-specific views
+
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
 		CREATING THE MOBILE VIEWS
-			Listing 10-11. The Contents of the ProductSummary.Mobile.cshtml File
+			Figure 10-9. The effect of mobile-specific views
