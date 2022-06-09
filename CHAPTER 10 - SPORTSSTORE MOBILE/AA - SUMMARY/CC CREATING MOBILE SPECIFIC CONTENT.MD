@@ -48,4 +48,4 @@ Install-Package jquery -Version 1.9.1
 CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
 		CREATING THE MOBILE VIEWS
-			Listing 10-10A. The Contents of the NavControlle.cs File
+			Listing 10-10. The Contents of the FlexMenu.Mobile.html File
