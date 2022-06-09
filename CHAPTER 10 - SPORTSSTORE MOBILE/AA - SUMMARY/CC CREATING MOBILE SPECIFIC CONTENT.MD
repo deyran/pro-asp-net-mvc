@@ -50,8 +50,14 @@ Install-Package jquery -Version 1.9.1
 		<b>Figure 10-8.</b> The effect of creating a mobile-specific view
 	</p>
 
+4. Now let's create a cart summary functionality. In the *Views/Shared* folder create a file called *ProductSummary.Mobile.cshtml*, edit it to match with the content shown in Listing 10-11
+<p align="center">
+	<img src="ch10-Pictures/Listing 10-10A.png" /><br />
+	<b>Listing 10-11.</b> The Contents of the ProductSummary.Mobile.cshtml File
+</p>
+
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
 		CREATING THE MOBILE VIEWS
-			Figure 10-8. The effect of creating a mobile-specific view
+			Listing 10-11. The Contents of the ProductSummary.Mobile.cshtml File
