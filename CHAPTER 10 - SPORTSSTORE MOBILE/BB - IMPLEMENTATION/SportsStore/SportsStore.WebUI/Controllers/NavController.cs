@@ -26,6 +26,10 @@ namespace SportsStore.WebUI.Controllers
 
 			    REMOVING VIEW DUPLICATION
 				    Listing 10-8. Updating the Menu Action in the NavController.cs File
+
+	    CREATING MOBILE SPECIFIC CONTENT
+		    CREATING THE MOBILE VIEWS
+			    Listing 10-10A. The Contents of the NavControlle.cs File
     */
 
     public class NavController : Controller
