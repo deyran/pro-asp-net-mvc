@@ -32,14 +32,20 @@ Install-Package jquery -Version 1.9.1
 	</p>
 
 ## CREATING THE MOBILE VIEWS
-In the *Views/Nav* folder create a file called *FlexMenu.Mobile.cshtml* using the same steps seen in the previous section, open and edit it to match with the content shown in Listing 10-10.    
+1. In the *Views/Nav* folder create a file called *FlexMenu.Mobile.cshtml* using the same steps seen in the previous section, open and edit it to match with the content shown in Listing 10-10.    
 <p align="center">
 	<img src="ch10-Pictures/Listing 10-10.png" /><br />
 	<b>Listing 10-10.</b> The Contents of the FlexMenu.Mobile.html File
+</p>
+
+2. Now open *NavControlle.cs* file and edit it to match with the content shown in Listing 10-10A.
+<p align="center">
+	<img src="ch10-Pictures/Listing 10-10A.png" /><br />
+	<b>Listing 10-10A.</b> The Contents of the NavControlle.cs File
 </p>
 
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
 		CREATING THE MOBILE VIEWS
-			Listing 10-10. The Contents of the FlexMenu.Mobile.html File
+			Listing 10-10A. The Contents of the NavControlle.cs File
