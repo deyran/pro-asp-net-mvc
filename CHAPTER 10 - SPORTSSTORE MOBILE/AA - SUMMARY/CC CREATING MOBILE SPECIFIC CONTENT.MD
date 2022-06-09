@@ -26,13 +26,20 @@ Install-Package jquery -Version 1.9.1
 		</p>
 
 3. Open the *_ViewStart.cshtml* file and change the variable value from *"~/Views/Shared/_Layout.cshtml"* to *"~/Views/Shared/_Layout.Mobile.cshtml"*, run the application to see the result seen in Figure 10-7.
-		<p align="center">
-			<img src="ch10-Pictures/Figure 10-7.png" /><br />
-			<b>Figure 10-7.</b> The effect of creating a mobile layout in the SportsStore application
-		</p>
+	<p align="center">
+		<img src="ch10-Pictures/Figure 10-7.png" /><br />
+		<b>Figure 10-7.</b> The effect of creating a mobile layout in the SportsStore application
+	</p>
 
 ## CREATING THE MOBILE VIEWS
+In the *Views/Nav* folder create a file called *FlexMenu.Mobile.cshtml* using the same steps seen in the previous section, open and edit it to match with the content shown in Listing 10-10.    
+<p align="center">
+	<img src="ch10-Pictures/Listing 10-10.png" /><br />
+	<b>Listing 10-10.</b> The Contents of the FlexMenu.Mobile.html File
+</p>
+
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
 		CREATING THE MOBILE VIEWS
+			Listing 10-10. The Contents of the FlexMenu.Mobile.html File
