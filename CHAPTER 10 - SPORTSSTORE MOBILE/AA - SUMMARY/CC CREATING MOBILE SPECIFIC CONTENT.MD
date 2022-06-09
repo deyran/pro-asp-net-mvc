@@ -44,8 +44,14 @@ Install-Package jquery -Version 1.9.1
 	<b>Listing 10-10A.</b> The Contents of the NavControlle.cs File
 </p>
 
+3. Run the application to see the effect of creating a mobile-specific view.
+	<p align="center">
+		<img src="ch10-Pictures/Figure 10-8.png" /><br />
+		<b>Figure 10-8.</b> The effect of creating a mobile-specific view
+	</p>
+
 
 CHAPTER 10 - SPORTSSTORE MOBILE
 	CREATING MOBILE SPECIFIC CONTENT
 		CREATING THE MOBILE VIEWS
-			Listing 10-10. The Contents of the FlexMenu.Mobile.html File
+			Figure 10-8. The effect of creating a mobile-specific view
