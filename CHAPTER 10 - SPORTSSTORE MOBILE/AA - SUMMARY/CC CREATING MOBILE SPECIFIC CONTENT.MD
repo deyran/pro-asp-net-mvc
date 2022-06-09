@@ -52,7 +52,7 @@ Install-Package jquery -Version 1.9.1
 
 4. Now let's create a cart summary functionality. In the *Views/Shared* folder create a file called *ProductSummary.Mobile.cshtml*, edit it to match with the content shown in Listing 10-11
 <p align="center">
-	<img src="ch10-Pictures/Listing 10-10A.png" /><br />
+	<img src="ch10-Pictures/Listing 10-11.png" /><br />
 	<b>Listing 10-11.</b> The Contents of the ProductSummary.Mobile.cshtml File
 </p>
 
