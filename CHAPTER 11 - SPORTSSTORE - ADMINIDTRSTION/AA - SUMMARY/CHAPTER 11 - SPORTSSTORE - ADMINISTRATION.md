@@ -7,23 +7,23 @@ In this chapter, we will add new features to the SportsStore application that wi
 2. Uploading and displaying images alongside products in the catalog.
 
 ## ADDING CATALOG MANAGEMENT
-1. CREATING A CRUD CONTROLLER
-To start this journey we will create a new controller (*SportsStore.WebUI project*) for the SportsStore administration by following these steps:
-1. Right-click on the Controllers folder. 
-2. Select *Add > Controller* from the pop-up menu.
-3. Select *MVC 5 Controller – Empty* from the list of options, click add button.
-4. Set the name to *AdminController*, click add button.
-5. Edit it to match with the Listing 11-1.
+* CREATING A CRUD CONTROLLER
+    To start this journey we will create a new controller (*SportsStore.WebUI project*) for the SportsStore administration by following these steps:
+    1. Right-click on the Controllers folder. 
+    2. Select *Add > Controller* from the pop-up menu.
+    3. Select *MVC 5 Controller – Empty* from the list of options, click add button.
+    4. Set the name to *AdminController*, click add button.
+    5. Edit it to match with the Listing 11-1.
 
   
 
 The controller constructor declares a dependency on the IProductRepository interface, which Ninject will resolve when instances are created. The controller defines a single action method, Index, that calls the View method to select the default view for the action, passing the set of products in the database as the view model.
 
-2. CREATING A NEW LAYOUT
-3. IMPLEMENTING THE LIST VIEW
-4. EDITING PRODUCTS
-5. CREATING NEW PRODUCTS 
-6. DELETING PRODUCTS
+* CREATING A NEW LAYOUT
+* IMPLEMENTING THE LIST VIEW
+* EDITING PRODUCTS
+* CREATING NEW PRODUCTS 
+* DELETING PRODUCTS
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
