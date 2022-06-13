@@ -19,10 +19,7 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Listing 11-1.</b> The Contents of the AdminController.cs File
             </p>        
 
-    * AAAAAAAAAAAA
-  
-
-The controller constructor declares a dependency on the IProductRepository interface, which Ninject will resolve when instances are created. The controller defines a single action method, Index, that calls the View method to select the default view for the action, passing the set of products in the database as the view model.
+    * The controller constructor declares a dependency on the IProductRepository interface, which Ninject will resolve when instances are created
 
 * CREATING A NEW LAYOUT
 * IMPLEMENTING THE LIST VIEW
