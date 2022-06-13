@@ -21,6 +21,18 @@ In this chapter, we will add new features to the SportsStore application that wi
 
     * The controller constructor declares a dependency on the IProductRepository interface, which Ninject will resolve when instances are created
 
+    * UNIT TEST: THE INDEX ACTION  
+        * The focus in this test will be on the index method (AdminController.cs) if it correctly returns the Products objects from the repository. 
+        * The test will work like this:
+            1. Creating a mock repository
+            2. Comparing the test data with the data returned by action method.
+        * Create a new test file (*SportsStore.UnitTests* project) called *AdminTests.cs*, edit the content to match with the Listing 11-1A.
+            <p align="center">
+                <img src="ch11-Pictures/Listing 11-1A.png" /><br />
+                <b>Listing 11-1A.</b> The Contents of the AdminTests.cs File
+            </p>        
+
+
 * CREATING A NEW LAYOUT
 * IMPLEMENTING THE LIST VIEW
 * EDITING PRODUCTS
@@ -30,4 +42,5 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         CREATING A CRUD CONTROLLER
-            Listing 11-1. The Contents of the AdminController.cs File
+            UNIT TEST: THE INDEX ACTION
+                Listing 11-1A. The Contents of the AdminTests.cs File
