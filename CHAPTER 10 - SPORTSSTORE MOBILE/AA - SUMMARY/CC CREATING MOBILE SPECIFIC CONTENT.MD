@@ -60,3 +60,4 @@ Install-Package jquery -Version 1.9.1
 	<p align="center">
 		<img src="ch10-Pictures/Figure 10-9.png" /><br />
 		<b>Figure 10-9.</b> The effect of mobile-specific views
+	</p>
