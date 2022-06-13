@@ -13,7 +13,7 @@ In this chapter, we will add new features to the SportsStore application that wi
         2. Select *Add > Controller* from the pop-up menu.
         3. Select *MVC 5 Controller – Empty* from the list of options, click add button.
         4. Set the name to *AdminController*, click add button.
-        5. Edit it to match with the Listing 11-1.
+        5. Edit the content to match with the Listing 11-1.
             <p align="center">
                 <img src="ch11-Pictures/Listing 11-1.png" /><br />
                 <b>Listing 11-1.</b> The Contents of the AdminController.cs File
