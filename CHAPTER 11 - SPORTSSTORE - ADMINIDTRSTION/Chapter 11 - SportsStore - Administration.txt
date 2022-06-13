@@ -1,9 +1,0 @@
-Chapter 11 - SportsStore - Administration
-
-Adding Catalog Management
-	Creating a CRUD Controller
-	Creating a New Layout
-	Implementing the List View
-	Editing Products
-	Creating New Products 
-	Deleting Products 
