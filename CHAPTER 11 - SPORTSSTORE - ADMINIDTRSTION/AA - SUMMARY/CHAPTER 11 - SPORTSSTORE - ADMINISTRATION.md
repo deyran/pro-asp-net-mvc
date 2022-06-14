@@ -32,8 +32,18 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Listing 11-1A.</b> The Contents of the AdminTests.cs File
             </p>        
 
-
 * CREATING A NEW LAYOUT
+    * A simple layout will be created for the administration views to apply changes to the product catalog.
+    * To create the administration views, follow these steps:
+        1. AAAA
+        2. AAAA
+        3. AAAA
+    * Set the contents of the new view to match *Listing 11-2*.
+        <p align="center">
+            <img src="ch11-Pictures/Listing 11-2.png" /><br />
+            <b>Listing 11-2.</b> The Contents of the *_AdminLayout.cshtml* File
+        </p>  
+
 * IMPLEMENTING THE LIST VIEW
 * EDITING PRODUCTS
 * CREATING NEW PRODUCTS 
@@ -41,6 +51,5 @@ In this chapter, we will add new features to the SportsStore application that wi
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
-        CREATING A CRUD CONTROLLER
-            UNIT TEST: THE INDEX ACTION
-                Listing 11-1A. The Contents of the AdminTests.cs File
+        CREATING A NEW LAYOUT
+            Listing 11-2. The Contents of the _AdminLayout.cshtml File
