@@ -45,8 +45,6 @@ In this chapter, we will add new features to the SportsStore application that wi
             <b>Listing 11-2.</b> The Contents of the *_AdminLayout.cshtml* File
         </p>  
 
-
-
 * IMPLEMENTING THE LIST VIEW
 * EDITING PRODUCTS
 * CREATING NEW PRODUCTS 
