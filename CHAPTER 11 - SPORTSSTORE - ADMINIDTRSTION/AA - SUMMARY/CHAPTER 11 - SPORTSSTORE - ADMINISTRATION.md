@@ -42,7 +42,7 @@ In this chapter, we will add new features to the SportsStore application that wi
     * Set the contents of the new view to match *Listing 11-2*.
         <p align="center">
             <img src="ch11-Pictures/Listing 11-2.png" /><br />
-            <b>Listing 11-2.</b> The Contents of the *_AdminLayout.cshtml* File
+            <b>Listing 11-2.</b> The Contents of the _AdminLayout.cshtml File
         </p>  
 
 * IMPLEMENTING THE LIST VIEW
