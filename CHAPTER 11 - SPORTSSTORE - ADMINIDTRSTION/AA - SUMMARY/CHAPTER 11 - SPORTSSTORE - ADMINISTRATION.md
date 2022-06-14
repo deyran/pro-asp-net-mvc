@@ -35,14 +35,17 @@ In this chapter, we will add new features to the SportsStore application that wi
 * CREATING A NEW LAYOUT
     * A simple layout will be created for the administration views to apply changes to the product catalog.
     * To create the administration views, follow these steps:
-        1. AAAA
-        2. AAAA
-        3. AAAA
+        1. Right-clicking the *Views/Shared* folder in the *SportsStore.WebUI* project
+        2. Select *Add > MVC 5 Layout Page (Razor)* from pop-up menu
+        3. Set the name to *_AdminLayout.cshtml*
+        4. Click the *OK* button to create the file        
     * Set the contents of the new view to match *Listing 11-2*.
         <p align="center">
             <img src="ch11-Pictures/Listing 11-2.png" /><br />
             <b>Listing 11-2.</b> The Contents of the *_AdminLayout.cshtml* File
         </p>  
+
+
 
 * IMPLEMENTING THE LIST VIEW
 * EDITING PRODUCTS
