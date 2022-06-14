@@ -46,11 +46,27 @@ In this chapter, we will add new features to the SportsStore application that wi
         </p>  
 
 * IMPLEMENTING THE LIST VIEW
+    * Once created a new layout, it's time to implement a view that corresponds to the *Index* action method of the *AdminController* class
+    * To use the *Visual Studio scaffold* follow these steps:
+        1. Right-click on the *View/Adimn* folder (*SportsStore.WebUI project*).
+        2. Select *Add > View* from the menu.
+        3. Select *MVC 5 View* and click the *Add* button
+        4. Set all configuration to match *Figure 11-2* and click the *Add* button 
+            <p align="center">
+                <img src="ch11-Pictures/Figure 11-2.png" /><br />
+                <b>Figure 11-2.</b> The Contents of the _AdminLayout.cshtml File
+            </p>  
+    * In *Listing 11-3* you can see the content of the *Index.cshtml* file
+        <p align="center">
+            <img src="ch11-Pictures/Listing 11-3.png" /><br />
+            <b>Listing 11-3.</b> The Contents of the *Views/Admin/Index.cshtml* File
+        </p>  
+
 * EDITING PRODUCTS
 * CREATING NEW PRODUCTS 
 * DELETING PRODUCTS
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
-        CREATING A NEW LAYOUT
-            Listing 11-2. The Contents of the _AdminLayout.cshtml File
+        IMPLEMENTING THE LIST VIEW
+            Listing 11-3. The Contents of the Views/Admin/Index.cshtml File
