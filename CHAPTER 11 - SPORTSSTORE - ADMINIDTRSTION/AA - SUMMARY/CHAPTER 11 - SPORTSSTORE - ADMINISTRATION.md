@@ -69,4 +69,4 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         IMPLEMENTING THE LIST VIEW
-            Listing 11-3. The Contents of the Views/Admin/Index.cshtml File
+            Figure 11-2. The Contents of the _AdminLayout.cshtml File
