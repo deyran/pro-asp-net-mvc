@@ -65,9 +65,15 @@ In this chapter, we will add new features to the SportsStore application that wi
         <p align="center">
             <img src="ch11-Pictures/Figure 11-3.png" /><br />
             <b>Figure 11-3.</b> Rendering the scaffold List view
-        </p>  
-    
+        </p>
+    * Returning to the do-it-yourself approach, edit the *Index.cshtml* file so that it corresponds to Listing 11-4.
+        <p align="center">
+            <img src="ch11-Pictures/Figure 11-4.png" /><br />
+            <b>Figure 11-4.</b> Modifying the *Index.cshtml* View
+        </p>
       
+
+
 * EDITING PRODUCTS
 * CREATING NEW PRODUCTS 
 * DELETING PRODUCTS
@@ -75,4 +81,4 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         IMPLEMENTING THE LIST VIEW
-            Figure 11-3. Rendering the scaffold List view
+            Listing 11-4. Modifying the Index.cshtml View
