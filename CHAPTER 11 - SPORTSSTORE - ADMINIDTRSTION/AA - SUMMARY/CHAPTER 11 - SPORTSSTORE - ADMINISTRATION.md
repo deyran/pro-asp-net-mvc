@@ -71,6 +71,11 @@ In this chapter, we will add new features to the SportsStore application that wi
             <img src="ch11-Pictures/Listing 11-4.png" /><br />
             <b>Listing 11-4.</b> Modifying the <i>Index.cshtml</i> View
         </p>
+    * You can see how this view renders in Figure 11-4    
+        <p align="center">
+            <img src="ch11-Pictures/Figure 11-4.png" /><br />
+            <b>Figure 11-4.</b> Rendering the modified Index view
+        </p>
 
 * EDITING PRODUCTS
 * CREATING NEW PRODUCTS 
@@ -79,4 +84,4 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         IMPLEMENTING THE LIST VIEW
-            Listing 11-4. Modifying the Index.cshtml View
+            Figure 11-4. Rendering the modified Index view
