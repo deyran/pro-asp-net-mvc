@@ -180,7 +180,7 @@
     <Content Include="Views\Nav\FlexMenu.Mobile.cshtml" />
     <Content Include="Views\Shared\ProductSummary.Mobile.cshtml" />
     <Content Include="Views\Shared\_AdminLayout.cshtml" />
-    <Content Include="Views\Admin\View.cshtml" />
+    <Content Include="Views\Admin\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

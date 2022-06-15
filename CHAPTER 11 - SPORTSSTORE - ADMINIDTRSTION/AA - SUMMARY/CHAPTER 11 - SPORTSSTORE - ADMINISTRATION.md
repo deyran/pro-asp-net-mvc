@@ -61,11 +61,11 @@ In this chapter, we will add new features to the SportsStore application that wi
             <img src="ch11-Pictures/Listing 11-3.png" /><br />
             <b>Listing 11-3.</b> The Contents of the <i>Views/Admin/Index.cshtml</i> File
         </p>
-    * AAAAAAAAAAA
-    Visual Studio looks at the type of view model object and generates elements in a table that correspond to the properties defined by the model type. You can see how this view is rendered by starting the application and navigating to the /Admin/Index URL. Figure 11-3 shows the results.
-
-        Figure 11-3. Rendering the scaffold List view
-
+    * Run the web application and add */Admin/Index* to the URL. Figure 11-3 shows the results.
+        <p align="center">
+            <img src="ch11-Pictures/Figure 11-3.png" /><br />
+            <b>Figure 11-3.</b> Rendering the scaffold List view
+        </p>  
     
       
 * EDITING PRODUCTS
@@ -75,4 +75,4 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         IMPLEMENTING THE LIST VIEW
-            <b>Figure 11-2.</b> Configuring a scaffold view
+            Figure 11-3. Rendering the scaffold List view
