@@ -59,7 +59,7 @@ In this chapter, we will add new features to the SportsStore application that wi
     * In *Listing 11-3* you can see the content of the *Index.cshtml* file
         <p align="center">
             <img src="ch11-Pictures/Listing 11-3.png" /><br />
-            <b>Listing 11-3.</b> The Contents of the *Views/Admin/Index.cshtml* File
+            <b>Listing 11-3.</b> The Contents of the <i>Views/Admin/Index.cshtml</i> File
         </p>  
 
 * EDITING PRODUCTS
@@ -69,4 +69,4 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         IMPLEMENTING THE LIST VIEW
-            Figure 11-2. The Contents of the _AdminLayout.cshtml File
+            Listing 11-3. The Contents of the Views/Admin/Index.cshtml File
