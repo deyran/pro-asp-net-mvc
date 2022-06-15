@@ -68,11 +68,9 @@ In this chapter, we will add new features to the SportsStore application that wi
         </p>
     * Returning to the do-it-yourself approach, edit the *Index.cshtml* file so that it corresponds to Listing 11-4.
         <p align="center">
-            <img src="ch11-Pictures/Figure 11-4.png" /><br />
-            <b>Figure 11-4.</b> Modifying the *Index.cshtml* View
+            <img src="ch11-Pictures/Listing 11-4.png" /><br />
+            <b>Listing 11-4.</b> Modifying the <i>Index.cshtml</i> View
         </p>
-      
-
 
 * EDITING PRODUCTS
 * CREATING NEW PRODUCTS 
