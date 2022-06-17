@@ -1,6 +1,9 @@
 ﻿using System.Web.Mvc;
 using SportsStore.Domain.Abstract;
 
+using System.Linq;
+using SportsStore.Domain.Entities;
+
 namespace SportsStore.WebUI.Controllers
 {
     /*
@@ -8,6 +11,10 @@ namespace SportsStore.WebUI.Controllers
         ADDING CATALOG MANAGEMENT
             CREATING A CRUD CONTROLLER
                 Listing 11-1. The Contents of the AdminController.cs File
+
+            EDITING PRODUCTS
+                CREATING THE EDIT ACTION METHOD
+                    Listing 11-5. Adding the Edit Action Method in the AdminController.cs File
      */
 
     public class AdminController : Controller
@@ -22,6 +29,12 @@ namespace SportsStore.WebUI.Controllers
         public ViewResult Index()
         {
             return View(repository.Products);
+        }
+
+        public ViewResult Edit(int productId)
+        {
+            Product product = repository.Products.FirstOrDefault(p => p.ProductID == productId);
+            return View(product);
         }
     }
 }

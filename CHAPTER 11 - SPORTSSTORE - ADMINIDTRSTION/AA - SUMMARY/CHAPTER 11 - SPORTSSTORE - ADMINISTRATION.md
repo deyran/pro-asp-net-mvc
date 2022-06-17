@@ -86,6 +86,15 @@ In this chapter, we will add new features to the SportsStore application that wi
         </p>
 
         * UNIT TEST: THE EDIT ACTION METHOD
+            * This test method will check two behaviors in the Edit action method:  
+                1. Getting the product by providing the ID value to edit the expected product.  
+                2. Do not get any product if the given id value is not in the repository.
+            * Open the *AdminTests.cs* file and add *Can_Edit_Product* test method to match Listing 11-5A 
+                <p align="center">
+                    <img src="ch11-Pictures/Listing 11-5A.png" /><br />
+                    <b>Listing 11-5A.</b> The *Can_Edit_Product* test method in the AdminController.cs File
+                </p>
+
     * CREATE THE EDIT VIEW
     * UPDATING THE PRODUCT REPOSITORY
     * HANDLING EDIT POST REQUESTS
@@ -98,7 +107,8 @@ CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             CREATING THE EDIT ACTION METHOD
-                Listing 11-5. Adding the Edit Action Method in the AdminController.cs File
+                UNIT TEST: THE EDIT ACTION METHOD
+                    Listing 11-5A. The *Can_Edit_Product* test method in the AdminController.cs File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
