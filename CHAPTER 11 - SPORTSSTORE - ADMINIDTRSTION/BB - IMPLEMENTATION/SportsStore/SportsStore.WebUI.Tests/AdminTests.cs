@@ -16,6 +16,11 @@ namespace SportsStore.WebUI.Tests
             CREATING A CRUD CONTROLLER
                 UNIT TEST: THE INDEX ACTION
                     Listing 11-1A. The Contents of the AdminTests.cs File     
+
+            EDITING PRODUCTS
+                CREATING THE EDIT ACTION METHOD
+                    UNIT TEST: THE EDIT ACTION METHOD
+                        Listing 11-5A. The Can_Edit_Product test method in the AdminController.cs File
      */
 
     [TestClass]
