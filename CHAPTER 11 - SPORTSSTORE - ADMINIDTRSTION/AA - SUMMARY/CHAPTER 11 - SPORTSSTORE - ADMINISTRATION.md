@@ -78,7 +78,13 @@ In this chapter, we will add new features to the SportsStore application that wi
         </p>
 
 * EDITING PRODUCTS
-    * CREATING THE EDIT ACTION METHOD
+    * CREATING THE EDIT ACTION METHOD  
+        Adding the edit action method in the AdminController.cs file, as you can see in the Listing 11-5.
+        <p align="center">
+            <img src="ch11-Pictures/Listing 11-5.png" /><br />
+            <b>Listing 11-5.</b> Adding the Edit Action Method in the AdminController.cs File
+        </p>
+
         * UNIT TEST: THE EDIT ACTION METHOD
     * CREATE THE EDIT VIEW
     * UPDATING THE PRODUCT REPOSITORY
@@ -88,9 +94,11 @@ In this chapter, we will add new features to the SportsStore application that wi
     * ADDING MODEL VALIDATION
     * ENABLING CLIENT-SIDE VALIDATION        
 
-* CREATING NEW PRODUCTS
-* DELETING PRODUCTS
-
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
+            CREATING THE EDIT ACTION METHOD
+                Listing 11-5. Adding the Edit Action Method in the AdminController.cs File
+
+* CREATING NEW PRODUCTS
+* DELETING PRODUCTS
