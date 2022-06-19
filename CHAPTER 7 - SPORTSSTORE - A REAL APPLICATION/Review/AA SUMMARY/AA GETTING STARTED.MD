@@ -4,7 +4,7 @@
 
 ## GETTING STARTED
 * To start this journey, it's necessary to create a *Visual Studio Solution* that contains three projects: 
-    1. Domain Models
+    1. Domain Model
     2. MVC Application
     3. Unit Tests  <br /><br />
     
@@ -18,10 +18,16 @@
             <img src="ch07-Pictures/Figure 7-A.png" /><br />
             <b>Figure 7-A.</b> Create a new project
         </p>  
-
-    2. AAAAA
-    3. AAAAA
-    4. AAAAA
+    2. Set the fields as shown in *Figure 7-B*, select *Console App (.NET Framework)* and click the *Next* button
+        <p align="center">
+            <img src="ch07-Pictures/Figure 7-B.png" /><br />
+            <b>Figure 7-B.</b> Console App (.NET Framework)
+        </p>  
+    3. On the screen *Configure your new project*, in the field *Project name* type *Domain* to create the *Domain Model project*. In the field *Location*, set the directory of your choice. In the *Solution name* field, set SportsStore and click the *Create* button, as shown in the Figure 7-1.
+        <p align="center">
+            <img src="ch07-Pictures/Figure 7-1.png" /><br />
+            <b>Figure 7-1.</b> Creating the Solution and Domain project
+        </p>  
 
 ### CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS
 ### INSTALLING THE TOOL PACKAGES
@@ -31,3 +37,6 @@
 
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
+        Figure 7-A. Create a new project
+        Figure 7-B. Console App (.NET Framework)
+        Figure 7-1. Creating the Solution and Domain project
