@@ -12,6 +12,7 @@
     * *Fonte:* [Introduction to projects and solutions](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2022)  
     * *Date:* 06-19-22
 
+### CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS
 * To create a *Visual Studio Solution* follow these steps
     1. Open Visual Studio, and on the start window, select *Create a new project* (Figure 7-A).
         <p align="center">
@@ -29,7 +30,6 @@
             <b>Figure 7-1.</b> Creating the Solution container and Domain project
         </p>  
 
-### CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS
 ### INSTALLING THE TOOL PACKAGES
 ### ADDING REFERENCES BETWEEN PROJECTS
 ### SETTING UP THE DI CONTAINER
@@ -37,6 +37,7 @@
 
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
-        Figure 7-A. Create a new project
-        Figure 7-B. Console App (.NET Framework)
-        Figure 7-1. Creating the Solution container and Domain project
+        CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS
+            Figure 7-A. Create a new project
+            Figure 7-B. Console App (.NET Framework)
+            Figure 7-1. Creating the Solution container and Domain project
