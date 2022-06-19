@@ -8,6 +8,10 @@
     2. MVC Application
     3. Unit Tests
 
+    *Tip:* Solution is a container to organize one or more related code projects  
+        *Fonte:*[Introduction to projects and solutions](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2022)  
+        *Date:* 06-19-22
+
 To get started, I created a new
 Visual Studio solution called SportsStore using the Blank Solution template, which you can find in the Other Project Types/Visual Studio Solutions section of the New Project dialog, as shown in Figure 7-1. Click the OK button to create the solution.
 
