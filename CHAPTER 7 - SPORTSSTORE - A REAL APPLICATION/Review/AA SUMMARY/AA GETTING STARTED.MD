@@ -6,7 +6,7 @@
 * To start this journey, it's necessary to create a *Visual Studio Solution* that contains three projects: 
     1. Domain Model
     2. MVC Application
-    3. Unit Tests  <br /><br />
+    3. Unit Tests  <br />
     
     *Tip:* Solution is a container to organize one or more related code projects  
     * *Fonte:* [Introduction to projects and solutions](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2022)  
