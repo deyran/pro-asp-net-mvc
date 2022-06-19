@@ -3,7 +3,7 @@
 </h1>
 
 ## GETTING STARTED
-* To start this journey, it's necessary to create a *Visual Studio Solution* that contains three projects: 
+To start this journey, it's necessary to create a *Visual Studio Solution* that contains three projects: 
     1. Domain Model
     2. MVC Application
     3. Unit Tests  <br />
@@ -13,7 +13,7 @@
     * *Date:* 06-19-22
 
 ### CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS
-* To create a *Visual Studio Solution* follow these steps
+To create a *Visual Studio Solution* follow these steps
     1. Open Visual Studio, and on the start window, select *Create a new project* (Figure 7-A).
         <p align="center">
             <img src="ch07-Pictures/Figure 7-A.png" /><br />
