@@ -95,6 +95,16 @@ In this chapter, we will add new features to the SportsStore application that wi
                 </p>
 
     * CREATE THE EDIT VIEW
+        * Now we have an action method, time to create a view for it to render:
+            1. Right-click on the *View/Admin* folder.
+            2. Select *Add > MVC 5 View Pagae (Razor)*.
+            3. Set the name to *Edit.cshtml*.
+            4. Click the button to create the file and edit the contents to match *Listing 11-6*.
+                <p align="center">
+                    <img src="ch11-Pictures/Listing 11-6.png" /><br />
+                    <b>Listing 11-6.</b> The Contents of the Edit.cshtml File
+                </p>
+
     * UPDATING THE PRODUCT REPOSITORY
     * HANDLING EDIT POST REQUESTS
         * UNIT TEST: EDIT SUBMISSIONS
@@ -105,9 +115,8 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
-            CREATING THE EDIT ACTION METHOD
-                UNIT TEST: THE EDIT ACTION METHOD
-
+            CREATE THE EDIT VIEW
+                Listing 11-6. The Contents of the Edit.cshtml File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
