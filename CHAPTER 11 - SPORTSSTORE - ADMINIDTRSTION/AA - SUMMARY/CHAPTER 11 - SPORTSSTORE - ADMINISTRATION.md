@@ -105,6 +105,13 @@ In this chapter, we will add new features to the SportsStore application that wi
                     <b>Listing 11-6.</b> The Contents of the Edit.cshtml File
                 </p>
 
+        * As you saw in *Lising 11-6*, was used *@Html.EditorForModel()* helper which returns an HTML input element for each property in the model, in this case *Product class*. Run the application and navigate to /Admin/Index, click one of the product name links, and you see the page shown in Figure 11.5.
+            <p align="center">
+                <img src="ch11-Pictures/Figure 11-5.png" /><br />
+                <b>Figure 11-5.</b> The page generated using the EditorForModel helper method
+            </p>  
+
+
     * UPDATING THE PRODUCT REPOSITORY
     * HANDLING EDIT POST REQUESTS
         * UNIT TEST: EDIT SUBMISSIONS
@@ -116,7 +123,7 @@ CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             CREATE THE EDIT VIEW
-                Listing 11-6. The Contents of the Edit.cshtml File
+                Figure 11-5. The page generated using the EditorForModel helper method
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
