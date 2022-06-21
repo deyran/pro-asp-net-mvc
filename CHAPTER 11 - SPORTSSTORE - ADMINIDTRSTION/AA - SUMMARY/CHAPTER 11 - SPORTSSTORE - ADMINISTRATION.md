@@ -111,6 +111,12 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Figure 11-5.</b> The page generated using the EditorForModel helper method
             </p>  
 
+        * We can influence the output of the *Html.EditorForModel* using *model metadata*. Listing 11-7 shows how to use metadata on the Product class in the SportsStore.Domain project.   
+            <p align="center">
+                <img src="ch11-Pictures/Listing 11-7.png" /><br />
+                <b>Listing 11-7.</b> Using Model Metadata in the Product.cs File
+            </p>
+
 
     * UPDATING THE PRODUCT REPOSITORY
     * HANDLING EDIT POST REQUESTS
@@ -123,7 +129,7 @@ CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             CREATE THE EDIT VIEW
-                Figure 11-5. The page generated using the EditorForModel helper method
+                Listing 11-7. Using Model Metadata in the Product.cs File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
