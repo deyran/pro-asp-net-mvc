@@ -128,6 +128,13 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <img src="ch11-Pictures/Listing 11-8.png" /><br />
                 <b>Listing 11-8.</b> Updating the Edit.cshtml File
             </p>
+        
+        * You can see how this view is displayed in the browser in Figure 11-7.
+            <p align="center">
+                <img src="ch11-Pictures/Figure 11-7.png" /><br />
+                <b>Figure 11-7.</b> Displaying the editor page for products
+            </p>  
+        
 
     * UPDATING THE PRODUCT REPOSITORY
     * HANDLING EDIT POST REQUESTS
@@ -140,7 +147,7 @@ CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             CREATE THE EDIT VIEW
-                Listing 11-8. Updating the Edit.cshtml File
+                Figure 11-7. Displaying the editor page for products
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
