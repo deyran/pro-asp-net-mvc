@@ -123,6 +123,12 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Figure 11-6.</b> The effect of applying metadata
             </p>  
 
+        * Open the *Edit.cshtml* file edit it to match with the contents of Listing 11-8.
+            <p align="center">
+                <img src="ch11-Pictures/Listing 11-8.png" /><br />
+                <b>Listing 11-8.</b> Updating the Edit.cshtml File
+            </p>
+
     * UPDATING THE PRODUCT REPOSITORY
     * HANDLING EDIT POST REQUESTS
         * UNIT TEST: EDIT SUBMISSIONS
@@ -134,7 +140,7 @@ CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             CREATE THE EDIT VIEW
-                Figure 11-6. The effect of applying metadata
+                Listing 11-8. Updating the Edit.cshtml File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS

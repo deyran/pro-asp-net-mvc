@@ -10,15 +10,51 @@
             EDITING PRODUCTS
                 CREATE THE EDIT VIEW
                     Listing 11-6. The Contents of the Edit.cshtml File
+                    Listing 11-8. Updating the Edit.cshtml File
     */
 }
 
-<h1>Edit @Model.Name</h1>
+<div class="panel">
+    <div class="panel-heading">
+        <h3>Edit @Model.Name</h3>
+    </div>
 
-@using (Html.BeginForm())
-{
-    @Html.EditorForModel()
-    <input type="submit" value="Save" />
-    @Html.ActionLink("Cancel and return to List", "Index")
-}
+    @using (Html.BeginForm())
+    {
+        <div class="panel-body">
+            @Html.HiddenFor(m => m.ProductID)
+            @foreach (var property in ViewData.ModelMetadata.Properties)
+            {
+                if (property.PropertyName != "ProductID")
+                {
+                    <div class="form-group">
+                        <label>@(property.DisplayName ?? property.PropertyName)</label>
+
+                        @if (property.PropertyName == "Description")
+                        {
+                            @Html.TextArea(
+                                property.PropertyName, null,
+                                new
+                                {
+                                    @class = "form-control",
+                                    rows = 5
+                                }
+                            )
+                        }
+                        else
+                        {
+                            @Html.TextBox(
+                                property.PropertyName, null,
+                                new
+                                {
+                                    @class = "form-control"
+                                }
+                            )
+                        }
+                    </div>
+                }
+            }
+        </div>
+    }
+</div>
 
