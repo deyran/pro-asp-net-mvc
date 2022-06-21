@@ -117,7 +117,7 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Listing 11-7.</b> Using Model Metadata in the Product.cs File
             </p>
 
-        * Run the web application, add *Admin/Edit?ProductID=1* to the URL and see the effect of the metadata on the fields (Figure 11-6).
+        * Run the web application, add */Admin/Edit?ProductID=1* to the URL and see the effect of the metadata on the fields (Figure 11-6).
             <p align="center">
                 <img src="ch11-Pictures/Figure 11-6.png" /><br />
                 <b>Figure 11-6.</b> The effect of applying metadata
