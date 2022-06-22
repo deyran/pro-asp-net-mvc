@@ -150,6 +150,12 @@ In this chapter, we will add new features to the SportsStore application that wi
             </p>  
 
     * HANDLING EDIT POST REQUESTS
+        We can make the *Save* button work by implementing the overload *Edit* action method of the *AdminController* class. The new method is shown in Listing 11-11.
+            <p align="center">
+                <img src="ch11-Pictures/Listing 11-11.png" /><br />
+                <b>Listing 11-11.</b> Adding the POST-Handling Edit Action Method in the AdminController.cs File
+            </p>  
+
         * UNIT TEST: EDIT SUBMISSIONS
     * DISPLAYING A CONFIRMATION MESSAGE
     * ADDING MODEL VALIDATION
@@ -157,9 +163,8 @@ In this chapter, we will add new features to the SportsStore application that wi
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
-        UPDATING THE PRODUCT REPOSITORY
-            Listing 11-9. Adding a Method to the IProductRespository.cs File
-            Listing 11-10. Implementing the SaveProduct Method in the EFProductRepository.cs File
+        HANDLING EDIT POST REQUESTS
+            Listing 11-11. Adding the POST-Handling Edit Action Method in the AdminController.cs File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS

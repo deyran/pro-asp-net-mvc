@@ -15,6 +15,9 @@ namespace SportsStore.WebUI.Controllers
             EDITING PRODUCTS
                 CREATING THE EDIT ACTION METHOD
                     Listing 11-5. Adding the Edit Action Method in the AdminController.cs File
+
+            HANDLING EDIT POST REQUESTS
+                Listing 11-11. Adding the POST-Handling Edit Action Method in the AdminController.cs File
      */
 
     public class AdminController : Controller
@@ -35,6 +38,22 @@ namespace SportsStore.WebUI.Controllers
         {
             Product product = repository.Products.FirstOrDefault(p => p.ProductID == productId);
             return View(product);
+        }
+
+        [HttpPost]
+        public ActionResult Edit(Product product)
+        {
+            if (ModelState.IsValid)
+            {
+                repository.SaveProduct(product);
+                TempData["message"] = string.Format("{0} has been saved", product.Name);
+                return RedirectToAction("Index");
+            }
+            else
+            {
+                // there is something wrong with the data values
+                return View(product);
+            }
         }
     }
 }
