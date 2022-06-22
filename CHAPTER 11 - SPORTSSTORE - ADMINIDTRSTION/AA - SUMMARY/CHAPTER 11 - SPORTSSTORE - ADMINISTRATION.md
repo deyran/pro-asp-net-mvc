@@ -158,6 +158,7 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         UPDATING THE PRODUCT REPOSITORY
+            Listing 11-9. Adding a Method to the IProductRespository.cs File
             Listing 11-10. Implementing the SaveProduct Method in the EFProductRepository.cs File
 
 * CREATING NEW PRODUCTS
