@@ -141,9 +141,14 @@ In this chapter, we will add new features to the SportsStore application that wi
             <p align="center">
                 <img src="ch11-Pictures/Listing 11-9.png" /><br />
                 <b>Listing 11-9.</b> Adding a Method to the IProductRespository.cs File
-            </p>
+            </p>  
 
-        * SSSSSSSSSSSSS
+        * Now time to implement the SaveProduct in the EFProductRepository.cs file using Entity Framework as shown in Listing 11-10
+            <p align="center">
+                <img src="ch11-Pictures/Listing 11-10.png" /><br />
+                <b>Listing 11-10.</b> Implementing the SaveProduct Method in the EFProductRepository.cs File
+            </p>  
+
     * HANDLING EDIT POST REQUESTS
         * UNIT TEST: EDIT SUBMISSIONS
     * DISPLAYING A CONFIRMATION MESSAGE
@@ -153,7 +158,7 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         UPDATING THE PRODUCT REPOSITORY
-            Listing 11-9. Adding a Method to the IProductRespository.cs File
+            Listing 11-10. Implementing the SaveProduct Method in the EFProductRepository.cs File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
