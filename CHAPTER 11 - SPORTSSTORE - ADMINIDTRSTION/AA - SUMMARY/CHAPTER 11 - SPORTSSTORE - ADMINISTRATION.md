@@ -137,7 +137,7 @@ In this chapter, we will add new features to the SportsStore application that wi
         
 
     * UPDATING THE PRODUCT REPOSITORY
-        * Before implementing the save method (Figure 11-7), you need to add a new method to the ProductRepository, as shown in Listing 11-9
+        * Before implementing the save method (Figure 11-7), you need to add a new method to the ProductRepository (*SportsStore.Domain project*), as shown in Listing 11-9
             <p align="center">
                 <img src="ch11-Pictures/Listing 11-9.png" /><br />
                 <b>Listing 11-9.</b> Updating the Edit.cshtml File
