@@ -150,17 +150,27 @@ In this chapter, we will add new features to the SportsStore application that wi
             </p>  
 
     * HANDLING EDIT POST REQUESTS
-        * We can make the *Save* button work by implementing the overload *Edit* action method of the *AdminController* class. The new method is shown in Listing 11-11.
-            <p align="center">
-                <img src="ch11-Pictures/Listing 11-11.png" /><br />
-                <b>Listing 11-11.</b> Adding the POST-Handling Edit Action Method in the AdminController.cs File
-            </p>
-        
-        * Here are some points we need to see about the code shown in Listing 11-11:
-            1. The *model binder* is able to validate the submitted data by reading its values using the *ModelState.IsValid* property. If the model binder validation is correct, all changes are saved to the repository, the Index action method is invoked and the user accesses the list of products. Otherwise, any problems with the data, *Edit* view is called again for the user make the corrections
-            2. After changes saved to the repository, message is stored to the *TempData* feature. The *TempData* feature is a key/value dictionary similar to the Session data and *ViewBag* features. The most important difference from Session data is the TempData is deleted when the HTTP request ends. 
+        <ol>
+            <li>
+                We can make the *Save* button work by implementing the overload *Edit* action method of the *AdminController* class. The new method is shown in Listing 11-11.
+                <p align="center">
+                    <img src="ch11-Pictures/Listing 11-11.png" /><br />
+                    <b>Listing 11-11.</b> Adding the POST-Handling Edit Action Method in the AdminController.cs File
+                </p><br />
+                Here are some points we need to see about the code shown in Listing 11-11:
+                <ul>
+                    <li>
+                        The *model binder* is able to validate the submitted data by reading its values using the *ModelState.IsValid* property. If the model binder validation is correct, all changes are saved to the repository, the Index action method is invoked and the user accesses the list of products. Otherwise, any problems with the data, *Edit* view is called again for the user make the corrections            
+                    </li>
+                    <li>
+                        After changes saved to the repository, message is stored to the *TempData* feature. The *TempData* feature is a key/value dictionary similar to the Session data and *ViewBag* features. The most important difference from Session data is the TempData is deleted when the HTTP request ends.             
+                    </li>
+                    <li></li>
+                </ul>
+            </li>
+            <li>UNIT TEST: EDIT SUBMISSIONS</li>
+        </ol>
 
-        * UNIT TEST: EDIT SUBMISSIONS
     * DISPLAYING A CONFIRMATION MESSAGE
     * ADDING MODEL VALIDATION
     * ENABLING CLIENT-SIDE VALIDATION        
