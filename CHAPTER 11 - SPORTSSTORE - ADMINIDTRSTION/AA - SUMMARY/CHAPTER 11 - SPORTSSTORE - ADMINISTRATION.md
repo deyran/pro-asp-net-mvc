@@ -165,7 +165,17 @@ In this chapter, we will add new features to the SportsStore application that wi
                     <li>
                         After changes saved to the repository, message is stored to the <i>TempData</i> feature. The <i>TempData</i> feature is a key/value dictionary similar to the Session data and <i>ViewBag</i> features. The most important difference from Session data is the TempData is deleted when the HTTP request ends.             
                     </li>
-                    <li></li>
+                    <li>
+Notice that I return the ActionResult type from the Edit method
+	NOTICE > RETURN > THE ACTION TYPE > EDIT METHOD
+	Notice that it was the ActionResult type returned from edit method
+
+I have been using the ViewResult type until now
+	THE VIEWRESULT TYPE > UNTIL NOW
+	ViewResult type has been used so far
+
+ViewResult is derived from ActionResult. and it is used when you want the framework the render a view                    
+                    </li>
                 </ul>
             </li>
             <li>UNIT TEST: EDIT SUBMISSIONS</li>
@@ -177,8 +187,9 @@ In this chapter, we will add new features to the SportsStore application that wi
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
-        HANDLING EDIT POST REQUESTS
-            Listing 11-11. Adding the POST-Handling Edit Action Method in the AdminController.cs File
+        EDITING PRODUCTS
+            HANDLING EDIT POST REQUESTS
+                Listing 11-11. Adding the POST-Handling Edit Action Method in the AdminController.cs File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
