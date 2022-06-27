@@ -158,7 +158,7 @@ In this chapter, we will add new features to the SportsStore application that wi
         
         * Here are some points we need to see about the code shown in Listing 11-11:
             1. The *model binder* is able to validate the submitted data by reading its values using the *ModelState.IsValid* property. If the model binder validation is correct, all changes are saved to the repository, the Index action method is invoked and the user accesses the list of products. Otherwise, any problems with the data, *Edit* view is called again for the user make the corrections
-            2. WWWWWWWWW 
+            2. After changes saved to the repository, message is stored to the *TempData* feature. The *TempData* feature is a key/value dictionary similar to the Session data and *ViewBag* features. The most important difference from Session data is the TempData is deleted when the HTTP request ends. 
 
         * UNIT TEST: EDIT SUBMISSIONS
     * DISPLAYING A CONFIRMATION MESSAGE
