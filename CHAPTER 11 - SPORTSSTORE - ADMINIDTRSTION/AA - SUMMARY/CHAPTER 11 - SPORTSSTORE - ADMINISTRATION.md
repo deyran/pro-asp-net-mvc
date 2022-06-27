@@ -157,7 +157,7 @@ In this chapter, we will add new features to the SportsStore application that wi
             </p>
         
         * Here are some points we need to see about the code shown in Listing 11-11:
-            1. ModelState.IsValid property -> ModelState.IsValid indicates if it was possible to bind the incoming values from the request to the model correctly and whether any explicitly specified validation rules were broken during the model binding process. [[1]](https://stackoverflow.com/questions/36893804/what-does-modelstate-isvalid-do#:~:text=on%20this%20post.-,ModelState.,is%20of%20class%20type%20Encaissement%20.)
+            1. The model binder is able to validate the submitted data by reading its values using the ModelState.IsValid property. If the model binder validation is correct, all changes are saved to the repository, the Index action method is invoked and the user accesses the list of products. Otherwise, any problems with the data, Edit view is called again for the user make the corrections
             2. WWWWWWWWW 
 
         * UNIT TEST: EDIT SUBMISSIONS
