@@ -156,7 +156,7 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <p align="center">
                     <img src="ch11-Pictures/Listing 11-11.png" /><br />
                     <b>Listing 11-11.</b> Adding the POST-Handling Edit Action Method in the AdminController.cs File
-                </p><br />
+                </p>
                 Here are some points we need to see about the code shown in Listing 11-11:
                 <ul>
                     <li>
