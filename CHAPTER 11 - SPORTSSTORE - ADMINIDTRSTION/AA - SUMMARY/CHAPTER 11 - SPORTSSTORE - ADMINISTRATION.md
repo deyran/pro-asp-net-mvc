@@ -167,20 +167,8 @@ In this chapter, we will add new features to the SportsStore application that wi
                     </li>
                     <li>
                         Notice that it was the ActionResult (ViewResult is derived from ActionResult) type returned from Edit method, ViewResult type has been used so far.  ViewResult is used to render a View.
-
-
-Notice that I return the ActionResult type from the Edit method
-	NOTICE > RETURN > THE ACTION TYPE > EDIT METHOD
-	
-
-I have been using the ViewResult type until now
-	THE VIEWRESULT TYPE > UNTIL NOW
-	ViewResult type has been used so far
-
-ViewResult is derived from ActionResult, and it is used when you want the framework to render a view.
-    VIEWRESULT DERIVED FROM ACTIONRESULT > USED TO RENDER A VIEW
-    ViewResult (Derived from ActionResult) is used to render a View
-
+                    </li>
+                    <li>
 However, other types of ActionResults are available, and one of them is returned by the RedirectToAction method, which redirects the browser so that the Index action method is invoked. I describe the set of action results in Chapter 17.
     REDIRECTION METHOD
     > https://www.c-sharpcorner.com/blogs/difference-between-return-view-return-redirect-return-redirecttoaction-and-redirecttoroute-in-mvc
@@ -189,7 +177,6 @@ However, other types of ActionResults are available, and one of them is returned
     > https://cursos.alura.com.br/forum/topico-quando-usar-return-view-e-return-redirecttoaction-40880
     > https://stackoverflow.com/questions/2315048/whats-the-difference-in-asp-net-mvc-of-redirecttoroute-and-redirecttoaction
     > https://en.wikipedia.org/wiki/HTTP_302
-
                     </li>
                 </ul>
             </li>
