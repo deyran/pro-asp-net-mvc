@@ -149,40 +149,25 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Listing 11-10.</b> Implementing the SaveProduct Method in the EFProductRepository.cs File
             </p>  
 
-    * HANDLING EDIT POST REQUESTS
-        <ol>
-            <li>
-                We can make the <i>Save</i> button work by implementing the overload <i>Edit</i> action method of the <i>AdminController</i> class. The new method is shown in Listing 11-11.
-                <p align="center">
-                    <img src="ch11-Pictures/Listing 11-11.png" /><br />
-                    <b>Listing 11-11.</b> Adding the POST-Handling Edit Action Method in the AdminController.cs File
-                </p>
-                Here are some points we need to see about the code shown in Listing 11-11:
-                <ul>
-                    <li>
-                        The <i>model binder</i> is able to validate the submitted data by reading its values using the <i>ModelState.IsValid</i> property. If the model binder validation is correct, all changes are saved to the repository, the Index action method is invoked and the user accesses the list of products. Otherwise, any problems with the data, <i>Edit</i> view is called again for the user make the corrections            
-                    </li>
-                    <li>
-                        After changes saved to the repository, message is stored to the <i>TempData</i> feature. The <i>TempData</i> feature is a key/value dictionary similar to the Session data and <i>ViewBag</i> features. The most important difference from Session data is the TempData is deleted when the HTTP request ends.             
-                    </li>
-                    <li>
-                        Notice that it was the ActionResult (ViewResult is derived from ActionResult) type returned from Edit method, ViewResult type has been used so far.  ViewResult is used to render a View.
-                    </li>
-                    <li>
-However, other types of ActionResults are available, and one of them is returned by the RedirectToAction method, which redirects the browser so that the Index action method is invoked. I describe the set of action results in Chapter 17.
-    REDIRECTION METHOD
-    > https://www.c-sharpcorner.com/blogs/difference-between-return-view-return-redirect-return-redirecttoaction-and-redirecttoroute-in-mvc
-    > https://www.devmedia.com.br/asp-net-mvc-como-criar-redirecionamentos-para-urls-internas-e-externas/37807
-    > https://www.dotnettricks.com/learn/mvc/return-view-vs-return-redirecttoaction-vs-return-redirect-vs-return-redirecttoroute
-    > https://cursos.alura.com.br/forum/topico-quando-usar-return-view-e-return-redirecttoaction-40880
-    > https://stackoverflow.com/questions/2315048/whats-the-difference-in-asp-net-mvc-of-redirecttoroute-and-redirecttoaction
-    > https://en.wikipedia.org/wiki/HTTP_302
-                    </li>
-                </ul>
-            </li>
-            <li>UNIT TEST: EDIT SUBMISSIONS</li>
-        </ol>
 
+    * HANDLING EDIT POST REQUESTS
+        1. We can make the <i>Save</i> button work by implementing the overload <i>Edit</i> action method of the <i>AdminController</i> class. The new method is shown in Listing 11-11.  
+            <p align="center">
+                <img src="ch11-Pictures/Listing 11-11.png" /><br />
+                <b>Listing 11-11.</b> Adding the POST-Handling Edit Action Method in the AdminController.cs File
+            </p>
+
+            Here are some points we need to see about the code shown in Listing 11-11:
+            * The <i>model binder</i> is able to validate the submitted data by reading its values using the <i>ModelState.IsValid</i> property. If the model binder validation is correct, all changes are saved to the repository, the Index action method is invoked and the user accesses the list of products. Otherwise, any problems with the data, <i>Edit</i> view is called again for the user make the corrections.
+            * After changes saved to the repository, message is stored to the <i>TempData</i> feature. The <i>TempData</i> feature is a key/value dictionary similar to the Session data and <i>ViewBag</i> features. The most important difference from Session data is the TempData is deleted when the HTTP request ends.
+            * Notice that it was the ActionResult type returned from Edit method, ViewResult type has been used so far. ViewResult (ViewResult is derived from ActionResult) is used to render a View.
+            * <i>RedirectToAction</i> is a method used to redirect to a different action method in the same controller or in a different controller. When this RedirectToaction is invoked, it returns the <i>HTTP response status code 302 found</i> to the browser, terminating the original request. In the next step, the browser will make a GET response to the specified action method in the same controller or in a different controller. [[1]](https://www.c-sharpcorner.com/blogs/difference-between-return-view-return-redirect-return-redirecttoaction-and-redirecttoroute-in-mvc) [[2]](https://www.devmedia.com.br/asp-net-mvc-como-criar-redirecionamentos-para-urls-internas-e-externas/37807) [[3]](https://www.dotnettricks.com/learn/mvc/return-view-vs-return-redirecttoaction-vs-return-redirect-vs-return-redirecttoroute) [[4]](https://cursos.alura.com.br/forum/topico-quando-usar-return-view-e-return-redirecttoaction-40880) [[5]](https://stackoverflow.com/questions/2315048/whats-the-difference-in-asp-net-mvc-of-redirecttoroute-and-redirecttoaction) [[6]](https://en.wikipedia.org/wiki/HTTP_302)
+            * AAAAAAAAAAAAAA
+
+        2. *UNIT TEST: EDIT SUBMISSIONS*
+            * SSSSSSSSS
+            * SSSSSSS
+            
     * DISPLAYING A CONFIRMATION MESSAGE
     * ADDING MODEL VALIDATION
     * ENABLING CLIENT-SIDE VALIDATION        
