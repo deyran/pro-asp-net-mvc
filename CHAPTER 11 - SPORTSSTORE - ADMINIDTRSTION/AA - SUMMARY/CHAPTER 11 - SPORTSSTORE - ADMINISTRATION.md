@@ -158,16 +158,27 @@ In this chapter, we will add new features to the SportsStore application that wi
             </p>
 
             Here are some points we need to see about the code shown in Listing 11-11:
-            * The <i>model binder</i> is able to validate the submitted data by reading its values using the <i>ModelState.IsValid</i> property. If the model binder validation is correct, all changes are saved to the repository, the Index action method is invoked and the user accesses the list of products. Otherwise, any problems with the data, <i>Edit</i> view is called again for the user make the corrections.
-            * After changes saved to the repository, message is stored to the <i>TempData</i> feature. The <i>TempData</i> feature is a key/value dictionary similar to the Session data and <i>ViewBag</i> features. The most important difference from Session data is the TempData is deleted when the HTTP request ends.
+            * The *model binder* is able to validate the submitted data by reading its values using the *ModelState.IsValid* property. If the model binder validation is correct, all changes are saved to the repository, the Index action method is invoked and the user accesses the list of products. Otherwise, any problems with the data, *Edit* view is called again for the user make the corrections.
+            * After changes saved to the repository, message is stored to the *TempData* feature. The *TempData* feature is a key/value dictionary similar to the Session data and *ViewBag* features. The most important difference from Session data is the TempData is deleted when the HTTP request ends.
             * Notice that it was the ActionResult type returned from Edit method, ViewResult type has been used so far. ViewResult (ViewResult is derived from ActionResult) is used to render a View.
-            * <i>RedirectToAction</i> is a method used to redirect to a different action method in the same controller or in a different controller. When this RedirectToaction is invoked, it returns the <i>HTTP response status code 302 found</i> to the browser, terminating the original request. In the next step, the browser will make a GET response to the specified action method in the same controller or in a different controller. [[1]](https://www.c-sharpcorner.com/blogs/difference-between-return-view-return-redirect-return-redirecttoaction-and-redirecttoroute-in-mvc) [[2]](https://www.devmedia.com.br/asp-net-mvc-como-criar-redirecionamentos-para-urls-internas-e-externas/37807) [[3]](https://www.dotnettricks.com/learn/mvc/return-view-vs-return-redirecttoaction-vs-return-redirect-vs-return-redirecttoroute) [[4]](https://cursos.alura.com.br/forum/topico-quando-usar-return-view-e-return-redirecttoaction-40880) [[5]](https://stackoverflow.com/questions/2315048/whats-the-difference-in-asp-net-mvc-of-redirecttoroute-and-redirecttoaction) [[6]](https://en.wikipedia.org/wiki/HTTP_302)
+            * *RedirectToAction* is a method used to redirect to a different action method in the same controller or in a different controller. When this RedirectToaction is invoked, it returns the *HTTP response status code 302 found* to the browser, terminating the original request. In the next step, the browser will make a GET response to the specified action method in the same controller or in a different controller. [[1]](https://www.c-sharpcorner.com/blogs/difference-between-return-view-return-redirect-return-redirecttoaction-and-redirecttoroute-in-mvc) [[2]](https://www.devmedia.com.br/asp-net-mvc-como-criar-redirecionamentos-para-urls-internas-e-externas/37807) [[3]](https://www.dotnettricks.com/learn/mvc/return-view-vs-return-redirecttoaction-vs-return-redirect-vs-return-redirecttoroute) [[4]](https://cursos.alura.com.br/forum/topico-quando-usar-return-view-e-return-redirecttoaction-40880) [[5]](https://stackoverflow.com/questions/2315048/whats-the-difference-in-asp-net-mvc-of-redirecttoroute-and-redirecttoaction) [[6]](https://en.wikipedia.org/wiki/HTTP_302)
             * AAAAAAAAAAAAAA
+                > I cannot use ViewBag in this situation because the user is being redirected. 
+                
+                > ViewBag passes data between the controller and view, and it cannot hold data for longer than the current HHTP request. 
+                
+                > I could have used the session data feature, but then the message would be persistent until I explicitly removed it, which I > would rather not have to do. 
+                
+                > So, the TempData feature is the perfect fit. 
+                
+                > The data is restricted to a single user's session (so that users do not see each other's TempData) and will persist long enough for me to read it. 
+                
+                > I will read data in the view rendered by the action method to wich I have redirected the user, which I define in the next section.
 
         2. *UNIT TEST: EDIT SUBMISSIONS*
             * SSSSSSSSS
             * SSSSSSS
-            
+
     * DISPLAYING A CONFIRMATION MESSAGE
     * ADDING MODEL VALIDATION
     * ENABLING CLIENT-SIDE VALIDATION        
