@@ -166,6 +166,10 @@ In this chapter, we will add new features to the SportsStore application that wi
                I cannot use ViewBag in this situation because the user is being redirected. ViewBag passes data between the controller and view, and it cannot hold data for longer than the current HTTP request. I could have used the session data feature, but then the message would be persistent until I explicitly removed it, which I would rather not have to do. So, the TempData feature is the perfect fit. The data is restricted to a single user’s session (so that users do not see each other’s TempData) and will persist long enough for me to read it. I will read the data in the view rendered by the action method to which I have redirected the user, which I define in the next section.
 
                 > https://www.c-sharpcorner.com/blogs/difference-between-viewdata-viewbagtempdata-and-session-in-mvc-5
+                    ViewBag 
+                        -> It is available for the current request. Data in ViewBag is not available across the request
+                        -> Its value becomes Null if the redirection has occurred
+
                 > https://www.dotnettricks.com/learn/mvc/viewdata-vs-viewbag-vs-tempdata-vs-session
                 > https://www.mytecbits.com/microsoft/dot-net/viewmodel-viewdata-viewbag-tempdata-mvc
                 > https://stackoverflow.com/questions/12676924/what-is-the-right-time-for-viewdata-viewbag-session-tempdata
