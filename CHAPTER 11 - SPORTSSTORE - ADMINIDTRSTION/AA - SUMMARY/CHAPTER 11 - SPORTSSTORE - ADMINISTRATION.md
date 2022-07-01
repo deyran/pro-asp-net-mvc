@@ -170,7 +170,14 @@ In this chapter, we will add new features to the SportsStore application that wi
                         -> It is available for the current request. Data in ViewBag is not available across the request
                         -> Its value becomes Null if the redirection has occurred
 
+                    TempData
+                        -> It is available for the current request. Data in TempData is not available across the request.
+
                 > https://www.dotnettricks.com/learn/mvc/viewdata-vs-viewbag-vs-tempdata-vs-session
+                    "In ASP.NET MVC there are three ways - ViewData, ViewBag and TempData to pass data from controller to view and in next request"
+
+                    TempData is used to pass data from current request to subsequent request (means redirecting from one page to another)
+                    
                 > https://www.mytecbits.com/microsoft/dot-net/viewmodel-viewdata-viewbag-tempdata-mvc
                 > https://stackoverflow.com/questions/12676924/what-is-the-right-time-for-viewdata-viewbag-session-tempdata
 
