@@ -18,6 +18,7 @@ The domain model is a representation of meaningful real-world concepts pertinent
     The domain model is the representation of the domain concepts that needs to be modeled in software.
 
 The concepts include the data involved in the business and rules the business uses in relation to that data. 
+    THE CONCEPTS > INCLUDE > DATA IN THE BUSINESS AND RULES THE BUSINESS > 
 
 A domain model leverages natural language of the domain.
 ----------------
