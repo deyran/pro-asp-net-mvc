@@ -7,10 +7,15 @@ In Software Engineering, domain model is a conceptual model that represents both
 # Overview
 
 A domain model is a system of abstractions that describes selected aspects of a sphere of knowledge, influence or activity (a domain[3]). 
+    DOMAIN MODEL > SYSTEM OF ABSTRACTIONS > SELECTED ASPECTS > KNOWLEDGE, INFLUENCE OR ACTIVITY
+    A domain model is a system of ab44straction of selected aspects of knowledge, influence or activity
 
-The model can then be used to solve problems related to that domain. 
+The model can then be used to solve problems related to that domain.
+    The model is used to solve domain problems.
 
 The domain model is a representation of meaningful real-world concepts pertinent to the domain that need to be modeled in software. 
+    THE DOMAIN MODEL > REPRESENTATION > DOMAIN > MODELED > SOFTWARE
+    The domain model is the representation of the domain concepts that needs to be modeled in software.
 
 The concepts include the data involved in the business and rules the business uses in relation to that data. 
 
