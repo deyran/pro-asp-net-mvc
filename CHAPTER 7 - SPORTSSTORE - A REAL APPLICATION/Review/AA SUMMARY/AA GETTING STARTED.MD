@@ -8,9 +8,7 @@ To start this journey, it's necessary to create a *Visual Studio Solution* that 
 2. MVC Application
 3. Unit Tests  
 
-*Tip:* Solution is a container to organize one or more related code projects  
-* *Fonte:* [Introduction to projects and solutions](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2022)  
-* *Date:* 06-19-22
+*Tip:* Solution is a container to organize one or more related code projects [[1]](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2022)  
 
 ### CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS
 To create a *Visual Studio Solution* follow these steps
