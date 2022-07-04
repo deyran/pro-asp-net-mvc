@@ -4,7 +4,7 @@
 
 ## GETTING STARTED
 To start this journey, it's necessary to create a *Visual Studio Solution* that contains three projects: 
-1. Domain Model
+1. Domain Model [[ch0701]](/CHAPTER%207%20-%20SPORTSSTORE%20-%20A%20REAL%20APPLICATION/Issues/ch0701-domain-model.md)
 2. MVC Application
 3. Unit Tests  
 
@@ -34,7 +34,9 @@ To create a *Visual Studio Solution* follow these steps
 ### RUNNING THE APPLICATION
 
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
-    GETTING STARTED
+    GETTING STARTED 156
+        ISSUES
+            DOMAIN MODEL
         CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS
             Figure 7-A. Create a new project
             Figure 7-B. Console App (.NET Framework)
