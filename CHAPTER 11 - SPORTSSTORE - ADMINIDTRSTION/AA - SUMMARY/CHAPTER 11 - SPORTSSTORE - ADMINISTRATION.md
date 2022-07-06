@@ -165,8 +165,7 @@ In this chapter, we will add new features to the SportsStore application that wi
             * ViewBag property cannot be used in the redirect context as it is available for the current request, after the request is completed Viewbag property becomes Null. In the case of Session property, it persists for its expiration time. That's why the TemData property fits, your data will persists long enough to read it even in a different request, We will see that in Listing 11-12.  
 
         2. *UNIT TEST: EDIT SUBMISSIONS*
-            * SSSSSSSSS
-            * SSSSSSS
+            For the post-process edit action method, it is necessary to check whether valid or invalid updates are passed to the repository of the product to be saved. Here are the test methods:
 
     * DISPLAYING A CONFIRMATION MESSAGE
     * ADDING MODEL VALIDATION
@@ -175,8 +174,7 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
-            HANDLING EDIT POST REQUESTS 291
-                Listing 11-11. Adding the POST-Handling Edit Action Method in the AdminController.cs File
+            UNIT TEST: EDIT SUBMISSIONS 291
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
