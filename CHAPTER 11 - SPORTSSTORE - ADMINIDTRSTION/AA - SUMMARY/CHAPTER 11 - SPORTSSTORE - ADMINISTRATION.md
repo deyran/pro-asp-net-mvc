@@ -163,10 +163,20 @@ In this chapter, we will add new features to the SportsStore application that wi
             * Notice that it was the ActionResult type returned from Edit method, ViewResult type has been used so far. ViewResult (ViewResult is derived from ActionResult) is used to render a View.
             * *RedirectToAction* is a method used to redirect to a different action method in the same controller or in a different controller. When this RedirectToaction is invoked, it returns the *HTTP response status code 302 found* to the browser, terminating the original request. In the next step, the browser will make a GET response to the specified action method in the same controller or in a different controller. [[1]](https://www.c-sharpcorner.com/blogs/difference-between-return-view-return-redirect-return-redirecttoaction-and-redirecttoroute-in-mvc) [[2]](https://www.devmedia.com.br/asp-net-mvc-como-criar-redirecionamentos-para-urls-internas-e-externas/37807) [[3]](https://www.dotnettricks.com/learn/mvc/return-view-vs-return-redirecttoaction-vs-return-redirect-vs-return-redirecttoroute) [[4]](https://cursos.alura.com.br/forum/topico-quando-usar-return-view-e-return-redirecttoaction-40880) [[5]](https://stackoverflow.com/questions/2315048/whats-the-difference-in-asp-net-mvc-of-redirecttoroute-and-redirecttoaction) [[6]](https://en.wikipedia.org/wiki/HTTP_302)
             * AAAAAAAAAAAAAA 291
-               1. I cannot use ViewBag in this situation because the user is being redirected. 
-               2. ViewBag passes data between the controller and view, and it cannot hold data for longer than the current HTTP request. 
+               1. I cannot use ViewBag in this situation because the user is being redirected.
+                    ViewBag property cannot be used in redirected context
+
+               2. ViewBag passes data between the controller and view, and it cannot hold data for longer than the current HTTP request.
+                    ViewBag property is available for the current request. After the request finishes, the Viewbag property becomes Null.
+
                3. I could have used the session data feature, but then the message would be persistent until I explicitly removed it, which I would rather not have to do. 
-               4. So, the TempData feature is the perfect fit. The data is restricted to a single user’s session (so that users do not see each other’s TempData) and will persist long enough for me to read it. I will read the data in the view rendered by the action method to which I have redirected the user, which I define in the next section.
+                    In case of Session property, it persists for its expiration time.
+
+               4. So, the TempData feature is the perfect fit. The data is restricted to a single user’s session (so that users do not see each other’s TempData) and will persist long enough for me to read it. 
+                    That's why the TemData property fits, your data will persists long enough to read it even in a different request
+
+               5. I will read the data in the view rendered by the action method to which I have redirected the user, which I define in the next section.
+                    We will see that in the next session
 
 
 
