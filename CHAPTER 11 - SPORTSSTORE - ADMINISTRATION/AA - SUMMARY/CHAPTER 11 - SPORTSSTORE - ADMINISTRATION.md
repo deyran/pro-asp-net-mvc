@@ -166,6 +166,9 @@ In this chapter, we will add new features to the SportsStore application that wi
 
         2. *UNIT TEST: EDIT SUBMISSIONS*  
             For the post-process edit action method, it is necessary to check whether valid or invalid updates are passed to the repository of the product to be saved. Here are the test methods:
+                <p align="center">
+                    <img src="ch11-Pictures/UT_EDIT_SUBMISSIONS.png" />
+                </p>  
 
     * DISPLAYING A CONFIRMATION MESSAGE
     * ADDING MODEL VALIDATION
@@ -174,7 +177,8 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
-            UNIT TEST: EDIT SUBMISSIONS 291
+            HANDLING EDIT POST REQUESTS
+                UNIT TEST: EDIT SUBMISSIONS 291
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
