@@ -179,7 +179,7 @@ In this chapter, we will add new features to the SportsStore application that wi
 
         * Run the application using the Admin/Index URL, choose a product to edit and click the *Save* button. The TempData message will be   displayed, as shown in Figure 11-8. 
             <p align="center">
-                <img src="ch11-Pictures/Figure 11-8" /><br />
+                <img src="ch11-Pictures/Figure 11-8.png" /><br />
                 <b>Figure 11-8.</b> Editing a product and seeing the TempData message
             </p>
 
