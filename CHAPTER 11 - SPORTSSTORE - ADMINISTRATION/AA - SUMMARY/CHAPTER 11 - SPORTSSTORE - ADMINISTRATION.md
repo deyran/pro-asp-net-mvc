@@ -177,7 +177,17 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Listing 11-12.</b> Handling the TempData Message in the _AdminLayout.cshtml File
             </p>
         * AAA
-            Figure 11-8. Editing a product and seeing the TempData message
+
+        > I now have all the pieces in place to edit products. 
+        > To see how it all works, start the application, navigate to the Admin/Index URL, and make some edit. 
+        > Click the Save button. 
+        > You will be returned to the list view, and the TempData message will be displayed, as shown in Figure 11-8.
+
+            <p align="center">
+                <img src="ch11-Pictures/Figure 11-8" /><br />
+                <b>Figure 11-8.</b> Editing a product and seeing the TempData message
+            </p>
+            
 
     * ADDING MODEL VALIDATION
     * ENABLING CLIENT-SIDE VALIDATION        
@@ -186,7 +196,9 @@ CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             DISPLAYING A CONFIRMATION MESSAGE 292
+                Listing 11-11. Adding the POST-Handling Edit Action Method in the AdminController.cs File
                 Listing 11-12. Handling the TempData Message in the _AdminLayout.cshtml File
+                Figure 11-8. Editing a product and seeing the TempData message
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
