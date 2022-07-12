@@ -6,6 +6,11 @@
         ADDING CATALOG MANAGEMENT
             CREATING A NEW LAYOUT
                 Listing 11-2. The Contents of the _AdminLayout.cshtml File    
+
+            EDITING PRODUCTS
+                DISPLAYING A CONFIRMATION MESSAGE 292
+                    Listing 11-12. Handling the TempData Message in the _AdminLayout.cshtml File
+
     */
 }
 
@@ -20,7 +25,14 @@
     <title></title>
 </head>
 <body>
-    <div>@RenderBody()</div>
+    <div>
+        @if (TempData["message"] != null)
+        {
+            <div class="alert alert-sucess">TempData["message"]</div>
+        }
+
+        @RenderBody()
+    </div>
 </body>
 </html>
 
