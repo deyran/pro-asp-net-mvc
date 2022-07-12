@@ -184,13 +184,26 @@ In this chapter, we will add new features to the SportsStore application that wi
             </p>
 
     * ADDING MODEL VALIDATION
+        * As is the case for most project, it's necessary add validation rules to the model entity. t the moment, the user is allowed to enter invalid data, and the application tries to store that data in the database. In Listing 11-13, data annotations applied to the Product class for data validation.
+            <p align="center">
+                <img src="ch11-Pictures/Listing 11-13.png" /><br />
+                <b>Listing 11-13.</b> Applying Validation Attributes to the Product.cs File
+            </p>
+
+        * AAAAAAAAAA
+        * AAAAAAAAAA
+        
+        Listing 11-13. Applying Validation Attributes to the Product.cs File
+        Listing 11-14. Adding Validation Messages to the Edit.cshtml File
+        Figure 11-9. Data validation when editing products
+
     * ENABLING CLIENT-SIDE VALIDATION        
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
-            DISPLAYING A CONFIRMATION MESSAGE 292
-                Figure 11-8. Editing a product and seeing the TempData message
+            ADDING MODEL VALIDATION 294
+                Listing 11-13. Applying Validation Attributes to the Product.cs File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
