@@ -171,14 +171,20 @@ In this chapter, we will add new features to the SportsStore application that wi
                 </p>  
 
     * DISPLAYING A CONFIRMATION MESSAGE
+        > I am going to deal with the message I stored using TempData in the _AdminLayout.cshtml file. 
+        > By handling the message in the template, I can create messages in any view that uses template without needing to create additional Razor blocks. 
+        > Listing 11-12 shows the change to the file
+            Listing 11-12. Handling the ViewBag Message in the _AdminLayout.cshtml File
+            
+        Figure 11-8. Editing a product and seeing the TempData message
+
     * ADDING MODEL VALIDATION
     * ENABLING CLIENT-SIDE VALIDATION        
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
-            HANDLING EDIT POST REQUESTS
-                UNIT TEST: EDIT SUBMISSIONS 291
+            DISPLAYING A CONFIRMATION MESSAGE 292
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
