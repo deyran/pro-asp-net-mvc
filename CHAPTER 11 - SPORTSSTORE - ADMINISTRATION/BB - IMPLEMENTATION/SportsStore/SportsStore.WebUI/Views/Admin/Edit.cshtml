@@ -11,6 +11,9 @@
                 CREATE THE EDIT VIEW
                     Listing 11-6. The Contents of the Edit.cshtml File
                     Listing 11-8. Updating the Edit.cshtml File
+
+                ADDING MODEL VALIDATION 294
+                    Listing 11-14. Adding Validation Messages to the Edit.cshtml Fil
     */
 }
 
@@ -34,23 +37,18 @@
                         {
                             @Html.TextArea(
                                 property.PropertyName, null,
-                                new
-                                {
-                                    @class = "form-control",
-                                    rows = 5
-                                }
+                                new { @class = "form-control", rows = 5 }
                             )
                         }
                         else
                         {
                             @Html.TextBox(
                                 property.PropertyName, null,
-                                new
-                                {
-                                    @class = "form-control"
-                                }
+                                new { @class = "form-control" }
                             )
                         }
+                        
+                        @Html.ValidationMessage(property.PropertyName)
                     </div>
                 }
             }
