@@ -190,17 +190,11 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Listing 11-13.</b> Applying Validation Attributes to the Product.cs File
             </p>
 
-        * AAAAAAAAAA
+        * The *Html.TextBox* and *Html.TextArea* (Edit.cshtml) was used to create the input and textarea elements signal validations problems. These signals are sent using the *Content/ErrorStyles.css* file highlighting problems. It is necessary to provide the user details of any problems, and you can see this in Listing 11-14
             <p align="center">
                 <img src="ch11-Pictures/Listing 11-14.png" /><br />
                 <b>Listing 11-14.</b> Adding Validation Messages to the Edit.cshtml File
             </p>
-
-            > The Html.TextBox and Html.TextArea helper methods that I used in the Edit.cshtml view to create the input and textarea elements will be used by the MVC Framework to signal validation problems. 
-
-            > These signals are sent using classes for which I defined styles in the Content/ErrorStyles.css file, which have the effect of hightlighting problems. 
-
-            > I need to provide the user with details of any problems and you can see how I have done this in Listing 11-14
 
         * AAAAAAAAAA
                 
