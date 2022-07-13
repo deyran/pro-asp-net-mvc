@@ -196,9 +196,11 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Listing 11-14.</b> Adding Validation Messages to the Edit.cshtml File
             </p>
 
-        * AAAAAAAAAA
-                
-        Figure 11-9. Data validation when editing products
+        * *Figure 11-9* shows how the validation messages appear when you edit a product and enter data that breaks the rules applied to the *Product* class
+            <p align="center">
+                <img src="ch11-Pictures/Figure 11-9.png" /><br />
+                <b>Figure 11-9.</b> Data validation when editing products
+            </p>
 
     * ENABLING CLIENT-SIDE VALIDATION        
 
@@ -206,7 +208,7 @@ CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             ADDING MODEL VALIDATION 294
-                Listing 11-14. Adding Validation Messages to the Edit.cshtml File
+                Figure 11-9. Data validation when editing products
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
