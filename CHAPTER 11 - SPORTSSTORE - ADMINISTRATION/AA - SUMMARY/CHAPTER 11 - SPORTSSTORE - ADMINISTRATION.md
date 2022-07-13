@@ -191,10 +191,19 @@ In this chapter, we will add new features to the SportsStore application that wi
             </p>
 
         * AAAAAAAAAA
+            <p align="center">
+                <img src="ch11-Pictures/Listing 11-14.png" /><br />
+                <b>Listing 11-14.</b> Adding Validation Messages to the Edit.cshtml File
+            </p>
+
+            > The Html.TextBox and Html.TextArea helper methods that I used in the Edit.cshtml view to create the input and textarea elements will be used by the MVC Framework to signal validation problems. 
+
+            > These signals are sent using classes for which I defined styles in the Content/ErrorStyles.css file, which have the effect of hightlighting problems. 
+
+            > I need to provide the user with details of any problems and you can see how I have done this in Listing 11-14
+
         * AAAAAAAAAA
-        
-        Listing 11-13. Applying Validation Attributes to the Product.cs File
-        Listing 11-14. Adding Validation Messages to the Edit.cshtml File
+                
         Figure 11-9. Data validation when editing products
 
     * ENABLING CLIENT-SIDE VALIDATION        
@@ -203,7 +212,7 @@ CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             ADDING MODEL VALIDATION 294
-                Listing 11-13. Applying Validation Attributes to the Product.cs File
+                Listing 11-14. Adding Validation Messages to the Edit.cshtml File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
