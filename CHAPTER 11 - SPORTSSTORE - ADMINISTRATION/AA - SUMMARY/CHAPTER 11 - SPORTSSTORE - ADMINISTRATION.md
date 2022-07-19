@@ -202,13 +202,13 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Figure 11-9.</b> Data validation when editing products
             </p>
 
-    * ENABLING CLIENT-SIDE VALIDATION        
+    * ENABLING CLIENT-SIDE VALIDATION  
+        At present, data validation is applied only when the administration user submits edits to the server, but most users
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
-            ADDING MODEL VALIDATION 294
-                Figure 11-9. Data validation when editing products
+            ENABLING CLIENT-SIDE VALIDATION  296
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
