@@ -203,7 +203,7 @@ In this chapter, we will add new features to the SportsStore application that wi
             </p>
 
     * ENABLING CLIENT-SIDE VALIDATION  
-        At present, data validation is applied only when the administration user submits edits to the server, but most users
+        In the SportsStore app, data validation is applied only on the server side, but the user expect immediate feedback. To perform faster and more secure client-side data validation, you can use data annotation applied to domain model class
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
