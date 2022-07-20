@@ -203,17 +203,15 @@ In this chapter, we will add new features to the SportsStore application that wi
             </p>
 
     * ENABLING CLIENT-SIDE VALIDATION  
-        In the SportsStore app, data validation is applied only on the server side, but the user expect immediate feedback. To perform faster and more secure client-side data validation, you can use data annotation applied to domain model class.  
+        * In the SportsStore app, data validation is applied only on the server side, but the user expect immediate feedback. To perform faster and more secure client-side data validation, you can use data annotation applied to domain model class.  
+        * To enable client-side feature, it is necessary add links to the JavaScript libraries. The JavaScript libraries responsible for supporting client-side validation are called *JQuery Validation*.  
+        * To implement this feature follow these steps:
+            1. The first step is to install the validation package. Select *Tools > NuGet Package Manager > Package Manager Console*, select the *SportsStore.WebUI* project and enter the following commands:
+            ```js
+            Install-Package Microsoft.JQuery.Unobtrusive.Validation -version 3.0.0
+            ```
 
-        To enable client-side feature, it is necessary add links to the JavaScript libraries. The JavaScript libraries responsible for supporting client-side validation are called *JQuery Validation*.  
-
-        To implement this feature follow these steps:
-        1. The first step is to install the validation package. Select *Tools > NuGet Package Manager > Package Manager Console*, select the *SportsStore.WebUI* project and enter the following commands:
-        ```js
-        Install-Package Microsoft.JQuery.Unobtrusive.Validation -version 3.0.0
-        ```
-
-        2. Importing JavaScript Files for Client-Side Validation into the _AdminLayout.cshtml File (Listing 11-15). The order of the script elements is important
+            2. Importing JavaScript Files for Client-Side Validation into the _AdminLayout.cshtml File (Listing 11-15). The order of the script elements is important
             <p align="center">
                 <img src="ch11-Pictures/Listing 11-15.png" /><br />
                 <b>Listing 11-15.</b> Importing JavaScript Files for Client-Side Validation into the _AdminLayout.cshtml File
@@ -221,15 +219,15 @@ In this chapter, we will add new features to the SportsStore application that wi
 
             * These additions enable the client-side validation feature before submitting the form.
             * The appearance of the error message is the same because server-side validation and client-side validation share the same CSS classes, but the response is immediate.
-
-        3. AAAAAAAAAAAA
-            3. In most situations, client-side validation is a useful feature, but if for some reason you do not want to validate at the client, you need the following statements to the view
+        * If for some reasons you need to disable the client-side validation, follow these steps:
+            1. AAAAAAAAAAAAAa
+            2. AAAAAAAAAAAAAAAA
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             ENABLING CLIENT-SIDE VALIDATION  296
-                Listing 11-15. Importing JavaScript Files for Client-Side Validation into the _AdminLayout.cshtml File
+                DISABLE THE CLIENT-SIDE VALIDATION
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
