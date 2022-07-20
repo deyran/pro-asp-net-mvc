@@ -219,7 +219,12 @@ In this chapter, we will add new features to the SportsStore application that wi
                 <b>Listing 11-15.</b> Importing JavaScript Files for Client-Side Validation into the _AdminLayout.cshtml File
             </p>
 
+            * These additions enable the client-side validation feature before the submit the form.
         3. AAAAAAAAAAAA
+             
+
+            2. The appearance of error messages to the user is the same because the CSS classes that are used by the server validation are also used by the client-side validation, but the response is immediate and does not require a request to be sent to the server.
+            3. In most situations, client-side validation is a useful feature, but if for some reason you do not want to validate at the client, you need the following statements to the view
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
