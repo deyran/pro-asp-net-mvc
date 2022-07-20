@@ -205,7 +205,12 @@ In this chapter, we will add new features to the SportsStore application that wi
     * ENABLING CLIENT-SIDE VALIDATION  
         In the SportsStore app, data validation is applied only on the server side, but the user expect immediate feedback. To perform faster and more secure client-side data validation, you can use data annotation applied to domain model class.  
 
-        To enable client-side feature, it is necessary add links to the JavaScript libraries. The JavaScript libraries responsible for supporting client-side validation are called *JQuery Validation*.
+        To enable client-side feature, it is necessary add links to the JavaScript libraries. The JavaScript libraries responsible for supporting client-side validation are called *JQuery Validation*.  
+
+        AAAAAAAAAAAAAAAAA:
+        1. AAAAAAAAAAa
+        2. AAAAAAAAa
+        3. AAAAAAAAAAAA
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
