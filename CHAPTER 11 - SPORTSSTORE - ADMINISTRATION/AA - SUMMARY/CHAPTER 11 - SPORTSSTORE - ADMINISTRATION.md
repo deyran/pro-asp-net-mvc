@@ -212,14 +212,20 @@ In this chapter, we will add new features to the SportsStore application that wi
         ```js
         Install-Package Microsoft.JQuery.Unobtrusive.Validation -version 3.0.0
         ```
-        2. AAAAAAAAa
+
+        2. Importing JavaScript Files for Client-Side Validation into the _AdminLayout.cshtml File (Listing 11-15). The order of the script elements is important
+            <p align="center">
+                <img src="ch11-Pictures/Listing 11-15.png" /><br />
+                <b>Listing 11-15.</b> Importing JavaScript Files for Client-Side Validation into the _AdminLayout.cshtml File
+            </p>
+
         3. AAAAAAAAAAAA
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             ENABLING CLIENT-SIDE VALIDATION  296
-                Package Manager Console
+                Listing 11-15. Importing JavaScript Files for Client-Side Validation into the _AdminLayout.cshtml File
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
