@@ -240,11 +240,17 @@ In this chapter, we will add new features to the SportsStore application that wi
                 </configuration>                
                 ```            
 
+* CREATING NEW PRODUCTS
+    1. The first step in creating a new product is to implement the *Create* action method in the *AdminController.cs* file, as shown in Listing 11-16.
+        <p align="center">
+            <img src="ch11-Pictures/Listing 11-16.png" /><br />
+            <b>Listing 11-16.</b> Adding the Create Action Method to the AdminController.cs File
+        </p>
+
+
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
-        EDITING PRODUCTS
-            ENABLING CLIENT-SIDE VALIDATION  296
-                DISABLE THE CLIENT-SIDE VALIDATION - ENTIRE APPLICATION
+        CREATING NEW PRODUCTS - 297
+            Listing 11-16. Adding the Create Action Method to the AdminController.cs File
 
-* CREATING NEW PRODUCTS
 * DELETING PRODUCTS
