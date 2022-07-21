@@ -230,13 +230,21 @@ In this chapter, we will add new features to the SportsStore application that wi
                     HtmlHelper.UnobtrusiveJavaScriptEnabled = false;
                 } 
                 ```
-            2. AAAAAAAAAAAAAAAA
+            2. Disabling client-side validation for entire application by setting values in the *Web.config* file, like this:
+                ```js
+                <configuration>	
+                    <appSettings>
+                        <add key="ClientValidationEnbled" value="false" />
+                        <add key="UnobtrusiveJavaScriptEnabled" value ="false" />
+                    </appSettings>
+                </configuration>                
+                ```            
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             ENABLING CLIENT-SIDE VALIDATION  296
-                DISABLE THE CLIENT-SIDE VALIDATION - A VIEW
+                DISABLE THE CLIENT-SIDE VALIDATION - ENTIRE APPLICATION
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
