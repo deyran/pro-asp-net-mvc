@@ -207,9 +207,9 @@ In this chapter, we will add new features to the SportsStore application that wi
         * To enable client-side feature, it is necessary add links to the JavaScript libraries. The JavaScript libraries responsible for supporting client-side validation are called *JQuery Validation*.  
         * To implement this feature follow these steps:
             1. The first step is to install the validation package. Select *Tools > NuGet Package Manager > Package Manager Console*, select the *SportsStore.WebUI* project and enter the following commands:
-            ```js
-            Install-Package Microsoft.JQuery.Unobtrusive.Validation -version 3.0.0
-            ```
+                ```js
+                Install-Package Microsoft.JQuery.Unobtrusive.Validation -version 3.0.0
+                ```
 
             2. Importing JavaScript Files for Client-Side Validation into the _AdminLayout.cshtml File (Listing 11-15). The order of the script elements is important
             <p align="center">
