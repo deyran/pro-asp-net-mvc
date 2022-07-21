@@ -220,14 +220,23 @@ In this chapter, we will add new features to the SportsStore application that wi
             * These additions enable the client-side validation feature before submitting the form.
             * The appearance of the error message is the same because server-side validation and client-side validation share the same CSS classes, but the response is immediate.
         * If for some reasons you need to disable the client-side validation, follow these steps:
-            1. AAAAAAAAAAAAAa
+            1. Disabling client-side validation for a view:
+                ```js
+                @{
+                    Viewag.Title = "Admin: Edit" + @Model.Name;
+                    Layout = "~/View/Shared/_AdminLayout.cshtml";
+
+                    HtmlHelper.ClientValidationEnabled = false;
+                    HtmlHelper.UnobtrusiveJavaScriptEnabled = false;
+                } 
+                ```
             2. AAAAAAAAAAAAAAAA
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         EDITING PRODUCTS
             ENABLING CLIENT-SIDE VALIDATION  296
-                DISABLE THE CLIENT-SIDE VALIDATION
+                DISABLE THE CLIENT-SIDE VALIDATION - A VIEW
 
 * CREATING NEW PRODUCTS
 * DELETING PRODUCTS
