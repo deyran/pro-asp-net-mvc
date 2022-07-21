@@ -247,7 +247,6 @@ In this chapter, we will add new features to the SportsStore application that wi
             <b>Listing 11-16.</b> Adding the Create Action Method to the AdminController.cs File
         </p>
 
-
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         CREATING NEW PRODUCTS - 297
