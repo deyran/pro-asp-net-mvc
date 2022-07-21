@@ -18,6 +18,9 @@ namespace SportsStore.WebUI.Controllers
 
             HANDLING EDIT POST REQUESTS
                 Listing 11-11. Adding the POST-Handling Edit Action Method in the AdminController.cs File
+
+            CREATING NEW PRODUCTS - 297
+                Listing 11-16. Adding the Create Action Method to the AdminController.cs File
      */
 
     public class AdminController : Controller
@@ -54,6 +57,11 @@ namespace SportsStore.WebUI.Controllers
                 // there is something wrong with the data values
                 return View(product);
             }
+        }
+
+        public ViewResult Create()
+        {
+            return View("Edit", new Product());
         }
     }
 }
