@@ -1,0 +1,49 @@
+﻿
+@{
+    ViewBag.Title = "Index";
+}
+
+<form method="post" id="FRM_TO_ZAP" target="IFRM_TO_ZAP">
+    <input type="text" name="phone" value="5591984923955" />
+    <input type="text" name="message" value="HELLO PEDRO! FROM A SIMPLE BROWSER!!!!" />
+</form>
+
+<input type="button" onclick="sendAsimpleMessage()" value="OK" />
+<iframe id="IFRM_TO_ZAP" name="IFRM_TO_ZAP"></iframe>
+
+<script type="text/javascript">
+    function sendAsimpleMessage()
+    {
+        var SUA_INSTANCIA = "39F7AF7BF971B0D7FD1A0EB2445059A4";
+        var SEU_TOKEN = "CD9ECB59B6B832138028D5AB";
+
+        var URL = "https://api.z-api.io/instances/" +
+            SUA_INSTANCIA + "/token/" + SEU_TOKEN + "/send-text";
+
+        var FRM_TO_ZAP = document.getElementById("FRM_TO_ZAP");
+        FRM_TO_ZAP.action = URL;
+        FRM_TO_ZAP.submit();
+    }
+    function retornQRCode()
+    {
+        var SUA_INSTANCIA = "39F7AF7BF971B0D7FD1A0EB2445059A4";
+        var SEU_TOKEN = "CD9ECB59B6B832138028D5AB";
+
+        var URL = "https://api.z-api.io/instances/" +
+            SUA_INSTANCIA + "/token/" + SEU_TOKEN + "/qr-code";
+
+
+        var request = new XMLHttpRequest();
+        request.open("GET", URL, false);
+        request.send();
+
+        return request.responseText;
+
+    }
+
+    function seeConsole()
+    {
+        console.log(retornQRCode());
+    }
+
+</script>
