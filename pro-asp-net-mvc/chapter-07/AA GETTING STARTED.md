@@ -29,12 +29,12 @@ To start this journey, it's necessary to create a *Visual Studio Solution* that 
         </p>  
 
 * A Visual Studio solution is a container for one or more projects. For this web application three projects are needed, these projects are described in Table 7-1:  
-    <p align="center">
-    **Project Name**|**Template**|**Purpose**
-    ----------------|------------|------------
-    SportsStore.Domain|Class Library|Domain Entities and logic, persistence and repository and etc
-    </p>
-    
+
+**Project Name**|**Template**|**Purpose**
+----------------|------------|------------
+SportsStore.Domain|Class Library|Domain Entities and logic, persistence and repository and etc
+
+
 ### INSTALLING THE TOOL PACKAGES
 ### ADDING REFERENCES BETWEEN PROJECTS
 ### SETTING UP THE DI CONTAINER
