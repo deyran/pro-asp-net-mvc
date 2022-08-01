@@ -28,6 +28,8 @@ To start this journey, it's necessary to create a *Visual Studio Solution* that 
             <b>Figure 7-1.</b> Creating the Solution container and SportsStore.Domain project
         </p>  
 
+* A Visual Studio solution is a container for one or more project. For this web application three projects are required and described in Table 7-1:
+
 ### INSTALLING THE TOOL PACKAGES
 ### ADDING REFERENCES BETWEEN PROJECTS
 ### SETTING UP THE DI CONTAINER
@@ -36,3 +38,4 @@ To start this journey, it's necessary to create a *Visual Studio Solution* that 
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
         CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS 156
+            Table 7-1. The Three SportsStore Projects
