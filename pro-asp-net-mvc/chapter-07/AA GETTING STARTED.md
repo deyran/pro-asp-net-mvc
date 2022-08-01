@@ -36,7 +36,7 @@ SportsStore.Domain|Class Library|Domain Entities and logic, persistence, reposit
 SportsStore.WebUI|ASP.NET MVC Web Application|Holds the controllers and views; acts as the UI for the SportsStore application
 SportsStore.UnitTests|Unit test project|holds the unit tests for the other two projects    
 
-* To create MVC application -> SportsStore.WebUI, follows these steps:
+* To creating *SportsStore.WebUI* and *SportsStore.UnitTests* projects, follows these steps:
     1. Right-click in *Solution Explorer* window
     2. Choose -> Add and New Project
     3. On the screen called *Add a new project*, type *MVC*, select *ASP.NET Web Application (.Net Framewok)* option and click *Next*, as shown in the picture below:
@@ -44,12 +44,18 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
             <img src="ch07-Pictures/Figure 7-C.png" /><br />
             <b>Figure 7-C.</b> Creating *SportsStore.WebUI* project
         </p>  
+
     4. Now in the project name type *SportsStore.WebUI* and click on the *Create* button, as shown in the picture below:
         <p align="center">
             <img src="ch07-Pictures/Figure 7-D.png" /><br />
             <b>Figure 7-D.</b> Configuring the SportsStore.WebUI project
         </p>  
 
+    5. In the final step, configure the *SportsStore.WebUI* project and  create the *SportsStore.UnitTests* project, as shown in the picture below, click on the *Create* button: 
+        <p align="center">
+            <img src="ch07-Pictures/Figure 7-E.png" /><br />
+            <b>Figure 7-E.</b> Configuring SportsStore.WebUI and creating the SportsStore.UnitTests projects
+        </p>  
 
 ### INSTALLING THE TOOL PACKAGES
 ### ADDING REFERENCES BETWEEN PROJECTS
@@ -59,5 +65,5 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
         CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS 156
-            Figure 7-D. Configuring the SportsStore.WebUI project
+            Figure 7-E. Configuring SportsStore.WebUI and creating the SportsStore.UnitTests projects
             
