@@ -32,8 +32,9 @@ To start this journey, it's necessary to create a *Visual Studio Solution* that 
 
 **Project Name**|**Template**|**Purpose**
 ----------------|------------|------------
-SportsStore.Domain|Class Library|Domain Entities and logic, persistence and repository and etc
+SportsStore.Domain|Class Library|Domain Entities and logic, persistence, repository and etc
 SportsStore.WebUI|ASP.NET MVC Web Application|Holds the controllers and views; acts as the UI for the SportsStore application
+SportsStore.UnitTests|Unit test project|holds the unit tests for the other two projects
 
 ### INSTALLING THE TOOL PACKAGES
 ### ADDING REFERENCES BETWEEN PROJECTS
