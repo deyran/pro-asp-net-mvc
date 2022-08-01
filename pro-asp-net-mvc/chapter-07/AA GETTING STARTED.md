@@ -39,7 +39,7 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
 * To create MVC application -> SportsStore.WebUI, follows these steps:
     1. Right-click in *Solution Explorer* window
     2. Choose -> Add and New Project
-    3. On the screen called *Add a new project*, type *MVC*, select ASP.*NET Web Application (.Net Framewok)* option and click *Next*, as shown in the picture below:
+    3. On the screen called *Add a new project*, type *MVC*, select *ASP.NET Web Application (.Net Framewok)* option and click *Next*, as shown in the picture below:
         <p align="center">
             <img src="ch07-Pictures/Figure 7-C.png" /><br />
             <b>Figure 7-C.</b> Creating *SportsStore.WebUI* project
