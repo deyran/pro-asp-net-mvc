@@ -11,7 +11,7 @@ To start this journey, it's necessary to create a *Visual Studio Solution* that 
 *Tip:* Solution is a container to organize one or more related code projects [[1]](https://docs.microsoft.com/en-us/visualstudio/get-started/tutorial-projects-solutions?view=vs-2022)  
 
 ### CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS
-To create a *Visual Studio Solution* follow these steps
+* To create a *Visual Studio Solution* and the *SportsStore.Domain* project, follow these steps:
     1. Open Visual Studio, and on the start window, select *Create a new project* (Figure 7-A).
         <p align="center">
             <img src="ch07-Pictures/Figure 7-A.png" /><br />
@@ -34,10 +34,5 @@ To create a *Visual Studio Solution* follow these steps
 ### RUNNING THE APPLICATION
 
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
-    GETTING STARTED 156
-        ISSUES
-            DOMAIN MODEL
-        CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS
-            Figure 7-A. Create a new project
-            Figure 7-B. Console App (.NET Framework)
-            Figure 7-1. Creating the Solution container and SportsStore.Domain project
+    GETTING STARTED
+        CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS 156
