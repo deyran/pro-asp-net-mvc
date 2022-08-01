@@ -28,13 +28,22 @@ To start this journey, it's necessary to create a *Visual Studio Solution* that 
             <b>Figure 7-1.</b> Creating the Solution container and SportsStore.Domain project
         </p>  
 
-* A Visual Studio solution is a container for one or more projects. For this web application three projects are needed, these projects are described in Table 7-1:  
+* A Visual Studio solution is a container for one or more projects. For this web application three projects are needed, these projects are described in Table 7-1:
 
 **Project Name**|**Template**|**Purpose**
 ----------------|------------|------------
 SportsStore.Domain|Class Library|Domain Entities and logic, persistence, repository and etc
 SportsStore.WebUI|ASP.NET MVC Web Application|Holds the controllers and views; acts as the UI for the SportsStore application
-SportsStore.UnitTests|Unit test project|holds the unit tests for the other two projects
+SportsStore.UnitTests|Unit test project|holds the unit tests for the other two projects    
+
+* To create MVC application -> SportsStore.WebUI, follows these steps:
+    1. Right-click in *Solution Explorer* window
+    2. Choose -> Add and New Project
+    3. On the screen called *Add a new project*, type *MVC*, select ASP.*NET Web Application (.Net Framewok)* option and click *Next*, as shown in the picture below:
+        <p align="center">
+            <img src="ch07-Pictures/Figure 7-C.png" /><br />
+            <b>Figure 7-C.</b> Creating *SportsStore.WebUI* project
+        </p>  
 
 ### INSTALLING THE TOOL PACKAGES
 ### ADDING REFERENCES BETWEEN PROJECTS
@@ -44,4 +53,5 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
         CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS 156
-            Table 7-1. The Three SportsStore Projects
+            Creating *SportsStore.WebUI* project
+            
