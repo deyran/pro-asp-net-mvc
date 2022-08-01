@@ -4,7 +4,7 @@
 
 ## GETTING STARTED
 To start this journey, it's necessary to create a *Visual Studio Solution* that contains three projects: 
-1. Domain Model [[ch0701]](/CHAPTER%207%20-%20SPORTSSTORE%20-%20A%20REAL%20APPLICATION/Issues/ch0701-domain-model.md)
+1. Domain Model [[ch0701]](Issues/ch0701-domain-model.md)
 2. MVC Application
 3. Unit Tests  
 
