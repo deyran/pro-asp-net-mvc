@@ -57,6 +57,12 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
             <b>Figure 7-E.</b> Configuring SportsStore.WebUI and creating the SportsStore.UnitTests projects
         </p>  
 
+* When you have created the three projects, the Solution Explorer should look like Figure 7-2
+    <p align="center">
+        <img src="ch07-Pictures/Figure 7-2.png" /><br />
+        <b>Figure 7-2.</b> The projects shown in the Solution Explorer window
+    </p>  
+
 ### INSTALLING THE TOOL PACKAGES
 ### ADDING REFERENCES BETWEEN PROJECTS
 ### SETTING UP THE DI CONTAINER
@@ -65,5 +71,4 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
         CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS 156
-            Figure 7-E. Configuring SportsStore.WebUI and creating the SportsStore.UnitTests projects
-            
+            Figure 7-2. The projects shown in the Solution Explorer window
