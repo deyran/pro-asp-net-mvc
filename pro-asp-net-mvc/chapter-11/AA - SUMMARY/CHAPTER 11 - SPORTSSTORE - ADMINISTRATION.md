@@ -247,6 +247,14 @@ In this chapter, we will add new features to the SportsStore application that wi
             <b>Listing 11-16.</b> Adding the Create Action Method to the AdminController.cs File
         </p>
 
+        * As you can see in the *Create* action method, it uses *Edit* action method of the same controller passing a new *Product* object as the view model to the Edit view to populate with empty fields
+
+    2. AAAAAAAA
+        <p align="center">
+            <img src="ch11-Pictures/Listing 11-17.png" /><br />
+            <b>Listing 11-17.</b> Explicitly Specifying an Action Method and Controller for a Form in the Edit.cshtml File
+        </p>
+
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         CREATING NEW PRODUCTS - 297
