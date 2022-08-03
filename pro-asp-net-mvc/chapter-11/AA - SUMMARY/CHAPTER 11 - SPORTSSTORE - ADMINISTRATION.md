@@ -255,9 +255,15 @@ In this chapter, we will add new features to the SportsStore application that wi
             <b>Listing 11-17.</b> Explicitly Specifying an Action Method and Controller for a Form in the Edit.cshtml File
         </p>
 
+    3. Run the web application by adding */Admin/Index* to the URL and add a new product, as shown in the Figure 11-10:
+        <p align="center">
+            <img src="ch11-Pictures/Figure 11-10.png" /><br />
+            <b>Figure 11-10.</b> Adding a new product to the catalog
+        </p>
+
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
-        CREATING NEW PRODUCTS - 298
-            Listing 11-17. Explicitly Specifying an Action Method and Controller for a Form in the Edit.cshtml File
+        CREATING NEW PRODUCTS - 299
+            Figure 11-10. Adding a new product to the catalog
 
 * DELETING PRODUCTS
