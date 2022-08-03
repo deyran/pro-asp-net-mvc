@@ -278,4 +278,4 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         DELETING PRODUCTS - 300
-            Listing 11-18. Adding a Method to Delete Products to the IProductRepository.cs File
+            Listing 11-19. Implementing Deletion Support in the EFProductRepository.cs File

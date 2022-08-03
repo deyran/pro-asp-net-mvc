@@ -14,6 +14,7 @@ namespace SportsStore.Domain.Abstract
                 Listing 11-9. Adding a Method to the IProductRespository.cs File
             DELETING PRODUCTS
                 Listing 11-18. Adding a Method to Delete Products to the IProductRepository.cs File
+                Listing 11-19. Implementing Deletion Support in the EFProductRepository.cs File
      */
 
     public interface IProductRepository

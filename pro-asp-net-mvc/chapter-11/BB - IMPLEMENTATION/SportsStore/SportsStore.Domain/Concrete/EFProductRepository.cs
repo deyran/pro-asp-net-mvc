@@ -13,6 +13,8 @@ namespace SportsStore.Domain.Concrete
         ADDING CATALOG MANAGEMENT
             UPDATING THE PRODUCT REPOSITORY
                 Listing 11-10. Implementing the SaveProduct Method in the EFProductRepository.cs File
+            DELETING PRODUCTS - 300
+                Listing 11-19. Implementing Deletion Support in the EFProductRepository.cs File
     */
     public class EFProductRepository : IProductRepository
     {
@@ -39,6 +41,18 @@ namespace SportsStore.Domain.Concrete
 
             context.SaveChanges();
         }
+
+        public Product DeleteProduct(int productID)
+        {
+            Product dbEntry = context.Products.Find(productID);
+
+            if (dbEntry != null)
+            {
+                context.Products.Remove(dbEntry);
+                context.SaveChanges();
+            }
+
+            return dbEntry;
+        }
     }
 } 
-
