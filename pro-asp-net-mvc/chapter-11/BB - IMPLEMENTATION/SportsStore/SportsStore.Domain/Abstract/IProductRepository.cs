@@ -12,11 +12,14 @@ namespace SportsStore.Domain.Abstract
         ADDING CATALOG MANAGEMENT
             UPDATING THE PRODUCT REPOSITORY
                 Listing 11-9. Adding a Method to the IProductRespository.cs File
+            DELETING PRODUCTS
+                Listing 11-18. Adding a Method to Delete Products to the IProductRepository.cs File
      */
 
     public interface IProductRepository
     {
         IEnumerable<Product> Products { get; }
         void SaveProduct(Product product);
+        Product DeleteProduct(int productID);
     }
 }

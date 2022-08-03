@@ -261,9 +261,16 @@ In this chapter, we will add new features to the SportsStore application that wi
             <b>Figure 11-10.</b> Adding a new product to the catalog
         </p>
 
-CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
-    ADDING CATALOG MANAGEMENT
-        CREATING NEW PRODUCTS - 299
-            Figure 11-10. Adding a new product to the catalog
 
 * DELETING PRODUCTS
+    1. To delete items, first add a new method to the *IProductRepository* interface, as shown in Listing 11-18.
+        <p align="center">
+            <img src="ch11-Pictures/Listing 11-18.png" /><br />
+            <b>Listing 11-18.</b> Adding a Method to Delete Products to the *IProductRepository.cs* File
+        </p>
+
+
+CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
+    ADDING CATALOG MANAGEMENT
+        DELETING PRODUCTS
+            Listing 11-18. Adding a Method to Delete Products to the IProductRepository.cs File
