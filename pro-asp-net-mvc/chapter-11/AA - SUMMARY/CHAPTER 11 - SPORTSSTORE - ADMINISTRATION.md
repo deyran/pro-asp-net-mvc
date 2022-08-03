@@ -266,7 +266,7 @@ In this chapter, we will add new features to the SportsStore application that wi
     1. To delete items, first add a new method to the *IProductRepository* interface, as shown in Listing 11-18.
         <p align="center">
             <img src="ch11-Pictures/Listing 11-18.png" /><br />
-            <b>Listing 11-18.</b> Adding a Method to Delete Products to the *IProductRepository.cs* File
+            <b>Listing 11-18.</b> Adding a Method to Delete Products to the IProductRepository.cs File
         </p>
 
     2. Open the *EFProductRepository* class and implement the DeleteProduct action method as shown in Listing 11-19
@@ -278,4 +278,4 @@ In this chapter, we will add new features to the SportsStore application that wi
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
         DELETING PRODUCTS - 300
-            Listing 11-19. Implementing Deletion Support in the EFProductRepository.cs File
+            Listing 11-18. Adding a Method to Delete Products to the IProductRepository.cs File
