@@ -272,7 +272,7 @@ In this chapter, we will add new features to the SportsStore application that wi
     2. Open the *EFProductRepository* class and implement the DeleteProduct action method as shown in Listing 11-19
         <p align="center">
             <img src="ch11-Pictures/Listing 11-19.png" /><br />
-            <b>Listing 11-19.</b> Implementing Deletion Support in the *EFProductRepository.cs* File
+            <b>Listing 11-19.</b> Implementing Deletion Support in the EFProductRepository.cs File
         </p>
 
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
