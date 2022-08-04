@@ -277,7 +277,7 @@ In this chapter, we will add new features to the SportsStore application that wi
 
     3. The final steps is to implement a Delete action method in the Admin controller using the POST request. Listing 11-20 shows the new action method.
         <p align="center">
-            <img src="ch11-Pictures/Listing 11-19.png" /><br />
+            <img src="ch11-Pictures/Listing 11-20.png" /><br />
             <b>Listing 11-20.</b> The Delete Action Method in the AdminController.cs File
         </p>
 
