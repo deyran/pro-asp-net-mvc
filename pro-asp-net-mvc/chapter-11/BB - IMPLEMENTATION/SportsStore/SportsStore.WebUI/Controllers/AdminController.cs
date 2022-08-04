@@ -70,7 +70,7 @@ namespace SportsStore.WebUI.Controllers
             {
                 TempData["message"] = string.Format("{0} was deleted", deletedProduct.Name);
             }
-            return RedirectToAction("Index");
+            return RedirectToAction("/Index");
         }
 
         public ViewResult Create()

@@ -169,3 +169,4 @@ C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.AssemblyReference.cache
