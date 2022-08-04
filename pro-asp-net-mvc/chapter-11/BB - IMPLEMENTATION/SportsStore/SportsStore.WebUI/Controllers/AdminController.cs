@@ -21,6 +21,9 @@ namespace SportsStore.WebUI.Controllers
 
             CREATING NEW PRODUCTS - 297
                 Listing 11-16. Adding the Create Action Method to the AdminController.cs File
+
+            DELETING PRODUCTS - 300
+                Listing 11-20. The Delete Action Method in the AdminController.cs File
      */
 
     public class AdminController : Controller
@@ -57,6 +60,17 @@ namespace SportsStore.WebUI.Controllers
                 // there is something wrong with the data values
                 return View(product);
             }
+        }
+
+        [HttpPost]
+        public ActionResult Delete(int productId)
+        {
+            Product deletedProduct = repository.DeleteProduct(productId);
+            if (deletedProduct != null)
+            {
+                TempData["message"] = string.Format("{0} was deleted", deletedProduct.Name);
+            }
+            return RedirectToAction("Index");
         }
 
         public ViewResult Create()

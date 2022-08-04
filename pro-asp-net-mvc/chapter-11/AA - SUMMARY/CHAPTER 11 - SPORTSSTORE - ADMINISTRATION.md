@@ -275,30 +275,14 @@ In this chapter, we will add new features to the SportsStore application that wi
             <b>Listing 11-19.</b> Implementing Deletion Support in the EFProductRepository.cs File
         </p>
 
-    3. AAAAAAAAAAAA
-1. The final steps is to implement a Delete action method in the Admin controller.
-2. This action method should support only POST requests, because deleting objects is not an idempotent operation.
-3. As I will explain in chapter 16, browser and caches are free to make GET requests without the user's explicit consent, and so I must be carefil to avoid making changes as a consequence of GET requests.
-4. Listing 11-20 shows the new action method.
-
+    3. The final steps is to implement a Delete action method in the Admin controller using the POST request. Listing 11-20 shows the new action method.
         <p align="center">
             <img src="ch11-Pictures/Listing 11-19.png" /><br />
             <b>Listing 11-20.</b> The Delete Action Method in the AdminController.cs File
         </p>
 
 
-[HttpPost]
-public ActionResult Delete(int productId)
-{
-    Product deletedProduct = repository.DeleteProduct(productId);
-    if(deletedProduct != null)
-    {
-        TempData["message"] = string.Format("{0} was deleted", deletedProduct.Name);
-    }
-    return RedirectToAction("Index");    
-}
-
 CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
     ADDING CATALOG MANAGEMENT
-        DELETING PRODUCTS - 300
+        DELETING PRODUCTS - 301
             Listing 11-20. The Delete Action Method in the AdminController.cs File
