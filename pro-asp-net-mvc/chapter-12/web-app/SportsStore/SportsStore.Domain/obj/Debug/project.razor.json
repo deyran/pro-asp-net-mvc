@@ -1,0 +1,19 @@
+{
+  "FilePath": "c:\\github-project\\pro-asp-net-mvc\\CHAPTER 10 - SPORTSSTORE MOBILE\\BB - IMPLEMENTATION\\SportsStore\\SportsStore.Domain\\SportsStore.Domain.csproj",
+  "Configuration": {
+    "ConfigurationName": "UnsupportedRazor",
+    "LanguageVersion": "1.0",
+    "Extensions": [
+      {
+        "ExtensionName": "UnsupportedRazorExtension"
+      }
+    ]
+  },
+  "ProjectWorkspaceState": {
+    "TagHelpers": [],
+    "CSharpLanguageVersion": 703
+  },
+  "RootNamespace": null,
+  "Documents": [],
+  "SerializationFormat": "0.2"
+}

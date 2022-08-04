@@ -1,0 +1,637 @@
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe.config
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.rsp
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe.config
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.rsp
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.AppContext.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Console.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Http.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.config
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csprojAssemblyReference.cache
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.AppContext.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Console.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Http.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.AssemblyReference.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.AppContext.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Console.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Http.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.AssemblyReference.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.AppContext.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Console.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Http.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.AssemblyReference.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.AppContext.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Console.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Http.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.AssemblyReference.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.AppContext.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Console.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Http.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.AssemblyReference.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.exe.config
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csc.rsp
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.exe.config
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\csi.rsp
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Managed.Core.targets
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.AppContext.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Collections.Immutable.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Console.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Globalization.Calendars.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Http.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Net.Sockets.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Reflection.Metadata.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.ValueTuple.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XmlDocument.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.exe.config
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\WebActivator.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\SportsStore.Domain.dll.config
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Moq.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Common.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Ninject.Web.Mvc.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Razor.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Deployment.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Webpages.Razor.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.AssemblyReference.cache
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CoreCompileInputs.cache
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb

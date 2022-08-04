@@ -1,0 +1,172 @@
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\Deyvid\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.AssemblyReference.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 7 - SPORTSSTORE A REAL APPLICATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 8 - SPORTSSTORE - NAVIGATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 9 - SPORTSSTORE - COMPLETING THE CART\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.AssemblyReference.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 10 - SPORTSSTORE MOBILE\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.AssemblyReference.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\github-project\pro-asp-net-mvc\CHAPTER 11 - SPORTSSTORE - ADMINISTRATION\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll.config
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\SportsStore.Domain.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\EntityFramework.SqlServer.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Helpers.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Mvc.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.Razor.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.pdb
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.AssemblyReference.cache

@@ -1,0 +1,33 @@
+﻿@model SportsStore.Domain.Entities.Cart
+
+@{
+/*
+COMPLETING THE CART
+    ADDING THE CART SUMMARY
+        Listing 9-6. The Contents of the Summary.cshtml
+
+CHAPTER 10 - SPORTSSTORE MOBILE
+    USING RESPONSIVE DESIGN
+        CREATING A RESPONSIVE HEADER
+            Listing 10-2. Adding Responsive Content to the Summary.cshtml File
+*/
+}
+
+<div class="navbar-right hidden-xs">
+    @Html.ActionLink("Checkout", "Index", "Cart",
+    new { returnUrl = Request.Url.PathAndQuery },
+    new { @class = "btn btn-default navbar-btn" })
+</div>
+
+<div class="navbar-right visible-xs">
+    <a href=@Url.Action("Index", "Cart", new { returnUrl = Request.Url.PathAndQuery })
+       class="btn btn-default navbar-btn">
+        <span class="glyphicon glyphicon-shopping-cart"></span>
+    </a>
+</div>
+
+<div class="navbar-text navbar-right">
+    <b class="hidden-xs">Your cart:</b>
+    @Model.Lines.Sum(x => x.Quantity) item(s),
+    @Model.ComputeTotalValue().ToString("c")
+</div>
