@@ -63,6 +63,8 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
         <b>Figure 7-2.</b> The projects shown in the Solution Explorer window
     </p>  
 
+* To startup the project that will be executed by default when you click the button or press F5, right-click the SportsStore.WebUI and select *Set as Startup project* from the pop-up menu.
+
 ### INSTALLING THE TOOL PACKAGES
 ### ADDING REFERENCES BETWEEN PROJECTS
 ### SETTING UP THE DI CONTAINER
@@ -71,4 +73,4 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
         CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS 156
-            Figure 7-2. The projects shown in the Solution Explorer window
+            Selecting a StartUp Project
