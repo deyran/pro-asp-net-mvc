@@ -76,6 +76,18 @@ Install-Package Ninject.MVC3 -Version 3.0.0.6
 Install-Package Moq -version 4.1.1309.1617
 ```  
 * Now select *SportsStore.UnitTests* and enter the command lines below:
+```js
+Install-Package Ninject -version 3.0.1.10
+Install-Package Ninject.Web.Common -version 3.0.0.7
+Install-Package Ninject.MVC3 -Version 3.0.0.6
+Install-Package Moq -version 4.1.1309.1617
+Install-Package Microsoft.Aspnet.Mvc 
+```  
+
+* Tp the end, select *SportsStore.Domain* and enter the command lines below:
+```js
+Install-Package Microsoft.Aspnet.Mvc -version 5.0.0
+```  
 
 ### ADDING REFERENCES BETWEEN PROJECTS
 ### SETTING UP THE DI CONTAINER
@@ -84,4 +96,5 @@ Install-Package Moq -version 4.1.1309.1617
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
         INSTALLING THE TOOL PACKAGES - 158
-            SportsStore.WebUI
+            SportsStore.UnitTests
+            SportsStore.Domain
