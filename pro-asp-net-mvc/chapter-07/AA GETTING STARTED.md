@@ -75,6 +75,7 @@ Install-Package Ninject.Web.Common -version 3.0.0.7
 Install-Package Ninject.MVC3 -Version 3.0.0.6
 Install-Package Moq -version 4.1.1309.1617
 ```  
+
 * Now select *SportsStore.UnitTests* and enter the command lines below:
 ```js
 Install-Package Ninject -version 3.0.1.10
@@ -90,11 +91,20 @@ Install-Package Microsoft.Aspnet.Mvc -version 5.0.0
 ```  
 
 ### ADDING REFERENCES BETWEEN PROJECTS
+Right-click each project in the *Solution Explorer* window, select *Add > Reference...*, and add the references shown in *Table 7-2* from the *Assemblies > Framework, Assemblies > Extensions or Solution* sections.
+Project Name|Solution Dependencies|Assemblies References
+---------|--------|--------
+SportsStore.Domain|None|System.ComponentModel.DataAnnotations
+SportsStore.WebUI|SportsStore.Domain|None
+SportsStore.UnitTests|SportsStore.WebUI|System.Web
+SportsStore.UnitTests|SportsStore.Domain|Microsoft.CSharp  
+<p align="center">
+    <b>Table 7-2.</b> Required Project Dependencies
+</p>  
+
 ### SETTING UP THE DI CONTAINER
 ### RUNNING THE APPLICATION
 
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
-        INSTALLING THE TOOL PACKAGES - 158
-            SportsStore.UnitTests
-            SportsStore.Domain
+        ADDING REFERENCES BETWEEN PROJECTS - 158
