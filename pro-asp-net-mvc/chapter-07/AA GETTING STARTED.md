@@ -66,6 +66,17 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
 * To startup the project that will be executed by default when you click the button or press F5, right-click the SportsStore.WebUI and select *Set as Startup project* from the pop-up menu.
 
 ### INSTALLING THE TOOL PACKAGES
+* In this project, two important libraries will be used to optimize our development process: *Ninject* and *Moq*.
+* To install these libraries, select *Tools > NuGet Package Manager > Package Manager Console*
+* Under *Default Project*, select *SportsStore.WebUI* and enter the command lines below:
+```js
+Install-Package Ninject -version 3.0.1.10
+Install-Package Ninject.Web.Common -version 3.0.0.7
+Install-Package Ninject.MVC3 -Version 3.0.0.6
+Install-Package Moq -version 4.1.1309.1617
+```  
+* Now select *SportsStore.UnitTests* and enter the command lines below:
+
 ### ADDING REFERENCES BETWEEN PROJECTS
 ### SETTING UP THE DI CONTAINER
 ### RUNNING THE APPLICATION
@@ -73,3 +84,4 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
         INSTALLING THE TOOL PACKAGES - 158
+            SportsStore.WebUI
