@@ -72,5 +72,4 @@ SportsStore.UnitTests|Unit test project|holds the unit tests for the other two p
 
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
-        CREATING THE VISUAL STUDIO SOLUTION AND PROJECTS 156
-            Selecting a StartUp Project
+        INSTALLING THE TOOL PACKAGES - 158
