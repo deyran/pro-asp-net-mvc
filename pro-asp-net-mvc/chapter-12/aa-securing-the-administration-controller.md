@@ -7,15 +7,11 @@ In this chapter, the following features will be implemented:
 ASP.NET authentication and authorization features are packages that function as general purpose system for keeping track of who is logged in.
 
 ### Creating a Basic Security Policy
-* Let's start by configuring *forms authentication* to give users authorization to access the application. In the *SportsStore.WebUI* project open the *Web.config* file and edit it to match with the Listing 12-1
+* Let's start by configuring *forms authentication* (often used for Internet-facing web applications) to provide credentials to local users  to access the application and it is simple and easy to manage. In the *SportsStore.WebUI* project open the *Web.config* file and edit it to match with the Listing 12-1
     <p align="center">
         <img src="ch12-Pictures/Listing 12-1.png" /><br />
         <b>Listing 12-1.</b> Configuring Forms Authentication in the Web.config File
     </p>
-
-Listing 12-1. Configuring Forms Authentication in the Web.config File
-
-Authentication is set up using the authentication element and I have used the mode attribute to specify that I want forms authentication, which is the kind most often used for Internet-facing web applications. In ASP.NET 4.5.1, Microsoft has added support for a wider range of Internet-suitable authentication options, which I describe in the Pro ASP.NET MVC 5 Platform book, as noted earlier in the chapter. I am going to stick with forms authentication because it works with local user credentials and is simple to set up and manage.
 
 The loginUrl attribute tells ASP.NET where to redirect users when they need to authenticate themselves (in this case the ~/Account/Login URL) and the timeout attribute specifies how long a user remains authenticated once they have successfully logged in, expressed in minutes (2,880 minutes is 48 hours).
 
