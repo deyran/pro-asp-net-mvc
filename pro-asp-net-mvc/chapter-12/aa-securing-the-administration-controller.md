@@ -4,6 +4,8 @@ In this chapter, the following features will be implemented:
 2. Once authentication is ok, support for adding product image will be implemented.
 
 ## Securing the Administration Controller
+ASP.NET authentication and authorization features are packages that function as general purpose system for keeping track of who is logged in.
+
 ### Creating a Basic Security Policy
 * Configuring forms authentication is one of the ways users can be authenticated in an ASP.NET application. Open the Web.config file to match with the Lising 12-1 (SportsStore.WebUI project).
     <p align="center">
