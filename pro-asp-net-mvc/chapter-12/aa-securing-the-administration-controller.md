@@ -13,8 +13,6 @@ ASP.NET authentication and authorization features are packages that function as 
         <b>Listing 12-1.</b> Configuring Forms Authentication in the Web.config File
     </p>
 
-The loginUrl attribute tells ASP.NET where to redirect users when they need to authenticate themselves (in this case the ~/Account/Login URL) and the timeout attribute specifies how long a user remains authenticated once they have successfully logged in, expressed in minutes (2,880 minutes is 48 hours).
-
 The next step is to tell ASP.NET where it will get details of the application users. I have broken this into a separate step because I am about to do something that should never, ever, be done in a real project: I am going to define a username and password in the Web.config file. You can see the changes in Listing 12-2.
 
 
