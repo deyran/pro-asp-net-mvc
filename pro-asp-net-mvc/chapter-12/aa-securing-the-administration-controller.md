@@ -13,28 +13,11 @@ ASP.NET authentication and authorization features are packages that function as 
         <b>Listing 12-1.</b> Configuring Forms Authentication in the Web.config File
     </p>
 
-2. AAAAAAAAAA
+2. The next step is to define a username and password in the Web.config file. The purpose of this step is to keep the example simple, in a real project we never set the credentials in the Web.config file. You can see the changes in Listing 12-2.
     <p align="center">
         <img src="ch12-Pictures/Listing 12-2.png" /><br />
         <b>Listing 12-2.</b> Defining a Username and Password in the Web.config File
     </p>
-
-1. The next step is to tell ASP.NET where it will get details of the application users. 
-2. I have broken this into a separate step because I am about to do something that should never, ever, be done in a real project: I am going to define a username and password in the Web.config file. 
-3. You can see the changes in Listing 12-2.
---------------------------------------------------------------------
-
-1. I want to keep the example simple and focus on the way that the MVC Framework allows you to apply authentication and authorization to a web application. 
-2. But putting credentials in the Web.config file is a recipe for disaster, especially if you set the passwordFormat attribute on the credentials element to Clear, meaning that passwords are stored as plain text.
---------------------------------------------------------------------
-
-Caution ■
-Don’t store user credentials in the Web.config file and don’t store passwords as plain text. See the free chapters excepted from my Pro ASP.NET MVC 5 Platform book (as described at the start of the section) for details of managing users via a database.
---------------------------------------------------------------------
-
-1. Despite being unsuitable for real projects, using the Web.config file to store credentials lets me focus on MVC features without getting sidetracked into aspects of the core ASP.NET platform. 
-2. The result of the additions to the Web.config file is that I have a hard-coded username (admin) and password (secret).
-
 
 ### Applying Authorization with Filters
 ### Creating the Authentication Provider
