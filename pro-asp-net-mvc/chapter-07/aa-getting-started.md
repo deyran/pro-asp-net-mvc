@@ -121,10 +121,4 @@ If you select Start Debugging from the Debug menu, you will see an error page as
 <p align="center">
     <img src="ch07-Pictures/Figure 7-3.png" /><br />
     <b>Figure 7-3.</b> The error page
-</p>  
-
-
-CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
-    GETTING STARTED
-        RUNNING THE APPLICATION
-            Figure 7-3. The error page
+</p>
