@@ -103,8 +103,17 @@ SportsStore.UnitTests|SportsStore.Domain|Microsoft.CSharp
 </p>  
 
 ### SETTING UP THE DI CONTAINER
+* To instantiate objects in the application, in the *SportsStore.WebUI* project, create a folder called *Infrastructure* and inside the folder create a file called *NinjectDependencyResolver.cs*. You can see the contents of the new file in *Listing 7-1*.
+    <p align="center">
+        <img src="ch07-Pictures/Listing 7-1.png" /><br />
+        <b>Listing 7-1.</b> The contents of the NinjectDependencyResolver.cs file
+    </p>  
+
+* As you may recall from Chapter 6, the next step is to create a bridge between the NinjectDependencyResolver class and the MVC support for dependency injection in the App_Start/NinjectWebCommon.cs file, which one of the Ninject NuGet packages added to the project, as shown in Listing 7-2.
+
 ### RUNNING THE APPLICATION
 
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
-        ADDING REFERENCES BETWEEN PROJECTS - 158
+        SETTING UP THE DI CONTAINER - 159
+            Listing 7-1. The contents of the NinjectDependencyResolver.cs file
