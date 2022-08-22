@@ -13,6 +13,12 @@ namespace SportsStore.WebUI.App_Start
 
     public static class NinjectWebCommon 
     {
+        /*
+        CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
+            GETTING STARTED
+                SETTING UP THE DI CONTAINER - 159
+                    Listing 7-2. Integrating Ninject in the NinjectWebCommon.cs File         
+         */
         private static readonly Bootstrapper bootstrapper = new Bootstrapper();
 
         /// <summary>
@@ -53,6 +59,9 @@ namespace SportsStore.WebUI.App_Start
         /// <param name="kernel">The kernel.</param>
         private static void RegisterServices(IKernel kernel)
         {
+            System.Web.Mvc.DependencyResolver.SetResolver (
+                new SportsStore.WebUI.Infrastructure.NinjectDependencyResolver(kernel)
+            );
         }        
     }
 }

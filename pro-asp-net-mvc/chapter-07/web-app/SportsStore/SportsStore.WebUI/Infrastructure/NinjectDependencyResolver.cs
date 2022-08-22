@@ -39,4 +39,3 @@ namespace SportsStore.WebUI.Infrastructure
 
     }
 }
-
