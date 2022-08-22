@@ -115,10 +115,16 @@ SportsStore.UnitTests|SportsStore.Domain|Microsoft.CSharp
         <b>Listing 7-2.</b> Integrating Ninject in the NinjectWebCommon.cs File
     </p>  
 
-
 ### RUNNING THE APPLICATION
+If you select Start Debugging from the Debug menu, you will see an error page as shown in Figure 7-3. This is because you have requested a URL associated with a non-existent controller.
+
+<p align="center">
+    <img src="ch07-Pictures/Figure 7-3.png" /><br />
+    <b>Figure 7-3.</b> The error page
+</p>  
+
 
 CHAPTER 07 - SPORTSSTORE - A REAL APPLICATION
     GETTING STARTED
-        SETTING UP THE DI CONTAINER - 159
-            Listing 7-2. Integrating Ninject in the NinjectWebCommon.cs File
+        RUNNING THE APPLICATION
+            Figure 7-3. The error page
