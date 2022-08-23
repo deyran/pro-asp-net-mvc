@@ -33,7 +33,10 @@ ASP.NET authentication and authorization features are packages that function as 
     <p align="center">
         <img src="ch12-Pictures/Figure 12-1.png" /><br />
         <b>Figure 12-1.</b> The effect of the Authorize filter
-    </p>  
+    </p>    
+
+    * When you try to access the Index action method of the Admin controller, the MVC Framework detects the Authorize filter. 
+    * Because you have not been authenticated, you are redirected to the URL specified in the Web.config forms authentication section: /Account/Login (not created yet, the reason for the error). 
 
 ### Creating the Authentication Provider
 ### Creating the Account Controller
