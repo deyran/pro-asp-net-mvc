@@ -20,12 +20,12 @@ ASP.NET authentication and authorization features are packages that function as 
     </p>
 
 ### Applying Authorization with Filters
-1. The MVC Framework has a powerful feature called filters. 
-2. These are .NET attributes that you can apply to an action method or a controller class and they introduce additional logic when a request is processed to change the behavior of the MVC Framework.
+* The MVC Framework has a feature called filters. These filters are .NET attributes that are applied to the action method or a controller class, adding logic in the time the request is processed, changing the MVC Framework behavior (see chapter 18 for more details). The filter that will be used he is *Authorize*, you can see in Listing 12-3.
+    <p align="center">
+        <img src="ch12-Pictures/Listing 12-3.png" /><br />
+        <b>Listing 12-3.</b> Adding the Authorize Attribute in the AdminController.cs File
+    </p>
 
-There are different kinds of filters available and you can create your own custom filters, as I explain in Chapter 18. The filter that interests me at the moment is the default authorization filter, Authorize. In Listing 12-3, you can see how I have applied this filter to the Admin controller.
-
-Listing 12-3. Adding the Authorize Attribute in the AdminController.cs File
 
 When applied without parameters, the Authorize attribute grants access to the controller action methods to all authenticated users. This means that if you are authenticated, you are automatically authorized to use the administration features. This is fine for SportsStore, where there is only one set of restricted action methods and only one user.
 
