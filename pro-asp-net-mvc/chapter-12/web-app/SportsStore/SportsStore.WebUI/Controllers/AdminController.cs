@@ -24,8 +24,14 @@ namespace SportsStore.WebUI.Controllers
 
             DELETING PRODUCTS - 300
                 Listing 11-20. The Delete Action Method in the AdminController.cs File
+
+    chapter 12 - SportsStore: Security & Finishing Touches
+        Securing the Administration Controller
+            Applying Authorization with Filters
+                Listing 12-3. Adding the Authorize Attribute in the AdminController.cs File
      */
 
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository repository;
