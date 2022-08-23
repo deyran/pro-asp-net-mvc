@@ -27,14 +27,13 @@ ASP.NET authentication and authorization features are packages that function as 
     </p>
 
     * if you are authenticated, you are automatically authorized to use the administration features
-    * In Listing 12-3, I applied the Authorize filter to the class, so all of the action methods in the Admin controller are available only to authenticated users.
+    * In Listing 12-3, I applied the Authorize filter to the class, so all of the action methods in the Admin controller are available only to authenticated users.  
 
-2. You can see the effect that the Authorize filter has by running the application and navigating to the /Admin/Index URL. You will see an error similar to the one shown in Figure 12-1.
-
+2. You can see the effect that the Authorize filter has by running the application and navigating to the */Admin/Index* URL. You will see an error similar to the one shown in Figure 12-1.
     <p align="center">
         <img src="ch12-Pictures/Figure 12-1.png" /><br />
         <b>Figure 12-1.</b> The effect of the Authorize filter
-    </p>
+    </p>  
 
 ### Creating the Authentication Provider
 ### Creating the Account Controller
