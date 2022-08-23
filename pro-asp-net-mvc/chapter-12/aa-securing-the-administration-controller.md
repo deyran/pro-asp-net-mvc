@@ -19,15 +19,6 @@ ASP.NET authentication and authorization features are packages that function as 
         <b>Listing 12-2.</b> Defining a Username and Password in the Web.config File
     </p>
 
-
-I want to keep the example simple and focus on the way that the MVC Framework allows you to apply authentication and authorization to a web application. But putting credentials in the Web.config file is a recipe for disaster, especially if you set the passwordFormat attribute on the credentials element to Clear, meaning that passwords are stored as plain text.
-
-
-Don’t store user credentials in the Web.config file and don’t store passwords as plain text. See the free chapters excepted from my Pro ASP.NET MVC 5 Platform book (as described at the start of the section) for details of managing users via a database.
-
-
-Despite being unsuitable for real projects, using the Web.config file to store credentials lets me focus on MVC features without getting sidetracked into aspects of the core ASP.NET platform. The result of the additions to the Web.config file is that I have a hard-coded username (admin) and password (secret).
-
 ### Applying Authorization with Filters
 ### Creating the Authentication Provider
 ### Creating the Account Controller
