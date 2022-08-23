@@ -26,13 +26,10 @@ ASP.NET authentication and authorization features are packages that function as 
         <b>Listing 12-3.</b> Adding the Authorize Attribute in the AdminController.cs File
     </p>
 
+    * if you are authenticated, you are automatically authorized to use the administration features
+    * In Listing 12-3, I applied the Authorize filter to the class, so all of the action methods in the Admin controller are available only to authenticated users.
 
-1. When applied without parameters, the Authorize attribute grants access to the controller action methods to all authenticated users. 
-2. This means that if you are authenticated, you are automatically authorized to use the administration features. 
-3. This is fine for SportsStore, where there is only one set of restricted action methods and only one user.
-
-Note ■
-you can apply filters to an individual action method or to a controller. When you apply a filter to a controller, it works as though you had applied it to every action method in the controller class. In Listing 12-3, I applied the Authorize filter to the class, so all of the action methods in the Admin controller are available only to authenticated users.
+* sssssssssssss
 
 ### Creating the Authentication Provider
 ### Creating the Account Controller
