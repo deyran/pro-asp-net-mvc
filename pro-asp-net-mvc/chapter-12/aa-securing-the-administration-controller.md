@@ -20,7 +20,7 @@ ASP.NET authentication and authorization features are packages that function as 
     </p>
 
 ### Applying Authorization with Filters
-* The MVC Framework has a feature called filters. These filters are .NET attributes that are applied to the action method or a controller class, adding logic in the time the request is processed, changing the MVC Framework behavior (see chapter 18 for more details). The filter that will be used he is *Authorize*, you can see in Listing 12-3.
+1. The MVC Framework has a feature called filters. These filters are .NET attributes that are applied to the action method or a controller class, adding logic in the time the request is processed, changing the MVC Framework behavior (see chapter 18 for more details). The filter that will be used he is *Authorize*, you can see in Listing 12-3.
     <p align="center">
         <img src="ch12-Pictures/Listing 12-3.png" /><br />
         <b>Listing 12-3.</b> Adding the Authorize Attribute in the AdminController.cs File
@@ -29,7 +29,12 @@ ASP.NET authentication and authorization features are packages that function as 
     * if you are authenticated, you are automatically authorized to use the administration features
     * In Listing 12-3, I applied the Authorize filter to the class, so all of the action methods in the Admin controller are available only to authenticated users.
 
-* ssssssssssssssss
+2. You can see the effect that the Authorize filter has by running the application and navigating to the /Admin/Index URL. You will see an error similar to the one shown in Figure 12-1.
+
+    <p align="center">
+        <img src="ch12-Pictures/Figure 12-1.png" /><br />
+        <b>Figure 12-1.</b> The effect of the Authorize filter
+    </p>
 
 ### Creating the Authentication Provider
 ### Creating the Account Controller
@@ -38,4 +43,4 @@ ASP.NET authentication and authorization features are packages that function as 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
         Applying Authorization with Filters
-            Listing 12-3. Adding the Authorize Attribute in the AdminController.cs File
+            Figure 12-1. The effect of the Authorize filter
