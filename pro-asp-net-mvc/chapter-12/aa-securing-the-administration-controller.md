@@ -29,7 +29,7 @@ ASP.NET authentication and authorization features are packages that function as 
     * if you are authenticated, you are automatically authorized to use the administration features
     * In Listing 12-3, I applied the Authorize filter to the class, so all of the action methods in the Admin controller are available only to authenticated users.
 
-* sssssssssssss
+* ssssssssssssssss
 
 ### Creating the Authentication Provider
 ### Creating the Account Controller
