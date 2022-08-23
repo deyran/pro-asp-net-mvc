@@ -39,10 +39,24 @@ ASP.NET authentication and authorization features are packages that function as 
     * Because you have not been authenticated, you are redirected to the URL specified in the Web.config forms authentication section: /Account/Login (not created yet, the reason for the error). 
 
 ### Creating the Authentication Provider
+Using the forms authentication feature requires calls to two static methods of the System.Web.Security. FormsAuthentication class:
+    The • Authenticate method validates credentials supplied by the user.
+    The • SetAuthCookie method adds a cookie to the response to the browser, so that users do not need to authenticate every time they make a request.
+
+The problem with calling static methods from within action methods is that it makes unit testing the controller difficult: mocking frameworks typically mock only instance members. The classes that comprise the MVC Framework have been designed with unit testing in mind, but the FormsAuthentication class predates the unit testing-friendly design of MVC.
+
+
+The best way to address the problem is to decouple the controller from the static methods using an interface, which offers the additional benefit that this fits in with the broader MVC design pattern and makes it easier to switch to a different authentication system later.
+
+
+I start by defining the authentication provider interface. Create a new folder called Abstract in the Infrastructure folder of the SportsStore.WebUI project and add a new interface called IAuthProvider. The contents of this interface are shown in Listing 12-4.
+
+
+Listing 12-4. The Contents of the IAuthProvider.cs File
+
 ### Creating the Account Controller
 ### Creating the View
 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
-        Applying Authorization with Filters
-            Figure 12-1. The effect of the Authorize filter
+        Creating the Authentication Provider
