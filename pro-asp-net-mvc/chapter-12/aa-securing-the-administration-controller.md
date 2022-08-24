@@ -40,19 +40,25 @@ ASP.NET authentication and authorization features are packages that function as 
 
 ### Creating the Authentication Provider
 In this section, for authentication purpose, a class called *FormsAuthentication* from *System.Web.Security* package will be used with its static methods, *Authenticate* (to validate credentials) and *SetAuthCookie* (a cookie to maintain the authetication in the *Response* return).  
-But there is a problem to use static method inside action methods, it is very difficult to implement Mock in *Unit test*, since mocking frameworks typically mock only instance members. To address that problem, the interface approach will be used, so the controller will be decouple from the static methods.
+
+But there is a problem to use static method inside action methods, it is very difficult to implement Mock in *Unit test*, since mocking frameworks typically mock only instance members. To address that problem, the interface approach will be used, so the controller will be decouple from the static methods.  
+
+XXXXX
+<p align="center">
+    <img src="ch12-Pictures/Listing 12-4.png" /><br />
+    <b>Listing 12-4.</b> The Contents of the IAuthProvider.cs File
+</p>    
 
 
-1. I start by defining the authentication provider interface. Create a new folder called Abstract in the Infrastructure folder of the SportsStore.WebUI project and add a new interface called IAuthProvider. 
-
-2. The contents of this interface are shown in Listing 12-4.
 
 
-Listing 12-4. The Contents of the IAuthProvider.cs File
+
 
 ### Creating the Account Controller
 ### Creating the View
 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
-        Creating the Authentication Provider
+        Creating the Authentication Provider 309
+            Listing 12-4. The Contents of the IAuthProvider.cs File
+            
