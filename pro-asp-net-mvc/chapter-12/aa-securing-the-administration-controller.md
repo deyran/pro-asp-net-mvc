@@ -43,11 +43,13 @@ In this section, for authentication purpose, a class called *FormsAuthentication
 
 But there is a problem to use static method inside action methods, it is very difficult to implement Mock in *Unit test*, since mocking frameworks typically mock only instance members. To address that problem, the interface approach will be used, so the controller will be decouple from the static methods.  
 
-XXXXX
-<p align="center">
-    <img src="ch12-Pictures/Listing 12-4.png" /><br />
-    <b>Listing 12-4.</b> The Contents of the IAuthProvider.cs File
-</p>    
+Let's start to implement the authentication provider interface.
+1. Create a new folder called *Abstract* in the *Infrastructure* folder of the *SportsStore.WebUI project*.
+2. Add a new interface called IAuthProvider. The contents of this interface are shown in Listing 12-4.
+    <p align="center">
+        <img src="ch12-Pictures/Listing 12-4.png" /><br />
+        <b>Listing 12-4.</b> The Contents of the IAuthProvider.cs File
+    </p>    
 
 
 
