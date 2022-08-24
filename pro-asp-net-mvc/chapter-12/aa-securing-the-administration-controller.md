@@ -41,18 +41,8 @@ ASP.NET authentication and authorization features are packages that function as 
 ### Creating the Authentication Provider
 In this section, for authentication purpose, a class called *FormsAuthentication* from *System.Web.Security* package will be used with its static methods, *Authenticate* (to validate credentials) and *SetAuthCookie* (a cookie to maintain the authetication in the *Response* return).  
 
-But there is a problem to use static method inside action methods, it is very difficult to implement Mock in *Unit test*, since mocking frameworks typically mock only instance members.
-
----------------------------------------------------------------------------
-
-The best way to address the problem is to decouple the controller from the static methods using an interface, which offers the additional benefit that this fits in with the broader MVC design pattern and makes it easier to switch to a different authentication system later.
-    Address the problem > decouple the controller > static methods > interface > NVC design pattern > switch different authencation system later
-
-
-
-
-
-
+But there is a problem to use static method inside action methods, it is very difficult to implement Mock in *Unit test*, since mocking frameworks typically mock only instance members. To address that problem, the interface approach will be used, so the controller will be decouple from the static methods.
+-----------------------------------------------------------------------------------------------------------------------------------------------
 
 1. I start by defining the authentication provider interface. Create a new folder called Abstract in the Infrastructure folder of the SportsStore.WebUI project and add a new interface called IAuthProvider. 
 
