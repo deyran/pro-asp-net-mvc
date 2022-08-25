@@ -60,7 +60,16 @@ But there is a problem to use static method inside action methods, it is very di
             <b>Listing 12-5.</b> The Contents of the FormsAuthProvider.cs File
         </p>  
 
-    * As you can see, there is a warning about the FormsAuthentication.Authenticate method has been deprecated, for the moment this deprecated  method will be sufficient to allow authentication using the static details that were added to the Web.config file
+    * As you can see, there is a warning about the FormsAuthentication.Authenticate method has been deprecated, for the moment this deprecated  method will be sufficient to allow authentication using the static details that were added to the Web.config file.  
+
+* The final step is to register the *FormsAuthProvider* in the *AddBindings* method of the *NinjectDependencyResolver* class, as shown in Listing 12-6.
+    <p align="center">
+        <img src="ch12-Pictures/Listing 12-6.png" /><br />
+        <b>Listing 12-6.</b> Registering the Authentication Provider in the NinjectDependencyResolver.cs File
+    </p>  
+
+
+
 
 ### Creating the Account Controller
 ### Creating the View
@@ -68,5 +77,5 @@ But there is a problem to use static method inside action methods, it is very di
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
         Creating the Authentication Provider 310
-            Listing 12-5. The Contents of the FormsAuthProvider.cs File
+            Listing 12-6. Registering the Authentication Provider in the NinjectDependencyResolver.cs File
             
