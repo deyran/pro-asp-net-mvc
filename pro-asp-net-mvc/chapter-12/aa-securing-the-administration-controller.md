@@ -44,12 +44,12 @@ In this section, for authentication purpose, a class called *FormsAuthentication
 But there is a problem to use static method inside action methods, it is very difficult to implement Mock in *Unit test*, since mocking frameworks typically mock only instance members. To address that problem, the interface approach will be used, so the controller will be decouple from the static methods.  
 
 * Let's start to implement the authentication provider interface.
-1. Create a new folder called *Abstract* in the *Infrastructure* folder of the *SportsStore.WebUI project*.
-2. Add a new interface called IAuthProvider. The contents of this interface are shown in Listing 12-4.
-    <p align="center">
-        <img src="ch12-Pictures/Listing 12-4.png" /><br />
-        <b>Listing 12-4.</b> The Contents of the IAuthProvider.cs File
-    </p>  
+    1. Create a new folder called *Abstract* in the *Infrastructure* folder of the *SportsStore.WebUI project*.
+    2. Add a new interface called IAuthProvider. The contents of this interface are shown in Listing 12-4.
+        <p align="center">
+            <img src="ch12-Pictures/Listing 12-4.png" /><br />
+            <b>Listing 12-4.</b> The Contents of the IAuthProvider.cs File
+        </p>  
 
 * Now, it's time to implement *IAuthProvider* interface which acts as wrapper around the static methods of the FormsAuthentication class. 
     1. In the *Infrastructure (SportsStore.WebUI project)* folder, create a new folder called *Concrete*
@@ -69,10 +69,17 @@ But there is a problem to use static method inside action methods, it is very di
     </p>  
 
 ### Creating the Account Controller
+The next task is to create the Account controller and the Login action method referred to in the Web.config file. In fact, I will create two versions of the Login method. The first will render a view that contains a login prompt, and the other will handle the POST request when users submit their credentials.
+
+To get started, I created a view model class that I will pass between the controller and the view. Add a new class file called LoginViewModel.cs to the Models folder of the SportsStore.WebUI project and edit the content so that it matches Listing 12-7.
+
+Listing 12-7. The Contents of the LoginViewModel.cs File
+
+This class contains properties for the username and password, and uses data annotation attributes to specify that values for both are required. Given that there are only two properties, you might be tempted to do without a view model and rely on the ViewBag to pass data to the view. However, it is good practice to define view models so that the data passed from the controller to the view and from the model binder to the action method is typed consistently.
+
 ### Creating the View
 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
-        Creating the Authentication Provider 310
-            Listing 12-6. Registering the Authentication Provider in the NinjectDependencyResolver.cs File
+        Creating the Account Controller 311
             
