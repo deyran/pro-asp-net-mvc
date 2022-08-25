@@ -60,11 +60,13 @@ But there is a problem to use static method inside action methods, it is very di
             <b>Listing 12-5.</b> The Contents of the FormsAuthProvider.cs File
         </p>  
 
+    * As you can see, there is a warning about the FormsAuthentication.Authenticate method has been deprecated, for the moment this deprecated  method will be sufficient to allow authentication using the static details that were added to the Web.config file
+
 ### Creating the Account Controller
 ### Creating the View
 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
-        Creating the Authentication Provider 309
+        Creating the Authentication Provider 310
             Listing 12-5. The Contents of the FormsAuthProvider.cs File
             
