@@ -43,18 +43,22 @@ In this section, for authentication purpose, a class called *FormsAuthentication
 
 But there is a problem to use static method inside action methods, it is very difficult to implement Mock in *Unit test*, since mocking frameworks typically mock only instance members. To address that problem, the interface approach will be used, so the controller will be decouple from the static methods.  
 
-Let's start to implement the authentication provider interface.
+* Let's start to implement the authentication provider interface.
 1. Create a new folder called *Abstract* in the *Infrastructure* folder of the *SportsStore.WebUI project*.
 2. Add a new interface called IAuthProvider. The contents of this interface are shown in Listing 12-4.
     <p align="center">
         <img src="ch12-Pictures/Listing 12-4.png" /><br />
         <b>Listing 12-4.</b> The Contents of the IAuthProvider.cs File
-    </p>    
+    </p>  
 
-
-
-
-
+* Now, it's time to implement *IAuthProvider* interface which acts as wrapper around the static methods of the FormsAuthentication class. 
+    1. In the *Infrastructure (SportsStore.WebUI project)* folder, create a new folder called *Concrete*
+    2. Create a new class called FormsAuthProvider and place it inside the *Concrete* folder.
+    3. Edit the FormsAuthProvider.cs file to match Listing 12-5.
+        <p align="center">
+            <img src="ch12-Pictures/Listing 12-5.png" /><br />
+            <b>Listing 12-5.</b> The Contents of the FormsAuthProvider.cs File
+        </p>  
 
 ### Creating the Account Controller
 ### Creating the View
@@ -62,5 +66,5 @@ Let's start to implement the authentication provider interface.
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
         Creating the Authentication Provider 309
-            Listing 12-4. The Contents of the IAuthProvider.cs File
+            Listing 12-5. The Contents of the FormsAuthProvider.cs File
             
