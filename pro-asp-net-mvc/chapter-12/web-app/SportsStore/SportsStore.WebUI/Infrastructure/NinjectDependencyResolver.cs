@@ -3,17 +3,15 @@ using System.Collections.Generic;
 using System.Web.Mvc;
 using Ninject;
 
-//Listing 7-5.
 using System.Linq;
 using Moq;
 using SportsStore.Domain.Abstract;
 using SportsStore.Domain.Entities;
-
-//Listing 7-15
 using SportsStore.Domain.Concrete;
-
-//Listing 9-16
 using System.Configuration;
+
+using SportsStore.WebUI.Infrastructure.Abstract;
+using SportsStore.WebUI.Infrastructure.Concrete;
 
 namespace SportsStore.WebUI.Infrastructure
 {
@@ -33,6 +31,13 @@ namespace SportsStore.WebUI.Infrastructure
     SUBMITTING ORDERS
 	    REGISTERING THE IMPLEMENTATION 247
 		    Listing 9-16. Adding Ninject Bindings for IOrderProcessor to the NinjectDependencyResolver.cs File
+
+
+    chapter 12 - SportsStore: Security & Finishing Touches
+        Securing the Administration Controller
+            Creating the Authentication Provider 310
+                Listing 12-6. Registering the Authentication Provider in the NinjectDependencyResolver.cs File
+
      */
     public class NinjectDependencyResolver : IDependencyResolver
     {
@@ -66,6 +71,8 @@ namespace SportsStore.WebUI.Infrastructure
 
             kernel.Bind<IOrderProcessor>().To<EmailOrderProcessor>()
                 .WithConstructorArgument("settings", emailSettings);
+
+            kernel.Bind<IAuthProvider>().To<FormsAuthProvider>();
         }
     }
 }

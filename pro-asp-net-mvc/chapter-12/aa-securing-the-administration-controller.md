@@ -68,9 +68,6 @@ But there is a problem to use static method inside action methods, it is very di
         <b>Listing 12-6.</b> Registering the Authentication Provider in the NinjectDependencyResolver.cs File
     </p>  
 
-
-
-
 ### Creating the Account Controller
 ### Creating the View
 
