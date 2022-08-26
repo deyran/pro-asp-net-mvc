@@ -69,17 +69,24 @@ But there is a problem to use static method inside action methods, it is very di
     </p>  
 
 ### Creating the Account Controller
-The next task is to create the Account controller and the Login action method referred to in the Web.config file. In fact, I will create two versions of the Login method. The first will render a view that contains a login prompt, and the other will handle the POST request when users submit their credentials.
+* In this section, the *Account controller* that contens *Login* action method (referred to in the *Web.config* file) will be implemented. To start this task, create a view model class called LoginViewModel.cs, place it in the Models folder of the *SportsStore.WebUI* project, edit the contents ot match Listing 12-7.
+    <p align="center">
+        <img src="ch12-Pictures/Listing 12-7.png" /><br />
+        <b>Listing 12-7.</b> The Contents of the LoginViewModel.cs File
+    </p>  
 
-To get started, I created a view model class that I will pass between the controller and the view. Add a new class file called LoginViewModel.cs to the Models folder of the SportsStore.WebUI project and edit the content so that it matches Listing 12-7.
+* ZZZZZZZZZZZZZZ
+    <p align="center">
+        <img src="ch12-Pictures/Listing 12-8.png" /><br />
+        <b>Listing 12-8.</b> The Contents of the LoginViewModel.cs File
+    </p>  
 
-Listing 12-7. The Contents of the LoginViewModel.cs File
-
-This class contains properties for the username and password, and uses data annotation attributes to specify that values for both are required. Given that there are only two properties, you might be tempted to do without a view model and rely on the ViewBag to pass data to the view. However, it is good practice to define view models so that the data passed from the controller to the view and from the model binder to the action method is typed consistently.
+Listing 12-8. The the Contents of the AccountController.cs File
 
 ### Creating the View
 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
         Creating the Account Controller 311
+            Listing 12-7. The Contents of the LoginViewModel.cs File
             
