@@ -69,7 +69,7 @@ But there is a problem to use static method inside action methods, it is very di
     </p>  
 
 ### Creating the Account Controller
-* In this section, the *Account controller* that contens *Login* action method (referred to in the *Web.config* file) will be implemented. To start this task, create a view model class called LoginViewModel.cs, place it in the Models folder of the *SportsStore.WebUI* project, edit the contents ot match Listing 12-7.
+* In this section, the *Account controller* that contens *Login* action method (referred to in the *Web.config* file) will be implemented. To start this task, create a view model class called LoginViewModel.cs, place it in the *Models* folder of the *SportsStore.WebUI* project, edit the contents to match Listing 12-7.
     <p align="center">
         <img src="ch12-Pictures/Listing 12-7.png" /><br />
         <b>Listing 12-7.</b> The Contents of the LoginViewModel.cs File
