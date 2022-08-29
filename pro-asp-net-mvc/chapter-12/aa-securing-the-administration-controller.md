@@ -85,6 +85,5 @@ But there is a problem to use static method inside action methods, it is very di
 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
-        Creating the Account Controller 311
-            Listing 12-7. The Contents of the LoginViewModel.cs File
-            
+        Creating the Account Controller 312
+            Listing 12-8. The Contents of the AccountController.cs File
