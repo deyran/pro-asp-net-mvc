@@ -78,7 +78,7 @@ But there is a problem to use static method inside action methods, it is very di
 * Finally, create a class called *AccountController.cs* (it will handle authentication) in the *Controllers* folder and edit the file contents to match Listing 12-8.
     <p align="center">
         <img src="ch12-Pictures/Listing 12-8.png" /><br />
-        <b>Listing 12-8.</b> The the Contents of the AccountController.cs File
+        <b>Listing 12-8.</b> The Contents of the AccountController.cs File
     </p>  
 
 ### Creating the View
@@ -86,5 +86,5 @@ But there is a problem to use static method inside action methods, it is very di
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
         Creating the Account Controller 311
-            Listing 12-8. The the Contents of the AccountController.cs File
+            Listing 12-8. The Contents of the AccountController.cs File
             
