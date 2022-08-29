@@ -83,6 +83,7 @@ But there is a problem to use static method inside action methods, it is very di
 
 ### Creating the View
 1. To create the view that will ask the users for their credentials, create the Views/Account folder in the SportsStore.WebUI folder. 
+    User > credentials > Views/Account > SportsStore.WebUI
 2. Right-click on the new folder, select Add ➤ MVC 5 View Page (Razor) from the menu, set the name to Login and click OK to create the Login.cshtml file. 
 3. Edit the contents of the new file to match Listing 12-9.
 
@@ -114,4 +115,3 @@ In general, using client-side data validation is a good idea. It offloads some o
 When I receive bad credentials, I add an error to the ModelState and re-render the view. This causes a message to be displayed in the validation summary area, which I created by calling the Html.ValidationSummary helper method in the view. This takes care of protecting the SportsStore administration functions. Users will be allowed to access these features only after they have supplied valid credentials and received a cookie, which will be attached to subsequent requests.
 
 ### UNIT TEST: AUTHENTICATION
-
