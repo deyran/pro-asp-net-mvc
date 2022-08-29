@@ -17,4 +17,3 @@ namespace SportsStore.WebUI.Models
         public string Password { get; set; }
     }
 }
-
