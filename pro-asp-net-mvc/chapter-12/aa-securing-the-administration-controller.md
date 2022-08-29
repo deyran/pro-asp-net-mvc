@@ -82,8 +82,36 @@ But there is a problem to use static method inside action methods, it is very di
     </p>  
 
 ### Creating the View
+1. To create the view that will ask the users for their credentials, create the Views/Account folder in the SportsStore.WebUI folder. 
+2. Right-click on the new folder, select Add ➤ MVC 5 View Page (Razor) from the menu, set the name to Login and click OK to create the Login.cshtml file. 
+3. Edit the contents of the new file to match Listing 12-9.
+
+
+Listing 12-9. The Contents of the Login.cshtml File
+
+
 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
-        Creating the Account Controller 312
-            Listing 12-8. The Contents of the AccountController.cs File
+        Creating the View 312
+
+
+
+
+
+This view uses the _AdminLayout.cshtml layout and Bootstrap classes to style the content. There are no new techniques in this view, other than the use of the Html.PasswordFor helper method, which generates an input element whose type attribute is set to password. I describe the complete set of HTML helper methods in Chapter 21. You can see how the view appears by starting the app and navigating to the /Admin/Index URL, as shown in Figure 12-2.
+
+
+Figure 12-2. The Login view
+
+
+The Required attributes that I applied to the properties of the view model are enforced using client-side validation. (Remember that the required JavaScript libraries are included in the _AdminLayout.cshtml layout created in the previous chapter.) Users can submit the form only after they have provided both a username and password, and the authentication is performed at the server when I call the FormsAuthentication.Authenticate method.
+
+
+Caution ■
+In general, using client-side data validation is a good idea. It offloads some of the work from your server and gives users immediate feedback about the data they are providing. however, you should not be tempted to perform authentication at the client, as this would typically involve sending valid credentials to the client so they can be used to check the username and password that the user has entered, or at least trusting the client’s report of whether they have successfully authenticated. Authentication must always be done at the server.
+
+When I receive bad credentials, I add an error to the ModelState and re-render the view. This causes a message to be displayed in the validation summary area, which I created by calling the Html.ValidationSummary helper method in the view. This takes care of protecting the SportsStore administration functions. Users will be allowed to access these features only after they have supplied valid credentials and received a cookie, which will be attached to subsequent requests.
+
+### UNIT TEST: AUTHENTICATION
+
