@@ -82,19 +82,21 @@ But there is a problem to use static method inside action methods, it is very di
     </p>  
 
 ### Creating the View
-1. To create the view that will ask the users for their credentials, create the Views/Account folder in the SportsStore.WebUI folder. 
-    User > credentials > Views/Account > SportsStore.WebUI
-2. Right-click on the new folder, select Add ➤ MVC 5 View Page (Razor) from the menu, set the name to Login and click OK to create the Login.cshtml file. 
-3. Edit the contents of the new file to match Listing 12-9.
-
-
-Listing 12-9. The Contents of the Login.cshtml File
-
+* Now let's create the user authentication view
+    1. Create the *Views/Account* folder in the *SportsStore.WebUI* folder
+    2. Right-click on the new folder, select *Add ➤ MVC 5 View Page (Razor)* from the menu
+    3. Set the name to *Login* and click *OK*. 
+    4. Edit the contents of the new file to match Listing 12-9.
+        <p align="center">
+            <img src="ch12-Pictures/Listing 12-9.png" /><br />
+            <b>Listing 12-9.</b> The Contents of the Login.cshtml File
+        </p>  
 
 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
         Creating the View 312
+            Listing 12-9. The Contents of the Login.cshtml File
 
 
 
