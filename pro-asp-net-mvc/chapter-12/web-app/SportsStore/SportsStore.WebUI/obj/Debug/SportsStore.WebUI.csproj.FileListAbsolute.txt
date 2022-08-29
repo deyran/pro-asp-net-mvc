@@ -721,7 +721,6 @@ C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\System.Web.Helpers.xml
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\System.Web.Mvc.xml
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
-C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.AssemblyReference.cache
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CoreCompileInputs.cache
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll

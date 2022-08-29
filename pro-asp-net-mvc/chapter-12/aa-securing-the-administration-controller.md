@@ -92,20 +92,17 @@ But there is a problem to use static method inside action methods, it is very di
             <b>Listing 12-9.</b> The Contents of the Login.cshtml File
         </p>  
 
+* You can see how the view appears by starting the app and navigating to the */Admin/Index* URL, as shown in Figure 12-2.
+    <p align="center">
+        <img src="ch12-Pictures/Figure 12-2.png" /><br />
+        <b>Figure 12-2.</b> The Login view
+    </p>  
 
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
         Creating the View 312
-            Listing 12-9. The Contents of the Login.cshtml File
+            Figure 12-2. The Login view
 
-
-
-
-
-This view uses the _AdminLayout.cshtml layout and Bootstrap classes to style the content. There are no new techniques in this view, other than the use of the Html.PasswordFor helper method, which generates an input element whose type attribute is set to password. I describe the complete set of HTML helper methods in Chapter 21. You can see how the view appears by starting the app and navigating to the /Admin/Index URL, as shown in Figure 12-2.
-
-
-Figure 12-2. The Login view
 
 
 The Required attributes that I applied to the properties of the view model are enforced using client-side validation. (Remember that the required JavaScript libraries are included in the _AdminLayout.cshtml layout created in the previous chapter.) Users can submit the form only after they have provided both a username and password, and the authentication is performed at the server when I call the FormsAuthentication.Authenticate method.
