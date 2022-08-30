@@ -103,7 +103,8 @@ But there is a problem to use static method inside action methods, it is very di
 * https://social.msdn.microsoft.com/Forums/en-US/df8e2c3f-9049-4715-ae78-c8d39a54455b/redirect-is-not-working-with-me-in-forms-authentication?forum=aspsecurity
 * https://social.msdn.microsoft.com/Forums/en-US/f0b14042-63b4-49d2-bc4e-732925e72229/the-resource-cannot-be-found?forum=aspsecurity
 * https://social.msdn.microsoft.com/Forums/en-US/6df625e5-fb6e-48ce-b8c3-82e302a71845/the-resource-cannot-be-found?forum=aspgettingstarted
-
+* https://stackoverflow.com/questions/29076797/net-forms-mysqlconnection-404-error
+* https://stackoverflow.com/questions/4502350/asp-net-mvc-forms-authentication-redirect-from-areas
 
 
 
