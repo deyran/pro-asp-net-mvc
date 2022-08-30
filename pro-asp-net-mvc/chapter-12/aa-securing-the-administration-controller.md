@@ -99,21 +99,19 @@ But there is a problem to use static method inside action methods, it is very di
     </p>  
 
 
-* https://social.msdn.microsoft.com/Forums/en-US/7a2dcf3f-7771-4829-b29c-fa5ccdc2c29b/help-please-http-404?forum=aspconfiganddeploy
-* https://social.msdn.microsoft.com/Forums/en-US/df8e2c3f-9049-4715-ae78-c8d39a54455b/redirect-is-not-working-with-me-in-forms-authentication?forum=aspsecurity
-* https://social.msdn.microsoft.com/Forums/en-US/f0b14042-63b4-49d2-bc4e-732925e72229/the-resource-cannot-be-found?forum=aspsecurity
-* https://social.msdn.microsoft.com/Forums/en-US/6df625e5-fb6e-48ce-b8c3-82e302a71845/the-resource-cannot-be-found?forum=aspgettingstarted
-* https://stackoverflow.com/questions/29076797/net-forms-mysqlconnection-404-error
-* https://stackoverflow.com/questions/4502350/asp-net-mvc-forms-authentication-redirect-from-areas
-* https://social.msdn.microsoft.com/Forums/en-US/7c80a2af-1c0f-4222-8742-c3c5a922362a/loginstatus-redirects-to-wrong-page?forum=aspsecurity
-* https://www.nopcommerce.com/en/boards/topic/17956/help-i-broken-routing
-
-
-
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
         Creating the View 312
             Figure 12-2. The Login view
+
+Erro de Servidor no Aplicativo '/'.
+    > https://www.codeproject.com/Articles/1105184/ASP-NET-MVC-Building-Your-First-Web-Application-Pa
+    > https://dotnettutorials.net/lesson/forms-authentication-in-mvc/
+    > https://docs.xperience.io/k82/securing-websites/deploying-websites-to-a-secure-environment/web-config-file-settings
+
+
+ASP.NET AND "Mvc 5" and "Web.config" and "authentication mode" and Forms and loginUrl
+https://www.google.com/search?q=ASP.NET+AND+%22Mvc+5%22+and+%22Web.config%22+and+%22authentication+mode%22+and+Forms+and+loginUrl&sxsrf=ALiCzsaLN-S_9i5gEIB6wj5iqo5WevmiKQ:1661888836255&ei=RGkOY8mPD-mL5OUP94ixqA0&start=10&sa=N&ved=2ahUKEwjJwfatqu_5AhXpBbkGHXdEDNUQ8tMDegQIARA8&biw=1366&bih=635&dpr=1
 
 
 
