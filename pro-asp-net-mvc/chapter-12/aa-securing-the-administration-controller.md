@@ -105,6 +105,8 @@ But there is a problem to use static method inside action methods, it is very di
 * https://social.msdn.microsoft.com/Forums/en-US/6df625e5-fb6e-48ce-b8c3-82e302a71845/the-resource-cannot-be-found?forum=aspgettingstarted
 * https://stackoverflow.com/questions/29076797/net-forms-mysqlconnection-404-error
 * https://stackoverflow.com/questions/4502350/asp-net-mvc-forms-authentication-redirect-from-areas
+* https://social.msdn.microsoft.com/Forums/en-US/7c80a2af-1c0f-4222-8742-c3c5a922362a/loginstatus-redirects-to-wrong-page?forum=aspsecurity
+* https://www.nopcommerce.com/en/boards/topic/17956/help-i-broken-routing
 
 
 
