@@ -98,6 +98,15 @@ But there is a problem to use static method inside action methods, it is very di
         <b>Figure 12-2.</b> The Login view
     </p>  
 
+
+* https://social.msdn.microsoft.com/Forums/en-US/7a2dcf3f-7771-4829-b29c-fa5ccdc2c29b/help-please-http-404?forum=aspconfiganddeploy
+* https://social.msdn.microsoft.com/Forums/en-US/df8e2c3f-9049-4715-ae78-c8d39a54455b/redirect-is-not-working-with-me-in-forms-authentication?forum=aspsecurity
+* https://social.msdn.microsoft.com/Forums/en-US/f0b14042-63b4-49d2-bc4e-732925e72229/the-resource-cannot-be-found?forum=aspsecurity
+* https://social.msdn.microsoft.com/Forums/en-US/6df625e5-fb6e-48ce-b8c3-82e302a71845/the-resource-cannot-be-found?forum=aspgettingstarted
+
+
+
+
 chapter 12 - SportsStore: Security & Finishing Touches
     Securing the Administration Controller
         Creating the View 312
