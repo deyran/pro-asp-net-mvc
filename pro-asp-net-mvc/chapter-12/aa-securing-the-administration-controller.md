@@ -99,15 +99,19 @@ But there is a problem to use static method inside action methods, it is very di
     </p>  
 
 
-chapter 12 - SportsStore: Security & Finishing Touches
-    Securing the Administration Controller
-        Creating the View 312
-            Figure 12-2. The Login view
+    chapter 12 - SportsStore: Security & Finishing Touches
+        Securing the Administration Controller
+            Creating the View 312
+                Figure 12-2. The Login view
 
-Erro de Servidor no Aplicativo '/'.
-    > https://www.codeproject.com/Articles/1105184/ASP-NET-MVC-Building-Your-First-Web-Application-Pa
-    > https://dotnettutorials.net/lesson/forms-authentication-in-mvc/
-    > https://docs.xperience.io/k82/securing-websites/deploying-websites-to-a-secure-environment/web-config-file-settings
+
+stackoverflow
+> https://stackoverflow.com/questions/27549248/authorizeattribute-keeps-redirecting-to-account-login
+> https://stackoverflow.com/questions/17709020/asp-net-mvc-5-visual-studio-2013-preview-change-login-url-for-authorize/61230223#61230223
+> https://stackoverflow.com/questions/6073445/mvc-forms-loginurl-is-incorrect/61229863#61229863
+> https://stackoverflow.com/questions/42313571/the-name-viewbag-does-not-exist-in-the-current-context-upon-server-deploy-m
+> https://stackoverflow.com/questions/30898523/net-mvc-web-api-attribute-routing-triggers-download
+> https://stackoverflow.com/questions/42988312/asp-net-mvc-owin-allowing-windows-individual-authentication    
 
 
 ASP.NET AND "Mvc 5" and "Web.config" and "authentication mode" and Forms and loginUrl

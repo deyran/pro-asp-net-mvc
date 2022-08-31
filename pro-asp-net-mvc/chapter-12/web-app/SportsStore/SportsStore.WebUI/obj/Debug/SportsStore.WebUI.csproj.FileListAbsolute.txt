@@ -635,7 +635,6 @@ C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.csproj.CopyComplete
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.dll
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-11\BB - IMPLEMENTATION\SportsStore\SportsStore.WebUI\obj\Debug\SportsStore.WebUI.pdb
-C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll.config
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.dll
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\SportsStore.WebUI.pdb
@@ -688,6 +687,7 @@ C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\roslyn\vbc.rsp
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\roslyn\VBCSCompiler.exe.config
+C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\EntityFramework.dll
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\EntityFramework.SqlServer.dll
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.WebUI\bin\Microsoft.Web.Infrastructure.dll
