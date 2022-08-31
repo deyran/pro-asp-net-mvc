@@ -99,10 +99,10 @@ But there is a problem to use static method inside action methods, it is very di
     </p>  
 
 
-    chapter 12 - SportsStore: Security & Finishing Touches
-        Securing the Administration Controller
-            Creating the View 312
-                Figure 12-2. The Login view
+chapter 12 - SportsStore: Security & Finishing Touches
+    Securing the Administration Controller
+        Creating the View 312
+            Figure 12-2. The Login view
 
 
 stackoverflow
@@ -113,6 +113,9 @@ stackoverflow
 > https://stackoverflow.com/questions/30898523/net-mvc-web-api-attribute-routing-triggers-download
 > https://stackoverflow.com/questions/42988312/asp-net-mvc-owin-allowing-windows-individual-authentication    
 
+
+"~/Account/Login" and "MVC 5" and "Web.config" and Forms -Core
+https://www.google.com/search?q=%22~%2FAccount%2FLogin%22+and+%22MVC+5%22+and+%22Web.config%22+and+Forms+-Core&oq=%22~%2FAccount%2FLogin%22+and+%22MVC+5%22+and+%22Web.config%22+and+Forms+-Core&aqs=chrome..69i57j69i60.736j0j4&sourceid=chrome&ie=UTF-8
 
 ASP.NET AND "Mvc 5" and "Web.config" and "authentication mode" and Forms and loginUrl
 https://www.google.com/search?q=ASP.NET+AND+%22Mvc+5%22+and+%22Web.config%22+and+%22authentication+mode%22+and+Forms+and+loginUrl&sxsrf=ALiCzsaLN-S_9i5gEIB6wj5iqo5WevmiKQ:1661888836255&ei=RGkOY8mPD-mL5OUP94ixqA0&start=10&sa=N&ved=2ahUKEwjJwfatqu_5AhXpBbkGHXdEDNUQ8tMDegQIARA8&biw=1366&bih=635&dpr=1
