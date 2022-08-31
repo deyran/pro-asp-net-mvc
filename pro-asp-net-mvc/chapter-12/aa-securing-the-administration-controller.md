@@ -106,12 +106,7 @@ chapter 12 - SportsStore: Security & Finishing Touches
 
 
 stackoverflow
-> https://stackoverflow.com/questions/27549248/authorizeattribute-keeps-redirecting-to-account-login
-> https://stackoverflow.com/questions/17709020/asp-net-mvc-5-visual-studio-2013-preview-change-login-url-for-authorize/61230223#61230223
-> https://stackoverflow.com/questions/6073445/mvc-forms-loginurl-is-incorrect/61229863#61229863
-> https://stackoverflow.com/questions/42313571/the-name-viewbag-does-not-exist-in-the-current-context-upon-server-deploy-m
-> https://stackoverflow.com/questions/30898523/net-mvc-web-api-attribute-routing-triggers-download
-> https://stackoverflow.com/questions/42988312/asp-net-mvc-owin-allowing-windows-individual-authentication    
+"HTTP 404" and "Web.config" and "~/Account/Login"
 
 
 "~/Account/Login" and "MVC 5" and "Web.config" and Forms -Core
