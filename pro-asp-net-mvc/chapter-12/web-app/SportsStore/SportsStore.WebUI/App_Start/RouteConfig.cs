@@ -50,11 +50,12 @@ namespace SportsStore.WebUI
                 new { page = @"\d+" }
             );
 
+            /*
             routes.MapRoute(
                 null,
                 url: "{controller}/{action}",
                 defaults: new { controller = "Account", action = "Login" }
-            );
+            );*/
 
             routes.MapRoute(
                 name: "Default",
