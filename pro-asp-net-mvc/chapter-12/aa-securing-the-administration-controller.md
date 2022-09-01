@@ -105,12 +105,44 @@ chapter 12 - SportsStore: Security & Finishing Touches
             Figure 12-2. The Login view
 
 
-> stackoverflow
-"HTTP 404" and "Web.config" and "~/Account/Login"
-
-
 > "~/Account/Login" and "MVC 5" and "Web.config" and Forms -Core
 https://www.google.com/search?q=%22~%2FAccount%2FLogin%22+and+%22MVC+5%22+and+%22Web.config%22+and+Forms+-Core&oq=%22~%2FAccount%2FLogin%22+and+%22MVC+5%22+and+%22Web.config%22+and+Forms+-Core&aqs=chrome..69i57j69i60.736j0j4&sourceid=chrome&ie=UTF-8
+
+
+
+
+
+
+
+
+<configuration>
+   <system.web>
+      <authentication mode="Forms">
+         <forms loginUrl="~/Account/Login" timeout="2880" />
+      </authentication>
+      <!-- This section denies access to all files in this application except for those that you have not explicitly specified by using another setting. -->
+      <authorization>
+        <deny users="?" /> 
+      </authorization>
+   </system.web>
+   <!-- This section gives the unauthenticated user access to the Default1.aspx page only. It is located in the same folder as this configuration file. -->
+   <location path="default1.aspx">
+      <system.web>
+         <authorization>
+            <allow users ="*" />
+         </authorization>
+      </system.web>
+   </location>
+</configuration>
+
+
+
+
+
+
+
+
+
 
 
 > OWIN forms authentication
