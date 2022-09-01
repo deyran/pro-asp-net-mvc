@@ -104,18 +104,7 @@ chapter 12 - SportsStore: Security & Finishing Touches
             Figure 12-2. The Login view
 
 
-
-[Authorize] attribute and web.config and users authentication site:stackoverflow.com
-
-
-"~/Account/Login" and "MVC 5" and "Web.config" and Forms -Core
-
-"~/Account/Login" and "MVC 5" and "Web.config" and Forms -Core site:stackoverflow.com
-
-
-
-
-
+"Authorize" and MVC 5 and "Server Error in '/' Application."
 
 
 The Required attributes that I applied to the properties of the view model are enforced using client-side validation. (Remember that the required JavaScript libraries are included in the _AdminLayout.cshtml layout created in the previous chapter.) Users can submit the form only after they have provided both a username and password, and the authentication is performed at the server when I call the FormsAuthentication.Authenticate method.
