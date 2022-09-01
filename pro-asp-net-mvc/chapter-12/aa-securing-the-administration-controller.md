@@ -104,7 +104,7 @@ chapter 12 - SportsStore: Security & Finishing Touches
             Figure 12-2. The Login view
 
 
-"Authorize" and MVC 5 and "Server Error in '/' Application."
+authentication and Forms and "Authorize Attribute" and "MVC 5" and "Server Error in '/' Application."
 
 
 The Required attributes that I applied to the properties of the view model are enforced using client-side validation. (Remember that the required JavaScript libraries are included in the _AdminLayout.cshtml layout created in the previous chapter.) Users can submit the form only after they have provided both a username and password, and the authentication is performed at the server when I call the FormsAuthentication.Authenticate method.
