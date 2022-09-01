@@ -105,10 +105,12 @@ chapter 12 - SportsStore: Security & Finishing Touches
 
 
 
-[Authorize] attribute and web.config and users authentication
+[Authorize] attribute and web.config and users authentication site:stackoverflow.com
 
 
+"~/Account/Login" and "MVC 5" and "Web.config" and Forms -Core
 
+"~/Account/Login" and "MVC 5" and "Web.config" and Forms -Core site:stackoverflow.com
 
 
 
