@@ -112,6 +112,110 @@ chapter 12 - SportsStore: Security & Finishing Touches
 
 
 
+
+
+
+// AccountController
+
+
+using System.Web.Mvc;
+using SportsStore.WebUI.Infrastructure.Abstract;
+using SportsStore.WebUI.Models;
+
+namespace SportsStore.WebUI.Controllers
+{
+    /*
+    chapter 12 - SportsStore: Security & Finishing Touches
+        Securing the Administration Controller
+            Creating the Account Controller 312
+                Listing 12-8. The Contents of the AccountController.cs File
+     */
+    public class AccountController : Controller
+    {
+        IAuthProvider authProvider;
+
+        public AccountController(IAuthProvider auth)
+        {
+            authProvider = auth;
+        }
+
+        [HttpPost]
+        public ActionResult Login(LoginViewModel model, string returnUrl)
+        {
+            if (authProvider.Authenticate(model.UserName, model.Password))
+            {
+                return Redirect(returnUrl ?? Url.Action("Index", "Admin"));
+            }
+            else
+            {
+                return View();
+            }
+        }
+    }
+}
+
+
+
+// Login
+@model SportsStore.WebUI.Models.LoginViewModel
+
+@{
+    /*
+    chapter 12 - SportsStore: Security & Finishing Touches
+        Securing the Administration Controller
+            Creating the View 312
+                Listing 12-9. The Contents of the Login.cshtml File
+   */
+
+    ViewBag.Title = "Admin: Log In";
+    Layout = "~/Views/Shared/_AdminLayout.cshtml";
+}
+
+<div class="panel">
+<div class="panel-heading">
+<h3> Log In</h3>
+</div>
+<div class="panel-body">
+<p class="lead">Please log in to access the administration area:</p>
+@using (Html.BeginForm()) {
+@Html.ValidationSummary()
+<div class="form-group">
+<label>User Name:</label>
+@Html.TextBoxFor(m => m.UserName, new { @class = "form-control" })
+</div>
+<div class="form-group">
+<label>Password:</label>
+@Html.PasswordFor(m => m.Password, new { @class = "form-control" })
+</div>
+<input type="submit" value="Log in" class="btn btn-primary"/>
+}
+</div>
+</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 The Required attributes that I applied to the properties of the view model are enforced using client-side validation. (Remember that the required JavaScript libraries are included in the _AdminLayout.cshtml layout created in the previous chapter.) Users can submit the form only after they have provided both a username and password, and the authentication is performed at the server when I call the FormsAuthentication.Authenticate method.
 
 
