@@ -190,7 +190,6 @@ C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.xml
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Deployment.xml
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.Domain\bin\Debug\System.Web.WebPages.Razor.xml
-C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.AssemblyReference.cache
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CoreCompileInputs.cache
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.csproj.CopyComplete
 C:\github-project\asp-net-issues\pro-asp-net-mvc\chapter-12\web-app\SportsStore\SportsStore.Domain\obj\Debug\SportsStore.Domain.dll

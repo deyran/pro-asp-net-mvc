@@ -31,7 +31,7 @@ namespace SportsStore.WebUI.Controllers
                 Listing 12-3. Adding the Authorize Attribute in the AdminController.cs File
      */
 
-    //[Authorize]
+    [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository repository;

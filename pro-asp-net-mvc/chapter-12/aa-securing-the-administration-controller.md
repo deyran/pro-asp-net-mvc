@@ -92,7 +92,7 @@ But there is a problem to use static method inside action methods, it is very di
             <b>Listing 12-9.</b> The Contents of the Login.cshtml File
         </p>  
 
-* You can see how the view appears by starting the app and navigating to the */Admin/Index* URL, as shown in Figure 12-2.
+* You can see how the vie   w appears by starting the app and navigating to the */Admin/Index* URL, as shown in Figure 12-2.
     <p align="center">
         <img src="ch12-Pictures/Figure 12-2.png" /><br />
         <b>Figure 12-2.</b> The Login view
@@ -104,7 +104,7 @@ chapter 12 - SportsStore: Security & Finishing Touches
             Figure 12-2. The Login view
 
 
-"Authorize Attribute" and "MVC 5" and "HTTP 404" -Core
+"Asp.Net" and "Mvc 5" and Controller and "HTTP 404" an "not found"
 
 
 The Required attributes that I applied to the properties of the view model are enforced using client-side validation. (Remember that the required JavaScript libraries are included in the _AdminLayout.cshtml layout created in the previous chapter.) Users can submit the form only after they have provided both a username and password, and the authentication is performed at the server when I call the FormsAuthentication.Authenticate method.
