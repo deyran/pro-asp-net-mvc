@@ -19,7 +19,7 @@ namespace SportsStore.WebUI.Controllers
             authProvider = auth;
         }
 
-        [HttpPost]
+        [HttpGet]
         public ActionResult Login(LoginViewModel model, string returnUrl)
         {
             if (authProvider.Authenticate(model.UserName, model.Password))
