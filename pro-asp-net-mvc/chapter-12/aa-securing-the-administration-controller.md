@@ -105,6 +105,11 @@ chapter 12 - SportsStore: Security & Finishing Touches
 
 
 "Asp.Net" and "Mvc 5" and Controller and "HTTP 404" an "not found"
+    Server Error in '/' Application.        The resource cannot be found.
+
+> https://www.zditect.com/blog/50148084.html
+> https://bitcoden.com/answers/routing-for-custom-aspnet-mvc-404-error-page
+
 
 
 The Required attributes that I applied to the properties of the view model are enforced using client-side validation. (Remember that the required JavaScript libraries are included in the _AdminLayout.cshtml layout created in the previous chapter.) Users can submit the form only after they have provided both a username and password, and the authentication is performed at the server when I call the FormsAuthentication.Authenticate method.
