@@ -19,7 +19,8 @@ namespace SportsStore.WebUI.Controllers
             authProvider = auth;
         }
 
-        [HttpGet]
+       // [HttpPost]
+       [HttpGet]
         public ActionResult Login(LoginViewModel model, string returnUrl)
         {
             if (authProvider.Authenticate(model.UserName, model.Password))
@@ -30,6 +31,12 @@ namespace SportsStore.WebUI.Controllers
             {
                 return View();
             }
+        }
+
+        [HttpGet]
+        public ActionResult Login()
+        {
+            return Content("Hi there!");
         }
     }
 }
