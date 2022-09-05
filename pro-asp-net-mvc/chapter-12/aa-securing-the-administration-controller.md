@@ -81,6 +81,13 @@ But there is a problem to use static method inside action methods, it is very di
         <b>Listing 12-8.</b> The Contents of the AccountController.cs File
     </p>  
 
+
+chapter 12 - SportsStore: Security & Finishing Touches
+    Securing the Administration Controller
+        Creating the Account Controller
+            Listing 12-8. The Contents of the AccountController.cs File
+
+
 ### Creating the View
 * Now let's create the user authentication view
     1. Create the *Views/Account* folder in the *SportsStore.WebUI* folder
@@ -103,6 +110,8 @@ chapter 12 - SportsStore: Security & Finishing Touches
         Creating the View 312
             Figure 12-2. The Login view
 
+
+https://social.technet.microsoft.com/wiki/contents/articles/51912.entity-framework-and-asp-net-mvc-5-building-web-application-part-2.aspx
 
 
 The Required attributes that I applied to the properties of the view model are enforced using client-side validation. (Remember that the required JavaScript libraries are included in the _AdminLayout.cshtml layout created in the previous chapter.) Users can submit the form only after they have provided both a username and password, and the authentication is performed at the server when I call the FormsAuthentication.Authenticate method.
