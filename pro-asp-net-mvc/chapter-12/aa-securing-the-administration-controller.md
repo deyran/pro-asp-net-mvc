@@ -108,5 +108,4 @@ The purpose of this test is to verify whether the user gets authentication or no
 
 # SportsStore: Security & Finishing Touches
     ## Securing the Administration Controller
-        ### UNIT TEST: AUTHENTICATION 314
-            
+        ### UNIT TEST: AUTHENTICATION 314            
