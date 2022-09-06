@@ -100,7 +100,13 @@ But there is a problem to use static method inside action methods, it is very di
     </p>  
 
 ### UNIT TEST: AUTHENTICATION
+The purpose of this test is to verify whether the user gets authentication or not, after providing the credentials. Now create a new unit tests called AdminSecurityTests.cs, edit it to match the code below:
+<p align="center">
+    <img src="ch12-Pictures/UT_AUTHENTICATION.png" /><br />
+    UNIT TEST: AUTHENTICATION
+</p>  
 
 # SportsStore: Security & Finishing Touches
     ## Securing the Administration Controller
         ### UNIT TEST: AUTHENTICATION 314
+            
