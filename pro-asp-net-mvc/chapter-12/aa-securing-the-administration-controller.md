@@ -99,12 +99,8 @@ But there is a problem to use static method inside action methods, it is very di
         <b>Figure 12-2.</b> The Login view
     </p>  
 
-The Required attributes that I applied to the properties of the view model are enforced using client-side validation. (Remember that the required JavaScript libraries are included in the _AdminLayout.cshtml layout created in the previous chapter.) Users can submit the form only after they have provided both a username and password, and the authentication is performed at the server when I call the FormsAuthentication.Authenticate method.
-
-
-Caution ■
-In general, using client-side data validation is a good idea. It offloads some of the work from your server and gives users immediate feedback about the data they are providing. however, you should not be tempted to perform authentication at the client, as this would typically involve sending valid credentials to the client so they can be used to check the username and password that the user has entered, or at least trusting the client’s report of whether they have successfully authenticated. Authentication must always be done at the server.
-
-When I receive bad credentials, I add an error to the ModelState and re-render the view. This causes a message to be displayed in the validation summary area, which I created by calling the Html.ValidationSummary helper method in the view. This takes care of protecting the SportsStore administration functions. Users will be allowed to access these features only after they have supplied valid credentials and received a cookie, which will be attached to subsequent requests.
-
 ### UNIT TEST: AUTHENTICATION
+
+# SportsStore: Security & Finishing Touches
+    ## Securing the Administration Controller
+        ### UNIT TEST: AUTHENTICATION 314
