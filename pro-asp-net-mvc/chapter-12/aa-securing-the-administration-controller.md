@@ -104,8 +104,4 @@ The purpose of this test is to verify whether the user gets authentication or no
 <p align="center">
     <img src="ch12-Pictures/UT_AUTHENTICATION.png" /><br />
     UNIT TEST: AUTHENTICATION
-</p>  
-
-# SportsStore: Security & Finishing Touches
-    ## Securing the Administration Controller
-        ### UNIT TEST: AUTHENTICATION 314            
+</p>             
