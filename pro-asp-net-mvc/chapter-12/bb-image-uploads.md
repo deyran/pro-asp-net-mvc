@@ -22,11 +22,21 @@ ALTER TABLE [dbo].[Products] ADD
     <b>Figure 12-3.</b> Adding columns to the database
 </p>  
 
-# Image Uploads 
-## Extending the Database 316
-Figure 12-3. Adding columns to the database
-
 ## Enhancing the Domain Model 
+It is now necessary to add two new fields to the *Products* class in the *SportsStore.Domain* project that correspond to the new database columns, as shown in Listing 12-10.
+<p align="center">
+    <img src="ch12-Pictures/Listing 12-10.png" /><br />
+    <b>Listing 12-10.</b> Adding Properties in the Product.cs File
+</p>  
+
+
+
+
+# Image Uploads 
+## Enhancing the Domain Model 316
+Listing 12-10. Adding Properties in the Product.cs File
+
+
 ## Creating the Upload User Interface Elements
 ## Saving Images to the Database
 ## Implementing the GetImage Action Method
