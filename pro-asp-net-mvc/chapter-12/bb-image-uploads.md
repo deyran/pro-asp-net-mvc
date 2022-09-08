@@ -32,7 +32,7 @@ It is now necessary to add two new fields to the *Products* class in the *Sports
 ## Creating the Upload User Interface Elements
 The next step is to add support for handling file uploads. Modify the *Views/Admin/Edit.cshtml* view so that it matches Listing 12-11.
 <p align="center">
-    <img src="ch12-Pictures/Listing 12-1.png" /><br />
+    <img src="ch12-Pictures/Listing 12-11.png" /><br />
     <b>Listing 12-11.</b> Adding Properties in the Product.cs File
 </p>  
 
