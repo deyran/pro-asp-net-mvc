@@ -8,17 +8,23 @@ In this section, the SportStore user experience will be increased with addition 
 In the *Visual Studio* follow these steps to extending the data base:
 1. Open the *Server Explorer* windows (*CTRL + ALT + S*)
 2. Open *EFDbContext* > Tables > *Products*
-3. Right-click on the Products table and select New Query from the pop-up menu and enter the following SQL into the text area:
+3. Right-click on the *Products* table and select *New Query* from the pop-up menu and enter the following SQL into the text area:
 ```
 ALTER TABLE [dbo].[Products] ADD 
     [ImageData] VARBINARY (MAX) NULL,
     [ImageMimeType] VARCHAR (50) NULL;
 ```
-
-Click the Execute button (which is marked with an arrow) in the top-left cover of the window and Visual Studio will update the database, adding two new columns to the table. To test the update, right-click on the Products table in the Server Explorer window and select Open Table Definition from the menu. You will see that there are now columns called ImageData and ImageMimeType, as shown in Figure 12-3.
+4. Click the Execute button (*CTRL + SHIFT + e*)
+5. Right-click on the Products table (*Server Explorer*) and select *Open Table Definition* from the menu
+6. You will see that there are now columns called *ImageData* and *ImageMimeType*, as shown in Figure 12-3.
+<p align="center">
+    <img src="ch12-Pictures/Figure 12-3.png" /><br />
+    <b>Figure 12-3.</b> Adding columns to the database
+</p>  
 
 # Image Uploads 
 ## Extending the Database 316
+Figure 12-3. Adding columns to the database
 
 ## Enhancing the Domain Model 
 ## Creating the Upload User Interface Elements
