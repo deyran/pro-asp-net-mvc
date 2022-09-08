@@ -4,16 +4,18 @@ In this section, the SportStore user experience will be increased with addition 
 2. Store these images in the database
 3. Displaying these images in the product catalog
 
-## Extending the Database 
-1. Open the Visual Studio Server Explorer window and navigate to the Products table in the database created in Chapter 7. 
-    Visual Studio > Server Explorer Window > Product table
+## Extending the Database
+In the *Visual Studio* follow these steps to extending the data base:
+1. Open the *Server Explorer* windows (*CTRL + ALT + S*)
+2. Open *EFDbContext* > Tables > *Products*
+3. Right-click on the Products table and select New Query from the pop-up menu and enter the following SQL into the text area:
+```
+ALTER TABLE [dbo].[Products] ADD 
+    [ImageData] VARBINARY (MAX) NULL,
+    [ImageMimeType] VARCHAR (50) NULL;
+```
 
-2. The name of the data connection may have changed to be EFDbContext, which is the name assigned to the connection in the Web.config file.
-    Data connection > EFDbContext > Same name assigned in the Web.config file
-
-3. Visual Studio is a little bit inconsistent about when it renames the connection, so you might also see the original name that was shown when the connection was created. 
-
-4. Right-click on the Products table and select New Query from the pop-up menu and enter the following SQL into the text area:
+Click the Execute button (which is marked with an arrow) in the top-left cover of the window and Visual Studio will update the database, adding two new columns to the table. To test the update, right-click on the Products table in the Server Explorer window and select Open Table Definition from the menu. You will see that there are now columns called ImageData and ImageMimeType, as shown in Figure 12-3.
 
 # Image Uploads 
 ## Extending the Database 316
