@@ -7,6 +7,7 @@ namespace SportsStore.Domain.Entities
     BB STARTING THE DOMAIN MODEL
         Listing 7-3. The Contents of the Products.cs file
 
+
     CHAPTER 11 - SPORTSSTORE - ADMINISTRATION
         ADDING CATALOG MANAGEMENT
             EDITING PRODUCTS
@@ -15,6 +16,13 @@ namespace SportsStore.Domain.Entities
 
                 ADDING MODEL VALIDATION 294
                     Listing 11-13. Applying Validation Attributes to the Product.cs File
+
+
+    CHAPTER 12 - SportsStore: Security & Finishing Touches
+        # Image Uploads 
+            ## Enhancing the Domain Model 316
+                Listing 12-10. Adding Properties in the Product.cs File
+
     */
     public class Product
     {
@@ -34,6 +42,8 @@ namespace SportsStore.Domain.Entities
 
         [Required(ErrorMessage = "Please specify a category")]
         public string Category { get; set; }
+
+        public byte[] ImageData { get; set; }
+        public string ImageMimeType { get; set; }
     }
 }
-

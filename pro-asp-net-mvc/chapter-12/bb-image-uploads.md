@@ -31,7 +31,7 @@ It is now necessary to add two new fields to the *Products* class in the *Sports
 
 
 
-
+CHAPTER 12 - SportsStore: Security & Finishing Touches
 # Image Uploads 
 ## Enhancing the Domain Model 316
 Listing 12-10. Adding Properties in the Product.cs File
