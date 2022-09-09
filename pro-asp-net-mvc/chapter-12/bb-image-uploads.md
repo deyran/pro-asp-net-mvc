@@ -36,13 +36,24 @@ The next step is to add support for handling file uploads. Modify the *Views/Adm
     <b>Listing 12-11.</b> Adding Properties in the Product.cs File
 </p>  
 
+## Saving Images to the Database
+* Let's edit the POST version of the *Edit* action method in the Adming controller, to take the image data and save it in the database. Listing 12-12 shows the changes that are required.
+<p align="center">
+    <img src="ch12-Pictures/Listing 12-12.png" /><br />
+    <b>Listing 12-12.</b> Handling Image Data in the AdminController.cs File
+</p>  
+
+* XXXXXXXXXXXXX
+
+1. I must also update the EFProductRepository class in the SportsStore.Domain project to ensure that the values assigned to the ImageData and ImageMimeType properties are stored in the database. 
+
+2. Listing 12-13 shows the required changes to the SaveProduct method.
 
 CHAPTER 12 - SportsStore: Security & Finishing Touches
 # Image Uploads 
-## Creating the Upload User Interface Elements
-Listing 12-11. Adding Support for Images in the Edit.cshtml File
-
-
 ## Saving Images to the Database
+Listing 12-12. Handling Image Data in the AdminController.cs File
+
+
 ## Implementing the GetImage Action Method
 ## Displaying Product Images
