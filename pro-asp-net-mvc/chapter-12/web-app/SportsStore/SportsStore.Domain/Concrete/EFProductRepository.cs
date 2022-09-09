@@ -15,6 +15,11 @@ namespace SportsStore.Domain.Concrete
                 Listing 11-10. Implementing the SaveProduct Method in the EFProductRepository.cs File
             DELETING PRODUCTS - 300
                 Listing 11-19. Implementing Deletion Support in the EFProductRepository.cs File
+
+    CHAPTER 12 - SportsStore: Security & Finishing Touches
+        # Image Uploads 
+            ## Saving Images to the Database
+                Listing 12-13. Ensuring That the Image Values Are Stored in the Database in the EFProductRepository.cs File
     */
     public class EFProductRepository : IProductRepository
     {
@@ -36,6 +41,8 @@ namespace SportsStore.Domain.Concrete
                     dbEntry.Description = product.Description;
                     dbEntry.Price = product.Price;
                     dbEntry.Category = product.Category;
+                    dbEntry.ImageData = product.ImageData;
+                    dbEntry.ImageMimeType = product.ImageMimeType;
                 }
             }
 
