@@ -43,18 +43,24 @@ The next step is to add support for handling file uploads. Modify the *Views/Adm
     <b>Listing 12-12.</b> Handling Image Data in the AdminController.cs File
 </p>  
 
-* Edit the EFProductRepository class (SportsStore.Domain) to store in the database values assigned to the ImageData and ImageMimeType properties. Listing 12-13 shows the required changes to the SaveProduct method.
+* Edit the EFProductRepository class (SportsStore.Domain project) to store in the database values assigned to the ImageData and ImageMimeType properties. Listing 12-13 shows the required changes to the SaveProduct method.
 <p align="center">
     <img src="ch12-Pictures/Listing 12-13.png" /><br />
     <b>Listing 12-13.</b> Ensuring That the Image Values Are Stored in the Database in the EFProductRepository.cs File
 </p>  
 
+## Implementing the GetImage Action Method
+To display images contained in the database, you need to implement the GetImage action method on the Product controller (seen in Listing 12-11). Listing 12-14 shows the definition of the action method.
+<p align="center">
+    <img src="ch12-Pictures/Listing 12-14.png" /><br />
+    <b>Listing 12-14.</b> The GetImage Action Method in the ProductController.cs File
+</p>  
+
 
 CHAPTER 12 - SportsStore: Security & Finishing Touches
 # Image Uploads 
-## Saving Images to the Database
-Listing 12-13. Ensuring That the Image Values Are Stored in the Database in the EFProductRepository.cs File
-
-
 ## Implementing the GetImage Action Method
+Listing 12-14. The GetImage Action Method in the ProductController.cs File
+
+
 ## Displaying Product Images
