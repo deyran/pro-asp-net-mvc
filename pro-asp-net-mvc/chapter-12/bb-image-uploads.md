@@ -56,11 +56,9 @@ To display images contained in the database, you need to implement the GetImage 
     <b>Listing 12-14.</b> The GetImage Action Method in the ProductController.cs File
 </p>  
 
+## Displaying Product Images
+
 
 CHAPTER 12 - SportsStore: Security & Finishing Touches
 # Image Uploads 
-## Implementing the GetImage Action Method
-Listing 12-14. The GetImage Action Method in the ProductController.cs File
-
-
 ## Displaying Product Images
