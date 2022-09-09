@@ -27,6 +27,12 @@ namespace SportsStore.WebUI.Controllers
 
 	    CORRECTING THE PAGE COUNT
 		    Listing 8-11. Creating Category-Aware Pagination Data in the ProductController.cs File
+
+
+    CHAPTER 12 - SportsStore: Security & Finishing Touches
+        # Image Uploads 
+            ## Implementing the GetImage Action Method
+                Listing 12-14. The GetImage Action Method in the ProductController.cs File
     */
     public class ProductController : Controller
     {
@@ -62,6 +68,20 @@ namespace SportsStore.WebUI.Controllers
             };
 
             return View(model);
+        }
+
+        public FileContentResult GetImage(int productId)
+        {
+            Product product = repository.Products.FirstOrDefault(p => p.ProductID == productId);
+
+            if (product != null)
+            {
+                return File(product.ImageData, product.ImageMimeType);
+            }
+            else
+            {
+                return null;
+            }
         }
     }
 }
