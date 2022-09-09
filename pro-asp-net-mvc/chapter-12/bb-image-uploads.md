@@ -37,7 +37,7 @@ The next step is to add support for handling file uploads. Modify the *Views/Adm
 </p>  
 
 ## Saving Images to the Database
-* Let's edit the POST version of the *Edit* action method in the Adming controller, to take the image data and save it in the database. Listing 12-12 shows the changes that are required.
+* Let's edit the POST version of the *Edit* action method in the Admin controller, to take the image data and save it in the database. Listing 12-12 shows the changes that are required.
 <p align="center">
     <img src="ch12-Pictures/Listing 12-12.png" /><br />
     <b>Listing 12-12.</b> Handling Image Data in the AdminController.cs File
