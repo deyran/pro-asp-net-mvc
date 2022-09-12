@@ -5,10 +5,11 @@
     <b>Figure 7-4.</b> Creating the Product class
 </p>  
 
-* AAAAAAAAAAAA
-
-You are already familiar with the definition of the Product class, as I am going to use the one you saw in the previous chapters. Edit the Product.cs class file so that it matches Listing 7-3.
-
+* Edit the Product.cs class file so that it matches Listing 7-3.
+<p align="center">
+    <img src="ch07-Pictures/Listing 7-3.png" /><br />
+    <b>Listing 7-3.</b> The Contents of the Product.cs File
+</p>  
 
 # chapter-07-SportsStore-A-Real-Application
 ## Starting the domain model
