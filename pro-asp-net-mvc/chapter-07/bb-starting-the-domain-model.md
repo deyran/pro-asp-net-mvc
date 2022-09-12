@@ -21,15 +21,9 @@ When talking about *Model*, we are talking about the process of storing and retr
     <b>Listing 7-4.</b> The Contents of the IProductRepository.cs File
 </p>  
 
-# chapter-07-SportsStore-A-Real-Application
-## Creating an abstract repository
-Listing 7-4. The Contents of the IProductRepository.cs File
-
-
-
-This interface uses IEnumerable<T> to allow a caller to obtain a sequence of Product objects, without saying how or where the data is stored or retrieved. A class that depends on the IProductRepository interface can obtain Product objects without needing to know anything about where they are coming from or how the implementation class will deliver them. This is the essence of the repository pattern. I will revisit the IProductRepository interface throughout the development process to add features.
-
-
-
-
 ## Making a Mock Repository
+
+<!--
+# chapter-07-SportsStore-A-Real-Application
+## Making a Mock Repository
+-->
