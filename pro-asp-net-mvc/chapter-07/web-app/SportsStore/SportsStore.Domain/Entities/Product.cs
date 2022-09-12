@@ -1,17 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace SportsStore.Domain.Entities
+﻿namespace SportsStore.Domain.Entities
 {
     /*
     # chapter-07-SportsStore-A-Real-Application
         ## Starting the domain model
-            Figure 7-4. Creating the Product class
+            Listing 7-3. The Contents of the Product.cs File
      */
     public class Product
     {
+        public int ProductID { get; set; }
+        public string Name { get; set; }
+        public string Description { get; set; }
+        public decimal Price { get; set; }
+        public string Category { get; set; }
     }
 }
