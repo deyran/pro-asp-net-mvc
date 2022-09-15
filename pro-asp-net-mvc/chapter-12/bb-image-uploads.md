@@ -50,16 +50,25 @@ The next step is to add support for handling file uploads. Modify the *Views/Adm
 </p>  
 
 ## Implementing the GetImage Action Method
-To display images contained in the database, you need to implement the GetImage action method on the Product controller (seen in Listing 12-11). Listing 12-14 shows the definition of the action method.
+* To display images contained in the database, you need to implement the GetImage action method on the Product controller (seen in Listing 12-11). Listing 12-14 shows the definition of the action method.
 <p align="center">
     <img src="ch12-Pictures/Listing 12-14.png" /><br />
     <b>Listing 12-14.</b> The GetImage Action Method in the ProductController.cs File
 </p>  
 
+* UNIT TEST: RETRIEVING IMAGES
+This UNIT TEST will test if the *GetImage* method returns the correct MIME type from the repository and *NULL* is returned when there is no product ID in the repository. In the* SportsStore.UnitTests* project, create a file called ImageTests.cs, open it and edit it to match with the figure below:
+<p align="center">
+    <img src="ch12-Pictures/UT_RETRIEVING_IMAGES.png" /><br />
+    UNIT TEST: RETRIEVING IMAGES
+</p>  
+
+
 ## Displaying Product Images
+
 
 <!---
 CHAPTER 12 - SportsStore: Security & Finishing Touches
-# Image Uploads 
-## Displaying Product Images
+# Implementing the GetImage Action Method
+## UNIT TEST: RETRIEVING IMAGES
 ->
