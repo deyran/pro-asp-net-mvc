@@ -56,13 +56,12 @@ The next step is to add support for handling file uploads. Modify the *Views/Adm
     <b>Listing 12-14.</b> The GetImage Action Method in the ProductController.cs File
 </p>  
 
-* UNIT TEST: RETRIEVING IMAGES
+* UNIT TEST: RETRIEVING IMAGES  
 This UNIT TEST will test if the *GetImage* method returns the correct MIME type from the repository and *NULL* is returned when there is no product ID in the repository. In the* SportsStore.UnitTests* project, create a file called ImageTests.cs, open it and edit it to match with the figure below:
 <p align="center">
     <img src="ch12-Pictures/UT_RETRIEVING_IMAGES.png" /><br />
     UNIT TEST: RETRIEVING IMAGES
 </p>  
-
 
 ## Displaying Product Images
 
