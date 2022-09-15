@@ -58,7 +58,8 @@ To display images contained in the database, you need to implement the GetImage 
 
 ## Displaying Product Images
 
-
+<!---
 CHAPTER 12 - SportsStore: Security & Finishing Touches
 # Image Uploads 
 ## Displaying Product Images
+->
