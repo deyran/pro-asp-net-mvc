@@ -8,9 +8,21 @@ STYLING THE CONTENT
 BUILDING THE SHOPPING CART
     ADDING THE ADD TO CART BUTTONS
         Listing 8-13. Adding the Buttons to the Product Summary.cshtml File View
+
+CHAPTER 12 - SportsStore: Security & Finishing Touches
+    ## Displaying Product Images
+        Listing 12-15. Displaying Images in the ProductSummary.cshtml File
 -->
 
 <div class="well">
+    @if (Model.ImageData != null)
+    {
+        <div class="pull-left" style="margin-right: 10px">
+            <img class="img-thumbnail" width="75" height="75"
+                 src="@Url.Action("GetImage", "Product", new { Model.ProductID })" />
+        </div>
+    }
+
     <h3>
         <strong>@Model.Name</strong>
         <span class="pull-right label label-primary">@Model.Price.ToString("c")</span>

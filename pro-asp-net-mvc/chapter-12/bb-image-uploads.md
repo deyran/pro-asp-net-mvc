@@ -69,10 +69,9 @@ This UNIT TEST will test if the *GetImage* method returns the correct MIME type 
    <b>Figure 12-4.</b> Adding an image to a product listing
 </p>  
 
-## Displaying Product Images
-
-<!---
-CHAPTER 12 - SportsStore: Security & Finishing Touches
-# Implementing the GetImage Action Method
-Figure 12-4. Adding an image to a product listing
-->
+## Displaying Product Images  
+Edit the *Views/Shared/ProductSummary.cshtml* view to reflect the changes shown in bold in Listing 12-15.
+<p align="center">
+    <img src="ch12-Pictures/Listing 12-15.png" /><br />
+   <b>Listing 12-15.</b> Displaying Images in the ProductSummary.cshtml File
+</p>  
