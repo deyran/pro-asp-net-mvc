@@ -37,7 +37,7 @@ namespace SportsStore.WebUI.Controllers
                 Listing 12-12. Handling Image Data in the AdminController.cs File
      */
 
-    [Authorize]
+   // [Authorize]
     public class AdminController : Controller
     {
         private IProductRepository repository;

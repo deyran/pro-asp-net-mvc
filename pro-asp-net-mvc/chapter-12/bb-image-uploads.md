@@ -61,13 +61,18 @@ This UNIT TEST will test if the *GetImage* method returns the correct MIME type 
 <p align="center">
     <img src="ch12-Pictures/UT_RETRIEVING_IMAGES.png" /><br />
     UNIT TEST: RETRIEVING IMAGES
+</p>
+
+* The administrator can now upload images for products. Starting the application, navigating to the */Admin/Index* URL and editing one of the products. Figure 12-4 shows an example.
+<p align="center">
+    <img src="ch12-Pictures/Figure 12-4.png" /><br />
+   <b>Figure 12-4.</b> Adding an image to a product listing
 </p>  
 
 ## Displaying Product Images
 
-
 <!---
 CHAPTER 12 - SportsStore: Security & Finishing Touches
 # Implementing the GetImage Action Method
-## UNIT TEST: RETRIEVING IMAGES
+Figure 12-4. Adding an image to a product listing
 ->
