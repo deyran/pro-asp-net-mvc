@@ -8,7 +8,7 @@ The purpose of this chapter is to present an overview of the MVC Framework featu
 3. some of which are optional and some of which are hard-coded into the way that the MVC Framework operates.  
 
 # Working with Visual Studio MVC Projects
-To create a new ASP.NET project, it is necessary a set of choices to configure the template for the project. As a result of these initial steps, the project starts with basic code and structure.
+To create a new ASP.NET project, it is necessary a set of choices to configure the template for the project. As a result of these initial steps, the project starts with basic code and structure. The ideas behind this approach are: 1 - Learning process for beginners; 2 - time-saving best practices for common features and tasks.
 
 <!--
 Chapter 14: Overview of MVC Projects
