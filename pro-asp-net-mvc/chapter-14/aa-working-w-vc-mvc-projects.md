@@ -14,10 +14,12 @@ With Visual Studio and MVC, Microsoft has updated the *templates* and *scaffoldi
 
 An advice is to start with an empty project and add the folders, files, and packages that you need. Not only will you learn more about the way that the MVC Framework works, but you will have complete control over what your application contains.
 
+## Creating the Project
+
 <!--
 Chapter 14: Overview of MVC Projects
 # Working with Visual Studio MVC Projects
+## Creating the Project
 -->
 
-## Creating the Project
 ## Understanding MVC Conventions
