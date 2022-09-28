@@ -17,9 +17,9 @@ The idea is to ease the learning process for new developers and apply some time-
 This support continues with templates used to create controllers and views that are created with template code for listing data objects, editing model properties and so on
     Support > templates
 
-
 https://learn.microsoft.com/en-us/visualstudio/ide/creating-project-and-item-templates?view=vs-2022
 
+aa-project-and-item-templates
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
