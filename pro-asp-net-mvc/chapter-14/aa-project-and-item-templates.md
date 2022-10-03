@@ -5,14 +5,14 @@ Project and item templates provide reusable stubs that give users some basic cod
 
 ## Visual Studio templates
 A number of predefined project and item templates are installed with Visual Studio. 
-    Predifined project and item templates 
-
+    Predifined project > item templates > Visual Studio
 
 These templates, such as the ASP.NET Web Application and Class Library templates, are available to choose from when you create a new project. 
     Predifined project and item templates > are available > create a new projec
 
 Item templates, such as code files, XML files, HTML pages, and Style Sheets, appear in the Add New Item window.
-    Item templates (code files, XML files, HTMLS pages, Styles Sheets, etc)
+    Item templates (code files, XML files, HTMLS pages, Styles Sheets, etc)  
+
 +++++++++++++++++++++++
 
 These templates provide a starting point for users to begin creating projects, or to expand existing projects. 
@@ -20,7 +20,7 @@ These templates provide a starting point for users to begin creating projects, o
 
 Project templates provide the files that are required for a particular project type, include standard assembly references, and set default project properties and compiler options. 
 
-    "Project templates"
+    "Project templates" provides files > 
 
 Item templates can range in complexity from a single empty file that has a certain file extension, to multiple source code files with stub code, designer information files, and embedded resources.
 +++++++++++++++++++++++

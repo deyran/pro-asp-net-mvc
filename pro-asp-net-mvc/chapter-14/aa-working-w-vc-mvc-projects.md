@@ -8,6 +8,16 @@ The purpose of this chapter is to present an overview of the MVC Framework featu
 3. some of which are optional and some of which are hard-coded into the way that the MVC Framework operates.  
 
 # Working with Visual Studio MVC Projects
+Framework
+* Tools nad Libraries
+* Software used to build applications
+* Low-level functionality
+* Once a framework is installed and configured, it creates a directory structure
+* helps you to keep focus on the project avoiding details about directory, structuries, libraries and configurations
+* Avoid repetitive tasks and optimize work
+* Optimize a specific behavior, letting the developer customize the behavior or not
+
+
 When you create a new ASP.NET project, Visual Studio gives you a number of choices as to the initial content you want in the project. 
     New ASP.NET project > number of choices > initital project
 
