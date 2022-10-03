@@ -8,28 +8,9 @@ The purpose of this chapter is to present an overview of the MVC Framework featu
 3. some of which are optional and some of which are hard-coded into the way that the MVC Framework operates.  
 
 # Working with Visual Studio MVC Projects
-Framework
-* Tools nad Libraries
-* Software used to build applications
-* Low-level functionality
-* Once a framework is installed and configured, it creates a directory structure
-* helps you to keep focus on the project avoiding details about directory, structuries, libraries and configurations
-* Avoid repetitive tasks and optimize work
-* Optimize a specific behavior, letting the developer customize the behavior or not
+Visual Studio IDE has a set of tools and libraries that are used to build applications with basic initial functionality, settings and directory and file structures. These tools and libraries, as known as *frameworks*, avoid repetitive tasks and optimize work by letting the developer focus on the project in hight level of functionality of the project. This support continues with templates used to create controllers and views that are created with template code for listing data objects, editing model properties and so on.
 
 
-When you create a new ASP.NET project, Visual Studio gives you a number of choices as to the initial content you want in the project. 
-    New ASP.NET project > number of choices > initital project
-
-The idea is to ease the learning process for new developers and apply some time-saving best practices for common features and tasks. 
-    What's the propose? 
-
-This support continues with templates used to create controllers and views that are created with template code for listing data objects, editing model properties and so on
-    Support > templates
-
-https://learn.microsoft.com/en-us/visualstudio/ide/creating-project-and-item-templates?view=vs-2022
-
-aa-project-and-item-templates
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
