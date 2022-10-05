@@ -24,7 +24,6 @@ The names are a little misleading, because you can add the basic folders and ass
 
 For the MVC option, this option is checked for you.
 
-
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
