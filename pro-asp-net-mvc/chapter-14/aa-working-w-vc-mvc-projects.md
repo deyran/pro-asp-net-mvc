@@ -22,7 +22,11 @@ The names are a little misleading, because you can add the basic folders and ass
     >> Basic folders and assemblies > MVC Framework
     >> project template > New ASP.NET Project dialog window
 
-For the MVC option, this option is checked for you.
+For the MVC option, this option is checked for you.  
+
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
+
+The real difference is the additional content that the MVC project template adds to new projects, which provides a ready-made starting point that includes some default controllers and views, a security configuration, some popular JavaScript and CSS packages (such as jQuery and Bootstrap) and a layout that uses Bootstrap to provide a theme for the application content. The Empty project option just contains the basic references required for an MVC framework and the barebones folder structure. There is a fair amount of content added by the MVC template and you can see the differences in Figure 14-2, which shows the contents of two newly created projects. The one on the left was created with the Empty template with the MVC folders and references option checked. The others show the content of a project that was created with the MVC template, and to be able to show the files on the page, I had to focus the Solution Explorer on different folders because a single listing was too long for a printed page.
 
 <!--
 Chapter 14: Overview of MVC Projects
