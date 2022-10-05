@@ -12,10 +12,23 @@ Visual Studio IDE has a set of tools and libraries that are used to build applic
 
 The author advice of this book is to avoid the templates and scaffolding and start with an empty project and add the folders, files and packages that you need. By doing so, you will learn more about how the Framework works, and you will have full control over your application contains
 
+## Creating the Project
+When you first create a new MVC Framework project, you have two basic starting points to choose from: the Empty template and the MVC template. 
+
+    >> MVC Framework project > Empty template > MVC template
+
+The names are a little misleading, because you can add the basic folders and assemblies required for the MVC Framework to any project template by checking the MVC option in the Add Folders and Core References section of the New ASP.NET Project dialog window, as shown in Figure 14-1. 
+
+    >> Basic folders and assemblies > MVC Framework
+    >> project template > New ASP.NET Project dialog window
+
+For the MVC option, this option is checked for you.
+
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
+        ## Creating the Project
 -->
 
-## Creating the Project
 ## Understanding MVC Conventions
