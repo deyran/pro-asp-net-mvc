@@ -29,19 +29,15 @@ For the MVC option, this option is checked for you.
 The real difference is the additional content that the MVC project template adds to new projects
 , which provides a ready-made starting point that includes some default controllers and views, a security configuration, some popular JavaScript and CSS packages (such as jQuery and Bootstrap) and a layout that uses Bootstrap to provide a theme for the application content. 
 
-    >> MVC project template
+    >> MVC project template > additional content
 
 The Empty project option just contains the basic references required for an MVC framework and the barebones folder structure. 
 
-    >>
+    >> Empty project > basic references > the absolute minimum folder structure
 
 There is a fair amount of content added by the MVC template and you can see the differences in Figure 14-2, which shows the contents of two newly created projects. 
 
     >> 
-
-The one on the left was created with the Empty template with the MVC folders and references option checked. 
-
-    >>
 ******************************************
 
 https://www.tutlane.com/tutorial/aspnet-mvc/different-types-of-project-templates-in-asp-net-mvc
