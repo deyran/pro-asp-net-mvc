@@ -21,6 +21,18 @@ The first dialog box when creating a new *MVC Framework* project is *Create a ne
     <b>Figure 14-0.</b> Create a new project dialog
 </p>  
 
+When you first create a new MVC Framework project, you have two basic starting points to choose from: the **Empty template** and the **MVC template**. 
+<p align="center">
+    <img src="ch14-Pictures/Figure 14-1.png" /><br />
+    <b>Figure 14-1.</b> Selecting the project type, folders and assemblies for a new project
+</p>  
+
+<!--
+Chapter 14: Overview of MVC Projects
+    # Working with Visual Studio MVC Projects
+        ## Creating the Project
+-->
+
 *********************************************************************************
 
 When you first create a new MVC Framework project, you have two basic starting points to choose from: the Empty template and the MVC template. 
@@ -52,10 +64,5 @@ There is a fair amount of content added by the MVC template and you can see the 
 
 https://www.tutlane.com/tutorial/aspnet-mvc/different-types-of-project-templates-in-asp-net-mvc
 
-<!--
-Chapter 14: Overview of MVC Projects
-    # Working with Visual Studio MVC Projects
-        ## Creating the Project
--->
 
 ## Understanding MVC Conventions
