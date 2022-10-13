@@ -13,7 +13,15 @@ Visual Studio IDE has a set of tools and libraries that are used to build applic
 The author advice of this book is to avoid the templates and scaffolding and start with an empty project and add the folders, files and packages that you need. By doing so, you will learn more about how the Framework works, and you will have full control over your application contains
 
 ## Creating the Project
-When we create a new *MVC Framework* project, a dialog box is used to guide the user through a set of options. The purpose of this dialog box, is to provide a Basic assemblies and folders needed by the *MVC Framework* project.
+When we create a new *MVC Framework* project, a dialog box is used to guide the user through a set of options. The purpose of this dialog box, is to provide a Basic assemblies and folders needed by the *MVC Framework* project.  
+
+The first dialog box when you a new *MVC Framework* project is *Create a new project* (Figure 14-0).
+<p align="center">
+    <img src="ch14-Pictures/Figure 14-0.png" /><br />
+    <b>Figure 14-0.</b> Create a new project dialog
+</p>  
+
+*********************************************************************************
 
 When you first create a new MVC Framework project, you have two basic starting points to choose from: the Empty template and the MVC template. 
 
