@@ -15,7 +15,7 @@ The author advice of this book is to avoid the templates and scaffolding and sta
 ## Creating the Project
 When we create a new *MVC Framework* project, a dialog box is used to guide the user through a set of options. The purpose of this dialog box, is to provide a Basic assemblies and folders needed by the *MVC Framework* project.  
 
-The first dialog box when you a new *MVC Framework* project is *Create a new project* (Figure 14-0).
+The first dialog box when creating a new *MVC Framework* project is *Create a new project* dialog. As you can see in the Figure 14-0, the recently selected templates are shown on the left, but you can still use a filter to search all available projects.
 <p align="center">
     <img src="ch14-Pictures/Figure 14-0.png" /><br />
     <b>Figure 14-0.</b> Create a new project dialog
