@@ -21,7 +21,7 @@ The first dialog box when creating a new *MVC Framework* project is *Create a ne
     <b>Figure 14-0.</b> Create a new project dialog
 </p>  
 
-When you first create a new MVC Framework project, you have two basic starting points to choose from: the **Empty template** and the **MVC template**. 
+When you first create a new MVC Framework project, you have two basic starting points to choose from: the **Empty template** and the **MVC template**. On the right can be seen *Add folders & Core reference* which is used to add the basic folders and assemblies needed for the project (Figure 14-1). When you choose *Empty template* it is necessary check *MVC* option for the MVC Framework project purpose, but when the *MVC template* is chosen the *MVC* option is checked automatically.
 <p align="center">
     <img src="ch14-Pictures/Figure 14-1.png" /><br />
     <b>Figure 14-1.</b> Selecting the project type, folders and assemblies for a new project
@@ -34,10 +34,6 @@ Chapter 14: Overview of MVC Projects
 -->
 
 *********************************************************************************
-
-When you first create a new MVC Framework project, you have two basic starting points to choose from: the Empty template and the MVC template. 
-
-    >> MVC Framework project > Empty template > MVC template
 
 The names are a little misleading, because you can add the basic folders and assemblies required for the MVC Framework to any project template by checking the MVC option in the Add Folders and Core References section of the New ASP.NET Project dialog window, as shown in Figure 14-1. 
 
