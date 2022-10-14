@@ -33,17 +33,29 @@ In this section two projects are created, they are called *MyEmptyApplication* a
     <b>Figure 14-2.</b> The default content added to a project by the Empty and MVC templates
 </p>  
 
-After seeing differences between *MyEmptyApplication* and *MyMvcApplication* projects, you can see similar *core file* and *folder structures*, *special roles (hard-coded into ASP.NET or the MVC Framework)* and *naming conventions* are applied to these MVC items. In Table 14-1 describes each of the core files and folders.
+After seeing differences between *MyEmptyApplication* and *MyMvcApplication* projects, you can see similar *core file* and *folder structures*, *special roles* (hard-coded into ASP.NET or the MVC Framework) and *naming conventions* are applied to these MVC items. In Table 14-1 describes each of the core files and folders.
 
-AAAAAAAAA|BBBBBBBB|CCCCCCCCCCC
+<p align="center">
+    <b>Table 14-1.</b> Summary of MVC Project Items
+</p>  
+Folder or File|Description|Notes
 ---------|--------|--------
-AAAAAAAAA|BBBBBBBB|CCCCCCCCCCC
+/App_Data|-|-
+/App_Data|-|-
+/App_Data|-|-
+/App_Data|-|-
+/App_Data|-|-
+/App_Data|-|-
+/App_Data|-|-
+/App_Data|-|-
+
 
 
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
         ## Creating the Project
+            Table 14-1. Summary of MVC Project Items
 -->
 
 ## Understanding MVC Conventions
