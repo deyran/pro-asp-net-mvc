@@ -27,7 +27,7 @@ When you first create a new MVC Framework project, you have two basic starting p
     <b>Figure 14-1.</b> Selecting the project type, folders and assemblies for a new project
 </p>  
 
-In this section two projects are created, they are called *MyEmptyApplication* and *MyMvcApplication* respectively. The *MyEmptyApplication* project use *Empty template* and the *MVC* option (*Add folders & Core reference*) is checked, this project contains basic references and the absolute minimum folder structure.
+In this section two projects are created, they are called *MyEmptyApplication* and *MyMvcApplication* respectively. The *MyEmptyApplication* project use *Empty template* and the *MVC* option (*Add folders & Core reference*) is checked, this project contains basic references and the minimum folder structure for an MVC framework.
 
 <!--
 Chapter 14: Overview of MVC Projects
