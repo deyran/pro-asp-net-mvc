@@ -27,20 +27,13 @@ When you first create a new MVC Framework project, you have two basic starting p
     <b>Figure 14-1.</b> Selecting the project type, folders and assemblies for a new project
 </p>  
 
+In this section two projects are created, they are called *MyEmptyApplication* and *MyMvcApplication* respectively. The *MyEmptyApplication* project use *Empty template* and the *MVC* option (*Add folders & Core reference*) is checked, this project contains basic references and the absolute minimum folder structure.
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
         ## Creating the Project
 -->
-
-*********************************************************************************
-
-The names are a little misleading, because you can add the basic folders and assemblies required for the MVC Framework to any project template by checking the MVC option in the Add Folders and Core References section of the New ASP.NET Project dialog window, as shown in Figure 14-1. 
-
-    >> Basic folders and assemblies > MVC Framework
-    >> project template > New ASP.NET Project dialog window
-
-For the MVC option, this option is checked for you.  
 
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
 
