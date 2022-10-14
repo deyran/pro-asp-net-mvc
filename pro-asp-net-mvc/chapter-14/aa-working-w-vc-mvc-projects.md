@@ -38,12 +38,13 @@ After seeing differences between *MyEmptyApplication* and *MyMvcApplication* pro
 <p align="center">
     <b>Table 14-1.</b> Summary of MVC Project Items
 </p>  
+
 Folder or File|Description|Notes
 ---------|--------|--------
-/App_Data|AAA|AA
-/App_Data|AAA|AA
-/App_Data|AAA|AA
-/App_Data|AAA|AA
+/App_Data|BBBBBBBB|CCCCCCCCCCC
+/App_Start|BBBBBBBB|CCCCCCCCCCC
+/Area|BBBBBBBB|CCCCCCCCCCC
+/bin|BBBBBBBB|CCCCCCCCCCC
 
 
 
