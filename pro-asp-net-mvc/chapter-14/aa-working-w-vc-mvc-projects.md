@@ -27,35 +27,25 @@ When you first create a new MVC Framework project, you have two basic starting p
     <b>Figure 14-1.</b> Selecting the project type, folders and assemblies for a new project
 </p>  
 
-In this section two projects are created, they are called *MyEmptyApplication* and *MyMvcApplication* respectively. The *MyEmptyApplication* project use *Empty template* and the *MVC* option (*Add folders & Core reference*) is checked, this project contains basic references and the minimum folder structure for an MVC framework. *MyMvcApplication* project uses *MVC template*, this type of template comes with additional content like: some default controllers and views, some popular JavaScript and CSS packages (such as jQuery and Bootstrap) and a layout that uses Bootstrap to provide a theme for the application content. The difference between *MyEmptyApplication* and *MyMvcApplication* projects can be seen in Figure 14-2.
+In this section two projects are created, they are called *MyEmptyApplication* and *MyMvcApplication* respectively. The *MyEmptyApplication* project use *Empty template* and the *MVC* option (*Add folders & Core reference*) is checked, this project contains basic references and the minimum folder structure for an MVC framework. *MyMvcApplication* project uses *MVC template*, this type of template comes with additional content like: some default controllers and views, some popular JavaScript and CSS packages (such as jQuery and Bootstrap) and a layout that uses Bootstrap to provide a theme for the application content. The differences between *MyEmptyApplication* and *MyMvcApplication* projects can be seen in Figure 14-2.
 <p align="center">
     <img src="ch14-Pictures/Figure 14-2.png" /><br />
     <b>Figure 14-2.</b> The default content added to a project by the Empty and MVC templates
 </p>  
+
+After seeing differences between *MyEmptyApplication* and *MyMvcApplication* projects, you can see similar *core file* and *folder structures*, *special functions* and *naming conventions* are applied to these MVC items. In Table 14-1 describes each of the core files and folders.
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+I have described each of the core files and folders in Table 14-1, 
+    Descriptions > core files and folders
+
+some of which are not present in projects by default but which I introduce in later chapters.++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
         ## Creating the Project
 -->
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++  
-
-The real difference is the additional content that the MVC project template adds to new projects
-, which provides a ready-made starting point that includes some default controllers and views, a security configuration, some popular JavaScript and CSS packages (such as jQuery and Bootstrap) and a layout that uses Bootstrap to provide a theme for the application content. 
-
-    >> MVC project template > additional content
-
-The Empty project option just contains the basic references required for an MVC framework and the barebones folder structure. 
-
-    >> Empty project > basic references > the absolute minimum folder structure
-
-There is a fair amount of content added by the MVC template and you can see the differences in Figure 14-2, which shows the contents of two newly created projects. 
-
-    >> 
-******************************************
-
-https://www.tutlane.com/tutorial/aspnet-mvc/different-types-of-project-templates-in-asp-net-mvc
-
 
 ## Understanding MVC Conventions
