@@ -40,14 +40,10 @@ After seeing differences between *MyEmptyApplication* and *MyMvcApplication* pro
 </p>  
 Folder or File|Description|Notes
 ---------|--------|--------
-/App_Data|-|-
-/App_Data|-|-
-/App_Data|-|-
-/App_Data|-|-
-/App_Data|-|-
-/App_Data|-|-
-/App_Data|-|-
-/App_Data|-|-
+/App_Data|AAA|AA
+/App_Data|AAA|AA
+/App_Data|AAA|AA
+/App_Data|AAA|AA
 
 
 
