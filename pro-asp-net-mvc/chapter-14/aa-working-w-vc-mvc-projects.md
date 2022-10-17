@@ -41,11 +41,7 @@ After seeing differences between *MyEmptyApplication* and *MyMvcApplication* pro
 
 Folder or File|Description|Notes
 ---------|--------|--------
-/App_Data|BBBBBBBB|CCCCCCCCCCC
-/App_Start|BBBBBBBB|CCCCCCCCCCC
-/Area|BBBBBBBB|CCCCCCCCCCC
-/bin|BBBBBBBB|CCCCCCCCCCC
-
+/App_Data|The App_Data folder contains the physical store for data (LocalDB, .mdf files, XML files, and other data related files)|IIS will never serve files from App_Data folder
 
 
 <!--
