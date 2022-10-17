@@ -42,7 +42,7 @@ After seeing differences between *MyEmptyApplication* and *MyMvcApplication* pro
 Folder or File|Description|Notes
 ---------|--------|--------
 /App_Data|The App_Data folder contains the physical store for data (LocalDB, .mdf files, XML files, and other data related files)|IIS will never serve files from App_Data folder
-
+/App_Start|The App_Start folder contains classes files (AuthConfig.cs, BundleConfig.cs, FilterConfig.cs, RouteConfig.cs, etc.) that will be executed when the application starts.|All these classes files will be seen in other chapters like 15, 16, 18 and 26
 
 <!--
 Chapter 14: Overview of MVC Projects
