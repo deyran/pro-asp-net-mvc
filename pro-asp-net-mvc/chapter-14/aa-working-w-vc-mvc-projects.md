@@ -44,6 +44,14 @@ Folder or File|Description|Notes
 /App_Data|The App_Data folder contains the physical store for data (LocalDB, .mdf files, XML files, and other data related files)|IIS will never serve files from App_Data folder
 /App_Start|The App_Start folder contains classes files (AuthConfig.cs, BundleConfig.cs, FilterConfig.cs, RouteConfig.cs, etc.) that will be executed when the application starts.|All these classes files will be seen in other chapters like 15, 16, 18 and 26
 
++++++++++++++++++++++++++++++++++++++++++++++++
+Areas are a way of partitioning a large application into smaller pieces.
+
+******************************
+Areas was introduced in Asp.net MVC2 which allow us to organize models, views, and controllers into separate functional sections of the application, such as administration, billing, customer support, and so on. This is very helpful in a large web application, where all the controllers, views, and models have a single set of folders and that become difficult to manage.
+
+Each MVC area has its own folder structure which allow us to keep separate controllers, views, and models. This also helps the multiple developers to work on the same web application without interfere to one another.
++++++++++++++++++++++++++++++++++++++++++++++++
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
