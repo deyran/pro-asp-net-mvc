@@ -47,6 +47,7 @@ Folder_or_File|Description|Notes
 /Bin|The compiled assembly for MVC application is placed in the *Bin* folder|These are binary files generated on compilation, so not available in *Solution Explorer*
 /Content|In contains static files like CSS files, images and icon files.|This is a convention but not required. The static file can be placed anywhere
 /Controllers|This is where the controller classes are placed|This is a convention. Controller classes can be placed anywhere as they are all compiled into the same assembly.
+/Models|In the *Models* folder are placed the *View model* and *Domain model* classes that handle database tasks.|The *Models* folder is a convention. Classes that handle database tasks can be placed in another project as shown in the SportsStore solution
 
 <!--
 Chapter 14: Overview of MVC Projects
