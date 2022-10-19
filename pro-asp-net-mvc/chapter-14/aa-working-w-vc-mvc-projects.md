@@ -46,7 +46,7 @@ Folder_or_File|Description|Notes
 /Areas|The *Areas* folder allows you to apply the principle known as *separation of concerns*, separating the application into smaller pieces. Models, views and controllers are separated into functinal sections of the application, which is useful in a large web application and multiple developers working on the same web application.|The *Areas* folder will be seen in chapter 15
 /Bin|The compiled assembly for MVC application is placed in the *Bin* folder|These are binary files generated on compilation, so not available in *Solution Explorer*
 /Content|In contains static files like CSS files, images and icon files.|This is a convention but not required. The static file can be placed anywhere
-/Controllers|This is where the controller classes are placed|This is a convention. You can put your controller classes anywhere you like, because they are all compiled into the same assembly.
+/Controllers|This is where the controller classes are placed|This is a convention. Controller classes can be placed anywhere as they are all compiled into the same assembly.
 
 <!--
 Chapter 14: Overview of MVC Projects
