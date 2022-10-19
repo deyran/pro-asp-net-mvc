@@ -66,6 +66,11 @@ It contains HTML files. There may be separate folder for each controller. For Ho
 Views, which is the recommended location for views. Views use ViewPage (.aspx), ViewUserControl (.ascx), and ViewMasterPage (.master) files, in addition to any other files that are related to rendering views. The Views folder contains a folder for each controller; the folder is named with the controller-name prefix. For example, if you have a controller named HomeController, the Views folder contains a folder named Home. By default, when the ASP.NET MVC framework loads a view, it looks for a ViewPage (.aspx) file that has the requested view name in the Views\controllerName folder. By default, there is also a folder named Shared in the Views folder, which does not correspond to any controller. The Shared folder is used for views that are shared across multiple controllers. For example, you can put the Web application's master page in the Shared folder.
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
+http://www.w3teachers.com/mvc/mvc-folder-structure
+
+https://www.completecsharptutorial.com/asp-net-mvc5/asp-net-mvc-5-folder-structure.php
+
+https://learn.microsoft.com/en-us/previous-versions/aspnet/dd410120(v=vs.98)
 
 
 <!--
