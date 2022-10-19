@@ -44,6 +44,8 @@ Folder_or_File|Description|Notes
 /App_Data|The *App_Data* folder contains the physical store for data (LocalDB, .mdf files, XML files, and other data related files)|IIS will never serve files from App_Data folder
 /App_Start|The *App_Start* folder contains classes files (AuthConfig.cs, BundleConfig.cs, FilterConfig.cs, RouteConfig.cs, etc.) that will be executed when the application starts.|All these classes files will be seen in other chapters like 15, 16, 18 and 26
 /Areas|The *Areas* folder allows you to apply the principle known as *separation of concerns*, separating the application into smaller pieces. Models, views and controllers are separated into functinal sections of the application, which is useful in a large web application and multiple developers working on the same web application.|The *Areas* folder will be seen in chapter 15
+/Bin|The compiled assembly for MVC application is placed in the *Bin* folder|These are binary files generated on compilation, so not available in *Solution Explorer*
+/Content|In contains static files like CSS files, images and icon files.|This is a convention but not required. The static file can be placed anywhere
 
 <!--
 Chapter 14: Overview of MVC Projects
