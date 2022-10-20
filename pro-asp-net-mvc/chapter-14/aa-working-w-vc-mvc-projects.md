@@ -52,6 +52,7 @@ Folder_or_File|Description|Notes
 /Views|This directory holds *views* and *partial views*, usually grouped together in folders named after the controller with which they are associated.|*/Views/web.config* file ensure that views are only rendered via action method.
 /Views/Shared|This directory holds layouts and views which are not specific to a single controller.|-
 /Global.asax|This is the global ASP.NET application class, which is the place to configure or code routing configuration, application lifecycle, unhandled exceptions, etc.|-
+/Web.config|This is the configuration file for your application.|-
 
 <!--
 Chapter 14: Overview of MVC Projects
