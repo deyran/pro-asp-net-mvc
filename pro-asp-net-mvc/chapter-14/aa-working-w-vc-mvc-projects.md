@@ -49,29 +49,7 @@ Folder_or_File|Description|Notes
 /Controllers|This is where the controller classes are placed|This is a convention. Controller classes can be placed anywhere as they are all compiled into the same assembly.
 /Models|In the *Models* folder are placed the *View model* and *Domain model* classes that handle database tasks.|The *Models* folder is a convention. Classes that handle database tasks can be placed in another project as shown in the SportsStore solution.
 /Scripts|This directory is the recommended location for script files for the web application. Files like JavaScript, AJAX foundationm, JQuery, TypeScript, etc are placed in the *Scripts* folder.|The *Scripts* folder will be seen in chapter 26
-
-
-
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-This directory holds views and partial views, usually grouped together in folders named after the controller with which they are associated.
-***********************************************************
-
-Views folder contains html files for the application. Typically view file is a .cshtml file where you write html and C# or VB.NET code. Views folder includes separate folder for each controllers. For example, all the .cshtml files, which will be rendered by HomeController will be in View > Home folder. Shared folder under View folder contains all the views which will be shared among different controllers e.g. layout files.
-***********************************************************
-
-
-It contains HTML files. There may be separate folder for each controller. For HomeController.cs; there is Home folder inside View folder.
-***********************************************************
-
-Views, which is the recommended location for views. Views use ViewPage (.aspx), ViewUserControl (.ascx), and ViewMasterPage (.master) files, in addition to any other files that are related to rendering views. The Views folder contains a folder for each controller; the folder is named with the controller-name prefix. For example, if you have a controller named HomeController, the Views folder contains a folder named Home. By default, when the ASP.NET MVC framework loads a view, it looks for a ViewPage (.aspx) file that has the requested view name in the Views\controllerName folder. By default, there is also a folder named Shared in the Views folder, which does not correspond to any controller. The Shared folder is used for views that are shared across multiple controllers. For example, you can put the Web application's master page in the Shared folder.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-http://www.w3teachers.com/mvc/mvc-folder-structure
-
-https://www.completecsharptutorial.com/asp-net-mvc5/asp-net-mvc-5-folder-structure.php
-
-https://learn.microsoft.com/en-us/previous-versions/aspnet/dd410120(v=vs.98)
-
+/Views|This directory holds *views* and *partial views*, usually grouped together in folders named after the controller with which they are associated.|*/Views/web.config* file ensure that views are only rendered via action method
 
 <!--
 Chapter 14: Overview of MVC Projects
