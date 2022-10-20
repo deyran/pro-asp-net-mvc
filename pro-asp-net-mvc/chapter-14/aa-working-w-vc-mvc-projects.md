@@ -49,7 +49,8 @@ Folder_or_File|Description|Notes
 /Controllers|This is where the controller classes are placed|This is a convention. Controller classes can be placed anywhere as they are all compiled into the same assembly.
 /Models|In the *Models* folder are placed the *View model* and *Domain model* classes that handle database tasks.|The *Models* folder is a convention. Classes that handle database tasks can be placed in another project as shown in the SportsStore solution.
 /Scripts|This directory is the recommended location for script files for the web application. Files like JavaScript, AJAX foundationm, JQuery, TypeScript, etc are placed in the *Scripts* folder.|The *Scripts* folder will be seen in chapter 26
-/Views|This directory holds *views* and *partial views*, usually grouped together in folders named after the controller with which they are associated.|*/Views/web.config* file ensure that views are only rendered via action method
+/Views|This directory holds *views* and *partial views*, usually grouped together in folders named after the controller with which they are associated.|*/Views/web.config* file ensure that views are only rendered via action method.
+/Views/Shared|This directory holds layouts and views which are not specific to a single controller.|-
 
 <!--
 Chapter 14: Overview of MVC Projects
