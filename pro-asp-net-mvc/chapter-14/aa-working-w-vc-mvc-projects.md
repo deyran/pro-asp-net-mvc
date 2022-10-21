@@ -56,6 +56,7 @@ Folder_or_File|Description|Notes
 
 ## Understanding MVC Conventions
 There are two kinds of conventions in an MVC project: *Web Application MVC Project Structure* [[1]](https://learn.microsoft.com/en-us/previous-versions/aspnet/dd410120(v=vs.100)) and *Naming convention*.  
+
 The *Web Application MVC Project Structure* convention is not an obligation but a suggestion. As seen in Table 14-1, each file goes to a specific place, for example, JavaScript file goes to Scripts folder. It is free to place the JavaScript files in anywhere, but *Scripts* is the place other MVC developers would expect to find them, and where NuGet packages will install them. 
 
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
