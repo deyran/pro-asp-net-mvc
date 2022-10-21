@@ -54,11 +54,23 @@ Folder_or_File|Description|Notes
 /Global.asax|This is the global ASP.NET application class, which is the place to configure or code routing configuration, application lifecycle, unhandled exceptions, etc.|-
 /Web.config|This is the configuration file for your application.|-
 
+## Understanding MVC Conventions
+There are two kinds of conventions in an MVC project: *Web Application MVC Project Structure* [[1]](https://learn.microsoft.com/en-us/previous-versions/aspnet/dd410120(v=vs.100)) and *Naming convention*.  
+The *Web Application MVC Project Structure* convention is not an obligation but a suggestion. As seen in Table 14-1, each file goes to a specific place, for example, JavaScript file goes to Scripts folder. It is free to place the JavaScript files in anywhere, but *Scripts* is the place other MVC developers would expect to find them, and where NuGet packages will install them. 
+
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The first kind is just suggestions as to how you might like to structure your project. For example, it is conventional to put your JavaScript files in the Scripts folder. This is where other MVC developers would expect to find them, and where NuGet packages will install them. 
+
+But you are free to rename the Scripts folder, or remove it entirely and put your scripts somewhere else. That would not prevent the MVC Framework from running your application as long as the script elements in your views refer to the location you settle on.
+
+************************************************************
+The other kind of convention arises from the principle of convention over configuration.
+
+Convention over configuration means that you don’t need to explicitly configure associations between controllers and their views, for example. You just follow a certain *naming convention* for your files, and everything just works. There is less flexibility in changing your project structure when dealing with this kind of convention. The following sections explain the conventions that are used in place of configuration.
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
-        ## Creating the Project
-            Table 14-1. Summary of MVC Project Items
+        ## Understanding MVC Conventions
 -->
-
-## Understanding MVC Conventions
