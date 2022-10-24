@@ -62,14 +62,39 @@ The *Web Application MVC Project Structure* convention is not an obligation but 
 The other kind of convention is the *convention over configuration*. That means just following a *naming convention* for the files (controllers and views for example), and everything will work. The following sections explain the conventions that are used in place of configuration.
 
 ### Following Conventions for Controller Classes
-Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
+Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. As can be seen, the controller class is formed by a prefix name, which is freely chosen, plus the suffix *"Controller"*. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
+
+### Following Conventions for Views
+******************
+Views and partial views go into the folder /Views/Controllername. 
+    >> Views and Partial view > folder > /Views/prefixName.
+
+For example, a view associated with the ProductController class would go in the /Views/Product folder.
+    >> A view > prefixNameController > /Views/prefixName/ folder
+
+******************
+The MVC Framework expects that the default view for an action method should be named after that method. 
+    >> The MVC Framework > View > action method > named after that method
+
+For example, the default view associated with an action method called List should be called List.cshtml. Thus, for the List action method in the ProductController class, the default view is expected to be /Views/Product/List.cshtml.
+******************
+
+The default view is used when you return the result of calling the View method in an action method, like this:
+...
+return View();
+...
+You can specify a different view by name, like this:
+...
+return View("MyOtherView");
+...
+Notice that I do not include the file name extension or the path to the view. When looking for a view, the MVC Framework looks in the folder named after the controller and then in the /Views/Shared folder. This means that I can put views that will be used by more than one controller in the /Views/Shared folder and the framework will find them.
+
 
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
         ## Understanding MVC Conventions
-            ### Following Conventions for Controller Classes
+            ### Following Conventions for Views
 -->
 
-### Following Conventions for Views
 ### Following Conventions for Layouts
