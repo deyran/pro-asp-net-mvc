@@ -62,18 +62,19 @@ The *Web Application MVC Project Structure* convention is not an obligation but 
 The other kind of convention is the *convention over configuration*. That means just following a *naming convention* for the files (controllers and views for example), and everything will work. The following sections explain the conventions that are used in place of configuration.
 
 ### Following Conventions for Controller Classes
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Controller classes must have names that end with Controller, such as ProductController, AdminController, and HomeController. 
+    >> Every Controller class must have names ending with *Controller*
 
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-https://learn.microsoft.com/en-us/aspnet/mvc/overview/older-versions-1/overview/understanding-models-views-and-controllers-cs
+When referencing a controller from elsewhere in the project, such as when using an HTML helper method, you specify the first part of the name (such as Product), and the MVC Framework automatically appends Controller to the name and starts looking for the controller class.
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
-https://www.tutorialsteacher.com/mvc/mvc-controller
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
-
-### Following Conventions for Views
-### Following Conventions for Layouts
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
         ## Understanding MVC Conventions
+            ### Following Conventions for Controller Classes
 -->
+
+### Following Conventions for Views
+### Following Conventions for Layouts
