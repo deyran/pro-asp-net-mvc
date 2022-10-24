@@ -62,7 +62,7 @@ The *Web Application MVC Project Structure* convention is not an obligation but 
 The other kind of convention is the *convention over configuration*. That means just following a *naming convention* for the files (controllers and views for example), and everything will work. The following sections explain the conventions that are used in place of configuration.
 
 ### Following Conventions for Controller Classes
-Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. As can be seen, the controller class is formed by a prefix name, which is freely chosen, plus the suffix *"Controller"*. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
+Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. As can be seen, the controller class name is formed by a prefix name, which is freely chosen, plus the suffix *"Controller"*. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
 
 ### Following Conventions for Views
 Views and partial views associated with the **prefixName***Controller* class, can be found in the /Views/**prefixName** folder.  
@@ -97,7 +97,7 @@ Notice that I do not include the file name extension or the path to the view. Wh
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
         ## Understanding MVC Conventions
-            ### Following Conventions for Views
+            ### Following Conventions for Controller Classes
 -->
 
 ### Following Conventions for Layouts
