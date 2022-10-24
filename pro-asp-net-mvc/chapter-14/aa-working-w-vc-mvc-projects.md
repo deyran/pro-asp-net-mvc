@@ -62,12 +62,7 @@ The *Web Application MVC Project Structure* convention is not an obligation but 
 The other kind of convention is the *convention over configuration*. That means just following a *naming convention* for the files (controllers and views for example), and everything will work. The following sections explain the conventions that are used in place of configuration.
 
 ### Following Conventions for Controller Classes
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-Controller classes must have names that end with Controller, such as ProductController, AdminController, and HomeController. 
-    >> Every Controller class must have names ending with *Controller*
-
-When referencing a controller from elsewhere in the project, such as when using an HTML helper method, you specify the first part of the name (such as Product), and the MVC Framework automatically appends Controller to the name and starts looking for the controller class.
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
 
 <!--
 Chapter 14: Overview of MVC Projects
