@@ -70,15 +70,20 @@ Views and partial views go into the folder /Views/Controllername.
     >> Views and Partial view > folder > /Views/prefixName.
 
 For example, a view associated with the ProductController class would go in the /Views/Product folder.
-    >> A view > prefixNameController > /Views/prefixName/ folder
+    >> A view > prefixNameController > /Views/prefixName folder
 
 ******************
 The MVC Framework expects that the default view for an action method should be named after that method. 
-    >> The MVC Framework > View > action method > named after that method
+    >> The MVC Framework > View > action method > named after that method  
 
-For example, the default view associated with an action method called List should be called List.cshtml. Thus, for the List action method in the ProductController class, the default view is expected to be /Views/Product/List.cshtml.
 ******************
+For example, the default view associated with an action method called List should be called List.cshtml. 
+    >> For example > default view > action method > List > List.cshtml
 
+Thus, for the List action method in the ProductController class, the default view is expected to be /Views/Product/List.cshtml.  
+    >> List action method > ProductController class > /View/Product/List.cshtml
+
+******************
 The default view is used when you return the result of calling the View method in an action method, like this:
 ...
 return View();
