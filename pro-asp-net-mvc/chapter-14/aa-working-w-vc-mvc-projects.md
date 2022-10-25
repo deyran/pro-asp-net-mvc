@@ -55,11 +55,11 @@ Folder_or_File|Description|Notes
 /Web.config|This is the configuration file for your application.|-
 
 ## Understanding MVC Conventions
-There are two kinds of conventions in an MVC project: *Web Application MVC Project Structure* [[1]](https://learn.microsoft.com/en-us/previous-versions/aspnet/dd410120(v=vs.100)) and *Convention over configuration*.  
+There are two kinds of conventions in an MVC project: *Web Application MVC Project Structure* [[1]](https://learn.microsoft.com/en-us/previous-versions/aspnet/dd410120(v=vs.100)) and *Convention over Configuration*.  
 
 The *Web Application MVC Project Structure* convention is not an obligation but a suggestion. As seen in Table 14-1, each file goes to a specific place, for example, JavaScript file goes to Scripts folder. It is free to place JavaScript files in anywhere, but *Scripts* is the place other MVC developers would expect to find them, and where *NuGet packages* will install them.  
 
-The other kind of convention is the *convention over configuration*. That means just following a *naming convention* for the files (controllers and views for example), and everything will work. The following sections explain the conventions that are used in place of configuration.
+The other kind of convention is the *Convention over Configuration - [CoC](https://devopedia.org/convention-over-configuration)*. That means just following a *naming convention* for the files (controllers and views for example), and everything will work. The following sections explain the conventions that are used in place of configuration.
 
 ### Following Conventions for Controller Classes
 Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. As can be seen, the controller class name is formed by a prefix name, which is freely chosen, plus the suffix *"Controller"*. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
