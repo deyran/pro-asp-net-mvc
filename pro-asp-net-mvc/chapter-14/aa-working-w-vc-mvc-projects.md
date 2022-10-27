@@ -65,7 +65,7 @@ The other kind of convention is the *Convention over Configuration - [CoC](https
 Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. As can be seen, the controller class name is formed by a prefix name, which is freely chosen, plus the suffix *"Controller"*. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
 
 ### Following Conventions for Views
-Views and partial views associated with the **prefixName***Controller* class, can be found in the /Views/**prefixName** folder. In this convention, each action method of a controller class will correspond to a view or partial view, for example, if the **prefixName***Controller* class has a method called *list*, it view or partial view will correspond to /View/**prefixName**/List.cshtml file.
+Views and partial views associated with the **prefixName***Controller* class, can be found in the /Views/**prefixName** folder. In this convention, each action method of a controller class will correspond or not to a view or partial view, for example, if the **prefixName***Controller* class has a method called *list*, it view or partial view will correspond to /View/**prefixName**/List.cshtml file.
 
 
 
