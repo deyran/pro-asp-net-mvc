@@ -61,12 +61,32 @@ The *Web Application MVC Project Structure* convention is not an obligation but 
 
 The other kind of convention is the *Convention over Configuration - [CoC](https://devopedia.org/convention-over-configuration)*. That means just following a *naming convention* for the files (controllers and views for example), and everything will work. The following sections explain the conventions that are used in place of configuration.
 
+===========================================================
+1. https://devopedia.org/convention-over-configuration
+This concepts means developers does not need create associations between controllers and views, using *CoC* the MVC framework will make these associations automatically
+
+Esse conceito diz que o desenvolvedor não precisa explicitamente criar associações entre controllers e views, por exemplo, se ele seguir uma convenção de nomes. Caso essa convenção seja utilizada, o sistema irá entender e fazer a ligação entre os mesmos.
+
+
+
+2. https://www.devmedia.com.br/introducao-ao-asp-net-mvc/31878
+
+
+<!--
+Chapter 14: Overview of MVC Projects
+    # Working with Visual Studio MVC Projects
+        ## Understanding MVC Conventions
+            ### Following Conventions for Views
+-->
+
+===========================================================
+
+
 ### Following Conventions for Controller Classes
 Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. As can be seen, the controller class name is formed by a prefix name, which is freely chosen, plus the suffix *"Controller"*. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
 
 ### Following Conventions for Views
 Views and partial views associated with the **prefixName***Controller* class, can be found in the /Views/**prefixName** folder. In this convention, each action method of a controller class will correspond or not to a view or partial view, for example, if the **prefixName***Controller* class has a method called *list*, it view or partial view will correspond to /View/**prefixName**/List.cshtml file.
-
 
 
 
@@ -92,12 +112,5 @@ You can specify a different view by name, like this:
 return View("MyOtherView");
 ...
 Notice that I do not include the file name extension or the path to the view. When looking for a view, the MVC Framework looks in the folder named after the controller and then in the /Views/Shared folder. This means that I can put views that will be used by more than one controller in the /Views/Shared folder and the framework will find them.
-
-<!--
-Chapter 14: Overview of MVC Projects
-    # Working with Visual Studio MVC Projects
-        ## Understanding MVC Conventions
-            ### Following Conventions for Views
--->
 
 ### Following Conventions for Layouts
