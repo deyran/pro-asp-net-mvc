@@ -57,7 +57,7 @@ Folder_or_File|Description|Notes
 ## Understanding MVC Conventions
 There are two kinds of conventions in an MVC project: *Web Application MVC Project Structure* [[1]](https://learn.microsoft.com/en-us/previous-versions/aspnet/dd410120(v=vs.100)) and *Convention over Configuration*.  
 
-The *Web Application MVC Project Structure* convention is not an obligation but a suggestion. As seen in Table 14-1, each file goes to a specific place, for example, JavaScript file goes to Scripts folder. It is free to place JavaScript files in anywhere, but *Scripts* is the place other MVC developers would expect to find them, and where *NuGet packages* will install them.  
+The *Web Application MVC Project Structure* convention is not an obligation but a suggestion. As seen in Table 14-1, each file goes to a specific place, for example, controllers classes go to the *Controllers* folder. It is free to put controllers classes anywhere, but *Controllers* folder is where other MVC developers would expect to find them, and the MVC framework will assossiate them with views files using *Convention over configuration*
 
 The other kind of convention is the *Convention over Configuration - [CoC](https://devopedia.org/convention-over-configuration)*. That means just following a *naming convention* for the files (controllers and views for example), and everything will work. The following sections explain the conventions that are used in place of configuration.
 
@@ -68,7 +68,9 @@ The other kind of convention is the *Convention over Configuration - [CoC](https
 2. https://www.devmedia.com.br/introducao-ao-asp-net-mvc/31878
 This concepts means developers does not need create associations between controllers and views, using *CoC* the MVC framework will make these associations automatically.
 
-Vamos realizar a criação de um controller em nossa aplicação exemplo. Ele estará no diretório “Controllers”, de forma apropriada. Note, na Figura 3, que o Visual Studio novamente oferece uma série de templates para o controller. A ideia é que algumas utilizações comuns dos mesmos sejam utilizados com maior facilidade. Entretanto, estaremos criando um controller vazio nesse momento.
+
+
+Ele estará no diretório “Controllers”, de forma apropriada. Note, na Figura 3, que o Visual Studio novamente oferece uma série de templates para o controller. A ideia é que algumas utilizações comuns dos mesmos sejam utilizados com maior facilidade. Entretanto, estaremos criando um controller vazio nesse momento.
 
 <!--
 Chapter 14: Overview of MVC Projects
