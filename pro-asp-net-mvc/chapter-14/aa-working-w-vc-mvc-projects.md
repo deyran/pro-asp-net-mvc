@@ -61,11 +61,16 @@ The *Web Application MVC Project Structure* convention is not an obligation but 
 
 The other convention is the *Convention over Configuration - [CoC](https://devopedia.org/convention-over-configuration)*. This concepts means developers does not need create associations between controllers and views, using *CoC* the MVC framework will make these associations automatically. The following sections explain the conventions that are used in place of configuration.
 
+### Following Conventions for Controller Classes
+To follow *CoC* convention, the controller class name must consist of two parts, a prefix and a suffix. The prefix part can be freely chosen, but the suffix part must be *Controller*. The application of the *CoC* convention can be seen in the *ProductController* class (*SportsStore* project), which prefix part is "Product", and the suffix part is *Controller*.  
+
+This convention allows the MVC Framework to automatically associate Controllers to Views without needing a file or something else to configure this association.
+
+### Following Conventions for Views
+Views and partial views associated with the **prefixName***Controller* class, can be found in the /Views/**prefixName** folder. In this convention, each action method of a controller class will correspond or not to a view or partial view, for example, if the **prefixName***Controller* class has a method called *list*, it view or partial view will correspond to /View/**prefixName**/List.cshtml file.
+
 ===========================================================
 1. https://devopedia.org/convention-over-configuration
-
-
-2. https://www.devmedia.com.br/introducao-ao-asp-net-mvc/31878
 Com esse padrão, o MVC Framework irá conectar o controller à view de mesmo nome automaticamente. 
 
 Nesse caso, estaremos criando um controller chamado HomeController. Esse controller estará presente em praticamente todos os projetos ASP.NET MVC criados. Após a criação, podemos notar que um diretório “Home” foi criado dentro de “Views”. A ideia é que as views controladas por esse controller estejam lá.
@@ -78,15 +83,6 @@ Chapter 14: Overview of MVC Projects
 -->
 
 ===========================================================
-
-
-### Following Conventions for Controller Classes
-Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. As can be seen, the controller class name is formed by a prefix name, which is freely chosen, plus the suffix *"Controller"*. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
-
-### Following Conventions for Views
-To associate *Controllers* with *Views* using *Convention over Configuration - **CoC***, it is necessary to follow this rule:
-1. All controllers classes must be in the *Controllers* folder.
-2. The controller class name consists of a prefix and a suffix. It is free to choose a prefix name, but the suffix name must be "Controller", for example: "ProductController" ("Product" is the prefix and "Controller" is the suffix).
 
 
 
