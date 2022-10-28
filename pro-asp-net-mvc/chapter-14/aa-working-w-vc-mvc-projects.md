@@ -59,18 +59,16 @@ There are two kinds of conventions in an MVC project: *Web Application MVC Proje
 
 The *Web Application MVC Project Structure* convention is not an obligation but a suggestion. As seen in Table 14-1, each file goes to a specific place, for example, controllers classes go to the *Controllers* folder. It is free to put controllers classes anywhere, but *Controllers* folder is where other MVC developers would expect to find them, and the MVC framework will assossiate them with views files using *Convention over configuration*
 
-The other kind of convention is the *Convention over Configuration - [CoC](https://devopedia.org/convention-over-configuration)*. That means just following a *naming convention* for the files (controllers and views for example), and everything will work. The following sections explain the conventions that are used in place of configuration.
+The other convention is the *Convention over Configuration - [CoC](https://devopedia.org/convention-over-configuration)*. This concepts means developers does not need create associations between controllers and views, using *CoC* the MVC framework will make these associations automatically. The following sections explain the conventions that are used in place of configuration.
 
 ===========================================================
 1. https://devopedia.org/convention-over-configuration
 
 
 2. https://www.devmedia.com.br/introducao-ao-asp-net-mvc/31878
-This concepts means developers does not need create associations between controllers and views, using *CoC* the MVC framework will make these associations automatically.
+Com esse padrão, o MVC Framework irá conectar o controller à view de mesmo nome automaticamente. 
 
-
-
-Ele estará no diretório “Controllers”, de forma apropriada. Note, na Figura 3, que o Visual Studio novamente oferece uma série de templates para o controller. A ideia é que algumas utilizações comuns dos mesmos sejam utilizados com maior facilidade. Entretanto, estaremos criando um controller vazio nesse momento.
+Nesse caso, estaremos criando um controller chamado HomeController. Esse controller estará presente em praticamente todos os projetos ASP.NET MVC criados. Após a criação, podemos notar que um diretório “Home” foi criado dentro de “Views”. A ideia é que as views controladas por esse controller estejam lá.
 
 <!--
 Chapter 14: Overview of MVC Projects
@@ -86,7 +84,9 @@ Chapter 14: Overview of MVC Projects
 Every Controller class must have names that end with a *Controller* suffix, like the *ProductController* class, for example. As can be seen, the controller class name is formed by a prefix name, which is freely chosen, plus the suffix *"Controller"*. This convention, known as the *convention over configuration*, allows the MVC Framework automatically appends *Controller* to the name and starts looking for the controller class.
 
 ### Following Conventions for Views
-Views and partial views associated with the **prefixName***Controller* class, can be found in the /Views/**prefixName** folder. In this convention, each action method of a controller class will correspond or not to a view or partial view, for example, if the **prefixName***Controller* class has a method called *list*, it view or partial view will correspond to /View/**prefixName**/List.cshtml file.
+To associate *Controllers* with *Views* using *Convention over Configuration - **CoC***, it is necessary to follow this rule:
+1. All controllers classes must be in the *Controllers* folder.
+2. The controller class name consists of a prefix and a suffix. It is free to choose a prefix name, but the suffix name must be "Controller", for example: "ProductController" ("Product" is the prefix and "Controller" is the suffix).
 
 
 
