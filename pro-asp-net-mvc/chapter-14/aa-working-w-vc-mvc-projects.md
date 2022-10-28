@@ -63,14 +63,12 @@ The other kind of convention is the *Convention over Configuration - [CoC](https
 
 ===========================================================
 1. https://devopedia.org/convention-over-configuration
-This concepts means developers does not need create associations between controllers and views, using *CoC* the MVC framework will make these associations automatically
-
-Esse conceito diz que o desenvolvedor não precisa explicitamente criar associações entre controllers e views, por exemplo, se ele seguir uma convenção de nomes. Caso essa convenção seja utilizada, o sistema irá entender e fazer a ligação entre os mesmos.
-
 
 
 2. https://www.devmedia.com.br/introducao-ao-asp-net-mvc/31878
+This concepts means developers does not need create associations between controllers and views, using *CoC* the MVC framework will make these associations automatically.
 
+Vamos realizar a criação de um controller em nossa aplicação exemplo. Ele estará no diretório “Controllers”, de forma apropriada. Note, na Figura 3, que o Visual Studio novamente oferece uma série de templates para o controller. A ideia é que algumas utilizações comuns dos mesmos sejam utilizados com maior facilidade. Entretanto, estaremos criando um controller vazio nesse momento.
 
 <!--
 Chapter 14: Overview of MVC Projects
