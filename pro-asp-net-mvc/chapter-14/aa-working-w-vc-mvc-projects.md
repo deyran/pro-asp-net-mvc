@@ -62,7 +62,7 @@ The *Web Application MVC Project Structure* convention is not an obligation but 
 The other convention is the *Convention over Configuration - [CoC](https://devopedia.org/convention-over-configuration)*. This concepts means developers does not need create associations between controllers and views, using *CoC* the MVC framework will make these associations automatically. The following sections explain the conventions that are used in place of configuration.
 
 ### Following Conventions for Controller Classes
-To follow *CoC* convention, the controller class name must consist of two parts, a prefix and a suffix. The prefix part can be freely chosen, but the suffix part must be *Controller*. The application of the *CoC* convention can be seen in the *ProductController* class (*SportsStore* project), which prefix part is "Product", and the suffix part is *Controller*.  
+To follow *CoC* convention, the controller class name must consist of two parts, a prefix and a suffix. The prefix part can be freely chosen, but the suffix part must be *"Controller"*. The application of the *CoC* convention can be seen in the *ProductController* class (*SportsStore* project), which prefix part is *"Product"*, and the suffix part is *Controller*.  
 
 This convention allows the MVC Framework to automatically associate Controllers to Views without needing a file or something else to configure this association.
 
