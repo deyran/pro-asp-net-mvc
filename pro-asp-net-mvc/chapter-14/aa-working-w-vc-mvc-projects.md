@@ -67,7 +67,8 @@ To follow *CoC* convention, the controller class name must consist of two parts,
 This convention allows the MVC Framework to automatically associate Controllers to Views without needing a file or something else to configure this association.
 
 ### Following Conventions for Views
-After the controller class is created, a folder using the *prefix part* as name is created inside the *Views* folder. Using the *ProductController* class as an example, the *Product* folder (*prefix part*) was created inside the *Views* folder, having this format: */Views/Product*. This approach allows all views controlled by the *ProductController* class be inside the "Product" folder.
+After the controller class is created, a folder using the *prefix part* as name is created inside the *Views* folder. Using the *ProductController* class as an example, the *Product* folder (*prefix part*) was created inside the *Views* folder, having this format: */Views/Product*. This approach allows all views controlled by the *ProductController* class be inside the "Product" folder.  
+
 All views under the controller class control are called by their *Action Methods*, these *Action Methods* are methods implemented within the controller class. Still using the *ProductController* class as an example, this class has an action method called *List* that is associated with the *List.chtml* file, which must be found in the */Views/Product/List.cshtml* directory
 
 
