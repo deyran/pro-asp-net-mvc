@@ -68,17 +68,17 @@ This convention allows the MVC Framework to automatically associate Controllers 
 
 ### Following Conventions for Views
 After the controller class is created, a folder using the *prefix part* as name is created inside the *Views* folder. Using the *ProductController* class as an example, the *Product* folder (*prefix part*) was created inside the *Views* folder, having this format: */Views/Product*. This approach allows all views controlled by the *ProductController* class be inside the "Product" folder.
+All views under the controller class control are called by their *Action Methods*, these *Action Methods* are methods implemented within the controller class. Still using *ProductController* class as an example
+
 
 
 ===========================================================
 1. https://devopedia.org/convention-over-configuration
-After the controller class is created, a folder using the *prefix part* as name is created inside the *Views* folder. Still using the *ProductController* controller as an example, the *Product* folder (pefix part) was created inside the *Views* folder. This approach allows that all views controlled by the *ProductController* class be inside the "Product" folder.
-
-Após a criação, podemos notar que um diretório “Home” foi criado dentro de “Views”. A ideia é que as views controladas por esse controller estejam lá.
+Cada um dos controllers irá realizar a busca pela view, primeiro no diretório específico dele (/Views/Home, nesse caso), e então em um diretório especial chamado “/Views/Shared”. 
 
 
 
-Agora, vamos realizar a criação da view. A convenção de nomes das views é um pouco mais complexa. Como comentamos anteriormente, elas são chamadas através de métodos de ação (Action Methods) definidos dentro de um controller. Esses métodos irão chamar a view. Cada um dos controllers irá realizar a busca pela view, primeiro no diretório específico dele (/Views/Home, nesse caso), e então em um diretório especial chamado “/Views/Shared”. Esse diretório é procurado por todos os controllers, o que significa que o MVC Framework irá permitir que as views sejam compartilhadas pelos controllers. A utilização desse tipo de recurso precisa ser controlada, entretanto.
+Esse diretório é procurado por todos os controllers, o que significa que o MVC Framework irá permitir que as views sejam compartilhadas pelos controllers. A utilização desse tipo de recurso precisa ser controlada, entretanto.
 
 <!--
 Chapter 14: Overview of MVC Projects
