@@ -71,10 +71,14 @@ After the controller class is created, a folder using the *prefix part* as name 
 
 All views under the controller class control are called by their *Action Methods*, these *Action Methods* are methods implemented within the controller class. Still using the *ProductController* class as an example, this class has an action method called *List* that is associated with the *List.chtml* file, which must be found in the */Views/Product/List.cshtml* directory.   
 
-A *view* associated with the *action method* is used when the result of calling the **View** method in an action method is called, like this:
+A *view* associated with the *action method* is used when the result of calling the **View** method in an action method is called, like this:  
+
+```js
 ...
 return View();
 ...
+```
+
 
 
 ===========================================================
