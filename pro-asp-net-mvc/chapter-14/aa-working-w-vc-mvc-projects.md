@@ -69,15 +69,17 @@ This convention allows the MVC Framework to automatically associate Controllers 
 ### Following Conventions for Views
 After the controller class is created, a folder using the *prefix part* as name is created inside the *Views* folder. Using the *ProductController* class as an example, the *Product* folder (*prefix part*) was created inside the *Views* folder, having this format: */Views/Product*. This approach allows all views controlled by the *ProductController* class be inside the "Product" folder.  
 
-All views under the controller class control are called by their *Action Methods*, these *Action Methods* are methods implemented within the controller class. Still using the *ProductController* class as an example, this class has an action method called *List* that is associated with the *List.chtml* file, which must be found in the */Views/Product/List.cshtml* directory
+All views under the controller class control are called by their *Action Methods*, these *Action Methods* are methods implemented within the controller class. Still using the *ProductController* class as an example, this class has an action method called *List* that is associated with the *List.chtml* file, which must be found in the */Views/Product/List.cshtml* directory.   
 
+A *view* associated with the *action method* is used when the result of calling the **View** method in an action method is called, like this:
+...
+return View();
+...
 
 
 ===========================================================
-1. https://devopedia.org/convention-over-configuration
+1. https://www.devmedia.com.br/introducao-ao-asp-net-mvc/31878
 Cada um dos controllers irá realizar a busca pela view, primeiro no diretório específico dele (/Views/Home, nesse caso), e então em um diretório especial chamado “/Views/Shared”. 
-
-
 
 Esse diretório é procurado por todos os controllers, o que significa que o MVC Framework irá permitir que as views sejam compartilhadas pelos controllers. A utilização desse tipo de recurso precisa ser controlada, entretanto.
 
@@ -87,24 +89,12 @@ Chapter 14: Overview of MVC Projects
         ## Understanding MVC Conventions
             ### Following Conventions for Views
 -->
-
 ===========================================================
 
 
 
 
 ******************
-The MVC Framework expects that the default view for an action method should be named after that method. 
-    >> The MVC Framework > View > action method > named after that method  
-
-************************************************************************
-For example, the default view associated with an action method called List should be called List.cshtml. 
-    >> For example > default view > action method > List > List.cshtml
-
-Thus, for the List action method in the ProductController class, the default view is expected to be /Views/Product/List.cshtml.  
-    >> List action method > ProductController class > /View/Product/List.cshtml
-
-************************************************************************
 The default view is used when you return the result of calling the View method in an action method, like this:
 ...
 return View();
