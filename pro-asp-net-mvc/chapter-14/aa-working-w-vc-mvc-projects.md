@@ -77,15 +77,17 @@ A *view* associated with the *action method* is used when the result of calling 
 ...
 return View();
 ...
-```
+```  
 
+You can specify a different view by name, like this:  
 
+```js
+...
+return View("MyOtherView");
+...
+```  
 
-===========================================================
-1. https://www.devmedia.com.br/introducao-ao-asp-net-mvc/31878
-Cada um dos controllers irá realizar a busca pela view, primeiro no diretório específico dele (/Views/Home, nesse caso), e então em um diretório especial chamado “/Views/Shared”. 
-
-Esse diretório é procurado por todos os controllers, o que significa que o MVC Framework irá permitir que as views sejam compartilhadas pelos controllers. A utilização desse tipo de recurso precisa ser controlada, entretanto.
+Notice that I do not include the file name extension or the path to the view. When looking for a view, the MVC Framework looks in the folder named after the controller and then in the /Views/Shared folder. This means that I can put views that will be used by more than one controller in the /Views/Shared folder and the framework will find them.  
 
 <!--
 Chapter 14: Overview of MVC Projects
@@ -93,20 +95,6 @@ Chapter 14: Overview of MVC Projects
         ## Understanding MVC Conventions
             ### Following Conventions for Views
 -->
-===========================================================
 
-
-
-
-******************
-The default view is used when you return the result of calling the View method in an action method, like this:
-...
-return View();
-...
-You can specify a different view by name, like this:
-...
-return View("MyOtherView");
-...
-Notice that I do not include the file name extension or the path to the view. When looking for a view, the MVC Framework looks in the folder named after the controller and then in the /Views/Shared folder. This means that I can put views that will be used by more than one controller in the /Views/Shared folder and the framework will find them.
 
 ### Following Conventions for Layouts
