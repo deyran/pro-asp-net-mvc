@@ -101,20 +101,18 @@ Layout = "~/Views/Shared/_Layout.cshtml";
 }
 ```  
 
-If you do not want the default layout applied to views, you can change the settings in _ViewStart.cshtml (or delete the file entirely) to specify another layout in the view, like this:
-
+* There are four ways to avoid using the default layout applied to views:
+1. Change the settings in *_ViewStart.cshtml* file.
+2. Delete the *_ViewStart.cshtml* file.
+3. Specify another layout in the view, like this:
+```js
 @{
 Layout = "~/Views/Shared/_MyLayout.cshtml";
 }
-
-Or you can disable any layout for a given view, like this:
-
+```
+4. Disabling any layout for a given view, like this:
+```js
 @{
 Layout = null;
 }
-<!--
-Chapter 14: Overview of MVC Projects
-    # Working with Visual Studio MVC Projects
-        ## Understanding MVC Conventions
-            ### Following Conventions for Layouts 351
--->
+```
