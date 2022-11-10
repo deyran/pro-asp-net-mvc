@@ -86,14 +86,35 @@ return View("MyOtherView");
 ...
 ```  
 
-Note that extension name or path to the view is not included. When looking for a view, the MVC Framework looks in the folder named after the controller and then in the */Views/Shared* folder. This means that views can be shared by more than one *controller* in the /Views/Shared folder.
+Note that extension name or path to the view is not included. When looking for a view, the MVC Framework looks in the folder named after the controller and then in the */Views/Shared* folder. This means that views can be shared by more than one *controller* in the /Views/Shared folder.  
 
+### Following Conventions for Layouts  
+* There are two rules to follow conventions for Layouts:
+1. The layout file name must start with an underscore (_).
+2. All layout file are placed in the */Views/Shared* folder.  
+ 
+* The default layout for the web application can be found in the */Views/_ViewStart.cshtml* file, as seen in its content in the code below. 
+
+```js
+@{
+Layout = "~/Views/Shared/_Layout.cshtml";
+}
+```  
+
+If you do not want the default layout applied to views, you can change the settings in _ViewStart.cshtml (or delete the file entirely) to specify another layout in the view, like this:
+
+@{
+Layout = "~/Views/Shared/_MyLayout.cshtml";
+}
+
+Or you can disable any layout for a given view, like this:
+
+@{
+Layout = null;
+}
 <!--
 Chapter 14: Overview of MVC Projects
     # Working with Visual Studio MVC Projects
         ## Understanding MVC Conventions
-            ### Following Conventions for Views
+            ### Following Conventions for Layouts 351
 -->
-
-
-### Following Conventions for Layouts
