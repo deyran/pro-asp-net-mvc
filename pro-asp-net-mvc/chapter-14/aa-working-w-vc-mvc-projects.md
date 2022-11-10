@@ -87,7 +87,7 @@ return View("MyOtherView");
 ...
 ```  
 
-Notice that I do not include the file name extension or the path to the view. When looking for a view, the MVC Framework looks in the folder named after the controller and then in the /Views/Shared folder. This means that I can put views that will be used by more than one controller in the /Views/Shared folder and the framework will find them.  
+Note that extension name or path to the view is not included. When looking for a view, the MVC Framework looks in the folder named after the controller and then in the */Views/Shared* folder. This means that views can be shared by more than one *controller* in the /Views/Shared folder.
 
 <!--
 Chapter 14: Overview of MVC Projects
