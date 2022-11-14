@@ -2,7 +2,7 @@
     Chapter 14: Overview of MVC Projects
 </h1>
 
-The purpose of this chapter is to present an overview of the MVC Framework features, following these items:
+The purpose of this section is to present an overview of the MVC Framework features, following these items:
 1. Structure and nature of an ASP.NET MVC application.
 2. Default projects structure and naming conventions
 
