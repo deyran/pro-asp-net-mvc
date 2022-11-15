@@ -1,24 +1,28 @@
-﻿body {
-    padding-top: 50px;
-    padding-bottom: 20px;
-}
-
-/* Set padding to keep content from hitting the edges */
-.body-content {
-    padding-left: 15px;
-    padding-right: 15px;
-}
-
-/* Override the default bootstrap behavior where horizontal description lists 
-   will truncate terms that are too long to fit in the left column 
+﻿/*
+Chapter 14: Overview of MVC Projects
+    # Debugging MVC Applications
+        ## Preparing the Example Project
+            ### Creating the View
+                Listing 14-3. Adding a Style to the /Content/Site.css File.
 */
-.dl-horizontal dt {
-    white-space: normal;
+
+body {
+    padding-top: 5px;
+    padding-bottom: 5px;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
-input,
-select,
-textarea {
-    max-width: 280px;
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
 }

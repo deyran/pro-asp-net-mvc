@@ -29,11 +29,18 @@ Open the *HomeController.cs* file and replace the content to match Listing 14-1.
 </p>  
 
 ### Creating the View
-Open the *View/Home/Index.cshtml* view file and replace the default content to match Listing 14-2.  
+* Open the *View/Home/Index.cshtml* view file and replace the default content to match Listing 14-2.  
 
 <p align="center">
     <img src="ch14-Pictures/Listing 14-2.png" /><br />
     <b>Listing 14-2.</b> The Contents of the Index.cshtml File
+</p>  
+
+* For the last change, open the */Content/Site.css* file and change one of the existing ones, as shown in Listing 14-3.  
+
+<p align="center">
+    <img src="ch14-Pictures/Listing 14-3.png" /><br />
+    <b>Listing 14-3.</b> Adding a Style to the /Content/Site.css File.
 </p>  
 
 <!--
@@ -41,7 +48,7 @@ Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications
         ## Preparing the Example Project
             ### Creating the View
-                Listing 14-2. The Contents of the Index.cshtml File
+                Listing 14-3. Adding a Style to the /Content/Site.css File.
 -->
 ## Launching the Visual Studio Debugger
 ## Causing the Visual Studio Debugger to Break
