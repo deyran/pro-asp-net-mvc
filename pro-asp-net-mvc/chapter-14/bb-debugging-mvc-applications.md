@@ -28,16 +28,21 @@ Open the *HomeController.cs* file and replace the content to match Listing 14-1.
     <b>Listing 14-1.</b> The Contents of the HomeController.cs File
 </p>  
 
+### Creating the View
+Open the *View/Home/Index.cshtml* view file and replace the default content to match Listing 14-2.  
+
+<p align="center">
+    <img src="ch14-Pictures/Listing 14-2.png" /><br />
+    <b>Listing 14-2.</b> The Contents of the Index.cshtml File
+</p>  
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications
         ## Preparing the Example Project
-            ### Creating the Controller
-                Listing 14-1. The Contents of the HomeController.cs File
+            ### Creating the View
+                Listing 14-2. The Contents of the Index.cshtml File
 -->
-
-### Creating the View
-
 ## Launching the Visual Studio Debugger
 ## Causing the Visual Studio Debugger to Break
 ## Using Edit and Continue
