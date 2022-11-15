@@ -20,13 +20,22 @@ The purpose of debugging is to identifying a problem, isolate the source of the 
     <b>Figure 14-4.</b> The effect of the additions made by the MVC project template
 </p>  
 
+### Creating the Controller
+Open the *HomeController.cs* file and replace the content to match Listing 14-1.  
+
+<p align="center">
+    <img src="ch14-Pictures/Listing 14-1.png" /><br />
+    <b>Listing 14-1.</b> The Contents of the HomeController.cs File
+</p>  
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications
         ## Preparing the Example Project
-            Figure 14-4. The effect of the additions made by the MVC project template
+            ### Creating the Controller
+                Listing 14-1. The Contents of the HomeController.cs File
 -->
-### Creating the Controller
+
 ### Creating the View
 
 ## Launching the Visual Studio Debugger

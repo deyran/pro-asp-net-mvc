@@ -6,25 +6,24 @@ using System.Web.Mvc;
 
 namespace DebuggingDemo.Controllers
 {
+    /*
+    Chapter 14: Overview of MVC Projects
+        # Debugging MVC Applications
+            ## Preparing the Example Project
+                ### Creating the Controller
+                    Listing 14-1. The Contents of the HomeController.cs File
+    */
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
-            return View();
-        }
+            int firstVal = 10;
+            int secondVal = 5;
+            int result = firstVal / secondVal;
 
-        public ActionResult About()
-        {
-            ViewBag.Message = "Your application description page.";
+            ViewBag.Message = "Welcome to ASP.NET MVC!";
 
-            return View();
-        }
-
-        public ActionResult Contact()
-        {
-            ViewBag.Message = "Your contact page.";
-
-            return View();
+            return View(result);
         }
     }
 }
