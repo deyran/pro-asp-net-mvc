@@ -6,7 +6,7 @@
 The purpose of debugging is to identifying a problem, isolate the source of the problem and then fix the problem or determine a way to work around it. [[1]](https://www.techtarget.com/searchsoftwarequality/definition/debugging). In this section, you will see the basics of Visual Studio debugger operations like set up the debugger and perform different debugging activities on your MVC project.
 
 ## Preparing the Example Project
-To demonstrate using the debugger create a new *Solution* called *DebuggingDemo*, with MVC project using MVC project template, configuring *Individual User Accounts authentication* option, which sets up a basic user security system, as shown in Figure 14-3.  
+To demonstrate using the debugger create a new *Solution* called *DebuggingDemo*, with *MVC project* using *MVC project template*, configuring *Individual User Accounts authentication* option, which sets up a basic user security system, as shown in Figure 14-3.  
 
 <p align="center">
     <img src="ch14-Pictures/Figure 14-3.png" /><br />
