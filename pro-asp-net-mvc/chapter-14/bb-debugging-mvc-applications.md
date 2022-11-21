@@ -44,39 +44,10 @@ Open the *HomeController.cs* file and replace the content to match Listing 14-1.
 </p>  
 
 ## Launching the Visual Studio Debugger
-* AAAAAAAA
-* BBBBBB
-
->> Visual Studio > debugging automatacally > change the configuration
->> Setting > Web.config file > root project folder > system.web element
->> Ensure that the dubug attribute is set to true
->> Do not deploy your application to a production server without setting the debug value to false.
-
-
-Visual Studio prepares new projects for debugging automatically, but it is useful to understand how to change the configuration. 
-    >> Visual Studio > debugging automatacally > change the configuration
-
-The important setting is in the Web.config file in the root project folder and can be found in the system.web element, as shown in Listing 14-4.
-    >> Setting > Web.config file > root project folder > system.web element
-
-<p align="center">
-    <img src="ch14-Pictures/Listing 14-4.png" /><br />
-    <b>Listing 14-4.</b> The Debug Attribute in the Web.config File
-</p>  
-
-A lot of compilation in an MVC Framework project is done when the application is running in IIS, and so you need to ensure that the debug attribute on the compilation attribute is set to true during the development process. 
-    >> Ensure that the dubug attribute is set to true
-
-This ensures that the debugger is able to operate on the classes files produced through on-demand compilation  
-
-■
->> Do not deploy your application to a production server without setting the debug value to false.
-
- if you are using visual studio to deploy your application (as i did in Chapter 13), then the setting will be changed automatically when you select the release configuration for the project.
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications
-        ## Launching the Visual Studio Debugger
+        ## Launching the Visual Studio Debugger 355-356
             Listing 14-4. The Debug Attribute in the Web.config File
 -->
 
