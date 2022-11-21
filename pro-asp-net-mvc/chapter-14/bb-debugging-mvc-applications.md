@@ -53,14 +53,17 @@ To debug an MVC Framework application, follow these two steps:
         <b>Listing 14-4.</b> The Debug Attribute in the Web.config File
     </p>  
 
-2. Ensure that the *Debug* configuration is selected in the *Visual Studio* toolbar, as shown in Figure 14-5
-
+2. Ensure that the *Debug* configuration is selected in the *Visual Studio* toolbar, as shown in Figure 14-5.
+<p align="center">
+    <img src="ch14-Pictures/Figure 14-5.png" /><br />
+    <b>Figure 14-5.</b> Selecting the Debug configuration
+</p>  
 
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications
         ## Launching the Visual Studio Debugger 355-356
-            Listing 14-4. The Debug Attribute in the Web.config File
+            Figure 14-5. Selecting the Debug configuration
 -->
 
 ## Causing the Visual Studio Debugger to Break
