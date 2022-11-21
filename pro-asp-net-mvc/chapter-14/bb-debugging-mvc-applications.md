@@ -65,7 +65,6 @@ To debug an MVC Framework application, follow these three steps:
     <b>Figure 14-6.</b> The dialog that Visual Studio displays when the Web.config File disables debugging
 </p>
 
-
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications
