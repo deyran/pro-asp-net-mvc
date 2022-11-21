@@ -44,6 +44,10 @@ Open the *HomeController.cs* file and replace the content to match Listing 14-1.
 </p>  
 
 ## Launching the Visual Studio Debugger
+To debug an MVC Framework application, follow these two steps:
+1. AAAAAAAA
+2. AAAAAAAA
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications
