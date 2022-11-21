@@ -45,12 +45,15 @@ Open the *HomeController.cs* file and replace the content to match Listing 14-1.
 
 ## Launching the Visual Studio Debugger
 To debug an MVC Framework application, follow these two steps:
-1. Open the *Web.config* file (in the root project folder), find the *system.web* element
-2. Set the *debug* attribute to *true*, as shown in Listing 14-4
-<p align="center">
-    <img src="ch14-Pictures/Listing 14-4.png" /><br />
-    <b>Listing 14-4.</b> The Debug Attribute in the Web.config File
-</p>
+1. Change de configuration in the *Web.config* file (in the root project folder).
+    1. Open the *Web.config*, find the *system.web* element
+    2. Set the *debug* attribute to *true*, as shown in Listing 14-4
+    <p align="center">
+        <img src="ch14-Pictures/Listing 14-4.png" /><br />
+        <b>Listing 14-4.</b> The Debug Attribute in the Web.config File
+    </p>  
+
+2. Ensure that the *Debug* configuration is selected in the *Visual Studio* toolbar, as shown in Figure 14-5
 
 
 <!--
