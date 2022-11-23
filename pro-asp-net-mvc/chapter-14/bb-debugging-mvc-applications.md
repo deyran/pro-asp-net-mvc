@@ -74,16 +74,17 @@ Open the *HomeController.cs* file and replace the content to match Listing 14-1.
 * You won't notice any difference until the debugger breaks, but that will be coverd in the next section.
 
 ## Causing the Visual Studio Debugger to Break
-### Using Breakpoints
-### Viewing Data Values in the Code Editor
-### Viewing Application State in the Debugger Windows
-### Breaking on Exceptions
-### Using Edit and Continue
-
+An application with the *degugger* attached will run normally until a *break* accurs. When an application running is stopped, control is handed over to the *debugger* for the developer to inspect and control the state of the application. This *breaks* accurs for two reasons: when a breakpoint is reached and when an unhandled exception arises. You will see examples of both in the following sections. 
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
 -->
+
+### Using Breakpoints
+### Viewing Data Values in the Code Editor
+### Viewing Application State in the Debugger Windows
+### Breaking on Exceptions
+### Using Edit and Continue
 
 ## Using Edit and Continue
