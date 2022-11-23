@@ -59,7 +59,7 @@ To debug an MVC Framework application, follow these three steps:
     <b>Figure 14-5.</b> Selecting the Debug configuration
 </p>
 
-3. Click the green arrow on the *Visual Studio* toolbar, as shown in Figure 14-5. If the *debug* attribute (in the *Web.config* file) has not been the set to *true*, the *Visual Studio* will display the dialog shown in Figure 14-6.
+3. Click the green arrow on the *Visual Studio* toolbar, as shown in Figure 14-5. If the *debug* attribute (in the *Web.config* file) has not been the set to *true*, the *Visual Studio* will display the dialog shown in Figure 14-6. Select the *Modify the Web.config file to enable debugging* and click the *OK* button and the debugger will start.
 <p align="center">
     <img src="ch14-Pictures/Figure 14-6.png" /><br />
     <b>Figure 14-6.</b> The dialog that Visual Studio displays when the Web.config File disables debugging
