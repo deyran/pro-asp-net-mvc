@@ -44,32 +44,41 @@ Open the *HomeController.cs* file and replace the content to match Listing 14-1.
 </p>  
 
 ## Launching the Visual Studio Debugger
-To debug an MVC Framework application, follow these three steps:
-1. Change de configuration in the *Web.config* file (in the root project folder).
-    1. Open the *Web.config*, find the *system.web* element
-    2. Set the *debug* attribute to *true*, as shown in Listing 14-4
+* To debug an MVC Framework application, follow these three steps:
+    1. Change de configuration in the *Web.config* file (in the root project folder).
+        1. Open the *Web.config*, find the *system.web* element
+        2. Set the *debug* attribute to *true*, as shown in Listing 14-4
+        <p align="center">
+            <img src="ch14-Pictures/Listing 14-4.png" /><br />
+            <b>Listing 14-4.</b> The Debug Attribute in the Web.config File
+        </p>  
+
+    2. Ensure that the *Debug* configuration is selected in the *Visual Studio* toolbar, as shown in Figure 14-5.
     <p align="center">
-        <img src="ch14-Pictures/Listing 14-4.png" /><br />
-        <b>Listing 14-4.</b> The Debug Attribute in the Web.config File
+        <img src="ch14-Pictures/Figure 14-5.png" /><br />
+        <b>Figure 14-5.</b> Selecting the Debug configuration
+    </p>
+
+    3. Click the green arrow on the *Visual Studio* toolbar, as shown in Figure 14-5. If the *debug* attribute (in the *Web.config* file) has not been the set to *true*, the *Visual Studio* will display the dialog shown in Figure 14-6. Select the *Modify the Web.config file to enable debugging* and click the *OK* button and the debugger will start.
+    <p align="center">
+        <img src="ch14-Pictures/Figure 14-6.png" /><br />
+        <b>Figure 14-6.</b> The dialog that Visual Studio displays when the Web.config File disables debugging
     </p>  
 
-2. Ensure that the *Debug* configuration is selected in the *Visual Studio* toolbar, as shown in Figure 14-5.
-<p align="center">
-    <img src="ch14-Pictures/Figure 14-5.png" /><br />
-    <b>Figure 14-5.</b> Selecting the Debug configuration
-</p>
+* At this point, your application will be displayed in a new browser window, as shown in Figure 14-7.  
+    <p align="center">
+        <img src="ch14-Pictures/Figure 14-7.png" /><br />
+        <b>Figure 14-7.</b> Running the debugger
+    </p>  
 
-3. Click the green arrow on the *Visual Studio* toolbar, as shown in Figure 14-5. If the *debug* attribute (in the *Web.config* file) has not been the set to *true*, the *Visual Studio* will display the dialog shown in Figure 14-6. Select the *Modify the Web.config file to enable debugging* and click the *OK* button and the debugger will start.
-<p align="center">
-    <img src="ch14-Pictures/Figure 14-6.png" /><br />
-    <b>Figure 14-6.</b> The dialog that Visual Studio displays when the Web.config File disables debugging
-</p>
+* You won't notice any difference until the debugger breaks, but that will be coverd in the next section.
+
 
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications
         ## Launching the Visual Studio Debugger 355-356
-            Figure 14-6. The dialog that Visual Studio displays when the Web.config File disables debugging
+            Figure 14-7. Running the debugger
 -->
 
 ## Causing the Visual Studio Debugger to Break
