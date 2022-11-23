@@ -11,5 +11,3 @@
 ### Using Edit and Continue
 
 ## Using Browser Link
-
-cc-using-browser-link
