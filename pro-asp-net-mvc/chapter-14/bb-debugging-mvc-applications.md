@@ -79,26 +79,36 @@ An application with the *degugger* attached will run normally until a *break* ac
 ### Using Breakpoints 
 A breakpoint is a debugging technique available for developers break execution to inspect the state of the application, see what is happening, and resume execution again.  
 
-To demonstrate the use of the *breakpoint* debugging technique, open the *DebuggingDemo* project and follow these steps:
-1. AAAAAAAA
+To demonstrate the use of the *breakpoint* debugging technique, open the *DebuggingDemo* project, *HomeController.cs* file and follow these steps:
+1. To create a breakpoint, right-click a code statement and select Breakpoint ➤ Insert Breakpoint from the pop-up menu as shown in Figure 14-8A. 
+    <p align="center">
+        <img src="ch14-Pictures/Figure 14-8A.png" /><br />
+        <b>Figure 14-8A.</b> Creating a Breakpoint
+    </p>  
+
+<!--
+Chapter 14: Overview of MVC Projects
+    # Debugging MVC Applications 
+        ## Causing the Visual Studio Debugger to Break (357-363)
+            ### Using Breakpoints
+                Figure 14-8A. Creating a Breakpoint
+-->
+
+
 2. AAAAAAAA
 3. AAAAAAAA
 4. AAAAAAAA
 ********************************
 
 
-To create a breakpoint, right-click a code statement and select Breakpoint ➤ Insert Breakpoint from the pop-up menu. As a demonstration, apply a breakpoint to the first statement in the Index action method of the Home controller and you will see a red dot appear in the margin of the text editor, as shown in Figure 14-8.
+To create a breakpoint, right-click a code statement and select Breakpoint ➤ Insert Breakpoint from the pop-up menu. 
+
+As a demonstration, apply a breakpoint to the first statement in the Index action method of the Home controller and you will see a red dot appear in the margin of the text editor, as shown in Figure 14-8.
 
 Figure 14-8. Applying a breakpoint to the first statement in the Index action method
 
 ------------------------------------------------------------
 To see the effect of the breakpoint, start the debugger by selecting Start Debugging from the Visual Studio Debug menu. The application will run until the statement to which the breakpoint has been applied is reached, at which point the debugger will break, halting execution of the application and transferring control. Visual Studio highlights the point at which the execution has been stopped with yellow highlights, as shown in Figure 14-9.
-<!--
-Chapter 14: Overview of MVC Projects
-    # Debugging MVC Applications 
-        ## Causing the Visual Studio Debugger to Break (357-363)
-            ### Using Breakpoints
--->
 
 ### Viewing Data Values in the Code Editor
 ### Viewing Application State in the Debugger Windows
