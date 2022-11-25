@@ -79,7 +79,7 @@ An application with the *degugger* attached will run normally until a *break* ac
 ### Using Breakpoints 
 A breakpoint is a debugging technique available for developers break execution to inspect the state of the application, see what is happening, and resume execution again.  
 
-* To demonstrate the use of the *breakpoint* debugging technique, open the *DebuggingDemo* project, *HomeController.cs* file and follow these steps:
+To demonstrate the use of the *breakpoint* debugging technique, open the *DebuggingDemo* project, *HomeController.cs* file and follow these steps:
 1. To create a breakpoint, right-click a code statement and select Breakpoint ➤ Insert Breakpoint from the pop-up menu as shown in Figure 14-8A. 
     <p align="center">
         <img src="ch14-Pictures/Figure 14-8A.png" /><br />
