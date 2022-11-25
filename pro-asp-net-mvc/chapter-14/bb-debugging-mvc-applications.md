@@ -84,16 +84,22 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
     <p align="center">
         <img src="ch14-Pictures/Figure 14-8A.png" /><br />
         <b>Figure 14-8A.</b> Creating a Breakpoint
-    </p>  
+    </p>
+
+After these steps you you will see a red dot appear in the margin of the text editor, as shown in Figure 14-8.
+    <p align="center">
+        <img src="ch14-Pictures/Figure 14-8.png" /><br />
+        <b>Figure 14-8.</b> Applying a breakpoint to the first statement in the Index action method
+    </p>
+
 
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
             ### Using Breakpoints
-                Figure 14-8A. Creating a Breakpoint
+                Figure 14-8. Applying a breakpoint to the first statement in the Index action method
 -->
-
 
 2. AAAAAAAA
 3. AAAAAAAA
@@ -101,9 +107,9 @@ Chapter 14: Overview of MVC Projects
 ********************************
 
 
-To create a breakpoint, right-click a code statement and select Breakpoint ➤ Insert Breakpoint from the pop-up menu. 
 
-As a demonstration, apply a breakpoint to the first statement in the Index action method of the Home controller and you will see a red dot appear in the margin of the text editor, as shown in Figure 14-8.
+
+
 
 Figure 14-8. Applying a breakpoint to the first statement in the Index action method
 
