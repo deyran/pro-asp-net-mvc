@@ -12,6 +12,11 @@ namespace DebuggingDemo.Controllers
             ## Preparing the Example Project
                 ### Creating the Controller
                     Listing 14-1. The Contents of the HomeController.cs File
+
+            ## Causing the Visual Studio Debugger to Break (357-363)
+                ### Using Breakpoints
+                    Figure 14-8. Applying a breakpoint to the first statement in the Index action method
+
     */
     public class HomeController : Controller
     {
