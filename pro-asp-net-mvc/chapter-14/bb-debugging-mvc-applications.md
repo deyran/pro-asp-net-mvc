@@ -99,16 +99,39 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
         <img src="ch14-Pictures/Figure 14-9.png" /><br />
         <b>Figure 14-9.</b> Hitting a breakpointmethod
     </p>
-    
+
+### Viewing Data Values in the Code Editor
+Breakpoints | track down bugs | code
+Most useful feature | Ability to view and monitor | values of variable | code editor
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Start the application| using the debugger | breakpoint is reached
+
+Movies the mouse pointer over to the *result* variable
+
+A small pop-up shows the current value | Figure 14-10
+
+Figure 14-10. Displaying the value of a variable in the Visual Studio code editor
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Visual Studio shows the default value, which is 0 for the int type.
+
+Press *F10* to step over and advance to the *ViewBag.Message*, hold mouse over to the *result* variable again to see value was assigned to the *result* variable, as shown in Figure 14-11.
+
+Figure 14-11. The effect of assigning a value of a variable
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+There is a push icon to the right of the value in the popup
+
+when clicked, popup becomes permanent and shows variable changes
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
-            ### Using Breakpoints
-                Figure 14-9. Hitting a breakpoint
+            ### Viewing Data Values in the Code Editor 358
 -->
 
-### Viewing Data Values in the Code Editor
 ### Viewing Application State in the Debugger Windows
 ### Breaking on Exceptions
 ### Using Edit and Continue
