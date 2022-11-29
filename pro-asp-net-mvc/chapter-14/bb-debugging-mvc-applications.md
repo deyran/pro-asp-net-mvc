@@ -101,9 +101,9 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
     </p>
 
 ### Viewing Data Values in the Code Editor
-The most important feature of *Breakpoint* technique is the ability to view and monitor the values of variable in the code editor, it is makes track down bugs easily in source code.  
+* The most important feature of *Breakpoint* technique is the ability to view and monitor the values of variable in the code editor, it is makes track down bugs easily in source code.  
 
-To demonstrate this feature follow these steps:
+* To demonstrate this feature follow these steps:
 1. Start the application seen in the last section using the debugger until it hits the breakpoints.  
 
 2. Move the mouse pointer over the *result* variable. A small pop-up shows the current value (which is 0), as seen in Figure 14-10.
@@ -129,11 +129,7 @@ Chapter 14: Overview of MVC Projects
 
 -->
 
-There is a push icon to the right of the value in the popup
-
-when clicked, popup becomes permanent and shows variable changes
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-
+* There is a push icon to the right of the value in the popup when clicked, popup becomes permanent and shows variable changes
 
 ### Viewing Application State in the Debugger Windows
 ### Breaking on Exceptions
