@@ -94,11 +94,12 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
 
 3. Select *Start Debugging*, click the green arrow to start the debugger
 
-4. When the application reaches the statement where the *breakpoint* was applied, the debugger will stop the execution of the application and transfers the control to the developer. At this point, *Visual Studio* highlights the point where the execution stopped with yellow highlights, as shown in Figure 14-9.
+4. When the application reaches the statement where the *breakpoint* was applied, the debugger will stop the application's execution and transfers the control to the developer, besides that, the *Visual Studio* provides a lot of useful information about the state of the application. At this point, *Visual Studio* highlights the point where the execution stopped with yellow highlights, as shown in Figure 14-9. 
     <p align="center">
         <img src="ch14-Pictures/Figure 14-9.png" /><br />
         <b>Figure 14-9.</b> Hitting a breakpointmethod
     </p>
+    
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
