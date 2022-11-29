@@ -120,18 +120,16 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
         <b>Figure 14-11.</b> The effect of assigning a value of a variable
     </p>
 
+* There is a push icon to the right of the value in the popup when clicked, popup becomes permanent and shows variable changes
+
+### Viewing Application State in the Debugger Windows
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
-            ### Viewing Data Values in the Code Editor 358
-                Figure 14-11. The effect of assigning a value of a variable
-
+            ### Viewing Application State in the Debugger Windows
 -->
 
-* There is a push icon to the right of the value in the popup when clicked, popup becomes permanent and shows variable changes
-
-### Viewing Application State in the Debugger Windows
 ### Breaking on Exceptions
 ### Using Edit and Continue
 
