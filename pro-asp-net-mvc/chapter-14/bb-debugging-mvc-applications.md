@@ -105,7 +105,7 @@ The most important feature of *Breakpoint* technique is the ability to view and 
 
 To demonstrate this feature follow these steps:
 1. Start the application seen in the last section using the debugger until it hits the breakpoints.  
-2. Move the mouse pointer over the *result* variable. A small pop-up shows the current value, as seen in Figure 14-10.
+2. Move the mouse pointer over the *result* variable. A small pop-up shows the current value (which is 0), as seen in Figure 14-10.
     <p align="center">
         <img src="ch14-Pictures/Figure 14-10.png" /><br />
         <b>Figure 14-10.</b> Displaying the value of a variable in the Visual Studio code editor
@@ -118,7 +118,6 @@ Chapter 14: Overview of MVC Projects
             ### Viewing Data Values in the Code Editor 358
                 Figure 14-10. Displaying the value of a variable in the Visual Studio code editor
 -->
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Visual Studio shows the default value, which is 0 for the int type.
 
