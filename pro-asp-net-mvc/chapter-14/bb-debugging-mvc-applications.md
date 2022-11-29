@@ -101,17 +101,23 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
     </p>
 
 ### Viewing Data Values in the Code Editor
-Breakpoints | track down bugs | code
-Most useful feature | Ability to view and monitor | values of variable | code editor
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+The most important feature of *Breakpoint* technique is the ability to view and monitor the values of variable in the code editor, it is makes track down bugs easily in source code.  
 
-Start the application| using the debugger | breakpoint is reached
+To demonstrate this feature follow these steps:
+1. Start the application seen in the last section using the debugger until it hits the breakpoints.  
+2. Move the mouse pointer over the *result* variable. A small pop-up shows the current value, as seen in Figure 14-10.
+    <p align="center">
+        <img src="ch14-Pictures/Figure 14-10.png" /><br />
+        <b>Figure 14-10.</b> Displaying the value of a variable in the Visual Studio code editor
+    </p>
 
-Movies the mouse pointer over to the *result* variable
-
-A small pop-up shows the current value | Figure 14-10
-
-Figure 14-10. Displaying the value of a variable in the Visual Studio code editor
+<!--
+Chapter 14: Overview of MVC Projects
+    # Debugging MVC Applications 
+        ## Causing the Visual Studio Debugger to Break (357-363)
+            ### Viewing Data Values in the Code Editor 358
+                Figure 14-10. Displaying the value of a variable in the Visual Studio code editor
+-->
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 Visual Studio shows the default value, which is 0 for the int type.
@@ -125,12 +131,7 @@ There is a push icon to the right of the value in the popup
 
 when clicked, popup becomes permanent and shows variable changes
 ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-<!--
-Chapter 14: Overview of MVC Projects
-    # Debugging MVC Applications 
-        ## Causing the Visual Studio Debugger to Break (357-363)
-            ### Viewing Data Values in the Code Editor 358
--->
+
 
 ### Viewing Application State in the Debugger Windows
 ### Breaking on Exceptions
