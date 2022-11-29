@@ -105,10 +105,19 @@ The most important feature of *Breakpoint* technique is the ability to view and 
 
 To demonstrate this feature follow these steps:
 1. Start the application seen in the last section using the debugger until it hits the breakpoints.  
+
 2. Move the mouse pointer over the *result* variable. A small pop-up shows the current value (which is 0), as seen in Figure 14-10.
     <p align="center">
         <img src="ch14-Pictures/Figure 14-10.png" /><br />
         <b>Figure 14-10.</b> Displaying the value of a variable in the Visual Studio code editor
+    </p>
+
+3. Press *F10* to step over and advance to the *ViewBag.Message*. 
+
+4. Move the mouse pointer over the *result* variable again and see the new value was assigned to the *result* variable, as shown in Figure 14-11.
+    <p align="center">
+        <img src="ch14-Pictures/Figure 14-11.png" /><br />
+        <b>Figure 14-11.</b> The effect of assigning a value of a variable
     </p>
 
 <!--
@@ -116,15 +125,9 @@ Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
             ### Viewing Data Values in the Code Editor 358
-                Figure 14-10. Displaying the value of a variable in the Visual Studio code editor
+                Figure 14-11. The effect of assigning a value of a variable
+
 -->
-
-Visual Studio shows the default value, which is 0 for the int type.
-
-Press *F10* to step over and advance to the *ViewBag.Message*, hold mouse over to the *result* variable again to see value was assigned to the *result* variable, as shown in Figure 14-11.
-
-Figure 14-11. The effect of assigning a value of a variable
-++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 
 There is a push icon to the right of the value in the popup
 
