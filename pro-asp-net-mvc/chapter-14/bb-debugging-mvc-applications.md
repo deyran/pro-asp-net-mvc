@@ -132,11 +132,18 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
 "The *Call Stack* can help you understand the execution flow of your app, by showing the order in which methods and functions are getting called". [[1]](https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)  
 
 ### Breaking on Exceptions
+To demonstrate breaking on an exception, remove the breakpoint and modify the HomeController.cs File to match Listing 14-5.
+<p align="center">
+    <img src="ch14-Pictures/Listing 14-5.png" /><br />
+    <b>Listing 14-5.</b> Adding a Statement That Will Cause an Exception in the HomeController.cs File
+</p>  
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
             ### Breaking on Exceptions
+                Listing 14-5. Adding a Statement That Will Cause an Exception in the HomeController.cs File
 -->
 
 ### Using Edit and Continue

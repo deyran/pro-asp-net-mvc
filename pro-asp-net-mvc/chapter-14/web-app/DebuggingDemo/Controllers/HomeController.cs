@@ -17,13 +17,15 @@ namespace DebuggingDemo.Controllers
                 ### Using Breakpoints
                     Figure 14-8. Applying a breakpoint to the first statement in the Index action method
 
+                ### Breaking on Exceptions
+                    Listing 14-5. Adding a Statement That Will Cause an Exception in the HomeController.cs File
     */
     public class HomeController : Controller
     {
         public ActionResult Index()
         {
             int firstVal = 10;
-            int secondVal = 5;
+            int secondVal = 0;
             int result = firstVal / secondVal;
 
             ViewBag.Message = "Welcome to ASP.NET MVC!";
