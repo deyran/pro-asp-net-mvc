@@ -138,12 +138,18 @@ To demonstrate breaking on an exception, remove the breakpoint and modify the Ho
     <b>Listing 14-5.</b> Adding a Statement That Will Cause an Exception in the HomeController.cs File
 </p>  
 
+When you start the debugger, the application will run until the exception is thrown, at which point the exception helper pop-up will appear, as shown in Figure 14-13.
+<p align="center">
+    <img src="ch14-Pictures/Figure 14-13.png" /><br />
+    <b>Figure 14-13.</b> The exception helper
+</p>  
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
             ### Breaking on Exceptions
-                Listing 14-5. Adding a Statement That Will Cause an Exception in the HomeController.cs File
+                Figure 14-13. The exception helper
 -->
 
 ### Using Edit and Continue
