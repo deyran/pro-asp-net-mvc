@@ -144,14 +144,12 @@ When you start the debugger, the application will run until the exception is thr
     <b>Figure 14-13.</b> The exception helper
 </p>  
 
+### Using Edit and Continue
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
-            ### Breaking on Exceptions
-                Figure 14-13. The exception helper
+            ### Using Edit and Continue
 -->
-
-### Using Edit and Continue
 
 ## Using Edit and Continue
