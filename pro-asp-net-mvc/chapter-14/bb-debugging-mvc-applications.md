@@ -129,16 +129,16 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
         <b>Figure 14-12.</b> The Locals window
     </p>  
 
-"The *Call Stack* can help you understand the execution flow of your app, by showing the order in which methods and functions are getting called". [[1]](https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)
+"The *Call Stack* can help you understand the execution flow of your app, by showing the order in which methods and functions are getting called". [[1]](https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)  
+
+### Breaking on Exceptions
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
-            ### Viewing Application State in the Debugger Windows 360
-                Figure 14-12. The Locals window
+            ### Breaking on Exceptions
 -->
 
-### Breaking on Exceptions
 ### Using Edit and Continue
 
 ## Using Edit and Continue
