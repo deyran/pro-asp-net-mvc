@@ -123,7 +123,7 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
 * There is a push icon to the right of the value in the popup when clicked, popup becomes permanent and shows variable changes
 
 ### Viewing Application State in the Debugger Windows
-*Visual Studio* provides a set of windows to get information about application's execution when it hits a *Breakpoint*. To access these windows, go to the top menu in *Debud ➤ Windows ➤ Locals*, the most useful windows are *Locals* and *Call Stack*. The *Locals* window displays all values of the variable in the current scope, as shown in Figure 14.12.
+*Visual Studio* provides a set of windows to get information about application's execution when it hits a *Breakpoint*. To access these windows, go to the top menu in *Debud ➤ Windows ➤ Locals*, as shown in Figure 14.12. The most useful windows are *Locals* and *Call Stack*. The *Locals* window displays all values of the variable in the current scope.
     <p align="center">
         <img src="ch14-Pictures/Figure 14-12.png" /><br />
         <b>Figure 14-12.</b> The Locals window
