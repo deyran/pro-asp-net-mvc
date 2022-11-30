@@ -123,11 +123,13 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
 * There is a push icon to the right of the value in the popup when clicked, popup becomes permanent and shows variable changes
 
 ### Viewing Application State in the Debugger Windows
-*Visual Studio* provides a set of windows to get information about application's execution when it hits a *Breakpoint*. To access these windows, go to the top menu in *Debud ➤ Windows ➤ Locals*, the most useful windows are *Locals* and *Call Stack*. The *Locals* window displays all values of the variable in the current scope, as shown in Figure 14.12
+*Visual Studio* provides a set of windows to get information about application's execution when it hits a *Breakpoint*. To access these windows, go to the top menu in *Debud ➤ Windows ➤ Locals*, the most useful windows are *Locals* and *Call Stack*. The *Locals* window displays all values of the variable in the current scope, as shown in Figure 14.12.
     <p align="center">
         <img src="ch14-Pictures/Figure 14-12.png" /><br />
         <b>Figure 14-12.</b> The Locals window
-    </p>
+    </p>  
+
+"The *Call Stack* can help you understand the execution flow of your app, by showing the order in which methods and functions are getting called". [[1]](https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
