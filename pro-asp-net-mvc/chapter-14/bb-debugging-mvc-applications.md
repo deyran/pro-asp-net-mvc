@@ -132,23 +132,26 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
 "The *Call Stack* can help you understand the execution flow of your app, by showing the order in which methods and functions are getting called". [[1]](https://learn.microsoft.com/en-us/visualstudio/get-started/csharp/tutorial-debugger?view=vs-2022)  
 
 ### Breaking on Exceptions
-To demonstrate breaking on an exception, remove the breakpoint and modify the HomeController.cs File to match Listing 14-5.
+* To demonstrate breaking on an exception, remove the breakpoint and modify the HomeController.cs File to match Listing 14-5.
 <p align="center">
     <img src="ch14-Pictures/Listing 14-5.png" /><br />
     <b>Listing 14-5.</b> Adding a Statement That Will Cause an Exception in the HomeController.cs File
 </p>  
 
-When you start the debugger, the application will run until the exception is thrown, at which point the exception helper pop-up will appear, as shown in Figure 14-13.
+* When you start the debugger, the application will run until the exception is thrown, at which point the exception helper pop-up will appear, as shown in Figure 14-13.
 <p align="center">
     <img src="ch14-Pictures/Figure 14-13.png" /><br />
     <b>Figure 14-13.</b> The exception helper
 </p>  
+
+When the debugger breaks on an exception, you can inspect the application state and control execution, just as when a breakpoint is hit.  
 
 ### Using Edit and Continue
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Causing the Visual Studio Debugger to Break (357-363)
+            ### Breaking on Exceptions
             ### Using Edit and Continue
 -->
 
