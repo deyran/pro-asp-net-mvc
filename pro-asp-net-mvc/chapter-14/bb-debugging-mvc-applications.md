@@ -147,12 +147,15 @@ To demonstrate the use of the *breakpoint* debugging technique, open the *Debugg
 When the debugger breaks on an exception, you can inspect the application state and control execution, just as when a breakpoint is hit.  
 
 ## Using Edit and Continue
-There is a feature in Visual Studio debugging known as *Edit and Continue*. This feature consists of editing the source code while the application is in break mode. This feature applies the changes, recompiles and re-create the application's state in break mode.
+There is a feature in Visual Studio debugging known as *Edit and Continue*. This feature consists of editing the source code while the application is in break mode. This feature applies the changes, recompiles and re-create the application's state in break mode.  
+
+### Enabling Edit and Continue
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Using Edit and Continue (363-366)
+            ### Enabling Edit and Continue
 -->
-### Enabling Edit and Continue
+
 ### Modifying the Project
 ### Editing and Continuing
