@@ -150,11 +150,26 @@ When the debugger breaks on an exception, you can inspect the application state 
 There is a feature in Visual Studio debugging known as *Edit and Continue*. This feature consists of editing the source code while the application is in break mode. This feature applies the changes, recompiles and re-create the application's state in break mode.  
 
 ### Enabling Edit and Continue
+To enable the *Edit and Continue* feature, follow these two steps:
+1. Go to *Tools > Options* in the top menu. Now under "Search Options" type "Edit and Continue" and make sure that "Enable Edit and Continue" is checked as shown in Figure 14-14.
+<p align="center">
+    <img src="ch14-Pictures/Figure 14-14.png" /><br />
+    <b>Figure 14-14.</b> Enabling Edit and Continue in the Options dialog box
+</p>  
+
+2. BBBBBBBB
+<p align="center">
+    <img src="ch14-Pictures/Figure 14-15.png" /><br />
+    <b>Figure 14-15.</b> Enabling Edit and Continue in the project properties
+</p>  
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Using Edit and Continue (363-366)
             ### Enabling Edit and Continue
+                Figure 14-14. Enabling Edit and Continue in the Options dialog box
+                Figure 14-15. Enabling Edit and Continue in the project properties
 -->
 
 ### Modifying the Project
