@@ -163,13 +163,14 @@ To enable the *Edit and Continue* feature, follow these two steps:
     <b>Figure 14-15.</b> Enabling Edit and Continue in the project properties
 </p>  
 
+### Modifying the Project
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Using Edit and Continue (363-366)
-            ### Enabling Edit and Continue
-                Figure 14-15. Enabling Edit and Continue in the project properties
+            ### Modifying the Project
+                Listing 14-6. Removing the ViewBag Call from the Index Method in the HomeController.cs file
+                Listing 14-7. Removing the ViewBag Call from the Index.cshtml file
 -->
 
-### Modifying the Project
 ### Editing and Continuing
