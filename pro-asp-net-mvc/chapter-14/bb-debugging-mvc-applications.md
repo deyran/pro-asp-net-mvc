@@ -157,7 +157,7 @@ To enable the *Edit and Continue* feature, follow these two steps:
     <b>Figure 14-14.</b> Enabling Edit and Continue in the Options dialog box
 </p>  
 
-2. BBBBBBBB
+2. Now it's necessary to check if the Enabling and Continue feature is enabled in the project properties. Go to top menu, in the *Project* option and select *DebuggingDemo Properties*, click the *Web* section and make sure that *Enable Edit and Continue* is checked, as shown in Figure 14-15.
 <p align="center">
     <img src="ch14-Pictures/Figure 14-15.png" /><br />
     <b>Figure 14-15.</b> Enabling Edit and Continue in the project properties
@@ -168,7 +168,6 @@ Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Using Edit and Continue (363-366)
             ### Enabling Edit and Continue
-                Figure 14-14. Enabling Edit and Continue in the Options dialog box
                 Figure 14-15. Enabling Edit and Continue in the project properties
 -->
 
