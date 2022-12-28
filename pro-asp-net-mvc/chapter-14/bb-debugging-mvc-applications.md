@@ -164,11 +164,17 @@ To enable the *Edit and Continue* feature, follow these two steps:
 </p>  
 
 ### Modifying the Project
+* There are some conditons under Edit and *Continue feature* cannot work. One of these conditions is the use of dynamic object, such as *ViewBag* object seen in the HomeController class. To work around this condition, the statement has been commented out, as shown in Listing 14-6.  
+<p align="center">
+    <img src="ch14-Pictures/Listing 14-6.png" /><br />
+    <b>Listing 14-6.</b> Removing the ViewBag Call from the Index Method in the HomeController.cs file
+</p>  
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
-        ## Using Edit and Continue (363-366)
-            ### Modifying the Project
+        ## Using Edit and Continue 
+            ### Modifying the Project (364-365)
                 Listing 14-6. Removing the ViewBag Call from the Index Method in the HomeController.cs file
                 Listing 14-7. Removing the ViewBag Call from the Index.cshtml file
 -->

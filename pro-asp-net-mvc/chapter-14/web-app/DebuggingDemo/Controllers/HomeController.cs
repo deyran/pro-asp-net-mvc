@@ -19,7 +19,12 @@ namespace DebuggingDemo.Controllers
 
                 ### Breaking on Exceptions
                     Listing 14-5. Adding a Statement That Will Cause an Exception in the HomeController.cs File
+
+            ## Using Edit and Continue 
+                ### Modifying the Project (364-365)
+                    Listing 14-6. Removing the ViewBag Call from the Index Method in the HomeController.cs file
     */
+
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -28,7 +33,8 @@ namespace DebuggingDemo.Controllers
             int secondVal = 0;
             int result = firstVal / secondVal;
 
-            ViewBag.Message = "Welcome to ASP.NET MVC!";
+            // This statement has been commented out
+            // ViewBag.Message = "Welcome to ASP.NET MVC!";
 
             return View(result);
         }
