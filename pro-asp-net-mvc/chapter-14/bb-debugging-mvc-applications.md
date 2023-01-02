@@ -177,6 +177,8 @@ To enable the *Edit and Continue* feature, follow these two steps:
 </p> 
 
 ### Editing and Continuing
+After preparation seen in the section before, now we are ready for a demonstration of the *Edit and Continue* feature.
+
 1. PG 1
     1. I am ready for a demonstration of the Edit and Continue feature.
     2. Begin by selecting Start Debugging from the Visual Studio Debug menu
