@@ -176,12 +176,41 @@ To enable the *Edit and Continue* feature, follow these two steps:
     <b>Listing 14-7.</b> Removing the ViewBag Call from the Index.cshtml file file
 </p> 
 
+### Editing and Continuing
+1. PG 1
+    1. I am ready for a demonstration of the Edit and Continue feature.
+    2. Begin by selecting Start Debugging from the Visual Studio Debug menu
+    3. The application will be started with the debugger attached and run until it reaches the line where I perform the calculation in the Index action
+    4. The value of the second parameter is zero, which causes an exception to be thrown.
+    5. At this point, the debugger halts executuion, and the expection helper pops up (just like the on shown in Figure 14-13)
+
+2. PG 2
+    1. Click the Enable editing link in the exception helper window.
+    2. In the code editor, change the expression that calculates the value for the result variable, as follows:
+    ...
+    int result = firstVal / 2;
+    ...
+
+3. PG 3
+    1. I have removed the reference to the secondVal variable and replaced in with a numeric literal value of 2.
+    2. Now select Continue from the Visual Studio Debug menu to resume execution of the application
+    3. The new value is used to generate the value for the result variable, producing the output shown in Figure 14-16.
+
+4. PG 4
+    1. Take a moment to reflect on what happened here
+    2. I started the application with a bug in it: an attempt to divide a value by zero.
+    3. The debugger detected the exception and stopped execution the program
+    4. I edited the code and then told the debugger to continue the execution
+    5. At this point, Visual Studio recompiled the application, restored its state and continue execution as normal using the new value.
+    6. Without Edit and Continue, I would have needed to stop the application, make a change, compile the application, and restart the debugger
+    7. I would then use the browser to repeat the steps that I took up to the moment of the debugger break.
+    8. It is avoiding this last step that can be the most important
+    9. Complex bugs may require many through the application to re-create, and the ability to test potencial fixes withou needing to repeat those steps over and over can save programmer's time and sanity
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Using Edit and Continue 
-            ### Modifying the Project (364-365)
-                Listing 14-7. Removing the ViewBag Call from the Index.cshtml file
+            ### Editing and Continuing
+                Figure 14-16. The effect of correcting a bug using the Edit and Continue feature
 -->
-
-### Editing and Continuing
