@@ -168,14 +168,19 @@ To enable the *Edit and Continue* feature, follow these two steps:
 <p align="center">
     <img src="ch14-Pictures/Listing 14-6.png" /><br />
     <b>Listing 14-6.</b> Removing the ViewBag Call from the Index Method in the HomeController.cs file
-</p>  
+</p> 
+
+* Now you need to make a corresponding change to the Index.cshtml file, as shown in Listing 14-7.  
+<p align="center">
+    <img src="ch14-Pictures/Listing 14-7.png" /><br />
+    <b>Listing 14-7.</b> Removing the ViewBag Call from the Index.cshtml file file
+</p> 
 
 <!--
 Chapter 14: Overview of MVC Projects
     # Debugging MVC Applications 
         ## Using Edit and Continue 
             ### Modifying the Project (364-365)
-                Listing 14-6. Removing the ViewBag Call from the Index Method in the HomeController.cs file
                 Listing 14-7. Removing the ViewBag Call from the Index.cshtml file
 -->
 

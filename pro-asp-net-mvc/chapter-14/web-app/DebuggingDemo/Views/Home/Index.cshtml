@@ -7,6 +7,11 @@
             ## Preparing the Example Project
                 ### Creating the View
                     Listing 14-2. The Contents of the Index.cshtml File
+
+            ## Using Edit and Continue 
+                ### Modifying the Project (364-365)
+                    Listing 14-7. Removing the ViewBag Call from the Index.cshtml file
+
     */
 
     Layout = null;
@@ -22,9 +27,11 @@
     <title>Index</title>
 </head>
 <body>
-    <h2 class="message">@ViewData["Message"]</h2>
+    <!-- This element has been commented out -->
+    <!--<h2 class="message">@ViewData["Message"]</h2>-->
     <p>
         The calculation result value is @Model
     </p>
 </body>
 </html>
+
