@@ -177,15 +177,8 @@ To enable the *Edit and Continue* feature, follow these two steps:
 </p> 
 
 ### Editing and Continuing
-After preparation seen in the section before, now we are ready for a demonstration of the *Edit and Continue* feature.
-
-1. PG 1
-    1. I am ready for a demonstration of the Edit and Continue feature.
-    2. Begin by selecting Start Debugging from the Visual Studio Debug menu
-    3. The application will be started with the debugger attached and run until it reaches the line where I perform the calculation in the Index action
-    4. The value of the second parameter is zero, which causes an exception to be thrown.
-    5. At this point, the debugger halts executuion, and the expection helper pops up (just like the on shown in Figure 14-13)
-
+To initiate the demonstration of the *Edit and Continue* feature, select *Start Debugging* (Visual Studio Debug menu). The application will run until it reaches the calculation (second parameter is zero) in the Index action, throwing an exception and stopping execution as shown in Figure 14-13.
+    
 2. PG 2
     1. Click the Enable editing link in the exception helper window.
     2. In the code editor, change the expression that calculates the value for the result variable, as follows:
