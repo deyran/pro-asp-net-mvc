@@ -177,34 +177,20 @@ To enable the *Edit and Continue* feature, follow these two steps:
 </p> 
 
 ### Editing and Continuing
-To initiate the demonstration of the *Edit and Continue* feature, select *Start Debugging* (Visual Studio Debug menu). The application will run until it reaches the calculation (second parameter is zero) in the Index action, throwing an exception and stopping execution as shown in Figure 14-13. 
-In  the code editor, change the value for the result variable as follows:
+* To start the *Edit and Continue* demo, follow these steps:  
+1. Select *Start Debugging* (Visual Studio Debug menu). The application will run until it reaches the calculation (second parameter is zero) in the Index action, throwing an exception and stopping execution as shown in Figure 14-13.  
 
+2. In  the code editor, change the value for the result variable as follows:
 ```js
 int result = firstVal / 2;
-```    
+```  
 
+3. Save the change and the *Visual Studio* recompiled the application, restored its state and continue execution as normal using the new value.  
 
-3. PG 3
-    1. I have removed the reference to the secondVal variable and replaced in with a numeric literal value of 2.
-    2. Now select Continue from the Visual Studio Debug menu to resume execution of the application
-    3. The new value is used to generate the value for the result variable, producing the output shown in Figure 14-16.
+4. Press the *Continue* button and you see the result in Figure 14-16.  
+<p align="center">
+    <img src="ch14-Pictures/Figure 14-16.png" /><br />
+    <b>Figure 14-16.</b> The effect of correcting a bug using the Edit and Continue feature
+</p>  
 
-4. PG 4
-    1. Take a moment to reflect on what happened here
-    2. I started the application with a bug in it: an attempt to divide a value by zero.
-    3. The debugger detected the exception and stopped execution the program
-    4. I edited the code and then told the debugger to continue the execution
-    5. At this point, Visual Studio recompiled the application, restored its state and continue execution as normal using the new value.
-    6. Without Edit and Continue, I would have needed to stop the application, make a change, compile the application, and restart the debugger
-    7. I would then use the browser to repeat the steps that I took up to the moment of the debugger break.
-    8. It is avoiding this last step that can be the most important
-    9. Complex bugs may require many through the application to re-create, and the ability to test potencial fixes withou needing to repeat those steps over and over can save programmer's time and sanity
-
-<!--
-Chapter 14: Overview of MVC Projects
-    # Debugging MVC Applications 
-        ## Using Edit and Continue 
-            ### Editing and Continuing
-                Figure 14-16. The effect of correcting a bug using the Edit and Continue feature
--->
+* Without Edit and Continue I would have to stop the app, make a change, compile the app and restart the debugger.

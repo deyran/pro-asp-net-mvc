@@ -31,7 +31,7 @@ namespace DebuggingDemo.Controllers
         {
             int firstVal = 10;
             int secondVal = 0;
-            int result = firstVal / secondVal;
+            int result = firstVal / 2;
 
             // This statement has been commented out
             // ViewBag.Message = "Welcome to ASP.NET MVC!";
