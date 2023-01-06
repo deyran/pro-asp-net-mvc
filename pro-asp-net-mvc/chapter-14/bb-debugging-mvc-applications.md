@@ -177,14 +177,13 @@ To enable the *Edit and Continue* feature, follow these two steps:
 </p> 
 
 ### Editing and Continuing
-To initiate the demonstration of the *Edit and Continue* feature, select *Start Debugging* (Visual Studio Debug menu). The application will run until it reaches the calculation (second parameter is zero) in the Index action, throwing an exception and stopping execution as shown in Figure 14-13.
-    
-2. PG 2
-    1. Click the Enable editing link in the exception helper window.
-    2. In the code editor, change the expression that calculates the value for the result variable, as follows:
-    ...
-    int result = firstVal / 2;
-    ...
+To initiate the demonstration of the *Edit and Continue* feature, select *Start Debugging* (Visual Studio Debug menu). The application will run until it reaches the calculation (second parameter is zero) in the Index action, throwing an exception and stopping execution as shown in Figure 14-13. 
+In  the code editor, change the value for the result variable as follows:
+
+```js
+int result = firstVal / 2;
+```    
+
 
 3. PG 3
     1. I have removed the reference to the secondVal variable and replaced in with a numeric literal value of 2.
