@@ -21,6 +21,14 @@ P4--------------
 * You can edit the code and views in the application and then update all of the browser windows by selecting Refresh Linked Browsers from the Visual Studio toolbar, as shown in Figure 14-19. 
 * The application will be compiled automatically so that you can see changes.
 
+P5--------------
+* This feature works by including some JavaScript in the HTML, sent to the browser and it can br a nice way of developing iteratively. 
+* The reason that I recommend it only for working on views is that they are less likely to cause IIS to send HTTP error messages to the browser, which is what happens when there is an error in the code. 
+* The JavaScript code isn't added to error responses, which means that the link between Visual Studio and the browsers is lost. You have to start over using the Browse With menu. 
+* The browser link feature is a good idea, but the use of JavaScript is a problem. 
+* I use a similar tool called LiveReload(http://livereload.com) for my non-ASP.NET development and it providers a better approach because it uses browser plugings that are not affected by HTTP error messages. 
+* The value of Visual Studio browser link will be limited until Microsoft takes a similar approach.
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Using Browser Link 366-368
