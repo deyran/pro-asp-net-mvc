@@ -16,6 +16,11 @@ P3--------------
 * In Figure 14-18, you can see that I have chosen Internet Explorer and Chrome.
 * You can also use this dialog to add new browsers (although Visual Studio is pretty good at detecting most of the mainstream ones).
 
+P4--------------
+* Click the Browser button and Visual Studio will open the browsers you have selected and have each of them load the project URL. 
+* You can edit the code and views in the application and then update all of the browser windows by selecting Refresh Linked Browsers from the Visual Studio toolbar, as shown in Figure 14-19. 
+* The application will be compiled automatically so that you can see changes.
+
 <!--
 Chapter 14: Overview of MVC Projects
     # Using Browser Link 366-368
