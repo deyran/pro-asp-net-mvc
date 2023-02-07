@@ -29,7 +29,7 @@ namespace DebuggingDemo.Controllers
     {
         public ActionResult Index()
         {
-            int firstVal = 10;
+            int firstVal = 12;
             int secondVal = 0;
             int result = firstVal / 2;
 
