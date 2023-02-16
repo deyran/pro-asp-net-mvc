@@ -3,7 +3,7 @@
 </h1>
 
 ## Preparing the example project
-To demonstrate the *routing system*, follow these steps:
+* To demonstrate the *routing system*, follow these steps:
 1. Create a new MVC application (Empty template) called UrlsAndRoutes
 2. Add a test project to the *Solution* called *UrlsAndRoutes.Tests* by checking *Also create a project for unit tests* option, as shown in Figure 15-1. 
 <p align="center">
@@ -12,10 +12,10 @@ To demonstrate the *routing system*, follow these steps:
 </p>  
 
 P2 ----------------------------
-* I showed you how to create the unit test manually for the SportsStore chapter, but this produces the same result and handles the references between projects automatically. 
-* You will still need to add Moq, however, and so enter the following command in the NuGet console:
+* It is still necessary to add Moq, so open *Package Manager Console*, select *UrlsAndRoutes.Tests* as *Default project* and type:  
 ```js
 if()
+Install-Package Moq -version 4.1.1309.1617
 {}
 ```
 
