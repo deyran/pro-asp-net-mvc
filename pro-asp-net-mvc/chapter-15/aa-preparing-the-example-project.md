@@ -5,7 +5,12 @@
 ## Preparing the example project
 To demonstrate the *routing system*, follow these steps:
 1. Create a new MVC application (Empty template) called UrlsAndRoutes
-2. Add a test project to the *Solution* called *UrlAndRoutes.Tests* by checking and Add Unit Tests option, as shown in Figure 15-1. 
+2. Add a test project to the *Solution* called *UrlsAndRoutes.Tests* by checking *Also create a project for unit tests* option, as shown in Figure 15-1. 
+<p align="center">
+    <img src="ch14-Pictures/Figure 15-1.png" /><br />
+    <b>Figure 15-1.</b> Creating an Empty MVC application project with unit tests
+</p>  
+
 
 P2 ----------------------------
 ### Creating the example controllers
@@ -13,6 +18,11 @@ P2 ----------------------------
 ### Setting the start URL and testing application
 
 <!--
+# Chapter 15: URL Routing
+    ## Preparing the example project
+        Figure 15-1. Creating an Empty MVC application project with unit tests
+
+
 > SUMMARRY AND UPDATE ==========================
 
 > CONTENTS =====================================
