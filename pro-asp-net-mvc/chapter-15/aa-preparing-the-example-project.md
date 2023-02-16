@@ -11,8 +11,7 @@
     <b>Figure 15-1.</b> Creating an Empty MVC application project with unit tests
 </p>  
 
-P2 ----------------------------
-* It is still necessary to add Moq, so open *Package Manager Console*, select *UrlsAndRoutes.Tests* as *Default project* and type:  
+* It is still need to add Moq, so open the *Package Manager Console*, select *UrlsAndRoutes.Tests* as *Default project* and type:  
 ```js
 Install-Package Moq -version 4.1.1309.1617
 ```
