@@ -10,7 +10,7 @@ To handle MVC URLs, the ASP.NET platform uses the *routing system* (will be seen
 2. Deliver the processed URL to the appropriate controller and its action methods
 3. Generate outgoing URLs.  
 
-In this chapter, the definition and creation of *Routes* will be seen.
+In this chapter, the definition and creation of *URL Routes* will be seen.
 
 <!--
 # Chapter 15: URL Routing
