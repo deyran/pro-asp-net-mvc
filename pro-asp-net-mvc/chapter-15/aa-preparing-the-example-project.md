@@ -11,8 +11,14 @@ To demonstrate the *routing system*, follow these steps:
     <b>Figure 15-1.</b> Creating an Empty MVC application project with unit tests
 </p>  
 
-
 P2 ----------------------------
+* I showed you how to create the unit test manually for the SportsStore chapter, but this produces the same result and handles the references between projects automatically. 
+* You will still need to add Moq, however, and so enter the following command in the NuGet console:
+```js
+if()
+{}
+```
+
 ### Creating the example controllers
 ### Creating the View
 ### Setting the start URL and testing application
