@@ -5,18 +5,21 @@
 ## Introduction
 Before MVC Framework, there was a direct relationship between request *URLs* and the file on the server disk. The server receives the request and delivers the output from the corresponding file. In the MVC Application, all the requests are handled by action methods in controller classes, without using correlation with files on disk.  
 
-To handle MVC URLs, the ASP.NET platform uses the *routing system* (will be seen in this chapter). The *route system* has two functions:
-1. Examine an incoming URL and find out which controller and action it is intended for.
-2. Generate outgoing URLs.  
+To handle MVC URLs, the ASP.NET platform uses the *routing system* (will be seen in this chapter). The *route system* has three functions:
+1. Examine and process incoming URL 
+2. Deliver the processed URL to the appropriate controller and its action methods
+3. Generate outgoing URLs.  
 
 <!--
 # Chapter 15: URL Routing
     ## Introduction
 -->
-
 # P4------------------------------------------------------------
 * In this chapter, I will focus on defining routes and using them to process incoming URLs so that user can reach your controllers and actions.
+    Defining routes | Using routes to process incoming URLs | reach controller and actions
+
 * There are two ways to create routes in a MVC Framework application: convention-based routing and attribute routing.
+
 * You will be familiar with convention-based routing if you have used earlier versions of the MVC Framework, but attribute routing is new to MVC 5.
 * I explain both approaches in this chapter.
 
