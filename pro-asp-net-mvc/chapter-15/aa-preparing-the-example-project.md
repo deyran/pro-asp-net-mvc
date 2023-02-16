@@ -7,7 +7,7 @@ To demonstrate the *routing system*, follow these steps:
 1. Create a new MVC application (Empty template) called UrlsAndRoutes
 2. Add a test project to the *Solution* called *UrlsAndRoutes.Tests* by checking *Also create a project for unit tests* option, as shown in Figure 15-1. 
 <p align="center">
-    <img src="ch14-Pictures/Figure 15-1.png" /><br />
+    <img src="ch15-Pictures/Figure 15-1.png" /><br />
     <b>Figure 15-1.</b> Creating an Empty MVC application project with unit tests
 </p>  
 
