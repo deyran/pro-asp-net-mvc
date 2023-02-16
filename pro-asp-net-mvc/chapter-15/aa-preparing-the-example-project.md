@@ -14,9 +14,7 @@
 P2 ----------------------------
 * It is still necessary to add Moq, so open *Package Manager Console*, select *UrlsAndRoutes.Tests* as *Default project* and type:  
 ```js
-if()
 Install-Package Moq -version 4.1.1309.1617
-{}
 ```
 
 ### Creating the example controllers
