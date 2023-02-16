@@ -34,3 +34,24 @@
 #### Creating routes with segment variables
 #### Applying route constraints
 #### Using a route prefix
+
+<!--
+> SUMMARRY AND UPDATE ==========================
+> CONTENTS =====================================
+# Chapter 15: URL Routing
+## Introduction
+## Preparing the example project
+## Introducing URL patterns
+## Creating and registering a simple route
+## Defining default values
+## Using static URL segments
+## Defining custom segment variables
+## Constraining routes
+## Using attribute routing
+> GITHUB =====================================
+https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/aa-contents.md
+
+> # ==========================================
+#DotNet #csharp #dotnetcore #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub 
+#Actions #ASPNETMVC #ASPNET #MVC #core 
+-->
