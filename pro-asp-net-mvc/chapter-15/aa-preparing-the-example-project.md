@@ -24,7 +24,12 @@ To demonstrate the routing feature, simple controllers will be added to the appl
     <b>Listing 15-1.</b> The contents of the HomeControllers.cs file
 </p>  
 
-2. SSS  
+2. Create the *CustomerController.cs* file and set its contents to match Listing 15-2.  
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-2.png" /><br />
+    <b>Listing 15-2.</b> The contents of the CustomerController.cs file
+</p>  
+
 
 ### Creating the View
 ### Setting the start URL and testing application
@@ -33,7 +38,7 @@ To demonstrate the routing feature, simple controllers will be added to the appl
 # Chapter 15: URL Routing
     ## Preparing the example project
         ### Creating the example controllers
-            Listing 15-1. The contents of the HomeControllers.cs file
+            Listing 15-2. The contents of the CustomerController.cs file
 
 > SUMMARRY AND UPDATE ==========================
 
