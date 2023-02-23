@@ -43,7 +43,7 @@ To create the view, follow these steps:
 3. Open and edit the ActionName.cshtml content to match Listing 15-4
 <p align="center">
     <img src="ch15-Pictures/Listing 15-4.png" /><br />
-    <b>Listing 15-4.</b> The contents of the HomeControllers.cs file
+    <b>Listing 15-4.</b> The contents of the ActionName.cshtml file
 </p>  
 
 ### Setting the start URL and testing application
