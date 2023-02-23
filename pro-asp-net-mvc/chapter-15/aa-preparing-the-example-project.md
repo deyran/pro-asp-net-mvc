@@ -37,7 +37,7 @@ To demonstrate the routing feature, simple controllers will be added to the appl
 </p>  
 
 ### Creating the View
-To create the view follow these steps:
+To create the view, follow these steps:
 1. Create a folder called *Shared* in the *Views* folder
 2. Add a new view called ActionName.cshtml inside
 3. Open and edit the ActionName.cshtml content to match Listing 15-4
@@ -45,7 +45,6 @@ To create the view follow these steps:
     <img src="ch15-Pictures/Listing 15-1.png" /><br />
     <b>Listing 15-1.</b> The contents of the HomeControllers.cs file
 </p>  
-
 
 ### Setting the start URL and testing application
 
