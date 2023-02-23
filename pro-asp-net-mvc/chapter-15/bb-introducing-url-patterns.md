@@ -3,6 +3,14 @@
 </h1>
 
 ## Introducing URL Patterns
+P1====================
+* The routing system works its magic using a set of routes. 
+* These routes collectively comprise the URL schema or scheme for an application, which is the set of URLs that your application will recognize and respond to.
+P2====================
+P3====================
+P4====================
+P5====================
+P6====================
 
 <!--
 # Chapter 15: URL Routing
