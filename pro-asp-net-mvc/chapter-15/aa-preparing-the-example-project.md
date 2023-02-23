@@ -37,13 +37,20 @@ To demonstrate the routing feature, simple controllers will be added to the appl
 </p>  
 
 ### Creating the View
+I specified the ActionName view in all of the action methods in these controllers, which allows me to define one view and use it throughout the example application. Create a folder called Shared in the Views folder and add a new view called ActionName.cshtml to it, setting the contents of the view to match Listing 15-4
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-1.png" /><br />
+    <b>Listing 15-1.</b> The contents of the HomeControllers.cs file
+</p>  
+
+
 ### Setting the start URL and testing application
 
 <!--
 # Chapter 15: URL Routing
     ## Preparing the example project
-        ### Creating the example controllers
-            Listing 15-3. The contents of the AdminController.cs file
+        ### Creating the View
+            Listing 15-4. The contents of the ActionName.cshtml file
 
 > SUMMARRY AND UPDATE ==========================
 
