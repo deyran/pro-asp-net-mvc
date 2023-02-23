@@ -37,7 +37,10 @@ To demonstrate the routing feature, simple controllers will be added to the appl
 </p>  
 
 ### Creating the View
-I specified the ActionName view in all of the action methods in these controllers, which allows me to define one view and use it throughout the example application. Create a folder called Shared in the Views folder and add a new view called ActionName.cshtml to it, setting the contents of the view to match Listing 15-4
+To create the view follow these steps:
+1. Create a folder called *Shared* in the *Views* folder
+2. Add a new view called ActionName.cshtml inside
+3. Open and edit the ActionName.cshtml content to match Listing 15-4
 <p align="center">
     <img src="ch15-Pictures/Listing 15-1.png" /><br />
     <b>Listing 15-1.</b> The contents of the HomeControllers.cs file
