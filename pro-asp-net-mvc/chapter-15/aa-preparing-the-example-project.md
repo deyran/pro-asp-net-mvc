@@ -47,12 +47,20 @@ To create the view, follow these steps:
 </p>  
 
 ### Setting the start URL and testing application
+* As I explained in part 1 of this book, Visual Studio will try to figure out the URL you want the browser to request based on the file you are editing when you start the debugger.
+
+* This is a good idea that quickly becomes annoying and is a feature that I always disable. 
+* Select UrlsAndRoutes properties from the Visual Studio Project menu. 
+* switch to the we tab and check Specific Page option in the Start Action section. 
+* You don't have to provide a value - just checking the option is enough. 
+* If you start the example app, you will see the response shown in Figure 15-2.
+Figure 15-2. Running the example app
 
 <!--
 # Chapter 15: URL Routing
     ## Preparing the example project
-        ### Creating the View
-            Listing 15-4. The contents of the ActionName.cshtml file
+        ### Setting the start URL and testing application
+            Figure 15-2. Running the example app
 
 > SUMMARRY AND UPDATE ==========================
 
