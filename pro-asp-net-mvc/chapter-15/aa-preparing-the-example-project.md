@@ -55,8 +55,6 @@ To create the view, follow these steps:
     <b>Figure 15-2.</b> Running the example app
 </p>  
 
-
-
 <!--
 # Chapter 15: URL Routing
     ## Preparing the example project
