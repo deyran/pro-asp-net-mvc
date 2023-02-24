@@ -21,7 +21,17 @@ P3====================
 Figure 15-3. The segments in an example URL
 
 P4====================
+* The first segment contains the word Admin, and the second segment contains the word Index.
+* To the human eye, it is obvious that the first segment relates to the controller and the second segment relates to the action.
+* But, of course, I need to express this relationship in a way that the routing systems can understand.
+* Here is a URL pattern that does this:
+{controller}/{action}
+
 P5====================
+* When processing an incoming request, the job of the routing system is to match the URL that has been requested to a pattern and extract values from URL for the segment variable defined in the pattern.
+* The segment variables are expressed using braces (the {and} characters).
+* The example pattern has two segment variables with the names controller and action, and so the value of the controller segment variable will be Admin and the value of the action segment variable will be Index.
+
 P6====================
 
 <!--
