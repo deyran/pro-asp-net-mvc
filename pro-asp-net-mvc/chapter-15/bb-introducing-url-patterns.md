@@ -33,6 +33,16 @@ P5====================
 * The example pattern has two segment variables with the names controller and action, and so the value of the controller segment variable will be Admin and the value of the action segment variable will be Index.
 
 P6====================
+* I say match to a pattern, because an MVC application will usually have several routes and the routing system will compare the incoming URL to the URL, pattern of each route until it finds a match
+
+P7====================
+* By default, a URL pattern will match any URL that has the correct number of segments.
+* For example, the pattern {controller}/{action} will match any URL that has two segments, as illustrated by Table 15-2.
+    Table 15-2. Matching URLs
+
+P8====================
+P9====================
+P10===================
 
 <!--
 # Chapter 15: URL Routing
