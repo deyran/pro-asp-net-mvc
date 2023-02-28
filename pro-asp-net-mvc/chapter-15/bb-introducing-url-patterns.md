@@ -5,7 +5,9 @@
 ## Introducing URL Patterns
 Routing System works with a set of routes, also known as URL scheme, which comprises the URLs that the application will recognize and respond to.
 
-No need to type out all of the individual application URLs. Instead, each route contains a *URL pattern*, which is compared to incoming Urls. If a URL matches the pattern, the *routing systems* process that URL. Let's see the example below:
+No need to type out all of the individual application URLs. Instead, each route contains a *URL pattern*, which is compared to incoming Urls. If a URL matches the pattern, the *routing systems* process that URL. 
+
+Let's see the example below:
 ```js
 http://mysite.com/Admin/Index
 ```
