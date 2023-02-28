@@ -3,9 +3,7 @@
 </h1>
 
 ## Introducing URL Patterns
-P1====================
-* The routing system works its magic using a set of routes. 
-* These routes collectively comprise the URL schema or scheme for an application, which is the set of URLs that your application will recognize and respond to.
+Routing System works with a set of routes, also known as URL scheme, which comprises the URLs that the application will recognize and respond to.
 
 P2====================
 * I do not need to manually type out all of the individual URLs I am willing to support in my applications. 
@@ -57,6 +55,7 @@ P10===================
 <!--
 # Chapter 15: URL Routing
     ## Introducing URL Patterns
+        ### paragraph 1
        
 > SUMMARRY AND UPDATE ==========================
 
