@@ -17,14 +17,9 @@ Let's start with a URL for the example application: *http://mysite.com/Admin/Ind
 
 * The first segment (Admin) is for the *controller*
 * The second segment (Index) is for the *action*
-* *Routing systems* can understand this because of the definition of *URL pattern* : {controller}/{action}
+* *Routing systems* can understand this because of the *URL pattern* syntax definition: {controller}/{action}  
+* The routing system's job is take the incoming request, match the URL to pattern and extracts their values to the segment variable. After this process, foward to a route.
 
-
-
-P5====================
-* When processing an incoming request, the job of the routing system is to match the URL that has been requested to a pattern and extract values from URL for the segment variable defined in the pattern.
-* The segment variables are expressed using braces (the {and} characters).
-* The example pattern has two segment variables with the names controller and action, and so the value of the controller segment variable will be Admin and the value of the action segment variable will be Index.
 
 P6====================
 * I say match to a pattern, because an MVC application will usually have several routes and the routing system will compare the incoming URL to the URL, pattern of each route until it finds a match
@@ -51,7 +46,7 @@ P10===================
 <!--
 # Chapter 15: URL Routing
     ## Introducing URL Patterns
-        ### paragraph 4
+        ### paragraph 5
        
 > SUMMARRY AND UPDATE ==========================
 
