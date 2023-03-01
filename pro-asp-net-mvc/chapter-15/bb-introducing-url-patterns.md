@@ -21,9 +21,6 @@ Let's start with a URL for the example application: *http://mysite.com/Admin/Ind
 * The routing system's job is take the incoming request, match the URL to pattern and extracts their values to the segment variable. After this process, foward to a route.
 
 
-P6====================
-* I say match to a pattern, because an MVC application will usually have several routes and the routing system will compare the incoming URL to the URL, pattern of each route until it finds a match
-
 P7====================
 * By default, a URL pattern will match any URL that has the correct number of segments.
 * For example, the pattern {controller}/{action} will match any URL that has two segments, as illustrated by Table 15-2.
@@ -46,7 +43,7 @@ P10===================
 <!--
 # Chapter 15: URL Routing
     ## Introducing URL Patterns
-        ### paragraph 5
+        ### paragraph 6
        
 > SUMMARRY AND UPDATE ==========================
 
