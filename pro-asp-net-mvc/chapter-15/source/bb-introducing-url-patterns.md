@@ -10,14 +10,14 @@ P1====================
 P2====================
 * I do not need to manually type out all of the individual URLs I am willing to support in my applications. 
 * Instead, each route contais a URL pattern, which is compared to incoming Urls. 
-* if a URL matches the pattern, then it is used by the routing system to process that URL, Let's stat with a URL for the example application:
+* if a URL matches the pattern, then it is used by the routing system to process that URL, Let's start with a URL for the example application:
 
 http://mysite.com/Admin/Index
 
 P3====================
 * URLs can be broken down into segments. 
 * These are the parts of the URL, excluding the hostname and query string, that are separated by the / character. 
-* In the example URL, are two segments, as showni in Figure 15-3.
+* In the example URL, there are two segments, as shown in Figure 15-3.
 Figure 15-3. The segments in an example URL
 
 P4====================

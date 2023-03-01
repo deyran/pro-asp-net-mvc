@@ -7,16 +7,22 @@ Routing System works with a set of routes, also known as URL scheme, which compr
 
 No need to type out all of the individual application URLs. Instead, each route contains a *URL pattern*, which is compared to incoming Urls. If a URL matches the pattern, the *routing systems* process that URL. 
 
-Let's see the example below:
-```js
-http://mysite.com/Admin/Index
-```
+Let's start with a URL for the example application: *http://mysite.com/Admin/Index*
+* Excluding the *hostname* and *query string*, *URLs* can be broken down into segments.
+* In the example URL, there are two segments, as shown in Figure 15-3
+<p align="center">
+    <img src="ch15-Pictures/Figure 15-3.png" /><br />
+    <b>Figure 15-3.</b> The segments in an example URL
+</p>  
 
-P3====================
-* URLs can be broken down into segments. 
-* These are the parts of the URL, excluding the hostname and query string, that are separated by the / character. 
-* In the example URL, are two segments, as showni in Figure 15-3.
-Figure 15-3. The segments in an example URL
+
+
+
+
+
+
+
+
 
 P4====================
 * The first segment contains the word Admin, and the second segment contains the word Index.
