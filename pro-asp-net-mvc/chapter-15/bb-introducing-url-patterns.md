@@ -8,28 +8,18 @@ Routing System works with a set of routes, also known as URL scheme, which compr
 No need to type out all of the individual application URLs. Instead, each route contains a *URL pattern*, which is compared to incoming Urls. If a URL matches the pattern, the *routing systems* process that URL. 
 
 Let's start with a URL for the example application: *http://mysite.com/Admin/Index*
-* Excluding the *hostname* and *query string*, *URLs* can be broken down into segments.
+* Excluding the *hostname* and *query string*, *URLs* can be broken down into segments
 * In the example URL, there are two segments, as shown in Figure 15-3
 <p align="center">
     <img src="ch15-Pictures/Figure 15-3.png" /><br />
     <b>Figure 15-3.</b> The segments in an example URL
 </p>  
 
+* The first segment (Admin) is for the *controller*
+* The second segment (Index) is for the *action*
+* *Routing systems* can understand this because of the definition of *URL pattern* : {controller}/{action}
 
 
-
-
-
-
-
-
-
-P4====================
-* The first segment contains the word Admin, and the second segment contains the word Index.
-* To the human eye, it is obvious that the first segment relates to the controller and the second segment relates to the action.
-* But, of course, I need to express this relationship in a way that the routing systems can understand.
-* Here is a URL pattern that does this:
-{controller}/{action}
 
 P5====================
 * When processing an incoming request, the job of the routing system is to match the URL that has been requested to a pattern and extract values from URL for the segment variable defined in the pattern.
@@ -61,7 +51,7 @@ P10===================
 <!--
 # Chapter 15: URL Routing
     ## Introducing URL Patterns
-        ### paragraph 3
+        ### paragraph 4
        
 > SUMMARRY AND UPDATE ==========================
 
