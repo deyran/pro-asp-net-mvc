@@ -18,7 +18,7 @@ Let's start with a URL for the example application: *http://mysite.com/Admin/Ind
 * The first segment (Admin) is for the *controller*
 * The second segment (Index) is for the *action*
 * *Routing systems* can understand this because of the *URL pattern* syntax definition: {controller}/{action}  
-* The routing system's job is take the incoming request, match the URL to pattern and extracts their values to the segment variable. After this process, foward to a route.
+* The routing system's job is take the incoming request, match the URL to pattern and extracts their values to the segment variable. After theses processes, the *routing system* forwards to a route.
 
 
 P7====================
