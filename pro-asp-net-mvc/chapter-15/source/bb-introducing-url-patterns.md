@@ -50,7 +50,7 @@ P9====================
 2. I show you how to change the defaults later in this chapter
 
 P10===================
-1. As already mentioned, the rounting system does not know anything about an MVC application, and so URL patterns will match even when there is no controller or action that corresponds to the values extracted from a URL.
+1. As already mentioned, the routing system does not know anything about an MVC application, and so URL patterns will match even when there is no controller or action that corresponds to the values extracted from a URL.
 2. You can see this demonstrated in the second example in table 15.2. 
 3. I transposed the Admin and Index segments in the URL, and so the values extracted from the URL have also been transposed, even though there is no Index controller in the example project.
 
