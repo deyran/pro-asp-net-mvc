@@ -19,9 +19,8 @@ Let's start with a URL for the example application: *http<nolink>://mysite.com/A
 * The second segment (Index) is for the *action*
 * *Routing systems* can understand this because of the *URL pattern* syntax definition: {controller}/{action}  
 * The routing system's job is take the incoming request, match the URL to pattern and extracts their values to the segment variable. After theses processes, the *routing system* forwards to a route.
-* For example, the pattern {controller}/{action} will match any URL that has two segments, as illustrated by Table 15-2.
+* For example, the pattern {controller}/{action} will match any URL that has two segments, as illustrated by Table 15-2.  
 
-<center>
 |Request URL|Segments Variables|
 |---------|--------|
 |http<noLink>://mysite.com/Admin/Index | controller=*Admin* - Action=*Index*|
@@ -29,7 +28,6 @@ Let's start with a URL for the example application: *http<nolink>://mysite.com/A
 |http<noLink>://mysite.com/Apples/Oranges | controller=*Apples* - Action=*Oranges*|
 |http<noLink>://mysite.com/Admin | *No match* - too few segments|
 |http<noLink>://mysite.com/Admin/Index/Soccer | *No match* - too many segments|
-</center>  
 
 Table 15-2. Matching URLs
 
