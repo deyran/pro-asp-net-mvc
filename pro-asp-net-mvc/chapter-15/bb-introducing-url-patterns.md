@@ -7,7 +7,7 @@ Routing System works with a set of routes, also known as URL scheme, which compr
 
 No need to type out all of the individual application URLs. Instead, each route contains a *URL pattern*, which is compared to incoming Urls. If a URL matches the pattern, the *routing systems* process that URL. 
 
-Let's start with a URL for the example application: *http://mysite.com/Admin/Index*
+Let's start with a URL for the example application: *http<nolink>://mysite.com/Admin/Index*
 * Excluding the *hostname* and *query string*, *URLs* can be broken down into segments
 * In the example URL, there are two segments, as shown in Figure 15-3
 <p align="center">
@@ -19,12 +19,21 @@ Let's start with a URL for the example application: *http://mysite.com/Admin/Ind
 * The second segment (Index) is for the *action*
 * *Routing systems* can understand this because of the *URL pattern* syntax definition: {controller}/{action}  
 * The routing system's job is take the incoming request, match the URL to pattern and extracts their values to the segment variable. After theses processes, the *routing system* forwards to a route.
-
-
-P7====================
-* By default, a URL pattern will match any URL that has the correct number of segments.
 * For example, the pattern {controller}/{action} will match any URL that has two segments, as illustrated by Table 15-2.
-    Table 15-2. Matching URLs
+
+Request URL|Segments Variables
+---------|--------
+http<noLink>://mysite.com/Admin/Index | controller=*Admin* - Action=*Index*
+http<noLink>://mysite.com/Index/Admin | controller=*Index* - Action=*Admin*
+http<noLink>://mysite.com/Apples|Oranges | controller=*Apples* - Action=*Oranges*
+http<noLink>://mysite.com/Admin | *No match* - too few segments
+http<noLink>://mysite.com/Admin/Index/Soccer | *No match* - too many segments
+
+Table 15-2. Matching URLs
+
+
+
+
 
 P8====================
 Table 15-2 highlights two key behaviors of URL patterns:
