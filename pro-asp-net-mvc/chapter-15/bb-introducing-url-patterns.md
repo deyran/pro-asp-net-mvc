@@ -31,19 +31,6 @@ http<noLink>://mysite.com/Admin/Index/Soccer | *No match* - too many segments
 
 Table 15-2. Matching URLs
 
-
-
-
-
-P8====================
-Table 15-2 highlights two key behaviors of URL patterns:
-1. URL patterns are conservative, and will match only URLs have the same number of segments as the patterns. You can see this in the fourth and fifth examples in the table.
-2. URL pattern are liberal. If a URL does URL have the correct number of segments, the pattern will extract the value of the segment variable, whatever it might be.
-
-P9====================
-1. These are the default behaviors, which are the keys to understanding how URL patterns function
-2. I show you how to change the defaults later in this chapter
-
 P10===================
 1. As already mentioned, the rounting system does not know anything about an MVC application, and so URL patterns will match even when there is no controller or action that corresponds to the values extracted from a URL.
 2. You can see this demonstrated in the second example in table 15.2. 
