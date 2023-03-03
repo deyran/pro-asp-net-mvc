@@ -21,13 +21,13 @@ Let's start with a URL for the example application: *http<nolink>://mysite.com/A
 * The routing system's job is take the incoming request, match the URL to pattern and extracts their values to the segment variable. After theses processes, the *routing system* forwards to a route.
 * For example, the pattern {controller}/{action} will match any URL that has two segments, as illustrated by Table 15-2.  
 
-|Request URL|Segments Variables|
-|---------|--------|
-|http<noLink>://mysite.com/Admin/Index | controller=*Admin* - Action=*Index*|
-|http<noLink>://mysite.com/Index/Admin | controller=*Index* - Action=*Admin*|
-|http<noLink>://mysite.com/Apples/Oranges | controller=*Apples* - Action=*Oranges*|
-|http<noLink>://mysite.com/Admin | *No match* - too few segments|
-|http<noLink>://mysite.com/Admin/Index/Soccer | *No match* - too many segments|
+Request URL|Segments Variables
+---------|--------
+http<noLink>://mysite.com/Admin/Index | controller=*Admin* - Action=*Index*
+http<noLink>://mysite.com/Index/Admin | controller=*Index* - Action=*Admin*
+http<noLink>://mysite.com/Apples/Oranges | controller=*Apples* - Action=*Oranges*
+http<noLink>://mysite.com/Admin | *No match* - too few segments
+http<noLink>://mysite.com/Admin/Index/Soccer | *No match* - too many segments
 
 Table 15-2. Matching URLs
 
