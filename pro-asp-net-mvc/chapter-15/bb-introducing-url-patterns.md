@@ -25,7 +25,7 @@ Request URL|Segments Variables
 ---------|--------
 http<noLink>://mysite.com/Admin/Index | controller=*Admin* - Action=*Index*
 http<noLink>://mysite.com/Index/Admin | controller=*Index* - Action=*Admin*
-http<noLink>://mysite.com/Apples|Oranges | controller=*Apples* - Action=*Oranges*
+http<noLink>://mysite.com/Apples/Oranges | controller=*Apples* - Action=*Oranges*
 http<noLink>://mysite.com/Admin | *No match* - too few segments
 http<noLink>://mysite.com/Admin/Index/Soccer | *No match* - too many segments
 
