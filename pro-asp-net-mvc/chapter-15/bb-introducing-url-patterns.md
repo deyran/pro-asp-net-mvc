@@ -31,7 +31,7 @@ http<noLink>://mysite.com/Admin/Index/Soccer | *No match* - too many segments
 
 Table 15-2. Matching URLs
 
-As shown in Table 15-2, the routing system will work with the incoming request even if there is no controller or action to receive the values
+As shown in Table 15-2, the routing system will work with the incoming request even if there is no controller or action to receive the extrated values.
 
 
 <!--
