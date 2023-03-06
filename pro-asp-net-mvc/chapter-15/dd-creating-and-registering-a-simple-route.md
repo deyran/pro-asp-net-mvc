@@ -51,6 +51,10 @@
 * You will see an error when the browser tries to navigate to the root URL for the application, but if you navigate to a route that matches the {controller}/{action} pattern, you will see a result like the one shown in Figure 15-4, which illustrates the effect of navigating to /admin/Index.
     Figure 15-4. Navigating using a simple route
 
+#### P9 ----------------------
+
+* My simple route in Listing 15-8 does not tell the MVC Framework how to respond to requests for the root URL and only supports a single, specific, URL, pattern.    
+
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
