@@ -45,6 +45,12 @@
 
 ### Using the simple route
 
+#### P8 ----------------------
+
+* You can see the effect of the changes I made to the routing by starting the example application.
+* You will see an error when the browser tries to navigate to the root URL for the application, but if you navigate to a route that matches the {controller}/{action} pattern, you will see a result like the one shown in Figure 15-4, which illustrates the effect of navigating to /admin/Index.
+    Figure 15-4. Navigating using a simple route
+
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
