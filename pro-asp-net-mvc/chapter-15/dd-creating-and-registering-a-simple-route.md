@@ -31,6 +31,12 @@
 * I created a new Route using a URL pattern as a constructor parameter, which I express as a string.
 * I also pass an instance of MvcRouteHandle to the constructor.
 
+### P6 ----------------------
+
+* A more convenient way of registering routes is to use the MapRoute method defined by the RouteCollection class.
+* Listing 15-8 shows how I can use this method to register a route, which has the same effect as the previous example, but has a cleaner syntax.
+    Listing 15-8. Registering a Route using the MapRoute method in the RouteConfig.cs file
+
 ### Using the simple route
 
 <!--
