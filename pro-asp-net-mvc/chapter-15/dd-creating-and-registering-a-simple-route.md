@@ -25,8 +25,11 @@
 * Listing 15-7 shows how to create a route using the example URL pattern from the previous section in the RegisterRoutes methods of the RouteConfig.cs file.
 * (I have removed the other statements in the methods so I can focus on the example)
     Listing 15-7. Registering o Route in the RouteConfig.cs file
-    
+
 ### P5 ----------------------
+
+* I created a new Route using a URL pattern as a constructor parameter, which I express as a string.
+* I also pass an instance of MvcRouteHandle to the constructor.
 
 ### Using the simple route
 
