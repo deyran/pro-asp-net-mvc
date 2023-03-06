@@ -37,6 +37,12 @@
 * Listing 15-8 shows how I can use this method to register a route, which has the same effect as the previous example, but has a cleaner syntax.
     Listing 15-8. Registering a Route using the MapRoute method in the RouteConfig.cs file
 
+### P7 ----------------------
+
+* This approach is more compact, mainly because I do not need to create an instance of the MvcRouterHandler class (it is done for me, behind the scenes).
+* The MapRoute methods is solely for use with MVC applications.
+* ASP.NET Web forms applications can use the MapPageRoute method, also defined in the RouteCollection class.
+
 ### Using the simple route
 
 <!--
