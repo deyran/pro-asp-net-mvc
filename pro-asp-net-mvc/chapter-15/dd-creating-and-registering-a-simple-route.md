@@ -45,18 +45,33 @@
 
 ### Using the simple route
 
-#### P8 ----------------------
+#### PP1 ----------------------
 
 * You can see the effect of the changes I made to the routing by starting the example application.
 * You will see an error when the browser tries to navigate to the root URL for the application, but if you navigate to a route that matches the {controller}/{action} pattern, you will see a result like the one shown in Figure 15-4, which illustrates the effect of navigating to /admin/Index.
     Figure 15-4. Navigating using a simple route
 
-#### P9 ----------------------
+#### PP2 ----------------------
 
 * My simple route in Listing 15-8 does not tell the MVC Framework how to respond to requests for the root URL and only supports a single, specific, URL, pattern.
 * I have temporarily taken a step back from the functionality that Visual Studio adds to the RouteConfig.cs file when it creates the project, but I will show you how to build more complex patterns and routes throughout the rest of this chapter.
 
 #### UNIT TEST: TESTING INCOMING URLS
+
+##### UT2 ----------------------
+
+* I recommend that you unit test your routes to make sure they process incoming URLs as expected, even if you choose not to unit test the rest of your application.
+* URL schemas can get pretty complex in large applications, and it is easy to create something that has unexpected results.
+
+##### UT3 ----------------------
+
+* In previous chapters, I avoided creating common helper methods to be shared among tests in order to keep each unit test description self-contained.
+* For this chapter, I am taking a different approach.
+
+##### UT4 ----------------------
+
+* In previous chapters, I avoided creating common helper methods to be shared among tests in order to keep each unit test description self-contained. For this chapter, i am taking a different approach.
+* Testing the routing schema for an application is most readily done when you can batch several tests in a single method, and this becomes much easier with some helper methods.
 
 <!--
 # Chapter 15: URL Routing
