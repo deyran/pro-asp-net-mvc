@@ -81,6 +81,13 @@
 * I added a new Unit Tests file called RouteTests.cs to the UrlsAndRoutes.Tests unit test project and my first addition is the helper method that creates the mock HttpContextBase objects, as follows:
     CODE
 
+##### UT6 ----------------------
+
+* The setup here is simpler than it looks.
+* I expose the URL I want to test through the AppRelativeCurrentExecutionFilePath property of the HttpRequestBase class, and expose the HttpRequestBase through the request property of the mock HttpContextBase class.
+* My next helper method lets me test a route:
+	CODE
+    
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
