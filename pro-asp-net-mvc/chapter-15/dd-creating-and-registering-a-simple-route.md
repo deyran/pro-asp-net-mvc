@@ -73,6 +73,14 @@
 * In previous chapters, I avoided creating common helper methods to be shared among tests in order to keep each unit test description self-contained. For this chapter, i am taking a different approach.
 * Testing the routing schema for an application is most readily done when you can batch several tests in a single method, and this becomes much easier with some helper methods.
 
+##### UT5 ----------------------
+
+* To test routes, I need to mock three classes from the MVC Framework: HttpRequestBase, HttpContextBase and HttpResponseBase.
+* (This last class is required for testing outgoing URLs, which I cover in the next chapter.)
+* Together, these classes recreate enough of the MVC infrastructure to support the routing system.
+* I added a new Unit Tests file called RouteTests.cs to the UrlsAndRoutes.Tests unit test project and my first addition is the helper method that creates the mock HttpContextBase objects, as follows:
+    CODE
+
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
