@@ -101,6 +101,29 @@
 * Do not worry if this method doesn't make sense, as this is just to make testing more convenient; it is not a requirement for understanding MVC.
 * Here is the TestIncomingRouteResult method:
     CODE
+
+##### UT9 ----------------------
+
+* I aslo need a method to check that a URL does not work.
+* As you will see, this can be an important part of defining a URL schema
+    CODE
+
+##### UT10 ---------------------
+
+* TestRouteMatch and TestRouteFail contain calls to the Assert method, which throws and exception if the assertion fails.
+* Because C# exceptions are propagated up the call stack,  I can create simple test methods that test a set of URLs and get the test behavior I require.
+* Here is a test method that tests the route I defined in Listing 15-8.
+
+##### UT11 ---------------------
+
+* This test uses the TestRouteMatch method to check the URL I am expecting and also checks a URL in the same format to make sure that the controller and action values are being obtained properly using the URL segments.
+* I use the TestRouteFail method to make sure that the application won't accept URLs that have a different number of segments.
+* When testing, I must prefix the URL with the tilde (~) character, because this is how the ASP.NET Framework presents the URL to the routing system.
+
+##### UT12 ---------------------
+
+* Notice that I didn't need to define the routes in the test methods.
+* This is because I am loading them directly using the RegisterRouter method in the RouteConfig class.
     
 <!--
 # Chapter 15: URL Routing
