@@ -124,7 +124,10 @@
 
 * Notice that I didn't need to define the routes in the test methods.
 * This is because I am loading them directly using the RegisterRouter method in the RouteConfig class.
-    
+
+
+
+
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
