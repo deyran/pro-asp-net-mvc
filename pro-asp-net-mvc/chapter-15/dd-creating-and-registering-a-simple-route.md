@@ -86,7 +86,13 @@
 * The setup here is simpler than it looks.
 * I expose the URL I want to test through the AppRelativeCurrentExecutionFilePath property of the HttpRequestBase class, and expose the HttpRequestBase through the request property of the mock HttpContextBase class.
 * My next helper method lets me test a route:
-	CODE
+     CODE
+
+##### UT7 ----------------------
+
+* The parameters of this method let me specify the URL to test, the expected values for the controller and action segments variables, and an object that contains the expected values for any additional variables I have defined.
+* I show you how to create such variable later in the chapter and in the next chapter.
+* I also defined a parameter for the HTTP method, which I will explain in the "Constraining Routes" section
     
 <!--
 # Chapter 15: URL Routing
