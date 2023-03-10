@@ -9,17 +9,13 @@ namespace UrlsAndRoutes
         # Chapter 15: URL Routing
         ## Creating and registering a simple route
         ### Listing 15-5. The Default contents of the RouteConfig.cs file
+        ### Listing 15-7. Registering a route in the RouteConfig.cs file
          */
 
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
-
-            routes.MapRoute(
-                name: "Default",
-                url: "{controller}/{action}/{id}",
-                defaults: new { controller = "Home", action = "Index", id = UrlParameter.Optional }
-            );
+            Route myRoute = new Route("{controller}/{action}", new MvcRouteHandler());
+            routes.Add("MyRoute", myRoute);
         }
     }
 }

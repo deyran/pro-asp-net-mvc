@@ -14,16 +14,15 @@ The *RegisterRouter* method (*RouteConfig class*) is called in the *Global.asax.
     <b>Listing 15-6.</b> The Defaiult Contents of the Global.asax.cs file
 </p>  
 
-### P3 ----------------------
+To create a route follow these two steps:
 
-* The Application_Start method is called by the the underlying ASP.NET platform when the MVC application is first started, which leads to the RouteConfig.RegisterRoutes methods being called.
-* The parameter to this method is the value of the static RouteTable.Routes property, which is an instance of the RouteCollection class, which I describe shortly.
+1. Open the *RouteConfig.cs* file and remove all instructions.
+2. Now, edit the *RouteConfig.cs* file to match as seen in Listing 15-7.
 
-### P4 ----------------------
-
-* Listing 15-7 shows how to create a route using the example URL pattern from the previous section in the RegisterRoutes methods of the RouteConfig.cs file.
-* (I have removed the other statements in the methods so I can focus on the example)
-    Listing 15-7. Registering o Route in the RouteConfig.cs file
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-7.png" /><br />
+    <b>Listing 15-7.</b> Registering a route in the RouteConfig.cs file
+</p>  
 
 ### P5 ----------------------
 
@@ -130,7 +129,7 @@ The *RegisterRouter* method (*RouteConfig class*) is called in the *Global.asax.
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
-### Listing 15-6. The Defaiult Contents of the Global.asax.cs file
+### Listing 15-7. Registering a route in the RouteConfig.cs file
 
 ### Using the simple route
 #### UNIT TEST: TESTING INCOMING URLS    
