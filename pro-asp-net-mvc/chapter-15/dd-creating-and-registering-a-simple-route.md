@@ -2,12 +2,11 @@
 
 ## Creating and registering a simple route  
 
-### P1 ----------------------
-
-* Once you have a URL pattern in mind, you can use it to define a route.
-* Routes are defined in the RouteConfig.cs file, which is in the App Start project folder.
-* You can see the initial content that Visual Studio difines for this file in Listing 15-5.
-    Listing 15-5. The Default contents of the RouteConfig.cs file
+Once a URL pattern is chosen, the route will be defined. Routes are defined in the RouteConfig.cs file, which is in the App_Start project folder, as seen in Listing 15-5.
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-5.png" /><br />
+    <b>Listing 15-5.</b> The Default contents of the RouteConfig.cs file
+</p>  
 
 ### P2 ----------------------
 
@@ -131,6 +130,8 @@
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
+### Listing 15-5. The Default contents of the RouteConfig.cs file
+
 ### Using the simple route
 #### UNIT TEST: TESTING INCOMING URLS    
 

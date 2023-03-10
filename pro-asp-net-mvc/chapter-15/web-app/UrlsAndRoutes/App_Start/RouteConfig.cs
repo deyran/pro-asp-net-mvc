@@ -1,14 +1,16 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 using System.Web.Routing;
 
 namespace UrlsAndRoutes
 {
     public class RouteConfig
     {
+        /*
+        # Chapter 15: URL Routing
+        ## Creating and registering a simple route
+        ### Listing 15-5. The Default contents of the RouteConfig.cs file
+         */
+
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
