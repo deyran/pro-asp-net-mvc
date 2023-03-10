@@ -2,7 +2,7 @@
 
 ## Creating and registering a simple route  
 
-Once a URL pattern is chosen, the route will be defined. Routes are defined in the RouteConfig.cs file, which is in the App_Start project folder, as seen in Listing 15-5.
+Once a URL pattern is chosen, the route will be defined. Routes are defined in the *RouteConfig.cs* file, which is in the *App_Start* project folder, as seen in Listing 15-5.
 <p align="center">
     <img src="ch15-Pictures/Listing 15-5.png" /><br />
     <b>Listing 15-5.</b> The Default contents of the RouteConfig.cs file
