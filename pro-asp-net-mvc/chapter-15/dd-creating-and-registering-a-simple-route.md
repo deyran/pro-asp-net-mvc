@@ -24,11 +24,6 @@ To create a route follow these two steps:
     <b>Listing 15-7.</b> Registering a route in the RouteConfig.cs file
 </p>  
 
-### P5 ----------------------
-
-* I created a new Route using a URL pattern as a constructor parameter, which I express as a string.
-* I also pass an instance of MvcRouteHandle to the constructor.
-
 ### P6 ----------------------
 
 * A more convenient way of registering routes is to use the MapRoute method defined by the RouteCollection class.
