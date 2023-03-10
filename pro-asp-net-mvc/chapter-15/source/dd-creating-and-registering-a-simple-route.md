@@ -11,7 +11,7 @@
 
 ### P2 ----------------------
 
-* The static RegisterRoutes method that is defined in the RouteConfig.cs file is called from the Glogal.asax.cs file, which sets up some of the core MVC features when the application is started.
+* The static RegisterRoutes method that is defined in the RouteConfig.cs file is called from the Global.asax.cs file, which sets up some of the core MVC features when the application is started.
 * You can see the default contents of the Global.asax.cs file in Listing 15-6, and I have highlighted the call to the RouteConfig.RegisterRoutes methods, which is made from the Application_Start method.
     Listing 15-6. The Defaiult Contents of the Global.asax.cs file
 
