@@ -40,8 +40,6 @@ An error can be seen when you try to run the application using the root URL, but
     <b>Figure 15-4.</b> Navigating using a simple route
 </p>  
 
-    
-
 #### PP2 ----------------------
 
 * My simple route in Listing 15-8 does not tell the MVC Framework how to respond to requests for the root URL and only supports a single, specific, URL, pattern.
