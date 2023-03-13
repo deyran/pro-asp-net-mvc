@@ -31,15 +31,6 @@ Use the *MapRoute* method (RouteCollection class) is a better way to register ro
     <b>Listing 15-8.</b> Registering a Route using the MapRoute method in the RouteConfig.cs file
 </p>  
 
-
-    
-
-### P7 ----------------------
-
-* This approach is more compact, mainly because I do not need to create an instance of the MvcRouterHandler class (it is done for me, behind the scenes).
-* The MapRoute methods is solely for use with MVC applications.
-* ASP.NET Web forms applications can use the MapPageRoute method, also defined in the RouteCollection class.
-
 ### Using the simple route
 
 #### PP1 ----------------------
