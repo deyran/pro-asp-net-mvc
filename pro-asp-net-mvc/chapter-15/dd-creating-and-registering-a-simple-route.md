@@ -33,11 +33,14 @@ Use the *MapRoute* method (RouteCollection class) is a better way to register ro
 
 ### Using the simple route
 
-#### PP1 ----------------------
+An error can be seen when you try to run the application using the root URL, but if you type *"/admin/Index"* in the URL, it will match the *{controller}/{action}* pattern as seen in Figure 15-4.
 
-* You can see the effect of the changes I made to the routing by starting the example application.
-* You will see an error when the browser tries to navigate to the root URL for the application, but if you navigate to a route that matches the {controller}/{action} pattern, you will see a result like the one shown in Figure 15-4, which illustrates the effect of navigating to /admin/Index.
-    Figure 15-4. Navigating using a simple route
+<p align="center">
+    <img src="ch15-Pictures/Figure 15-4.png" /><br />
+    <b>Figure 15-4.</b> Navigating using a simple route
+</p>  
+
+    
 
 #### PP2 ----------------------
 
@@ -119,7 +122,8 @@ Use the *MapRoute* method (RouteCollection class) is a better way to register ro
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
-### Listing 15-8. Registering a Route using the MapRoute method in the RouteConfig.cs file
+### Using the simple route
+#### Figure 15-4. Navigating using a simple route
 
 ### Using the simple route
 #### UNIT TEST: TESTING INCOMING URLS    
