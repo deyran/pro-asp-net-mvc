@@ -14,7 +14,7 @@ The *RegisterRouter* method (*RouteConfig class*) is called in the *Global.asax.
     <b>Listing 15-6.</b> The Defaiult Contents of the Global.asax.cs file
 </p>  
 
-To create a route follow these two steps:
+To create a route using *Add* method (RouteCollectin class) follow these two steps:
 
 1. Open the *RouteConfig.cs* file and remove all instructions.
 2. Now, edit the *RouteConfig.cs* file to match as seen in Listing 15-7.
@@ -24,11 +24,15 @@ To create a route follow these two steps:
     <b>Listing 15-7.</b> Registering a route in the RouteConfig.cs file
 </p>  
 
-### P6 ----------------------
+Use the *MapRoute* method (RouteCollection class) is a better way to register routes. As seen in Listing 15-8, *MapRoute* method has the same effect and a cleaner syntax.
 
-* A more convenient way of registering routes is to use the MapRoute method defined by the RouteCollection class.
-* Listing 15-8 shows how I can use this method to register a route, which has the same effect as the previous example, but has a cleaner syntax.
-    Listing 15-8. Registering a Route using the MapRoute method in the RouteConfig.cs file
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-8.png" /><br />
+    <b>Listing 15-8.</b> Registering a Route using the MapRoute method in the RouteConfig.cs file
+</p>  
+
+
+    
 
 ### P7 ----------------------
 
@@ -124,7 +128,7 @@ To create a route follow these two steps:
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
-### Listing 15-7. Registering a route in the RouteConfig.cs file
+### Listing 15-8. Registering a Route using the MapRoute method in the RouteConfig.cs file
 
 ### Using the simple route
 #### UNIT TEST: TESTING INCOMING URLS    
