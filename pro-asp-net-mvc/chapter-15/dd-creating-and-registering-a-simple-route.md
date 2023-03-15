@@ -53,7 +53,7 @@ Unlike previous chapters, multiple tests will be created in a single method with
 
 To test the routes, it is necessary to *Mock* three classes: *HttpRequestBase*, *HttpContextBase* and *HttpResponseBase*. Together, these classes recreate enough of the MVC infrastructure to support the routing system.
 
-To get started follow these steps:
+* To get started follow these steps:
 
 1. Create a new *Unit Test* file called *RouteTests.cs* in *UrlsAndRoutes.Tests* project.
 2. Create the mock *HttpContextbase* object, as follow
@@ -61,14 +61,12 @@ To get started follow these steps:
 <p align="center">
     <img src="ch15-Pictures/UNIT_TEST_CreateHttpContext.png" /><br />
 </p>  
-    
 
-##### UT6 ----------------------
-
-* The setup here is simpler than it looks.
-* I expose the URL I want to test through the AppRelativeCurrentExecutionFilePath property of the HttpRequestBase class, and expose the HttpRequestBase through the request property of the mock HttpContextBase class.
 * My next helper method lets me test a route:
-     CODE
+
+<p align="center">
+    <img src="ch15-Pictures/UNIT_TEST_TestRouteMatch.png" /><br />
+</p>  
 
 ##### UT7 ----------------------
 
@@ -113,7 +111,7 @@ To get started follow these steps:
 ## Creating and registering a simple route
 ### Using the simple route
 #### UNIT TEST: TESTING INCOMING URLS    
-##### UNIT TEST CreateHttpContext
+##### UNIT TEST TestRouteMatch
 
 > SUMMARRY AND UPDATE ==========================
 .
