@@ -44,10 +44,11 @@ The route in *Listing 15-8* only support a single, specific URL pattern, but doe
 
 #### UNIT TEST: TESTING INCOMING URLS
 
-##### UT2 ----------------------
+There are two reasons to use Unit Test on Routes:
 
-* I recommend that you unit test your routes to make sure they process incoming URLs as expected, even if you choose not to unit test the rest of your application.
-* URL schemas can get pretty complex in large applications, and it is easy to create something that has unexpected results.
+1. Make sure if the URL schemas is processing as expected.
+2. In large applications, check if the complex URL schemes are creating unxpected results.
+
 
 ##### UT3 ----------------------
 
@@ -115,9 +116,6 @@ The route in *Listing 15-8* only support a single, specific URL pattern, but doe
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
-### Using the simple route
-#### Figure 15-4. Navigating using a simple route
-
 ### Using the simple route
 #### UNIT TEST: TESTING INCOMING URLS    
 
