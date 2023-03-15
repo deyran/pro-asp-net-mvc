@@ -51,13 +51,17 @@ There are two reasons to use Unit Test on Routes:
 
 Unlike previous chapters, multiple tests will be created in a single method with some helper methods
 
-##### UT5 ----------------------
+To test the routes, it is necessary to *Mock* three classes: *HttpRequestBase*, *HttpContextBase* and *HttpResponseBase*. Together, these classes recreate enough of the MVC infrastructure to support the routing system.
 
-* To test routes, I need to mock three classes from the MVC Framework: HttpRequestBase, HttpContextBase and HttpResponseBase.
-* (This last class is required for testing outgoing URLs, which I cover in the next chapter.)
-* Together, these classes recreate enough of the MVC infrastructure to support the routing system.
-* I added a new Unit Tests file called RouteTests.cs to the UrlsAndRoutes.Tests unit test project and my first addition is the helper method that creates the mock HttpContextBase objects, as follows:
-    CODE
+To get started follow these steps:
+
+1. Create a new *Unit Test* file called *RouteTests.cs* in *UrlsAndRoutes.Tests* project.
+2. Create the mock *HttpContextbase* object, as follow
+
+<p align="center">
+    <img src="ch15-Pictures/UNIT_TEST_CreateHttpContext.png" /><br />
+</p>  
+    
 
 ##### UT6 ----------------------
 
@@ -109,6 +113,7 @@ Unlike previous chapters, multiple tests will be created in a single method with
 ## Creating and registering a simple route
 ### Using the simple route
 #### UNIT TEST: TESTING INCOMING URLS    
+##### UNIT TEST CreateHttpContext
 
 > SUMMARRY AND UPDATE ==========================
 .
