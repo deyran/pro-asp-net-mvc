@@ -40,10 +40,7 @@ An error can be seen when you try to run the application using the root URL, but
     <b>Figure 15-4.</b> Navigating using a simple route
 </p>  
 
-#### PP2 ----------------------
-
-* My simple route in Listing 15-8 does not tell the MVC Framework how to respond to requests for the root URL and only supports a single, specific, URL, pattern.
-* I have temporarily taken a step back from the functionality that Visual Studio adds to the RouteConfig.cs file when it creates the project, but I will show you how to build more complex patterns and routes throughout the rest of this chapter.
+The route in *Listing 15-8* only support a single, specific URL pattern, but does not respond to requests for the root URL. In this chapter, we will see how to build complex routes and patterns.
 
 #### UNIT TEST: TESTING INCOMING URLS
 

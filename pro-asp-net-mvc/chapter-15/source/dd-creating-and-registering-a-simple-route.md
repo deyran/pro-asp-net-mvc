@@ -53,7 +53,7 @@
 
 #### PP2 ----------------------
 
-* My simple route in Listing 15-8 does not tell the MVC Framework how to respond to requests for the root URL and only supports a single, specific, URL, pattern.
+* My simple route in Listing 15-8 does not tell the MVC Framework how to respond to requests for the root URL and only supports a single, specific, URL pattern.
 * I have temporarily taken a step back from the functionality that Visual Studio adds to the RouteConfig.cs file when it creates the project, but I will show you how to build more complex patterns and routes throughout the rest of this chapter.
 
 #### UNIT TEST: TESTING INCOMING URLS
