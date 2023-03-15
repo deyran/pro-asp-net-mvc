@@ -63,11 +63,6 @@
 * I recommend that you unit test your routes to make sure they process incoming URLs as expected, even if you choose not to unit test the rest of your application.
 * URL schemas can get pretty complex in large applications, and it is easy to create something that has unexpected results.
 
-##### UT3 ----------------------
-
-* In previous chapters, I avoided creating common helper methods to be shared among tests in order to keep each unit test description self-contained.
-* For this chapter, I am taking a different approach.
-
 ##### UT4 ----------------------
 
 * In previous chapters, I avoided creating common helper methods to be shared among tests in order to keep each unit test description self-contained. For this chapter, i am taking a different approach.

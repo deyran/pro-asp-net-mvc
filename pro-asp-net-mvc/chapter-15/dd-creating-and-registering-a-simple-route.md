@@ -49,16 +49,7 @@ There are two reasons to use Unit Test on Routes:
 1. Make sure if the URL schemas is processing as expected.
 2. In large applications, check if the complex URL schemes are creating unxpected results.
 
-
-##### UT3 ----------------------
-
-* In previous chapters, I avoided creating common helper methods to be shared among tests in order to keep each unit test description self-contained.
-* For this chapter, I am taking a different approach.
-
-##### UT4 ----------------------
-
-* In previous chapters, I avoided creating common helper methods to be shared among tests in order to keep each unit test description self-contained. For this chapter, i am taking a different approach.
-* Testing the routing schema for an application is most readily done when you can batch several tests in a single method, and this becomes much easier with some helper methods.
+Unlike previous chapters, multiple tests will be created in a single method with some helper methods
 
 ##### UT5 ----------------------
 
