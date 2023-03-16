@@ -18,6 +18,7 @@ namespace UrlsAndRoutes.Tests
         ##### UNIT TEST CreateHttpContext
         ##### UNIT TEST TestRouteMatch
         ##### UNIT TEST TestIncomingRouteResult
+        ##### UNIT TEST TestRouteFail
          */
         private HttpContextBase CreateHttpContext(string targetUrl = null, string httpMethod = "GET")
         {
@@ -38,7 +39,7 @@ namespace UrlsAndRoutes.Tests
             // return the mocked context
             return mockContext.Object;
         }
-        private void TestRouteMatch(string url, string controller, string action, 
+        private void TestRouteMatch(string url, string controller, string action,
             object routeProperties = null, string httpMethod = "GET")
         {
             // Arrange
@@ -52,15 +53,15 @@ namespace UrlsAndRoutes.Tests
             Assert.IsNotNull(result);
             Assert.IsTrue(TestIncomingRouteResult(result, controller, action, routeProperties));
         }
-
         private bool TestIncomingRouteResult(RouteData routeResult, string controller, string action, object propertySet = null)
         {
-            Func<object, object, bool> valCompare = (v1, v2) => {
+            Func<object, object, bool> valCompare = (v1, v2) =>
+            {
                 return StringComparer.InvariantCultureIgnoreCase
                 .Compare(v1, v2) == 0;
             };
 
-            bool result = valCompare(routeResult.Values["controller"], controller) 
+            bool result = valCompare(routeResult.Values["controller"], controller)
                 && valCompare(routeResult.Values["action"], action);
 
             if (propertySet != null)
@@ -78,6 +79,16 @@ namespace UrlsAndRoutes.Tests
                 }
             }
             return result;
+        }
+        private void TestRouteFail(string url)
+        {
+            // Arrange
+            RouteCollection routes = new RouteCollection();
+            RouteConfig.RegisterRoutes(routes);
+            // Act - process the route
+            RouteData result = routes.GetRouteData(CreateHttpContext(url));
+            // Assert
+            Assert.IsTrue(result == null || result.Route == null);
         }
     }
 }
