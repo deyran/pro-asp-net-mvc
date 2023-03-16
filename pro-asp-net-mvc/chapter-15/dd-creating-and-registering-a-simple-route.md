@@ -68,15 +68,10 @@ To test the routes, it is necessary to *Mock* three classes: *HttpRequestBase*, 
     <img src="ch15-Pictures/UNIT_TEST_TestRouteMatch.png" /><br />
 </p>  
 
-##### UT7 ----------------------
-
-* The parameters of this method let me specify the URL to test, the expected values for the controller and action segments variables, and an object that contains the expected values for any additional variables I have defined.
-* I show you how to create such variable later in the chapter and in the next chapter.
-* I also defined a parameter for the HTTP method, which I will explain in the "Constraining Routes" section
-
 ##### UT8 ----------------------
 
 * The TestRouteMatch method relies on another method, TestIncomingRouteResult, to compare the result obtained from the routing system with the segment variable values I expect.
+
 * This method uses .NET reflection so that I can use an anonymous type express any additional segment variable.
 * Do not worry if this method doesn't make sense, as this is just to make testing more convenient; it is not a requirement for understanding MVC.
 * Here is the TestIncomingRouteResult method:
