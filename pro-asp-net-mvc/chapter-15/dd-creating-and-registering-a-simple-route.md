@@ -86,19 +86,6 @@ To test the routes, it is necessary to *Mock* three classes: *HttpRequestBase*, 
     <img src="ch15-Pictures/UNIT_TEST_TestIncomingRoutes.png" /><br />
 </p>  
 
-
-##### UT11 ---------------------
-
-* This test uses the TestRouteMatch method to check the URL I am expecting and also checks a URL in the same format to make sure that the controller and action values are being obtained properly using the URL segments.
-* I use the TestRouteFail method to make sure that the application won't accept URLs that have a different number of segments.
-* When testing, I must prefix the URL with the tilde (~) character, because this is how the ASP.NET Framework presents the URL to the routing system.
-
-##### UT12 ---------------------
-
-* Notice that I didn't need to define the routes in the test methods.
-* This is because I am loading them directly using the RegisterRouter method in the RouteConfig class.
-
-
 <!--
 # Chapter 15: URL Routing
 ## Creating and registering a simple route
