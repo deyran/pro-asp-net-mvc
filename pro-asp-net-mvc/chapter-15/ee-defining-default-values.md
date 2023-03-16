@@ -9,6 +9,12 @@
 
 ### P2 ----------------------------
 
+* I explained earlier that URL pattern are convervative, in that they will match only URLs with the specifed number of segments.
+* I also said that this was the default behavior and one way to change this behavior is to use default values.
+* A default value is applied when the URL doesn't contain a segment that can be matched to the value.
+* Listing 15-9 provides an example of a route that contains a default value.
+    Listing 15-9. Providing a default value in the RouteConfig.cs file
+
 ### P3 ----------------------------
 
 ### P4 ----------------------------
@@ -22,13 +28,14 @@
 ### Unit Testing: Default Values
 
 ### U1 ----------------------------
+
 ### U2 ----------------------------
 
 
 <!--
 # Chapter 15: URL Routing
 ## Defining default values
-### P1 ----------------------------
+### P2 ----------------------------
 ### Unit Testing: Default Values
 
 ##### UNIT TEST TestIncomingRoutes
