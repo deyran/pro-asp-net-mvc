@@ -75,17 +75,17 @@ To test the routes, it is necessary to *Mock* three classes: *HttpRequestBase*, 
 </p>  
 
 * A method is also needed to check that a URL does not work. As you will see, this can be an important part of defining a URL schema.
-    
+
 <p align="center">
     <img src="ch15-Pictures/UNIT_TEST_TestRouteFail.png" /><br />
 </p>  
 
+* Here is a test method that tests the route defined in Listing 15-8.
 
-##### UT10 ---------------------
+<p align="center">
+    <img src="ch15-Pictures/UNIT_TEST_TestIncomingRoutes.png" /><br />
+</p>  
 
-* TestRouteMatch and TestRouteFail contain calls to the Assert method, which throws and exception if the assertion fails.
-* Because C# exceptions are propagated up the call stack,  I can create simple test methods that test a set of URLs and get the test behavior I require.
-* Here is a test method that tests the route I defined in Listing 15-8.
 
 ##### UT11 ---------------------
 
@@ -104,7 +104,7 @@ To test the routes, it is necessary to *Mock* three classes: *HttpRequestBase*, 
 ## Creating and registering a simple route
 ### Using the simple route
 #### UNIT TEST: TESTING INCOMING URLS    
-##### UNIT TEST TestRouteFail
+##### UNIT TEST TestIncomingRoutes
 
 > SUMMARRY AND UPDATE ==========================
 .
