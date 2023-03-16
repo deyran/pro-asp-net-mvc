@@ -68,14 +68,11 @@ To test the routes, it is necessary to *Mock* three classes: *HttpRequestBase*, 
     <img src="ch15-Pictures/UNIT_TEST_TestRouteMatch.png" /><br />
 </p>  
 
-##### UT8 ----------------------
-
-* The TestRouteMatch method relies on another method, TestIncomingRouteResult, to compare the result obtained from the routing system with the segment variable values I expect.
-
-* This method uses .NET reflection so that I can use an anonymous type express any additional segment variable.
-* Do not worry if this method doesn't make sense, as this is just to make testing more convenient; it is not a requirement for understanding MVC.
 * Here is the TestIncomingRouteResult method:
-    CODE
+<p align="center">
+    <img src="ch15-Pictures/UNIT_TEST_TestIncomingRouteResult.png" /><br />
+</p>  
+  
 
 ##### UT9 ----------------------
 
@@ -106,7 +103,7 @@ To test the routes, it is necessary to *Mock* three classes: *HttpRequestBase*, 
 ## Creating and registering a simple route
 ### Using the simple route
 #### UNIT TEST: TESTING INCOMING URLS    
-##### UNIT TEST TestRouteMatch
+##### UNIT TEST TestIncomingRouteResult
 
 > SUMMARRY AND UPDATE ==========================
 .
