@@ -19,6 +19,7 @@ namespace UrlsAndRoutes.Tests
         ##### UNIT TEST TestRouteMatch
         ##### UNIT TEST TestIncomingRouteResult
         ##### UNIT TEST TestRouteFail
+        ##### UNIT TEST TestIncomingRoutes
          */
         private HttpContextBase CreateHttpContext(string targetUrl = null, string httpMethod = "GET")
         {
@@ -89,6 +90,18 @@ namespace UrlsAndRoutes.Tests
             RouteData result = routes.GetRouteData(CreateHttpContext(url));
             // Assert
             Assert.IsTrue(result == null || result.Route == null);
+        }
+
+        [TestMethod]
+        public void TestIncomingRoutes()
+        {
+            // check for the URL that is hoped for
+            TestRouteMatch("~/Admin/Index", "Admin", "Index");
+            // check that the values are being obtained from the segments
+            TestRouteMatch("~/One/Two", "One", "Two");
+            // ensure that too many or too few segments fails to match
+            TestRouteFail("~/Admin/Index/Segment");
+            TestRouteFail("~/Admin");
         }
     }
 }
