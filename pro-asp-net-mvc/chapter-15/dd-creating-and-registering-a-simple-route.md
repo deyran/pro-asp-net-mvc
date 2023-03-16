@@ -87,10 +87,6 @@ To test the routes, it is necessary to *Mock* three classes: *HttpRequestBase*, 
 </p>  
 
 <!--
-# Chapter 15: URL Routing
-## Creating and registering a simple route
-### Using the simple route
-#### UNIT TEST: TESTING INCOMING URLS    
 ##### UNIT TEST TestIncomingRoutes
 
 > SUMMARRY AND UPDATE ==========================
