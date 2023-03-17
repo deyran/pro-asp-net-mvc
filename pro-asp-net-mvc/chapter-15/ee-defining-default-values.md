@@ -55,10 +55,12 @@
 
 ### U2 ----------------------------
 
+* The only point of note is that I must specify the default URL as ~/, as this is how ASP.NET presents the URL to the and exception, and the test will fail
+
 <!--
 # Chapter 15: URL Routing
 ## Defining default values
-### U1 ----------------------------
+### U2 ----------------------------
 ### Unit Testing: Default Values
 
 ##### UNIT TEST TestIncomingRoutes
