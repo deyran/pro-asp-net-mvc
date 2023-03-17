@@ -36,7 +36,14 @@
 
 ### P6 ----------------------------
 
+* By providing default values for both the controller and action variables, I have created a route that will match URLs that have zero, one, or two segments, as showm in Table 15-3.
+
 ### P7 ----------------------------
+
+* The fewer segments I receive in the incoming URL, the more I rely on the default values, up until the point I receive a URL with no segments and only default values are used.
+* You can see the effect of the default values by starting the example app again.
+* This time, when the browser requests the root URL for the application, the default values for the controller and action segment variables will be used, which will lead the MVC Framework to invoke the Index action method on the Home controller, as shown in Figure 15-5.
+    Figure 15-5. Using default values to broaden the scope of a route
 
 ### Unit Testing: Default Values
 
@@ -44,11 +51,10 @@
 
 ### U2 ----------------------------
 
-
 <!--
 # Chapter 15: URL Routing
 ## Defining default values
-### P4 ----------------------------
+### P7 ----------------------------
 ### Unit Testing: Default Values
 
 ##### UNIT TEST TestIncomingRoutes
