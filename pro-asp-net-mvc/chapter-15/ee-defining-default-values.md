@@ -49,12 +49,16 @@
 
 ### U1 ----------------------------
 
+* I do not need to take any special actions to be use the helper methods to test routes that define default values.
+* Here are the revisons I made to the TestIncomingRoutes test method in the RouteTests.cs file for the route I defined in Listing 15-10:
+	CODE
+
 ### U2 ----------------------------
 
 <!--
 # Chapter 15: URL Routing
 ## Defining default values
-### P7 ----------------------------
+### U1 ----------------------------
 ### Unit Testing: Default Values
 
 ##### UNIT TEST TestIncomingRoutes
