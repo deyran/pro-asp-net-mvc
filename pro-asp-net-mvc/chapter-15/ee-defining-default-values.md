@@ -17,7 +17,16 @@
 
 ### P3 ----------------------------
 
+* Default values are supplied as properties in an anonymous type.
+* In Listing 15-9, I provided a default value of Index for the action variable.
+* This route will match all two-segment URLs, as it did previously.
+* For example, if the URL **ht<span>tp://</span>mydomain.com/Home/Index** is requested, the route will extract Home as the value for the controller and Index as the value for the action.
+
 ### P4 ----------------------------
+
+* Now that I have provided a default value for the action segment, the route will also match single-segment URLs as well.
+* When processing a single-segment URL, the routing system will extract the controller value from the sole URL segment, and use the default value for the action variable.
+* In this way, I can request the URL **ht<span>tp://</span>mydomain.com/Home** and invoke the Index action method on the Home controller.
 
 ### P5 ----------------------------
 
