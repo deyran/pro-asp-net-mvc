@@ -4,8 +4,7 @@
 
 ### P1 ----------------------------
 
-The reason why the default URL fails when you try to run the application is because it doesn't match the defined route.
-
+* The reason that I got an error when I requested the default URL for the application is that it didn't match the route I had defined.
 * The Default URL is expressed as ~/ to routing system and there are no segments in this string that can be matched to the controller and action variables defined by the simple route pattern.
 
 ### P2 ----------------------------
