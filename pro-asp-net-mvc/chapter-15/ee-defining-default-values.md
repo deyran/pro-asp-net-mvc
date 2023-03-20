@@ -7,7 +7,7 @@ In the previous section, when trying to run the application, it failed. This hap
 The *URL pattern* will only match URLs with number of segments, this is the default behavior. Using the default values is the way to change this behavior when the URL doesn't contain segments matching to the value. Listing 15-9 provides an example of a route that contains a default value.
 
 <p align="center">
-    <img src="ch15-Pictures/Figure 15-9.png" /><br />
+    <img src="ch15-Pictures/Listing 15-9.png" /><br />
     <b>Listing 15-9.</b> Providing a default value in the RouteConfig.cs file
 </p>
 
