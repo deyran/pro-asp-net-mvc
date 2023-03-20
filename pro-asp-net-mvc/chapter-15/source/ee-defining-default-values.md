@@ -9,7 +9,7 @@
 
 ### P2 ----------------------------
 
-* I explained earlier that URL pattern are convervative, in that they will match only URLs with the specifed number of segments.
+* I explained earlier that URL pattern are conservative, in that they will match only URLs with the specified number of segments.
 * I also said that this was the default behavior and one way to change this behavior is to use default values.
 * A default value is applied when the URL doesn't contain a segment that can be matched to the value.
 * Listing 15-9 provides an example of a route that contains a default value.

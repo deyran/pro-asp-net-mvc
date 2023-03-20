@@ -2,12 +2,20 @@
 
 ## Defining default values
 
-In the previous section, when trying to run the application, it failed. This happens because the default URL (expressed as **~/** to the routing system) does not match the route defined by the URL Pattern {controller}/{action}
+In the previous section, when trying to run the application, it failed. This happens because the *default URL* (expressed as **~/** to the routing system) does not match the route defined by the *URL Pattern* {controller}/{action}.
+
+The *URL pattern* will only match URLs with number of segments, this is the default behavior. Using the default values is the way to change this behavior when the URL doesn't contain segments matching to the value. Listing 15-9 provides an example of a route that contains a default value.
+
+<p align="center">
+    <img src="ch15-Pictures/Figure 15-9.png" /><br />
+    <b>Listing 15-9.</b> Providing a default value in the RouteConfig.cs file
+</p>
 
 <!--
 # Chapter 15: URL Routing
 ## Defining default values
-### P1 ----------------------------
+Listing 15-9. Providing a default value in the RouteConfig.cs file
+
 ### Unit Testing: Default Values
 
 ##### UNIT TEST TestIncomingRoutes
@@ -24,14 +32,6 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
-
-### P2 ----------------------------
-
-* I explained earlier that URL pattern are convervative, in that they will match only URLs with the specifed number of segments.
-* I also said that this was the default behavior and one way to change this behavior is to use default values.
-* A default value is applied when the URL doesn't contain a segment that can be matched to the value.
-* Listing 15-9 provides an example of a route that contains a default value.
-    Listing 15-9. Providing a default value in the RouteConfig.cs file
 
 ### P3 ----------------------------
 
