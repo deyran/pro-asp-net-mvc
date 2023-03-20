@@ -2,11 +2,28 @@
 
 ## Defining default values
 
+In the previous section, when trying to run the application, it failed. This happens because the default URL (expressed as **~/** to the routing system) does not match the route defined by the URL Pattern {controller}/{action}
+
+<!--
+# Chapter 15: URL Routing
+## Defining default values
 ### P1 ----------------------------
+### Unit Testing: Default Values
 
-The reason why the default URL fails when you try to run the application is because it doesn't match the defined route.
+##### UNIT TEST TestIncomingRoutes
 
-* The Default URL is expressed as ~/ to routing system and there are no segments in this string that can be matched to the controller and action variables defined by the simple route pattern.
+> SUMMARRY AND UPDATE ==========================
+.
+> CONTENTS =====================================
+# Chapter 15: URL Routing
+## Defining default values
+.
+> GITHUB =====================================
+https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/ee-defining-default-values.md
+.
+> # ==========================================
+#DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
+-->
 
 ### P2 ----------------------------
 
@@ -57,23 +74,3 @@ The reason why the default URL fails when you try to run the application is beca
 ### U2 ----------------------------
 
 * The only point of note is that I must specify the default URL as ~/, as this is how ASP.NET presents the URL to the and exception, and the test will fail
-
-<!--
-# Chapter 15: URL Routing
-## Defining default values
-### Unit Testing: Default Values
-
-##### UNIT TEST TestIncomingRoutes
-
-> SUMMARRY AND UPDATE ==========================
-.
-> CONTENTS =====================================
-# Chapter 15: URL Routing
-## Defining default values
-.
-> GITHUB =====================================
-https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/ee-defining-default-values.md
-.
-> # ==========================================
-#DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
--->
