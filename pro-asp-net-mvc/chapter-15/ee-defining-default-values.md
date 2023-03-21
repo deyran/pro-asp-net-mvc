@@ -15,11 +15,18 @@ In Listing 15-9, the **new { action = "Index"}** instruction was given as the *d
 
 For example, if the URL **ht<span>tp://</span>mydomain.com/Home/Index** is requested, the route will extract *Home* as the value for the *controller* and *Index* as the value for the action. Likewise, the URL **ht<span>tp://</span>mydomain.com/Home** route will extract *Home* as the *controller* value and insert *Index* into the *action* variable using the *default value* *Index*.
 
+Listing 15-10 shows how to map the root URL providing default values for both segments.
+
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-9.png" /><br />
+    <b>Listing 15-10.</b> Providing action and controller default values in the RouteConfig.cs file
+</p>
+
 
 <!--
 # Chapter 15: URL Routing
 ## Defining default values
-### P4 ----------------------------
+### Listing 15-10. Providing action and controller default values in the RouteConfig.cs file
 
 ### Unit Testing: Default Values
 
@@ -38,14 +45,6 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
 
-
-
-
-### P5 ----------------------------
-
-* I can go futher and define URLs that do not contain any segment variable at all, relying on just the default values to identify the action and controller.
-* And as an example, Listing 15-10 shows how I have mapped the root URL for the application by providing default values for both segments.
-    Listing 15-10. Providing action and controller default values in the RouteConfig.cs file
 
 ### P6 ----------------------------
 

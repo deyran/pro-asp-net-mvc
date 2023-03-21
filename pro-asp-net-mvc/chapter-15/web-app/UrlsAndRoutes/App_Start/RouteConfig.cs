@@ -14,11 +14,19 @@ namespace UrlsAndRoutes
 
         ## Defining default values
         ### Listing 15-9. Providing a default value in the RouteConfig.cs file
+        ### Listing 15-10. Providing action and controller default values in the RouteConfig.cs file
          */
 
         public static void RegisterRoutes(RouteCollection routes)
         {
-            routes.MapRoute("MyRoute", "{controller}/{action}", new { action = "Index" });
+            routes.MapRoute(
+                "MyRoute", 
+                "{controller}/{action}", 
+
+                new { 
+                    controller = "Home",
+                    action = "Index" }
+            );
         }
     }
 }

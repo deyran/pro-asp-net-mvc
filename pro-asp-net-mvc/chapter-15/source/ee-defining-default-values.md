@@ -30,7 +30,7 @@
 
 ### P5 ----------------------------
 
-* I can go futher and define URLs that do not contain any segment variable at all, relying on just the default values to identify the action and controller.
+* I can go further and define URLs that do not contain any segment variable at all, relying on just the default values to identify the action and controller.
 * And as an example, Listing 15-10 shows how I have mapped the root URL for the application by providing default values for both segments.
     Listing 15-10. Providing action and controller default values in the RouteConfig.cs file
 
