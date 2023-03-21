@@ -36,7 +36,7 @@
 
 ### P6 ----------------------------
 
-* By providing default values for both the controller and action variables, I have created a route that will match URLs that have zero, one, or two segments, as showm in Table 15-3.
+* By providing default values for both the controller and action variables, I have created a route that will match URLs that have zero, one, or two segments, as shown in Table 15-3.
 
 ### P7 ----------------------------
 

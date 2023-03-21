@@ -15,18 +15,32 @@ In Listing 15-9, the **new { action = "Index"}** instruction was given as the *d
 
 For example, if the URL **ht<span>tp://</span>mydomain.com/Home/Index** is requested, the route will extract *Home* as the value for the *controller* and *Index* as the value for the action. Likewise, the URL **ht<span>tp://</span>mydomain.com/Home** route will extract *Home* as the *controller* value and insert *Index* into the *action* variable using the *default value* *Index*.
 
-Listing 15-10 shows how to map the root URL providing default values for both segments.
-
 <p align="center">
     <img src="ch15-Pictures/Listing 15-9.png" /><br />
     <b>Listing 15-10.</b> Providing action and controller default values in the RouteConfig.cs file
 </p>
 
+By providing default values for both the controller and action variables, a route has been created that will match URLs that have zero, one, or two segments, as showm in Table 15-3.
+
+Table 15-3. Matching URLs
+Number of segments|Example|Maps To
+---------|--------|--------
+0|mydomain.com|controller=Home - action=Index
+1|mydomain.com/Customer|controller=Customer - action=Index
+2|mydomain.com/Customer/List|controller=Customer - action=List
+3|mydomain.com/Customer/List/All|No match - too many segments
+
+Run the application and see the effect of using default values as shown in Figure 15-5
+
+<p align="center">
+    <img src="ch15-Pictures/Figure 15-5.png" /><br />
+    <b>Figure 15-5.</b> Using default values to broaden the scope of a route
+</p>
 
 <!--
 # Chapter 15: URL Routing
 ## Defining default values
-### Listing 15-10. Providing action and controller default values in the RouteConfig.cs file
+### Figure 15-5. Using default values to broaden the scope of a route
 
 ### Unit Testing: Default Values
 
@@ -44,18 +58,6 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
-
-
-### P6 ----------------------------
-
-* By providing default values for both the controller and action variables, I have created a route that will match URLs that have zero, one, or two segments, as showm in Table 15-3.
-
-### P7 ----------------------------
-
-* The fewer segments I receive in the incoming URL, the more I rely on the default values, up until the point I receive a URL with no segments and only default values are used.
-* You can see the effect of the default values by starting the example app again.
-* This time, when the browser requests the root URL for the application, the default values for the controller and action segment variables will be used, which will lead the MVC Framework to invoke the Index action method on the Home controller, as shown in Figure 15-5.
-    Figure 15-5. Using default values to broaden the scope of a route
 
 ### Unit Testing: Default Values
 
