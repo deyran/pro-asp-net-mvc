@@ -11,10 +11,15 @@ The *URL pattern* will only match URLs with number of segments, this is the defa
     <b>Listing 15-9.</b> Providing a default value in the RouteConfig.cs file
 </p>
 
+In Listing 15-9, the **new { action = "Index"}** instruction was given as the *default value*. So the action variable is provided with Index value and the route matches with the URL pattern.
+
+For example, if the URL **ht<span>tp://</span>mydomain.com/Home/Index** is requested, the route will extract *Home* as the value for the *controller* and *Index* as the value for the action. Likewise, the URL **ht<span>tp://</span>mydomain.com/Home** route will extract *Home* as the *controller* value and insert *Index* into the *action* variable using the *default value* *Index*.
+
+
 <!--
 # Chapter 15: URL Routing
 ## Defining default values
-Listing 15-9. Providing a default value in the RouteConfig.cs file
+### P4 ----------------------------
 
 ### Unit Testing: Default Values
 
@@ -33,18 +38,8 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
 
-### P3 ----------------------------
 
-* Default values are supplied as properties in an anonymous type.
-* In Listing 15-9, I provided a default value of Index for the action variable.
-* This route will match all two-segment URLs, as it did previously.
-* For example, if the URL **ht<span>tp://</span>mydomain.com/Home/Index** is requested, the route will extract Home as the value for the controller and Index as the value for the action.
 
-### P4 ----------------------------
-
-* Now that I have provided a default value for the action segment, the route will also match single-segment URLs as well.
-* When processing a single-segment URL, the routing system will extract the controller value from the sole URL segment, and use the default value for the action variable.
-* In this way, I can request the URL **ht<span>tp://</span>mydomain.com/Home** and invoke the Index action method on the Home controller.
 
 ### P5 ----------------------------
 
