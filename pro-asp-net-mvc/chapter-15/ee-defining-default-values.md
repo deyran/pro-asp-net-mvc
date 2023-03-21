@@ -30,7 +30,7 @@ Number of segments|Example|Maps To
 2|mydomain.com/Customer/List|controller=Customer - action=List
 3|mydomain.com/Customer/List/All|No match - too many segments
 
-Run the application and see the effect of using default values as shown in Figure 15-5
+Run the application and see the effect of using default values as shown in Figure 15-5.
 
 <p align="center">
     <img src="ch15-Pictures/Figure 15-5.png" /><br />
@@ -38,14 +38,6 @@ Run the application and see the effect of using default values as shown in Figur
 </p>
 
 <!--
-# Chapter 15: URL Routing
-## Defining default values
-### Figure 15-5. Using default values to broaden the scope of a route
-
-### Unit Testing: Default Values
-
-##### UNIT TEST TestIncomingRoutes
-
 > SUMMARRY AND UPDATE ==========================
 .
 > CONTENTS =====================================
@@ -58,15 +50,3 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
-
-### Unit Testing: Default Values
-
-### U1 ----------------------------
-
-* I do not need to take any special actions to be use the helper methods to test routes that define default values.
-* Here are the revisons I made to the TestIncomingRoutes test method in the RouteTests.cs file for the route I defined in Listing 15-10:
-	CODE
-
-### U2 ----------------------------
-
-* The only point of note is that I must specify the default URL as ~/, as this is how ASP.NET presents the URL to the and exception, and the test will fail
