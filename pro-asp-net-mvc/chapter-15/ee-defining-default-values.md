@@ -11,7 +11,7 @@ The *URL pattern* will only match URLs with number of segments, this is the defa
     <b>Listing 15-9.</b> Providing a default value in the RouteConfig.cs file
 </p>
 
-In Listing 15-9, the **new { action = "Index"}** instruction was given as the *default value*. So the action variable is provided with Index value and the route matches with the URL pattern.
+In Listing 15-9, the **new { action = "Index"}** instruction was given as the *default value*. So the action variable is provided with *Index* value and the route matches with the *URL pattern*.
 
 For example, if the URL **ht<span>tp://</span>mydomain.com/Home/Index** is requested, the route will extract *Home* as the value for the *controller* and *Index* as the value for the action. Likewise, the URL **ht<span>tp://</span>mydomain.com/Home** route will extract *Home* as the *controller* value and insert *Index* into the *action* variable using the *default value* *Index*.
 
