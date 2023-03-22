@@ -1,5 +1,3 @@
-<h1 align="center">
-    Chapter 15: URL Routing
-</h1>
+# Chapter 15: URL Routing
 
 ## Using static URL segments
