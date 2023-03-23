@@ -15,17 +15,28 @@ namespace UrlsAndRoutes
         ## Defining default values
         ### Listing 15-9. Providing a default value in the RouteConfig.cs file
         ### Listing 15-10. Providing action and controller default values in the RouteConfig.cs file
+
+        ## Using static URL segments
+        ### Listing 15-11. A URL pattern with static segments in the RouteConfig.cs file
          */
 
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.MapRoute(
-                "MyRoute", 
-                "{controller}/{action}", 
+                "MyRoute",
+                "{controller}/{action}",
 
-                new { 
+                new
+                {
                     controller = "Home",
-                    action = "Index" }
+                    action = "Index"
+                }
+            );
+
+            routes.MapRoute(
+                "",
+                "Public/{controller}/{action}",
+                new { controller = "Home", action = "Index" }
             );
         }
     }

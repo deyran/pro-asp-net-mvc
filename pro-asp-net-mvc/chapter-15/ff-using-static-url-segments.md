@@ -2,14 +2,30 @@
 
 ## Using static URL segments
 
-### P1 -----------------------------------------
+Not all of the segments in a URL pattern need to be variables you can also create patterns that have static segments. For example, assuming you need a URL with a **Public** static prefix like in ht</span>tp://mydmain.com/**Public**/Home/Index, in Listing 15-11 shows how this URL can be set.
 
-* Not all of the segments in a URL pattern need to be variables.
-* You can also create patterns that have static segments.
-* Suppose that I want to match a URL like this to support URLs that are prefixed with Public:
-    http://mydmain.com/Public/Home/Index
-* I can do so by using a pattern like the one shown in Listing 15-11.
-    Listing 15-11. A URL pattern with static segments in the RouteConfig.cs file
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-11.png" /><br />
+    <b>Listing 15-11.</b> A URL pattern with static segments in the RouteConfig.cs file
+</p>    
+
+<!--
+> SUMMARRY AND UPDATE ==========================
+.
+> CONTENTS =====================================
+# Chapter 15: URL Routing
+## Using static URL segments
+### Listing 15-11. A URL pattern with static segments in the RouteConfig.cs file
+
+### ROUTE ORDERING
+### UNIT TEST: TESTING STATIC SEGMENTS
+.
+> GITHUB =====================================
+https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/ff-using-static-url-segments.md
+.
+> # ==========================================
+#DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
+-->
 
 ### P2 -----------------------------------------
 
@@ -96,19 +112,3 @@
 * Once again, I can use my helper methods to routes whose URL patterns contain static segments.
 * Here is the additional I made to the TestIncomingRoutes unit test method to test the route added in Listing 15-14:
 	CODE
-
-<!--
-> SUMMARRY AND UPDATE ==========================
-.
-> CONTENTS =====================================
-# Chapter 15: URL Routing
-## Using static URL segments
-### ROUTE ORDERING
-### UNIT TEST: TESTING STATIC SEGMENTS
-.
-> GITHUB =====================================
-https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/ff-using-static-url-segments.md
-.
-> # ==========================================
-#DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
--->
