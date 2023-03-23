@@ -23,31 +23,6 @@ The pattern in this route matches any two-segment URL where the first segment st
     <b>Figure 15-6.</b> Mixing static and variable elements in a single segment
 </p>
 
-
-<!--
-> SUMMARRY AND UPDATE ==========================
-.
-> CONTENTS =====================================
-# Chapter 15: URL Routing
-## Using static URL segments
-### Figure 15-6. Mixing static and variable elements in a single segment
-
-### ROUTE ORDERING
-### UNIT TEST: TESTING STATIC SEGMENTS
-.
-> GITHUB =====================================
-https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/ff-using-static-url-segments.md
-.
-> # ==========================================
-#DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
--->
-
-* 
-
-
-* You can see the effect of this route if you start the application and navigate to /XHome/Index, the result of which is illustrated by Figure 15-6.
-    Figure 15-6. Mixing static and variable elements in a single segment.
-
 ### ROUTE ORDERING
 
 ### R1 -----------------------------------------
@@ -57,6 +32,25 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 * The MapRoute method adds a route to the end of the collection, which means that routes are generally applied in the order in which they are defined.
 * I say "generally" because there are methods that insert routes in specific locations.
 * I tend not to use these methods, because having routes applied in the order in which they are defined makes understanding the routing for an application simpler.
+
+<!--
+> SUMMARRY AND UPDATE ==========================
+.
+> CONTENTS =====================================
+# Chapter 15: URL Routing
+## Using static URL segments
+### ROUTE ORDERING
+
+
+### UNIT TEST: TESTING STATIC SEGMENTS
+.
+> GITHUB =====================================
+https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/ff-using-static-url-segments.md
+.
+> # ==========================================
+#DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
+-->
+
 
 ### R2 -----------------------------------------
 
