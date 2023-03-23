@@ -91,6 +91,12 @@
 * If a request for Shop/OldAction were processed by the next defined route, for example, I would get a different result from the one I want.
 * The request would be deal with using a 404-Not Found error, rather than being translated in order to preserve a contract with my clients.
 
+### UNIT TEST: TESTING STATIC SEGMENTS
+
+* Once again, I can use my helper methods to routes whose URL patterns contain static segments.
+* Here is the additional I made to the TestIncomingRoutes unit test method to test the route added in Listing 15-14:
+	CODE
+
 <!--
 > SUMMARRY AND UPDATE ==========================
 .
@@ -98,6 +104,7 @@
 # Chapter 15: URL Routing
 ## Using static URL segments
 ### ROUTE ORDERING
+### UNIT TEST: TESTING STATIC SEGMENTS
 .
 > GITHUB =====================================
 https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/ff-using-static-url-segments.md
