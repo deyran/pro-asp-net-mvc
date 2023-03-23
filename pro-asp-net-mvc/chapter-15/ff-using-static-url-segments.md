@@ -16,13 +16,21 @@ It is possible to create URL patterns that have segments containing both static 
     <b>Listing 15-12.</b> A URL Pattern with a Mixed segment in the RouteConfig.cs file
 </p>
     
+The pattern in this route matches any two-segment URL where the first segment starts with the letter X. Start the application and navigate using this URL: /**X**Home/Index, the result of which is illustrated by Figure 15-6.
+
+<p align="center">
+    <img src="ch15-Pictures/Figure 15-6.png" /><br />
+    <b>Figure 15-6.</b> Mixing static and variable elements in a single segment
+</p>
+
+
 <!--
 > SUMMARRY AND UPDATE ==========================
 .
 > CONTENTS =====================================
 # Chapter 15: URL Routing
 ## Using static URL segments
-### Listing 15-12. A URL Pattern with a Mixed segment in the RouteConfig.cs file
+### Figure 15-6. Mixing static and variable elements in a single segment
 
 ### ROUTE ORDERING
 ### UNIT TEST: TESTING STATIC SEGMENTS
@@ -34,9 +42,7 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
 
-* The pattern in this route matches any two-segment URL where the first segment starts with the letter X.
-* The value for controller is taken from the first segment, excluding the X.
-* The action value is taken from the second segment.
+* 
 
 
 * You can see the effect of this route if you start the application and navigate to /XHome/Index, the result of which is illustrated by Figure 15-6.
