@@ -7,15 +7,22 @@ Not all of the segments in a URL pattern need to be variables you can also creat
 <p align="center">
     <img src="ch15-Pictures/Listing 15-11.png" /><br />
     <b>Listing 15-11.</b> A URL pattern with static segments in the RouteConfig.cs file
-</p>    
+</p>
 
+It is possible to create URL patterns that have segments containing both static and variable elements, such as the one shown in Listing 15-12.
+
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-12.png" /><br />
+    <b>Listing 15-12.</b> A URL Pattern with a Mixed segment in the RouteConfig.cs file
+</p>
+    
 <!--
 > SUMMARRY AND UPDATE ==========================
 .
 > CONTENTS =====================================
 # Chapter 15: URL Routing
 ## Using static URL segments
-### Listing 15-11. A URL pattern with static segments in the RouteConfig.cs file
+### Listing 15-12. A URL Pattern with a Mixed segment in the RouteConfig.cs file
 
 ### ROUTE ORDERING
 ### UNIT TEST: TESTING STATIC SEGMENTS
@@ -27,22 +34,11 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
 
-### P2 -----------------------------------------
-
-* This new pattern will match only URLs that contain three segments, the first of which must be Public.
-* The other two segments can contains any value, and wil be used for the controller and action variables.
-* If the last two segments are omitted, then default values will be used.
-
-### P3 -----------------------------------------
-
-* I can also create URL patterns that have segments containing both static and variable elements, such as the one shown in Listing 15-12.
-    Listing 15-12. A URL Pattern with a Mixed segment in the RouteConfig.cs file
-
-### P4 -----------------------------------------
-
 * The pattern in this route matches any two-segment URL where the first segment starts with the letter X.
 * The value for controller is taken from the first segment, excluding the X.
 * The action value is taken from the second segment.
+
+
 * You can see the effect of this route if you start the application and navigate to /XHome/Index, the result of which is illustrated by Figure 15-6.
     Figure 15-6. Mixing static and variable elements in a single segment.
 

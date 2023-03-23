@@ -18,19 +18,22 @@ namespace UrlsAndRoutes
 
         ## Using static URL segments
         ### Listing 15-11. A URL pattern with static segments in the RouteConfig.cs file
-         */
+        ### Listing 15-12. A URL Pattern with a Mixed segment in the RouteConfig.cs file
+        */
 
         public static void RegisterRoutes(RouteCollection routes)
         {
+
+            routes.MapRoute(
+                "",
+                "X{controller}/{action}",
+                new { controller = "Home", action = "Index" }
+            );
+
             routes.MapRoute(
                 "MyRoute",
                 "{controller}/{action}",
-
-                new
-                {
-                    controller = "Home",
-                    action = "Index"
-                }
+                new { controller = "Home", action = "Index" }
             );
 
             routes.MapRoute(
