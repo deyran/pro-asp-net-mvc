@@ -34,7 +34,7 @@
 
 ### R1 -----------------------------------------
 
-* In Listing 15-12, I defined a new route and placed it before all of the others in the RegisterRutes method.
+* In Listing 15-12, I defined a new route and placed it before all of the others in the RegisterRoutes method.
 * I did this because routes are applied in the order in which they appear in the RouteCollection object.
 * The MapRoute method adds a route to the end of the collection, which means that routes are generally applied in the order in which they are defined.
 * I say "generally" because there are methods that insert routes in specific locations.

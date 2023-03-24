@@ -25,13 +25,7 @@ The pattern in this route matches any two-segment URL where the first segment st
 
 ### ROUTE ORDERING
 
-### R1 -----------------------------------------
-
-* In Listing 15-12, I defined a new route and placed it before all of the others in the RegisterRutes method.
-* I did this because routes are applied in the order in which they appear in the RouteCollection object.
-* The MapRoute method adds a route to the end of the collection, which means that routes are generally applied in the order in which they are defined.
-* I say "generally" because there are methods that insert routes in specific locations.
-* I tend not to use these methods, because having routes applied in the order in which they are defined makes understanding the routing for an application simpler.
+In *Listing 15-12*, a new route was defined before others in the *RegisterRoutes* method. This happend because the routes are applied in the order they apear in the *RouteCollection* object. This order means that the MapRoute method adds a route to the end of the collection.
 
 <!--
 > SUMMARRY AND UPDATE ==========================
@@ -40,6 +34,7 @@ The pattern in this route matches any two-segment URL where the first segment st
 # Chapter 15: URL Routing
 ## Using static URL segments
 ### ROUTE ORDERING
+#### R2 -----------------------------------------
 
 
 ### UNIT TEST: TESTING STATIC SEGMENTS
