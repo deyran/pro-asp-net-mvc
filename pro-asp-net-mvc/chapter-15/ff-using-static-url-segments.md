@@ -23,49 +23,6 @@ The pattern in this route matches any two-segment URL where the first segment st
     <b>Figure 15-6.</b> Mixing static and variable elements in a single segment
 </p>
 
-### ROUTE ORDERING
-
-In *Listing 15-12*, a new route was defined before others in the *RegisterRoutes* method. This happend because the routes are applied in the order they apear in the *RouteCollection* object. This order means that the MapRoute method adds a route to the end of the collection.
-
-<!--
-> SUMMARRY AND UPDATE ==========================
-.
-> CONTENTS =====================================
-# Chapter 15: URL Routing
-## Using static URL segments
-### ROUTE ORDERING
-#### R2 -----------------------------------------
-
-
-### UNIT TEST: TESTING STATIC SEGMENTS
-.
-> GITHUB =====================================
-https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/ff-using-static-url-segments.md
-.
-> # ==========================================
-#DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
--->
-
-
-### R2 -----------------------------------------
-
-* The route system tries to match an incoming URL against the URL pattern of the route that was defined first, and proceeds to the next route only if there is no match.
-* The routes are tried in sequence until a match is found or the set of routes has been exhausted.
-* The route I added in Listing 15-2 is more specific than the route that follows.
-* Suppose that I reversed the order of the routes, likes this:
-	CODE
-
-### R3 -----------------------------------------
-
-* Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used.
-* The more specific route, which is now second in the list, will never be reached.
-* The new route exludes the leading x of a URL, but this won't be done by the older route.
-* Therefore, a URL such as this: http://mydomain.com/XHome/Index
-
-### R4 -----------------------------------------
-
-* Will be target to a controller called XHome, which does not exist, and so will lead to a 404-Not Found error being sent to the user.
-
 ### P5 -----------------------------------------
 
 * I can combine stati URL segments and default values to create an alias for a specific URL.
@@ -74,6 +31,23 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 * Imagine that I used to have a controller called Shop, which has now been replaced by the Home controller.
 * Listing 15-13 shows how I can create a route a preserve the old URL schema.
 	Listing 15-3. Mixing static URL segments and default values in the RouteConfig.cs file
+
+<!--
+> SUMMARRY AND UPDATE ==========================
+.
+> CONTENTS =====================================
+# Chapter 15: URL Routing
+## Using static URL segments
+### ROUTE ORDERING
+### UNIT TEST: TESTING STATIC SEGMENTS
+.
+> GITHUB =====================================
+https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/ff-using-static-url-segments.md
+.
+> # ==========================================
+#DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
+-->
+    
 
 ### P6 -----------------------------------------
 
