@@ -30,7 +30,14 @@ In Listing 15-22, a new route has been defined and placed before all of the othe
 ### R2 -----------------------------------------
 
 * The route system tries to match an incoming URL against the URL pattern of the route that was defined first, and proceeds to the next route only if there is no match.
+
+    > The route systems | match an incoming URL | URL pattern of the route | defined first
+    > Next route | If there is no match
+
 * The routes are tried in sequence until a match is found or the set of routes has been exhausted.
+
+    > 
+
 * The route I added in Listing 15-2 is more specific than the route that follows.
 * Suppose that I reversed the order of the routes, likes this:
 	CODE
@@ -42,7 +49,7 @@ In Listing 15-22, a new route has been defined and placed before all of the othe
 # Chapter 15: URL Routing
 ## Using static URL segments
 ### ROUTE ORDERING
-### R1 -----------------------------------------
+### R2 -----------------------------------------
 ### UNIT TEST: TESTING STATIC SEGMENTS
 .
 > GITHUB =====================================
