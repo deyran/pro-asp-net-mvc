@@ -23,14 +23,17 @@ The pattern in this route matches any two-segment URL where the first segment st
     <b>Figure 15-6.</b> Mixing static and variable elements in a single segment
 </p>
 
-### P5 -----------------------------------------
+### ROUTE ORDERING
 
-* I can combine stati URL segments and default values to create an alias for a specific URL.
-* This can be useful if you have piblished your URL schema publicly and it has formed a contract with your user.
-* If you refactor an application in this situation, you need to preserve the previous URL format so that any URL favorites, macros or scripts the user has created continue to work.
-* Imagine that I used to have a controller called Shop, which has now been replaced by the Home controller.
-* Listing 15-13 shows how I can create a route a preserve the old URL schema.
-	Listing 15-3. Mixing static URL segments and default values in the RouteConfig.cs file
+### R1 -----------------------------------------
+
+In Listing 15-22, a new route has been defined and placed before all of the others in the RegisterRoute method. This happened because the routes are applied in the order they appear in the RouteCollection object.
+    
+
+
+* The MapRoute method adds a route to the end of the collection, which means that routes are generally applied in the order in which they are defined.
+* I say "generally" because there are methods that insert routes in specific locations.
+* I tend not to use these methods, because having routes applied in the order in which they are defined makes understanding the routing for an application simpler.
 
 <!--
 > SUMMARRY AND UPDATE ==========================
@@ -39,6 +42,7 @@ The pattern in this route matches any two-segment URL where the first segment st
 # Chapter 15: URL Routing
 ## Using static URL segments
 ### ROUTE ORDERING
+### R1 -----------------------------------------
 ### UNIT TEST: TESTING STATIC SEGMENTS
 .
 > GITHUB =====================================
@@ -47,7 +51,37 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
-    
+
+
+### R2 -----------------------------------------
+
+* The route system tries to match an incoming URL against the URL pattern of the route that was defined first, and proceeds to the next route only if there is no match.
+* The routes are tried in sequence until a match is found or the set of routes has been exhausted.
+* The route I added in Listing 15-2 is more specific than the route that follows.
+* Suppose that I reversed the order of the routes, likes this:
+	CODE
+
+### R3 -----------------------------------------
+
+* Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used.
+* The more specific route, which is now second in the list, will never be reached.
+* The new route exludes the leading x of a URL, but this won't be done by the older route.
+* Therefore, a URL such as this: http://mydomain.com/XHome/Index
+
+### R4 -----------------------------------------
+
+* Will be target to a controller called XHome, which does not exist, and so will lead to a 404-Not Found error being sent to the user.
+
+### P5 -----------------------------------------
+
+Mixing static and variable elements in a single segment can be useful if you have URL schema publicly and has formed a contract with the user
+
+* This can be useful if you have published your URL schema publicly and it has formed a contract with your user.
+
+* If you refactor an application in this situation, you need to preserve the previous URL format so that any URL favorites, macros or scripts the user has created continue to work.
+* Imagine that I used to have a controller called Shop, which has now been replaced by the Home controller.
+* Listing 15-13 shows how I can create a route a preserve the old URL schema.
+	Listing 15-3. Mixing static URL segments and default values in the RouteConfig.cs file
 
 ### P6 -----------------------------------------
 

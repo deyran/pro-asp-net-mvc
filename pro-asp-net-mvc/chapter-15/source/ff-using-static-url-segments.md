@@ -61,7 +61,7 @@
 
 ### P5 -----------------------------------------
 
-* I can combine stati URL segments and default values to create an alias for a specific URL.
+* I can combine static URL segments and default values to create an alias for a specific URL.
 * This can be useful if you have published your URL schema publicly and it has formed a contract with your user.
 * If you refactor an application in this situation, you need to preserve the previous URL format so that any URL favorites, macros or scripts the user has created continue to work.
 * Imagine that I used to have a controller called Shop, which has now been replaced by the Home controller.
