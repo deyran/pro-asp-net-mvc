@@ -27,11 +27,8 @@ The pattern in this route matches any two-segment URL where the first segment st
 
 ### R1 -----------------------------------------
 
-In Listing 15-22, a new route has been defined and placed before all of the others in the RegisterRoute method. This happened because the routes are applied in the order they appear in the RouteCollection object.
-    
+In Listing 15-22, a new route has been defined and placed before all of the others in the RegisterRoute method. This happens because the MapRoute method adds a route to the end of the collection, applying them in the order they are defined in the RouteCollection object.
 
-
-* The MapRoute method adds a route to the end of the collection, which means that routes are generally applied in the order in which they are defined.
 * I say "generally" because there are methods that insert routes in specific locations.
 * I tend not to use these methods, because having routes applied in the order in which they are defined makes understanding the routing for an application simpler.
 
