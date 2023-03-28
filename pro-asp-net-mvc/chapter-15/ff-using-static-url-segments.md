@@ -25,12 +25,15 @@ The pattern in this route matches any two-segment URL where the first segment st
 
 ### ROUTE ORDERING
 
-### R1 -----------------------------------------
+In Listing 15-22, a new route has been defined and placed before all of the others in the RegisterRoute method. This happens because the MapRoute method adds a route to the end of the collection, applying them in the order they are defined in the RouteCollection object. This approach makes a simple application understandable.
 
-In Listing 15-22, a new route has been defined and placed before all of the others in the RegisterRoute method. This happens because the MapRoute method adds a route to the end of the collection, applying them in the order they are defined in the RouteCollection object.
+### R2 -----------------------------------------
 
-* I say "generally" because there are methods that insert routes in specific locations.
-* I tend not to use these methods, because having routes applied in the order in which they are defined makes understanding the routing for an application simpler.
+* The route system tries to match an incoming URL against the URL pattern of the route that was defined first, and proceeds to the next route only if there is no match.
+* The routes are tried in sequence until a match is found or the set of routes has been exhausted.
+* The route I added in Listing 15-2 is more specific than the route that follows.
+* Suppose that I reversed the order of the routes, likes this:
+	CODE
 
 <!--
 > SUMMARRY AND UPDATE ==========================
@@ -47,16 +50,7 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 .
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
--->
-
-
-### R2 -----------------------------------------
-
-* The route system tries to match an incoming URL against the URL pattern of the route that was defined first, and proceeds to the next route only if there is no match.
-* The routes are tried in sequence until a match is found or the set of routes has been exhausted.
-* The route I added in Listing 15-2 is more specific than the route that follows.
-* Suppose that I reversed the order of the routes, likes this:
-	CODE
+-->    
 
 ### R3 -----------------------------------------
 
