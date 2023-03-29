@@ -47,10 +47,24 @@ routes.MapRoute(
 ### P5 -----------------------------------------
 
 * I can combine static URL segments and default values to create an alias for a specific URL.
+
+    > combine | static URL segments | default values | alias | specific URL
+
 * This can be useful if you have published your URL schema publicly and it has formed a contract with your user.
+
+    > Useful | URL schema | user contract
+
 * If you refactor an application in this situation, you need to preserve the previous URL format so that any URL favorites, macros or scripts the user has created continue to work.
+
+    > Refector | preserve URL
+
 * Imagine that I used to have a controller called Shop, which has now been replaced by the Home controller.
+
+    > controller called Shop | replaced by the Home controller
+
 * Listing 15-13 shows how I can create a route a preserve the old URL schema.
+    > Listing 15-13 shows how to create a route to preserve the old URL schema
+
 	Listing 15-3. Mixing static URL segments and default values in the RouteConfig.cs file
 
 <!--
@@ -72,7 +86,6 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
-
 
 ### P6 -----------------------------------------
 
