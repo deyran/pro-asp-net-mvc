@@ -24,9 +24,9 @@ The pattern in this route matches any two-segment URL where the first segment st
 </p>
 
 > ### ROUTE ORDERING
-
+>
 > In Listing 15-22, a new route has been defined and placed before all of the others in the *RegisterRoute* method. This happens because the *MapRoute* method adds a route to the end of the collection, applying them in the order they are defined in the *RouteCollection* object. This approach makes a simple application understandable.
-
+>
 > The route system takes the *incoming URL*, starting with the first route defined in the collection, iterate through that collection, comparing *incoming URL* with each URL pattern of the route, until a match or the set of routes is exhausted. The route showed in Listing 15-2 is more specifict than the route that follows. Suppose the order of the routes is reversed, like this:
 
 ```js
@@ -44,10 +44,19 @@ routes.MapRoute(
 
 > Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used. The more specific route, which is now second in the list, will never be reached. The new route excludes the leading X of a URL, so a URL like this *ht<span>tp:/</span>/mydomain.com/**X**Home/Index* will be target to a controller called *XHome*, which does not exist, and so will lead to a **404-Not Found error** being sent to the user.
 
+### P5 -----------------------------------------
+
+* I can combine static URL segments and default values to create an alias for a specific URL.
+* This can be useful if you have published your URL schema publicly and it has formed a contract with your user.
+* If you refactor an application in this situation, you need to preserve the previous URL format so that any URL favorites, macros or scripts the user has created continue to work.
+* Imagine that I used to have a controller called Shop, which has now been replaced by the Home controller.
+* Listing 15-13 shows how I can create a route a preserve the old URL schema.
+	Listing 15-3. Mixing static URL segments and default values in the RouteConfig.cs file
+
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
-### ROUTE ORDERING
+### P5 -----------------------------------------
 
 > SUMMARRY AND UPDATE ==========================
 .
@@ -64,16 +73,6 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
 
-### P5 -----------------------------------------
-
-Mixing static and variable elements in a single segment can be useful if you have URL schema publicly and has formed a contract with the user
-
-* This can be useful if you have published your URL schema publicly and it has formed a contract with your user.
-
-* If you refactor an application in this situation, you need to preserve the previous URL format so that any URL favorites, macros or scripts the user has created continue to work.
-* Imagine that I used to have a controller called Shop, which has now been replaced by the Home controller.
-* Listing 15-13 shows how I can create a route a preserve the old URL schema.
-	Listing 15-3. Mixing static URL segments and default values in the RouteConfig.cs file
 
 ### P6 -----------------------------------------
 
