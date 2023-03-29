@@ -29,19 +29,20 @@ In Listing 15-22, a new route has been defined and placed before all of the othe
 
 ### R2 -----------------------------------------
 
-* The route system tries to match an incoming URL against the URL pattern of the route that was defined first, and proceeds to the next route only if there is no match.
+The route system takes the incoming URL, starting with the first route defined in the collection, iterate through that collection, comparing incoming URL with each URL pattern of the route, until a match or the set of routes is exhausted. The route showed in Listing 15-2 is more specifict than the route that follows. Supose the order of the routes is reversed, like this:
 
-    > The route systems | match an incoming URL | URL pattern of the route | defined first
-    > Next route | If there is no match
+```js
+routes.MapRoute(
+	"MyRoute",
+	"{controller}/{action}",
+	new { controller = "Home", action = "Index" }
+);
 
-* The routes are tried in sequence until a match is found or the set of routes has been exhausted.
-
-    > 
-
-* The route I added in Listing 15-2 is more specific than the route that follows.
-* Suppose that I reversed the order of the routes, likes this:
-	CODE
-
+routes.MapRoute(
+	"",
+	"X{controller}/{action}"
+);
+```
 <!--
 > SUMMARRY AND UPDATE ==========================
 .
