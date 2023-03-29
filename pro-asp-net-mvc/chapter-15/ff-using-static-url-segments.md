@@ -27,8 +27,6 @@ The pattern in this route matches any two-segment URL where the first segment st
 
 In Listing 15-22, a new route has been defined and placed before all of the others in the RegisterRoute method. This happens because the MapRoute method adds a route to the end of the collection, applying them in the order they are defined in the RouteCollection object. This approach makes a simple application understandable.
 
-### R2 -----------------------------------------
-
 The route system takes the incoming URL, starting with the first route defined in the collection, iterate through that collection, comparing incoming URL with each URL pattern of the route, until a match or the set of routes is exhausted. The route showed in Listing 15-2 is more specifict than the route that follows. Supose the order of the routes is reversed, like this:
 
 ```js
@@ -44,13 +42,17 @@ routes.MapRoute(
 );
 ```
 <!--
+# Chapter 15: URL Routing
+## Using static URL segments
+### ROUTE ORDERING
+### R2 -----------------------------------------
+
 > SUMMARRY AND UPDATE ==========================
 .
 > CONTENTS =====================================
 # Chapter 15: URL Routing
 ## Using static URL segments
 ### ROUTE ORDERING
-### R2 -----------------------------------------
 ### UNIT TEST: TESTING STATIC SEGMENTS
 .
 > GITHUB =====================================
