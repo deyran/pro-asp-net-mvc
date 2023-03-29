@@ -52,7 +52,7 @@
 
 * Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used.
 * The more specific route, which is now second in the list, will never be reached.
-* The new route exludes the leading x of a URL, but this won't be done by the older route.
+* The new route excludes the leading X of a URL, but this won't be done by the older route.
 * Therefore, a URL such as this: http://mydomain.com/XHome/Index
 
 ### R4 -----------------------------------------

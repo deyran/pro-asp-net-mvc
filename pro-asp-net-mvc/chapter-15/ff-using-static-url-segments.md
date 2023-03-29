@@ -41,11 +41,14 @@ routes.MapRoute(
 	"X{controller}/{action}"
 );
 ```
+
+Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used. The more specific route, which is now second in the list, will never be reached. The new route excludes the leading X of a URL, so a URL like this *ht<span>tp:/</span>/mydomain.com/**X**Home/Index* will be target to a controller called *XHome*, which does not exist, and so will lead to a **404-Not Found error** being sent to the user.
+
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
 ### ROUTE ORDERING
-### R2 -----------------------------------------
+
 
 > SUMMARRY AND UPDATE ==========================
 .
@@ -60,18 +63,7 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 .
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
--->    
-
-### R3 -----------------------------------------
-
-* Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used.
-* The more specific route, which is now second in the list, will never be reached.
-* The new route exludes the leading x of a URL, but this won't be done by the older route.
-* Therefore, a URL such as this: http://mydomain.com/XHome/Index
-
-### R4 -----------------------------------------
-
-* Will be target to a controller called XHome, which does not exist, and so will lead to a 404-Not Found error being sent to the user.
+-->
 
 ### P5 -----------------------------------------
 
