@@ -55,11 +55,11 @@ To create the view, follow these steps:
     <b>Figure 15-2.</b> Running the example app
 </p>  
 
+[<BACK](https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/aa-introduction.md) - [NEXT>](https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter-15/bb-introducing-url-patterns.md)
 <!--
 # Chapter 15: URL Routing
-    ## Preparing the example project
-        ### Setting the start URL and testing application
-            Figure 15-2. Running the example app
+## Preparing the example project
+### Setting the start URL and testing application
 
 > SUMMARRY AND UPDATE ==========================
 
