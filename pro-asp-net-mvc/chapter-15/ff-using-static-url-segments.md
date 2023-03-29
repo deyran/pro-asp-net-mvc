@@ -23,11 +23,11 @@ The pattern in this route matches any two-segment URL where the first segment st
     <b>Figure 15-6.</b> Mixing static and variable elements in a single segment
 </p>
 
-### ROUTE ORDERING
+> ### ROUTE ORDERING
 
-In Listing 15-22, a new route has been defined and placed before all of the others in the *RegisterRoute* method. This happens because the *MapRoute* method adds a route to the end of the collection, applying them in the order they are defined in the *RouteCollection* object. This approach makes a simple application understandable.
+> In Listing 15-22, a new route has been defined and placed before all of the others in the *RegisterRoute* method. This happens because the *MapRoute* method adds a route to the end of the collection, applying them in the order they are defined in the *RouteCollection* object. This approach makes a simple application understandable.
 
-The route system takes the *incoming URL*, starting with the first route defined in the collection, iterate through that collection, comparing *incoming URL* with each URL pattern of the route, until a match or the set of routes is exhausted. The route showed in Listing 15-2 is more specifict than the route that follows. Suppose the order of the routes is reversed, like this:
+> The route system takes the *incoming URL*, starting with the first route defined in the collection, iterate through that collection, comparing *incoming URL* with each URL pattern of the route, until a match or the set of routes is exhausted. The route showed in Listing 15-2 is more specifict than the route that follows. Suppose the order of the routes is reversed, like this:
 
 ```js
 routes.MapRoute(
@@ -42,13 +42,12 @@ routes.MapRoute(
 );
 ```
 
-Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used. The more specific route, which is now second in the list, will never be reached. The new route excludes the leading X of a URL, so a URL like this *ht<span>tp:/</span>/mydomain.com/**X**Home/Index* will be target to a controller called *XHome*, which does not exist, and so will lead to a **404-Not Found error** being sent to the user.
+> Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used. The more specific route, which is now second in the list, will never be reached. The new route excludes the leading X of a URL, so a URL like this *ht<span>tp:/</span>/mydomain.com/**X**Home/Index* will be target to a controller called *XHome*, which does not exist, and so will lead to a **404-Not Found error** being sent to the user.
 
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
 ### ROUTE ORDERING
-
 
 > SUMMARRY AND UPDATE ==========================
 .
