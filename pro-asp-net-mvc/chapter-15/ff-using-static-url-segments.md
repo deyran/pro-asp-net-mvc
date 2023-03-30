@@ -28,7 +28,7 @@ The pattern in this route matches any two-segment URL where the first segment st
 > In Listing 15-22, a new route has been defined and placed before all of the others in the *RegisterRoute* method. This happens because the *MapRoute* method adds a route to the end of the collection, applying them in the order they are defined in the *RouteCollection* object. This approach makes a simple application understandable.
 >
 > The route system takes the *incoming URL*, starting with the first route defined in the collection, iterate through that collection, comparing *incoming URL* with each URL pattern of the route, until a match or the set of routes is exhausted. The route showed in Listing 15-2 is more specifict than the route that follows. Suppose the order of the routes is reversed, like this:
-
+>
 ```js
 routes.MapRoute(
 	"MyRoute",
@@ -41,10 +41,10 @@ routes.MapRoute(
 	"X{controller}/{action}"
 );
 ```
-
+>
 > Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used. The more specific route, which is now second in the list, will never be reached. The new route excludes the leading X of a URL, so a URL like this *ht<span>tp:/</span>/mydomain.com/**X**Home/Index* will be target to a controller called *XHome*, which does not exist, and so will lead to a **404-Not Found error** being sent to the user.
 
-Combining static URL segments and default values to create an alias for a specific URL can be done. This can be useful if the application the following characteristics:
+Combining static URL segments and default values to create an alias for a specific URL can be done. This can be useful if the application has the following characteristics:
     1. A set of public URL schema.
     2. The user use these public routes.
     3. In this situation, it is necessary to refactor and preserve the previous URL format
@@ -56,11 +56,10 @@ Now suppose there is a controller called *Shop*, which has been replaced by the 
     <b>Listing 15-13.</b> Mixing static URL segments and default values in the RouteConfig.cs file
 </p>
 
-
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
-### Listing 15-3. Mixing static URL segments and default values in the RouteConfig.cs file
+### Listing 15-13. Mixing static URL segments and default values in the RouteConfig.cs file
 ### P5 -----------------------------------------
 
 > SUMMARRY AND UPDATE ==========================
