@@ -44,32 +44,23 @@ routes.MapRoute(
 
 > Then the first route, which matches any URL with zero, one, or two segments, will be the one that is used. The more specific route, which is now second in the list, will never be reached. The new route excludes the leading X of a URL, so a URL like this *ht<span>tp:/</span>/mydomain.com/**X**Home/Index* will be target to a controller called *XHome*, which does not exist, and so will lead to a **404-Not Found error** being sent to the user.
 
-### P5 -----------------------------------------
+Combining static URL segments and default values to create an alias for a specific URL can be done. This can be useful if the application the following characteristics:
+    1. A set of public URL schema.
+    2. The user use these public routes.
+    3. In this situation, it is necessary to refactor and preserve the previous URL format
 
-* I can combine static URL segments and default values to create an alias for a specific URL.
+Now suppose there is a controller called *Shop*, which has been replaced by the Home controller. Listing 15-13 shows how to create a route to preserve the old URL schema.
 
-    > combine | static URL segments | default values | alias | specific URL
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-13.png" /><br />
+    <b>Listing 15-13.</b> Mixing static URL segments and default values in the RouteConfig.cs file
+</p>
 
-* This can be useful if you have published your URL schema publicly and it has formed a contract with your user.
-
-    > Useful | URL schema | user contract
-
-* If you refactor an application in this situation, you need to preserve the previous URL format so that any URL favorites, macros or scripts the user has created continue to work.
-
-    > Refector | preserve URL
-
-* Imagine that I used to have a controller called Shop, which has now been replaced by the Home controller.
-
-    > controller called Shop | replaced by the Home controller
-
-* Listing 15-13 shows how I can create a route a preserve the old URL schema.
-    > Listing 15-13 shows how to create a route to preserve the old URL schema
-
-	Listing 15-3. Mixing static URL segments and default values in the RouteConfig.cs file
 
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
+### Listing 15-3. Mixing static URL segments and default values in the RouteConfig.cs file
 ### P5 -----------------------------------------
 
 > SUMMARRY AND UPDATE ==========================
