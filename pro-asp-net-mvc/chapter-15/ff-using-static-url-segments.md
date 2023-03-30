@@ -56,11 +56,18 @@ Now suppose there is a controller called *Shop*, which has been replaced by the 
     <b>Listing 15-13.</b> Mixing static URL segments and default values in the RouteConfig.cs file
 </p>
 
+The route in Listing 15-13 matches any two segment URL where the first segment is Shop. The action value is taken from the second URL segment. The URL pattern contain a *static segment* for the controller, so the *default value* has been provided. This means that a request to the **Shop** controller is replaced with a request to the **Home** controller. To see this effect, run the application using the */Shop/Index* URL as shown in Figure 15-7.
+	
+<p align="center">
+    <img src="ch15-Pictures/Figure 15-7.png" /><br />
+    <b>Figure 15-7.</b> Creating an alias to preserve URL schemas.
+</p>
+
+
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
-### Listing 15-13. Mixing static URL segments and default values in the RouteConfig.cs file
-### P5 -----------------------------------------
+### Figure 15-7. Creating an alias to preserve URL schemas.
 
 > SUMMARRY AND UPDATE ==========================
 .
@@ -77,15 +84,9 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
 
-### P6 -----------------------------------------
 
-* The route I added matches any two-segment URL where the first segment in Shop.
-* The action value is taken from the second URL segment.
-* The URL pattern doesn't contain a variable segment for controller, so the default value I have supplied is used.
-* This maeans that a request for an action on the Shop controller is translated to a request for the Home controller.
-* You can see the effect of this route by starting the app and navigating to the /Shop/Index URL.
-* As Figure 15-7 shows, the new route causes the MVC Framework to target the Index action method in the Home controller.
-	Figure 15-7. Creating an alias to preserve URL schemas.
+
+
 
 ### P7 -----------------------------------------
 

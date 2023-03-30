@@ -70,10 +70,10 @@
 
 ### P6 -----------------------------------------
 
-* The route I added matches any two-segment URL where the first segment in Shop.
+* The route I added matches any two-segment URL where the first segment is Shop.
 * The action value is taken from the second URL segment.
 * The URL pattern doesn't contain a variable segment for controller, so the default value I have supplied is used.
-* This maeans that a request for an action on the Shop controller is translated to a request for the Home controller.
+* This means that a request for an action on the Shop controller is translated to a request for the Home controller.
 * You can see the effect of this route by starting the app and navigating to the /Shop/Index URL.
 * As Figure 15-7 shows, the new route causes the MVC Framework to target the Index action method in the Home controller.
 	Figure 15-7. Creating an alias to preserve URL schemas.
