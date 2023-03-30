@@ -63,10 +63,17 @@ The route in Listing 15-13 matches any two segment URL where the first segment i
     <b>Figure 15-7.</b> Creating an alias to preserve URL schemas.
 </p>
 
+The same can be done by creating aliases for action methods that have been refactored and are no longer present in the controller. In Listing 15-14 shows aliases for controller and action.
+
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-14.png" /><br />
+    <b>Listing 15-14.</b> Aliasing a controler and action in the RouteConfig.cs file.
+</p>
+
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
-### Figure 15-7. Creating an alias to preserve URL schemas.
+### Listing 15-14. Aliasing a controler and action in the RouteConfig.cs file.
 
 > SUMMARRY AND UPDATE ==========================
 .
@@ -82,13 +89,6 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
-
-
-### P7 -----------------------------------------
-
-* I can go one step futher and create aliases for action methods that have been refactored away as well and are no longer present in the controller.
-* To do this, I create a static URL and provide the controller and action values as defaults, as shown in Listing 15-14.
-    Listing 15-14. Aliasing a controler and action in the RouteConfig.cs file.
 
 ### P8 -----------------------------------------
 
