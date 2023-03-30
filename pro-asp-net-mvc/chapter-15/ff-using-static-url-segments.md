@@ -63,7 +63,6 @@ The route in Listing 15-13 matches any two segment URL where the first segment i
     <b>Figure 15-7.</b> Creating an alias to preserve URL schemas.
 </p>
 
-
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
@@ -83,9 +82,6 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
-
-
-
 
 
 ### P7 -----------------------------------------
