@@ -72,8 +72,9 @@ The same can be done by creating aliases for action methods that have been refac
 
 ### P8 -----------------------------------------
 
-* Notice that, once again, I have placed the new route so that it is defined first.
-* This is because it is more specific than the routes that follow.
+As can be seen, the new route was defined first. This is because it is more specific than the routes they follow
+
+
 * If a request for Shop/OldAction were processed by the next defined route, for example, I would get a different result from the one I want.
 * The request would be deal with using a 404-Not Found error, rather than being translated in order to preserve a contract with my clients.
 
