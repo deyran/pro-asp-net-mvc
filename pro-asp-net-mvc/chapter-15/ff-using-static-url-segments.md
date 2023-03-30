@@ -70,6 +70,13 @@ The same can be done by creating aliases for action methods that have been refac
     <b>Listing 15-14.</b> Aliasing a controler and action in the RouteConfig.cs file.
 </p>
 
+### P8 -----------------------------------------
+
+* Notice that, once again, I have placed the new route so that it is defined first.
+* This is because it is more specific than the routes that follow.
+* If a request for Shop/OldAction were processed by the next defined route, for example, I would get a different result from the one I want.
+* The request would be deal with using a 404-Not Found error, rather than being translated in order to preserve a contract with my clients.
+
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
@@ -89,13 +96,6 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
-
-### P8 -----------------------------------------
-
-* Notive that, once again, I have placed the new route so that it is defined first.
-* This is because it is more specific than the routes that follow.
-* If a request for Shop/OldAction were processed by the next defined route, for example, I would get a different result from the one I want.
-* The request would be deal with using a 404-Not Found error, rather than being translated in order to preserve a contract with my clients.
 
 ### UNIT TEST: TESTING STATIC SEGMENTS
 

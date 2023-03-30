@@ -25,7 +25,6 @@ namespace UrlsAndRoutes
 
         public static void RegisterRoutes(RouteCollection routes)
         {
-
             routes.MapRoute(
                 "ShopSchema2",
                 "Shop/OldAction",
