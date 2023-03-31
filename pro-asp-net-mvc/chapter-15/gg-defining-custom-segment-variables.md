@@ -27,6 +27,14 @@
 * Click the OK button to create the view and edit the contents to match Listing 15-17.
     Listing 15-17. The contents of the CustomVariable.cshtml file.
 
+* To see the effect of the custom segment variable, start the application and navigate to the URL /Home/CustomVariable/Hello.
+* The CustomVariable action method in the Home controller is called, and the value of the custom segment variable is retrieved from the ViewBag and passed to the view.
+You can see the results in Figure 15-8.
+    Figure 15-8. Displaying the value of a custom segment variable
+
+I have provided a default value for the id segment variable in the route, which means that you will see the results shown in Figure 15-9 if you navigate to /Home/CustomVariable.
+    Figure 15-9. The default value for a custom segment variable
+
 ### Using custom variables as action method parameters
 
 ### Defining optional URL segments
