@@ -8,6 +8,17 @@
 * (I have removed the existing routes from the previous section so I can start over).
     Listing 15-15. Defining additional variable in a URL pattern in the RouteConfig.cs file
 
+
+* The route's URL pattern defines the standard controller and action variables, as well as a custom variable called id.
+* This route will match any zero-to-three-segment URL.
+* The contents of the third segment will assigned to the id value will be used.
+
+> ### CAUTION
+>
+> * Some nomes are reserved and no available for custom segment variable names.
+> * These are controller, action, and area.
+> * The meaning of the first two is obvious, and I will explain areas in the next chapter.
+
 ### Using custom variables as action method parameters
 
 ### Defining optional URL segments
