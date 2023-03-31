@@ -8,7 +8,6 @@
 * (I have removed the existing routes from the previous section so I can start over).
     Listing 15-15. Defining additional variable in a URL pattern in the RouteConfig.cs file
 
-
 * The route's URL pattern defines the standard controller and action variables, as well as a custom variable called id.
 * This route will match any zero-to-three-segment URL.
 * The contents of the third segment will assigned to the id value will be used.
@@ -22,6 +21,11 @@
 * I can access any of the segment variables in an action method by using the RouteData.Values property
 * To demonstrate this, I have added an action method to the Home controller called CustomVariable, as shown in Listing 15-16.
     Listing 15-16. Accessing a custom variable in an action method in the HomeController.cs file
+
+* This method obtains the value of the custom variable in the route URL pattern and passes it to the view using the ViewBag.
+* To create the view for the action method, create the Views/Home folder, right-click on it, select add > MVC 5 View Page (Razor) from the pop-up menu and set the name to CustomVariable.cshtml.
+* Click the OK button to create the view and edit the contents to match Listing 15-17.
+    Listing 15-17. The contents of the CustomVariable.cshtml file.
 
 ### Using custom variables as action method parameters
 
