@@ -19,6 +19,10 @@
 > * These are controller, action, and area.
 > * The meaning of the first two is obvious, and I will explain areas in the next chapter.
 
+* I can access any of the segment variables in an action method by using the RouteData.Values property
+* To demonstrate this, I have added an action method to the Home controller called CustomVariable, as shown in Listing 15-16.
+    Listing 15-16. Accessing a custom variable in an action method in the HomeController.cs file
+
 ### Using custom variables as action method parameters
 
 ### Defining optional URL segments
