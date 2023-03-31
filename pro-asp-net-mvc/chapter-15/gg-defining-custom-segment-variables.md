@@ -35,6 +35,8 @@ You can see the results in Figure 15-8.
 I have provided a default value for the id segment variable in the route, which means that you will see the results shown in Figure 15-9 if you navigate to /Home/CustomVariable.
     Figure 15-9. The default value for a custom segment variable
 
+> ### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
+
 ### Using custom variables as action method parameters
 
 ### Defining optional URL segments
@@ -46,6 +48,7 @@ I have provided a default value for the id segment variable in the route, which 
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables
+### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
 
 > SUMMARRY AND UPDATE ==========================
 .
