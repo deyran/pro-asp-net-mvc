@@ -89,10 +89,6 @@ public void TestIncomingRoutes()
 ```
 
 <!--
-# Chapter 15: URL Routing
-## Using static URL segments
-### UNIT TEST: TESTING STATIC SEGMENTS
-
 > SUMMARRY AND UPDATE ==========================
 .
 > CONTENTS =====================================
