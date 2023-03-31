@@ -72,9 +72,26 @@ The same can be done by creating aliases for action methods that have been refac
 
 As can be seen, the new route was defined first. This is because it is more specific than the routes they follow. If a request for *Shop/OldAction* were processed by the next defined route, this could lead to the **404-Not Found error** page
 
+> ### UNIT TEST: TESTING STATIC SEGMENTS
+>
+> Now it is time to update the TestIncomingRoutes unit test method to test the route added in Listing 15-14:
+
+```js
+public void TestIncomingRoutes()
+{
+    TestRouteMatch("~/", "Home", "Index");
+    TestRouteMatch("~/Customer", "Customer", "Index");
+    TestRouteMatch("~/Customer/List", "Customer", "List");
+    TestRouteFail("~/Customer/List/All");
+    
+    TestRouteMatch("~/Shop/Index", "Home", "Index");
+}
+```
+
 <!--
 # Chapter 15: URL Routing
 ## Using static URL segments
+### UNIT TEST: TESTING STATIC SEGMENTS
 
 > SUMMARRY AND UPDATE ==========================
 .
@@ -90,9 +107,3 @@ https://github.com/deyran/asp-dot-net-training/blob/main/pro-asp-net-mvc/chapter
 > # ==========================================
 #DotNet #csharp #csharpdotnet #dotnetcore #csharpdeveloper #dotnetdevelopers #aspnetcore #ASPNET #aspdotnet #IT #developer #TI #tecnologia #DevOps #desenvolvedor #programador #software #homeoffice #dev #tecnologiadainformacao #devs #code #programacao #programação #tecnologiadainformação #sistemasdeinformação #engenhariadesoftware #GitHub #ASPNETMVC #ASPNET #MVC #core #MVC #route #urlroute #urlroting #urlpatterns #RoutingSystem
 -->
-
-### UNIT TEST: TESTING STATIC SEGMENTS
-
-* Once again, I can use my helper methods to routes whose URL patterns contain static segments.
-* Here is the additional I made to the TestIncomingRoutes unit test method to test the route added in Listing 15-14:
-	CODE
