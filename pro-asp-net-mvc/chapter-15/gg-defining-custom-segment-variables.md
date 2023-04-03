@@ -54,6 +54,12 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * When the routing system matches a URL against the route defined in Listing 15-18, the value of the third segment in the URL is assigned to the custom variable id.
 * The MVC Framework compares the list of segment variables with the list of action method paramenters, and if the names match, passes the values from the URL to the method.
 
+* I have defined the id parameter as a string, but the MVC Framework will try to convert the URL value to whatever parameter type I defined.
+* If I declared the id parameter as an int or a DateTime, then I would receive the value from the URL parsed to an instance of that type.
+* This is an elegant and useful feature that removes the need for me to handle the conversion myself.
+
+Note The MVC Framework uses the model binding feature to convert the values contained in the URL to .NET types and can handle much more complex situations than shown in this example. I cover model binding in Chapter 24.
+
 ### Defining optional URL segments
 
 ### Defining variable-lenght routes
