@@ -37,7 +37,7 @@ To demonstrate the routing feature, three simple controllers will be added to th
 ### Creating the View
 To create the view, follow these steps:
 1. Create a folder called *Shared* in the *Views* folder
-2. Add a new view called ActionName.cshtml inside
+2. Add a new view called *ActionName.cshtml* inside
 3. Open and edit the *ActionName.cshtml* content to match Listing 15-4
 <p align="center">
     <img src="ch15-Pictures/Listing 15-4.png" /><br />
