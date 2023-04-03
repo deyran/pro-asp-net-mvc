@@ -16,13 +16,13 @@ Install-Package Moq -version 4.1.1309.1617
 
 ### Creating the example controllers
 To demonstrate the routing feature, three simple controllers will be added to the application. To start this demo, follow these steps:
-1. Create the *HomeController.cs file*, and set its contents to match those in Listing 15-1.
+1. Create the *HomeController.cs* file, and set its contents to match those in Listing 15-1.
 <p align="center">
     <img src="ch15-Pictures/Listing 15-1.png" /><br />
     <b>Listing 15-1.</b> The contents of the HomeControllers.cs file
 </p>  
 
-2. Create the *CustomerController.cs* file and set its contents to match Listing 15-2.  
+2. Create the *CustomerController.cs* file and edit the contents to match Listing 15-2.  
 <p align="center">
     <img src="ch15-Pictures/Listing 15-2.png" /><br />
     <b>Listing 15-2.</b> The contents of the CustomerController.cs file
