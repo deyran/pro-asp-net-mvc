@@ -69,6 +69,12 @@ Note The MVC Framework uses the model binding feature to convert the values cont
 * This routes will match URLs wheter or not the id segment has been supplied. Table 15-4 shows how this works for differents URLs.
     Table 15-4. Matching URLs with an Optional segment variable.
 
+* As you can see from the table, the id variabel is added to the set of variables only when there is a corresponding segment in the incoming URL.
+* This feature is useful if you need to know whether the user supplied a value for a segment variable.
+* When no value has been supplied for an optional segment variable, the value of the corresponding parameter will be null.
+* I have updated the controller to respond when no value is provided for the id segment variable in Listing 15-20.
+    Listing 15-20. Checking for an Optional Segment Variable in the HomeController.cs file
+
 ### Defining variable-lenght routes
 
 ### Prioritizing controllers by namespaces
@@ -76,7 +82,7 @@ Note The MVC Framework uses the model binding feature to convert the values cont
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables
-### Using custom variables as action method parameters
+### Defining optional URL segments
 
 > SUMMARRY AND UPDATE ==========================
 .
