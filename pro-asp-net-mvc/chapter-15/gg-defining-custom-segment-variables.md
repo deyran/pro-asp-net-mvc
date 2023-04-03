@@ -51,6 +51,9 @@ I have provided a default value for the id segment variable in the route, which 
 I can modify the CustomVariable action method in the Home controller so that is has a matching parameter, as shown in Listing 15-18.
     Listing 15-18. Adding an action method parameter in the HomeController.cs file
 
+* When the routing system matches a URL against the route defined in Listing 15-18, the value of the third segment in the URL is assigned to the custom variable id.
+* The MVC Framework compares the list of segment variables with the list of action method paramenters, and if the names match, passes the values from the URL to the method.
+
 ### Defining optional URL segments
 
 ### Defining variable-lenght routes
