@@ -5,17 +5,18 @@ Routing System works with a set of routes, also known as URL scheme, which compr
 
 No need to type out all of the individual application URLs. Instead, each route contains a *URL pattern*, which is compared to incoming Urls. If a URL matches the pattern, the *routing systems* process that URL. 
 
-Let's start with a URL for the example application: **http<nolink>://mysite.com/Admin/Index?query=bing**. Excluding the *hostname (http<nolink>://mysite.com/)* and *query string (?query=bing)*, *URLs* can be broken down in two *segments (Admin/Index)* as shown in Figure 15-3.
+Let's start with a URL for the example application: **http<nolink>://mysite.com/Admin/Index?query=bing**. Excluding the hostname **(http<nolink>://mysite.com/)** and query string **(?query=bing)*, *URLs* can be aplit into two segments **(Admin/Index)** as shown in Figure 15-3.
+    
 <p align="center">
     <img src="ch15-Pictures/Figure 15-3.png" /><br />
     <b>Figure 15-3.</b> The segments in an example URL
 </p>  
 
-* The first segment (Admin) is for the *controller*
-* The second segment (Index) is for the *action*
-* *Routing systems* can understand this because of the *URL pattern* syntax definition: {controller}/{action}  
+* The first segment (**Admin**) is for the *controller*
+* The second segment (**Index**) is for the *action*
+* *Routing systems* can understand this because of the *URL pattern* syntax definition: **{controller}/{action}**
 * The routing system's job is take the incoming request, match the URL to pattern and extracts their values to the segment variable. After theses processes, the *routing system* forwards to a route.
-* For example, the pattern {controller}/{action} will match any URL that has two segments, as illustrated by Table 15-2.  
+* For example, the pattern **{controller}/{action}** will match any URL that has two segments, as illustrated by Table 15-2.  
 
 Request URL|Segments Variables
 ---------|--------
