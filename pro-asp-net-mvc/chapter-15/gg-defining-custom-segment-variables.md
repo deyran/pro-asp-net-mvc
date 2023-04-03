@@ -35,7 +35,12 @@ You can see the results in Figure 15-8.
 I have provided a default value for the id segment variable in the route, which means that you will see the results shown in Figure 15-9 if you navigate to /Home/CustomVariable.
     Figure 15-9. The default value for a custom segment variable
 
-> ### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
+### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
+
+* I included support for testing custom segment variables in the test helper methods.
+* The TestRouteMatch method has an optional parameter that accepts an anonymous type containging the names of the properties I want to test for and the values I expect.
+* Here are the changes I made to the TestIncomingRoutes test method to test the route defined in Listing 15-15:
+    CODE
 
 ### Using custom variables as action method parameters
 
