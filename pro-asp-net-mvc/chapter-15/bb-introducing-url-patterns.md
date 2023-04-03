@@ -5,7 +5,7 @@ Routing System works with a set of routes, also known as URL scheme, which compr
 
 No need to type out all of the individual application URLs. Instead, each route contains a *URL pattern*, which is compared to incoming Urls. If a URL matches the pattern, the *routing systems* process that URL. 
 
-Let's start with a URL for the example application: **http<nolink>://mysite.com/Admin/Index?query=bing**. Excluding the hostname **(http<nolink>://mysite.com/)** and query string **(?query=bing)*, *URLs* can be aplit into two segments **(Admin/Index)** as shown in Figure 15-3.
+Let's start with a URL for the example application: **http<nolink>://mysite.com/Admin/Index?query=bing**. Excluding the hostname **(http<nolink>://mysite.com/)** and query string **(?query=bing)**, *URLs* can be aplit into two segments **(Admin/Index)** as shown in Figure 15-3.
     
 <p align="center">
     <img src="ch15-Pictures/Figure 15-3.png" /><br />
