@@ -66,6 +66,9 @@ Note The MVC Framework uses the model binding feature to convert the values cont
 * Listing 15-19 shows an example, and you can see that I specify that a segment variable is optional by setting the default value to UrlParameter.Optional.
     Lising 15-19. Specifying an optional URL segement in the RouteConfig.cs file
 
+* This routes will match URLs wheter or not the id segment has been supplied. Table 15-4 shows how this works for differents URLs.
+    Table 15-4. Matching URLs with an Optional segment variable.
+
 ### Defining variable-lenght routes
 
 ### Prioritizing controllers by namespaces
