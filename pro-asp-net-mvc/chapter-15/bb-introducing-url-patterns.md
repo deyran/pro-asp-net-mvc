@@ -1,7 +1,7 @@
 # Chapter 15: URL Routing
 
 ## Introducing URL Patterns
-Routing System works with **URL Sheme** (a set of routes), which comprises the URLs that the application will recognize and respond to.
+Routing System works with **URL Scheme** (a set of routes), which comprises the URLs that the application will recognize and respond to.
 
 No need to type out all of the individual application URLs. Instead, each route contains a *URL pattern*, which is compared to incoming Urls. If a *URL matches* the **pattern**, the *routing systems* process that URL. 
 
