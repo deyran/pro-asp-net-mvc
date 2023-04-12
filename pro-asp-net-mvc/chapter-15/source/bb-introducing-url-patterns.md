@@ -9,7 +9,7 @@ P1====================
 
 P2====================
 * I do not need to manually type out all of the individual URLs I am willing to support in my applications. 
-* Instead, each route contais a URL pattern, which is compared to incoming Urls. 
+* Instead, each route contains a URL pattern, which is compared to incoming Urls. 
 * if a URL matches the pattern, then it is used by the routing system to process that URL, Let's start with a URL for the example application:
 
 http://mysite.com/Admin/Index
