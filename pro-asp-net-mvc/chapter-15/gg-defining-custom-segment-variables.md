@@ -80,6 +80,11 @@ I can modify the CustomVariable action method in the Home controller so that is 
 
 #### Using custom variables as action method parameters
 
+* Some developers who are focused on the separation of concerns in the MVC pattern do not like putting the default values for segment variables into the routes for an application.
+* If this is an issue, you can use C# optional parameters along with an optional segment variable in the route to define the default values for action method parameters.
+* As an example, Listing 15-21 shows the CustomVariable action method to define a default value for the id parameter that will be used if the URL doesn't contain a value.
+	Listing 15-21. Defining a default value for an action method parameter in the HomeController.cs file
+
 ### Defining variable-lenght routes
 
 ### Prioritizing controllers by namespaces
@@ -88,6 +93,7 @@ I can modify the CustomVariable action method in the Home controller so that is 
 # Chapter 15: URL Routing
 ## Defining custom segment variables
 ### Defining optional URL segments
+#### Using custom variables as action method parameters
 
 > SUMMARRY AND UPDATE ==========================
 .
