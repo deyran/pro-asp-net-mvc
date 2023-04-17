@@ -2,7 +2,7 @@
 
 ## Creating and registering a simple route  
 
-Once a URL pattern is chosen, the route will be defined. Routes are defined in the static method called *RegisterRoutes*, in the *RouteConfig* class, as seen in Listing 15-5.
+Once a *URL pattern* is chosen, the route will be defined. Routes are defined in the static method called *RegisterRoutes*, in the *RouteConfig* class, as seen in Listing 15-5.
 <p align="center">
     <img src="ch15-Pictures/Listing 15-5.png" /><br />
     <b>Listing 15-5.</b> The Default contents of the RouteConfig.cs file
@@ -14,7 +14,7 @@ The *RegisterRouter* method (*RouteConfig class*) is called in the *Global.asax.
     <b>Listing 15-6.</b> The Defaiult Contents of the Global.asax.cs file
 </p>  
 
-To create a route using *Add* method (RouteCollectin class) follow these two steps:
+To create a route using **Add** method (RouteCollectin class) follow these two steps:
 
 1. Open the *RouteConfig.cs* file and remove all instructions.
 2. Now, edit the *RouteConfig.cs* file to match as seen in Listing 15-7.
