@@ -33,7 +33,7 @@ Use the *MapRoute* method (RouteCollection class) is a better way to register ro
 
 ### Using the simple route
 
-An error can be seen when you try to run the application using the root URL, but if you type *"/admin/Index"* in the URL, it will match the *{controller}/{action}* pattern as seen in Figure 15-4.
+An error can be seen when you try to run the application using the root URL, but if you type *"/admin/Index"* in the URL, it will match the **{controller}/{action}** pattern as seen in Figure 15-4.
 
 <p align="center">
     <img src="ch15-Pictures/Figure 15-4.png" /><br />
