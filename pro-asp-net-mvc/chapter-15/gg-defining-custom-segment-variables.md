@@ -35,12 +35,12 @@ You can see the results in Figure 15-8.
 I have provided a default value for the id segment variable in the route, which means that you will see the results shown in Figure 15-9 if you navigate to /Home/CustomVariable.
     Figure 15-9. The default value for a custom segment variable
 
-### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
-
-* I included support for testing custom segment variables in the test helper methods.
-* The TestRouteMatch method has an optional parameter that accepts an anonymous type containging the names of the properties I want to test for and the values I expect.
-* Here are the changes I made to the TestIncomingRoutes test method to test the route defined in Listing 15-15:
-    CODE
+> ### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
+>
+> * I included support for testing custom segment variables in the test helper methods.
+> * The TestRouteMatch method has an optional parameter that accepts an anonymous type containging the names of the properties I want to test for and the values I expect.
+> * Here are the changes I made to the TestIncomingRoutes test method to test the route defined in Listing 15-15:
+>     CODE
 
 ### Using custom variables as action method parameters
 
@@ -58,7 +58,7 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * If I declared the id parameter as an int or a DateTime, then I would receive the value from the URL parsed to an instance of that type.
 * This is an elegant and useful feature that removes the need for me to handle the conversion myself.
 
-Note The MVC Framework uses the model binding feature to convert the values contained in the URL to .NET types and can handle much more complex situations than shown in this example. I cover model binding in Chapter 24.
+> Note The MVC Framework uses the model binding feature to convert the values contained in the  URL to .NET types and can handle much more complex situations than shown in this example. I cover model binding in Chapter 24.
 
 ### Defining optional URL segments
 
@@ -76,6 +76,9 @@ Note The MVC Framework uses the model binding feature to convert the values cont
     Listing 15-20. Checking for an Optional Segment Variable in the HomeController.cs file
 
 * You can see the result of starting the application and navigating to the /Home/CustomVariable controller URL (which doesn't define a value for the id segment variable) in Figure 15-10.
+    Figure 15-10. Detecting when a URL doesn't contain a value for an optional segment variable
+
+#### Using custom variables as action method parameters
 
 ### Defining variable-lenght routes
 
@@ -91,9 +94,8 @@ Note The MVC Framework uses the model binding feature to convert the values cont
 > CONTENTS =====================================
 # Chapter 15: URL Routing
 ## Defining custom segment variables
-### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
-### Using custom variables as action method parameters
 ### Defining optional URL segments
+#### Using custom variables as action method parameters
 ### Defining variable-lenght routes
 ### Prioritizing controllers by namespaces
 .
