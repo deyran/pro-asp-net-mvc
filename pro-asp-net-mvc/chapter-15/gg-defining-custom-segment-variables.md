@@ -91,6 +91,13 @@ I can modify the CustomVariable action method in the Home controller so that is 
 
 * The difference is that the default value for the id segment variable is defined in the controller code and not in the routing definition.
 
+> ### UNIT TESTING: OPTIONAL URL SEGMENTS
+> 
+> * The issue to be aware of when testing optional URL segments is that the segment variable will not be added to the RouteData.Values collections unless a value was found in the URL.
+> * This means that you should not include the variable in the anonymous type unless you are testing a URL that contains the optional segment.
+> * Here are the changes to the TestIncomingRoutes unit test method for the route defined in Listing 15-22.
+>   CODE
+
 ### Defining variable-lenght routes
 
 ### Prioritizing controllers by namespaces
@@ -98,8 +105,7 @@ I can modify the CustomVariable action method in the Home controller so that is 
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables
-### Defining optional URL segments
-#### Using custom variables as action method parameters
+### UNIT TESTING: OPTIONAL URL SEGMENTS
 
 > SUMMARRY AND UPDATE ==========================
 .
