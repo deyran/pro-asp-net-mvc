@@ -114,12 +114,20 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * Notice that the segments captured by the catchall are presented in the form segment/segment/segment.
 * I am responsible for processing the string to break out the individual segments.
 
+> ### UNIT TEST: TESTING CATCHALL SEGMENT VARIABLES
+>
+> * I can treat a catchall variable just like a custom variable.
+> * The only difference is that I must expect multiple segments to be concatenated in a single value, such as segment/segment/segment.
+> * Notice that I will not receive the leading or trailing / character.
+> * Here are the changes to the TestIncomingRoutes method that demonstrate testing for a catchall segment, using the route defined in Listing 15-23 and the URLs shown in Table 15-5:
+	TABLE
+
 ### Prioritizing controllers by namespaces
 
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables
-### Defining variable-lenght routes
+### UNIT TEST: TESTING CATCHALL SEGMENT VARIABLES
 
 > SUMMARRY AND UPDATE ==========================
 .
