@@ -110,6 +110,10 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * If the URL contains additional segments, they are all assgned to the catchall variable, as shown in Table 15-5.
 	Table 15-5. Matching Urls with a catchall segment variable
 
+* There is no upper limit to the number of segments that the URL pattern in this route will match.
+* Notice that the segments captured by the catchall are presented in the form segment/segment/segment.
+* I am responsible for processing the string to break out the individual segments.
+
 ### Prioritizing controllers by namespaces
 
 <!--
