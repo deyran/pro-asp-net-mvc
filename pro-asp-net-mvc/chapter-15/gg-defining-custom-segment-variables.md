@@ -75,6 +75,8 @@ Note The MVC Framework uses the model binding feature to convert the values cont
 * I have updated the controller to respond when no value is provided for the id segment variable in Listing 15-20.
     Listing 15-20. Checking for an Optional Segment Variable in the HomeController.cs file
 
+* You can see the result of starting the application and navigating to the /Home/CustomVariable controller URL (which doesn't define a value for the id segment variable) in Figure 15-10.
+
 ### Defining variable-lenght routes
 
 ### Prioritizing controllers by namespaces
