@@ -89,6 +89,8 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * This action method combined with the route I defined in Listing 15-21 is the functional equivalent to the route shown in Listing 15-22:
     Listing 15-22. An equivalent Route
 
+* The difference is that the default value for the id segment variable is defined in the controller code and not in the routing definition.
+
 ### Defining variable-lenght routes
 
 ### Prioritizing controllers by namespaces
