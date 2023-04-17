@@ -100,12 +100,22 @@ I can modify the CustomVariable action method in the Home controller so that is 
 
 ### Defining variable-lenght routes
 
+* Another way of changing the default conservatism of URL patterns is to accept a variable number of URL segments.
+* This allows you to route URLs of arbitrary lengths in a single route.
+* You define support for variable segments by designating one of the segment variables as a catchall, done by prefixing it with an asterisk (*), as shown in Listing 15-23.
+    Listing 15-23. Designating a catchall variable in the RouteConfig.cs file
+
+* I have extended the route from the previous example to add a catchall segment variable, which I imaginatively called catchall.
+* This route will now match any URL, irrespective of the number of segments it contains or the value of any of those segments. The first three segments are used to set values for the controller, action, and id variables, respectively.
+* If the URL contains additional segments, they are all assgned to the catchall variable, as shown in Table 15-5.
+	Table 15-5. Matching Urls with a catchall segment variable
+
 ### Prioritizing controllers by namespaces
 
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables
-### UNIT TESTING: OPTIONAL URL SEGMENTS
+### Defining variable-lenght routes
 
 > SUMMARRY AND UPDATE ==========================
 .
