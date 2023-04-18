@@ -8,7 +8,8 @@ Once a *URL pattern* is chosen, the route will be defined. Routes are defined in
     <b>Listing 15-5.</b> The Default contents of the RouteConfig.cs file
 </p>  
 
-The *RegisterRouter* method (*RouteConfig class*) is called in the *Global.asax.cs* file through the Application_Start method in the *MvcApplication* class, as seen in Listing 15-6. In the *MvcApplication* class, the main tasks are configured when the application starts.
+The *RegisterRouter* method (*RouteConfig* class) is called by the **Application_Start** method (**MvcApplication** class), as shown in Listing 15-6. In the MvcApplication class, the main tasks are configured when the application starts, the MvcApplication class can be found in the **Global.asax.cs** file.
+
 <p align="center">
     <img src="ch15-Pictures/Listing 15-6.png" /><br />
     <b>Listing 15-6.</b> The default contents of the Global.asax.cs file
