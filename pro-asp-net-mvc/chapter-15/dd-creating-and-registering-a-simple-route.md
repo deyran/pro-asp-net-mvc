@@ -15,7 +15,7 @@ The *RegisterRouter* method (*RouteConfig* class) is called by the **Application
     <b>Listing 15-6.</b> The default contents of the Global.asax.cs file
 </p>  
 
-To create a route using **Add** method (RouteCollectin class) follow these two steps:
+To create a route using **Add** method (RouteCollection class) follow these two steps:
 
 1. Open the *RouteConfig.cs* file and remove all instructions.
 2. Now, edit the *RouteConfig.cs* file to match as seen in Listing 15-7.
