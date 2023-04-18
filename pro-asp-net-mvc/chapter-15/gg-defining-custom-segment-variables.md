@@ -124,10 +124,16 @@ I can modify the CustomVariable action method in the Home controller so that is 
 
 ### Prioritizing controllers by namespaces
 
+* When an incoming URL matches a route, the MVC Framework takes the values of the controller variable and looks for the appropriate name.
+* For example, when the value of the controller variable is Home, then the MVC Framework looks for a controller called HomeController.
+* This is an unqualified class name, which means that the MVC Framework doesn't know what to do if there are two or more class called HomeController in different namespaces.
+* To demonstrate the problem, create a new folder in the root of the example project called AdditionalControllers and add a new Home controller, setting the contents to match those in Listing 15-24.
+    Listing 15-24. The contents of the AdditionalControllers/HomeController.cs file
+
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables
-### UNIT TEST: TESTING CATCHALL SEGMENT VARIABLES
+### Prioritizing controllers by namespaces
 
 > SUMMARRY AND UPDATE ==========================
 .
