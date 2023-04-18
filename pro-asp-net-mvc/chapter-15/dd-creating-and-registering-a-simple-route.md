@@ -11,7 +11,7 @@ Once a *URL pattern* is chosen, the route will be defined. Routes are defined in
 The *RegisterRouter* method (*RouteConfig class*) is called in the *Global.asax.cs* file through the Application_Start method in the *MvcApplication* class, as seen in Listing 15-6. In the *MvcApplication* class, the main tasks are configured when the application starts.
 <p align="center">
     <img src="ch15-Pictures/Listing 15-6.png" /><br />
-    <b>Listing 15-6.</b> The Defaiult Contents of the Global.asax.cs file
+    <b>Listing 15-6.</b> The default contents of the Global.asax.cs file
 </p>  
 
 To create a route using **Add** method (RouteCollectin class) follow these two steps:
