@@ -28,7 +28,7 @@ To demonstrate the routing feature, three simple controllers will be added to th
     <b>Listing 15-2.</b> The contents of the CustomerController.cs file
 </p>  
 
-3. Create the *AdminController.cs* file and edit its contents to match the code shown in Listing 15-3.
+3. **Create the *AdminController.cs* file and edit its contents to match the code shown in Listing 15-3.**
 <p align="center">
     <img src="ch15-Pictures/Listing 15-3.png" /><br />
     <b>Listing 15-3.</b> The contents of the AdminController.cs file
