@@ -9,7 +9,7 @@ The Routing System works as follows:
 3. The Routing System uses the URL Pattern to match the incoming request URL with a specific controller action
 4. If no match is found, the Routing System will return an HTTP 404 error
 
-*This approach avoids typing all the individual URLs to support the application.*
+    *This approach avoids typing all the individual URLs to support the application.*
 
 Let's start with a URL for the example application: **http<nolink>://mysite.com/Admin/Index?query=bing**. Excluding the hostname **(http<nolink>://mysite.com/)** and query string **(?query=bing)**, *URLs* can be aplit into two segments **(Admin/Index)** as shown in Figure 15-3.
     
