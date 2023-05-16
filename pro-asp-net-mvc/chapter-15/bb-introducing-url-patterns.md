@@ -11,7 +11,7 @@ The Routing System works as follows:
 
     *This approach avoids typing all the individual URLs to support the application.*
 
-Let's start with a URL for the example application: **http<nolink>://mysite.com/Admin/Index?query=bing**. Excluding the hostname **(http<nolink>://mysite.com/)** and query string **(?query=bing)**, *URLs* can be aplit into two segments **(Admin/Index)** as shown in Figure 15-3.
+Let's start with an example: **http<nolink>://mysite.com/Admin/Index?query=bing**. Excluding the hostname **(http<nolink>://mysite.com/)** and query string **(?query=bing)**, *URLs* can be aplit into two segments **(Admin/Index)** as shown in Figure 15-3.
     
 <p align="center">
     <img src="ch15-Pictures/Figure 15-3.png" /><br />
