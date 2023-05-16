@@ -4,12 +4,12 @@
 Routing System (**Routing engine**) works with **URL Scheme** (a set of routes), which comprises the URLs that the application will recognize and respond to.
 
 The Routing System works as follows:
-1. When the incoming URL reaches the Routes system, it extracts the URL.
-2. Each incoming URL contains a **URL pattern**, which is *compared* to incoming URLs.
-3. If the URL pattern matches the URL, the routing system maps the route to the MVC process
-4. If there is no match, the routing system will return a 404 error to the client
+1. An incoming request is received by the application
+2. The Routing System examines the URL of the request to determine which controller and action should handle the request
+3. The Routing System uses the URL Pattern to match the incoming request URL with a specific controller action
+4. If no match is found, the Routing System will return an HTTP 404 error
 
-This approach avoids typing all the individual URLs to support the application.
+*This approach avoids typing all the individual URLs to support the application.*
 
 Let's start with a URL for the example application: **http<nolink>://mysite.com/Admin/Index?query=bing**. Excluding the hostname **(http<nolink>://mysite.com/)** and query string **(?query=bing)**, *URLs* can be aplit into two segments **(Admin/Index)** as shown in Figure 15-3.
     
