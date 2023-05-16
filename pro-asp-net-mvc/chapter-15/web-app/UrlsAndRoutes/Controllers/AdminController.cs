@@ -12,7 +12,7 @@ namespace UrlsAndRoutes.Controllers
     {
         public ActionResult Index()
         {
-            ViewBag.Controller = "Customer";
+            ViewBag.Controller = "Admin";
             ViewBag.Action = "Index";
             return View("ActionName");
         }
