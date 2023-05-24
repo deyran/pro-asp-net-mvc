@@ -136,9 +136,12 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * The MVC Framework searched for a class called HomeController and found two: one in the original RoutesAndUrls.Controllers namespace and one in the new RouteAndUrls.AdditionalControllers namespace.
 * If you read the text of the error shown in Figure 15-11, you can see that the MVC Framework helpfully reports which class it has found.
 
+* This problem arises more often than you might expect, especially if you are working on a large MVC project that uses libraries of controllers from other development teams or third-party suppliers.
+* It is natural to name a controller relating to user accounts AccountController, for example, and it is only a matter of time before you encounter a namimg clash
 
 
 [<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
+
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables
