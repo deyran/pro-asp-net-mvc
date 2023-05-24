@@ -37,6 +37,7 @@ Run the application and see the effect of using default values as shown in Figur
     <b>Figure 15-5.</b> Using default values to broaden the scope of a route
 </p>
 
+[<BACK](dd-creating-and-registering-a-simple-route.md) - [NEXT>](ff-using-static-url-segments.md)
 <!--
 > SUMMARRY AND UPDATE ==========================
 .

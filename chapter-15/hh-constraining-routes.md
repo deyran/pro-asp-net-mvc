@@ -8,3 +8,5 @@
 ### Constraining a route using HTTP methods
 ### Using type and value constraints
 ### Defining a custom constraint
+
+[<BACK](gg-defining-custom-segment-variables.md) - [NEXT>](ii-using-attribute-routing.md)

@@ -87,6 +87,7 @@ public void TestIncomingRoutes()
     TestRouteMatch("~/Shop/Index", "Home", "Index");
 }
 ```
+[<BACK](ee-defining-default-values.md) - [NEXT>](gg-defining-custom-segment-variables.md)
 
 <!--
 > SUMMARRY AND UPDATE ==========================

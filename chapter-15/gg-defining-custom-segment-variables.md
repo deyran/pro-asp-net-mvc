@@ -130,6 +130,7 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * To demonstrate the problem, create a new folder in the root of the example project called AdditionalControllers and add a new Home controller, setting the contents to match those in Listing 15-24.
     Listing 15-24. The contents of the AdditionalControllers/HomeController.cs file
 
+[<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables
