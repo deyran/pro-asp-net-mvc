@@ -142,6 +142,12 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * To address this problem, I can tell the MVC Framework to give preference to certain namespaces when attempting to resolve the name of a controller class, as demonstrated in Listing 15-25.  
     Listing 15-25. Specifying namespace resolution order in the RouteConfig.cs file
 
+* I express the namespaces as an array of strings and in the listing I have told the MVC Framework to look in the URLsAndRoutes.AdditionalControllers namespace before looking anywhere else.
+
+* If a suitable controller cannot be found in that namespace, then the MVC Framework will default to its regular behavior and look in all of the available namespaces.
+* if you start the app once you have made this addition to the route, you will see the result shown in Figure 15-12, which shows that the request for the root URL, which is translated in to a request for the Index action method in the Home controller, has been sent to the controller in the additionalControllers namespace.
+    Figure 15-12. Giving priority to controllers in a specified namespaces
+
 [<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
 
 <!--
