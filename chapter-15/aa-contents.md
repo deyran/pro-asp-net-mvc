@@ -1,6 +1,6 @@
 # Chapter 15: URL Routing
 
-## [Introduction](/pro-asp-net-mvc/chapter-15/aa-introduction.md)
+## [Introduction](https://github.com/deyran/pro-asp-net-mvc/blob/main/chapter-15/aa-introduction.md)
 
 ## [Preparing the example project](/pro-asp-net-mvc/chapter-15/aa-preparing-the-example-project.md)
 #### Creating the example controllers
