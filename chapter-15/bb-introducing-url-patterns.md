@@ -21,7 +21,7 @@ Let's start with an example: **http<nolink>://mysite.com/Admin/Index?query=bing*
 * The first segment (**Admin**) is for the *controller*
 * The second segment (**Index**) is for the *action*
 * *Routing systems* can understand this because of the *URL pattern* syntax definition: **{controller}/{action}**
-* The routing system's job is take the incoming request, match the URL to pattern and extracts their values to the segment variable. After theses processes, the *routing system* forwards to a route.
+* The routing system's job is take the incoming request, match the *URL* to *pattern* and extracts their values to the segment variable. After theses processes, the *routing system* forwards to a route.
 * For example, the pattern **{controller}/{action}** will match any URL that has two segments, as illustrated by Table 15-2.  
 
 Request URL|Segments Variables
