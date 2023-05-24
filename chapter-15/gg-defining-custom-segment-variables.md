@@ -148,6 +148,15 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * if you start the app once you have made this addition to the route, you will see the result shown in Figure 15-12, which shows that the request for the root URL, which is translated in to a request for the Index action method in the Home controller, has been sent to the controller in the additionalControllers namespace.
     Figure 15-12. Giving priority to controllers in a specified namespaces
 
+* The namespaces added to a route are given equal priority.
+* The MVC Framework does not check the first namespace before moving on to the second and so forth.
+* For example, suppose that I added both of the project namespaces to the routes, like this:
+
+```js
+CODE
+```
+
+
 [<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
 
 <!--
