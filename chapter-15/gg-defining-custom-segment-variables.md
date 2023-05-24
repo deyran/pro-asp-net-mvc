@@ -156,6 +156,9 @@ I can modify the CustomVariable action method in the Home controller so that is 
 CODE
 ```
 
+* I would see the same error as shown in Figure 15-11, because the MVC Framework is trying to resolve the controller class name in all of the namespace added to the route.
+* If I want to give preference to a single controller in one namespace, but have all other controller resolved in another namespace, I need to create multiple routes, as shown in Listing 15-26.  
+    Listing 15-26. Using Multiple routes to control namespace resolution in the RouteConfig.cs file
 
 [<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
 
