@@ -139,6 +139,8 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * This problem arises more often than you might expect, especially if you are working on a large MVC project that uses libraries of controllers from other development teams or third-party suppliers.
 * It is natural to name a controller relating to user accounts AccountController, for example, and it is only a matter of time before you encounter a namimg clash
 
+* To address this problem, I can tell the MVC Framework to give preference to certain namespaces when attempting to resolve the name of a controller class, as demonstrated in Listing 15-25.  
+    Listing 15-25. Specifying namespace resolution order in the RouteConfig.cs file
 
 [<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
 
