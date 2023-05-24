@@ -168,6 +168,12 @@ CODE
 * Listing 15-27 shows how this feature is used.  
     Listing 15-27. Disabling fallback namespaces in the RouteConfig.cs file
 
+* The MapRoute method returns a Route object.
+* I have been ignoring this in previous examples, because I didn't need to make any adjustments to the routes that were created.
+* To disable searching for controllers in other namespaces, I take the Route object and set the UseNamespaceFallback key in the DataTokens collection property to false.
+* This setting will be passed along to the component responsible for finding controllers, which is known as the controller factory and which I discuss in detail in Chapter 9.
+* The effect of this addition is that requests that cannot be satisfied by the Home controller in the AdditionalControllers folders will fail.
+
 [<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
 
 <!--
