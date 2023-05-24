@@ -130,6 +130,14 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * To demonstrate the problem, create a new folder in the root of the example project called AdditionalControllers and add a new Home controller, setting the contents to match those in Listing 15-24.
     Listing 15-24. The contents of the AdditionalControllers/HomeController.cs file
 
+* When you start the app, you will see the error shown in Figure 15-11.  
+    Figure 15-11. The error displayed when there are two controller with the same name
+
+* The MVC Framework searched for a class called HomeController and found two: one in the original RoutesAndUrls.Controllers namespace and one in the new RouteAndUrls.AdditionalControllers namespace.
+* If you read the text of the error shown in Figure 15-11, you can see that the MVC Framework helpfully reports which class it has found.
+
+
+
 [<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
 <!--
 # Chapter 15: URL Routing
