@@ -160,6 +160,14 @@ CODE
 * If I want to give preference to a single controller in one namespace, but have all other controller resolved in another namespace, I need to create multiple routes, as shown in Listing 15-26.  
     Listing 15-26. Using Multiple routes to control namespace resolution in the RouteConfig.cs file
 
+* The first route applies when the user explicitly requests a URL whose first segment is Home and will target the Home controller in the AdditionalControllers folder.
+* All other requests, including those where no first segment is specified, will be handled by controlled in the Controllers folder.
+
+* I can tell the MVC Framework to look only in the namespace that I specify.
+* If a matching controller cannot be found, then the framework will not search elsewhere.
+* Listing 15-27 shows how this feature is used.  
+    Listing 15-27. Disabling fallback namespaces in the RouteConfig.cs file
+
 [<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
 
 <!--
