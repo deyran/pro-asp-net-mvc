@@ -23,7 +23,7 @@ namespace UrlsAndRoutes.Controllers
 
         public ActionResult CustomVariable()
         {
-            ViewBag.Contoller = "Home";
+            ViewBag.Controller = "Home";
             ViewBag.Action = "CustomVariable";
             ViewBag.CustomVariable = RouteData.Values["id"];
 

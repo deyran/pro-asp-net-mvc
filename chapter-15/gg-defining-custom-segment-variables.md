@@ -31,24 +31,18 @@ To see the effect of the custom segment variable, follow these steps:
     <b>Listing 15-17.</b> The contents of the CustomVariable.cshtml file.
 </p>
 
-2. AAAA
+2. Start the application and navigate to the URL */Home/CustomVariable/Hello*, the result can be seen in Figure 15-8
 
-* To create the view for the action method, create the Views/Home folder, right-click on it, select add > MVC 5 View Page (Razor) from the pop-up menu and set the name to CustomVariable.cshtml.
-* Click the OK button to create the view and edit the contents to match Listing 15-17.
-    Listing 15-17. The contents of the CustomVariable.cshtml file.
-
-* To see the effect of the custom segment variable, start the application and navigate to the URL /Home/CustomVariable/Hello.
-
-* The CustomVariable action method in the Home controller is called, and the value of the custom segment variable is retrieved from the ViewBag and passed to the view.
-You can see the results in Figure 15-8.
-    Figure 15-8. Displaying the value of a custom segment variable
+<p align="center">
+    <img src="ch15-Pictures/Figure 15-8.png" /><br />
+    <b>Figure 15-8.</b> Displaying the value of a custom segment variable.
+</p>
 
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables 389
-### Listing 15-17. The contents of the CustomVariable.cshtml file.
+### Figure 15-8. Displaying the value of a custom segment variable
 -->
-
 
 I have provided a default value for the id segment variable in the route, which means that you will see the results shown in Figure 15-9 if you navigate to /Home/CustomVariable.
     Figure 15-9. The default value for a custom segment variable
@@ -101,7 +95,7 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * Some developers who are focused on the separation of concerns in the MVC pattern do not like putting the default values for segment variables into the routes for an application.
 * If this is an issue, you can use C# optional parameters along with an optional segment variable in the route to define the default values for action method parameters.
 * As an example, Listing 15-21 shows the CustomVariable action method to define a default value for the id parameter that will be used if the URL doesn't contain a value.
-	Listing 15-21. Defining a default value for an action method parameter in the HomeController.cs file
+ Listing 15-21. Defining a default value for an action method parameter in the HomeController.cs file
 
 * There will always be a value for the id parameter (either one from the URL or the default), so I am to remove the code which deals with the null value.
 * This action method combined with the route I defined in Listing 15-21 is the functional equivalent to the route shown in Listing 15-22:
@@ -110,7 +104,7 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * The difference is that the default value for the id segment variable is defined in the controller code and not in the routing definition.
 
 > ### UNIT TESTING: OPTIONAL URL SEGMENTS
-> 
+>
 > * The issue to be aware of when testing optional URL segments is that the segment variable will not be added to the RouteData.Values collections unless a value was found in the URL.
 > * This means that you should not include the variable in the anonymous type unless you are testing a URL that contains the optional segment.
 > * Here are the changes to the TestIncomingRoutes unit test method for the route defined in Listing 15-22.
@@ -126,7 +120,7 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * I have extended the route from the previous example to add a catchall segment variable, which I imaginatively called catchall.
 * This route will now match any URL, irrespective of the number of segments it contains or the value of any of those segments. The first three segments are used to set values for the controller, action, and id variables, respectively.
 * If the URL contains additional segments, they are all assgned to the catchall variable, as shown in Table 15-5.
-	Table 15-5. Matching Urls with a catchall segment variable
+ Table 15-5. Matching Urls with a catchall segment variable
 
 * There is no upper limit to the number of segments that the URL pattern in this route will match.
 * Notice that the segments captured by the catchall are presented in the form segment/segment/segment.
@@ -138,7 +132,7 @@ I can modify the CustomVariable action method in the Home controller so that is 
 > * The only difference is that I must expect multiple segments to be concatenated in a single value, such as segment/segment/segment.
 > * Notice that I will not receive the leading or trailing / character.
 > * Here are the changes to the TestIncomingRoutes method that demonstrate testing for a catchall segment, using the route defined in Listing 15-23 and the URLs shown in Table 15-5:
-	TABLE
+ TABLE
 
 ### Prioritizing controllers by namespaces
 
