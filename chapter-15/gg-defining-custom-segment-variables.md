@@ -13,18 +13,24 @@ This route will match any zero-to-three-segment URL. The contents of the third s
 
 > ### CAUTION
 >
-> *controller*, *action*, and *area* are reserved names, so they cannot be used for custom segment variable names.
+> *controller*, *action*, and *area* are reserved names, so they cannot be used for custom segment variable names.  
+
+Any segment variable can be accessed using the RouteData.Values property. As shown in Listing 15-16, an action method named CustomVariable has been added.
+
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-16.png" /><br />
+    <b>Listing 15-16.</b> Accessing a custom variable in an action method in the HomeController.cs file
+</p>
+
 
 <!--
 # Chapter 15: URL Routing
-## Defining custom segment variables 388
-### CAUTION
+## Defining custom segment variables 389
+### Listing 15-16. Accessing a custom variable in an action method in the HomeController.cs file
 -->
 
 
-* I can access any of the segment variables in an action method by using the RouteData.Values property
-* To demonstrate this, I have added an action method to the Home controller called CustomVariable, as shown in Listing 15-16.
-    Listing 15-16. Accessing a custom variable in an action method in the HomeController.cs file
+
 
 * This method obtains the value of the custom variable in the route URL pattern and passes it to the view using the ViewBag.
 * To create the view for the action method, create the Views/Home folder, right-click on it, select add > MVC 5 View Page (Razor) from the pop-up menu and set the name to CustomVariable.cshtml.
