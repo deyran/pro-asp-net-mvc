@@ -2,20 +2,15 @@
 
 ## Defining custom segment variables
 
-The controller and action *segment variable* corresponds to the controller and action method, used to fulfill the request, they are default for Routing URL pattern definition. But a *custom variable* can be defined, as shown in Listing 15-15, a custom variable named **id** has been defined.
+* The controller and action segment variable have special meaning to the MVC Framework and, obviously, they correspond to the controller and action method that will be used to service the request.
+* But these are only the built-in segment variable.
+* I can also define my own variable, as shown in Listing 15-15
+* (I have removed the existing routes from the previous section so I can start over).
+    Listing 15-15. Defining additional variable in a URL pattern in the RouteConfig.cs file
 
-<p align="center">
-    <img src="ch15-Pictures/Listing 15-15.png" /><br />
-    <b>Listing 15-15.</b> Defining additional variable in a URL pattern in the RouteConfig.cs file
-</p>
-
-This route will match any zero-to-three-segment URL. The contents of the third segment will assigned to the id value will be used.
-
-<!--
-# Chapter 15: URL Routing
-## Defining custom segment variables 388
-### Listing 15-15. Defining additional variable in a URL pattern in the RouteConfig.cs file
--->
+* The route's URL pattern defines the standard controller and action variables, as well as a custom variable called id.
+* This route will match any zero-to-three-segment URL.
+* The contents of the third segment will assigned to the id value will be used.
 
 > ### CAUTION
 >
@@ -182,6 +177,10 @@ CODE
 [<BACK](ff-using-static-url-segments.md) - [NEXT>](hh-constraining-routes.md)
 
 <!--
+# Chapter 15: URL Routing
+## Defining custom segment variables
+### Prioritizing controllers by namespaces
+
 > SUMMARRY AND UPDATE ==========================
 .
 > CONTENTS =====================================

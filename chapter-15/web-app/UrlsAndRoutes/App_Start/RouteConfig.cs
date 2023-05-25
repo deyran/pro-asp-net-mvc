@@ -21,10 +21,26 @@ namespace UrlsAndRoutes
         ### Listing 15-12. A URL Pattern with a Mixed segment in the RouteConfig.cs file
         ### Listing 15-13. Mixing static URL segments and default values in the RouteConfig.cs file
         ### Listing 15-14. Aliasing a controler and action in the RouteConfig.cs file.
+
+        ## Defining custom segment variables 388
+        ### Listing 15-15. Defining additional variable in a URL pattern in the RouteConfig.cs file
         */
 
         public static void RegisterRoutes(RouteCollection routes)
         {
+            routes.MapRoute
+            (
+                "MyRoute",
+                "{controller}/{action}/{id}",
+                new
+                {
+                    controller = "Home",
+                    action = "Index",
+                    id = "DefaultId"
+                }
+            );
+
+            /*
             routes.MapRoute(
                 "ShopSchema2",
                 "Shop/OldAction",
@@ -54,6 +70,7 @@ namespace UrlsAndRoutes
                 "Public/{controller}/{action}",
                 new { controller = "Home", action = "Index" }
             );
+            */
         }
     }
 }
