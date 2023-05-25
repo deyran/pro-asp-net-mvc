@@ -15,12 +15,16 @@ This route will match any zero-to-three-segment URL. The contents of the third s
 >
 > *controller*, *action*, and *area* are reserved names, so they cannot be used for custom segment variable names.  
 
-Any segment variable can be accessed using the RouteData.Values property. As shown in Listing 15-16, an action method named CustomVariable has been added.
+Any segment variable can be accessed using the RouteData.Values property. As shown in Listing 15-16, an action method named CustomVariable has been added, its propurse is to get the value of the custom variable and passes it to the view through ViewBag.
 
 <p align="center">
     <img src="ch15-Pictures/Listing 15-16.png" /><br />
     <b>Listing 15-16.</b> Accessing a custom variable in an action method in the HomeController.cs file
 </p>
+
+* To create the view for the action method, create the Views/Home folder, right-click on it, select add > MVC 5 View Page (Razor) from the pop-up menu and set the name to CustomVariable.cshtml.
+* Click the OK button to create the view and edit the contents to match Listing 15-17.
+    Listing 15-17. The contents of the CustomVariable.cshtml file.
 
 
 <!--
@@ -30,12 +34,6 @@ Any segment variable can be accessed using the RouteData.Values property. As sho
 -->
 
 
-
-
-* This method obtains the value of the custom variable in the route URL pattern and passes it to the view using the ViewBag.
-* To create the view for the action method, create the Views/Home folder, right-click on it, select add > MVC 5 View Page (Razor) from the pop-up menu and set the name to CustomVariable.cshtml.
-* Click the OK button to create the view and edit the contents to match Listing 15-17.
-    Listing 15-17. The contents of the CustomVariable.cshtml file.
 
 * To see the effect of the custom segment variable, start the application and navigate to the URL /Home/CustomVariable/Hello.
 * The CustomVariable action method in the Home controller is called, and the value of the custom segment variable is retrieved from the ViewBag and passed to the view.
