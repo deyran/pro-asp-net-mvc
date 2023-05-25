@@ -11,17 +11,16 @@ The controller and action *segment variable* corresponds to the controller and a
 
 This route will match any zero-to-three-segment URL. The contents of the third segment will assigned to the id value will be used.
 
+> ### CAUTION
+>
+> *controller*, *action*, and *area* are reserved names, so they cannot be used for custom segment variable names.
+
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables 388
-### Listing 15-15. Defining additional variable in a URL pattern in the RouteConfig.cs file
+### CAUTION
 -->
 
-> ### CAUTION
->
-> * Some nomes are reserved and no available for custom segment variable names.
-> * These are controller, action, and area.
-> * The meaning of the first two is obvious, and I will explain areas in the next chapter.
 
 * I can access any of the segment variables in an action method by using the RouteData.Values property
 * To demonstrate this, I have added an action method to the Home controller called CustomVariable, as shown in Listing 15-16.
