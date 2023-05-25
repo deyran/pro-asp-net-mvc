@@ -22,23 +22,33 @@ Any segment variable can be accessed using the RouteData.Values property. As sho
     <b>Listing 15-16.</b> Accessing a custom variable in an action method in the HomeController.cs file
 </p>
 
+To see the effect of the custom segment variable, follow these steps:
+
+1. Create an view for the *CustomVariable* action method called *CustomVariable.cshtml*, edit it to match Listing 15-17.
+
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-17.png" /><br />
+    <b>Listing 15-17.</b> The contents of the CustomVariable.cshtml file.
+</p>
+
+2. AAAA
+
 * To create the view for the action method, create the Views/Home folder, right-click on it, select add > MVC 5 View Page (Razor) from the pop-up menu and set the name to CustomVariable.cshtml.
 * Click the OK button to create the view and edit the contents to match Listing 15-17.
     Listing 15-17. The contents of the CustomVariable.cshtml file.
 
+* To see the effect of the custom segment variable, start the application and navigate to the URL /Home/CustomVariable/Hello.
+
+* The CustomVariable action method in the Home controller is called, and the value of the custom segment variable is retrieved from the ViewBag and passed to the view.
+You can see the results in Figure 15-8.
+    Figure 15-8. Displaying the value of a custom segment variable
 
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables 389
-### Listing 15-16. Accessing a custom variable in an action method in the HomeController.cs file
+### Listing 15-17. The contents of the CustomVariable.cshtml file.
 -->
 
-
-
-* To see the effect of the custom segment variable, start the application and navigate to the URL /Home/CustomVariable/Hello.
-* The CustomVariable action method in the Home controller is called, and the value of the custom segment variable is retrieved from the ViewBag and passed to the view.
-You can see the results in Figure 15-8.
-    Figure 15-8. Displaying the value of a custom segment variable
 
 I have provided a default value for the id segment variable in the route, which means that you will see the results shown in Figure 15-9 if you navigate to /Home/CustomVariable.
     Figure 15-9. The default value for a custom segment variable
