@@ -38,14 +38,19 @@ To see the effect of the custom segment variable, follow these steps:
     <b>Figure 15-8.</b> Displaying the value of a custom segment variable.
 </p>
 
+3. Now start the application using this URL */Home/CustomVariable*, and will see the use of the **default value** in Figure 15-9.
+
+<p align="center">
+    <img src="ch15-Pictures/Figure 15-9.png" /><br />
+    <b>Figure 15-9.</b> The default value for a custom segment variable.
+</p>
+
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables 389
-### Figure 15-8. Displaying the value of a custom segment variable
+### Figure 15-9. The default value for a custom segment variable
 -->
 
-I have provided a default value for the id segment variable in the route, which means that you will see the results shown in Figure 15-9 if you navigate to /Home/CustomVariable.
-    Figure 15-9. The default value for a custom segment variable
 
 > ### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
 >
