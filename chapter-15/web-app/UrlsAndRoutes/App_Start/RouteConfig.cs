@@ -24,6 +24,10 @@ namespace UrlsAndRoutes
 
         ## Defining custom segment variables 388
         ### Listing 15-15. Defining additional variable in a URL pattern in the RouteConfig.cs file
+
+        ### Defining optional URL segments
+        #### Lising 15-19. Specifying an optional URL segement in the RouteConfig.cs file
+
         */
 
         public static void RegisterRoutes(RouteCollection routes)
@@ -36,41 +40,9 @@ namespace UrlsAndRoutes
                 {
                     controller = "Home",
                     action = "Index",
-                    id = "DefaultId"
+                    id = UrlParameter.Optional
                 }
             );
-
-            /*
-            routes.MapRoute(
-                "ShopSchema2",
-                "Shop/OldAction",
-                new { controller = "Home", action = "Index" }
-            );
-
-            routes.MapRoute(
-                "ShopSchema",
-                "Shop/{action}",
-                new { controller = "Home" }
-            );
-
-            routes.MapRoute(
-                "",
-                "X{controller}/{action}",
-                new { controller = "Home", action = "Index" }
-            );
-
-            routes.MapRoute(
-                "MyRoute",
-                "{controller}/{action}",
-                new { controller = "Home", action = "Index" }
-            );
-
-            routes.MapRoute(
-                "",
-                "Public/{controller}/{action}",
-                new { controller = "Home", action = "Index" }
-            );
-            */
         }
     }
 }

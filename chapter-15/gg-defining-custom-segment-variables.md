@@ -68,17 +68,17 @@ In Listing 15-15 it was shown using RouteData.Values property to access value of
 
 The MVC Framework compares the list of segment variables with the list of action method paramenters, and if the names match, passes the values from the URL to the method.
 
-<!--
-# Chapter 15: URL Routing
-## Defining custom segment variables 390
-### Using custom variables as action method parameters
--->
-
 ### Defining optional URL segments
 
-* An optional URL segment is one that the user does not need to specify, but for which on default value is specified.
-* Listing 15-19 shows an example, and you can see that I specify that a segment variable is optional by setting the default value to UrlParameter.Optional.
-    Lising 15-19. Specifying an optional URL segement in the RouteConfig.cs file
+An optional URL segment is a route with an optional parameter. This means that if an optional parameter is not provided, the default value (**UrlParameter.Optional**) will be set and the route can be used without any problem. Listing 15-19 shows an example in the RouteConfig.cs file.
+
+<!--
+# Chapter 15: URL Routing
+## Defining custom segment variables 391
+### Defining optional URL segments
+#### Lising 15-19. Specifying an optional URL segement in the RouteConfig.cs file
+-->
+
 
 * This routes will match URLs wheter or not the id segment has been supplied. Table 15-4 shows how this works for differents URLs.
     Table 15-4. Matching URLs with an Optional segment variable.
