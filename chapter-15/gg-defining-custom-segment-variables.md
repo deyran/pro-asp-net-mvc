@@ -72,6 +72,11 @@ The MVC Framework compares the list of segment variables with the list of action
 
 An optional URL segment is a route with an optional parameter. This means that if an optional parameter is not provided, the default value (**UrlParameter.Optional**) will be set and the route can be used without any problem. Listing 15-19 shows an example in the RouteConfig.cs file.
 
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-19.png" /><br />
+    <b>Listing 15-19.</b> Adding an action method parameter in the HomeController.cs file
+</p>
+
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables 391
