@@ -77,13 +77,22 @@ An optional URL segment is a route with an optional parameter. This means that i
     <b>Listing 15-19.</b> Adding an action method parameter in the HomeController.cs file
 </p>
 
+The Table 15-4 shows how this works for different URLs.
+
+Example URL|Maps to
+---------|--------
+mydomain.com | controller=Home - action=Index
+mydomain.com/Customer | controller=Customer - action=Index
+mydomain.com/Customer/List | controller=Customer - action=List
+mydomain.com/Customer/List/All | controller=Customer - action=List - id=All
+mydomain.com/Customer/List/All/Delete | No match
+
 <!--
 # Chapter 15: URL Routing
 ## Defining custom segment variables 391
 ### Defining optional URL segments
-#### Lising 15-19. Specifying an optional URL segement in the RouteConfig.cs file
+#### Table 15-4
 -->
-
 
 * This routes will match URLs wheter or not the id segment has been supplied. Table 15-4 shows how this works for differents URLs.
     Table 15-4. Matching URLs with an Optional segment variable.
