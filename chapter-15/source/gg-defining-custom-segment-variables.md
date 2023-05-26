@@ -46,7 +46,7 @@ I have provided a default value for the id segment variable in the route, which 
 
 * Using the RouteData.Values property is only one way to access custom route variables.
 * The other way is much more elegant.
-* If I define parameters to the action method with names that match the URL pattern variables, the MVC Framework will pass the values obtained from the URL asp parameters to the action method.
+* If I define parameters to the action method with names that match the URL pattern variables, the MVC Framework will pass the values obtained from the URL as parameters to the action method.
 * For example, the custom variable I defined in the route in Listing 15-15 is called id.
 I can modify the CustomVariable action method in the Home controller so that is has a matching parameter, as shown in Listing 15-18.
     Listing 15-18. Adding an action method parameter in the HomeController.cs file

@@ -11,6 +11,9 @@ namespace UrlsAndRoutes.Controllers
 
     ## Defining custom segment variables 389
     ### Listing 15-16. Accessing a custom variable in an action method in the HomeController.cs file
+
+    ### Using custom variables as action method parameters
+    #### Listing 15-18. Adding an action method parameter in the HomeController.cs file
     */
     public class HomeController : Controller
     {
@@ -21,11 +24,11 @@ namespace UrlsAndRoutes.Controllers
             return View("ActionName");
         }
 
-        public ActionResult CustomVariable()
+        public ActionResult CustomVariable(string id)
         {
             ViewBag.Controller = "Home";
             ViewBag.Action = "CustomVariable";
-            ViewBag.CustomVariable = RouteData.Values["id"];
+            ViewBag.CustomVariable = id;
 
             return View();
         }

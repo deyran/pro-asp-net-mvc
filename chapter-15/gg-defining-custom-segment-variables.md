@@ -56,20 +56,24 @@ TestRouteMatch("~/Customer/List", "Customer", "List", new { id = "DefaultId" });
 TestRouteMatch("~/Customer/List/All", "Customer", "List", new { id = "All" });
 TestRouteFail("~/Customer/List/All/Delete");
 ```
-<!--
-# Chapter 15: URL Routing
-## Defining custom segment variables 390
-### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
--->
 
 ### Using custom variables as action method parameters
 
-* Using the RouteData.Values property is only one way to access custom route variables.
-* The other way is much more elegant.
-* If I define parameters to the action method with names that match the URL pattern variables, the MVC Framework will pass the values obtained from the URL asp parameters to the action method.
-* For example, the custom variable I defined in the route in Listing 15-15 is called id.
-I can modify the CustomVariable action method in the Home controller so that is has a matching parameter, as shown in Listing 15-18.
-    Listing 15-18. Adding an action method parameter in the HomeController.cs file
+In Listing 15-15 it was shown using RouteData.Values property to access value of the custom route variable. But there is other simple way to get the same result. To get the custom route variable value, just set parameter in the action method with names that match the URL pattern variable, as shown in Listing 15-18.
+
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-18.png" /><br />
+    <b>Listing 15-18.</b> Adding an action method parameter in the HomeController.cs file
+</p>
+
+<!--
+# Chapter 15: URL Routing
+## Defining custom segment variables 390
+### Using custom variables as action method parameters
+#### Listing 15-18. Adding an action method parameter in the HomeController.cs file
+-->
+
+
 
 * When the routing system matches a URL against the route defined in Listing 15-18, the value of the third segment in the URL is assigned to the custom variable id.
 * The MVC Framework compares the list of segment variables with the list of action method paramenters, and if the names match, passes the values from the URL to the method.
