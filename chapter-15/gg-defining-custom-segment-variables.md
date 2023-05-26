@@ -45,19 +45,23 @@ To see the effect of the custom segment variable, follow these steps:
     <b>Figure 15-9.</b> The default value for a custom segment variable.
 </p>
 
-<!--
-# Chapter 15: URL Routing
-## Defining custom segment variables 389
-### Figure 15-9. The default value for a custom segment variable
--->
-
-
 > ### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
 >
-> * I included support for testing custom segment variables in the test helper methods.
-> * The TestRouteMatch method has an optional parameter that accepts an anonymous type containging the names of the properties I want to test for and the values I expect.
-> * Here are the changes I made to the TestIncomingRoutes test method to test the route defined in Listing 15-15:
->     CODE
+> A test for custom segment variable in the TestRouteMatch method has been added. Here are the changes that were added:
+
+```js
+TestRouteMatch("~/", "Home", "Index", new { id = "DefaultId" });
+TestRouteMatch("~/Customer", "Customer", "index", new { id = "DefaultId" });
+TestRouteMatch("~/Customer/List", "Customer", "List", new { id = "DefaultId" });
+TestRouteMatch("~/Customer/List/All", "Customer", "List", new { id = "All" });
+TestRouteFail("~/Customer/List/All/Delete");
+```
+<!--
+# Chapter 15: URL Routing
+## Defining custom segment variables 390
+### UNIT TEST: TESTING CUSTOM SEGMENT VARIABLES
+-->
+
 
 ### Using custom variables as action method parameters
 
