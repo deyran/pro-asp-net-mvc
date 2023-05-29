@@ -89,13 +89,6 @@ mydomain.com/Customer/List/All/Delete | No match
 
 As can be seen, **id** variable has been added only when there is a corresponding segmet in the incoming URL. When no value is provided, the corresponding parameter will be set to null.
 
-<!--
-# Chapter 15: URL Routing
-## Defining custom segment variables 391
-### Defining optional URL segments
-#### Figure 15-10. when a URL doesn't contain a value for an optional segment variable
--->
-
 Now update the *HomeController.cs* file to respond when no value is provided, as show in Listing 15-20
 
 <p align="center">
@@ -103,12 +96,19 @@ Now update the *HomeController.cs* file to respond when no value is provided, as
     <b>Listing 15-20.</b> Checking for an Optional Segment Variable in the HomeController.cs file
 </p>
 
-Start the application navigating to the /Home/CustomVariable controller URL, as show in Figure 15-10.
+Start the application navigating to the */Home/CustomVariable* controller URL, as show in Figure 15-10.
 
 <p align="center">
     <img src="ch15-Pictures/Figure 15-10.png" /><br />
     <b>Figure 15-10.</b> Detecting when a URL doesn't contain a value for an optional segment variable
 </p>
+
+<!--
+# Chapter 15: URL Routing
+## Defining custom segment variables 391
+### Defining optional URL segments
+#### Figure 15-10. when a URL doesn't contain a value for an optional segment variable
+-->
 
 #### Using custom variables as action method parameters
 
