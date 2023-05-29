@@ -93,9 +93,15 @@ As can be seen, **id** variable has been added only when there is a correspondin
 # Chapter 15: URL Routing
 ## Defining custom segment variables 391
 ### Defining optional URL segments
-#### Table 15-4. Matching URLs with an Optional segment variable.
+#### Listing 15-20. Checking for an Optional Segment Variable in the HomeController.cs file
 -->
 
+Now update the *HomeController.cs* file to respond when no value is provided, as show in Listing 15-20
+
+<p align="center">
+    <img src="ch15-Pictures/Listing 15-20.png" /><br />
+    <b>Listing 15-20.</b> Checking for an Optional Segment Variable in the HomeController.cs file
+</p>
 
 
 * I have updated the controller to respond when no value is provided for the id segment variable in Listing 15-20.
