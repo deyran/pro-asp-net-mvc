@@ -66,7 +66,7 @@ I can modify the CustomVariable action method in the Home controller so that is 
 * Listing 15-19 shows an example, and you can see that I specify that a segment variable is optional by setting the default value to UrlParameter.Optional.
     Lising 15-19. Specifying an optional URL segement in the RouteConfig.cs file
 
-* This routes will match URLs wheter or not the id segment has been supplied. Table 15-4 shows how this works for differents URLs.
+* This routes will match URLs whether or not the id segment has been supplied. Table 15-4 shows how this works for differents URLs.
     Table 15-4. Matching URLs with an Optional segment variable.
 
 * As you can see from the table, the id variabel is added to the set of variables only when there is a corresponding segment in the incoming URL.
