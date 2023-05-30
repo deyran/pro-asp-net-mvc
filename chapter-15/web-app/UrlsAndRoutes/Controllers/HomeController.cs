@@ -14,6 +14,9 @@ namespace UrlsAndRoutes.Controllers
 
     ### Using custom variables as action method parameters
     #### Listing 15-18. Adding an action method parameter in the HomeController.cs file
+
+    ### Defining optional URL segments
+    #### Listing 15-20. Checking for an Optional Segment Variable in the HomeController.cs file
     */
     public class HomeController : Controller
     {
@@ -28,7 +31,7 @@ namespace UrlsAndRoutes.Controllers
         {
             ViewBag.Controller = "Home";
             ViewBag.Action = "CustomVariable";
-            ViewBag.CustomVariable = id;
+            ViewBag.CustomVariable = id ?? "<no value>";
 
             return View();
         }
