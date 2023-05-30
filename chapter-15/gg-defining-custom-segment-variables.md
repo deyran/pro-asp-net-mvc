@@ -105,9 +105,9 @@ Start the application navigating to the */Home/CustomVariable* controller URL, a
 
 <!--
 # Chapter 15: URL Routing
-## Defining custom segment variables 391
+## Defining custom segment variables 392
 ### Defining optional URL segments
-#### Figure 15-10. when a URL doesn't contain a value for an optional segment variable
+#### Listing 15-20. Checking for an Optional Segment Variable in the HomeController.cs file
 -->
 
 #### Using custom variables as action method parameters
