@@ -21,7 +21,6 @@
 #### Using custom variables as action method parameters
 #### Defining optional URL segments
 #### Defining variable-lenght routes
-#### Prioritizing controllers by namespaces
 
 ## [Constraining routes](hh-constraining-routes.md)
 #### Constraining a route using a regular expression

@@ -103,19 +103,25 @@ Start the application navigating to the */Home/CustomVariable* controller URL, a
     <b>Figure 15-10.</b> Detecting when a URL doesn't contain a value for an optional segment variable
 </p>
 
-<!--
-# Chapter 15: URL Routing
-## Defining custom segment variables 392
-### Defining optional URL segments
-#### Figure 15-10. Detecting when a URL doesn't contain a value for an optional segment variable
--->
-
 #### Using custom variables as action method parameters
 
 * Some developers who are focused on the separation of concerns in the MVC pattern do not like putting the default values for segment variables into the routes for an application.
+
+    > Developers focus | Separation of concerns |  MVC pattern |
+    > Not default values | Segment variables | Routes
+
 * If this is an issue, you can use C# optional parameters along with an optional segment variable in the route to define the default values for action method parameters.
+
+    Optional parameters along optional segment variable |
+
 * As an example, Listing 15-21 shows the CustomVariable action method to define a default value for the id parameter that will be used if the URL doesn't contain a value.
  Listing 15-21. Defining a default value for an action method parameter in the HomeController.cs file
+
+<!--
+# Chapter 15: URL Routing
+## Defining custom segment variables 393
+#### Using custom variables as action method parameters
+-->
 
 * There will always be a value for the id parameter (either one from the URL or the default), so I am to remove the code which deals with the null value.
 * This action method combined with the route I defined in Listing 15-21 is the functional equivalent to the route shown in Listing 15-22:

@@ -1,5 +1,7 @@
 # Chapter 16: Advanced routing features
 
+## Introduction
+
 ## Prepering the example project
 ### Simplifying the routes
 ### Adding the optimization package
@@ -35,4 +37,3 @@
 ## URL Schema best practices
 ### Make your URLs clean and human-friendly
 ### GET and POST: Pick the right one
-
