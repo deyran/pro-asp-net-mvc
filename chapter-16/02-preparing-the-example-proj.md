@@ -2,9 +2,7 @@
 
 ## Preparing the example project
 
-* I am going to continue to use the UlsAndRoutes project from the previous chapter, but I need to make a couple fo changes.
-* First, I deleted the AdditionalControllers folder and HomeController.cs file that it contains.
-* To perform the deletion, right-click on the AdditonalControllers folder and select Delete from the pop-up menu
+The UrlsAndRoutes project (from the previous chapter) will be used, but it's necessary to delete the AdditionalControllers folder and HomeController.cs file. To perform the deletion, right-click on the AdditionalControllers folder and select Delete from the pop-up menu.
 
 ### Simplifying the routes
 ### Adding the optimization package
