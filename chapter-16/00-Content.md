@@ -2,7 +2,7 @@
 
 ## [Introduction](01-Introduction.md)
 
-## Prepering the example project
+## [Preparing the example project](02-preparing-the-example-proj.md)
 ### Simplifying the routes
 ### Adding the optimization package
 ### Updating the Unit Test project
