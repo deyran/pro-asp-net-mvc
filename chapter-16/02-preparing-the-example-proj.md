@@ -5,12 +5,21 @@
 The UrlsAndRoutes project (from the previous chapter) will be used, but it's necessary to delete the AdditionalControllers folder and HomeController.cs file. To perform the deletion, right-click on the AdditionalControllers folder and select Delete from the pop-up menu.
 
 ### Simplifying the routes
+
+Open the *App_Start/RouteConfig.cs* file, edit it to match the content shown in Listing 16-1.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-1.png" /><br />
+    <b>Listing 16-1.</b> Simplifying the example routes in the RouteConfig.cs file
+</p>  
+
 ### Adding the optimization package
 ### Updating the Unit Test project
 
 <!--
 # Chapter 16: Advanced routing features
 ## Preparing the example project
+### Listing 16-1. Simplifying the example routes in the RouteConfig.cs file
 
 > SUMMARRY AND UPDATE ==========================
 .
