@@ -14,12 +14,25 @@ Open the *App_Start/RouteConfig.cs* file, edit it to match the content shown in 
 </p>  
 
 ### Adding the optimization package
+
+* Later in the chapter I describe the areas feature, which requires a new package be installed in to the project.
+* Enter the following command into the NeGet console:
+
+```
+Install-Package Microsoft.AspNet.Web.Optimization -version 1.1.0
+```
+
+================================================================
+
+* This package contains functionality for optimizing the JavaScript and CSS files in the project, which I describe in chapter 26.
+* I won't be using this feature directly in this chapter, but the areas feature has a dependency on it.
+
 ### Updating the Unit Test project
 
 <!--
 # Chapter 16: Advanced routing features
 ## Preparing the example project
-### Listing 16-1. Simplifying the example routes in the RouteConfig.cs file
+### Adding the optimization package
 
 > SUMMARRY AND UPDATE ==========================
 .
