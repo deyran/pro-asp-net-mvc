@@ -95,15 +95,6 @@ namespace UrlsAndRoutes.Tests
             // Assert
             Assert.IsTrue(result == null || result.Route == null);
         }
-
-        [TestMethod]
-        public void TestIncomingRoutes()
-        {
-            TestRouteMatch("~/", "Home", "Index", new { id = "DefaultId" });
-            TestRouteMatch("~/Customer", "Customer", "index", new { id = "DefaultId" });
-            TestRouteMatch("~/Customer/List", "Customer", "List", new { id = "DefaultId" });
-            TestRouteMatch("~/Customer/List/All", "Customer", "List", new { id = "All" });
-            TestRouteFail("~/Customer/List/All/Delete");
-        }
+                
     }
 }

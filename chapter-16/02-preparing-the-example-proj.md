@@ -27,23 +27,14 @@ This packge contains functionality for optimizing the JavaScript and CSS files (
 
 Two changes are needed to the unit test project, they are:
 
-1. AAAA
-2. AAAA
+1. To avoid failed tests, delete the *TestIncomingRoutes* method from the *RouteTests.cs* file
+2. Open the *Package Manager Console* install the package below:
 
-* I need to make two changes to the unit test project.
-* The first is to delete the TestIncomingRoutes method, which I won't be using since this chapter is about generating outgoing routes.
-* To avoid failed tests, simply remove the method from the RouteTests.cs file
+```
+Install-Package Microsoft.Aspnet.MVC -version 5.0.0
+```
 
-================================================================================================
-
-* The second changes is to add a reference to the System.Web.MVC namespace, which I do by installing the MVC NuGet package into the unit test project.
-Enter the following commands into the NuGet console:
-    Install-Package Microsoft.Aspnet.MVC -version 5.0.0
-
-================================================================================================
-
-* I need to add the MVC 5 package so that I can use some help methods to generate outgoing URLs.
-* I didn't need to do this in the last chapter because the support for dealing with incoming URLs is in the System.Web and System.Web.Routing namespaces.
+This package is needed to use some help methods to generate outgoing URLs
 
 <!--
 # Chapter 16: Advanced routing features
