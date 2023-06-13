@@ -14,6 +14,15 @@ The routing system is an alternative to defining the URL scheme to generate outg
 
 ### Using the routing system to generate an outgoing URL
 
+To generate an outgoing URL in view open the /View/Shared/ActionName.cshtml file, edit it to match in Listing 16-2.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-2.png" /><br />
+    <b>Listing 16-2.</b> Using the Html.ActionLink helper method in the ActionName.cshtml file
+</p>  
+
+As seen in Listing 16-2, Html.ActionLink has been used
+
 ### Targeting other controllers
 
 ### Passing extra values
@@ -31,6 +40,8 @@ The routing system is an alternative to defining the URL scheme to generate outg
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
+### Using the routing system to generate an outgoing URL
+#### Listing 16-2. Using the Html.ActionLink helper method in the ActionName.cshtml file
 
 > SUMMARRY AND UPDATE ==========================
 .
