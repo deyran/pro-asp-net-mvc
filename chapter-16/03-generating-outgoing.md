@@ -21,7 +21,7 @@ To generate an outgoing URL in view open the */View/Shared/ActionName.cshtml* fi
     <b>Listing 16-2.</b> Using the Html.ActionLink helper method in the ActionName.cshtml file
 </p>  
 
-As seen in Listing 16-2, Html.ActionLink was used to create a link. Run the application and see the result in Figure 16-1.
+As seen in Listing 16-2, **Html.ActionLink** was used to create a link. Run the application and see the result in Figure 16-1.
 
 <p align="center">
     <img src="ch16-Pictures/Figure 16-1.png" /><br />
