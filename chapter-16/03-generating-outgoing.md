@@ -8,13 +8,9 @@ In MVC applications, the user navigates from one view to another. A static link 
 <a href="/Home/CustomVariable"> This is an outgoing URL</a>
 ```
 
-=======================================
+The HTML element creates a simple and quick link to CustomVariable action method on the Home controller. Although simple and quick, hard coded links can be dangerous when changes are needed. All application links must be updated one by one.
 
-* With the standard routing configuration, the HTML element creates a link that will target the CustomVariable action method on the Home controller.
-* Manually defined URLs like this one are quick and simple to create.
-* They are also extremely dangerous and you will break all of the URLs you have hard-coded when you change the URL schema for your application.
-* You then must trawl through all of the views in your application and update all of the references to you controllers and action methods, a process that is dedious, error-prone, and difficult to test.
-* A better alternative is to use the routing system to generate outgoing URLs, which ensures that the URLs scheme is used to produce the URLs dynamically and in a way that is guaranteed to reflect the URL schema of the application.
+The routing system is an alternative to defining the URL scheme to generate outgoing URLs dynamically.
 
 ### Using the routing system to generate an outgoing URL
 
