@@ -54,8 +54,6 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
     <b>Figure 16-2.</b> The effect of clicking on a link is to make an outgoing URL into an incoming request
 </p>
 
---------------------------------------------
-
 ### Targeting other controllers
 
 ### Passing extra values
