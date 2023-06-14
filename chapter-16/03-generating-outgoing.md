@@ -34,13 +34,12 @@ The HTML that the ActionLink method generates is based on the current routing co
 <a href="/Home/CustomVariable">This is an outgoing URL</a>
 ```
 
---------------------------------------------------------------------
+The benefit of this approach is that it automatically responds to changes in the routing configuration. As a demonstration, open the RouteConfig.cs file and edit it to match Listing 16-3:
 
-* Now, this may seem like a long path to recreate the manually defined URL I showed you earlier, but the benefit of this approach is that is that it automatically responds to changes in the routing configuration.
-*As a demonstration, I have changed the route defined and added a new route to the RouteConfig.cs file, as shown in Listing 16-3.
-
-Listing 16-3. Adding a route to the RouteConfig.cs file
---------------------------------------------------------------------
+<p align="center">
+    <img src="ch14-Pictures/Listing 16-3.png" /><br />
+    <b>Listing 16-3.</b> Adding a route to the RouteConfig.cs file
+</p>  
 
 ### Targeting other controllers
 
@@ -60,6 +59,7 @@ Listing 16-3. Adding a route to the RouteConfig.cs file
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
 ### Using the routing system to generate an outgoing URL
+#### Listing 16-3. Adding a route to the RouteConfig.cs file
 
 > SUMMARRY AND UPDATE ==========================
 .
