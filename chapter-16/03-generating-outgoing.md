@@ -28,10 +28,7 @@ As seen in Listing 16-2, **Html.ActionLink** was used to create a link. Run the 
     <b>Figure 16-1.</b> Adding an outgoing URL to a View
 </p>  
 
-
-
-* The HTML that the ActionLink method generates is based on the current routing configuration.
-* For example, using the schema defined in Listing 16-1 (and assuming that the view is being rendered by a request to the Home controller) generates this HTML:
+The HTML that the ActionLink method generates is based on the current routing configuration. In the example seen in Figure 16-1, the URL scheme was defined in Listing 16-1 generating this HTML:
 
 ```
 <a href="/Home/CustomVariable">This is an outgoing URL</a>
