@@ -37,7 +37,7 @@ The HTML that the ActionLink method generates is based on the current routing co
 The benefit of this approach is that it automatically responds to changes in the routing configuration. As a demonstration, open the RouteConfig.cs file and edit it to match Listing 16-3:
 
 <p align="center">
-    <img src="ch14-Pictures/Listing 16-3.png" /><br />
+    <img src="ch16-Pictures/Listing 16-3.png" /><br />
     <b>Listing 16-3.</b> Adding a route to the RouteConfig.cs file
 </p>  
 
