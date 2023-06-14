@@ -48,8 +48,8 @@ separados por uma linha em branco
 ![Figure 10-1](/CHAPTER%2010%20-%20SPORTSSTORE%20MOBILE/AA%20-%20SUMMARY/ch10-Pictures/Figure%2010-1.png)
 
 <p align="center">
-    <img src="ch16-Pictures/Figure 14-3.png" /><br />
-    <b>Figure 14-3.</b> Creating a new project using the MVC project template
+    <img src="ch16-Pictures/Figure 16-3.png" /><br />
+    <b>Figure 16-3.</b> 
 </p>  
 
 <p align="center">
