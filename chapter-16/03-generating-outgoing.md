@@ -85,6 +85,18 @@ the values for all of the segment variables must satisfy the route constraints. 
 * If you try to generate a URL for which no matching route can be found, you will create a link that contains an empty href attribute, like this:
 <a hef="">Aboute this application</a>
 
+---------------------------------------------
+
+* The link will render in the view properly, but won't function as intended when the user clicks it.
+* If you are generating just the URL (which I show you how to do later in the chapter), then the result will be null, which renders as the empty string in views.
+* See the "Generating a URL from a Specific Route" section later in this chapter for details.
+
+---------------------------------------------
+
+* The first Route object meeting these criteria will produce a non-null URL, and that will terminate the URL-generating process.
+* The chosen parameter values will be substituted for each segment parameter, with any trailing sequence of default values omitted.
+* If you have supplied explicit parameters that do not correspond to segment parameters or default parameters, then the method will append them as a set of query string name/value pairs.
+
 ### Targeting other controllers
 
 ### Passing extra values
