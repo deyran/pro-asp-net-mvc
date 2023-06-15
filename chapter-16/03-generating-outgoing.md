@@ -60,13 +60,18 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
 * Applications will usually define several routes, and it is important to understand just how routes are selected for URL generation.
 * The routing system processes the routes in the order that they were added to the RouteCollection object passed to the RegisterRoutes method.
 * Each route is inspected to see if it is a match, which requires three conditions to be met:
+    ---------------------
+    a value must be available for every segment variable defined in the urL pattern.to find values for each segment variable, the routing system looks first at the values you have provided (using the properties of an anonymous type), then the variable values for the current request, and finally at the default values defined in the route. (i return to the second source of these values later in this chapter.)
 
-routes.MapRoute
-(
-	"MyRoute",
-	"{controller}/{action}",
-	new { myVar = "true" }
-);
+    ---------------------
+
+    none of the values provided for the segment variables may disagree with the default-only variables defined in the route. these are variables for which default values have been provided, but which do not occur in the urL pattern. For example, in this route definition, myVar is a default-only variable: 
+        routes.MapRoute
+        (
+            "MyRoute",
+            "{controller}/{action}",
+            new { myVar = "true" }
+        );
 
 ---------------------------------------------
 
