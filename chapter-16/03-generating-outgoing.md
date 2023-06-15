@@ -54,6 +54,8 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
     <b>Figure 16-2.</b> The effect of clicking on a link is to make an outgoing URL into an incoming request
 </p>
 
+> #### <div style="text-align: center">UNDERSTANDING OUTBOUND ULS ROUTE MATCHING</div>
+
 ### Targeting other controllers
 
 ### Passing extra values
@@ -72,7 +74,7 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
 ### Using the routing system to generate an outgoing URL
-#### Figure 16-2. The effect of clicking on a link is to make an outgoing URL into an incoming request
+#### UNDERSTANDING OUTBOUND ULS ROUTE MATCHING
 
 > SUMMARRY AND UPDATE ==========================
 .
