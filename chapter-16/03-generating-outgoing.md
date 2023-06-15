@@ -54,7 +54,36 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
     <b>Figure 16-2.</b> The effect of clicking on a link is to make an outgoing URL into an incoming request
 </p>
 
-> #### <div style="text-align: center">UNDERSTANDING OUTBOUND ULS ROUTE MATCHING</div>
+> #### UNDERSTANDING OUTBOUND ULS ROUTE MATCHING
+
+* You have seen how changing the routes that define your URL schema changes the way that outgoing URLs are generated.
+* Applications will usually define several routes, and it is important to understand just how routes are selected for URL generation.
+* The routing system processes the routes in the order that they were added to the RouteCollection object passed to the RegisterRoutes method.
+* Each route is inspected to see if it is a match, which requires three conditions to be met:
+
+routes.MapRoute
+(
+	"MyRoute",
+	"{controller}/{action}",
+	new { myVar = "true" }
+);
+
+---------------------------------------------
+
+For this route to be a match, I must take care to not supply a value for myVar or to make sure that the value I do supply matches the default value.
+
+---------------------------------------------
+
+the values for all of the segment variables must satisfy the route constraints. See the "Constraining Routes" section in the previous chapter for examples of different kinds of constraints
+
+---------------------------------------------
+
+* To be clear: the routing system doesn't try to find the route that provides the best matching route.
+* It finds only the first match, at which point it uses the route to generate the URL; any subsequent routes are ignored.
+* For this reason, you should define your most specific routes first.
+* It is important to test your outbound URL generation.
+* If you try to generate a URL for which no matching route can be found, you will create a link that contains an empty href attribute, like this:
+<a hef="">Aboute this application</a>
 
 ### Targeting other controllers
 
