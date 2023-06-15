@@ -57,11 +57,20 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
 > #### UNDERSTANDING OUTBOUND ULS ROUTE MATCHING
 
 * You have seen how changing the routes that define your URL schema changes the way that outgoing URLs are generated.
+
+    Changing the routes (URL schema) changes the way that outgoing URLs are generated
+
 * Applications will usually define several routes, and it is important to understand just how routes are selected for URL generation.
-* The routing system processes the routes in the order that they were added to the RouteCollection object passed to the RegisterRoutes method.
+
+    it is important to understand how routes ares selected for URL generation
+
+The routing system processes the routes in the order that they were added to the RouteCollection object passed to the RegisterRoutes method.
+
 * Each route is inspected to see if it is a match, which requires three conditions to be met:
     ---------------------
-    a value must be available for every segment variable defined in the urL pattern.to find values for each segment variable, the routing system looks first at the values you have provided (using the properties of an anonymous type), then the variable values for the current request, and finally at the default values defined in the route. (i return to the second source of these values later in this chapter.)
+    a value must be available for every segment variable defined in the urL pattern.
+    
+    to find values for each segment variable, the routing system looks first at the values you have provided (using the properties of an anonymous type), then the variable values for the current request, and finally at the default values defined in the route. (i return to the second source of these values later in this chapter.)
 
     ---------------------
 
