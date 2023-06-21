@@ -10,7 +10,7 @@ In MVC applications, the user navigates from one view to another. A static link 
 
 The HTML element creates a simple and quick link to CustomVariable action method on the Home controller. Although simple and quick, hard coded links can be dangerous when changes are needed. All application links must be updated one by one.
 
-The routing system is an alternative to defining the URL scheme to generate outgoing URLs dynamically.
+The **Routing System** is the alternative to hardcoded link, defining the **URL scheme** to generate outgoing URLs dynamically.
 
 ### Using the routing system to generate an outgoing URL
 
