@@ -56,31 +56,23 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
 
 > #### UNDERSTANDING OUTBOUND ULS ROUTE MATCHING
 
-* You have seen how changing the routes that define your URL schema changes the way that outgoing URLs are generated.
+In the previous section, it was shown that changing routes (URL scheme) changes the way that outgoing URLs are generated. Applications define many routes, and it is important understands how routes are selected for URL generation. Routes are processed in the order that they were added to the RouteCollection object, passed by the RegisterRoutes method.  each route is inspected to see if it is a match, which requires three conditions to be met:
 
-    Changing the routes (URL schema) changes the way that outgoing URLs are generated
+1. AAAA
+2. AAAA
+3. AAAA
 
-* Applications will usually define several routes, and it is important to understand just how routes are selected for URL generation.
-
-    it is important to understand how routes ares selected for URL generation
-
-The routing system processes the routes in the order that they were added to the RouteCollection object passed to the RegisterRoutes method.
-
-* Each route is inspected to see if it is a match, which requires three conditions to be met:
-    ---------------------
-    a value must be available for every segment variable defined in the urL pattern.
+a value must be available for every segment variable defined in the urL pattern.
+    Value | Segment variable | URL Pattern
     
-    to find values for each segment variable, the routing system looks first at the values you have provided (using the properties of an anonymous type), then the variable values for the current request, and finally at the default values defined in the route. (i return to the second source of these values later in this chapter.)
+to find values for each segment variable, the routing system looks first at the values you have provided (using the properties of an anonymous type), then the variable values for the current request, and finally at the default values defined in the route. (i return to the second source of these values later in this chapter.)
+++++++++++++++++
 
-    ---------------------
+none of the values provided for the segment variables may disagree with the default-only variables defined in the route. these are variables for which default values have been provided, but which do not occur in the urL pattern. For example, in this route definition, myVar is a default-only variable:
 
-    none of the values provided for the segment variables may disagree with the default-only variables defined in the route. these are variables for which default values have been provided, but which do not occur in the urL pattern. For example, in this route definition, myVar is a default-only variable: 
-        routes.MapRoute
-        (
-            "MyRoute",
-            "{controller}/{action}",
-            new { myVar = "true" }
-        );
+routes.MapRoute("MyRoute", "{controller}/{action}",
+new { myVar = "true" });
+++++++++++++++++
 
 ---------------------------------------------
 
