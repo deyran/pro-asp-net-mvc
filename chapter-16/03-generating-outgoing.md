@@ -60,13 +60,13 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
 * Routing System processes routes in the order that they were added to the *RouteCollection* object (RegisterRoutes method)
 * Each route is inspected to check whether to match or not
 * The route system doesn't attempt to find routes that provides the best matching route. It finds the first match and use the route to generate the URL; Any subsequent routes are ignored
+* The most specific route must be defined first
 * If no matching route is attempted to create a link, a link will be created with an empty href, as shown in the code below.
 
 ```
 <a href="">About this application</a>
 
 ```
-
 
 ### Targeting other controllers
 
