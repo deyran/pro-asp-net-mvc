@@ -54,12 +54,18 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
     <b>Figure 16-2.</b> The effect of clicking on a link is to make an outgoing URL into an incoming request
 </p>
 
-> #### UNDERSTANDING OUTBOUND ULS ROUTE MATCHING
->
-> * Routes defines URL scheme, changing routes will change URL Scheme.
-> * Routing System processes routes in the order that they were added to the *RouteCollection* object (RegisterRoutes method)
-> * Each route is inspected to check whether to match or not
-> * The route system doesn't attempt to find routes that provides the best matching route. It finds the first match and use the route to generate the URL
+#### UNDERSTANDING OUTBOUND ULS ROUTE MATCHING
+
+* Routes defines URL scheme, changing routes will change URL Scheme.
+* Routing System processes routes in the order that they were added to the *RouteCollection* object (RegisterRoutes method)
+* Each route is inspected to check whether to match or not
+* The route system doesn't attempt to find routes that provides the best matching route. It finds the first match and use the route to generate the URL; Any subsequent routes are ignored
+* If no matching route is attempted to create a link, a link will be created with an empty href, as shown in the code below.
+
+```
+<a href="">About this application</a>
+
+```
 
 
 ### Targeting other controllers
