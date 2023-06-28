@@ -55,53 +55,10 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
 </p>
 
 > #### UNDERSTANDING OUTBOUND ULS ROUTE MATCHING
-
-In the previous section, it was shown that changing routes (URL scheme) changes the way that outgoing URLs are generated. Applications define many routes, and it is important understands how routes are selected for URL generation. Routes are processed in the order that they were added to the RouteCollection object, passed by the RegisterRoutes method.  each route is inspected to see if it is a match, which requires three conditions to be met:
-
-1. AAAA
-2. AAAA
-3. AAAA
-
-a value must be available for every segment variable defined in the urL pattern.
-    Value | Segment variable | URL Pattern
-    
-to find values for each segment variable, the routing system looks first at the values you have provided (using the properties of an anonymous type), then the variable values for the current request, and finally at the default values defined in the route. (i return to the second source of these values later in this chapter.)
-++++++++++++++++
-
-none of the values provided for the segment variables may disagree with the default-only variables defined in the route. these are variables for which default values have been provided, but which do not occur in the urL pattern. For example, in this route definition, myVar is a default-only variable:
-
-routes.MapRoute("MyRoute", "{controller}/{action}",
-new { myVar = "true" });
-++++++++++++++++
-
----------------------------------------------
-
-For this route to be a match, I must take care to not supply a value for myVar or to make sure that the value I do supply matches the default value.
-
----------------------------------------------
-
-the values for all of the segment variables must satisfy the route constraints. See the "Constraining Routes" section in the previous chapter for examples of different kinds of constraints
-
----------------------------------------------
-
-* To be clear: the routing system doesn't try to find the route that provides the best matching route.
-* It finds only the first match, at which point it uses the route to generate the URL; any subsequent routes are ignored.
-* For this reason, you should define your most specific routes first.
-* It is important to test your outbound URL generation.
-* If you try to generate a URL for which no matching route can be found, you will create a link that contains an empty href attribute, like this:
-<a hef="">Aboute this application</a>
-
----------------------------------------------
-
-* The link will render in the view properly, but won't function as intended when the user clicks it.
-* If you are generating just the URL (which I show you how to do later in the chapter), then the result will be null, which renders as the empty string in views.
-* See the "Generating a URL from a Specific Route" section later in this chapter for details.
-
----------------------------------------------
-
-* The first Route object meeting these criteria will produce a non-null URL, and that will terminate the URL-generating process.
-* The chosen parameter values will be substituted for each segment parameter, with any trailing sequence of default values omitted.
-* If you have supplied explicit parameters that do not correspond to segment parameters or default parameters, then the method will append them as a set of query string name/value pairs.
+>
+> * Routes defines URL scheme, changing routes will change URL Scheme.
+> * Routing System processes routes in the order that they were added to the *RouteCollection* object (RegisterRoutes method)
+> * Each route is inspected to check whether to match or not
 
 ### Targeting other controllers
 
