@@ -59,6 +59,8 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
 > * Routes defines URL scheme, changing routes will change URL Scheme.
 > * Routing System processes routes in the order that they were added to the *RouteCollection* object (RegisterRoutes method)
 > * Each route is inspected to check whether to match or not
+> * The route system doesn't attempt to find routes that provides the best matching route. It finds the first match and use the route to generate the URL
+
 
 ### Targeting other controllers
 
