@@ -77,6 +77,11 @@ To create an outgoing URL that target a different controller, an overload method
     <b>Listing 16-4.</b> Targeting a different controller in the ActionName.cshtml file
 </p>  
 
+When the view is rendered, the following HTML is generated:
+
+´´´
+<a href="/Admin">This targets another controller</a>
+´´´
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
