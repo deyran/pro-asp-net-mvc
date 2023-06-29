@@ -82,7 +82,7 @@ When the view is rendered, the following HTML is generated:
 ´´´
 <a href="/Admin">This targets another controller</a>
 ´´´
-The URL generated was expressed as **/Admin** by the ActionLink method. This is because the routing system knows that the defined route uses the Index action method by default, omitting unnecessary segments.
+The URL generated was expressed as **/Admin** by the ActionLink method. This is because the routing system knows that the defined route uses the **Index** action method by default, omitting unnecessary segments.
 
 
 <!--
