@@ -88,7 +88,7 @@ It is possible to define the route using the Route Attribute for an action metho
 
 <p align="center">
     <img src="ch16-Pictures/Listing 16-5.png" /><br />
-    <b>Listing 16-5.</b> Targeting an action decorated with the Route Attribute in the ActionName.cshtml file 
+    <b>Listing 16-5.</b> Targeting an action decorated with the Route Attribute in the ActionName.cshtml file
 </p>  
 
 
