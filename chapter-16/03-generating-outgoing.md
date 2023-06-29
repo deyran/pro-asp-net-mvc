@@ -84,12 +84,19 @@ When the view is rendered, the following HTML is generated:
 ´´´
 The URL generated was expressed as **/Admin** by the ActionLink method. This is because the routing system knows that the defined route uses the **Index** action method by default, omitting unnecessary segments.
 
+It is possible to define the route using the Route Attribute for an action method in a controller. Listing 16-5 shows how to use the Route attribute in the ActionLink method.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-5.png" /><br />
+    <b>Listing 16-5.</b> Targeting an action decorated with the Route Attribute in the ActionName.cshtml file 
+</p>  
+
 
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
 ### Targeting other controllers
-#### Listing 16-4. Targeting a different controller in the ActionName.cshtml file
+#### Listing 16-5. Targeting an action decorated with the Route Attribute in the ActionName.cshtml file
 -->
 ### Passing extra values
 
