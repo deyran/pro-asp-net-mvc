@@ -63,9 +63,8 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
 * The most specific route must be defined first
 * If no matching route is attempted to create a link, a link will be created with an empty href, as shown in the code below.
 
-```
+```js
 <a href="">About this application</a>
-
 ```
 
 ### Targeting other controllers
@@ -79,9 +78,10 @@ To create an outgoing URL that target a different controller, an overload method
 
 When the view is rendered, the following HTML is generated:
 
-´´´
+```js
 <a href="/Admin">This targets another controller</a>
-´´´
+```
+
 The URL generated was expressed as **/Admin** by the ActionLink method. This is because the routing system knows that the defined route uses the **Index** action method by default, omitting unnecessary segments.
 
 It is possible to define the route using the Route Attribute for an action method in a controller. Listing 16-5 shows how to use the Route attribute in the ActionLink method.
