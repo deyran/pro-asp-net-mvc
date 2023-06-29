@@ -2,14 +2,9 @@
 
 namespace UrlsAndRoutes.Controllers
 {
-    /*
-    # Chapter 15: URL Routing
-        ## Preparing the example project
-            ### Creating the example controllers
-                Listing 15-2. The contents of the CustomerController.cs file
-     */
     public class CustomerController : Controller
     {
+        [Route("~/Test")]
         public ActionResult Index()
         {
             ViewBag.Controller = "Customer";

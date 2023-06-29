@@ -91,6 +91,23 @@ It is possible to define the route using the Route Attribute for an action metho
     <b>Listing 16-5.</b> Targeting an action decorated with the Route Attribute in the ActionName.cshtml file
 </p>  
 
+The link that is generated is as follows:
+
+```js
+<a href="/Test">This is targets another controller</a>
+```
+
+This corresponds to the Route attribute applied to the Index action method in the Customer controller, as shown in the code below:
+
+```js
+[Route("~/Test")]
+public ActionResult Index()
+{
+    ViewBag.Controller = "Customer";
+    ViewBag.Action = "Index";
+    return View("ActionName");
+}
+```
 
 <!--
 # Chapter 16: Advanced routing features
