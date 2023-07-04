@@ -118,6 +118,11 @@ Using the anonymous type it is possible to pass values that represent the segmen
     <b>Listing 16-6.</b> Supplying for segment variables in the ActionName.cshtml file
 </p>  
 
+As can be seen, a value for a segment variable named **id** was supplied. If the application runs, the HTML element below will be rendered in view (The route seen in Listing 16-3 is used).
+
+```js
+<a href="/App/DoCustomVariable?id=Hello">This is an outgoing URL</a>
+```
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
