@@ -1,15 +1,18 @@
 ﻿@{
     Layout = null;
 
-/*  # Chapter 16: Advanced routing features
-    ## Generating outgoing URLs in Views
+    /*  # Chapter 16: Advanced routing features
+        ## Generating outgoing URLs in Views
 
-    ### Using the routing system to generate an outgoing URL
-    #### Listing 16-2. Using the Html.ActionLink helper method in the ActionName.cshtml file
+        ### Using the routing system to generate an outgoing URL
+        #### Listing 16-2. Using the Html.ActionLink helper method in the ActionName.cshtml file
 
-    ### Targeting other controllers
-    #### Listing 16-4. Targeting a different controller in the ActionName.cshtml file
-    #### Listing 16-5. Targeting an action decorated with the Route Attribute in the ActionName.cshtml file  */
+        ### Targeting other controllers
+        #### Listing 16-4. Targeting a different controller in the ActionName.cshtml file
+        #### Listing 16-5. Targeting an action decorated with the Route Attribute in the ActionName.cshtml file  
+
+        ### Passing extra values
+        #### Listing 16-6. Supplying for segment variables in the ActionName.cshtml file  */
 }
 
 <!DOCTYPE html>
@@ -25,11 +28,7 @@
     <div>The action is: @ViewBag.Action</div>
 
     <div>
-        @Html.ActionLink("This targets another controller", "Index", "Admin")
+        @Html.ActionLink("This is an outgoing URL", "CustomVariable", new { id = "Hello" })
     </div>
-    <div>
-        @Html.ActionLink("This is targets another controller", "Index", "Customer")
-    </div>
-
 </body>
 </html>

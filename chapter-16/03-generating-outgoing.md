@@ -109,13 +109,21 @@ public ActionResult Index()
 }
 ```
 
+### Passing extra values
+
+Using the anonymous type it is possible to pass values that represent the segments. This can be seen in Listing 16-6 applied to the ActionName.cshtml view file.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-6.png" /><br />
+    <b>Listing 16-6.</b> Supplying for segment variables in the ActionName.cshtml file
+</p>  
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
-### Targeting other controllers
-#### Listing 16-5. Targeting an action decorated with the Route Attribute in the ActionName.cshtml file
--->
 ### Passing extra values
+#### Listing 16-6. Supplying for segment variables in the ActionName.cshtml file
+-->
 
 ### Specifying HTML attributes
 
