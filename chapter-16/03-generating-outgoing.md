@@ -131,11 +131,16 @@ Note that the provided value is part of the query string to match the URL patter
     <b>Listing 16-7.</b> Editing the routes in the RouteConfig.cs file
 </p>  
 
+#### UNDERSTANDING SEGMENT VARIABLE REUSE
+
+In previous sections was explained the process that the routes are matched for outbound URL. This is a behavior that confuses many programmers and can lead to a lengthy debugging session.
+
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
 ### Passing extra values
-#### Listing 16-7. Editing the routes in the RouteConfig.cs file
+#### UNDERSTANDING SEGMENT VARIABLE REUSE
 -->
 
 ### Specifying HTML attributes
