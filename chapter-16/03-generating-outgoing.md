@@ -135,6 +135,22 @@ Note that the provided value is part of the query string to match the URL patter
 
 In previous sections was explained the process that the routes are matched for outbound URL. This is a behavior that confuses many programmers and can lead to a lengthy debugging session.
 
+Imagine the application has a single route, as follows:
+
+```js
+routes.MapRoutes("MyRoute", "{controller}/{action}/{color}/{page}");
+```
+
+Now imagine that a user is currently at the URL */Catalog/List/Purple/123*, and render a link as follows:
+
+```js
+#Html.ActionLink("Click me", "List", "Catalog", new {page=789}, null)
+```
+
+There are two reasons to believe that the Routing System is not capable of handling this:
+
+1. Color value was not provided
+2. There is no default value defined
 
 <!--
 # Chapter 16: Advanced routing features
