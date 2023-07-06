@@ -123,11 +123,19 @@ As can be seen, a value for a segment variable named **id** was supplied. If the
 ```js
 <a href="/App/DoCustomVariable?id=Hello">This is an outgoing URL</a>
 ```
+
+Note that the provided value is part of the query string to match the URL pattern. This is because there is no segment variable that corresponds to id in that route. In Listing 16-7, the routes have been edited to leave only one route that has a segment id.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-7.png" /><br />
+    <b>Listing 16-7.</b> Editing the routes in the RouteConfig.cs file
+</p>  
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
 ### Passing extra values
-#### Listing 16-6. Supplying for segment variables in the ActionName.cshtml file
+#### Listing 16-7. Editing the routes in the RouteConfig.cs file
 -->
 
 ### Specifying HTML attributes
