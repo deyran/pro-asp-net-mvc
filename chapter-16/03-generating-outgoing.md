@@ -147,10 +147,16 @@ Now imagine that a user is currently at the URL */Catalog/List/Purple/123*, and 
 #Html.ActionLink("Click me", "List", "Catalog", new {page=789}, null)
 ```
 
-There are two reasons to believe that the Routing System is not capable of handling this:
+There are two reasons to think that the Routing System is not capable of handling this:
 
 1. Color value was not provided
 2. There is no default value defined
+
+But it's wrong! The routing system will match the defined route. It will generate the following HTML
+
+```js
+<a href="Catalog/List/Purple/789">Click me</a>
+```
 
 <!--
 # Chapter 16: Advanced routing features
