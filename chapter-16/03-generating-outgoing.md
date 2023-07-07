@@ -144,7 +144,7 @@ routes.MapRoutes("MyRoute", "{controller}/{action}/{color}/{page}");
 Now imagine that a user is currently at the URL */Catalog/List/Purple/123*, and a link is made as follows:
 
 ```js
-#Html.ActionLink("Click me", "List", "Catalog", new {page=789}, null)
+@Html.ActionLink("Click me", "List", "Catalog", new {page=789}, null)
 ```
 
 There are two reasons to think that the Routing System is not capable of handling this:
@@ -163,7 +163,7 @@ The routing system will match a route and reuse segment variable values from the
 Suppose it's created a link like this:
 
 ```js
-#Html.ActionLink("Click me", "List", "Catalog", new {color = "Aqua"}, null)
+@Html.ActionLink("Click me", "List", "Catalog", new {color = "Aqua"}, null)
 ```
 
 As can be seen, the **page** value is not provided. But **color** appears before **page** in the URL Pattern, and so the routing system won't reuse the values from the incoming URL, and the route will not match.
