@@ -141,7 +141,7 @@ Imagine the application has a single route, as follows:
 routes.MapRoutes("MyRoute", "{controller}/{action}/{color}/{page}");
 ```
 
-Now imagine that a user is currently at the URL */Catalog/List/Purple/123*, and render a link as follows:
+Now imagine that a user is currently at the URL */Catalog/List/Purple/123*, and a link is made as follows:
 
 ```js
 #Html.ActionLink("Click me", "List", "Catalog", new {page=789}, null)
@@ -158,8 +158,9 @@ But it's wrong! The routing system will match the defined route. It will generat
 <a href="Catalog/List/Purple/789">Click me</a>
 ```
 
-* The routing system is keen to make a match against a route, to the extent that it will reuse segment variable values from the incoming URL. In this case, I end up with the value Purple for the color variable, because of the URL from which my imaginary user started.
+The routing system will match a route and reuse segment variable values from the incoming URL. In this case, the value **Purple** will be used, due to the URL of the imaginary user started. 
 
+-----------------------
 * This is not behavior of last resort. The routing system will apply this technique as part of its regular assessment of routes, even if there is a subsequent route that would match without requiring values from the current request to be reused. The routing system will reuse values only for segment variables that occur earlier in the URL pattern rather then any patameters that are supplied to the Html.ActionLink method. Suppose I tried to create a link like this:
 
 <!--
