@@ -158,10 +158,15 @@ But it's wrong! The routing system will match the defined route. It will generat
 <a href="Catalog/List/Purple/789">Click me</a>
 ```
 
-The routing system will match a route and reuse segment variable values from the incoming URL. In this case, the value **Purple** will be used, due to the URL of the imaginary user started. 
+The routing system will match a route and reuse segment variable values from the incoming URL. In this case, the value **Purple** will be used, due to the URL of the imaginary user started.
 
------------------------
-* This is not behavior of last resort. The routing system will apply this technique as part of its regular assessment of routes, even if there is a subsequent route that would match without requiring values from the current request to be reused. The routing system will reuse values only for segment variables that occur earlier in the URL pattern rather then any patameters that are supplied to the Html.ActionLink method. Suppose I tried to create a link like this:
+Suppose it's created a link like this:
+
+```js
+#Html.ActionLink("Click me", "List", "Catalog", new {color = "Aqua"}, null)
+```
+
+As can be seen, the **page** value is not provided. But **color** appears before **page** in the URL Pattern, and so the routing system won't reuse the values from the incoming URL, and the route will not match.
 
 <!--
 # Chapter 16: Advanced routing features
