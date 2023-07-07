@@ -168,6 +168,8 @@ Suppose it's created a link like this:
 
 As can be seen, the **page** value is not provided. But **color** appears before **page** in the URL Pattern, and so the routing system won't reuse the values from the incoming URL, and the route will not match.
 
+The best way to deal with this behavior is to prevent it from happens. It is recommended to provide values for all segment variables in a URL pattern, doing this avoids hard to read code and difficult to maintain the application.
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
