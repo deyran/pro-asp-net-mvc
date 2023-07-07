@@ -152,11 +152,15 @@ There are two reasons to think that the Routing System is not capable of handlin
 1. Color value was not provided
 2. There is no default value defined
 
-But it's wrong! The routing system will match the defined route. It will generate the following HTML
+But it's wrong! The routing system will match the defined route. It will generate the following HTML:
 
 ```js
 <a href="Catalog/List/Purple/789">Click me</a>
 ```
+
+* The routing system is keen to make a match against a route, to the extent that it will reuse segment variable values from the incoming URL. In this case, I end up with the value Purple for the color variable, because of the URL from which my imaginary user started.
+
+* This is not behavior of last resort. The routing system will apply this technique as part of its regular assessment of routes, even if there is a subsequent route that would match without requiring values from the current request to be reused. The routing system will reuse values only for segment variables that occur earlier in the URL pattern rather then any patameters that are supplied to the Html.ActionLink method. Suppose I tried to create a link like this:
 
 <!--
 # Chapter 16: Advanced routing features
