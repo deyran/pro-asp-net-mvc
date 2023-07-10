@@ -172,19 +172,25 @@ The best way to deal with this behavior is to prevent it from happens. It is rec
 
 ### Specifying HTML attributes
 
-As can be seen, the ActionLink method generates URLs, not just that, but a complete HTML anchor(a) element. Lising 16-8 shows it is possible to set attributes for this element.
+* As can be seen, the ActionLink method generates URLs, not just that, but a complete HTML anchor(a) element. Lising 16-8 shows it is possible to set attributes for this element.
 
 <p align="center">
     <img src="ch16-Pictures/Listing 16-8.png" /><br />
     <b>Listing 16-8.</b> Generation an anchor element with attributes in the ActionName.cshtml file
 </p>  
 
-* Note that the *class* property starts with "@", because in C# langague feature class is a reserved keyword used for class members names
+> Note that the *class* property starts with "@", because in C# langague feature class is a reserved keyword used for class members names
+
+* When the ActionLink is rendered the following HTML can be seen:
+
+```js
+<a class="myCSSClass" href="/App/DoIndex" id="myAnchorID">This is an outgoing URL</a>
+```
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
 ### Specifying HTML attributes
-#### Listing 16-8. Generation an anchor element with attributes in the ActionName.cshtml file
 -->
 
 ### Generating fully qualified URLs in links
