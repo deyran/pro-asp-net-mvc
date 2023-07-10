@@ -179,6 +179,7 @@ As can be seen, the ActionLink method generates URLs, not just that, but a compl
     <b>Listing 16-8.</b> Generation an anchor element with attributes in the ActionName.cshtml file
 </p>  
 
+* Note that the *class* property starts with "@", because in C# langague feature class is a reserved keyword used for class members names
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
