@@ -189,7 +189,7 @@ The best way to deal with this behavior is to prevent it from happens. It is rec
 
 ### Generating fully qualified URLs in links
 
-All of the generated links was for relative URLs, but ActionLink method can generated fully qualified URLs, as show in Listing 16-9.
+All of the generated links were to relative URLs, but ActionLink method can generated fully qualified URLs, as show in Listing 16-9.
 
 <p align="center">
     <img src="ch16-Pictures/Listing 16-9.png" /><br />
