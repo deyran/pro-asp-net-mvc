@@ -12,7 +12,10 @@
         #### Listing 16-5. Targeting an action decorated with the Route Attribute in the ActionName.cshtml file  
 
         ### Passing extra values
-        #### Listing 16-6. Supplying for segment variables in the ActionName.cshtml file  */
+        #### Listing 16-6. Supplying for segment variables in the ActionName.cshtml file  
+
+        ### Specifying HTML attributes
+        #### Listing 16-8. Generation an anchor element with attributes in the ActionName.cshtml file  */
 }
 
 <!DOCTYPE html>
@@ -28,8 +31,15 @@
     <div>The action is: @ViewBag.Action</div>
 
     <div>
-        @Html.ActionLink("This is an outgoing URL", "CustomVariable", new { id = "Hello" })
+        @Html.ActionLink(
+            "This is an outgoing URL",
+            "Index", "Home", null,
+            new
+                {
+                id = "myAnchorID",
+                @class = "myCSSClass"
+            }
+        )
     </div>
 </body>
 </html>
-

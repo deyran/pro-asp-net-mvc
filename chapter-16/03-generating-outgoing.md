@@ -170,14 +170,21 @@ As can be seen, the **page** value is not provided. But **color** appears before
 
 The best way to deal with this behavior is to prevent it from happens. It is recommended to provide values for all segment variables in a URL pattern, doing this avoids hard to read code and difficult to maintain the application.
 
+### Specifying HTML attributes
+
+As can be seen, the ActionLink method generates URLs, not just that, but a complete HTML anchor(a) element. Lising 16-8 shows it is possible to set attributes for this element.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-8.png" /><br />
+    <b>Listing 16-8.</b> Generation an anchor element with attributes in the ActionName.cshtml file
+</p>  
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
-### Passing extra values
-#### UNDERSTANDING SEGMENT VARIABLE REUSE
--->
-
 ### Specifying HTML attributes
+#### Listing 16-8. Generation an anchor element with attributes in the ActionName.cshtml file
+-->
 
 ### Generating fully qualified URLs in links
 
