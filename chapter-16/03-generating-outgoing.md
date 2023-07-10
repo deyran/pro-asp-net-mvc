@@ -187,13 +187,21 @@ The best way to deal with this behavior is to prevent it from happens. It is rec
 <a class="myCSSClass" href="/App/DoIndex" id="myAnchorID">This is an outgoing URL</a>
 ```
 
+### Generating fully qualified URLs in links
+
+All of the generated links was for relative URLs, but ActionLink method can generated fully qualified URLs, as show in Listing 16-9.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-9.png" /><br />
+    <b>Listing 16-9.</b> Generating a fully qualified url in the ActionName.cshtml file
+</p>
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
-### Specifying HTML attributes
--->
-
 ### Generating fully qualified URLs in links
+#### Listing 16-9. Generating a fully qualified url in the ActionName.cshtml file
+-->
 
 ### Generating URLs (and not links)
 

@@ -15,7 +15,11 @@
         #### Listing 16-6. Supplying for segment variables in the ActionName.cshtml file  
 
         ### Specifying HTML attributes
-        #### Listing 16-8. Generation an anchor element with attributes in the ActionName.cshtml file  */
+        #### Listing 16-8. Generation an anchor element with attributes in the ActionName.cshtml file  
+
+        ### Generating fully qualified URLs in links
+        #### Listing 16-9. Generating a fully qualified url in the ActionName.cshtml file
+    */
 }
 
 <!DOCTYPE html>
@@ -31,14 +35,11 @@
     <div>The action is: @ViewBag.Action</div>
 
     <div>
-        @Html.ActionLink(
-            "This is an outgoing URL",
-            "Index", "Home", null,
-            new
-            {
-                id = "myAnchorID",
-                @class = "myCSSClass"
-            }
+        @Html.ActionLink(    
+            "This is outgoing URL", "Index", "Home",
+            "https", "myserver.mydomain.com", " myFragmentName",
+            new { id = "MyId" },
+            new { id = "myAnchorID", @class = "myCSSClass" }
         )
     </div>
 </body>
