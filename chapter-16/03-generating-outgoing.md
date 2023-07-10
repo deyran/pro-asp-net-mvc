@@ -189,12 +189,19 @@ The best way to deal with this behavior is to prevent it from happens. It is rec
 
 ### Generating fully qualified URLs in links
 
-All of the generated links were to relative URLs, but ActionLink method can generated fully qualified URLs, as show in Listing 16-9.
+* All of the generated links were to relative URLs, but ActionLink method can generated fully qualified URLs, as show in Listing 16-9.
 
 <p align="center">
     <img src="ch16-Pictures/Listing 16-9.png" /><br />
     <b>Listing 16-9.</b> Generating a fully qualified url in the ActionName.cshtml file
 </p>
+
+* When rendered in a view, the ActionLink helper generates the following HTML:
+
+```js
+<a class="myCSSClass" 
+href="https://myserver.mydomain.com:44385/App/DoIndex?id=MyId#myFragmentName" id="myAnchorID">This is outgoing URL</a>
+```
 
 <!--
 # Chapter 16: Advanced routing features

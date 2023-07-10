@@ -14,11 +14,6 @@
 
 [Beatles](https://www.thebeatles.com)
 
-```js
-if()
-{}
-```
-
 AAAAAAAAA|BBBBBBBB
 ---------|--------
 AAAAAkkkkkkkkkAAAA|BBBBBBBB
@@ -56,3 +51,8 @@ separados por uma linha em branco
     <img src="ch16-Pictures/Listing 16-9.png" /><br />
     <b>Listing 16-9.</b> 
 </p>
+
+```js
+if()
+{}
+```
