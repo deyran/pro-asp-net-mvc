@@ -203,14 +203,21 @@ The best way to deal with this behavior is to prevent it from happens. It is rec
 href="https://myserver.mydomain.com:44385/App/DoIndex?id=MyId#myFragmentName" id="myAnchorID">This is outgoing URL</a>
 ```
 
+### Generating URLs (and not links)
+
+The Html.ActionLink helper method generates HTML <span><</span>a> elements, but there will be times when you want just a URL without HTML element. Listing 16-10 shows how the Url.Action method works:
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-10.png" /><br />
+    <b>Listing 16-10.</b> Generating a URL without the surrounding HTML in the ActionName.cshtml file
+</p>
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
-### Generating fully qualified URLs in links
-#### Listing 16-9. Generating a fully qualified url in the ActionName.cshtml file
--->
-
 ### Generating URLs (and not links)
+#### Listing 16-10. Generating a URL without the surrounding HTML in the ActionName.cshtml file
+-->
 
 ### Generating Outgoing URLs in action methods
 
