@@ -237,11 +237,12 @@ A more common requirement is to redirect the client browser to another URL, whic
     <b>Listing 16-12.</b> Redirecting to another action in the HomeController.cs file
 </p>
 
+When the **RedirectToAction** is executed, it returns a **RedirectToRouteReult**, it allows specifing route parameters such as: actions, controllers and route values.
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
 ### Generating Outgoing URLs in action methods
-#### Listing 16-12. Redirecting to another action in the HomeController.cs file
 -->
 
 ### Generating a URL from a specific route
