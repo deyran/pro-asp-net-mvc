@@ -228,13 +228,20 @@ Most of the time it is necessary generate outgoing URLs in views, but on the oth
     <b>Listing 16-11.</b> Generating an Outgoing URL in the HomeControlle.cs file
 </p>
 
-For the routing in the example app, the myActionUrl variable would be set to **/Home/Index/MyID** and the myRouteUrl variable would be set to **/**, which is consistent with the results that calling these helpers in a view would produce.
+For the routing in the example app, the *myActionUrl* variable would be set to **/Home/Index/MyID** and the *myRouteUrl* variable would be set to **/**, which is consistent with the results that calling these helpers in a view would produce.
+
+A more common requirement is to redirect the client browser to another URL, which can be achieved by returning the result of calling the **RedirectToAction** method, as shown in Listing 16-12.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-12.png" /><br />
+    <b>Listing 16-12.</b> Redirecting to another action in the HomeController.cs file
+</p>
 
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
 ### Generating Outgoing URLs in action methods
-#### Listing 16-11. Generating an Outgoing URL in the HomeControlle.cs file
+#### Listing 16-12. Redirecting to another action in the HomeController.cs file
 -->
 
 ### Generating a URL from a specific route
