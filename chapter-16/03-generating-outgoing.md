@@ -219,14 +219,23 @@ href="https://myserver.mydomain.com:44385/App/DoIndex?id=MyId#myFragmentName" id
     <b>Figure 16-3.</b> Rendering a URL (as opposed to a link) in a view
 </p>  
 
+### Generating Outgoing URLs in action methods
+
+Most of the time it is necessary generate outgoing URLs in views, but on the other hand, sometimes, it is necessary to do somthing similar inside an action method. In Listing 16-11 shows a new action method added to the Home controller.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-11.png" /><br />
+    <b>Listing 16-11.</b> Generating an Outgoing URL in the HomeControlle.cs file
+</p>
+
+For the routing in the example app, the myActionUrl variable would be set to **/Home/Index/MyID** and the myRouteUrl variable would be set to **/**, which is consistent with the results that calling these helpers in a view would produce.
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
-### Generating URLs (and not links)
-#### Figure 16-3. Rendering a URL (as opposed to a link) in a view
--->
-
 ### Generating Outgoing URLs in action methods
+#### Listing 16-11. Generating an Outgoing URL in the HomeControlle.cs file
+-->
 
 ### Generating a URL from a specific route
 

@@ -3,21 +3,12 @@
 namespace UrlsAndRoutes.Controllers
 {
     /*
-    # Chapter 15: URL Routing
-
-    ## Preparing the example project
-    ### Creating the example controllers
-    #### Listing 15-1. The contents of the HomeControllers.cs file
-
-    ## Defining custom segment variables 389
-    ### Listing 15-16. Accessing a custom variable in an action method in the HomeController.cs file
-
-    ### Using custom variables as action method parameters
-    #### Listing 15-18. Adding an action method parameter in the HomeController.cs file
-
-    ### Defining optional URL segments
-    #### Listing 15-20. Checking for an Optional Segment Variable in the HomeController.cs file
+    # Chapter 16: Advanced routing features
+    ## Generating outgoing URLs in Views
+    ### Generating Outgoing URLs in action methods
+    #### Listing 16-11. Generating an Outgoing URL in the HomeControlle.cs file
     */
+
     public class HomeController : Controller
     {
         public ActionResult Index()
@@ -32,6 +23,16 @@ namespace UrlsAndRoutes.Controllers
             ViewBag.Controller = "Home";
             ViewBag.Action = "CustomVariable";
             ViewBag.CustomVariable = id ?? "<no value>";
+
+            return View();
+        }
+
+        public ViewResult MyActionMethod()
+        {
+            string myActionUrl = Url.Action("Index", new { id = "MyID" });
+            string myRouteUrl = Url.RouteUrl(new { controller = "Home", action = "Index" });
+
+            // .. do something with URLs
 
             return View();
         }
