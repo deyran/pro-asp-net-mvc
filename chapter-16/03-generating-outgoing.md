@@ -246,14 +246,23 @@ To send a redirect using a URL generated from object properties, RedirectToRoute
     <b>Listing 16-13.</b> Redirecting to a URL in the HomeController.cs file
 </p>
 
+### Generating a URL from a specific route
+
+In the previous examples, the Routing System itself selects the route that generates a URL or a link. In this section it will be shown how to control this process and select specific routes. In Listing 16-14, the routing information in the RouteConfig.cs file is changed to demonstrate this feature.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-14.png" /><br />
+    <b>Listing 16-14.</b> Changing the route configuration in the RouteConfig.cs file
+</p>
+
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
-### Generating Outgoing URLs in action methods
-#### Listing 16-13. Redirecting to a URL in the HomeController.cs file
+### Generating a URL from a specific route
+#### Listing 16-14. Changing the route configuration in the RouteConfig.cs file
 -->
 
-### Generating a URL from a specific route
 
 <!--
 > SUMMARRY AND UPDATE ==========================
