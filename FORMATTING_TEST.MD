@@ -48,8 +48,8 @@ separados por uma linha em branco
 </p>  
 
 <p align="center">
-    <img src="ch16-Pictures/Listing 16-12.png" /><br />
-    <b>Listing 16-12.</b> 
+    <img src="ch16-Pictures/Listing 16-13.png" /><br />
+    <b>Listing 16-13.</b> 
 </p>
 
 ```js

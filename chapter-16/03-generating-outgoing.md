@@ -239,10 +239,18 @@ A more common requirement is to redirect the client browser to another URL, whic
 
 When the **RedirectToAction** is executed, it returns a **RedirectToRouteReult**, it allows specifing route parameters such as: actions, controllers and route values.
 
+To send a redirect using a URL generated from object properties, RedirectToRoute method can be used. This method also returns RedirectToRouteResult and has the same effect as the RedirectToAction method. In Listing 16-13 the RedirectToRoute method is shown how to use it.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-13.png" /><br />
+    <b>Listing 16-13.</b> Redirecting to a URL in the HomeController.cs file
+</p>
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
 ### Generating Outgoing URLs in action methods
+#### Listing 16-13. Redirecting to a URL in the HomeController.cs file
 -->
 
 ### Generating a URL from a specific route
