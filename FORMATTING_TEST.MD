@@ -57,14 +57,9 @@ if()
 {}
 ```
 
-With the standard routing configuration, the HTML element creates a link that will target the CustomVariable action method on the Home controller. Creating URLs like this are quick and simple
-
-* static link
-	* Advantages
-	* Problems
-* dynamic link
-	* Alternative
-
 # Chapter 16: Advanced routing features
-## Preparing the example project
-### Adding the optimization package
+## Generating outgoing URLs in Views
+
+
+
+Using routing system is the best alternative to ensure that URL schema is used to produce URL dynamic, and outgoing URLs in views. 
