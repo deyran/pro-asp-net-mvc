@@ -7,7 +7,7 @@
 ### Adding the optimization package
 ### Updating the Unit Test project
 
-## Generating outgoing URLs in Views
+## [Generating outgoing URLs in Views](03-generating-outgoing.md)
 ### Using the routing system to generate an outgoing URL
 ### Targeting other controllers
 ### Passing extra values
