@@ -8,7 +8,7 @@ In almost every MVC Framework application, the user navigates from one view to a
 <a href="/Home/CustomVariable"> This is an outgoing URL</a>
 ```
 
-With the standard routing configuration, the HTML element creates a link that will target the CustomVariable action method on the Home controller. Creating URLs like this are quick and simple, but very dangerous when changing the URL schema. When this happens, it is necessary to trawl through all views in the application and update each one, which is laborious, error-prone, and difficult to test.
+With the standard routing configuration, the HTML element creates a link that will target the CustomVariable action method on the Home controller. Creating URLs like this are quick and simple, but very dangerous when changing the URL schema. When this happens, it is necessary to trawl through all views in the application and update each one, which is laborious, error-prone, and difficult to test. Using routing system is the best alternative to ensure that URL schema is used to produce URL dynamic, and outgoing URLs in views. 
 
 ### Using the routing system to generate an outgoing URL
 
