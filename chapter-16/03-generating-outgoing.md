@@ -2,7 +2,7 @@
 
 ## Generating outgoing URLs in Views
 
-In MVC applications, the user navigates from one view to another. A static link is used for the first view that targets the action method that generates the second view, as can seen in the code below.
+In almost every MVC Framework application, the user navigates from one view to another. The user uses a link in the first view that targets the action method to the second view. The code below shows a static link that targets the action method:
 
 ```
 <a href="/Home/CustomVariable"> This is an outgoing URL</a>

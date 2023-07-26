@@ -56,3 +56,16 @@ separados por uma linha em branco
 if()
 {}
 ```
+
+In almost every MVC Framework application, the user navigates from one view to another. The user uses a link in the first view that targets the action method to the second view. The code below shows a static link that targets the action method:
+
+
+* static link
+	* Advantages
+	* Problems
+* dynamic link
+	* Alternative
+
+# Chapter 16: Advanced routing features
+## Preparing the example project
+### Adding the optimization package
