@@ -2,7 +2,7 @@
 
 ## Preparing the example project
 
-The UrlsAndRoutes project (from the previous chapter) will be used, but it's necessary to delete the AdditionalControllers folder and HomeController.cs file. To perform the deletion, right-click on the AdditionalControllers folder and select Delete from the pop-up menu.
+The UrlsAndRoutes project (chapter 15) will be used, but it's necessary to delete the AdditionalControllers folder and HomeController.cs file. To perform the deletion, right-click on the AdditionalControllers folder and select Delete from the pop-up menu.
 
 ### Simplifying the routes
 
