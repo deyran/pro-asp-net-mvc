@@ -15,13 +15,13 @@ Open the *App_Start/RouteConfig.cs* file, edit it to match the content shown in 
 
 ### Adding the optimization package
 
-The *areas feature* will be seen later in this chapter, for now it's necessary to install a new package, *areas feature* has a dependency on it. Enter the following commands in to the NeGet console:
+The **areas feature** will be seen later in this chapter, for now it's necessary to install a new package, *areas feature* has a dependency on it. Enter the following commands in to the NeGet console:
 
 ```
 Install-Package Microsoft.AspNet.Web.Optimization -version 1.1.0
 ```
 
-This packge contains functionality for optimizing the JavaScript and CSS files (will be seen in chapter 26)
+This packge contains functionality for optimizing the JavaScript and CSS files (chapter 26)
 
 ### Updating the Unit Test project
 
