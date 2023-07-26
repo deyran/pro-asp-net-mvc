@@ -2,7 +2,7 @@
 
 ## Introduction
 
-In the previous chapter, it was shown how to use the routing system to handle *incoming URLs*. In this chapter, will be shown how to use, customize and change the standard MVC routing to generate *outgoing URLs* that target the correct controller and action, and furthermore use these techniques to manage complex applications. This chapter will conclude with some best-practice recommendations on URL schemas in the MVC Framework application.
+In the previous chapter, it was shown how to use the routing system to handle *incoming URLs*. In this chapter, will be shown how to change the standard MVC routing to generate *outgoing URLs* that target the correct controller and action, and furthermore use these techniques to manage complex applications. This chapter will conclude with some best-practice recommendations on URL schemas in the MVC Framework application.
 
 <!--
 > SUMMARRY AND UPDATE ==========================
