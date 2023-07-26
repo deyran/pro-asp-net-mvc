@@ -57,8 +57,7 @@ if()
 {}
 ```
 
-In almost every MVC Framework application, the user navigates from one view to another. The user uses a link in the first view that targets the action method to the second view. The code below shows a static link that targets the action method:
-
+With the standard routing configuration, the HTML element creates a link that will target the CustomVariable action method on the Home controller. Creating URLs like this are quick and simple
 
 * static link
 	* Advantages
