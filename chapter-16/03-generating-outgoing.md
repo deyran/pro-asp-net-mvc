@@ -253,7 +253,13 @@ In the previous examples, the routing system was shown selecting routes to creat
     <b>Listing 16-14.</b> Changing the route configuration in the RouteConfig.cs file
 </p>
 
-There are two routes named **MyRoute** and **MyOtherRoute**. Routes are named to remindes their purpose and to select a specific route to create URLs or Links
+There are two routes named **MyRoute** and **MyOtherRoute**. Routes are named to remindes their purpose and to select a specific route to create URLs or Links.
+
+Less specific routes appear first in the list, using the ActionLink method like **@Html.ActionLink("Click me", "Index", "Customer")** will create a link like this:
+
+```js
+<a href="/Customer/Index">Click me</a>
+```
 
 <!--
 # Chapter 16: Advanced routing features

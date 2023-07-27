@@ -59,7 +59,3 @@ if()
 
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
-
-
-
-Using routing system is the best alternative to ensure that URL schema is used to produce URL dynamic, and outgoing URLs in views. 
