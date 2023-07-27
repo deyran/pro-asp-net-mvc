@@ -261,6 +261,12 @@ Less specific routes appear first in the list, using the ActionLink method like 
 <a href="/Customer/Index">Click me</a>
 ```
 
+Using the Html.RouteLink method as **@Html.RouteLink("Click me", "MyOtherRoute", "Index", "Customer")** allows you to override this default behavior and specify which route should be used, like this:
+
+```js
+<a href="/App/Index?Length=5" Length="8">Click me</a>
+```
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
