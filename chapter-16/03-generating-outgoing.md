@@ -253,14 +253,7 @@ In the previous examples, the routing system was shown selecting routes to creat
     <b>Listing 16-14.</b> Changing the route configuration in the RouteConfig.cs file
 </p>
 
-There are two routes named **MyRoute** and **MyOtherRoute**. There are two reasons for naming routes:
-
-1. Route objective reminder
-2. To select a specific route to generate an outgoing URL
-
-
-I have arranged the routes so that the least specific appears first in the list. This means that if I were to generate a
-link using the ActionLink method like this:
+There are two routes named **MyRoute** and **MyOtherRoute**. Routes are named to remindes their purpose and to select a specific route to create URLs or Links
 
 <!--
 # Chapter 16: Advanced routing features
