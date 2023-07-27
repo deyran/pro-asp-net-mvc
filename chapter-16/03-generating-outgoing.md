@@ -246,13 +246,12 @@ To send a redirect using a URL generated from object properties, RedirectToRoute
 
 ### Generating a URL from a specific route 428
 
-In the previous examples, the Routing System itself selects the route that generates a URL or a link. In this section it will be shown how to control this process and select specific routes. In Listing 16-14, the routing information in the RouteConfig.cs file is changed to demonstrate this feature.
+In the previous examples, the routing system was shown selecting routes to create a URL or link. In this section, it will be shown how to control this process and select specific routes. To demonstrate this feature, open the RouteConfig.cs file and edit it to match Listing 16-14:
 
 <p align="center">
     <img src="ch16-Pictures/Listing 16-14.png" /><br />
     <b>Listing 16-14.</b> Changing the route configuration in the RouteConfig.cs file
 </p>
-
 
 There are two routes named **MyRoute** and **MyOtherRoute**. There are two reasons for naming routes:
 
@@ -266,7 +265,7 @@ link using the ActionLink method like this:
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
-### Generating a URL from a specific route
+### Generating a URL from a specific route 428
 -->
 
 
