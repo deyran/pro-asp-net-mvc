@@ -267,12 +267,19 @@ Using the Html.RouteLink method as **@Html.RouteLink("Click me", "MyOtherRoute",
 <a href="/App/Index?Length=5" Length="8">Click me</a>
 ```
 
+The Route attribute can also be used to define routes. In Listing 16-15, it shows how to use this feature.
+
+<p align="center">
+    <img src="ch16-Pictures/Listing 16-15.png" /><br />
+    <b>Listing 16-15.</b> Naming a Route in the CustomerController.cs file
+</p>
+
 <!--
 # Chapter 16: Advanced routing features
 ## Generating outgoing URLs in Views
-### Generating a URL from a specific route 428
+### Generating a URL from a specific route
+#### Listing 16-15. Naming a Route in the CustomerController.cs file
 -->
-
 
 <!--
 > SUMMARRY AND UPDATE ==========================
