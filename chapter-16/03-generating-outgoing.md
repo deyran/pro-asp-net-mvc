@@ -52,7 +52,7 @@ As can be seen, changing the routing scheme changes automatically the outgoing o
     <b>Figure 16-2.</b> The effect of clicking on a link is to make an outgoing URL into an incoming request
 </p>
 
-#### UNDERSTANDING OUTBOUND ULS ROUTE MATCHING
+#### UNDERSTANDING OUTBOUND URLS ROUTE MATCHING
 
 * Routes defines URL scheme, changing routes will change URL Scheme.
 * Routing System processes routes in the order that they were added to the *RouteCollection* object (RegisterRoutes method)
