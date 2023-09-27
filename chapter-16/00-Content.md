@@ -17,7 +17,7 @@
 ### Generating Outgoing URLs in action methods
 ### Generating a URL from a specific route
 
-## Customizing the route system
+## [Customizing the route system](04-customizing-the-route-system.md)
 ### Creating a custom routeBase implemetation
 ### Creating a custom route handler
 
