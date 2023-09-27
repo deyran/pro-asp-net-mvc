@@ -6,7 +6,11 @@ So far, it has been shown how flexible and configurable the routing system is. B
 
 ### Creating a custom RouteBase implemetation
 
-To change the default route object, i.e. how URLs are matched, parameters are extracted and output URLs are generated, the RouteBase class can be used. To derive a class from RouteBase, you need to implement two methods:
+--
+To take control how URLs are matched, parameters are extracted and output URLs are generated, changing the default behavior of the route object , the RouteBase class can be used.
+
+change the default route object, i.e. how URLs are matched, parameters are extracted and output URLs are generated, the **RouteBase** class can be used. To use the **RouteBase** class you need to implement two methods:
+--
 
 1. GetRouteData(HttpContextBase httpContext)
 2. GetVirtualPath(RequestContext requestContext, RouteValueDictinary values)
